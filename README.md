@@ -88,6 +88,11 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Audio
 ## Authentication and OAuth
 ## Build Tools
+
+* [Apache Ant](http://ant.apache.org/)
+* [Apache Maven](http://maven.apache.org/)
+* [Gradle](http://www.gradle.org/)
+
 ## CMS
 ## CUI
 ## Caching
@@ -100,6 +105,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Database
 ## Database Drivers
 ## Date and Time
+
+* [Joda-Time](http://joda-time.sourceforge.net/)
+
 ## Debugging Tools
 ## DevOps Tools
 ## Distribution
@@ -114,6 +122,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Functional Programming
 ## GUI
 ## Game Development
+
+* [LWJGL](http://lwjgl.org/)
+* [libGDX](http://libgdx.badlogicgames.com/)
+
 ## Geolocation
 ## HTML Manipulation
 ## HTTP
@@ -123,10 +135,23 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Internationalization
 ## Logging
 ## Machine Learning
+
+* [Apache Mahout](https://mahout.apache.org/)
+* [Apache Spark](http://spark.apache.org/)
+* [Mallet](http://mallet.cs.umass.edu/)
+* [Weka](http://www.cs.waikato.ac.nz/ml/weka/)
+
 ## MapReduce
+
+* [Apache Hadoop](http://hadoop.apache.org/)
+
 ## Messaging
 ## Miscellaneous
 ## Natural Language Processing
+
+* [Apache OpenNLP](https://opennlp.apache.org/)
+* [LingPipe](http://alias-i.com/lingpipe/)
+
 ## Networking
 ## News Feed
 ## ORM
@@ -140,6 +165,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Tagging
 ## Template Engine
 ## Testing
+
+* [Mockito](http://code.google.com/p/mockito/)
+
 ## Text Processing
 ## Third-party APIs
 ## URL Manipulation
@@ -149,6 +177,16 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Web Content Extracting
 ## Web Crawling
 ## Web Frameworks
+
+* JSF
+* [Spring](http://spring.io/)
+* [Grails](https://grails.org/)
+* [Vaadin](https://vaadin.com/)
+* [GWT](http://www.gwtproject.org/)
+* [Apache Wicket](http://wicket.apache.org/)
+* [Play](http://www.playframework.com/)
+* [Apache Struts](http://struts.apache.org/)
+
 ## WebSocket
 ## Workflow Execution
 # Resources
