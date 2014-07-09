@@ -191,8 +191,22 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Workflow Execution
 # Resources
 ## Twitter
+
+* [Adam Bien](https://twitter.com/AdamBien/)
+* [Antonio Goncalves](https://twitter.com/agoncal/)
+* [Arun Gupta](https://twitter.com/arungupta/)
+* [Java](https://twitter.com/java/)
+* [Java EE](https://twitter.com/Java_EE/)
+* [Java.net](https://twitter.com/javanetbuzz/)
+* [Joshua Bloch](https://twitter.com/joshbloch/)
+* [Pete Muir](https://twitter.com/plmuir/)
+
 ## Websites
+
+* [Java.net](http://java.net/)
+
 ## Weekly
+
 # Contributing
 
 Contributions are very welcome. Just mind the general style.
