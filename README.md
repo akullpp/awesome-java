@@ -42,6 +42,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [HTTP](#http)
     - [Hardware](#hardware)
     - [High Performance](#high-performance)
+    - [IDEs](#ides)
     - [Imagery](#imagery)
     - [Internationalization](#internationalization)
     - [Logging](#logging)
@@ -131,9 +132,21 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## HTTP
 ## Hardware
 ## High Performance
+
+## IDEs
+
+* [NetBeans](https://netbeans.org/)
+* [Eclipse](http://www.eclipse.org/)
+* [IntelliJ](http://www.jetbrains.com/idea/)
+
 ## Imagery
 ## Internationalization
 ## Logging
+
+* [SLF4J](http://www.slf4j.org/)
+* [Log4j](http://logging.apache.org/log4j/)
+* [Logback](http://logback.qos.ch/)
+
 ## Machine Learning
 
 * [Apache Mahout](https://mahout.apache.org/)
@@ -157,6 +170,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## ORM
 ## Package Management
 ## Permissions
+
+* [Apache Shiro](http://shiro.apache.org/)
+
 ## Processes and Threads
 ## Queue
 ## RESTful API
@@ -164,6 +180,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Search
 ## Tagging
 ## Template Engine
+
+* [Apache Tapestry](http://tapestry.apache.org/)
+* [Apache Velocity](http://velocity.apache.org/)
+* JSP
+* [Thymeleaf](http://www.thymeleaf.org/)
+
 ## Testing
 
 * [Mockito](http://code.google.com/p/mockito/)
@@ -175,10 +197,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Video
 ## WSGI Servers
 ## Web Content Extracting
+
 ## Web Crawling
+
+* [Apache Nutch](http://nutch.apache.org/)
+* [Crawler4j](https://code.google.com/p/crawler4j/)
+
 ## Web Frameworks
 
-* JSF
 * [Spring](http://spring.io/)
 * [Grails](https://grails.org/)
 * [Vaadin](https://vaadin.com/)
@@ -186,6 +212,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache Wicket](http://wicket.apache.org/)
 * [Play](http://www.playframework.com/)
 * [Apache Struts](http://struts.apache.org/)
+* [PrimeFaces](http://primefaces.org/)
 
 ## WebSocket
 ## Workflow Execution
