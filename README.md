@@ -50,12 +50,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Tools that provide metrics and quality measurements about static code*
 
 * [SonarQube](http://www.sonarqube.org/)
+* [FindBugs] (http://findbugs.sourceforge.net/)
 
 ## Continuous Integration
 
 *Tools which support continuously building, testing and releasing applications*
 
 * [Jenkins](http://jenkins-ci.org/)
+* [Hudson] (http://hudson-ci.org/)
 
 ## Date and Time
 
