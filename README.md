@@ -7,6 +7,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
     - [Continuous Integration](#continuous-integration)
+    - [Database Access](#database-access)
     - [Date and Time](#date-and-time)
     - [Dependency Injection](#dependency-injection)
     - [Game Development](#game-development)
@@ -17,6 +18,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
+    - [ORM](#orm)
     - [Permissions](#permissions)
     - [Template Engine](#template-engine)
     - [Testing](#testing)
@@ -35,7 +37,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle with a limited lifetime
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat 
-* [Jetty] (http://www.eclipse.org/jetty/) - Part of the Eclipse Foundation
+* [Jetty](http://www.eclipse.org/jetty/) - Part of the Eclipse Foundation
 
 
 ## Build Tool
@@ -51,14 +53,22 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Tools that provide metrics and quality measurements about static code*
 
 * [SonarQube](http://www.sonarqube.org/)
-* [FindBugs] (http://findbugs.sourceforge.net/)
+* [FindBugs](http://findbugs.sourceforge.net/)
 
 ## Continuous Integration
 
 *Tools which support continuously building, testing and releasing applications*
 
 * [Jenkins](http://jenkins-ci.org/)
-* [Hudson] (http://hudson-ci.org/)
+* [Hudson](http://hudson-ci.org/)
+
+## Database Access
+
+*Everything which simplifies the access to the database*
+
+* [DBeaver](http://dbeaver.jkiss.org/) - Graphical database manager
+* [JDBI](http://jdbi.org/) - Simplification of JDBC
+* [jOOQ](http://www.jooq.org/) - Generates typesafe code based on your SQL schema
 
 ## Date and Time
 
@@ -130,6 +140,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache OpenNLP](https://opennlp.apache.org/)
 * [LingPipe](http://alias-i.com/lingpipe/)
+
+## ORM
+
+*APIs which handle the persistence of objects*
+
+* [EclipseLink](https://www.eclipse.org/eclipselink/)
+* [Hibernate](http://hibernate.org/orm/)
 
 ## Permissions
 
