@@ -72,8 +72,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which support continuously building, testing and releasing applications*
 
-* [Jenkins](http://jenkins-ci.org/) Provides server-based CI services, often seen as the successor to Hudson  
-
+* [Jenkins](http://jenkins-ci.org/) - Provides server-based CI services, often seen as the successor to Hudson
 
 ## Database Access
 
@@ -96,7 +95,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Google Guice](http://de.wikipedia.org/wiki/Google_Guice)
 * [Spring](http://spring.io/)
-* [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) CDI reference implementation
+* [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) - CDI reference implementation
 
 ## Distributed Applications
 *Libraries and frameworks used to ease writing distributed and fault-tolerant applications*
