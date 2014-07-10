@@ -3,15 +3,14 @@
 A curated list of awesome Java frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python). Topics which have no libraries as of yet are located in README.tmp!
 
 - [Awesome Java](#awesome-java)
-    - [Application Server](#application-server)
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
     - [Continuous Integration](#continuous-integration)
     - [Database Access](#database-access)
     - [Date and Time](#date-and-time)
-    - [Development Tools](#development-tools)
     - [Dependency Injection](#dependency-injection)
+    - [Development Tools](#development-tools)
     - [Distributed Applications](#distributed-applications)
     - [GUI](#gui)
     - [Game Development](#game-development)
@@ -26,6 +25,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Natural Language Processing](#natural-language-processing)
     - [ORM](#orm)
     - [Permissions](#permissions)
+    - [Server](#server)
     - [Template Engine](#template-engine)
     - [Testing](#testing)
     - [Utility](#utility)
@@ -35,17 +35,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 - [Resources](#resources)
     - [Twitter](#twitter)
     - [Websites](#websites)
+    - [Communities](#communities)
     - [Influental Books](#influental-books)
 - [Contributing](#contributing)
-
-## Application Server
-
-*Servers which are specifically used to deploy applications*
-
-* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle
-* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support
-* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server often embedded in projects. Part of the Eclipse Foundation
-* [Apache Tomcat](http://tomcat.apache.org/) - Robust allround server for Servlet and JSP
 
 ## Build Tool
 
@@ -103,16 +95,16 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Spring](http://spring.io/)
 * [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) - CDI reference implementation
 
+## Development Tools
+
+* [DCEVM](http://ssw.jku.at/dcevm/) - A modification of the JVM that allows unlimited redefinition of loaded classes at runtime
+* [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys
+
 ## Distributed Applications
 *Libraries and frameworks used to ease writing distributed and fault-tolerant applications*
 
 * [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other
-
-## Development Tools
-
-* [DCEVM](http://ssw.jku.at/dcevm/) - A modification of the JVM that allows unlimited redefinition of loaded classes at runtime
-* [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys
 
 ## GUI
 
@@ -207,6 +199,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Shiro](http://shiro.apache.org/)
 
+## Server
+
+*Servers which are specifically used to deploy applications*
+
+* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle
+* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support
+* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server often embedded in projects. Part of the Eclipse Foundation
+* [Apache Tomcat](http://tomcat.apache.org/) - Robust allround server for Servlet and JSP
+
 ## Template Engine
 
 *Tools which substitute expressions in a template*
@@ -269,8 +270,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Frameworks specifically for creating RESTful services*
 
-* [Dropwizard](https://dropwizard.github.io/dropwizard/)
-* [Jersey](https://jersey.java.net/)
+* [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications, includes Jetty, Jackson, Jersey and Metrics
+* [Jersey](https://jersey.java.net/) - JAX-RS reference implementation
+
+# Resources
 
 ## Twitter
 
@@ -291,10 +294,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Java.net](http://java.net/)
 
+## Communities
+
+* [r/java](http://www.reddit.com/r/java) - Subreddit for the Reddit Java community
+
 ## Influental Books
 
+*Books about Java that had a high impact and are still worth reading*
+
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
-* [Head First Design Patterns](http://www.headfirstlabs.com/books/hfdp/) - Simplified approach to GoF's Design Patterns
 * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
