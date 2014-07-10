@@ -147,6 +147,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Everything else*
 
+* [Jimfs](https://github.com/google/jimfs) - An in-memory file system
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java
 
 ## Natural Language Processing
@@ -186,9 +187,16 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements
 * [Mockito](http://code.google.com/p/mockito/)
 * [Arquillian](http://arquillian.org/)
-* [Selenium](http://docs.seleniumhq.org/)
+* [Selenium](http://docs.seleniumhq.org/) - Frontend testing
 * [VisualVM](http://visualvm.java.net/)
 * [Eclipse Memory Analyzer Tool](http://www.eclipse.org/mat/)
+* [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Framework for writing declarative assertion matchers
+* [FEST](https://code.google.com/p/fest/) - Collection of testing libraries
+* [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions
+* [Calipher](https://code.google.com/p/caliper/) - Microbenchmarking framework
+* [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking
+* [TestNG](http://testng.org/) Testing framework
+* [JUnit](http://junit.org/) Testing framework
 
 ## Utility
 
