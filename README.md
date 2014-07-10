@@ -13,6 +13,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [GUI](#gui)
     - [Game Development](#game-development)
     - [IDE](#ide)
+    - [JSON](#json)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [MapReduce](#mapreduce)
@@ -104,6 +105,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [NetBeans](https://netbeans.org/)
 * [Eclipse](http://www.eclipse.org/)
 * [IntelliJ](http://www.jetbrains.com/idea/)
+
+## JSON
+
+*Libraries that simplify JSON processing*
+
+* [Google Gson](https://code.google.com/p/google-gson/)
+* [Jackson](http://wiki.fasterxml.com/JacksonHome)
 
 ## Logging
 
