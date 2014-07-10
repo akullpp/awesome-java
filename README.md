@@ -9,6 +9,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Continuous Integration](#continuous-integration)
     - [Database Access](#database-access)
     - [Date and Time](#date-and-time)
+    - [Development Tools](#development-tools)
     - [Dependency Injection](#dependency-injection)
     - [GUI](#gui)
     - [Game Development](#game-development)
@@ -73,6 +74,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [DBeaver](http://dbeaver.jkiss.org/) - Graphical database manager
 * [JDBI](http://jdbi.org/) - Simplification of JDBC
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema
+* [Spring JDBCTemplate](http://www.spring.io/) - Simplification of JDBC
 
 ## Date and Time
 
@@ -85,9 +87,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries that help to realize the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigma*
 
+* [Dagger](http://square.github.io/dagger/)
 * [Google Guice](http://de.wikipedia.org/wiki/Google_Guice)
 * [Spring](http://spring.io/)
-* [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) CDI reference implementation
+* [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) - CDI reference implementation
+
+## Development Tools
+
+* [DCEVM](http://ssw.jku.at/dcevm/) - A modification of the JVM that allows unlimited redefinition of loaded classes at runtime
+* [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys
 
 ## GUI
 
@@ -189,6 +197,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * JSP
 * [Apache Tapestry](http://tapestry.apache.org/)
 * [Apache Velocity](http://velocity.apache.org/)
+* [Freemarker](http://freemarker.org/)
 * [Thymeleaf](http://www.thymeleaf.org/)
 * [Jtwig](http://jtwig.org/)
 
@@ -216,6 +225,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Commons](http://commons.apache.org/)
 * [Google Guava](http://code.google.com/p/guava-libraries/)
+* [JavaTuples](http://www.javatuples.org/) - Tuples for Java
 
 ## Web Crawling
 
@@ -228,7 +238,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Frameworks that handle the communication between the layers of an web application*
 
-* [Spring](http://spring.io/)
+* [Spring](http://projects.spring.io/spring-framework/)
 * [Grails](https://grails.org/)
 * [Vaadin](https://vaadin.com/)
 * [GWT](http://www.gwtproject.org/)
@@ -266,6 +276,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Influental Books
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
+* [Head First Design Patterns](http://www.headfirstlabs.com/books/hfdp/)
+* [Java Concurrence in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+* [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
 # Contributing
 
