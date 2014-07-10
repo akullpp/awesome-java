@@ -23,6 +23,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Utility](#utility)
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
+    - [REST Frameworks](#rest-frameworks)
 - [Resources](#resources)
     - [Twitter](#twitter)
     - [Websites](#websites)
@@ -178,6 +179,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Play](http://www.playframework.com/)
 * [Apache Struts](http://struts.apache.org/)
 * [PrimeFaces](http://primefaces.org/)
+
+## REST Frameworks
+
+*Frameworks specifically for creating RESTful services*
+
+* [Dropwizard](https://dropwizard.github.io/dropwizard/)
+* [Jersey](https://jersey.java.net/)
 
 ## Twitter
 
