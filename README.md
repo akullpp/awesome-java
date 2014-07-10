@@ -196,7 +196,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Shiro](http://shiro.apache.org/)
 
-## Application Server
+## Server
 
 *Servers which are specifically used to deploy applications*
 
