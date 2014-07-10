@@ -181,6 +181,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that handle role/rights with associated permissions*
 
 * [Apache Shiro](http://shiro.apache.org/)
+* [Keycloak](http://keycloak.jboss.org/)
+* [PicketLink](http://picketlink.org/)
 
 ## Template Engine
 
