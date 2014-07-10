@@ -14,8 +14,6 @@ Possible topics, taken from awesome-python
 ## Cryptography
 ## Data Validation
 ## Data Visualization
-## Database
-## Database Drivers
 ## Debugging Tools
 ## DevOps Tools
 ## Distribution
@@ -28,22 +26,17 @@ Possible topics, taken from awesome-python
 ## Foreign Function Interface
 ## Forms
 ## Functional Programming
-## GUI
 ## Geolocation
 ## HTML Manipulation
 ## HTTP
 ## Hardware
-## High Performance
 ## Imagery
 ## Internationalization
 ## Networking
 ## News Feed
-## ORM
 ## Package Management
 ## Processes and Threads
 ## Queue
-## RESTful API
-## Science and Data Analysis
 ## Search
 ## Tagging
 ## Text Processing
@@ -54,5 +47,5 @@ Possible topics, taken from awesome-python
 ## Web Content Extracting
 ## WebSocket
 ## Workflow Execution
-# Resources
+## Resources
 ## Weekly
