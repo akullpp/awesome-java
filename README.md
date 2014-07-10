@@ -65,6 +65,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which support continuously building, testing and releasing applications*
 
+* [Hudson](http://jenkins-ci.org/)
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based CI services, often seen as the successor to Hudson
 
 ## Database Access
