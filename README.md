@@ -1,6 +1,6 @@
 # Awesome Java
 
-A curated list of awesome Java frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
+A curated list of awesome Java frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python). Topics which have no libraries as of yet are located in README.tmp!
 
 - [Awesome Java](#awesome-java)
     - [Application Server](#application-server)
