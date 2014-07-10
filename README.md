@@ -37,34 +37,34 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Application Server
 
-*Servers which are specifically used to deploy applications and provide extensive functionality for messaging and other Java specific features*
+*Servers which are specifically used to deploy applications*
 
-* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle with a limited lifetime
-* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat 
-* [Jetty](http://www.eclipse.org/jetty/) - Part of the Eclipse Foundation
-
+* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle
+* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support
+* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server often embedded in projects. Part of the Eclipse Foundation
+* [Apache Tomcat](http://tomcat.apache.org/) - Robust allround server for Servlet and JSP
 
 ## Build Tool
 
 *Tools which handle the build lifecycle of an application*
 
-* [Apache Ant](http://ant.apache.org/) - Procedural build configuration via XML files
+* [Apache Ant](http://ant.apache.org/) - Procedural build configurations via XML files
 * [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors convention over configuration
-* [Gradle](http://www.gradle.org/) - Incremental build configuration which is programmed via Groovy 
+* [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy 
 
 ## Code Analysis
 
 *Tools that provide metrics and quality measurements about static code*
 
-* [SonarQube](http://www.sonarqube.org/)
-* [FindBugs](http://findbugs.sourceforge.net/)
+* [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality
+* [FindBugs](http://findbugs.sourceforge.net/) - Static analysis to find potential bugs
 
 ## Continuous Integration
 
 *Tools which support continuously building, testing and releasing applications*
 
-* [Jenkins](http://jenkins-ci.org/)
-* [Hudson](http://hudson-ci.org/)
+* [Jenkins](http://jenkins-ci.org/) Provides server-based CI services, often seen as the successor of Hudson  
+
 
 ## Database Access
 
