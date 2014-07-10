@@ -205,7 +205,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries for scientific computing and analysis*
 
-* [Colt](http://acs.lbl.gov/ACSSoftware/colt/ - High performance scientific and technical computing
+* [Colt](http://acs.lbl.gov/ACSSoftware/colt/) - High performance scientific and technical computing
 * [JTransforms](https://sites.google.com/site/piotrwendykier/software/jtransforms) - Multithread FFT library
 * [Mines JTK](http://inside.mines.edu/~dhale/jtk/) - Tools for digital signal processing, linear algebra, inversion, 2-D and 3-D graphics, and more
 * [Parallel Colt](https://sites.google.com/site/piotrwendykier/software/parallelcolt) - Multithread high performance scientific and technical computing
