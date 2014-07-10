@@ -1,5 +1,4 @@
 # Awesome Java
-============
 
 A curated list of awesome Java frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
