@@ -13,7 +13,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [GUI](#gui)
     - [Game Development](#game-development)
     - [IDE](#ide)
-    - [JSON](#json)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [MapReduce](#mapreduce)
@@ -22,6 +21,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Natural Language Processing](#natural-language-processing)
     - [ORM](#orm)
     - [Permissions](#permissions)
+    - [Science and Data Analysis](#science-and-data-analysis)
     - [Template Engine](#template-engine)
     - [Testing](#testing)
     - [Utility](#utility)
@@ -106,13 +106,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Eclipse](http://www.eclipse.org/)
 * [IntelliJ](http://www.jetbrains.com/idea/)
 
-## JSON
-
-*Libraries that simplify JSON processing*
-
-* [Google Gson](https://code.google.com/p/google-gson/)
-* [Jackson](http://wiki.fasterxml.com/JacksonHome)
-
 ## Logging
 
 *Libraries that log the behavior of an application*
@@ -147,7 +140,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Everything else*
 
-* [Jimfs](https://github.com/google/jimfs) - An in-memory file system
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java
 
 ## Natural Language Processing
@@ -170,6 +162,16 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Shiro](http://shiro.apache.org/)
 
+## Science and Data Analysis
+
+*Libraries for scientific computing and analysis*
+
+* [Colt](http://acs.lbl.gov/ACSoftware/colt/) - High performance scientific and technical computing
+* [JTransforms](https://sites.google.com/site/piotrwendykier/software/jtransforms) - Multi-thread FFT library
+* [JUnit](http://junit.org) - Framework for repeatable tests
+* [Mines JTK](https://github.com/dhale/jtk) - Tools for scientists and engineers (digital signal processing, linear algebra, inversion, 2-D and 3-D graphics, etc.)
+* [Parallel Colt](https://sites.google.com/site/piotrwendykier/software/parallelcolt) - Multi-thread high performance scientific and technical computing
+
 ## Template Engine
 
 *Tools which substitute expressions in a template*
@@ -178,7 +180,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache Tapestry](http://tapestry.apache.org/)
 * [Apache Velocity](http://velocity.apache.org/)
 * [Thymeleaf](http://www.thymeleaf.org/)
-* [Jtwig](http://jtwig.org/)
 
 ## Testing
 
@@ -187,16 +188,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements
 * [Mockito](http://code.google.com/p/mockito/)
 * [Arquillian](http://arquillian.org/)
-* [Selenium](http://docs.seleniumhq.org/) - Frontend testing
+* [Selenium](http://docs.seleniumhq.org/)
 * [VisualVM](http://visualvm.java.net/)
 * [Eclipse Memory Analyzer Tool](http://www.eclipse.org/mat/)
-* [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Framework for writing declarative assertion matchers
-* [FEST](https://code.google.com/p/fest/) - Collection of testing libraries
-* [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions
-* [Calipher](https://code.google.com/p/caliper/) - Microbenchmarking framework
-* [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking
-* [TestNG](http://testng.org/) - Testing framework
-* [JUnit](http://junit.org/) - Testing framework
 
 ## Utility
 
