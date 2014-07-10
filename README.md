@@ -3,7 +3,6 @@
 A curated list of awesome Java frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python). Topics which have no libraries as of yet are located in README.tmp!
 
 - [Awesome Java](#awesome-java)
-    - [Application Server](#application-server)
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
@@ -26,6 +25,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Natural Language Processing](#natural-language-processing)
     - [ORM](#orm)
     - [Permissions](#permissions)
+    - [Server](#server)
     - [Template Engine](#template-engine)
     - [Testing](#testing)
     - [Utility](#utility)
@@ -38,15 +38,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Communities](#communities)
     - [Influental Books](#influental-books)
 - [Contributing](#contributing)
-
-## Application Server
-
-*Servers which are specifically used to deploy applications*
-
-* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle
-* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support
-* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server often embedded in projects. Part of the Eclipse Foundation
-* [Apache Tomcat](http://tomcat.apache.org/) - Robust allround server for Servlet and JSP
 
 ## Build Tool
 
@@ -204,6 +195,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that handle role/rights with associated permissions*
 
 * [Apache Shiro](http://shiro.apache.org/)
+
+## Application Server
+
+*Servers which are specifically used to deploy applications*
+
+* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle
+* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support
+* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server often embedded in projects. Part of the Eclipse Foundation
+* [Apache Tomcat](http://tomcat.apache.org/) - Robust allround server for Servlet and JSP
 
 ## Template Engine
 
