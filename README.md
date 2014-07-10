@@ -215,6 +215,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that handle role/rights with associated permissions*
 
 * [Apache Shiro](http://shiro.apache.org/)
+* [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services
+* [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java Applications
 
 ## Science and Data Analysis
 
@@ -299,6 +301,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications, includes Jetty, Jackson, Jersey and Metrics
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation
+* [RestEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification
 
 # Resources
 
