@@ -4,7 +4,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 - [Awesome Java](#awesome-java)
     - [Application Server](#application-server)
-    - [Build Tools](#build-tools)
+    - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
     - [Continuous Integration](#continuous-integration)
     - [Date and Time](#date-and-time)
@@ -30,21 +30,29 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Application Server
 
-* [GlassFish](https://glassfish.java.net/)
-* [WildFly](http://www.wildfly.org/)
-* [Oracle WebLogic](http://www.oracle.com/us/products/middleware/cloud-app-foundation/weblogic/overview/index.html)
+*Servers which are specifically used to deploy applications and provide extensive functionality for messaging and other Java specific features*
 
-## Build Tools
+* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle with a limited lifetime
+* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat 
 
-* [Apache Ant](http://ant.apache.org/)
-* [Apache Maven](http://maven.apache.org/)
-* [Gradle](http://www.gradle.org/)
+
+## Build Tool
+
+*Tools which handle the build lifecycle of an application*
+
+* [Apache Ant](http://ant.apache.org/) - Procedural build configuration via XML files
+* [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors convention over configuration
+* [Gradle](http://www.gradle.org/) - Incremental build configuration which is programmed via Groovy 
 
 ## Code Analysis
+
+*Tools that provide metrics and quality measurements about static code*
 
 * [SonarQube](http://www.sonarqube.org/)
 
 ## Continuous Integration
+
+*Tools which support continuously building, testing and releasing applications*
 
 * [Jenkins](http://jenkins-ci.org/)
 
@@ -57,14 +65,20 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Dependency Injection
 
+*Libraries that help to reliaze the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigma*
+
 * [Google Guice](http://de.wikipedia.org/wiki/Google_Guice)
 
 ## Game Development
+
+*Frameworks that support the development of games*
 
 * [LWJGL](http://lwjgl.org/)
 * [libGDX](http://libgdx.badlogicgames.com/)
 
 ## IDE
+
+*Integrated development environments that try to simplify several aspects of development*
 
 * [NetBeans](https://netbeans.org/)
 * [Eclipse](http://www.eclipse.org/)
@@ -72,11 +86,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Logging
 
+*Libraries that log the behavior of an application*
+
 * [SLF4J](http://www.slf4j.org/) - An abstraction layer which is to be used with an implementation
 * [Log4j](http://logging.apache.org/log4j/)
 * [Logback](http://logback.qos.ch/)
 
 ## Machine Learning
+
+*Tools that allow to learn from data via a set of specific algorithms*
 
 * [Apache Mahout](https://mahout.apache.org/)
 * [Apache Spark](http://spark.apache.org/)
@@ -85,33 +103,47 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## MapReduce
 
+*Libraries that provide access to the MapReduce model*
+
 * [Apache Hadoop](http://hadoop.apache.org/)
 
 ## Messaging
+
+*Tools that help sending messages between clients to ensure protocol independency*
 
 * [Apache ActiveMQ](http://activemq.apache.org/)
 
 ## Miscellaneous
 
+*Everything else*
+
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java
 
 ## Natural Language Processing
+
+*Libraries that are specialized on processing text*
 
 * [Apache OpenNLP](https://opennlp.apache.org/)
 * [LingPipe](http://alias-i.com/lingpipe/)
 
 ## Permissions
 
+*Libraries that handle role/rights with associated permissions*
+
 * [Apache Shiro](http://shiro.apache.org/)
 
 ## Template Engine
 
+*Tools which substitute expressions in a template*
+
+* JSP
 * [Apache Tapestry](http://tapestry.apache.org/)
 * [Apache Velocity](http://velocity.apache.org/)
-* JSP
 * [Thymeleaf](http://www.thymeleaf.org/)
 
 ## Testing
+
+*Tools that test from object to interface level*
 
 * [Apache JMeter](http://jmeter.apache.org/) * Functional testing and performance measurements *
 * [Mockito](http://code.google.com/p/mockito/)
@@ -122,15 +154,21 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Utility
 
+*Libraries which provide unspecific functionality, e.g. optimized datastructures*
+
 * [Apache Commons](http://commons.apache.org/)
 * [Google Guava](http://code.google.com/p/guava-libraries/)
 
 ## Web Crawling
 
+*Libraries that analyze the content of websites*
+
 * [Apache Nutch](http://nutch.apache.org/)
 * [Crawler4j](https://code.google.com/p/crawler4j/)
 
 ## Web Frameworks
+
+*Frameworks that handle the communication between the layers of an web application*
 
 * [Spring](http://spring.io/)
 * [Grails](https://grails.org/)
@@ -143,6 +181,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Twitter
 
+*People to follow*
+
 * [Adam Bien](https://twitter.com/AdamBien/)
 * [Antonio Goncalves](https://twitter.com/agoncal/)
 * [Arun Gupta](https://twitter.com/arungupta/)
@@ -153,6 +193,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Pete Muir](https://twitter.com/plmuir/)
 
 ## Websites
+
+*Important websites*
 
 * [Java.net](http://java.net/)
 
