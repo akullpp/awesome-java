@@ -10,11 +10,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Asset Management](#asset-management)
     - [Audio](#audio)
     - [Authentication and OAuth](#authentication-and-oauth)
+    - [Application Server](#application-server)
     - [Build Tools](#build-tools)
     - [CMS](#cms)
     - [CUI](#cui)
     - [Caching](#caching)
     - [Code Analysis and Linter](#code-analysis-and-linter)
+    - [Continuous Integration](#continuous-integration)
     - [Command-line Tools](#command-line-tools)
     - [Configuration](#configuration)
     - [Cryptography](#cryptography)
@@ -88,6 +90,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Asset Management
 ## Audio
 ## Authentication and OAuth
+
+## Application Server
+
+* [GlassFish](https://glassfish.java.net/)
+* [WildFly](http://www.wildfly.org/)
+* [Oracle WebLogic](http://www.oracle.com/us/products/middleware/cloud-app-foundation/weblogic/overview/index.html)
+
 ## Build Tools
 
 * [Apache Ant](http://ant.apache.org/)
@@ -98,7 +107,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## CUI
 ## Caching
 ## Code Analysis and Linter
+
+* [SonarQube](http://www.sonarqube.org/)
+
 ## Command-line Tools
+
+## Continuous Integration
+
+* [Jenkins](http://jenkins-ci.org/)
+
 ## Configuration
 ## Cryptography
 ## Data Validation
@@ -107,9 +124,17 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Database Drivers
 ## Date and Time
 
+*Libraries related to date and time.*
+
+* [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
 * [Joda-Time](http://joda-time.sourceforge.net/)
 
 ## Debugging Tools
+
+## Dependency Injection
+
+* [Google Guice](http://de.wikipedia.org/wiki/Google_Guice)
+
 ## DevOps Tools
 ## Distribution
 ## Documentation
@@ -143,7 +168,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Internationalization
 ## Logging
 
-* [SLF4J](http://www.slf4j.org/)
+* [SLF4J](http://www.slf4j.org/) - An abstraction layer which is to be used with an implementation
 * [Log4j](http://logging.apache.org/log4j/)
 * [Logback](http://logback.qos.ch/)
 
@@ -160,6 +185,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Messaging
 ## Miscellaneous
+
+* [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java
+
 ## Natural Language Processing
 
 * [Apache OpenNLP](https://opennlp.apache.org/)
@@ -188,12 +216,22 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Testing
 
+* [Apache JMeter](http://jmeter.apache.org/) * Functional testing and performance measurements *
 * [Mockito](http://code.google.com/p/mockito/)
+* [Arquillian](http://arquillian.org/)
+* [Selenium](http://docs.seleniumhq.org/)
+* [VisualVM](http://visualvm.java.net/)
+* [Eclipse Memory Analyzer Tool](http://www.eclipse.org/mat/)
 
 ## Text Processing
 ## Third-party APIs
 ## URL Manipulation
+
 ## Utility
+
+* [Apache Commons](http://commons.apache.org/)
+* [Google Guava](http://code.google.com/p/guava-libraries/)
+
 ## Video
 ## WSGI Servers
 ## Web Content Extracting
