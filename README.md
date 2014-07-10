@@ -57,6 +57,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis to find potential bugs
+* [Metrics](http://metrics.codahale.com/)
 
 ## Compiler-compiler
 
@@ -93,9 +94,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries that help to realize the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigm*
 
-* [Dagger](http://square.github.io/dagger/)
+* [Dagger](http://square.github.io/dagger/) - A compile-time injection framework without reflection, mainly for Android
 * [Google Guice](http://de.wikipedia.org/wiki/Google_Guice)
-* [Spring](http://spring.io/)
+* [Spring](http://spring.io/) - The Spring Context module provides DI
 * [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) - CDI reference implementation
 
 ## Development Tools
@@ -129,6 +130,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Trove](http://trove.starlight-systems.com/) - High performance collections
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - High performance collections
 * [Disruptor](http://lmax-exchange.github.io/disruptor/) - High Performance Inter-Thread Messaging Library
+* [Javalution](http://javolution.org/) - Library for real-time and embedded systems
 
 ## IDE
 
@@ -182,6 +184,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache ActiveMQ](http://activemq.apache.org/)
 * [JBoss HornetQ](http://hornetq.jboss.org/)
+* [Spring AMQP](http://projects.spring.io/spring-amqp/)
+* [Spring Integration](http://projects.spring.io/spring-integration/) - Enterprise Service Bus
 
 ## Miscellaneous
 
@@ -285,6 +289,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Play](http://www.playframework.com/)
 * [Apache Struts](http://struts.apache.org/)
 * [PrimeFaces](http://primefaces.org/)
+* [Spark](http://www.sparkjava.com/why.html)
 
 ## REST Frameworks
 
