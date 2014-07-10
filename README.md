@@ -113,6 +113,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Tools that help sending messages between clients to ensure protocol independency*
 
 * [Apache ActiveMQ](http://activemq.apache.org/)
+* [JBoss HornetQ](http://hornetq.jboss.org/)
 
 ## Miscellaneous
 
