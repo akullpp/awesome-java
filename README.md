@@ -6,6 +6,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Application Server](#application-server)
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
+    - [Compiler-compiler](#compiler-compiler)
     - [Continuous Integration](#continuous-integration)
     - [Database Access](#database-access)
     - [Date and Time](#date-and-time)
@@ -58,6 +59,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis to find potential bugs
+
+## Compiler-compiler
+
+*Tools that create parsers, interpreters or compilers*
+
+* [ANTLR](http://www.antlr.org/)
+* [JavaCC](https://javacc.java.net/)
 
 ## Continuous Integration
 
