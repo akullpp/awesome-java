@@ -46,15 +46,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Build Tool
 
-*Tools which handle the build lifecycle of an application*
+*Tools which handle the buildcycle of an application*
 
 * [Apache Ant](http://ant.apache.org/) - Procedural build configurations via XML files
-* [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors convention over configuration
+* [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors conventions
 * [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy 
 
 ## Code Analysis
 
-*Tools that provide metrics and quality measurements about static code*
+*Tools that provide metrics and quality measurements of static code*
 
 * [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis to find potential bugs
@@ -63,7 +63,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which support continuously building, testing and releasing applications*
 
-* [Jenkins](http://jenkins-ci.org/) Provides server-based CI services, often seen as the successor of Hudson  
+* [Jenkins](http://jenkins-ci.org/) Provides server-based CI services, often seen as the successor to Hudson  
 
 
 ## Database Access
@@ -72,20 +72,22 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [DBeaver](http://dbeaver.jkiss.org/) - Graphical database manager
 * [JDBI](http://jdbi.org/) - Simplification of JDBC
-* [jOOQ](http://www.jooq.org/) - Generates typesafe code based on your SQL schema
+* [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema
 
 ## Date and Time
 
 *Libraries related to date and time.*
 
-* [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html)
-* [Joda-Time](http://joda-time.sourceforge.net/)
+* [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html) - Basically it incorporates Joda-Time
+* [Joda-Time](http://joda-time.sourceforge.net/) - De facto standard date/time-library before Java 8
 
 ## Dependency Injection
 
-*Libraries that help to reliaze the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigma*
+*Libraries that help to realize the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigma*
 
 * [Google Guice](http://de.wikipedia.org/wiki/Google_Guice)
+* [Spring](http://spring.io/)
+* [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) CDI reference implementation
 
 ## GUI
 
