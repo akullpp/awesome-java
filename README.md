@@ -10,6 +10,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Database Access](#database-access)
     - [Date and Time](#date-and-time)
     - [Dependency Injection](#dependency-injection)
+    - [Distributed Applications](#distributed-applications)
     - [GUI](#gui)
     - [Game Development](#game-development)
     - [High Performance](#high-performance)
@@ -83,11 +84,17 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Dependency Injection
 
-*Libraries that help to realize the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigma*
+*Libraries that help to realize the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigm*
 
 * [Google Guice](http://de.wikipedia.org/wiki/Google_Guice)
 * [Spring](http://spring.io/)
 * [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) CDI reference implementation
+
+## Distributed Applications
+*Libraries and frameworks used to ease writing distributed and fault-tolerant applications*
+
+* [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.
+* [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other
 
 ## GUI
 
