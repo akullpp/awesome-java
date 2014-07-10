@@ -35,6 +35,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle with a limited lifetime
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat 
+* [Jetty] (http://www.eclipse.org/jetty/) - Part of the Eclipse Foundation
 
 
 ## Build Tool
