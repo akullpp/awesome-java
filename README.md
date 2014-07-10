@@ -52,8 +52,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Tools which handle the buildcycle of an application*
 
 * [Apache Ant](http://ant.apache.org/) - Procedural build configurations via XML files
+* [Apache Buildr](http://buildr.apache.org/) - Perform builds using Ruby scripts
 * [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors conventions
 * [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy 
+* [sbt](http://www.scala-sbt.org/) - Interactive build tool using Scala
 
 ## Code Analysis
 
@@ -82,6 +84,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [DBeaver](http://dbeaver.jkiss.org/) - Graphical database manager
 * [JDBI](http://jdbi.org/) - Simplification of JDBC
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema
+* [Liquibase](http://www.liquibase.org/) - Source control for your database
 * [Spring JDBCTemplate](http://www.spring.io/) - Simplification of JDBC
 
 ## Date and Time
@@ -212,8 +215,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache Tapestry](http://tapestry.apache.org/)
 * [Apache Velocity](http://velocity.apache.org/)
 * [Freemarker](http://freemarker.org/)
-* [Thymeleaf](http://www.thymeleaf.org/)
 * [Jtwig](http://jtwig.org/)
+* [Mustache](http://mustache.github.io/)
+* [Thymeleaf](http://www.thymeleaf.org/)
 
 ## Testing
 
@@ -291,7 +295,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
 * [Head First Design Patterns](http://www.headfirstlabs.com/books/hfdp/) - Simplified approach to GoF's Design Patterns
-* [Java Concurrence in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+* [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
 # Contributing
