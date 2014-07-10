@@ -195,8 +195,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions
 * [Calipher](https://code.google.com/p/caliper/) - Microbenchmarking framework
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking
-* [TestNG](http://testng.org/) Testing framework
-* [JUnit](http://junit.org/) Testing framework
+* [TestNG](http://testng.org/) - Testing framework
+* [JUnit](http://junit.org/) - Testing framework
 
 ## Utility
 
