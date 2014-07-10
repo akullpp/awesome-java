@@ -82,6 +82,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema
 * [Liquibase](http://www.liquibase.org/) - Source control for your database
 * [Spring JDBCTemplate](http://www.spring.io/) - Simplification of JDBC
+* [MapDB](http://www.mapdb.org/) - Database engine
 
 ## Date and Time
 
@@ -109,6 +110,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other
+* [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service
 
 ## GUI
 
