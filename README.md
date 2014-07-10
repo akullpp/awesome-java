@@ -12,6 +12,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Dependency Injection](#dependency-injection)
     - [GUI](#gui)
     - [Game Development](#game-development)
+    - [High Performance](#high-performance)
     - [IDE](#ide)
     - [JSON](#json)
     - [Logging](#logging)
@@ -31,6 +32,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 - [Resources](#resources)
     - [Twitter](#twitter)
     - [Websites](#websites)
+    - [Influental Books](#influental-books)
 - [Contributing](#contributing)
 
 ## Application Server
@@ -97,6 +99,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [LWJGL](http://lwjgl.org/)
 * [libGDX](http://libgdx.badlogicgames.com/)
+
+## High Performance
+
+*Everything about high performance computation, from collections to specific libraries*
+
+* [Trove](http://trove.starlight-systems.com/) - High performance collections
+* [HPPC](http://labs.carrotsearch.com/hppc.html) - High performance collections
+* [Disruptor](http://lmax-exchange.github.io/disruptor/) - High Performance Inter-Thread Messaging Library
 
 ## IDE
 
@@ -250,6 +260,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Important websites*
 
 * [Java.net](http://java.net/)
+
+## Influental Books
+
+* [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
 
 # Contributing
 
