@@ -10,6 +10,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Database Access](#database-access)
     - [Date and Time](#date-and-time)
     - [Dependency Injection](#dependency-injection)
+    - [GUI](#gui)
     - [Game Development](#game-development)
     - [IDE](#ide)
     - [Logging](#logging)
@@ -82,6 +83,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that help to reliaze the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigma*
 
 * [Google Guice](http://de.wikipedia.org/wiki/Google_Guice)
+
+## GUI
+
+*Libraries to create modern graphical user interfaces*
+
+* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html)
 
 ## Game Development
 
