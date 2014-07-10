@@ -28,8 +28,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Websites](#websites)
 - [Contributing](#contributing)
 
-# Awesome Java
-
 ## Application Server
 
 * [GlassFish](https://glassfish.java.net/)
