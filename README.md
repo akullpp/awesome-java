@@ -16,6 +16,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Game Development](#game-development)
     - [High Performance](#high-performance)
     - [IDE](#ide)
+    - [JVM And JDK](#jvm-and-jdk)
     - [JSON](#json)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
@@ -136,6 +137,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [NetBeans](https://netbeans.org/)
 * [Eclipse](http://www.eclipse.org/)
 * [IntelliJ](http://www.jetbrains.com/idea/)
+
+## JVM And JDK
+
+*Various implementations of the JVM/JDK*
+
+* [OpenJDK](http://openjdk.java.net/) - Open source implementation
+* [HotSpot](http://openjdk.java.net/groups/hotspot/) - Official JVM
+* [IBM J9](http://www-01.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/welcome/welcome_javasdk_version.html?lang=en)
 
 ## JSON
 
