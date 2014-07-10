@@ -169,6 +169,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache Tapestry](http://tapestry.apache.org/)
 * [Apache Velocity](http://velocity.apache.org/)
 * [Thymeleaf](http://www.thymeleaf.org/)
+* [Jtwig](http://jtwig.org/)
 
 ## Testing
 
