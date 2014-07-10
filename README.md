@@ -196,8 +196,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that handle role/rights with associated permissions*
 
 * [Apache Shiro](http://shiro.apache.org/)
-* [Keycloak](http://keycloak.jboss.org/)
-* [PicketLink](http://picketlink.org/)
+* [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services
+* [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java Applications
 
 ## Server
 
