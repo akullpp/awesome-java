@@ -148,7 +148,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [OpenJDK](http://openjdk.java.net/) - Open source implementation
 * [HotSpot](http://openjdk.java.net/groups/hotspot/) - Official JVM
-* [IBM J9](http://www-01.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/welcome/welcome_javasdk_version.html?lang=en)
+* [IBM J9](https://www.ibm.com/developerworks/java/jdk/)
 
 ## JSON
 
