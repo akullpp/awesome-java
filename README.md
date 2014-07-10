@@ -145,7 +145,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools that test from object to interface level*
 
-* [Apache JMeter](http://jmeter.apache.org/) * Functional testing and performance measurements *
+* [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements
 * [Mockito](http://code.google.com/p/mockito/)
 * [Arquillian](http://arquillian.org/)
 * [Selenium](http://docs.seleniumhq.org/)
