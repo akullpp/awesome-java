@@ -248,6 +248,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support
 * [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server often embedded in projects. Part of the Eclipse Foundation
 * [Apache Tomcat](http://tomcat.apache.org/) - Robust allround server for Servlet and JSP
+* [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE
 
 ## Template Engine
 
@@ -325,11 +326,18 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Adam Bien](https://twitter.com/AdamBien/)
 * [Antonio Goncalves](https://twitter.com/agoncal/)
 * [Arun Gupta](https://twitter.com/arungupta/)
+* [Ed Burns](https://twitter.com/edburns)
 * [Java](https://twitter.com/java/)
 * [Java EE](https://twitter.com/Java_EE/)
 * [Java.net](https://twitter.com/javanetbuzz/)
+* [Java Magazine](https://twitter.com/Oraclejavamag)
 * [Joshua Bloch](https://twitter.com/joshbloch/)
+* [Mark Reinhold](https://twitter.com/mreinhold)
+* [OpenJDK](https://twitter.com/OpenJDK)
 * [Pete Muir](https://twitter.com/plmuir/)
+* [Reza Rahman](https://twitter.com/reza_rahman)
+* [Simon Maple](https://twitter.com/sjmaple)
+* [Tim Boudreau](https://twitter.com/kablosna)
 
 ## Websites
 
