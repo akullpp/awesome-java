@@ -2,12 +2,6 @@
 
 A curated list of awesome Java frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
-
-:heavy_dollar_sign: = Commercial, either completely or in a specific use case.
-
-:heavy_exclamation_mark: = The usage of this software is rather discouraged by the open-source community.
-
-
 - [Awesome Java](#awesome-java)
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
@@ -74,7 +68,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which support continuously building, testing and releasing applications*
 
-* [Hudson](http://hudson-ci.org/) (:heavy_exclamation_mark:) - Still actively maintained but not recommended in new projects.
+* [Hudson](http://hudson-ci.org/) - Still actively maintained but not recommended in new projects.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based CI services, often seen as the successor to Hudson.
 
 ## Database
@@ -213,7 +207,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF.
 * [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
 * [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
-* [iText](http://itextpdf.com/) (:heavy_dollar_sign:) - Easy to use PDF library which creates PDF files programmatically but requires a license for commercial purposes.
+* [iText](http://itextpdf.com/) - Easy to use PDF library which creates PDF files programmatically but requires a license for commercial purposes.
 
 ## Security
 
