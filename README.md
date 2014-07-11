@@ -332,7 +332,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Java EE](https://twitter.com/Java_EE/)
 * [Java.net](https://twitter.com/javanetbuzz/)
 * [Java Magazine](https://twitter.com/Oraclejavamag)
-* [Joshua Bloch](https://twitter.com/joshbloch/)
 * [Mark Reinhold](https://twitter.com/mreinhold)
 * [OpenJDK](https://twitter.com/OpenJDK)
 * [Pete Muir](https://twitter.com/plmuir/)
