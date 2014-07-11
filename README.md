@@ -156,30 +156,29 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that simplify JSON processing*
 
 * [Google Gson](https://code.google.com/p/google-gson/)
-* [Jackson](http://wiki.fasterxml.com/JacksonHome) - 		
+* [Jackson](http://wiki.fasterxml.com/JacksonHome)	
 
 ## Logging
 
 *Libraries that log the behavior of an application*
 
+* [Apache Log4j](http://logging.apache.org/log4j/)
 * [SLF4J](http://www.slf4j.org/) - An abstraction layer which is to be used with an implementation
-* [Log4j](http://logging.apache.org/log4j/)
 * [Logback](http://logback.qos.ch/)
 
 ## Machine Learning
 
 *Tools that allow to learn from data via a set of specific algorithms*
 
-* [Apache Mahout](https://mahout.apache.org/)
-* [Apache Spark](http://spark.apache.org/)
-* [Mallet](http://mallet.cs.umass.edu/)
-* [Weka](http://www.cs.waikato.ac.nz/ml/weka/)
+* [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification
+* [Apache Spark](http://spark.apache.org/) - Open-source data analytics cluster computing framework 
+* [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization
 
 ## MapReduce
 
 *Libraries that provide access to the MapReduce model*
 
-* [Apache Hadoop](http://hadoop.apache.org/)
+* [Apache Hadoop](http://hadoop.apache.org/) - Open-source software framework for storage and large-scale processing of data-sets on clusters of commodity hardware
 
 ## Messaging
 
@@ -201,8 +200,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries that are specialized on processing text*
 
-* [Apache OpenNLP](https://opennlp.apache.org/)
-* [LingPipe](http://alias-i.com/lingpipe/)
+* [Apache OpenNLP](https://opennlp.apache.org/) Toolkit for common tasks like tokenization
+* [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for a variety of tasks ranging from POS tagging to sentiment analysis
+* [Mallet](http://mallet.cs.umass.edu/) - Statistical natural language processing, document classification, clustering, topic modeling, etc.
 
 ## ORM
 
@@ -263,7 +263,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Testing
 
-*Tools that test from object to interface level*
+*Tools that test from object to interface level including performance and other benchmarks*
 
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements
 * [Mockito](http://code.google.com/p/mockito/)
@@ -339,7 +339,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Communities
 
-* [r/java](http://www.reddit.com/r/java) - Subreddit for the Reddit Java community
+* [r/java](http://www.reddit.com/r/java) - Subreddit for the Java community
 
 ## Influental Books
 
