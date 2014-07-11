@@ -40,6 +40,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Websites](#websites)
     - [Communities](#communities)
     - [Influental Books](#influental-books)
+- [Other Awesome Lists](#other-awesome-lists)
 - [Contributing](#contributing)
 
 ## Build Tool
@@ -357,6 +358,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
 * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
+
+# Other Awesome Lists
+Other amazingly awesome lists can be found in the [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) list.
 
 # Contributing
 
