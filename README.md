@@ -50,7 +50,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache Buildr](http://buildr.apache.org/) - Perform builds using Ruby scripts.
 * [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors conventions.
 * [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy.
-* [sbt](http://www.scala-sbt.org/) - Interactive build tool using Scala.
 
 ## Code Analysis
 
