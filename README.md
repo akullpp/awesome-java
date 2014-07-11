@@ -25,8 +25,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
     - [ORM](#orm)
+    - [PDF](#pdf)
     - [Permissions](#permissions)
-	- [Science and Data Analysis](#science-and-data-analysis)
+    - [Science and Data Analysis](#science-and-data-analysis)
     - [Server](#server)
     - [Template Engine](#template-engine)
     - [Testing](#testing)
@@ -82,13 +83,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema
 * [Liquibase](http://www.liquibase.org/) - Source control for your database
 * [Spring JDBCTemplate](http://www.spring.io/) - Simplification of JDBC
-* [MapDB](http://www.mapdb.org/) - Database engine
+* [MapDB](http://www.mapdb.org/) - Database engine with optimized datastructures
 
 ## Date and Time
 
 *Libraries related to date and time.*
 
-* [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html) - Basically it incorporates Joda-Time
+* [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html) - Incorporates Joda-Time
 * [Joda-Time](http://joda-time.sourceforge.net/) - De facto standard date/time-library before Java 8
 
 ## Dependency Injection
@@ -122,16 +123,16 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Frameworks that support the development of games*
 
-* [LWJGL](http://lwjgl.org/)
-* [libGDX](http://libgdx.badlogicgames.com/)
+* [LWJGL](http://lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL
+* [libGDX](http://libgdx.badlogicgames.com/) Allround cross-plattform, high-level framework
 
 ## High Performance
 
 *Everything about high performance computation, from collections to specific libraries*
 
-* [Trove](http://trove.starlight-systems.com/) - High performance collections
-* [HPPC](http://labs.carrotsearch.com/hppc.html) - High performance collections
-* [Disruptor](http://lmax-exchange.github.io/disruptor/) - High Performance Inter-Thread Messaging Library
+* [Trove](http://trove.starlight-systems.com/) - Primitive collections
+* [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections
+* [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library
 * [Javalution](http://javolution.org/) - Library for real-time and embedded systems
 
 ## IDE
@@ -140,7 +141,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [NetBeans](https://netbeans.org/)
 * [Eclipse](http://www.eclipse.org/)
-* [IntelliJ](http://www.jetbrains.com/idea/)
+* [IntelliJ IDEA](http://www.jetbrains.com/idea/)
 
 ## JVM And JDK
 
@@ -155,7 +156,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that simplify JSON processing*
 
 * [Google Gson](https://code.google.com/p/google-gson/)
-* [Jackson](http://wiki.fasterxml.com/JacksonHome)
+* [Jackson](http://wiki.fasterxml.com/JacksonHome) - 		
 
 ## Logging
 
@@ -209,6 +210,18 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [EclipseLink](https://www.eclipse.org/eclipselink/)
 * [Hibernate](http://hibernate.org/orm/)
+
+## PDF
+
+*Everything that helps with the creation of PDF files*
+
+* [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDF from XSL-FO
+* [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF
+* [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine
+* [DynamicJasper](http://dynamicjasper.com/) - Simplifies JasperReports
+* [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports
+* [iText](http://itextpdf.com/) - Easy to use PDF library but for commercial products you need a license
+* [PDF Clown](http://www.stefanochizzolini.it/en/projects/clown/features.html)
 
 ## Permissions
 
