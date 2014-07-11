@@ -47,7 +47,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Tools which handle the buildcycle of an application*
 
 * [Apache Ant](http://ant.apache.org/) - Procedural build configurations via XML files.
-* [Apache Buildr](http://buildr.apache.org/) - Perform builds using Ruby scripts.
 * [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors conventions.
 * [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy.
 
