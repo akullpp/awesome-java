@@ -147,9 +147,11 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Various implementations of the JVM/JDK*
 
-* [OpenJDK](http://openjdk.java.net/) - Open source implementation
 * [HotSpot](http://openjdk.java.net/groups/hotspot/) - Official JVM
 * [IBM J9](https://www.ibm.com/developerworks/java/jdk/)
+* [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9
+* [JRockit](http://www.oracle.com/technetwork/middleware/jrockit/overview/index.html) - Originally developed by BEA, has a different kind of GC and is often used with WebLogic
+* [OpenJDK](http://openjdk.java.net/) - Open source implementation
 
 ## JSON
 
