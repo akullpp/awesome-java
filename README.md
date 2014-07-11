@@ -98,7 +98,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 ## Development Tools
 
 * [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
-* [JRebel](http://zeroturnaround.com/software/jrebel/) (:heavy_dollar_sign:) - Instantly reloads code and configuration changes without redeploys.
+* [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
 
 ## Distributed Applications
 *Libraries and frameworks used to ease writing distributed and fault-tolerant applications*
