@@ -56,20 +56,20 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis to find potential bugs.
-* [Metrics](http://metrics.codahale.com/)
+* [Metrics](http://metrics.codahale.com/) - Measure the behavior of critical components.
 
 ## Compiler-compiler
 
 *Tools that create parsers, interpreters or compilers*
 
-* [ANTLR](http://www.antlr.org/)
-* [JavaCC](https://javacc.java.net/)
+* [ANTLR](http://www.antlr.org/) - Complex full-featured framework.
+* [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn.
 
 ## Continuous Integration
 
 *Tools which support continuously building, testing and releasing applications*
 
-* [Hudson](http://jenkins-ci.org/)
+* [Hudson](http://hudson-ci.org/) - Still actively maintained but not recommended in new projects.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based CI services, often seen as the successor to Hudson.
 
 ## Database Access
