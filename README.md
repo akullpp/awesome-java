@@ -3,8 +3,6 @@
 A curated list of awesome Java frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 
-Legend:
-
 :heavy_dollar_sign: = Commercial, either completely or in a specific use case.
 
 :heavy_exclamation_mark: = The usage of this software is rather discouraged by the open-source community.
