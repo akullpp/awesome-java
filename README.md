@@ -178,6 +178,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries that provide access to the MapReduce model*
 
+* [Apache Crunch](http://crunch.apache.org/) - Framework for simple MapReduce pipelines
 * [Apache Hadoop](http://hadoop.apache.org/) - Open-source software framework for storage and large-scale processing of data-sets on clusters of commodity hardware
 
 ## Messaging
