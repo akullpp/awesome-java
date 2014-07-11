@@ -361,4 +361,4 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 # Contributing
 
-Contributions are very welcome. Just mind the general style.
+Contributions are very welcome, please have a look at [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md for guidelines.
