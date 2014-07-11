@@ -3,7 +3,9 @@
 Unfortunately, not every library/tool/framework can be considered. The aim of the list is to provide a concise list of noteworthy software. This means that suggested software is either
 
 (a) widely used so that its existence alone is a reason to know it regardless of personal opinion
+
 (b) highly discussed in the community due to its innovative nature
+
 (b) absolutely unique in its approach and function
 
 If a certain entry does not get accepted, you should first look if there has been a discussion before. These discussions are in the issue section and normally marked with the question tag. If there hasn't been such a topic, you are free to create a new issue tagged as question.
