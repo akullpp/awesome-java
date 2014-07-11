@@ -323,11 +323,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Websites
 
-*Important websites*
+*Sites to read*
 
 * [Java.net](http://java.net/)
 
 ## Communities
+
+*Active discussions*
 
 * [r/java](http://www.reddit.com/r/java) - Subreddit for the Java community.
 
