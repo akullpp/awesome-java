@@ -58,7 +58,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis to find potential bugs
-* [Metrics](http://metrics.codahale.com/)
+* [PMD/CPD](http://pmd.sourceforge.net/) - Find unused variables, copy-pasted code, etc.
+* [Codahale/Yammer Metrics](http://metrics.codahale.com/) - Real-time metrics with a RESTful API
 
 ## Compiler-compiler
 
@@ -71,9 +72,11 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which support continuously building, testing and releasing applications*
 
-* [Hudson](http://jenkins-ci.org/)
+* [TeamCity](http://www.jetbrains.com/teamcity/) - Advanced CI server with templates, branch detection, pre-tested commits, and more
+* [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's CI server with a deployment UI
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based CI services, often seen as the successor to Hudson
-
+* [Hudson](http://jenkins-ci.org/)
+ 
 ## Database Access
 
 *Everything which simplifies the access to the database*
@@ -166,7 +169,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Log4j](http://logging.apache.org/log4j/)
 * [SLF4J](http://www.slf4j.org/) - An abstraction layer which is to be used with an implementation
-* [Logback](http://logback.qos.ch/)
+* [Logback](http://logback.qos.ch/) - The reference implementation of SLF4J
 
 ## Machine Learning
 
@@ -213,6 +216,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [EclipseLink](https://www.eclipse.org/eclipselink/)
 * [Hibernate](http://hibernate.org/orm/)
+* [JDBI](http://jdbi.org/) Extremely lightweight ORM
 
 ## PDF
 
@@ -242,6 +246,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [JTransforms](https://sites.google.com/site/piotrwendykier/software/jtransforms) - Multithread FFT library
 * [Mines JTK](http://inside.mines.edu/~dhale/jtk/) - Tools for digital signal processing, linear algebra, inversion, 2-D and 3-D graphics, and more
 * [Parallel Colt](https://sites.google.com/site/piotrwendykier/software/parallelcolt) - Multithread high performance scientific and technical computing
+* [Apache Storm](https://storm.incubator.apache.org/) - A distributed and scalable realtime computation system.
+* [Neo4j](http://www.neo4j.org/) A high performance graph database. Can be standalone, or integrated into your app.
 
 ## Server
 
@@ -319,6 +325,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications, includes Jetty, Jackson, Jersey and Metrics
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification
+* [RestAssured](https://github.com/jayway/rest-assured) Java DSL for integration/functional testing of REST services
 
 # Resources
 
