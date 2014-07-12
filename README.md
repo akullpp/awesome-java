@@ -186,7 +186,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries that are specialized on processing text*
 
-* [Apache OpenNLP](https://opennlp.apache.org/) Toolkit for common tasks like tokenization.
+* [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
 * [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for a variety of tasks ranging from POS tagging to sentiment analysis.
 * [Mallet](http://mallet.cs.umass.edu/) - Statistical natural language processing, document classification, clustering, topic modeling, etc.
 
@@ -194,8 +194,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *APIs which handle the persistence of objects*
 
-* [EclipseLink](https://www.eclipse.org/eclipselink/) Supports a number of persistence standards: JPA, JAXB, JCA and SDO
-* [Hibernate](http://hibernate.org/orm/) Robust and widely used with an active community.
+* [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO
+* [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
 
 ## PDF
 
@@ -279,7 +279,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Frameworks that handle the communication between the layers of an web application*
 
-* [Apache Struts](http://struts.apache.org/)
 * [Apache Tapestry](http://tapestry.apache.org/)
 * [Spring](http://projects.spring.io/spring-framework/)
 * [Grails](https://grails.org/)
