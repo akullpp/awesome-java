@@ -47,5 +47,4 @@
 * Web Content Extracting
 * WebSocket
 * Workflow Execution
-* Resources
 * Weekly
