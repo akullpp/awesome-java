@@ -33,6 +33,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Utility](#utility)
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
+    - [XML](#xml)
     - [REST Frameworks](#rest-frameworks)
 - [Resources](#resources)
     - [Twitter](#twitter)
@@ -290,6 +291,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Play](http://www.playframework.com/)
 * [PrimeFaces](http://primefaces.org/)
 * [Spark](http://www.sparkjava.com/why.html)
+
+## XML
+
+*Libraries that simplify XML processing*
+
+* [JAXB](https://jaxb.java.net/) - Reference Implementation of JAXB, the Java Architecture for XML Binding.
+* [XStream](http://xstream.codehaus.org/) - Simple library to serialize objects to XML and back again.
+* [Apache XMLBeans](http://xmlbeans.apache.org/)
+* [Woodstox](http://woodstox.codehaus.org/) - High-performance StAX XML processor.
 
 ## REST Frameworks
 
