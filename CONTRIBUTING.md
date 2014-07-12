@@ -1,8 +1,8 @@
 # Contribution Guidelines
 
-Unfortunately, not every library/tool/framework can be considered. The aim of the list is to provide a concise list of noteworthy software. This means that suggested software is either
+Unfortunately, not every library/tool/framework can be considered. The aim of the list is to provide a concise list of noteworthy modern software. This means that suggested software is either
 
-(a) widely used so that its existence alone is a reason to know it regardless of personal opinion
+(a) widely recommended and used regardless of your personal opinion
 
 (b) highly discussed in the community due to its innovative nature
 
@@ -17,7 +17,6 @@ Furthermore, please ensure your pull request follows the following guidlines:
 * Please make an individual pull request for each suggestion.
 * Use the following format for libraries: \[LIBRARY\]\(LINK\) - DESCRIPTION.
 * Entries should be sorted in ascending alphabetical order, i.e. a to z.
-* Prefix duplicate library names with their vendor or namespace followed by a space: Foo\Bar would be Foo Bar.
 * New categories, or improvements to the existing categorisation are welcome.
 * Keep descriptions short, simple and unbiased. 
 * End all descriptions with a full stop/period.
