@@ -10,7 +10,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Database](#database)
     - [Date and Time](#date-and-time)
     - [Dependency Injection](#dependency-injection)
-    - [Development Tools](#development-tools)
+    - [Development](#development)
     - [Distributed Applications](#distributed-applications)
     - [GUI](#gui)
     - [Game Development](#game-development)
@@ -93,7 +93,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Spring](http://spring.io/) - The Spring Context module provides DI.
 * [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) - CDI reference implementation.
 
-## Development Tools
+## Development
+
+*Tools with augment the process of development at a fundamental level*
 
 * [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
