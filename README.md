@@ -325,6 +325,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Sites to read*
 
 * [Java.net](http://java.net/)
+* [javaworld](http://www.javaworld.com/)
+* [javalobby](http://java.dzone.com/)
 
 ## Communities
 
