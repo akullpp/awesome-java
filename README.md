@@ -325,14 +325,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Sites to read*
 
 * [Java.net](http://java.net/)
-* [javaworld](http://www.javaworld.com/)
-* [javalobby](http://java.dzone.com/)
+* [JavaWorld](http://www.javaworld.com/)
+* [Javalobby](http://java.dzone.com/)
 
 ## Communities
 
 *Active discussions*
 
 * [r/java](http://www.reddit.com/r/java) - Subreddit for the Java community.
+* [stackoverflow](http://stackoverflow.com/questions/tagged/java)
 
 ## Influental Books
 
