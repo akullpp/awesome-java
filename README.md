@@ -45,8 +45,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which handle the buildcycle of an application*
 
-* [Apache Ant](http://ant.apache.org/) - Procedural build configurations via XML files.
-* [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors conventions.
+* [Apache Maven](http://maven.apache.org/) - Declarative lifecycle and dependency managment which favors convention over configuration. It's regarded as spiritual successor to [Apache Ant](http://ant.apache.org/).
 * [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy.
 
 ## Code Analysis
@@ -68,8 +67,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which support continuously building, testing and releasing applications*
 
-* [Hudson](http://hudson-ci.org/) - Still actively maintained but not recommended in new projects.
-* [Jenkins](http://jenkins-ci.org/) - Provides server-based CI services, often seen as the successor to Hudson.
+* [Jenkins](http://jenkins-ci.org/) - Provides server-based CI services, often seen as the successor to [Hudson](http://hudson-ci.org/).
 
 ## Database
 
@@ -111,7 +109,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries to create modern graphical user interfaces*
 
-* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - Considered the successor of Swing.
+* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - Considered the successor of [Swing](http://www.oracle.com/technetwork/java/architecture-142923.html).
 * [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual Layout Tool for JavaFX Applications.
 
 ## Game Development
@@ -134,9 +132,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Integrated development environments that try to simplify several aspects of development*
 
-* [NetBeans](https://netbeans.org/)
-* [Eclipse](http://www.eclipse.org/)
-* [IntelliJ IDEA](http://www.jetbrains.com/idea/)
+* [NetBeans](https://netbeans.org/) - Integrates a lot of features and provides tools ranging from Java SE to EE starting with database access and servers to HTML5 and AngularJS.
+* [Eclipse](http://www.eclipse.org/) - Does a lot of things in the background. Noteworthy are its large amount of plugins.
+* [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 
 ## JVM and JDK
 
@@ -150,15 +148,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries that simplify JSON processing*
 
-* [Google Gson](https://code.google.com/p/google-gson/)
-* [Jackson](http://wiki.fasterxml.com/JacksonHome)	
+* [Google Gson](https://code.google.com/p/google-gson/) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage. 
+* [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 
 ## Logging
 
 *Libraries that log the behavior of an application*
 
-* [Apache Log4j 2](http://logging.apache.org/log4j/)
-* [Logback](http://logback.qos.ch/)
+* [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite of the previous software. Now has a powerful plugin and configuration architecture.
+* [Logback](http://logback.qos.ch/) - Founded by the same developer as Log4j and proves to be a robust logging library with interesting configuration options via Groovy.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
 
 ## Machine Learning
@@ -174,8 +172,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools that help sending messages between clients to ensure protocol independency*
 
-* [Apache ActiveMQ](http://activemq.apache.org/)
-* [JBoss HornetQ](http://hornetq.jboss.org/)
+* [Apache ActiveMQ](http://activemq.apache.org/) - Open-source message broker that implements JMS and converts synchronous to asynchronous communication
+* [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded.
 
 ## Miscellaneous
 
@@ -196,8 +194,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *APIs which handle the persistence of objects*
 
-* [EclipseLink](https://www.eclipse.org/eclipselink/)
-* [Hibernate](http://hibernate.org/orm/)
+* [EclipseLink](https://www.eclipse.org/eclipselink/) Supports a number of persistence standards: JPA, JAXB, JCA and SDO
+* [Hibernate](http://hibernate.org/orm/) Robust and widely used with an active community.
 
 ## PDF
 
@@ -214,6 +212,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that handle security, authentication, authorization or session management*
 
 * [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
+* [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Currently in beta but looks very promising.
 * [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java Applications.
 * [Spring Security](http://projects.spring.io/spring-security/) - Focuses on authentication and authorization and protects against several attack vectors.
 
@@ -244,7 +243,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [FreeMarker](http://freemarker.org/)
 * [JavaServer Pages](https://jsp.java.net/)
 * [Thymeleaf](http://www.thymeleaf.org/)
-* [Scalate](http://scalate.fusesource.org/)
 
 ## Testing
 
