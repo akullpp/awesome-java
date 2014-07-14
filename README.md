@@ -31,6 +31,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Template Engine](#template-engine)
     - [Testing](#testing)
     - [Utility](#utility)
+    - [Visualization](#visualization)
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
     - [REST Frameworks](#rest-frameworks)
@@ -241,10 +242,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which substitute expressions in a template*
 
-* [Apache Velocity](http://velocity.apache.org/)
-* [FreeMarker](http://freemarker.org/)
-* [JavaServer Pages](https://jsp.java.net/)
-* [Thymeleaf](http://www.thymeleaf.org/)
+* [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
+* [FreeMarker](http://freemarker.org/) - General templating engine without any heavyweight or opinionated dependencies.
+* [JavaServer Pages](https://jsp.java.net/) - Aged templating for websites with custom tag libraries.
+* [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
 ## Testing
 
@@ -267,30 +268,35 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries which provide unspecific functionality, e.g. optimized datastructures*
 
-* [Apache Commons](http://commons.apache.org/)
-* [Google Guava](http://code.google.com/p/guava-libraries/)
+* [Apache Commons](http://commons.apache.org/) - Several libraries which provide different general purpose functions like configuration, validation, collections, file upload or XML processing.
+* [Google Guava](http://code.google.com/p/guava-libraries/) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
+
+## Visualization
+
+*Libraries or frameworks which allow you to visualize data*
+
+* [Processing](https://www.processing.org/) - A project deeply rooted in visual art which allows you to program the visualization of data.
 
 ## Web Crawling
 
 *Libraries that analyze the content of websites*
 
-* [Apache Nutch](http://nutch.apache.org/)
-* [Crawler4j](https://code.google.com/p/crawler4j/)
+* [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable Web crawler for production environment.
+* [Crawler4j](https://code.google.com/p/crawler4j/) - Simple lightweight alternative.
 * [jsoup](http://jsoup.org/) - Jsoup is a Java library for working with real-world HTML.
 
 ## Web Frameworks
 
 *Frameworks that handle the communication between the layers of an web application*
 
-* [Apache Tapestry](http://tapestry.apache.org/)
-* [Spring](http://projects.spring.io/spring-framework/)
-* [Grails](https://grails.org/)
-* [Vaadin](https://vaadin.com/)
-* [GWT](http://www.gwtproject.org/)
-* [Apache Wicket](http://wicket.apache.org/)
-* [Play](http://www.playframework.com/)
-* [PrimeFaces](http://primefaces.org/)
-* [Spark](http://www.sparkjava.com/why.html)
+* [Apache Tapestry](http://tapestry.apache.org/) - Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.
+* [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
+* [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side. 
+* [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
+* [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
+* [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
+* [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
+* [Spark](http://www.sparkjava.com/why.html) - Unique framework which focuses not on MVC but on rapid development.
 
 ## REST Frameworks
 
