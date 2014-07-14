@@ -276,6 +276,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Nutch](http://nutch.apache.org/)
 * [Crawler4j](https://code.google.com/p/crawler4j/)
+* [jsoup](http://jsoup.org/) - Jsoup is a Java library for working with real-world HTML.
 
 ## Web Frameworks
 
