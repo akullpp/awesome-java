@@ -36,10 +36,11 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Web Frameworks](#web-frameworks)
     - [REST Frameworks](#rest-frameworks)
 - [Resources](#resources)
-    - [Twitter](#twitter)
-    - [Websites](#websites)
     - [Communities](#communities)
     - [Influental Books](#influental-books)
+    - [Podcasts](#podcasts)
+    - [Twitter](#twitter)
+    - [Websites](#websites)
 - [Contributing](#contributing)
 
 ## Build Tool
@@ -308,6 +309,27 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 # Resources
 
+## Communities
+
+*Active discussions*
+
+* [r/java](http://www.reddit.com/r/java) - Subreddit for the Java community.
+* [stackoverflow](http://stackoverflow.com/questions/tagged/java)
+
+## Influental Books
+
+*Books about Java that had a high impact and are still worth reading*
+
+* [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
+* [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+* [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
+
+## Podcasts
+
+*Something to listen to while programming*
+
+* [The Java Posse](http://www.javaposse.com/)
+
 ## Twitter
 
 *People to follow*
@@ -334,21 +356,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Java.net](http://java.net/)
 * [JavaWorld](http://www.javaworld.com/)
 * [Javalobby](http://java.dzone.com/)
-
-## Communities
-
-*Active discussions*
-
-* [r/java](http://www.reddit.com/r/java) - Subreddit for the Java community.
-* [stackoverflow](http://stackoverflow.com/questions/tagged/java)
-
-## Influental Books
-
-*Books about Java that had a high impact and are still worth reading*
-
-* [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
-* [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
-* [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
 # Contributing
 
