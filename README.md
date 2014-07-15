@@ -47,29 +47,29 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which handle the buildcycle of an application.*
 
-* [Apache Maven](http://maven.apache.org/) - Declarative build and dependency managment which favors convention over configuration. It's preferable to [Apache Ant](http://ant.apache.org/) which uses a rather procedural approach which can be difficult to maintain.
+* [Apache Maven](http://maven.apache.org/) - Declarative build and dependency managment which favors convention over configuration. It's preferable to Apache Ant which uses a rather procedural approach and can be rather difficult to maintain.
 * [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management and treats Ant scripts as first-class citizens.
 
 ## Code Analysis
 
 *Tools that provide metrics and quality measurements of static code.*
 
-* [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality.
-* [FindBugs](http://findbugs.sourceforge.net/) - Static analysis to find potential bugs.
+* [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality. It integrates with several external tools like Gradle, Jira and Jenkins and provides an overview of the metrics over time.
+* [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
 * [Metrics](http://metrics.codahale.com/) - Measures the behavior of critical components.
 
 ## Compiler-compiler
 
 *Tools that create parsers, interpreters or compilers.*
 
-* [ANTLR](http://www.antlr.org/) - Complex full-featured framework.
-* [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn.
+* [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
+* [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn with syntactic lookahead.
 
 ## Continuous Integration
 
 *Tools which support continuously building, testing and releasing applications.*
 
-* [Jenkins](http://jenkins-ci.org/) - Provides server-based CI services, often seen as the successor to [Hudson](http://hudson-ci.org/).
+* [Jenkins](http://jenkins-ci.org/) - Provides server-based services. Often seen as the successor to Hudson, although it is still actively developed.
 
 ## Database
 
