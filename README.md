@@ -77,13 +77,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
-* [MapDB](http://www.mapdb.org/) - Database engine with optimized datastructures.
 
 ## Date and Time
 
 *Libraries related to date and time.*
 
-* [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html) - Incorporates Joda-Time.
+* [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html) - Basically, it incorporates Joda-Time.
 * [Joda-Time](http://joda-time.sourceforge.net/) - De facto standard date/time-library before Java 8.
 
 ## Dependency Injection
@@ -91,13 +90,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Libraries that help to realize the [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
 * [Dagger](http://square.github.io/dagger/) - Compile-time injection framework without reflection, mainly for Android.
-* [Google Guice](http://de.wikipedia.org/wiki/Google_Guice) - Lightweight DI framework.
-* [Spring](http://spring.io/) - The Spring Context module provides DI.
+* [Google Guice](http://de.wikipedia.org/wiki/Google_Guice) - Lightweight but powerful framework.
+* [Spring](http://spring.io/) - Only Spring Context is needed for injections.
 * [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) - CDI reference implementation.
 
 ## Development
 
-*Tools with augment the process of development at a fundamental level.*
+*Integrated environments that augment the process of development at a fundamental level, e.g. classloading.*
 
 * [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
