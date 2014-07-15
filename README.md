@@ -37,7 +37,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [REST Frameworks](#rest-frameworks)
 - [Resources](#resources)
     - [Communities](#communities)
-    - [Influental Books](#influental-books)
+    - [Influential Books](#influential-books)
     - [Podcasts](#podcasts)
     - [Twitter](#twitter)
     - [Websites](#websites)
@@ -47,7 +47,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Tools which handle the buildcycle of an application.*
 
-* [Apache Maven](http://maven.apache.org/) - Declarative build and dependency managment which favors convention over configuration. It's preferable to Apache Ant which uses a rather procedural approach and can be rather difficult to maintain.
+* [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It's preferable to Apache Ant which uses a rather procedural approach and can be rather difficult to maintain.
 * [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management and treats Ant scripts as first-class citizens.
 
 ## Code Analysis
@@ -88,7 +88,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Dependency Injection
 
-*Libraries that help to realize the [Inversion Of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
+*Libraries that help to realize the [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
 * [Dagger](http://square.github.io/dagger/) - Compile-time injection framework without reflection, mainly for Android.
 * [Google Guice](http://de.wikipedia.org/wiki/Google_Guice) - Lightweight DI framework.
@@ -121,7 +121,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Frameworks that support the development of games.*
 
 * [LWJGL](http://lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
-* [libGDX](http://libgdx.badlogicgames.com/) - Allround cross-plattform, high-level framework.
+* [libGDX](http://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
 
 ## High Performance
 
@@ -236,7 +236,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle.
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
 * [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server often embedded in projects. Part of the Eclipse Foundation.
-* [Apache Tomcat](http://tomcat.apache.org/) - Robust allround server for Servlet and JSP.
+* [Apache Tomcat](http://tomcat.apache.org/) - Robust all-round server for Servlet and JSP.
 * [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE.
 
 ## Template Engine
@@ -316,7 +316,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [r/java](http://www.reddit.com/r/java) - Subreddit for the Java community.
 * [stackoverflow](http://stackoverflow.com/questions/tagged/java)
 
-## Influental Books
+## Influential Books
 
 *Books about Java that had a high impact and are still worth reading.*
 
