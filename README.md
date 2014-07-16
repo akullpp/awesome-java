@@ -23,6 +23,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
+    - [Networking](#networking)
     - [ORM](#orm)
     - [PDF](#pdf)
     - [Security](#security)
@@ -70,6 +71,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Tools which support continuously building, testing and releasing applications.*
 
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based services. Often seen as the successor to Hudson, although it is still actively developed.
+* [Travis](https://travis-ci.org) - A hosted continuous integration service that integrates with GitHub repositories.
 
 ## Database
 
@@ -153,7 +155,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries that simplify JSON processing.*
 
-* [Google Gson](https://code.google.com/p/google-gson/) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage. 
+* [Google Gson](https://code.google.com/p/google-gson/) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 
 ## Logging
@@ -196,6 +198,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
 * [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for a variety of tasks ranging from POS tagging to sentiment analysis.
 * [Mallet](http://mallet.cs.umass.edu/) - Statistical natural language processing, document classification, clustering, topic modeling, etc.
+
+## Networking
+
+*Libraries for network programming.*
+
+* [Netty](http://netty.io/) - A framework for building high performance network applications.
 
 ## ORM
 
@@ -296,7 +304,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache Tapestry](http://tapestry.apache.org/) - Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
-* [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side. 
+* [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
@@ -365,6 +373,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 Contributions are very welcome!
 
-Please have a look at [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) for guidelines. 
+Please have a look at [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) for guidelines.
 
 Topics which have no libraries as of yet are located in [TOPICS](https://github.com/akullpp/awesome-java/blob/master/TOPICS.md).
