@@ -32,7 +32,6 @@
 * Hardware
 * Imagery
 * Internationalization
-* Networking
 * News Feed
 * Package Management
 * Processes and Threads

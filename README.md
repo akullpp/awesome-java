@@ -23,6 +23,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
+    - [Networking](#networking)
     - [ORM](#orm)
     - [PDF](#pdf)
     - [Security](#security)
@@ -196,6 +197,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
 * [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for a variety of tasks ranging from POS tagging to sentiment analysis.
 * [Mallet](http://mallet.cs.umass.edu/) - Statistical natural language processing, document classification, clustering, topic modeling, etc.
+
+## Networking
+
+*Libraries for network programming.*
+
+* [Netty](http://netty.io/) - A framework for building high performance network applications.
 
 ## ORM
 
