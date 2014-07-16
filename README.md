@@ -71,6 +71,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Tools which support continuously building, testing and releasing applications.*
 
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based services. Often seen as the successor to Hudson, although it is still actively developed.
+* [Travis](https://travis-ci.org) - A hosted continuous integration service that integrates with GitHub repositories.
 
 ## Database
 
