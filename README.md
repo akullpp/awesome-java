@@ -120,6 +120,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Frameworks that support the development of games.*
 
+* [jMonkeyEngine](http://jmonkeyengine.org/) - Game engine for modern 3D development.
 * [LWJGL](http://lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 * [libGDX](http://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
 
