@@ -307,6 +307,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications, includes Jetty, Jackson, Jersey and Metrics.
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
+* [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
 
 # Resources
 
