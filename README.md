@@ -188,6 +188,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Everything else.*
 
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
+* [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
 * [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
 
