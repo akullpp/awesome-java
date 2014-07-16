@@ -12,6 +12,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
+    - [Distribution](#distribution)
     - [GUI](#gui)
     - [Game Development](#game-development)
     - [High Performance](#high-performance)
@@ -110,6 +111,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
+
+## Distribution
+
+*Tools which handle the distribution of Java applications in native formats.*
+
+* [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
+* [packr](https://github.com/libgdx/packr#packr) - Packs your JAR, assets and JVM for native distribution on Windows, Linux and Mac OS X.
 
 ## GUI
 
