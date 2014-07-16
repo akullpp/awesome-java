@@ -63,7 +63,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Tools that create parsers, interpreters or compilers.*
 
 * [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
-* [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn with syntactic lookahead.
+* [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
 
 ## Continuous Integration
 
@@ -102,9 +102,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
 
 ## Distributed Applications
+
 *Libraries and frameworks used to ease writing distributed and fault-tolerant applications.*
 
-* [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.
+* [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 
@@ -112,8 +113,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries to create modern graphical user interfaces.*
 
-* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - Considered the successor of [Swing](http://www.oracle.com/technetwork/java/architecture-142923.html).
-* [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual Layout Tool for JavaFX Applications.
+* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
+* [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
 
 ## Game Development
 
@@ -135,7 +136,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Integrated development environments that try to simplify several aspects of development.*
 
-* [NetBeans](https://netbeans.org/) - Integrates a lot of features and provides tools ranging from Java SE to EE starting with database access and servers to HTML5 and AngularJS.
+* [NetBeans](https://netbeans.org/) - Provides integration for several  Java SE and EE features starting with database access and servers to HTML5 and AngularJS.
 * [Eclipse](http://www.eclipse.org/) - Does a lot of things in the background. Noteworthy are its large amount of plugins.
 * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 
@@ -158,13 +159,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries that log the behavior of an application.*
 
-* [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite of the previous software. Now has a powerful plugin and configuration architecture.
+* [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite of the previous version. Now has a powerful plugin and configuration architecture.
 * [Logback](http://logback.qos.ch/) - Founded by the same developer as Log4j and proves to be a robust logging library with interesting configuration options via Groovy.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
 
 ## Machine Learning
 
-*Tools that allow to learn from data via a set of specific algorithms.*
+*Tools that provide specific statistical algorithms which allow to learn from data.*
 
 * [Apache Hadoop](http://hadoop.apache.org/) - Open-source software framework for storage and large-scale processing of data-sets on clusters of commodity hardware.
 * [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification.
@@ -187,7 +188,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Natural Language Processing
 
-*Libraries that are specialized on processing text.*
+*Libraries that specialize on processing text.*
 
 * [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
 * [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for a variety of tasks ranging from POS tagging to sentiment analysis.
@@ -197,7 +198,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *APIs which handle the persistence of objects.*
 
-* [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO
+* [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
 
 ## PDF
@@ -216,8 +217,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Currently in beta but looks very promising.
-* [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java Applications.
-* [Spring Security](http://projects.spring.io/spring-security/) - Focuses on authentication and authorization and protects against several attack vectors.
+* [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java applications.
+* [Spring Security](http://projects.spring.io/spring-security/) - Focuses on authentication/authorization and protects against several attack vectors.
 
 ## Science
 
@@ -234,7 +235,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle.
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
-* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server often embedded in projects. Part of the Eclipse Foundation.
+* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
 * [Apache Tomcat](http://tomcat.apache.org/) - Robust all-round server for Servlet and JSP.
 * [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE.
 
@@ -262,13 +263,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Mockito](http://code.google.com/p/mockito/) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [TestNG](http://testng.org/) - Testing framework.
-* [VisualVM](http://visualvm.java.net/) - Visual interface for viewing detailed information about Java applications while they are running on a JVM
+* [VisualVM](http://visualvm.java.net/) - Visual interface for viewing detailed information about Java applications while they are running on a JVM.
 
 ## Utility
 
 *Libraries which provide unspecific functionality, e.g. optimized datastructures.*
 
-* [Apache Commons](http://commons.apache.org/) - Several libraries which provide different general purpose functions like configuration, validation, collections, file upload or XML processing.
+* [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
 * [Google Guava](http://code.google.com/p/guava-libraries/) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 
 ## Visualization
@@ -283,7 +284,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable Web crawler for production environment.
 * [Crawler4j](https://code.google.com/p/crawler4j/) - Simple lightweight alternative.
-* [jsoup](http://jsoup.org/) - Jsoup is a Java library for working with real-world HTML.
+* [jsoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
 
 ## Web Frameworks
 
@@ -296,7 +297,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
-* [Spark](http://www.sparkjava.com/why.html) - Unique framework which focuses not on MVC but on rapid development.
+* [Spark](http://www.sparkjava.com/why.html) - Unique framework which focuses not on complex MVC patterns but on rapid development.
 
 ## REST Frameworks
 
@@ -313,7 +314,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 *Active discussions.*
 
 * [r/java](http://www.reddit.com/r/java) - Subreddit for the Java community.
-* [stackoverflow](http://stackoverflow.com/questions/tagged/java)
+* [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
 
 ## Influential Books
 
