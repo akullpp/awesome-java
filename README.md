@@ -77,7 +77,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
-* [JDBI](http://jdbi.org/) - SQL convenience library for Java. 
 
 ## Date and Time
 
