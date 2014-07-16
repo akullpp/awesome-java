@@ -186,6 +186,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
+* [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
 
 ## Natural Language Processing
 
@@ -293,6 +294,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Tapestry](http://tapestry.apache.org/) - Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
+* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side. 
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
