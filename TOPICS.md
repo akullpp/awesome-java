@@ -16,7 +16,6 @@
 * Data Visualization
 * Debugging Tools
 * DevOps Tools
-* Distribution
 * Documentation
 * Downloader
 * Editor Plugins
