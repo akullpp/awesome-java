@@ -79,6 +79,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Everything which simplifies interactions with the database.*
 
+* [JDBI](http://jdbi.org/) - Exposes relational database access in idiommatic Java.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
 
