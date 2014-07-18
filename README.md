@@ -16,6 +16,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [GUI](#gui)
     - [Game Development](#game-development)
     - [High Performance](#high-performance)
+    - [HTTP](#http)
     - [IDE](#ide)
     - [JVM and JDK](#jvm-and-jdk)
     - [JSON](#json)
@@ -144,6 +145,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
 * [Javalution](http://javolution.org/) - Library for real-time and embedded systems.
+
+## HTTP
+
+*Libraries for working with HTTP.*
+
+* [OkHttp](http://square.github.io/okhttp/) - An HTTP+SPDY client for Android and Java applications.
 
 ## IDE
 
