@@ -73,6 +73,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based services. Often seen as the successor to Hudson, although it is still actively developed.
 * [Travis](https://travis-ci.org) - A hosted continuous integration service that integrates with GitHub repositories.
+* [Shippable](https://www.shippable.com/) - Based on Docker, it provides also Bitbucket integration.
 
 ## Database
 
@@ -118,6 +119,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
 * [packr](https://github.com/libgdx/packr#packr) - Packs your JAR, assets and JVM for native distribution on Windows, Linux and Mac OS X.
+* [Bintray](https://bintray.com/) - Version control for your binaries which handles the publishing. Can also be used with Maven or Gradle.
 
 ## GUI
 
