@@ -27,7 +27,6 @@
 * Functional Programming
 * Geolocation
 * HTML Manipulation
-* HTTP
 * Hardware
 * Imagery
 * Internationalization
