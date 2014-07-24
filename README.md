@@ -125,7 +125,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Document Processing
 
-*Libraries that assist with processing document formats wether they are Microsoft or an open standard.*
+*Libraries that assist with processing office document formats.*
 
 * [Apache POI](http://poi.apache.org/) - Supports OOXML (e.g XLSX, DOCX, PPTX) as well as OLE2 (e.g. XLS, DOC or PPT).
 * [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
