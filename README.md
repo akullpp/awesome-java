@@ -3,6 +3,7 @@
 A curated list of awesome Java frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [Awesome Java](#awesome-java)
+    - [Asynchronous Programming](#asynchronous-programming)
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
@@ -46,6 +47,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Twitter](#twitter)
     - [Websites](#websites)
 - [Contributing](#contributing)
+
+## Asynchronous Programming
+
+*Libraries to work with asynchronous code paths in a multi-threaded or distributed 
+application (think callbacks, futures, ...).*
+
+* [RxJava](https://github.com/Netflix/RxJava/wiki) - A Reactive eXtentions implementation 
+on the JVM, based on the Functionnal Reactive Programming model. Compose your asynchronous 
+flows richly and in an readable way, no more callback hell.
 
 ## Build Tool
 
