@@ -338,6 +338,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Spark](http://www.sparkjava.com/why.html) - Unique framework which focuses not on complex MVC patterns but on rapid development.
+* [VRaptor](http://www.vraptor.org/) - Is an MVC framework and delivers high productivity to your Java Web applications on top of CDI
 
 ## REST Frameworks
 
