@@ -397,6 +397,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Java.net](http://java.net/)
 * [JavaWorld](http://www.javaworld.com/)
 * [Javalobby](http://java.dzone.com/)
+* [RebelLabs](http://zeroturnaround.com/rebellabs/)
 
 # Contributing
 
