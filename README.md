@@ -369,6 +369,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Something to listen to while programming.*
 
+* [Chariot Solutions Tech Podcasts](http://chariotsolutions.com/podcasts/) Podcasts for software developers in the world of open source languages and frameworks.
 * [The Java Posse](http://www.javaposse.com/)
 
 ## Twitter
