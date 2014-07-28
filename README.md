@@ -154,10 +154,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Everything about high performance computation, from collections to specific libraries.*
 
-* [Trove](http://trove.starlight-systems.com/) - Primitive collections.
-* [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
+* [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections for Java.
+* [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
+* [hftc](https://github.com/OpenHFT/hftc) - Hash sets and hash maps.
+* [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [Javalution](http://javolution.org/) - Library for real-time and embedded systems.
+* [Trove](http://trove.starlight-systems.com/) - Primitive collections.
 
 ## HTTP
 
