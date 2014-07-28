@@ -85,6 +85,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
+* [presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 
 ## Date and Time
 
@@ -117,6 +118,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications.
 * [Apache Storm](http://storm.incubator.apache.org/) - Distributed realtime computation system.
+* [Hystrix](https://github.com/Netflix/Hystrix) - Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 
@@ -231,6 +233,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
+* [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning it; transforming it from one format into another; extending it with web services; and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
 
 ## Natural Language Processing
