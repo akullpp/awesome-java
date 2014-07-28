@@ -19,6 +19,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [High Performance](#high-performance)
     - [HTTP](#http)
     - [IDE](#ide)
+    - [Imagery](#imagery)
     - [JVM and JDK](#jvm-and-jdk)
     - [JSON](#json)
     - [Logging](#logging)
@@ -81,6 +82,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Everything which simplifies interactions with the database.*
 
+* [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
 
@@ -102,16 +104,19 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Development
 
-*Integrated environments that augment the process of development at a fundamental level, e.g. classloading.*
+*Integrated environments that augment the process of development at a fundamental level.*
 
 * [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
+* [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
+* [vert.x](http://vertx.io/) - Polyglot event-driven application framework for the JVM.
 
 ## Distributed Applications
 
 *Libraries and frameworks used to ease writing distributed and fault-tolerant applications.*
 
 * [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications.
+* [Apache Storm](http://storm.incubator.apache.org/) - Distributed realtime computation system.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 
@@ -168,6 +173,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Eclipse](http://www.eclipse.org/) - Does a lot of things in the background. Noteworthy are its large amount of plugins.
 * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 
+## Imagery
+
+*Libraries that assist with the cration, evaluation or manipulation of graphical images.*
+
+* [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
+* [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
+
 ## JVM and JDK
 
 *Various implementations of the JVM/JDK.*
@@ -198,6 +210,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Apache Hadoop](http://hadoop.apache.org/) - Open-source software framework for storage and large-scale processing of data-sets on clusters of commodity hardware.
 * [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification.
 * [Apache Spark](http://spark.apache.org/) - Open-source data analytics cluster computing framework.
+* [h2o](http://0xdata.github.io/h2o/) - Analytics engine for statistics over big data. 
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 ## Messaging
@@ -265,6 +278,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [JTransforms](https://sites.google.com/site/piotrwendykier/software/jtransforms) - Multithread FFT library.
 * [Parallel Colt](https://sites.google.com/site/piotrwendykier/software/parallelcolt) - Multithread high performance scientific and technical computing.
 * [SCaVis](http://jwork.org/scavis/) - Environment for scientific computation, data analysis and data visualization.
+
+## Search
+
+*Engines which index documents for search and analysis.*
+
+* [Apache Solr](http://lucene.apache.org/solr/) - Full enterprise search engine optimized for high volume traffic.
+* [Elasticsearch](http://www.elasticsearch.org/) - Distributed, multitenant-capable full-text search engine with a RESTful web interface and schema-free JSON documents. 
 
 ## Server
 
