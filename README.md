@@ -61,7 +61,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality. It integrates with several external tools like Gradle, Jira and Jenkins and provides an overview of the metrics over time.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
-* [Metrics](http://metrics.codahale.com/) - Measures the behavior of critical components.
 
 ## Compiler-compiler
 
@@ -233,6 +232,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
+* [Metrics](http://metrics.codahale.com/) - Create your own metrics (counters, gauges, timers) or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database (Graphite, Ganglia).
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning it; transforming it from one format into another; extending it with web services; and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
 
