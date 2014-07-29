@@ -160,7 +160,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
 * [hftc](https://github.com/OpenHFT/hftc) - Hash sets and hash maps.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
-* [Javalution](http://javolution.org/) - Library for real-time and embedded systems.
+* [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
 * [Trove](http://trove.starlight-systems.com/) - Primitive collections.
 
 ## HTTP
@@ -179,7 +179,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Imagery
 
-*Libraries that assist with the cration, evaluation or manipulation of graphical images.*
+*Libraries that assist with the creation, evaluation or manipulation of graphical images.*
 
 * [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
 * [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
@@ -318,7 +318,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions.
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform with integration of Java EE containers.
-* [Calipher](https://code.google.com/p/caliper/) - Microbenchmarking framework.
+* [Caliper](https://code.google.com/p/caliper/) - Microbenchmarking framework.
 * [FEST](https://code.google.com/p/fest/) - Collection of testing libraries.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Framework for writing declarative assertion matchers.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking.
