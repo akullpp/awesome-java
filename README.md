@@ -323,6 +323,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Framework for writing declarative assertion matchers.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking.
 * [JUnit](http://junit.org/) - Testing framework.
+* [JunitParams](https://github.com/Pragmatists/junitparams) - Parameterised tests for JUnit.
 * [Mockito](http://code.google.com/p/mockito/) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [TestNG](http://testng.org/) - Testing framework.
