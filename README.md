@@ -185,6 +185,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
 * [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
+* [Marvin](http://marvinproject.sourceforge.net/) - Image processing framework.
 
 ## JVM and JDK
 
