@@ -26,6 +26,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
+    - [Monitoring](#monitoring)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
     - [ORM](#orm)
@@ -236,6 +237,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning it; transforming it from one format into another; extending it with web services; and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
+ 
+## Monitoring
+
+*Tools and libraries to monitor the performance of java applications.*
+
+* [stagemonitor](http://www.stagemonitor.org) - Application performance monitoring for java server applications.
 
 ## Natural Language Processing
 
