@@ -61,7 +61,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality. It integrates with several external tools like Gradle, Jira and Jenkins and provides an overview of the metrics over time.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
-* [Metrics](http://metrics.codahale.com/) - Measures the behavior of critical components.
 
 ## Compiler-compiler
 
@@ -162,7 +161,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
 * [hftc](https://github.com/OpenHFT/hftc) - Hash sets and hash maps.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
-* [Javalution](http://javolution.org/) - Library for real-time and embedded systems.
+* [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
 * [Trove](http://trove.starlight-systems.com/) - Primitive collections.
 
 ## HTTP
@@ -181,7 +180,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 ## Imagery
 
-*Libraries that assist with the cration, evaluation or manipulation of graphical images.*
+*Libraries that assist with the creation, evaluation or manipulation of graphical images.*
 
 * [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
 * [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
@@ -235,6 +234,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
+* [Metrics](http://metrics.codahale.com/) - Create your own metrics (counters, gauges, timers) or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database (Graphite, Ganglia).
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning it; transforming it from one format into another; extending it with web services; and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
 
@@ -320,7 +320,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions.
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform with integration of Java EE containers.
-* [Calipher](https://code.google.com/p/caliper/) - Microbenchmarking framework.
+* [Caliper](https://code.google.com/p/caliper/) - Microbenchmarking framework.
 * [FEST](https://code.google.com/p/fest/) - Collection of testing libraries.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Framework for writing declarative assertion matchers.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking.
