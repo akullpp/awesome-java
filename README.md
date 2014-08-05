@@ -121,6 +121,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [Hystrix](https://github.com/Netflix/Hystrix) - Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
+* [Hazelcast](http://hazelcast.org/) - Distributed and highly scalable data distribution platform for Java.
 
 ## Distribution
 
