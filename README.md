@@ -206,6 +206,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 * [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite of the previous version. Now has a powerful plugin and configuration architecture.
 * [Logback](http://logback.qos.ch/) - Founded by the same developer as Log4j and proves to be a robust logging library with interesting configuration options via Groovy.
+* [logstash](http://logstash.net/) - Tool for managing log files.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
 
 ## Machine Learning
@@ -340,6 +341,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 
 *Libraries or frameworks which allow you to visualize data.*
 
+* [kibana](http://www.elasticsearch.org/overview/kibana/) - Analyzes and visualizes log files.
 * [Processing](https://www.processing.org/) - A project deeply rooted in visual art which allows you to program the visualization of data.
 
 ## Web Crawling
@@ -374,6 +376,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by [
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RESTX](http://restx.io/) - A lightweight REST framework with emphasis on modularity, speed and dev-friendly features (light specs compiled to unit tests and documentation, authentication needed by default, ...)
 * [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
+* [swookiee](http://swookiee.com/) - JVM Runtime for REST Services.
 
 # Resources
 
