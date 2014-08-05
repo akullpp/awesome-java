@@ -14,14 +14,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Distributed Applications](#distributed-applications)
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
-    - [GUI](#gui)
     - [Game Development](#game-development)
+    - [GUI](#gui)
     - [High Performance](#high-performance)
     - [HTTP](#http)
     - [IDE](#ide)
     - [Imagery](#imagery)
-    - [JVM and JDK](#jvm-and-jdk)
     - [JSON](#json)
+    - [JVM and JDK](#jvm-and-jdk)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
@@ -30,8 +30,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Networking](#networking)
     - [ORM](#orm)
     - [PDF](#pdf)
-    - [Security](#security)
+    - [REST Frameworks](#rest-frameworks)
     - [Science](#science)
+    - [Security](#security)
     - [Server](#server)
     - [Template Engine](#template-engine)
     - [Testing](#testing)
@@ -39,7 +40,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Visualization](#visualization)
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
-    - [REST Frameworks](#rest-frameworks)
 - [Resources](#resources)
     - [Communities](#communities)
     - [Influential Books](#influential-books)
@@ -59,8 +59,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Tools that provide metrics and quality measurements of static code.*
 
-* [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality. It integrates with several external tools like Gradle, Jira and Jenkins and provides an overview of the metrics over time.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
+* [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality. It integrates with several external tools like Gradle, Jira and Jenkins and provides an overview of the metrics over time.
 
 ## Compiler-compiler
 
@@ -74,8 +74,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Tools which support continuously building, testing and releasing applications.*
 
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based services. Often seen as the successor to Hudson, although it is still actively developed.
-* [Travis](https://travis-ci.org) - A hosted continuous integration service that integrates with GitHub repositories.
 * [Shippable](https://www.shippable.com/) - Based on Docker, it provides also Bitbucket integration.
+* [Travis](https://travis-ci.org) - A hosted continuous integration service that integrates with GitHub repositories.
 
 ## Database
 
@@ -117,18 +117,18 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications.
 * [Apache Storm](http://storm.incubator.apache.org/) - Distributed realtime computation system.
-* [Hystrix](https://github.com/Netflix/Hystrix) - Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
-* [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 * [Hazelcast](http://hazelcast.org/) - Distributed and highly scalable data distribution platform for Java.
+* [Hystrix](https://github.com/Netflix/Hystrix) - Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+* [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
 
 ## Distribution
 
 *Tools which handle the distribution of Java applications in native formats.*
 
+* [Bintray](https://bintray.com/) - Version control for your binaries which handles the publishing. Can also be used with Maven or Gradle.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
 * [packr](https://github.com/libgdx/packr#packr) - Packs your JAR, assets and JVM for native distribution on Windows, Linux and Mac OS X.
-* [Bintray](https://bintray.com/) - Version control for your binaries which handles the publishing. Can also be used with Maven or Gradle.
 
 ## Document Processing
 
@@ -149,8 +149,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Frameworks that support the development of games.*
 
 * [jMonkeyEngine](http://jmonkeyengine.org/) - Game engine for modern 3D development.
-* [LWJGL](http://lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 * [libGDX](http://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
+* [LWJGL](http://lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 
 ## High Performance
 
@@ -174,9 +174,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Integrated development environments that try to simplify several aspects of development.*
 
-* [NetBeans](https://netbeans.org/) - Provides integration for several  Java SE and EE features starting with database access and servers to HTML5 and AngularJS.
 * [Eclipse](http://www.eclipse.org/) - Does a lot of things in the background. Noteworthy are its large amount of plugins.
 * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
+* [NetBeans](https://netbeans.org/) - Provides integration for several  Java SE and EE features starting with database access and servers to HTML5 and AngularJS.
 
 ## Imagery
 
@@ -265,9 +265,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDF from XSL-FO.
 * [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF.
-* [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
 * [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
 * [iText](http://itextpdf.com/) - Easy to use PDF library which creates PDF files programmatically but requires a license for commercial purposes.
+* [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
 
 ## Security
 
@@ -298,11 +298,11 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Servers which are specifically used to deploy applications.*
 
-* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle.
-* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
-* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
 * [Apache Tomcat](http://tomcat.apache.org/) - Robust all-round server for Servlet and JSP.
 * [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE.
+* [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle.
+* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
+* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
 
 ## Template Engine
 
@@ -317,9 +317,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Tools that test from object to interface level including performance and other benchmarks.*
 
-* [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions.
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform with integration of Java EE containers.
+* [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions.
 * [Caliper](https://code.google.com/p/caliper/) - Microbenchmarking framework.
 * [FEST](https://code.google.com/p/fest/) - Collection of testing libraries.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Framework for writing declarative assertion matchers.
@@ -358,15 +358,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Frameworks that handle the communication between the layers of an web application.*
 
 * [Apache Tapestry](http://tapestry.apache.org/) - Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.
-* [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
-* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
-* [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+* [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
-* [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Spark](http://www.sparkjava.com/why.html) - Unique framework which focuses not on complex MVC patterns but on rapid development.
+* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
+* [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
+* [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
 ## REST Frameworks
 
@@ -410,10 +410,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Antonio Goncalves](https://twitter.com/agoncal/)
 * [Arun Gupta](https://twitter.com/arungupta/)
 * [Ed Burns](https://twitter.com/edburns)
-* [Java](https://twitter.com/java/)
 * [Java EE](https://twitter.com/Java_EE/)
-* [Java.net](https://twitter.com/javanetbuzz/)
 * [Java Magazine](https://twitter.com/Oraclejavamag)
+* [Java.net](https://twitter.com/javanetbuzz/)
+* [Java](https://twitter.com/java/)
 * [Mark Reinhold](https://twitter.com/mreinhold)
 * [OpenJDK](https://twitter.com/OpenJDK)
 * [Pete Muir](https://twitter.com/plmuir/)
@@ -426,8 +426,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Sites to read.*
 
 * [Java.net](http://java.net/)
-* [JavaWorld](http://www.javaworld.com/)
 * [Javalobby](http://java.dzone.com/)
+* [JavaWorld](http://www.javaworld.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
 
 # Contributing
