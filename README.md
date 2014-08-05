@@ -32,6 +32,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [PDF](#pdf)
     - [REST Frameworks](#rest-frameworks)
     - [Science](#science)
+    - [Search](#search)
     - [Security](#security)
     - [Server](#server)
     - [Template Engine](#template-engine)
@@ -137,13 +138,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache POI](http://poi.apache.org/) - Supports OOXML (e.g XLSX, DOCX, PPTX) as well as OLE2 (e.g. XLS, DOC or PPT).
 * [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
 
-## GUI
-
-*Libraries to create modern graphical user interfaces.*
-
-* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
-* [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
-
 ## Game Development
 
 *Frameworks that support the development of games.*
@@ -151,6 +145,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [jMonkeyEngine](http://jmonkeyengine.org/) - Game engine for modern 3D development.
 * [libGDX](http://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
 * [LWJGL](http://lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
+
+## GUI
+
+*Libraries to create modern graphical user interfaces.*
+
+* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
+* [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
 
 ## High Performance
 
@@ -185,6 +186,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
 * [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
 
+## JSON
+
+*Libraries that simplify JSON processing.*
+
+* [Google Gson](https://code.google.com/p/google-gson/) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage.
+* [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
+
 ## JVM and JDK
 
 *Various implementations of the JVM/JDK.*
@@ -192,13 +200,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [HotSpot](http://openjdk.java.net/groups/hotspot/) - Official JVM.
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
 * [OpenJDK](http://openjdk.java.net/) - Open source implementation.
-
-## JSON
-
-*Libraries that simplify JSON processing.*
-
-* [Google Gson](https://code.google.com/p/google-gson/) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage.
-* [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 
 ## Logging
 
@@ -269,14 +270,16 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [iText](http://itextpdf.com/) - Easy to use PDF library which creates PDF files programmatically but requires a license for commercial purposes.
 * [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
 
-## Security
+## REST Frameworks
 
-*Libraries that handle security, authentication, authorization or session management.*
+*Frameworks specifically for creating RESTful services.*
 
-* [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
-* [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Currently in beta but looks very promising.
-* [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java applications.
-* [Spring Security](http://projects.spring.io/spring-security/) - Focuses on authentication/authorization and protects against several attack vectors.
+* [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications, includes Jetty, Jackson, Jersey and Metrics.
+* [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
+* [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
+* [RESTX](http://restx.io/) - A lightweight REST framework with emphasis on modularity, speed and dev-friendly features (light specs compiled to unit tests and documentation, authentication needed by default, ...)
+* [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
+* [swookiee](http://swookiee.com/) - JVM Runtime for REST Services.
 
 ## Science
 
@@ -293,6 +296,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Solr](http://lucene.apache.org/solr/) - Full enterprise search engine optimized for high volume traffic.
 * [Elasticsearch](http://www.elasticsearch.org/) - Distributed, multitenant-capable full-text search engine with a RESTful web interface and schema-free JSON documents. 
+
+## Security
+
+*Libraries that handle security, authentication, authorization or session management.*
+
+* [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
+* [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Currently in beta but looks very promising.
+* [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java applications.
+* [Spring Security](http://projects.spring.io/spring-security/) - Focuses on authentication/authorization and protects against several attack vectors.
 
 ## Server
 
@@ -367,17 +379,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
-
-## REST Frameworks
-
-*Frameworks specifically for creating RESTful services.*
-
-* [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications, includes Jetty, Jackson, Jersey and Metrics.
-* [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
-* [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
-* [RESTX](http://restx.io/) - A lightweight REST framework with emphasis on modularity, speed and dev-friendly features (light specs compiled to unit tests and documentation, authentication needed by default, ...)
-* [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
-* [swookiee](http://swookiee.com/) - JVM Runtime for REST Services.
 
 # Resources
 
