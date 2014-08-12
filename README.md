@@ -54,7 +54,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 ## Cmd-Line-Parser
 *Tools for parsing CUI arguments*
 
-* [arg4j](https://github.com/kohsuke/args4j)
+* [arg4j](https://github.com/kohsuke/args4j) - best and easy.
+* [JCommander](http://jcommander.org/) - good,good,good.
+* [Commons CLI](http://commons.apache.org/proper/commons-cli/) useful one.
 
 ## Build Tool
 
