@@ -3,7 +3,7 @@
 A curated list of awesome Java frameworks, libraries and software. Inspired by other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
 
 - [Awesome Java](#awesome-java)
-    - [Cmd Line Parser](#Cmd-Line-Parser)
+    - [Cmd Line Parser](#cmd-line-parser)
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
