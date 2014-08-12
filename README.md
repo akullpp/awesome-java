@@ -3,6 +3,7 @@
 A curated list of awesome Java frameworks, libraries and software. Inspired by other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
 
 - [Awesome Java](#awesome-java)
+    - [Cmd Line Parser](#Cmd-Line-Parser)
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
@@ -48,6 +49,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Twitter](#twitter)
     - [Websites](#websites)
 - [Contributing](#contributing)
+- 
+
+## Cmd-Line-Parser
+*Tools for parsing CUI arguments*
+
+* [arg4j](https://github.com/kohsuke/args4j)
 
 ## Build Tool
 
