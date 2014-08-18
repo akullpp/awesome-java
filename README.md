@@ -218,7 +218,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache Hadoop](http://hadoop.apache.org/) - Open-source software framework for storage and large-scale processing of data-sets on clusters of commodity hardware.
 * [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification.
 * [Apache Spark](http://spark.apache.org/) - Open-source data analytics cluster computing framework.
-* [h2o](http://0xdata.github.io/h2o/) - Analytics engine for statistics over big data. 
+* [h2o](http://0xdata.github.io/h2o/) - Analytics engine for statistics over big data.
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 ## Messaging
@@ -297,7 +297,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Engines which index documents for search and analysis.*
 
 * [Apache Solr](http://lucene.apache.org/solr/) - Full enterprise search engine optimized for high volume traffic.
-* [Elasticsearch](http://www.elasticsearch.org/) - Distributed, multitenant-capable full-text search engine with a RESTful web interface and schema-free JSON documents. 
+* [Elasticsearch](http://www.elasticsearch.org/) - Distributed, multitenant-capable full-text search engine with a RESTful web interface and schema-free JSON documents.
 
 ## Security
 
@@ -325,6 +325,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
 * [FreeMarker](http://freemarker.org/) - General templating engine without any heavyweight or opinionated dependencies.
 * [JavaServer Pages](https://jsp.java.net/) - Aged templating for websites with custom tag libraries.
+* [StringTemplate](http://www.stringtemplate.org/) - Java template engine for generating source code, web pages, emails, or any other formatted text output.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
 ## Testing
