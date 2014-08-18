@@ -6,6 +6,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Build Tool](#build-tool)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
+    - [Compression](#compression)
     - [Continuous Integration](#continuous-integration)
     - [Database](#database)
     - [Date and Time](#date-and-time)
@@ -69,6 +70,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
 * [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
+
+## Compression
+
+* [Snappy-Java](https://github.com/xerial/snappy-java) - Snappy compressor/decompressor for Java.
+
+* [RoaringBitmap] (https://github.com/lemire/RoaringBitmap) - Roaring bitmaps are compressed bitmaps which tend to outperform conventional compressed bitmaps such as WAH, EWAH or Concise.
 
 ## Continuous Integration
 
