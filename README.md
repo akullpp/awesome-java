@@ -93,6 +93,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html) - Basically, it incorporates Joda-Time.
 * [Joda-Time](http://joda-time.sourceforge.net/) - De facto standard date/time-library before Java 8.
+* [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library for Java.
 
 ## Dependency Injection
 
