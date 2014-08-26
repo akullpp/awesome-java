@@ -84,9 +84,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
-* [Querydsl](http://www.querydsl.com/) - Typesafe Unified Queries for Java.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
 * [presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
+* [Querydsl](http://www.querydsl.com/) - Typesafe Unified Queries for Java.
 
 ## Date and Time
 
