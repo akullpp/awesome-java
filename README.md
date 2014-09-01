@@ -4,6 +4,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 - [Awesome Java](#awesome-java)
     - [Build Tool](#build-tool)
+    - [Bytecode Manipulation](#bytecode-manipulation)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
     - [Continuous Integration](#continuous-integration)
@@ -55,6 +56,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It's preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
 * [Gradle](http://www.gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management and treats Ant scripts as first-class citizens.
+
+## Bytecode Manipulation
+
+*Libraries to manipulate Java bytecode programmatically.*
+
+* [ASM](http://asm.ow2.org/) - All purpose, low level, Java bytecode manipulation and analysis framework.
+* [cglib](https://github.com/cglib/cglib/) - High level library to generate and transform Java byte code.
+* [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Class library for easy editing of Java bytecode.
 
 ## Code Analysis
 
