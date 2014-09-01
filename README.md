@@ -86,6 +86,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
 * [presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
+* [Querydsl](http://www.querydsl.com/) - Typesafe Unified Queries for Java.
 
 ## Date and Time
 
@@ -123,6 +124,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Hazelcast](http://hazelcast.org/) - Distributed and highly scalable data distribution platform for Java.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
+* [Quasar](http://www.paralleluniverse.co/quasar/) - Quasar is an open source JVM library (lightweight threads and actors) that greatly simplifies the creation of highly concurrent software that is very easy to write and reason about, performant, and fault tolerant.
 
 ## Distribution
 
