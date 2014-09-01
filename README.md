@@ -72,7 +72,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Checkstyle](http://checkstyle.sourceforge.net/) - Static analysis of coding conventions and standards.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
 * [PMD](http://pmd.sourceforge.net/) - Source code analysis of bad coding practices.
-* [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality. It integrates other analysis components via plugins and provides an overview of the metrics over time.
+* [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
 
 ## Compiler-compiler
 
@@ -85,9 +85,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Tools which support continuously building, testing and releasing applications.*
 
-* [Jenkins](http://jenkins-ci.org/) - Provides server-based services. Often seen as the successor to Hudson, although it is still actively developed.
-* [Shippable](https://www.shippable.com/) - Based on Docker. Provides Bitbucket integration.
-* [Travis](https://travis-ci.org) - Hosted continuous integration service that integrates with GitHub repositories.
+* [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
+* [Shippable](https://www.shippable.com/) - Based on Docker with Bitbucket integration.
+* [Travis](https://travis-ci.org) - Hosted service that integrates with GitHub repositories.
 
 ## Database
 
@@ -121,7 +121,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Integrated environments that augment the process of development at a fundamental level.*
 
 * [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
-* [JRebel](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
+* [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
 * [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 * [vert.x](http://vertx.io/) - Polyglot event-driven application framework for the JVM.
 
@@ -129,7 +129,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries and frameworks used to ease writing distributed and fault-tolerant applications.*
 
-* [Akka](http://akka.io) - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications.
+* [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, and fault tolerant event-driven applications.
 * [Apache Storm](http://storm.incubator.apache.org/) - Distributed realtime computation system.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 * [Hazelcast](http://hazelcast.org/) - Distributed and highly scalable data distribution platform for Java.
