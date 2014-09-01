@@ -35,6 +35,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Science](#science)
     - [Search](#search)
     - [Security](#security)
+    - [Serialization](#serialization)
     - [Server](#server)
     - [Template Engine](#template-engine)
     - [Testing](#testing)
@@ -318,6 +319,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Currently in beta but looks very promising.
 * [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java applications.
 * [Spring Security](http://projects.spring.io/spring-security/) - Focuses on authentication/authorization and protects against several attack vectors.
+
+## Serialization
+
+* [flatbuffers](https://github.com/google/flatbuffers) - Memory Efficient Serialization Library.
+* [Kryo](https://github.com/EsotericSoftware/kryo) - Java serialization and cloning: fast, efficient, automatic.
+* [msgpack](https://github.com/msgpack/msgpack-java) - MessagePack serializer implementation for Java.
+* [protostuff](https://github.com/protostuff/protostuff) - Java serialization library, proto compiler, code generator.
 
 ## Server
 
