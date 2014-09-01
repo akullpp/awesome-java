@@ -62,16 +62,17 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries to manipulate Java bytecode programmatically.*
 
-* [ASM](http://asm.ow2.org/) - All purpose, low level, Java bytecode manipulation and analysis framework.
-* [cglib](https://github.com/cglib/cglib/) - High level library to generate and transform Java byte code.
-* [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Class library for easy editing of Java bytecode.
+* [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
+* [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Easy editing of bytecode.
 
 ## Code Analysis
 
 *Tools that provide metrics and quality measurements of static code.*
 
+* [Checkstyle](http://checkstyle.sourceforge.net/) - Static analysis of coding conventions and standards.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
-* [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality. It integrates with several external tools like Gradle, Jira and Jenkins and provides an overview of the metrics over time.
+* [PMD](http://pmd.sourceforge.net/) - Source code analysis of bad coding practices.
+* [SonarQube](http://www.sonarqube.org/) - Inspection tool for code quality. It integrates other analysis components via plugins and provides an overview of the metrics over time.
 
 ## Compiler-compiler
 
@@ -85,8 +86,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Tools which support continuously building, testing and releasing applications.*
 
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based services. Often seen as the successor to Hudson, although it is still actively developed.
-* [Shippable](https://www.shippable.com/) - Based on Docker, it provides also Bitbucket integration.
-* [Travis](https://travis-ci.org) - A hosted continuous integration service that integrates with GitHub repositories.
+* [Shippable](https://www.shippable.com/) - Based on Docker. Provides Bitbucket integration.
+* [Travis](https://travis-ci.org) - Hosted continuous integration service that integrates with GitHub repositories.
 
 ## Database
 
@@ -94,9 +95,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
-* [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
+* [Liquibase](http://www.liquibase.org/) - Embeddable source control for your database.
 * [presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
-* [Querydsl](http://www.querydsl.com/) - Typesafe Unified Queries for Java.
+* [Querydsl](http://www.querydsl.com/) - Typesafe unified queries for Java.
 
 ## Date and Time
 
@@ -111,8 +112,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that help to realize the [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
 * [Dagger](http://square.github.io/dagger/) - Compile-time injection framework without reflection, mainly for Android.
-* [Google Guice](http://de.wikipedia.org/wiki/Google_Guice) - Lightweight but powerful framework.
-* [Spring](http://spring.io/) - Only Spring Context is needed for injections.
+* [Google Guice](http://de.wikipedia.org/wiki/Google_Guice) - Lightweight but powerful framework that completes Dagger.
+* [Spring](http://spring.io/) - Spring Context provides DI.
 * [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) - CDI reference implementation.
 
 ## Development
