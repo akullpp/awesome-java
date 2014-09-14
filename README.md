@@ -223,6 +223,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Logback](http://logback.qos.ch/) - Founded by the same developer as Log4j and proves to be a robust logging library with interesting configuration options via Groovy.
 * [logstash](http://logstash.net/) - Tool for managing log files.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
+* [Light Logging Configurer](http://la-team.github.io/light-logging-configurer/) - Pluggable UI library for runtime logging configuration 
 
 ## Machine Learning
 
@@ -404,6 +405,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+* [LightAdmin](http://lightadmin.org) - Pluggable CRUD and data administration UI library for Java web applications developed in a "Rapid" manner
 
 # Resources
 
