@@ -223,6 +223,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Logback](http://logback.qos.ch/) - Founded by the same developer as Log4j and proves to be a robust logging library with interesting configuration options via Groovy.
 * [logstash](http://logstash.net/) - Tool for managing log files.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
+* [Light Logging Configurer](http://la-team.github.io/light-logging-configurer/) - Pluggable UI library for runtime logging configuration 
 
 ## Machine Learning
 
