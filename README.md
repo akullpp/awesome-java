@@ -452,7 +452,7 @@ h
 * [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
 * [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
 * [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
-* [Simon Maple](https://twitter.com/sjmaple) - Technical Evangelist for ZeroTurnaround. Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
+* [Simon Maple](https://twitter.com/sjmaple) - Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
 * [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
 * [Tim Boudreau](https://twitter.com/kablosna) - Author and NetBeans guru.
 * [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
