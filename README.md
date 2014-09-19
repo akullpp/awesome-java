@@ -456,6 +456,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Javalobby](http://java.dzone.com/)
 * [JavaWorld](http://www.javaworld.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
+* [Design Patterns](https://github.com/iluwatar/java-design-patterns)
 
 # Contributing
 
