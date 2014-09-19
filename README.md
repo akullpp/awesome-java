@@ -63,7 +63,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries to manipulate Java bytecode programmatically.*
 
 * [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
-* [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Easy editing of bytecode.
+* [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Tries to simplify the editing of bytecode.
 
 ## Code Analysis
 
