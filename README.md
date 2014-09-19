@@ -247,6 +247,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Everything else.*
 
 * [AspectJ](https://eclipse.org/aspectj/) - Aspect-oriented programming for Java.
+* [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
@@ -456,7 +457,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Javalobby](http://java.dzone.com/)
 * [JavaWorld](http://www.javaworld.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
-* [Design Patterns](https://github.com/iluwatar/java-design-patterns)
 
 # Contributing
 
