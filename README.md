@@ -432,31 +432,42 @@ h
 
 ## Twitter
 
-*People to follow.*
+*Active accounts to follow.*
 
-* [Adam Bien](https://twitter.com/AdamBien/)
-* [Antonio Goncalves](https://twitter.com/agoncal/)
-* [Arun Gupta](https://twitter.com/arungupta/)
-* [Ed Burns](https://twitter.com/edburns)
-* [Java EE](https://twitter.com/Java_EE/)
-* [Java Magazine](https://twitter.com/Oraclejavamag)
-* [Java.net](https://twitter.com/javanetbuzz/)
-* [Java](https://twitter.com/java/)
-* [Mark Reinhold](https://twitter.com/mreinhold)
-* [OpenJDK](https://twitter.com/OpenJDK)
-* [Pete Muir](https://twitter.com/plmuir/)
-* [Reza Rahman](https://twitter.com/reza_rahman)
-* [Simon Maple](https://twitter.com/sjmaple)
-* [Tim Boudreau](https://twitter.com/kablosna)
+* [Adam Bien](https://twitter.com/AdamBien/) - Freelancer: Author, JavaONE Rockstar Speaker, Consultant, Java Champion.
+* [Antonio Goncalves](https://twitter.com/agoncal/) - Java Champion, JUG Leader, Devoxx France, Java EE 6/7, JCP, Author.
+* [Arun Gupta](https://twitter.com/arungupta/) - Java Champion, JavaOne Rockstar, UG Leader, Devoxx4Kids-er, Red Hatter.
+* [Bruno Borges](https://twitter.com/brunoborges) - Product Manager/Java Jock at Oracle.
+* [Ed Burns](https://twitter.com/edburns) - Consulting Member of the Technical Staff at Oracle.
+* [Eugen Paraschiv](https://twitter.com/baeldung) - Author of the Spring Security Course.
+* [James Weaver](https://twitter.com/JavaFXpert) - Java/JavaFX/IoT developer, author and speaker.
+* [Java EE](https://twitter.com/Java_EE/) - Official Java EE Twitter account.
+* [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
+* [Java.net](https://twitter.com/javanetbuzz/) - Official Java.net account.
+* [Java](https://twitter.com/java/) - Official Java Twitter account.
+* [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
+* [Lukas Eder](https://twitter.com/lukaseder) - Founder and CEO Data Geekery (jOOQ).
+* [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
+* [Martijn Verburg](https://twitter.com/karianna) - London JUG co-leader, speaker, author, Java Champion and much more.
+* [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, Drools core developer, Milano Jug coordinator, frequent speaker and author.
+* [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
+* [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
+* [Simon Maple](https://twitter.com/sjmaple) - Technical Evangelist for ZeroTurnaround. Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
+* [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
+* [Tim Boudreau](https://twitter.com/kablosna) - Author and NetBeans guru.
+* [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
 
 ## Websites
 
 *Sites to read.*
 
+* [InfoQ](http://www.infoq.com/)
 * [Java.net](http://java.net/)
 * [Javalobby](http://java.dzone.com/)
 * [JavaWorld](http://www.javaworld.com/)
+* [Java Code Geeks](http://www.javacodegeeks.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
+* [TheServerSide.com](http://www.theserverside.com/)
 
 # Contributing
 
