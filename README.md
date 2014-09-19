@@ -449,7 +449,7 @@ h
 * [Lukas Eder](https://twitter.com/lukaseder) - Founder and CEO Data Geekery (jOOQ).
 * [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
 * [Martijn Verburg](https://twitter.com/karianna) - London JUG co-leader, speaker, author, Java Champion and much more.
-* [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, Drools core developer, Milano Jug coordinator, frequent speaker and author.
+* [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
 * [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
 * [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
 * [Simon Maple](https://twitter.com/sjmaple) - Technical Evangelist for ZeroTurnaround. Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
@@ -474,5 +474,3 @@ h
 Contributions are very welcome!
 
 Please have a look at [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) for guidelines.
-
-Topics which have no libraries as of yet are located in [TOPICS](https://github.com/akullpp/awesome-java/blob/master/TOPICS.md).
