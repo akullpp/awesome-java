@@ -105,10 +105,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 ## Date and Time
 
-*Libraries related to date and time.*
+*Libraries related to handling date and time.*
 
-* [Java 8 SE: Date and Time API](http://www.oracle.com/technetwork/articles/java/jf14-date-time-2125367.html) - Basically, it incorporates Joda-Time.
-* [Joda-Time](http://joda-time.sourceforge.net/) - De facto standard date/time-library before Java 8.
+* [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
 * [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library for Java.
 
 ## Dependency Injection
@@ -116,16 +115,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that help to realize the [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
 * [Dagger](http://square.github.io/dagger/) - Compile-time injection framework without reflection, mainly for Android.
-* [Google Guice](http://de.wikipedia.org/wiki/Google_Guice) - Lightweight but powerful framework that completes Dagger.
-* [Spring](http://spring.io/) - Spring Context provides DI.
-* [Weld](http://docs.jboss.org/weld/reference/latest/en-US/html_single/) - CDI reference implementation.
+* [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
 
 ## Development
 
 *Integrated environments that augment the process of development at a fundamental level.*
 
-* [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
+* [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime. OpenJDK 7/8 are supported by [this fork](http://dcevm.github.io/).
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
+* [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Another class reloading agent for the JVM.
 * [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 * [vert.x](http://vertx.io/) - Polyglot event-driven application framework for the JVM.
 
