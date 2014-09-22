@@ -145,7 +145,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Tools which handle the distribution of Java applications in native formats.*
 
 * [Bintray](https://bintray.com/) - Version control for your binaries which handles the publishing. Can also be used with Maven or Gradle.
-* [IzPack](http://izpack.org/) - Setup authoring tool for cross-plattform deployments.
+* [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
 * [packr](https://github.com/libgdx/packr#packr) - Packs your JAR, assets and JVM for native distribution on Windows, Linux and Mac OS X.
 
@@ -153,7 +153,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries that assist with processing office document formats.*
 
-* [Apache POI](http://poi.apache.org/) - Supports OOXML (e.g XLSX, DOCX, PPTX) as well as OLE2 (e.g. XLS, DOC or PPT).
+* [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
 * [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
 
 ## Game Development
