@@ -67,7 +67,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 ## Code Analysis
 
-*Tools that provide metrics and quality measurements of static code.*
+*Tools that provide metrics and quality measurements.*
 
 * [Checkstyle](http://checkstyle.sourceforge.net/) - Static analysis of coding conventions and standards.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
@@ -76,7 +76,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 ## Compiler-compiler
 
-*Tools that create parsers, interpreters or compilers.*
+*Frameworks that help to create parsers, interpreters or compilers.*
 
 * [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
 * [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
@@ -85,9 +85,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Tools which support continuously building, testing and releasing applications.*
 
+* [Bamboo](https://www.atlassian.com/software/bamboo) Atlassian's CI solution with good integration of other products. 
+* [Go](http://www.thoughtworks.com/products/go-continuous-delivery) ThoughtWork's CI open source solution.
+* [TeamCity](http://www.jetbrains.com/teamcity/) JetBrain's CI solution with a free version.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-* [Shippable](https://www.shippable.com/) - Based on Docker with Bitbucket integration.
-* [Travis](https://travis-ci.org) - Hosted service that integrates with GitHub repositories.
+* [Travis](https://travis-ci.org) - Hosted service often used for open source projects.
+* [Codeship](https://www.codeship.io/features) - Hosted services with a limited free plan.
+* [CircleCI](https://circleci.com/) - Hosted service with a free trial.
 
 ## Database
 
@@ -95,8 +99,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
-* [Liquibase](http://www.liquibase.org/) - Embeddable source control for your database.
-* [presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
+* [Flyway](http://flywaydb.org/) - Simple database migration with Java API.
+* [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries for Java.
 
 ## Date and Time
