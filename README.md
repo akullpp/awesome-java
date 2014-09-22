@@ -350,6 +350,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [FreeMarker](http://freemarker.org/) - General templating engine without any heavyweight or opinionated dependencies.
 * [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates with Java.
 * [JavaServer Pages](https://jsp.java.net/) - Aged templating for websites with custom tag libraries.
+* [SiteMesh](http://sitemesh.org/) - SiteMesh is a lightweight and flexible Java web application framework that applies the Gang of Four decorator pattern to allow a clean separation of content from presentation.
 * [StringTemplate](http://www.stringtemplate.org/) - Java template engine for generating source code, web pages, emails, or any other formatted text output.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
