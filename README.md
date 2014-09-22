@@ -85,21 +85,21 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Tools which support continuously building, testing and releasing applications.*
 
-* [Bamboo](https://www.atlassian.com/software/bamboo) Atlassian's CI solution with good integration of other products. 
-* [Go](http://www.thoughtworks.com/products/go-continuous-delivery) ThoughtWork's CI open source solution.
-* [TeamCity](http://www.jetbrains.com/teamcity/) JetBrain's CI solution with a free version.
-* [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-* [Travis](https://travis-ci.org) - Hosted service often used for open source projects.
-* [Codeship](https://www.codeship.io/features) - Hosted services with a limited free plan.
+* [Bamboo](https://www.atlassian.com/software/bamboo) Atlassian's CI solution with good integration of other products.
 * [CircleCI](https://circleci.com/) - Hosted service with a free trial.
+* [Codeship](https://www.codeship.io/features) - Hosted services with a limited free plan.
+* [Go](http://www.thoughtworks.com/products/go-continuous-delivery) ThoughtWork's CI open source solution.
+* [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
+* [TeamCity](http://www.jetbrains.com/teamcity/) JetBrain's CI solution with a free version.
+* [Travis](https://travis-ci.org) - Hosted service often used for open source projects.
 
 ## Database
 
 *Everything which simplifies interactions with the database.*
 
+* [Flyway](http://flywaydb.org/) - Simple database migration with Java API.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
-* [Flyway](http://flywaydb.org/) - Simple database migration with Java API.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries for Java.
 
@@ -123,10 +123,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [AspectJ](https://eclipse.org/aspectj/) - Aspect-oriented programming for Java.
 * [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime. OpenJDK 7/8 are supported by [this fork](http://dcevm.github.io/).
-* [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
-* [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Another class reloading agent for the JVM.
+* [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
 * [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
+* [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Another class reloading agent for the JVM.
 * [vert.x](http://vertx.io/) - Polyglot event-driven application framework for the JVM.
 
 ## Distributed Applications
@@ -146,9 +146,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Tools which handle the distribution of Java applications in native formats.*
 
 * [Bintray](https://bintray.com/) - Version control for your binaries which handles the publishing. Can also be used with Maven or Gradle.
+* [IzPack](http://izpack.org/) - Setup authoring tool for cross-plattform deployments.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
 * [packr](https://github.com/libgdx/packr#packr) - Packs your JAR, assets and JVM for native distribution on Windows, Linux and Mac OS X.
-* [IzPack](http://izpack.org/) - Setup authoring tool for cross-plattform deployments.
 
 ## Document Processing
 
@@ -218,10 +218,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that log the behavior of an application.*
 
 * [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite of the previous version. Now has a powerful plugin and configuration architecture.
+* [kibana](http://www.elasticsearch.org/overview/kibana/) - Analyzes and visualizes log files.
 * [Logback](http://logback.qos.ch/) - Founded by the same developer as Log4j and proves to be a robust logging library with interesting configuration options via Groovy.
 * [logstash](http://logstash.net/) - Tool for managing log files.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
-* [kibana](http://www.elasticsearch.org/overview/kibana/) - Analyzes and visualizes log files.
 
 ## Machine Learning
 
@@ -265,8 +265,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries for network programming.*
 
 * [Netty](http://netty.io/) - A framework for building high performance network applications.
-* [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [OkHttp](http://square.github.io/okhttp/) - An HTTP+SPDY client for Android and Java applications.
+* [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 
 ## ORM
 
@@ -430,9 +430,9 @@ h
 * [Java](https://twitter.com/java/) - Official Java Twitter account.
 * [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
 * [Lukas Eder](https://twitter.com/lukaseder) - Founder and CEO Data Geekery (jOOQ).
+* [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
 * [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
 * [Martijn Verburg](https://twitter.com/karianna) - London JUG co-leader, speaker, author, Java Champion and much more.
-* [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
 * [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
 * [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
 * [Simon Maple](https://twitter.com/sjmaple) - Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
@@ -444,15 +444,15 @@ h
 
 *Sites to read.*
 
+* [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [InfoQ](http://www.infoq.com/)
+* [Java Code Geeks](http://www.javacodegeeks.com/)
 * [Java.net](http://java.net/)
 * [Javalobby](http://java.dzone.com/)
 * [JavaWorld](http://www.javaworld.com/)
-* [Java Code Geeks](http://www.javacodegeeks.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
-* [TheServerSide.com](http://www.theserverside.com/)
-* [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
+* [TheServerSide.com](http://www.theserverside.com/)
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
 
 # Contributing
