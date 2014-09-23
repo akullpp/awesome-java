@@ -247,6 +247,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
+* [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 * [Metrics](http://metrics.codahale.com/) - Create your own metrics or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database.
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
