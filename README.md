@@ -24,6 +24,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [JVM and JDK](#jvm-and-jdk)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
+    - [HTML parsers](#html-parsers)
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
@@ -231,6 +232,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache Spark](http://spark.apache.org/) - Open-source data analytics cluster computing framework.
 * [h2o](http://0xdata.github.io/h2o/) - Analytics engine for statistics over big data.
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
+
+## HTML Parsers
+
+* [Validator NU](http://about.validator.nu/htmlparser/) - Open source html5 parser. Supports SAX, DOM, XOM.
+* [TagSoup](http://home.ccil.org/~cowan/tagsoup/) - Open source html parser.
+* [JSoup](http://jsoup.org/) - Open source html parser that also implements CSS selectors. Doesn't expose a w3c DOM document but a proprietary one.
+* [Mozilla](http://mozillaparser.sourceforge.net/) - Open source html parser that embeds a version of the mozilla native C parser. Note that the parser implementation is pretty old(from year 2008)
+* [Jericho](http://jericho.htmlparser.net/docs/index.html) - Open source html parser that works on the character stream instead of building a tree document reorientation. For that same reason it should be a lot faster for most usecases.
+
 
 ## Messaging
 
