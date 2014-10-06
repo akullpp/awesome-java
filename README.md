@@ -274,6 +274,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
+* [DataNucleus Access Platform](http://www.datanucleus.org/documentation/products/accessplatform.html) - DataNucleus AccessPlatform provides persistence and retrieval of data to a range of datastores using a range of APIs, with a range of query languages.
 
 ## PDF
 
