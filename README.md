@@ -83,12 +83,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Tools which support continuously building, testing and releasing applications.*
 
-* [Bamboo](https://www.atlassian.com/software/bamboo) Atlassian's CI solution with good integration of other products.
+* [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's CI solution with good integration of other products.
 * [CircleCI](https://circleci.com/) - Hosted service with a free trial.
 * [Codeship](https://www.codeship.io/features) - Hosted services with a limited free plan.
-* [Go](http://www.thoughtworks.com/products/go-continuous-delivery) ThoughtWork's CI open source solution.
+* [Go](http://www.thoughtworks.com/products/go-continuous-delivery) - ThoughtWork's CI open source solution.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-* [TeamCity](http://www.jetbrains.com/teamcity/) JetBrain's CI solution with a free version.
+* [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
 * [Travis](https://travis-ci.org) - Hosted service often used for open source projects.
 
 ## Database
