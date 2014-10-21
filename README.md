@@ -357,6 +357,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [JUnit](http://junit.org/) - Common testing framework.
 * [Mockito](http://code.google.com/p/mockito/) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
+* [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [TestNG](http://testng.org/) - Testing framework.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
 
