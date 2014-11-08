@@ -294,6 +294,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
+* [Spark](http://www.sparkjava.com/) - A Sinatra inspired framework for java.
 * [Swagger](https://helloreverb.com/developers/swagger) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
 
 ## Science
