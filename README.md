@@ -395,6 +395,7 @@ h
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
+* [Ratpack](http://www.ratpack.io/) - Light-weight, asynchronous Java based, Groovy friendly web application framework.
 
 # Resources
 
