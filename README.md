@@ -269,7 +269,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Netty](http://netty.io/) - A framework for building high performance network applications.
 * [OkHttp](http://square.github.io/okhttp/) - An HTTP+SPDY client for Android and Java applications.
-* [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 
 ## ORM
 
@@ -395,6 +394,7 @@ h
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
+* [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 
 # Resources
 
