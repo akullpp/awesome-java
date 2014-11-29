@@ -63,6 +63,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
 * [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Tries to simplify the editing of bytecode.
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
+* [cglib](https://github.com/cglib/cglib/wiki) - Byte Code Generation Library is high level API to generate and transform Java byte code. It is used by AOP, testing, data access frameworks to generate dynamic proxy objects and intercept field access.
+
 
 ## Code Analysis
 
@@ -270,6 +272,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Netty](http://netty.io/) - A framework for building high performance network applications.
 * [OkHttp](http://square.github.io/okhttp/) - An HTTP+SPDY client for Android and Java applications.
 * [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
+* [MINA](http://mina.apache.org/mina-project/index.html) -Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract event-driven asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO.
 
 ## ORM
 
@@ -278,6 +281,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
 * [Ebean](http://ebean-orm.github.io/) - ORM Framework that provides fast data access and even faster coding.
+* [MyBatis](http://mybatis.github.io/mybatis-3/) - The MyBatis data mapper framework makes it easier to use a relational database with object-oriented applications. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations. Simplicity is the biggest advantage of the MyBatis data mapper over object relational mapping tools. 
 
 ## PDF
 
