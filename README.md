@@ -97,7 +97,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Everything which simplifies interactions with the database.*
 
 * [Flyway](http://flywaydb.org/) - Simple database migration with Java API.
-* [h2](http://h2database.com/html/main.html) - Java Based SQL Database
+* [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
@@ -318,6 +318,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that handle security, authentication, authorization or session management.*
 
 * [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
+* [Cryptomator](http://cryptomator.org/) - Multiplatform transparent client-side encryption of files in the cloud.
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Currently in beta but looks very promising.
 * [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java applications.
 * [Spring Security](http://projects.spring.io/spring-security/) - Focuses on authentication/authorization and protects against several attack vectors.
