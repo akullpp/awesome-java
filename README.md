@@ -116,6 +116,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Dagger](http://square.github.io/dagger/) - Compile-time injection framework without reflection, mainly for Android.
 * [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
+* [OpenWebBeans](http://openwebbeans.apache.org/) - Apache's CDI implementation
 
 ## Development
 
