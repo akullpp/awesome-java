@@ -462,6 +462,7 @@ h
 * [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
 * [TheServerSide.com](http://www.theserverside.com/)
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
+* [Voxxed](https://www.voxxed.com/)
 
 # Contributing
 
