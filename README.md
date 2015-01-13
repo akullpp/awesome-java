@@ -206,6 +206,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Gson](https://code.google.com/p/google-gson/) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
+* [Fastjson](https://github.com/alibaba/fastjson/wiki) - JSON processor (JSON parser + JSON generator) which is measured to be faster than any other Java parser and databinder, includes jackson.
 
 ## JVM and JDK
 
