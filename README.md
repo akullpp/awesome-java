@@ -199,6 +199,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
 * [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
+* [Imgscalr](https://github.com/thebuzzmedia/imgscalr) - Imgscalr is an very simple and efficient (hardware accelerated) image-scaling library implemented in pure Java 2D.
+* [Thumbnailator](https://code.google.com/p/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
 
 ## JSON
 
