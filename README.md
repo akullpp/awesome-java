@@ -465,6 +465,7 @@ h
 * [TheServerSide.com](http://www.theserverside.com/)
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
 * [Voxxed](https://www.voxxed.com/)
+* [JAXenter](http://jaxenter.com/)
 
 # Contributing
 
