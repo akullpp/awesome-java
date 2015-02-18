@@ -61,8 +61,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries to manipulate Java bytecode programmatically.*
 
 * [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
-* [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Tries to simplify the editing of bytecode.
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
+* [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Tries to simplify the editing of bytecode.
 
 ## Code Analysis
 
@@ -197,10 +197,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries that assist with the creation, evaluation or manipulation of graphical images.*
 
-* [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
-* [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
 * [Imgscalr](https://github.com/thebuzzmedia/imgscalr) - Imgscalr is an very simple and efficient (hardware accelerated) image-scaling library implemented in pure Java 2D.
+* [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
 * [Thumbnailator](https://code.google.com/p/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
+* [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
 
 ## JSON
 
@@ -277,9 +277,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *APIs which handle the persistence of objects.*
 
+* [Ebean](http://ebean-orm.github.io/) - ORM Framework that provides fast data access and even faster coding.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
-* [Ebean](http://ebean-orm.github.io/) - ORM Framework that provides fast data access and even faster coding.
 
 ## PDF
 
@@ -363,8 +363,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM.
 * [JUnit](http://junit.org/) - Common testing framework.
 * [Mockito](http://code.google.com/p/mockito/) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
-* [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
+* [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [TestNG](http://testng.org/) - Testing framework.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
 
@@ -393,13 +393,13 @@ h
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
+* [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
+* [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
-* [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
-* [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 
 # Resources
 
@@ -462,12 +462,12 @@ h
 * [Java.net](http://java.net/)
 * [Javalobby](http://java.dzone.com/)
 * [JavaWorld](http://www.javaworld.com/)
+* [JAXenter](http://jaxenter.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
 * [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
 * [TheServerSide.com](http://www.theserverside.com/)
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
 * [Voxxed](https://www.voxxed.com/)
-* [JAXenter](http://jaxenter.com/)
 
 # Contributing
 
