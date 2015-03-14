@@ -22,6 +22,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Imagery](#imagery)
     - [JSON](#json)
     - [JVM and JDK](#jvm-and-jdk)
+    - [Embedded key-value stores](#embedded-key-value-stores)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
@@ -215,6 +216,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
 * [OpenJDK](http://openjdk.java.net/) - Open source implementation.
+
+## Embedded key-value stores
+
+*Embedded key-value storage libraries.*
+
+* [LevelDB](https://github.com/dain/leveldb) - Port of LevelDB to Java.
+* [LMDB JNI](https://github.com/deephacks/lmdbjni) - LMDB for Java.
+* [RocksDB](https://github.com/facebook/rocksdb) - RocksDB for Java.
 
 ## Logging
 
