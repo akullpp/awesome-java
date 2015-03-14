@@ -13,6 +13,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
+    - [Distributed Databases](#distributed-databases)
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
     - [Game Development](#game-development)
@@ -141,6 +142,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Hystrix](https://github.com/Netflix/Hystrix) - Latency and Fault Tolerance for Distributed Systems.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
+
+## Distributed Databases
+
+*Databases in a distributed system that appear to applications as a single data source.*
+
+* [Apache Cassandra](http://cassandra.apache.org) - Apache Cassandra is a distributed column-oriented database providing high availability with no single point of failure.
+* [Apache HBase](http://hbase.apache.org) - Apache HBase is the Hadoop database, a distributed, scalable, big data store.
 
 ## Distribution
 
