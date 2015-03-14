@@ -230,6 +230,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Tools that provide specific statistical algorithms which allow to learn from data.*
 
+* [Apache Flink](https://flink.apache.org/) - Fast and reliable large-scale data processing engine.
 * [Apache Hadoop](http://hadoop.apache.org/) - Open-source software framework for storage and large-scale processing of data-sets on clusters of commodity hardware.
 * [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification.
 * [Apache Spark](http://spark.apache.org/) - Open-source data analytics cluster computing framework.
