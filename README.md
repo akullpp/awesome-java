@@ -42,6 +42,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Utility](#utility)
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
+    - [XML](#xml)
 - [Resources](#resources)
     - [Communities](#communities)
     - [Influential Books](#influential-books)
@@ -401,7 +402,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 ## Web Frameworks
 
 *Frameworks that handle the communication between the layers of an web application.*
-h
+
 * [Apache Tapestry](http://tapestry.apache.org/) - Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
@@ -413,6 +414,12 @@ h
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+
+## XML
+
+*Libraries that simplify XML processing*
+
+* [VTD-XML](http://vtd-xml.sourceforge.net/) - XimpleWare's VTD-XML is, far and away, the industry's most advanced and powerful XML processing model for SOA and Cloud Computing!
 
 # Resources
 
