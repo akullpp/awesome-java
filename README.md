@@ -435,7 +435,7 @@ h
 
 *Something to listen to while programming.*
 
-* [The Java Posse](http://www.javaposse.com/)
+* [The Java Posse](http://www.javaposse.com/) (discontinued as of 02/2015)
 
 ## Twitter
 
