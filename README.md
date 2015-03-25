@@ -125,7 +125,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
 * [Auto](https://github.com/google/auto) - Collection of source code generators.
-* [DCEVM](http://ssw.jku.at/dcevm/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime. OpenJDK 7/8 are supported by [this fork](http://dcevm.github.io/).
+* [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
 * [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
