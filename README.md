@@ -192,6 +192,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
+* [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
 * [Trove](http://trove.starlight-systems.com/) - Primitive collections.
 
 ## IDE
