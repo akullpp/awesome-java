@@ -281,7 +281,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries for network programming.*
 
-* [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Jetty.
+* [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
 * [Netty](http://netty.io/) - A framework for building high performance network applications.
 * [OkHttp](http://square.github.io/okhttp/) - An HTTP+SPDY client for Android and Java applications.
 * [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
