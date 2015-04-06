@@ -373,6 +373,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform with integration of Java EE containers.
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
+* [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM.
 * [JUnit](http://junit.org/) - Common testing framework.
 * [Mockito](http://code.google.com/p/mockito/) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
