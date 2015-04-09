@@ -266,7 +266,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 * [Metrics](http://metrics.codahale.com/) - Create your own metrics or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database.
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
-* [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
+* [RoboVM](http://www.robovm.org/) - Commercial framework with a free trial to write native iOS apps in Java.
 
 ## Natural Language Processing
 
