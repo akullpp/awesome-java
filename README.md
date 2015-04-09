@@ -243,7 +243,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache Hadoop](http://hadoop.apache.org/) - Open-source software framework for storage and large-scale processing of data-sets on clusters of commodity hardware.
 * [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification.
 * [Apache Spark](http://spark.apache.org/) - Open-source data analytics cluster computing framework.
-* [h2o](http://0xdata.github.io/h2o/) - Analytics engine for statistics over big data.
+* [H2O](http://0xdata.com/) - Analytics engine for statistics over big data.
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 ## Messaging
