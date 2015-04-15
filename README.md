@@ -27,6 +27,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
+    - [Monitoring](#monitoring)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
     - [ORM](#orm)
@@ -267,6 +268,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Metrics](http://metrics.codahale.com/) - Create your own metrics or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database.
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Write native iOS apps in Java.
+
+## Monitoring
+
+*Tools that monitor applications in production.*
+
+* [New Relic](http://newrelic.com/) - Cloud application software management.
+* [Takipi](https://www.takipi.com/) - See the code and variable values behind the errors on your server.
 
 ## Natural Language Processing
 
