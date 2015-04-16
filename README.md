@@ -150,6 +150,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Cassandra](http://cassandra.apache.org) - Apache Cassandra is a distributed column-oriented database providing high availability with no single point of failure.
 * [Apache HBase](http://hbase.apache.org) - Apache HBase is the Hadoop database, a distributed, scalable, big data store.
+* [Infinispan](http://infinispan.org/) -  Distributed and highly concurrent key/value datastore used for caching.
 
 ## Distribution
 
