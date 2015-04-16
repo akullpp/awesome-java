@@ -281,8 +281,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries for network programming.*
 
+* [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
 * [Netty](http://netty.io/) - A framework for building high performance network applications.
 * [OkHttp](http://square.github.io/okhttp/) - An HTTP+SPDY client for Android and Java applications.
+* [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
 
 ## ORM
 
@@ -385,6 +387,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries which provide general utility functions.*
 
+* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
 * [Guava](http://code.google.com/p/guava-libraries/) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [javatuples](http://www.javatuples.org/) - Does what it says, although the concept of tuples in general is debatable.
