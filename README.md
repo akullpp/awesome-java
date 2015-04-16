@@ -262,6 +262,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Everything else.*
 
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
+* [fabric8](http://fabric8.io/) - Integration platform for Java containers.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
