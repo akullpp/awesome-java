@@ -252,6 +252,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable unicast and multicast message transport.
 * [Apache ActiveMQ](http://activemq.apache.org/) - Open-source message broker that implements JMS and converts synchronous to asynchronous communication.
+* [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
 * [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
 * [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded.
 * [JeroMQ](https://github.com/zeromq/jeromq) - Pure Java implementation of ZeroMQ.
