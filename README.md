@@ -82,6 +82,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Everything which simplifies interactions with the database.*
 
+* [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
