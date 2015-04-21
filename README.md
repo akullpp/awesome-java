@@ -437,6 +437,7 @@ h
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
 * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+* [Java 8 in Action](http://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
 ## Podcasts
@@ -464,9 +465,12 @@ h
 * [Lukas Eder](https://twitter.com/lukaseder) - Founder and CEO Data Geekery (jOOQ).
 * [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
 * [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
+* [Markus Eisele](https://twitter.com/myfear) - Java EE evangelist, Red Hat
 * [Martijn Verburg](https://twitter.com/karianna) - London JUG co-leader, speaker, author, Java Champion and much more.
 * [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
+* [Peter Lawrey](https://twitter.com/PeterLawrey) - Peter Lawrey, Java performance expert
 * [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
+* [Roberto Cortez](https://twitter.com/radcortez) - Java EE/JPA expert, speaker, open source
 * [Simon Maple](https://twitter.com/sjmaple) - Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
 * [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
 * [Tim Boudreau](https://twitter.com/kablosna) - Author and NetBeans guru.
@@ -483,11 +487,15 @@ h
 * [Java.net](http://java.net/)
 * [Javalobby](http://java.dzone.com/)
 * [JavaWorld](http://www.javaworld.com/)
+* [Java, SQL, and jOOQ](http://blog.jooq.org/)
 * [JAXenter](http://jaxenter.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
 * [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
 * [TheServerSide.com](http://www.theserverside.com/)
+* [The Takipi Blog](http://blog.takipi.com/)
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
+* [Vanilla Java](http://vanillajava.blogspot.ch/)
+* [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
 
 # Contributing
