@@ -297,6 +297,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Ebean](http://ebean-orm.github.io/) - ORM Framework that provides fast data access and even faster coding.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
+* [MyBatis](http://mybatis.github.io/mybatis-3/) - Persistence framework that couples objects with stored procedures or SQL statements.
 * [OrmLite](http://ormlite.com/) - Lightweight ORM package avoiding the complexity and overhead of other ORM products.
 
 ## PDF
