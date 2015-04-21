@@ -387,6 +387,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [TestNG](http://testng.org/) - Testing framework.
+* [Unitils](http://www.unitils.org/) - Testing library divided into modules for unit and integration testing.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
 
 ## Utility
