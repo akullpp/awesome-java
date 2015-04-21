@@ -8,6 +8,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Compiler-compiler](#compiler-compiler)
     - [Continuous Integration](#continuous-integration)
     - [Database](#database)
+    - [Data structures](#data-structures)
     - [Date and Time](#date-and-time)
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
@@ -86,6 +87,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Source control for your database which can be embedded.
 * [presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
+
+## Data structures
+
+* [Apache Parquet](https://parquet.incubator.apache.org/) - A columnar storage format based on assembly algorithms from the Dremel paper by Google.
 
 ## Date and Time
 
