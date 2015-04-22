@@ -14,6 +14,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
     - [Distributed Databases](#distributed-databases)
+    - [Distributed Deployment](#distributed-deployment)
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
     - [Game Development](#game-development)
@@ -151,6 +152,13 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache Cassandra](http://cassandra.apache.org) - Apache Cassandra is a distributed column-oriented database providing high availability with no single point of failure.
 * [Apache HBase](http://hbase.apache.org) - Apache HBase is the Hadoop database, a distributed, scalable, big data store.
 * [Infinispan](http://infinispan.org/) -  Distributed and highly concurrent key/value datastore used for caching.
+
+## Distributed Deployment
+
+*Frameworks which can dynamically deploy applications into a distributed environment.*
+
+* [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
+* [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 ## Distribution
 
