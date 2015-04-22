@@ -7,6 +7,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
+    - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
     - [Database](#database)
     - [Date and Time](#date-and-time)
@@ -25,6 +26,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [JVM and JDK](#jvm-and-jdk)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
+    - [Mail](#mail)
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
@@ -63,6 +65,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
+* [Proxetta](http://jodd.org/doc/proxetta/index.html) - Simple dynamic proxies, unique in the way how pointcuts and advices are defined.
 * [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Tries to simplify the editing of bytecode.
 
 ## Code Analysis
@@ -81,6 +84,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
 * [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
 
+## Configuration
+
+*Libraries that provide external configuration.*
+
+* [Props](http://jodd.org/doc/props.html) - Properties on steroids.
+
 ## Continuous Integration
 
 *Tools which support continuously building, testing and releasing applications.*
@@ -97,6 +106,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Everything which simplifies interactions with the database.*
 
+* [DbOom](http://jodd.org/doc/db/index.html) - Simple JDBC wrapper and object mapper with template SQL.
 * [Flyway](http://flywaydb.org/) - Simple database migration with Java API.
 * [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
@@ -109,6 +119,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries related to handling date and time.*
 
+* [JDateTime](http://jodd.org/doc/jdatetime.html) - Developer-friendly, astronomically precise date/time class based on Julian dates.
 * [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
 * [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library for Java.
 
@@ -118,6 +129,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Dagger](http://square.github.io/dagger/) - Compile-time injection framework without reflection, mainly for Android.
 * [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
+* [Petite](http://jodd.org/doc/petite/index.html) - micro DI container.
 
 ## Development
 
@@ -219,6 +231,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Gson](https://code.google.com/p/google-gson/) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
+* [Jodd JSON](http://jodd.org/doc/json/index.html) - Easy-to-use JSON de/serializer with many features.
 
 ## JVM and JDK
 
@@ -247,6 +260,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache Spark](http://spark.apache.org/) - Open-source data analytics cluster computing framework.
 * [H2O](http://0xdata.com/) - Analytics engine for statistics over big data.
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
+
+## Mail
+
+*Libraries that simplify sending and receiving emails.*
+
+* [Jodd EMail](http://jodd.org/doc/email.html) - Java mail, fluent and simplified.
 
 ## Messaging
 
@@ -286,6 +305,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries for network programming.*
 
 * [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
+* [Jodd HTTP](http://jodd.org/doc/http.html) - developer-friendly fluent HTTP library.
 * [Netty](http://netty.io/) - A framework for building high performance network applications.
 * [OkHttp](http://square.github.io/okhttp/) - An HTTP+SPDY client for Android and Java applications.
 * [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
@@ -394,6 +414,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [args4j](http://args4j.kohsuke.org/) - Command line arguments parser
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
+* [BeanUtil](http://jodd.org/doc/beanutil.html) - Rich, bean utility library, with types conversion.
 * [Guava](http://code.google.com/p/guava-libraries/) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [javatuples](http://www.javatuples.org/) - Does what it says, although the concept of tuples in general is debatable.
 * [JGraphT](http://jgrapht.org/) - A graph library that provides mathematical graph-theory objects and algorithms.
@@ -404,16 +425,19 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable Web crawler for production environment.
 * [Crawler4j](https://code.google.com/p/crawler4j/) - Simple lightweight alternative.
+* [Jerry](http://jodd.org/doc/jerry/index.html) - jQuery in Java.
 * [JSoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
+* [Lagarto](http://jodd.org/doc/lagarto/index.html) - All purpose (X)HTML parser.
 
 ## Web Frameworks
 
 *Frameworks that handle the communication between the layers of an web application.*
-h
+
 * [Apache Tapestry](http://tapestry.apache.org/) - Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
+* [Madvoc](http://jodd.org/doc/madvoc/index.html) - Fully-featured micro MVC web framework.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
