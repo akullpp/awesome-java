@@ -397,6 +397,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries which provide general utility functions.*
 
 * [args4j](http://args4j.kohsuke.org/) - Command line arguments parser
+* [JCommander](http://jcommander.org/) - Command line arguments parser; its been around, active, and maintained by the creator since 2010.
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [javatuples](http://www.javatuples.org/) - Does what it says, although the concept of tuples in general is debatable.
