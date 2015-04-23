@@ -326,6 +326,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Feign](https://github.com/Netflix/feign) - Java to HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
+* [RestX](http://restx.io) - Opinionated framework based one annotation processor, providing support for REST endpoint, type safe DI, hot compile/reload, API doc, metrics, specs-oriented endpoint testing.
 * [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
 * [Spark](http://www.sparkjava.com/) - A Sinatra inspired framework for java.
 * [Swagger](https://helloreverb.com/developers/swagger) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
