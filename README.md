@@ -387,6 +387,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [TestNG](http://testng.org/) - Testing framework.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
+* [Cucumber](https://github.com/cucumber/cucumber-jvm) - A BDD testing framework that supports the most popular programming languages for the JVM.
 
 ## Utility
 
