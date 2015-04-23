@@ -178,6 +178,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that facilitate functional programming in Java.*
 
 * [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition oriented development.
+* [Javaslang](http://javaslang.com) - Functional component library built for Java 8+ that provides persistent data types and functional control structures.
+* [jOOλ](https://github.com/jOOQ/jOOL) - An extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 
 ## Game Development
 
