@@ -28,6 +28,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
+    - [Native](#native)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
     - [ORM](#orm)
@@ -127,6 +128,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
 * [Auto](https://github.com/google/auto) - Collection of source code generators.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
+* [Immutables](http://immutables.github.io/) - Scala-like case classes in standard Java.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
 * [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
@@ -143,6 +145,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Hazelcast](http://hazelcast.org/) - Distributed and highly scalable in-memory datagrid.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Latency and Fault Tolerance for Distributed Systems.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters whose nodes can send messages to each other.
+* [Orbit](http://orbit.bioware.com/) - Virtual Actors, adding another level of abstraction to traditional Actors.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 
 ## Distributed Databases
@@ -224,7 +227,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries that simplify JSON processing.*
 
-* [Gson](https://code.google.com/p/google-gson/) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage.
+* [Gson](https://github.com/google/gson) - Serializes Java objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 
 ## JVM and JDK
@@ -278,6 +281,11 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Metrics](http://metrics.codahale.com/) - Create your own metrics or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database.
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Commercial framework with a free trial to write native iOS apps in Java.
+
+## Native
+*For working with platform-specific native libraries*
+
+* [JNA](https://github.com/twall/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. 
 
 ## Natural Language Processing
 
@@ -367,6 +375,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE.
 * [GlassFish](https://glassfish.java.net/) - Open source reference implementation for Java EE sponsored by Oracle.
 * [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
+* [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
 
 ## Template Engine
@@ -386,10 +395,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform with integration of Java EE containers.
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
+* [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM.
+* [JMockit](http://jmockit.org/) - The Mock Anything Toolkit for Java, mocks static, final methods and more.
 * [JUnit](http://junit.org/) - Common testing framework.
-* [Mockito](http://code.google.com/p/mockito/) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
+* [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [TestNG](http://testng.org/) - Testing framework.
@@ -400,8 +411,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries which provide general utility functions.*
 
 * [args4j](http://args4j.kohsuke.org/) - Command line arguments parser
+* [JCommander](http://jcommander.org/) - Command line arguments parser; its been around, active, and maintained by the creator since 2010.
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
-* [Guava](http://code.google.com/p/guava-libraries/) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
+* [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [javatuples](http://www.javatuples.org/) - Does what it says, although the concept of tuples in general is debatable.
 * [JGraphT](http://jgrapht.org/) - A graph library that provides mathematical graph-theory objects and algorithms.
 
@@ -410,7 +422,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that analyze the content of websites.*
 
 * [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable Web crawler for production environment.
-* [Crawler4j](https://code.google.com/p/crawler4j/) - Simple lightweight alternative.
+* [Crawler4j](https://github.com/yasserg/crawler4j) - Simple lightweight alternative.
 * [JSoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
 
 ## Web Frameworks
