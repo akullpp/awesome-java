@@ -403,7 +403,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that analyze the content of websites.*
 
 * [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable Web crawler for production environment.
-* [Crawler4j](https://code.google.com/p/crawler4j/) - Simple lightweight alternative.
+* [Crawler4j](https://github.com/yasserg/crawler4j) - Simple lightweight alternative.
 * [JSoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
 
 ## Web Frameworks
