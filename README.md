@@ -98,6 +98,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Everything which simplifies interactions with the database.*
 
+* [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
 * [Flyway](http://flywaydb.org/) - Simple database migration with Java API.
 * [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
