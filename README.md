@@ -389,7 +389,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [TestNG](http://testng.org/) - Testing framework.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
 
-
 ## Utility
 
 *Libraries which provide general utility functions.*
