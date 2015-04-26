@@ -16,6 +16,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Distributed Databases](#distributed-databases)
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
+    - [Functional Programming](#functional-programming)
     - [Game Development](#game-development)
     - [GUI](#gui)
     - [High Performance](#high-performance)
@@ -171,6 +172,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
 * [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
+
+## Functional Programming
+
+*Libraries that facilitate functional programming in Java.*
+
+* [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition oriented development.
+* [Javaslang](http://javaslang.com) - Functional component library built for Java 8+ that provides persistent data types and functional control structures.
+* [jOOλ](https://github.com/jOOQ/jOOL) - An extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 
 ## Game Development
 
