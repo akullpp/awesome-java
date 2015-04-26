@@ -356,6 +356,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications, includes Jetty, Jackson, Jersey and Metrics.
 * [Feign](https://github.com/Netflix/feign) - Java to HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
+* [Qbit](https://github.com/advantageous/qbit) - The Microservice Lib for Java - JSON, REST, WebSocket, Speed!
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestX](http://restx.io) - Opinionated framework based one annotation processor, providing support for REST endpoint, type safe DI, hot compile/reload, API doc, metrics, specs-oriented endpoint testing.
 * [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
