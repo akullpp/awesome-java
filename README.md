@@ -340,6 +340,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [iText](http://itextpdf.com/) - Easy to use PDF library which creates PDF files programmatically but requires a license for commercial purposes.
 * [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
 
+## Performance analysis
+
+*Tools for performance optimization and dynamic program analysis.*
+
+* [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial Java profiler.
+* [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial Java profiler.
+* [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
+
 ## REST Frameworks
 
 *Frameworks specifically for creating RESTful services.*
@@ -421,7 +429,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [TestNG](http://testng.org/) - Testing framework.
-* [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
 
 ## Utility
 
