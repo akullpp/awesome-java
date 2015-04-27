@@ -8,6 +8,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
+    - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
     - [Database](#database)
     - [Data structures](#data-structures)
@@ -91,6 +92,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
 * [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
+
+## Configuration
+
+*Libraries that provide external configuration.*
+
+* [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
 
 ## Continuous Integration
 
@@ -302,7 +309,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 ## Native
 *For working with platform-specific native libraries*
 
-* [JNA](https://github.com/twall/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. 
+* [JNA](https://github.com/twall/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
 
 ## Natural Language Processing
 
