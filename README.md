@@ -134,6 +134,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Dagger](http://square.github.io/dagger/) - Compile-time injection framework without reflection, mainly for Android.
 * [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
+* [HK2](https://hk2.java.net) - A light-weight and dynamic dependency injection framework.
 
 ## Development
 
