@@ -31,6 +31,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
+    - [Monitoring](#monitoring)
     - [Native](#native)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
@@ -308,6 +309,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Metrics](http://metrics.codahale.com/) - Create your own metrics or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database.
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Commercial framework with a free trial to write native iOS apps in Java.
+
+## Monitoring
+
+*Tools that monitor applications in production.*
+
+* [AppDynamics](http://www.appdynamics.com/) - Commercial performance monitor.
+* [New Relic](http://newrelic.com/) - Commercial performance monitor.
+* [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
 
 ## Native
 *For working with platform-specific native libraries.*
