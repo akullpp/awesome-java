@@ -178,6 +178,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Bintray](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for Open Source Software or several business plans.
 * [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
+* [Nexus](http://www.sonatype.com/nexus) - Binary management with proxy and caching capabilities.
 * [packr](https://github.com/libgdx/packr/) - Packs your JAR, assets and JVM for native distribution on Windows, Linux and Mac OS X.
 
 ## Document Processing
