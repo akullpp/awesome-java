@@ -394,6 +394,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries for scientific computing and analysis.*
 
+* [JADE](http://jade.tilab.com/) - Providers a framework and an environment to build and to debug multi-agent systems.
+* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
+* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [SCaVis](http://jwork.org/scavis/) - Environment for scientific computation, data analysis and data visualization.
 
 ## Search
