@@ -247,6 +247,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Eclipse](http://www.eclipse.org/) - Does a lot of things in the background. Noteworthy are its large amount of plugins.
 * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
+* [JDeveloper](http://www.oracle.com/technetwork/developer-tools/jdev/overview/index-094652.html) - Providers a complete environment to write Java SE and EE applications, as well as to develop SOA applications based on the [Oracle SOA Suite](http://www.oracle.com/us/products/middleware/soa/suite/overview/index.html).
 * [NetBeans](https://netbeans.org/) - Provides integration for several  Java SE and EE features starting with database access and servers to HTML5 and AngularJS.
 
 ## Imagery
@@ -491,6 +492,7 @@ h
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
+* [Oracle ADF](http://www.oracle.com/technetwork/developer-tools/adf/overview/index.html) - Providers a free and a commercial version framework to write web and mobile applications, following an event-driven approach.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
