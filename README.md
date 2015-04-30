@@ -394,6 +394,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries for scientific computing and analysis.*
 
+* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
 * [SCaVis](http://jwork.org/scavis/) - Environment for scientific computation, data analysis and data visualization.
 
 ## Search
