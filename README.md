@@ -247,7 +247,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Eclipse](http://www.eclipse.org/) - Does a lot of things in the background. Noteworthy are its large amount of plugins.
 * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
-* [JDeveloper](http://www.oracle.com/technetwork/developer-tools/jdev/overview/index-094652.html) - Providers a complete environment to write Java SE and EE applications, as well as to develop SOA applications based on the [Oracle SOA Suite](http://www.oracle.com/us/products/middleware/soa/suite/overview/index.html).
 * [NetBeans](https://netbeans.org/) - Provides integration for several  Java SE and EE features starting with database access and servers to HTML5 and AngularJS.
 
 ## Imagery
@@ -395,9 +394,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries for scientific computing and analysis.*
 
-* [JADE](http://jade.tilab.com/) - Providers a framework and an environment to build and to debug multi-agent systems.
-* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
-* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [SCaVis](http://jwork.org/scavis/) - Environment for scientific computation, data analysis and data visualization.
 
 ## Search
@@ -468,12 +464,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries which provide general utility functions.*
 
-* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser
-* [JCommander](http://jcommander.org/) - Command line arguments parser; its been around, active, and maintained by the creator since 2010.
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
+* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
+* [JADE](http://jade.tilab.com/) - Providers a framework and an environment to build and to debug multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Does what it says, although the concept of tuples in general is debatable.
+* [JCommander](http://jcommander.org/) - Command line arguments parser; its been around, active, and maintained by the creator since 2010.
 * [JGraphT](http://jgrapht.org/) - A graph library that provides mathematical graph-theory objects and algorithms.
+* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
+* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 
 ## Web Crawling
 
@@ -492,7 +491,6 @@ h
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
-* [Oracle ADF](http://www.oracle.com/technetwork/developer-tools/adf/overview/index.html) - Providers a free and a commercial version framework to write web and mobile applications, following an event-driven approach.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
