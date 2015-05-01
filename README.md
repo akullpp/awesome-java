@@ -149,7 +149,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Augmentation of the development process at a fundamental level.*
 
-* [ADT4J] (https://github.com/sviperll/adt4j) - Algebraic Data Types for Java (JSR-269 code generator)
+* [ADT4J](https://github.com/sviperll/adt4j) - Algebraic Data Types for Java (JSR-269 code generator)
 * [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
 * [Auto](https://github.com/google/auto) - Collection of source code generators.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
