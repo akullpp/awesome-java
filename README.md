@@ -70,6 +70,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
+* [cglib](https://github.com/cglib/cglib) - High level API to generate and transform Java byte code.
 * [Javassist](http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/) - Tries to simplify the editing of bytecode.
 
 ## Cluster Management
