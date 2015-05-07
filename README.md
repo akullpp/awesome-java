@@ -109,6 +109,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [CircleCI](https://circleci.com/) - Hosted service with a free trial.
 * [Codeship](https://www.codeship.io/features) - Hosted services with a limited free plan.
 * [Go](http://www.thoughtworks.com/products/go-continuous-delivery) - ThoughtWork's CI open source solution.
+* [Hudson](http://www.eclipse.org/hudson/) - Open source CI server from the Eclipse foundation used for [all their builds](https://hudson.eclipse.org/) and many others.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
 * [Travis](https://travis-ci.org) - Hosted service often used for open source projects.
