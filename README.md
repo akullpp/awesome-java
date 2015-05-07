@@ -10,6 +10,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
+    - [CSV](#csv)
     - [Database](#database)
     - [Data structures](#data-structures)
     - [Date and Time](#date-and-time)
@@ -111,6 +112,12 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
 * [Travis](https://travis-ci.org) - Hosted service often used for open source projects.
+
+## CSV
+
+* Frameworks and libraries that simplify reading/writing CSV data.*
+ 
+* [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV parsers for Java. Also comes with parsers for TSV and fixed width records.
 
 ## Database
 
