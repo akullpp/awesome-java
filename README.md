@@ -84,6 +84,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Tools that provide metrics and quality measurements.*
 
 * [Checkstyle](http://checkstyle.sourceforge.net/) - Static analysis of coding conventions and standards.
+* [ErrorProne](https://github.com/google/error-prone) - Catch common Java mistakes as compile-time errors from Google.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
 * [PMD](http://pmd.sourceforge.net/) - Source code analysis of bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
