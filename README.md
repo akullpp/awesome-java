@@ -9,7 +9,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
-    - [Constraint Satisfaction Problem (CSP) Solver](#constraint-satisfaction-problem-csp-solver)
+    - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
     - [Continuous Integration](#continuous-integration)
     - [Database](#database)
     - [Data structures](#data-structures)
@@ -101,9 +101,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
 
-## Constraint Satisfaction Problem (CSP) Solver
+## Constraint Satisfaction Problem Solver
 
-* [Choco](http://choco-solver.org/) - An off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques to solve constraint satisfaction problems (CSP).
+* [Choco](http://choco-solver.org/) - An off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques to solve constraint satisfaction problems.
 * [JaCoP](https://github.com/radsz/jacop/) - A constraint programming solver that includes an interface for the [FlatZinc language](https://www.minizinc.org/downloads/doc-1.6/flatzinc-spec.pdf), enabling it to execute [MiniZinc](http://www.minizinc.org/) models.
 * [OptaPlanner](http://www.optaplanner.org/) - A business planning and resource scheduling optimization solver.
 * [Sat4J](http://www.sat4j.org/) - A state-of-the-art SAT solver for boolean and optimization problems in Java.
