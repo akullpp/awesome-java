@@ -103,6 +103,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 ## Constraint Satisfaction Problem Solver
 
+*Libraries that help on implementing optimization and satisfiability problems.*
+
 * [Choco](http://choco-solver.org/) - An off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques to solve constraint satisfaction problems.
 * [JaCoP](https://github.com/radsz/jacop/) - A constraint programming solver that includes an interface for the [FlatZinc language](https://www.minizinc.org/downloads/doc-1.6/flatzinc-spec.pdf), enabling it to execute [MiniZinc](http://www.minizinc.org/) models.
 * [OptaPlanner](http://www.optaplanner.org/) - A business planning and resource scheduling optimization solver.
