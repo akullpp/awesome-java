@@ -509,6 +509,7 @@ h
 
 * [r/java](http://www.reddit.com/r/java) - Subreddit for the Java community.
 * [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
+* [vJUG](http://virtualjug.com/) - Online Java user group.
 
 ## Influential Books
 
@@ -524,6 +525,7 @@ h
 *Something to listen to while programming.*
 
 * [The Java Posse](http://www.javaposse.com/) (discontinued as of 02/2015)
+* [The Java Council](http://virtualjug.com/podcast/)
 
 ## Twitter
 
