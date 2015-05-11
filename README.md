@@ -215,6 +215,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
 * [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
+* [documents4j](http://documents4j.com) - Java API for document format conversion using third-party converters such as MS Word.
 
 ## Functional Programming
 
