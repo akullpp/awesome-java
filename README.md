@@ -258,7 +258,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Integrated development environments that try to simplify several aspects of development.*
 
-* [Eclipse](http://www.eclipse.org/) - Does a lot of things in the background. Noteworthy are its large amount of plugins.
+* [Eclipse](http://www.eclipse.org/) - Established, open-souce project with support for lots of plugins and languages.
 * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 * [NetBeans](https://netbeans.org/) - Provides integration for several  Java SE and EE features starting with database access and servers to HTML5 and AngularJS.
 
