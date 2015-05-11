@@ -9,6 +9,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Code Analysis](#code-analysis)
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
+    - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
     - [Continuous Integration](#continuous-integration)
     - [CSV](#csv)
     - [Database](#database)
@@ -100,6 +101,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that provide external configuration.*
 
 * [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
+
+## Constraint Satisfaction Problem Solver
+
+*Libraries that help on implementing optimization and satisfiability problems.*
+
+* [Choco](http://choco-solver.org/) - An off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques to solve constraint satisfaction problems.
+* [JaCoP](https://github.com/radsz/jacop/) - A constraint programming solver that includes an interface for the [FlatZinc language](https://www.minizinc.org/downloads/doc-1.6/flatzinc-spec.pdf), enabling it to execute [MiniZinc](http://www.minizinc.org/) models.
+* [OptaPlanner](http://www.optaplanner.org/) - A business planning and resource scheduling optimization solver.
+* [Sat4J](http://www.sat4j.org/) - A state-of-the-art SAT solver for boolean and optimization problems in Java.
 
 ## Continuous Integration
 
@@ -470,12 +480,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries which provide general utility functions.*
 
-* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser
-* [JCommander](http://jcommander.org/) - Command line arguments parser; its been around, active, and maintained by the creator since 2010.
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
+* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
+* [JADE](http://jade.tilab.com/) - Providers a framework and an environment to build and to debug multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Does what it says, although the concept of tuples in general is debatable.
+* [JCommander](http://jcommander.org/) - Command line arguments parser; its been around, active, and maintained by the creator since 2010.
 * [JGraphT](http://jgrapht.org/) - A graph library that provides mathematical graph-theory objects and algorithms.
+* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
+* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 
 ## Web Crawling
 
