@@ -384,6 +384,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
 * [iText](http://itextpdf.com/) - Easy to use PDF library which creates PDF files programmatically but requires a license for commercial purposes.
 * [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
+* [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer in pure Java.
 
 ## Performance analysis
 
