@@ -505,7 +505,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 ## Web Frameworks
 
 *Frameworks that handle the communication between the layers of an web application.*
-h
+
 * [Apache Tapestry](http://tapestry.apache.org/) - Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
