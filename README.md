@@ -428,6 +428,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Currently in beta but looks very promising.
 * [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java applications.
 * [Spring Security](http://projects.spring.io/spring-security/) - Focuses on authentication/authorization and protects against several attack vectors.
+* [TweetNacl](https://github.com/InstantWebP2P/tweetnacl-java) - Rewrite tweetnacl.c in pure Java.
 
 ## Serialization
 
