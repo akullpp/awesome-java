@@ -426,6 +426,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that handle security, authentication, authorization or session management.*
 
 * [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
+* [Bouncy Castle](https://www.bouncycastle.org/java.html) - All-purpose cryptographic library. JCA provider, wide range of functions from basic helpers to PGP/SMIME operations.
 * [Cryptomator](http://cryptomator.org/) - Multiplatform transparent client-side encryption of files in the cloud.
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Currently in beta but looks very promising.
 * [PicketLink](http://picketlink.org/) - PicketLink is an umbrella project for security and identity management for Java applications.
