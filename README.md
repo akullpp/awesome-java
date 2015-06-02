@@ -172,7 +172,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Auto](https://github.com/google/auto) - Collection of source code generators.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [Immutables](http://immutables.github.io/) - Scala-like case classes in standard Java.
-* [JHispter](https://github.com/jhipster/generator-jhipster) - A [Yeoman](http://yeoman.io/) source code generator to create Java applications based on [Spring Boot](http://projects.spring.io/spring-boot/) and [AngularJS](https://angularjs.org/).
+* [JHipster](https://github.com/jhipster/generator-jhipster) - A [Yeoman](http://yeoman.io/) source code generator to create Java applications based on [Spring Boot](http://projects.spring.io/spring-boot/) and [AngularJS](https://angularjs.org/).
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
 * [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
