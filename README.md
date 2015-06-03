@@ -337,7 +337,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 ## Mobile
 
-* [CodenameOne](http://www.codenmaeone.com/) - Create mobile native apps in Java, supports iOS, Android, Windows Phone, Blackberry and Javascript
+* [CodenameOne](http://www.codenameone.com/) - Create mobile native apps in Java, supports iOS, Android, Windows Phone, Blackberry and Javascript
 * [RoboVM](http://www.robovm.org/) - Commercial framework with a free trial to write native iOS apps in Java.
 
 ## Monitoring
