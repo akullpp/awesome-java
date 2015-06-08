@@ -119,6 +119,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of other products. You can either apply for an Open Source license or buy it.
 * [CircleCI](https://circleci.com/) - Hosted service with a free trial.
 * [Codeship](https://www.codeship.io/features) - Hosted services with a limited free plan.
+* [DotCi](https://github.com/groupon/DotCi) - It provides GitHub build management and continuous integration through docker on Jenkins.
 * [Go](http://www.thoughtworks.com/products/go-continuous-delivery) - ThoughtWork's CI open source solution.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
@@ -141,6 +142,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - An open source database-independent library for tracking, managing and applying database schema changes.
+* [MapDB](http://www.mapdb.org/) - An embedded database engine that provides concurrent Java collections backed on disk or in off-heap memory.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries for Java.
 
