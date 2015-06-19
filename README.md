@@ -519,6 +519,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
+* [Pippo](http://www.pippo.ro/) - A small, highly modularized Sinatra-like framework. 
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
