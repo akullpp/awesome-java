@@ -461,7 +461,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [FreeMarker](http://freemarker.org/) - General templating engine without any heavyweight or opinionated dependencies.
 * [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates with Java.
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
-* [Pebble](http://www.mitchellbosecke.com/pebble/home) - A fast templating engine, with inheritance and i18n support.
+* [Pebble](http://www.mitchellbosecke.com/pebble/home) - A fast templating engine with inheritance and i18n support.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
 ## Testing
