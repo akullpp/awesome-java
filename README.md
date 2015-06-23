@@ -119,7 +119,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of other products. You can either apply for an Open Source license or buy it.
 * [CircleCI](https://circleci.com/) - Hosted service with a free trial.
 * [Codeship](https://www.codeship.io/features) - Hosted services with a limited free plan.
-* [DotCi](https://github.com/groupon/DotCi) - It provides GitHub build management and continuous integration through docker on Jenkins.
 * [Go](http://www.thoughtworks.com/products/go-continuous-delivery) - ThoughtWork's CI open source solution.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
@@ -136,6 +135,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Everything which simplifies interactions with the database.*
 
 * [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
+* [Crate](https://crate.io/) - A distributed data store that implements data synchronization, sharding, scaling, and replication. In addition, it provides a SQL-based syntax to execute queries across a cluster.
 * [Flyway](http://flywaydb.org/) - Simple database migration with Java API.
 * [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
