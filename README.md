@@ -494,6 +494,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
 * [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
+* [Gephi](https://github.com/gephi/gephi/) - A cross-platform for visualizing and manipulating large graph networks.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [JADE](http://jade.tilab.com/) - Providers a framework and an environment to build and to debug multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Does what it says, although the concept of tuples in general is debatable.
