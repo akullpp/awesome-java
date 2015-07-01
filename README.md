@@ -486,6 +486,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [Spock](http://docs.spockframework.org/) - Testing framework featuring an expressive Groovy-derived specification language. Compatible with JUnit runners so easy to use with standard build tools and IDEs.
 * [TestNG](http://testng.org/) - Testing framework.
+* [Truth](https://github.com/google/truth) - Assertion/Proposition framework for Java unit tests.
 * [Unitils](http://www.unitils.org/) - Testing library divided into modules for unit and integration testing.
 * [WireMock](http://wiremock.org/) - Testing library for stubbing and mocking web services.
 
