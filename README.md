@@ -135,12 +135,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Everything which simplifies interactions with the database.*
 
 * [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
+* [Crate](https://crate.io/) - A distributed data store that implements data synchronization, sharding, scaling, and replication. In addition, it provides a SQL-based syntax to execute queries across a cluster.
 * [Flyway](http://flywaydb.org/) - Simple database migration with Java API.
 * [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - An open source database-independent library for tracking, managing and applying database schema changes.
+* [MapDB](http://www.mapdb.org/) - An embedded database engine that provides concurrent Java collections backed on disk or in off-heap memory.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries for Java.
 
@@ -492,6 +494,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
 * [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
+* [Gephi](https://github.com/gephi/gephi/) - A cross-platform for visualizing and manipulating large graph networks.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [JADE](http://jade.tilab.com/) - Providers a framework and an environment to build and to debug multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Does what it says, although the concept of tuples in general is debatable.
