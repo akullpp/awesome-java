@@ -39,7 +39,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Networking](#networking)
     - [ORM](#orm)
     - [PDF](#pdf)
-    - [Reactive](#reactive)
+    - [Reactive libraries](#reactive-libraries)
     - [REST Frameworks](#rest-frameworks)
     - [Science](#science)
     - [Search](#search)
