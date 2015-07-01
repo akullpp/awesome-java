@@ -39,6 +39,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Networking](#networking)
     - [ORM](#orm)
     - [PDF](#pdf)
+    - [Reactive](#reactive)
     - [REST Frameworks](#rest-frameworks)
     - [Science](#science)
     - [Search](#search)
@@ -177,7 +178,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [JHipster](https://github.com/jhipster/generator-jhipster) - A [Yeoman](http://yeoman.io/) source code generator to create Java applications based on [Spring Boot](http://projects.spring.io/spring-boot/) and [AngularJS](https://angularjs.org/).
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
 * [Lombok](http://projectlombok.org/) - Code-generator which aims to reduce the verbosity of Java.
-* [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Another class reloading agent for the JVM.
 * [vert.x](http://vertx.io/) - Polyglot event-driven application framework for the JVM.
 
@@ -256,7 +256,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
-* [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
 * [Trove](http://trove.starlight-systems.com/) - Primitive collections.
 
 ## IDE
@@ -399,6 +398,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial Java profiler.
 * [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial Java profiler.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
+
+## Reactive libraries
+
+*Libraries for developing reactive applications.*
+
+* [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
+* [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
+* [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 
 ## REST Frameworks
 
