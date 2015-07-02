@@ -161,7 +161,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 *Libraries that help to realize the [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
-* [Dagger](http://square.github.io/dagger/) - Compile-time injection framework without reflection, mainly for Android.
+* [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
 * [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
 * [HK2](https://hk2.java.net) - A light-weight and dynamic dependency injection framework.
 
