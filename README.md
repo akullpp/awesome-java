@@ -488,6 +488,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM.
 * [JMockit](http://jmockit.org/) - The Mock Anything Toolkit for Java, mocks static, final methods and more.
 * [JUnit](http://junit.org/) - Common testing framework.
+* [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 * [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [PowerMock](https://github.com/jayway/powermock) - Allows you to unit test code normally regarded as untestable.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
