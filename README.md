@@ -151,6 +151,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Parquet](https://parquet.incubator.apache.org/) - A columnar storage format based on assembly algorithms from the Dremel paper by Google.
 * [Protobuf](https://github.com/google/protobuf) - Protocol Buffers - Google's data interchange format.
+* [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers for Android and Java.
 
 ## Date and Time
 
