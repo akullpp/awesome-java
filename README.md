@@ -536,6 +536,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+* [Vrator](http://www.vraptor.org/) - Delivers high productivity to your Java Web applications on top of CDI. 
 
 # Resources
 
