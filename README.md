@@ -150,6 +150,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 ## Data structures
 
 * [Apache Parquet](https://parquet.incubator.apache.org/) - A columnar storage format based on assembly algorithms from the Dremel paper by Google.
+* [Protobuf](https://github.com/google/protobuf) - Protocol Buffers - Google's data interchange format.
+* [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers for Android and Java.
+* [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
 
 ## Date and Time
 
@@ -256,6 +259,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
+* [JCTools](https://github.com/JCTools/JCTools) - Java Concurrency Tools currently missing from the JDK.
 * [Trove](http://trove.starlight-systems.com/) - Primitive collections.
 
 ## IDE
