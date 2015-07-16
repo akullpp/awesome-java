@@ -576,6 +576,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Adam Bien](https://twitter.com/AdamBien/) - Freelancer: Author, JavaONE Rockstar Speaker, Consultant, Java Champion.
 * [Antonio Goncalves](https://twitter.com/agoncal/) - Java Champion, JUG Leader, Devoxx France, Java EE 6/7, JCP, Author.
 * [Arun Gupta](https://twitter.com/arungupta/) - Java Champion, JavaOne Rockstar, UG Leader, Devoxx4Kids-er, Red Hatter.
+* [Brian Goetz](https://twitter.com/BrianGoetz) - Java Language Architect at Oracle.
 * [Bruno Borges](https://twitter.com/brunoborges) - Product Manager/Java Jock at Oracle.
 * [Ed Burns](https://twitter.com/edburns) - Consulting Member of the Technical Staff at Oracle.
 * [Eugen Paraschiv](https://twitter.com/baeldung) - Author of the Spring Security Course.
@@ -590,6 +591,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
 * [Markus Eisele](https://twitter.com/myfear) - Java EE evangelist, Red Hat
 * [Martijn Verburg](https://twitter.com/karianna) - London JUG co-leader, speaker, author, Java Champion and much more.
+* [Martin Thompson](https://twitter.com/mjpt777) - Pasty faced performance gangster.
 * [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
 * [Peter Lawrey](https://twitter.com/PeterLawrey) - Peter Lawrey, Java performance expert
 * [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
