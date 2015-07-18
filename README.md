@@ -124,6 +124,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
 * [Travis](https://travis-ci.org) - Hosted service often used for open source projects.
+* [Gitlab CI](https://about.gitlab.com/gitlab-ci/) - Gitlab Continous Integration
 
 ## CSV
 
