@@ -423,6 +423,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
 * [Spark](http://www.sparkjava.com/) - A Sinatra inspired framework for java.
 * [Swagger](https://helloreverb.com/developers/swagger) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
+* [Rest.li](http://rest.li/) - Rest.li is an open source REST framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO. 
 
 ## Science
 
