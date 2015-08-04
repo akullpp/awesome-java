@@ -128,7 +128,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 ## CSV
 
 *Frameworks and libraries that simplify reading/writing CSV data.*
- 
+
+* [Apache Commons CSV](https://github.com/apache/commons-csv/) - A simple interface for reading and writing CSV files of various types.
 * [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV parsers for Java. Also comes with parsers for TSV and fixed width records.
 
 ## Database
