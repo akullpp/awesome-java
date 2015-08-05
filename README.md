@@ -12,8 +12,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
     - [Continuous Integration](#continuous-integration)
     - [CSV](#csv)
-    - [Database](#database)
     - [Data structures](#data-structures)
+    - [Database](#database)
     - [Date and Time](#date-and-time)
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
@@ -128,7 +128,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 ## CSV
 
 *Frameworks and libraries that simplify reading/writing CSV data.*
- 
+
 * [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV parsers for Java. Also comes with parsers for TSV and fixed width records.
 
 ## Database
@@ -151,8 +151,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Parquet](https://parquet.incubator.apache.org/) - A columnar storage format based on assembly algorithms from the Dremel paper by Google.
 * [Protobuf](https://github.com/google/protobuf) - Protocol Buffers - Google's data interchange format.
-* [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers for Android and Java.
 * [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
+* [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers for Android and Java.
 
 ## Date and Time
 
@@ -203,7 +203,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Apache Cassandra](http://cassandra.apache.org) - Apache Cassandra is a distributed column-oriented database providing high availability with no single point of failure.
 * [Apache HBase](http://hbase.apache.org) - Apache HBase is the Hadoop database, a distributed, scalable, big data store.
-* [Infinispan](http://infinispan.org/) -  Distributed and highly concurrent key/value datastore used for caching.
+* [Infinispan](http://infinispan.org/) - Distributed and highly concurrent key/value datastore used for caching.
 
 ## Distribution
 
@@ -222,16 +222,16 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Libraries that assist with processing office document formats.*
 
 * [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
-* [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
 * [documents4j](http://documents4j.com) - Java API for document format conversion using third-party converters such as MS Word.
+* [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
 
 ## Functional Programming
 
 *Libraries that facilitate functional programming in Java.*
 
 * [Cyclops](https://github.com/aol/cyclops) - Monad and stream utils, comprehensions, pattern matching, trampolines, etc for Java 8.
-* [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition oriented development.
 * [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava and Java 8.
+* [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition oriented development.
 * [Javaslang](http://javaslang.com) - Functional component library built for Java 8+ that provides persistent data types and functional control structures.
 * [jOOλ](https://github.com/jOOQ/jOOL) - An extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 
@@ -257,10 +257,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
 * [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections for Java.
 * [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
-* [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
 * [JCTools](https://github.com/JCTools/JCTools) - Java Concurrency Tools currently missing from the JDK.
+* [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 * [Trove](http://trove.starlight-systems.com/) - Primitive collections.
 
 ## IDE
@@ -269,7 +269,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Eclipse](http://www.eclipse.org/) - Established, open-souce project with support for lots of plugins and languages.
 * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
-* [NetBeans](https://netbeans.org/) - Provides integration for several  Java SE and EE features starting with database access and servers to HTML5 and AngularJS.
+* [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features starting with database access and servers to HTML5 and AngularJS.
 
 ## Imagery
 
@@ -339,7 +339,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 * [Metrics](http://metrics.codahale.com/) - Create your own metrics or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database.
-* [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+* [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [RoboVM](http://www.robovm.org/) - Commercial framework with a free trial to write native iOS apps in Java.
 
 ## Monitoring
@@ -347,9 +347,9 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Tools that monitor applications in production.*
 
 * [AppDynamics](http://www.appdynamics.com/) - Commercial performance monitor.
+* [JavaMelody](https://github.com/javamelody/javamelody) - Open-source performance monitoring and profiling.
 * [New Relic](http://newrelic.com/) - Commercial performance monitor.
 * [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
-* [JavaMelody](https://github.com/javamelody/javamelody) - Open-source performance monitoring and profiling.
 
 ## Native
 *For working with platform-specific native libraries.*
@@ -392,24 +392,24 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDF from XSL-FO.
 * [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF.
 * [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
+* [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer in pure Java.
 * [iText](http://itextpdf.com/) - Easy to use PDF library which creates PDF files programmatically but requires a license for commercial purposes.
 * [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
-* [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer in pure Java.
 
 ## Performance analysis
 
 *Tools for performance optimization and dynamic program analysis.*
 
 * [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial Java profiler.
-* [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial Java profiler.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
+* [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial Java profiler.
 
 ## Reactive libraries
 
 *Libraries for developing reactive applications.*
 
-* [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
 * [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
+* [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
 * [RxJava](https://github.com/Netflix/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 
 ## REST Frameworks
@@ -420,7 +420,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Feign](https://github.com/Netflix/feign) - Java to HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
-* [RestExpress] (https://github.com/RestExpress/RestExpress) - RestExpress is a thin wrapper on the JBOSS Netty HTTP stack to provide a simple and easy way to create RESTful services in Java that support massive Internet Scale and performance.
+* [RestExpress](https://github.com/RestExpress/RestExpress) - RestExpress is a thin wrapper on the JBOSS Netty HTTP stack to provide a simple and easy way to create RESTful services in Java that support massive Internet Scale and performance.
 * [RestX](http://restx.io) - Opinionated framework based one annotation processor, providing support for REST endpoint, type safe DI, hot compile/reload, API doc, metrics, specs-oriented endpoint testing.
 * [Retrofit](http://square.github.io/retrofit/) - A type-safe REST client for Java.
 * [Spark](http://www.sparkjava.com/) - A Sinatra inspired framework for java.
@@ -537,8 +537,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
+* [Pippo](http://www.pippo.ro/) - A small, highly modularized Sinatra-like framework.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
-* [Pippo](http://www.pippo.ro/) - A small, highly modularized Sinatra-like framework. 
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
@@ -560,16 +560,16 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 *Books about Java that had a high impact and are still worth reading.*
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
-* [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Java 8 in Action](http://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/)
+* [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
 ## Podcasts
 
 *Something to listen to while programming.*
 
-* [The Java Posse](http://www.javaposse.com/) (discontinued as of 02/2015)
 * [The Java Council](http://virtualjug.com/podcast/)
+* [The Java Posse](http://www.javaposse.com/) - Discontinued as of 02/2015.
 
 ## Twitter
 
@@ -611,15 +611,15 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [InfoQ](http://www.infoq.com/)
 * [Java Code Geeks](http://www.javacodegeeks.com/)
+* [Java, SQL, and jOOQ](http://blog.jooq.org/)
 * [Java.net](http://java.net/)
 * [Javalobby](http://java.dzone.com/)
 * [JavaWorld](http://www.javaworld.com/)
-* [Java, SQL, and jOOQ](http://blog.jooq.org/)
 * [JAXenter](http://jaxenter.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
 * [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
-* [TheServerSide.com](http://www.theserverside.com/)
 * [The Takipi Blog](http://blog.takipi.com/)
+* [TheServerSide.com](http://www.theserverside.com/)
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
 * [Vanilla Java](http://vanillajava.blogspot.ch/)
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
