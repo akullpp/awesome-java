@@ -540,6 +540,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [Pippo](http://www.pippo.ro/) - A small, highly modularized Sinatra-like framework. 
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
+* [JavaServer Faces](https://javaserverfaces.java.net/) - Component-based UI framework; part of Java EE; many third-party component suites available with rich, powerful widgets.
 * [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Aims to simplify the development with Java EE and provides packages for dependency injection and aspect-oriented programming.
@@ -570,6 +571,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [The Java Posse](http://www.javaposse.com/) (discontinued as of 02/2015)
 * [The Java Council](http://virtualjug.com/podcast/)
+* [Enterprise Java Newscast](http://enterprisejavanews.com)
 
 ## Twitter
 
@@ -588,6 +590,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Java.net](https://twitter.com/javanetbuzz/) - Official Java.net account.
 * [Java](https://twitter.com/java/) - Official Java Twitter account.
 * [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
+* [Kito Mann](https://twitter.com/kito99) - JSF and Java EE expert, author, speaker, consultant, and trainer.
 * [Lukas Eder](https://twitter.com/lukaseder) - Founder and CEO Data Geekery (jOOQ).
 * [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
 * [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
