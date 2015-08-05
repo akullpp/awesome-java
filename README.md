@@ -33,6 +33,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
     - [Miscellaneous](#miscellaneous)
+    - [Mobile](#mobile)
     - [Monitoring](#monitoring)
     - [Native](#native)
     - [Natural Language Processing](#natural-language-processing)
@@ -340,6 +341,10 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 * [Metrics](http://metrics.codahale.com/) - Create your own metrics or add them for supported frameworks, then expose them via JMX or HTTP, or send them to a database.
 * [OpenRefine](http://openrefine.org/) -  Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+
+## Mobile
+
+* [CodenameOne](http://www.codenameone.com/) - Create mobile native apps in Java, supports iOS, Android, Windows Phone, Blackberry and Javascript
 * [RoboVM](http://www.robovm.org/) - Commercial framework with a free trial to write native iOS apps in Java.
 
 ## Monitoring
