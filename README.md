@@ -1,6 +1,6 @@
-# Awesome Java
+# Awesome Java [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of awesome Java frameworks, libraries and software. Inspired by other [awesome lists](https://github.com/bayandin/awesome-awesomeness).
+A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
     - [Build Tool](#build-tool)
@@ -128,7 +128,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 ## CSV
 
 *Frameworks and libraries that simplify reading/writing CSV data.*
- 
+
 * [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV parsers for Java. Also comes with parsers for TSV and fixed width records.
 
 ## Database
@@ -538,7 +538,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework for Java. Rock solid, fast and super productive.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
-* [Pippo](http://www.pippo.ro/) - A small, highly modularized Sinatra-like framework. 
+* [Pippo](http://www.pippo.ro/) - A small, highly modularized Sinatra-like framework.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Ratpack](http://www.ratpack.io/) - A set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
