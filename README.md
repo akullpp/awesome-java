@@ -66,7 +66,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Scala](http://www.scala-lang.org/) - Statically typed programming language that fuses the object - oriented model and functional programming ideas.
 * [Groovy](http://www.groovy-lang.org/) - Optionally typed and dynamic language, with static-typing and static compilation capabilities.
-* [Closure](http://clojure.org/) - Dynamically typed programming language that can be seen as a modern take on Lisp.
+* [Clojure](http://clojure.org/) - Dynamically typed programming language that can be seen as a modern take on Lisp.
 * [Ceylon](http://ceylon-lang.org/) - Statically typed object - oriented language developed by RedHat.
 * [Kotlin](http://kotlinlang.org/) - Statically typed programming language for the JVM, Android and the browser.
 
