@@ -3,7 +3,7 @@
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
-    - [Alternative Programming Languages](#alternative-languages)
+    - [Alternative Programming Languages](#alternative-programming-languages)
     - [Build Tool](#build-tool)
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
