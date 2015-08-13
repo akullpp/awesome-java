@@ -3,6 +3,7 @@
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
+    - [Alternative Programming Languages](#alternative-languages)
     - [Build Tool](#build-tool)
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
@@ -58,6 +59,16 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Twitter](#twitter)
     - [Websites](#websites)
 - [Contributing](#contributing)
+
+## Alternative Programming Languages
+
+*Languages other than Java that can be used to write JVM applications*
+
+* [Scala](http://www.scala-lang.org/) - Statically typed programming language that fuses the object - oriented model and functional programming ideas.
+* [Groovy](http://www.groovy-lang.org/) - Optionally typed and dynamic language, with static-typing and static compilation capabilities.
+* [Closure](http://clojure.org/) - Dynamically typed programming language that can be seen as a modern take on Lisp.
+* [Ceylon](http://ceylon-lang.org/) - Statically typed object - oriented language developed by RedHat.
+* [Kotlin](http://kotlinlang.org/) - Statically typed programming language for the JVM, Android and the browser.
 
 ## Build Tool
 
