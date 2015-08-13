@@ -88,6 +88,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Checkstyle](http://checkstyle.sourceforge.net/) - Static analysis of coding conventions and standards.
 * [Error Prone](https://github.com/google/error-prone) - Catches common Java mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
+* [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J based query language for Java and many different tools like Maven
 * [PMD](http://pmd.sourceforge.net/) - Source code analysis of bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
 
