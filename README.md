@@ -168,6 +168,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
 * [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
 * [HK2](https://hk2.java.net) - A light-weight and dynamic dependency injection framework.
+* [CDI](http://www.cdi-spec.org/) - The Java EE dependency injection specification ([Weld](http://weld.cdi-spec.org/), [OpenWebBeans](http://openwebbeans.apache.org/))
 
 ## Development
 
