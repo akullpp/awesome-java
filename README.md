@@ -456,6 +456,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [FlatBuffers](https://github.com/google/flatbuffers) - Memory efficient serialization library that can access serialized data without unpacking and parsing it.
 * [Kryo](https://github.com/EsotericSoftware/kryo) - Fast and efficient object graph serialization framework.
+* [FST](https://github.com/RuedigerMoeller/fast-serialization) - JDK compatible high performance object graph serialization
 * [MessagePack](https://github.com/msgpack/msgpack-java) - Efficient binary serialization format.
 
 ## Server
