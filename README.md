@@ -349,8 +349,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [AppDynamics](http://www.appdynamics.com/) - Commercial performance monitor.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Open-source performance monitoring and profiling.
+* [Kamon](https://www.kamon.io/) - The Open Source tool for monitoring applications running on the JVM.
 * [New Relic](http://newrelic.com/) - Commercial performance monitor.
 * [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
+
 
 ## Native
 *For working with platform-specific native libraries.*
