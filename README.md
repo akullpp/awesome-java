@@ -178,6 +178,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
 * [Auto](https://github.com/google/auto) - Collection of source code generators.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
+* [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Java unlimited runtime class and resource redefinition.
 * [Immutables](http://immutables.github.io/) - Scala-like case classes in standard Java.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - A [Yeoman](http://yeoman.io/) source code generator to create Java applications based on [Spring Boot](http://projects.spring.io/spring-boot/) and [AngularJS](https://angularjs.org/).
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
