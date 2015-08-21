@@ -255,6 +255,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything about high performance computation, from collections to specific libraries.*
 
+* [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are a common in high-performance applications.
 * [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
 * [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections for Java.
 * [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
