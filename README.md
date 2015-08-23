@@ -104,6 +104,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that provide external configuration.*
 
 * [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
+* [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
 
 ## Constraint Satisfaction Problem Solver
 
