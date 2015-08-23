@@ -85,11 +85,11 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that provide metrics and quality measurements.*
 
-* [Checkstyle](http://checkstyle.sourceforge.net/) - Static analysis of coding conventions and standards.
+* [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
 * [Error Prone](https://github.com/google/error-prone) - Catches common Java mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J based query language for Java and many different tools like Maven.
-* [PMD](http://pmd.sourceforge.net/) - Source code analysis for finding bad coding practices.
+* [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
 
 ## Compiler-compiler
@@ -282,7 +282,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Imgscalr](https://github.com/thebuzzmedia/imgscalr) - Simple and efficient hardware-accelerated image-scaling library implemented in pure Java 2D.
 * [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
-* [Thumbnailator](https://code.google.com/p/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
+* [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
 * [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
 
 ## JSON
@@ -335,7 +335,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
 * [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded.
 * [JeroMQ](https://github.com/zeromq/jeromq) - Pure Java implementation of ZeroMQ.
-* [Smack](https://github.com/igniterealtime/Smack/) - A cross-platform [XMPP](http://en.wikipedia.org/wiki/XMPP) client library for Java and Android.
+* [Smack](https://github.com/igniterealtime/Smack/) - A cross-platform XMPP client library for Java and Android.
 
 ## Miscellaneous
 
@@ -439,9 +439,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries for scientific computing and analysis.*
 
+* [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - A graph library that provides mathematical graph-theory objects and algorithms.
 * [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
-* [SCaVis](http://jwork.org/scavis/) - Environment for scientific computation, data analysis and data visualization.
 
 ## Search
 
