@@ -325,7 +325,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache ActiveMQ](http://activemq.apache.org/) - Open-source message broker that implements JMS and converts synchronous to asynchronous communication.
 * [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
 * [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
-* [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka
+* [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
 * [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded.
 * [JeroMQ](https://github.com/zeromq/jeromq) - Pure Java implementation of ZeroMQ.
 * [Smack](https://github.com/igniterealtime/Smack/) - A cross-platform [XMPP](http://en.wikipedia.org/wiki/XMPP) client library for Java and Android.
