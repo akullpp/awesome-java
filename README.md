@@ -29,6 +29,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Imagery](#imagery)
     - [JSON](#json)
     - [JVM and JDK](#jvm-and-jdk)
+    - [Languages](#languages)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
@@ -303,6 +304,16 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
 * [OpenJDK](http://openjdk.java.net/) - Open source implementation.
+
+## Languages
+
+*Languages other than Java that can be used to write JVM applications*
+
+* [Scala](http://www.scala-lang.org/) - Statically typed programming language that fuses the object - oriented model and functional programming ideas.
+* [Groovy](http://www.groovy-lang.org/) - Optionally typed and dynamic language, with static-typing and static compilation capabilities. Currently an incubating Apache project
+* [Clojure](http://clojure.org/) - Dynamically typed programming language that can be seen as a modern take on Lisp.
+* [Ceylon](http://ceylon-lang.org/) - Statically typed object-oriented language developed by RedHat.
+* [Kotlin](http://kotlinlang.org/) - Statically typed programming language for the JVM, Android and the browser. Developed by JetBrains and currently approaching a first stable release
 
 ## Logging
 
