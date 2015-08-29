@@ -128,6 +128,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
 * [Travis](https://travis-ci.org) - Hosted service often used for open source projects.
+* [Gitlab CI](https://about.gitlab.com/gitlab-ci/) - Gitlab Continous Integration
 
 ## CSV
 
@@ -451,6 +452,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://www.sparkjava.com/) - Sinatra inspired framework for java.
 * [Swagger](https://helloreverb.com/developers/swagger) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
+* [Rest.li](http://rest.li/) - Rest.li is an open source REST framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO. 
 
 ## Science
 
