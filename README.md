@@ -580,6 +580,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Play](http://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Ratpack](http://www.ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
+* [Spark] (http://sparkjava.com/) - A tiny Sinatra inspired framework for creating web applications in Java 8 with minimal effort.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
