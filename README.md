@@ -71,7 +71,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
 * [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
-* [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 
 
 ## Build
@@ -162,6 +161,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
+* [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
