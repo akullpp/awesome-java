@@ -228,6 +228,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
 * [Druid](http://druid.io) - Real-time and historical OLAP data store that excel at aggregation and approximation queries.
 * [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
+* [OpenTSDB](http://opentsdb.net) - A scalable and distributed time series database written on top of Apache HBase.
 
 ## Distribution
 
