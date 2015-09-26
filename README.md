@@ -161,10 +161,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
+* [Jedis](https://github.com/xetorthio/jedis) - A small and sane client for redis
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
+* [Redisson](https://github.com/mrniko/redisson) - Allows distributed and scalable Java data structures on top of a Redis server
 
 ## Data structures
 
