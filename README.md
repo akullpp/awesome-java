@@ -534,7 +534,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
 * [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
 * [JUnit](http://junit.org/) - Common testing framework.
-* [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Parameterised tests that don't suck
+* [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests. It provides much better functionalities than JUnit Parametrised runner.
 * [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
