@@ -658,6 +658,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Javalobby](http://java.dzone.com/)
 * [JavaWorld](http://www.javaworld.com/)
 * [JAXenter](http://jaxenter.com/)
+* [Mkyong](http://www.mkyong.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
 * [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
 * [The Takipi Blog](http://blog.takipi.com/)
@@ -665,6 +666,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
 * [Vanilla Java](http://vanillajava.blogspot.ch/)
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
+* [Vogella](http://www.vogella.com/)
 * [Voxxed](https://www.voxxed.com/)
 
 # Contributing
