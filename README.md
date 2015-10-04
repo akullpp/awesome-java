@@ -228,7 +228,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
 * [Druid](http://druid.io) - Real-time and historical OLAP data store that excel at aggregation and approximation queries.
 * [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
-* [OpenTSDB](http://opentsdb.net) - A scalable and distributed time series database written on top of Apache HBase.
+* [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
 
 ## Distribution
 
@@ -387,7 +387,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [AppDynamics](http://www.appdynamics.com/) - Commercial performance monitor.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
-* [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - A tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
+* [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
 * [New Relic](http://newrelic.com/) - Commercial performance monitor.
 * [SPM](http://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.
