@@ -71,7 +71,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
 * [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
-* [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 
 
 ## Build
@@ -101,7 +100,7 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Code Analysis
 
 *Tools that provide metrics and quality measurements.*
-
+* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Enhances Java’s type system to make it more powerful and useful.
 * [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
@@ -162,6 +161,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
+* [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
@@ -235,6 +235,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools which handle the distribution of applications in native formats.*
 
 * [Bintray](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for open-source software or several business plans.
+* [Capsule](http://capsule.io) - Simple and powerful packaging and deployment. A fat JAR on steroids or a "Docker for Java" that supports JVM-optimized containers.
 * [Central Repository](http://search.maven.org/) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven and available in all other build tools.
 * [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
 * [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
@@ -468,7 +469,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://www.sparkjava.com/) - Sinatra inspired framework.
-* [Swagger](https://helloreverb.com/developers/swagger) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
+* [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
 
 ## Science
 
@@ -531,9 +532,11 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
+* [Citrus](http://citrusframework.org/) - Integration testing framework with focus on client- and serverside messaging.
 * [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
+* [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG
 * [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
 * [JUnit](http://junit.org/) - Common testing framework.
 * [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
