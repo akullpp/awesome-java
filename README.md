@@ -549,7 +549,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubbs and mocks, Duke's Choice Award 2013.
 
-
 ## Utility
 
 *Libraries which provide general utility functions.*
