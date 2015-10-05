@@ -101,7 +101,6 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Code Analysis
 
 *Tools that provide metrics and quality measurements.*
-* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Enhances Java’s type system to make it more powerful and useful.
 * [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
@@ -255,6 +254,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
 
+* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems for Java. Includes nullness types, physical units, immutability types and more.
 * [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon is an implementation of dynamic detection of likely invariants; that is, the Daikon invariant detector reports likely program invariants. Can generate JML specs based on the invariants.
 * [Java Modeling Language (JML)](http://www.jmlspecs.org) - A behavioral interface specification language that can be used to specify the behavior of Java modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other Java verification tools.
 * [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) ([repository](http://babelfish.arc.nasa.gov/hg/jpf/jpf-core/)) - "The Swiss army knife of Java verification." A model checker for Java (bytecode) and more. By NASA
