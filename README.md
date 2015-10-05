@@ -22,6 +22,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Distributed Databases](#distributed-databases)
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
+    - [Formal Verification](#formal-verification)
     - [Functional Programming](#functional-programming)
     - [Game Development](#game-development)
     - [GUI](#gui)
@@ -249,6 +250,17 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
 * [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
 * [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
+
+## Formal Verification
+
+*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
+
+* [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon is an implementation of dynamic detection of likely invariants; that is, the Daikon invariant detector reports likely program invariants. Can generate JML specs based on the invariants.
+* [Java Modeling Language (JML)](http://www.jmlspecs.org) - A behavioral interface specification language that can be used to specify the behavior of Java modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other Java verification tools.
+* [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) ([repository](http://babelfish.arc.nasa.gov/hg/jpf/jpf-core/)) - "The Swiss army knife of Java verification." A model checker for Java (bytecode) and more. By NASA
+* [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Setects nonconformances between Java code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected
+* [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
+* [OpenJML](http://jmlspecs.sourceforge.net/) ([alternate website](http://openjml.github.io/))- Formal methods tool for Java and the Java Modeling Language (JML). OpenJML translates JML specifications into SMT-LIB format and passes the proof problems implied by the Java+JML program to backend SMT solvers.
 
 ## Functional Programming
 
