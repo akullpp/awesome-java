@@ -660,6 +660,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JavaWorld](http://www.javaworld.com/)
 * [JAXenter](http://jaxenter.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
+* [Stanford CS 106A](https://see.stanford.edu/Course/CS106A)
 * [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
 * [The Takipi Blog](http://blog.takipi.com/)
 * [TheServerSide.com](http://www.theserverside.com/)
