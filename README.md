@@ -4,6 +4,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
     - [Ancients](#ancients)
+    - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
@@ -72,6 +73,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
 
+## Bean Mapping
+
+*Frameworks that ease bean mapping.*
+
+* [Dozer](http://dozer.sourceforge.net/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
+* [MapStruct](http://mapstruct.org/) - Code generator which simplifies mappings between different bean types, based on a convention over configuration approach.
 
 ## Build
 
