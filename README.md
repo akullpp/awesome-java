@@ -259,6 +259,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
 * [Javaslang](http://javaslang.com) - Functional component library that provides persistent data types and functional control structures.
 * [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
+* [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
 
 ## Game Development
 
