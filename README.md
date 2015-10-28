@@ -174,6 +174,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
 * [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
 * [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
+* [Apache Thrift](https://thrift.apache.org/) - Data interchange format that originated at Facebook.
+* [Apache Avro](https://avro.apache.org/) - Data interchange format featuring among others: dynamic typing, untagged data, absence of manually assigned IDs.
 
 ## Date and Time
 
