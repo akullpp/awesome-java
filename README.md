@@ -166,7 +166,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
-* [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable Java data structures on top of a Redis server.
+* [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
 
 ## Data structures
 
