@@ -484,6 +484,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://www.sparkjava.com/) - Sinatra inspired framework.
+* [Spring REST](https://spring.io/guides/gs/rest-service/) - RESTful web services easily built with Spring framework.
 * [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
 
 ## Science
