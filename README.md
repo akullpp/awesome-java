@@ -347,7 +347,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Clojure](http://clojure.org/) - Dynamically typed programming language that can be seen as a modern take on Lisp.
 * [Ceylon](http://ceylon-lang.org/) - Statically typed object-oriented language developed by RedHat.
 * [Kotlin](http://kotlinlang.org/) - JetBrain's statically typed programming language for the JVM, Android and the browser.
-* [Jython](https://en.wikipedia.org/wiki/Jython) - An implementation of the Python programming language designed to run on the Java platform.
+* [Jython](http://www.jython.org/) - An implementation of the Python programming language designed to run on the Java platform.
 
 ## Logging
 
