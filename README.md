@@ -1,4 +1,4 @@
-# Awesome Java [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+﻿# Awesome Java [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome Java frameworks, libraries and software.
 
@@ -347,6 +347,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Clojure](http://clojure.org/) - Dynamically typed programming language that can be seen as a modern take on Lisp.
 * [Ceylon](http://ceylon-lang.org/) - Statically typed object-oriented language developed by RedHat.
 * [Kotlin](http://kotlinlang.org/) - JetBrain's statically typed programming language for the JVM, Android and the browser.
+* [Jython](https://en.wikipedia.org/wiki/Jython) - An implementation of the Python programming language designed to run on the Java platform.
 
 ## Logging
 
