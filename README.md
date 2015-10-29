@@ -4,6 +4,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
     - [Ancients](#ancients)
+    - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
@@ -72,6 +73,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
 
+## Bean Mapping
+
+*Frameworks that ease bean mapping.*
+
+* [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
+* [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator which simplifies mappings between different bean types, based on a convention over configuration approach.
+* [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper is an intelligent object mapping library that automatically maps objects to each other.
+* [Orika](https://github.com/orika-mapper) - Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
+* [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
 
 ## Build
 
