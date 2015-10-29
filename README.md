@@ -158,6 +158,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks and libraries that simplify reading/writing CSV data.*
 
+* [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
 * [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
 
 ## Database
