@@ -195,7 +195,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries related to handling date and time.*
 
 * [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
-* [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time. 
+* [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time.
 * [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
 
 ## Dependency Injection
@@ -328,6 +328,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Eclipse](http://www.eclipse.org/) - Established, open-souce project with support for lots of plugins and languages.
 * [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 * [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features from database access to HTML5.
+* [BlueJ](http://www.bluej.org//) - A free Java Development Environment designed for beginners, used by millions worldwide.
 
 ## Imagery
 
@@ -353,6 +354,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
 * [OpenJDK](http://openjdk.java.net/) - Open-source implementation.
+* [IBMJDK](https://www.ibm.com/developerworks/java/jdk/) -- IBM version of JDK with a high performance JVM and customized libraries.
 
 ## Languages
 
@@ -582,7 +584,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
 * [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
-* [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. 
+* [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 
 ## Utility
 
@@ -703,6 +705,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Vanilla Java](http://vanillajava.blogspot.ch/)
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
+* [PixelsTech](http://www.pixelstech.net/article.php?type=5&article_type=7/)
 
 # Contributing
 
