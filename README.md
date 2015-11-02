@@ -706,6 +706,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
 * [PixelsTech](http://www.pixelstech.net/article.php?type=5&article_type=7)
+* [JavaRevisited](http://javarevisited.blogspot.sg/)
 
 # Contributing
 
