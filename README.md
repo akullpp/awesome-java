@@ -65,7 +65,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Ancients
 
-*In existence since the beginning of time and wich will continue being used long after the hype has waned.*
+*In existence since the beginning of time and which will continue being used long after the hype has waned.*
 
 * [Apache Ant](http://ant.apache.org/) - Build process management with XML.
 * [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
@@ -86,7 +86,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Build
 
-*Tools which handle the buildcycle and dependencies of an application.*
+*Tools which handle the build cycle and dependencies of an application.*
 
 * [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
 * [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
