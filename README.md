@@ -364,6 +364,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Clojure](http://clojure.org/) - Dynamically typed programming language that can be seen as a modern take on Lisp.
 * [Ceylon](http://ceylon-lang.org/) - Statically typed object-oriented language developed by RedHat.
 * [Kotlin](http://kotlinlang.org/) - JetBrain's statically typed programming language for the JVM, Android and the browser.
+* [Eclipse Golo](http://golo-lang.org/) - A simple dynamic language that makes extensive usage of `invokedynamic`, currently an incubating Eclipse Technology project.
 
 ## Logging
 
