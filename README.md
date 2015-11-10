@@ -697,6 +697,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Java, SQL, and jOOQ](http://blog.jooq.org/)
 * [Java.net](http://java.net/)
 * [Javalobby](http://java.dzone.com/)
+* [JavaTutorial](http://docs.oracle.com/javase/tutorial/)
 * [JavaWorld](http://www.javaworld.com/)
 * [JAXenter](http://jaxenter.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
