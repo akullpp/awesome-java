@@ -503,6 +503,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance.
 * [Restlet](http://restlet.com/projects/restlet-framework/)) - Restlet Framework helps Java developers build better web APIs that follow the REST architecture style.
+* [Rest.li](http://rest.li/) - Rest.li is an open source REST framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO.
 * [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://www.sparkjava.com/) - Sinatra inspired framework.
