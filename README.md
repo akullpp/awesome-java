@@ -178,6 +178,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
 * [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
+* [FlexyPool])(https://github.com/vladmihalcea/flexy-pool) - Brings monitoring and failover strategies to the most common connection pooling solutions.
 
 ## Data structures
 
