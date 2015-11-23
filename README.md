@@ -185,6 +185,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Efficient and specific data structures.*
 
+* [Apache Orc](https://orc.apache.org/) - Fast and efficient columnar storage format for hadoop based workloads. 
 * [Apache Parquet](http://parquet.apache.org/) - Columnar storage format based on assembly algorithms from the Dremel paper by Google.
 * [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
 * [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
