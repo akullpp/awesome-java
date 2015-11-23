@@ -628,6 +628,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Ratpack](http://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
+* [Tinystruct](http://tinystruct.org) - Small and efficient framework, Not only for web application.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
 # Resources
