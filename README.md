@@ -364,7 +364,8 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that log the behavior of an application.*
 
 * [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite with a powerful plugin and configuration architecture.
-* [kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files.
+* [graylog](https://www.graylog.org/) - Open-source aggregator suited for extended role and permission management.
+* [kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
 * [Logback](http://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
 * [logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
 * [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and can send them to a database.
