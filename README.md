@@ -165,6 +165,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything which simplifies interactions with the database.*
 
+* [Apache Hive] (https://hive.apache.org/) - Data warehouse infrastructure built on top of Hadoop.
 * [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
 * [Crate](https://crate.io/) - Distributed data store that implements data synchronization, sharding, scaling, and replication. In addition, it provides a SQL-based syntax to execute queries across a cluster.
 * [Flyway](http://flywaydb.org/) - Simple database migration tool.
@@ -184,6 +185,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Efficient and specific data structures.*
 
+* [Apache Orc](https://orc.apache.org/) - Fast and efficient columnar storage format for hadoop based workloads. 
 * [Apache Parquet](http://parquet.apache.org/) - Columnar storage format based on assembly algorithms from the Dremel paper by Google.
 * [Persistent Collection](http://pcollections.org/) - Persistent and immutable analogue of the Java Collections Framework.
 * [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
