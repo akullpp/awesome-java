@@ -196,7 +196,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries related to handling date and time.*
 
 * [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
-* [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time. 
+* [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time.
 * [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
 
 ## Dependency Injection
@@ -308,7 +308,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
 * [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
-* [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) is a graphical widget toolkit for use with the Java platform. 
+* [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) is a graphical widget toolkit for use with the Java platform.
 
 ## High Performance
 
@@ -362,7 +362,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Languages other than Java that can be used to write JVM applications.*
 
 * [Scala](http://www.scala-lang.org/) - Statically typed programming language that fuses the object - oriented model and functional programming ideas.
-* [Groovy](http://www.groovy-lang.org/) - Optionally typed and dynamic language, with static-typing and static compilation capabilities. Currently an incubating Apache project
+* [Groovy](http://www.groovy-lang.org/) - Optionally typed and dynamic language, with static-typing and static compilation capabilities. Currently an incubating Apache project.
 * [Clojure](http://clojure.org/) - Dynamically typed programming language that can be seen as a modern take on Lisp.
 * [Ceylon](http://ceylon-lang.org/) - Statically typed object-oriented language developed by RedHat.
 * [Kotlin](http://kotlinlang.org/) - JetBrain's statically typed programming language for the JVM, Android and the browser.
@@ -550,7 +550,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Tomcat](http://tomcat.apache.org/) - Robust all-round server for Servlet and JSP.
 * [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE.
 * [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
-* [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM
+* [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM.
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
 
 ## Template Engine
@@ -574,7 +574,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
-* [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG
+* [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
 * [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
 * [JUnit](http://junit.org/) - Common testing framework.
 * [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests.
@@ -589,7 +589,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
 * [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
-* [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. 
+* [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 
 ## Utility
 
