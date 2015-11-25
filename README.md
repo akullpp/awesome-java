@@ -32,7 +32,6 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Imagery](#imagery)
     - [JSON](#json)
     - [JVM and JDK](#jvm-and-jdk)
-    - [Languages](#languages)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
