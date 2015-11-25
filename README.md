@@ -573,11 +573,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JUnit](http://junit.org/) - Common testing framework.
 * [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests.
 * [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
-<<<<<<< HEAD
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
-=======
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
->>>>>>> akullpp/master
 * [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
@@ -587,11 +584,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
 * [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
-<<<<<<< HEAD
-* [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
-* [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
-=======
->>>>>>> akullpp/master
 
 ## Utility
 
