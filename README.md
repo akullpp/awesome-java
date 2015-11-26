@@ -9,6 +9,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
+    - [Code Coverage](#code-coverage)
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
     - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
@@ -116,6 +117,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+
+## Code Coverage
+
+*Frameworks and tools that enable collection of code coverage metrics for test suites.*
+
+* [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
+* [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
+* [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
+* [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
 
 ## Compiler-compiler
 
