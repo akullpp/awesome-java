@@ -700,7 +700,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Android Arsenal](https://android-arsenal.com)
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [InfoQ](http://www.infoq.com/)
-* [Java Code Geeks](http://www.javacodegeeks.com/)
 * [Java, SQL, and jOOQ](http://blog.jooq.org/)
 * [Java.net](https://home.java.net/)
 * [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
