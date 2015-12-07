@@ -380,6 +380,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
 * [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and can send them to a database.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
+* [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
 
 ## Machine Learning
 
