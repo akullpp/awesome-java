@@ -510,6 +510,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
 * [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
+* [Restlet](http://restlet.com/projects/restlet-framework) - Restlet Framework is the most widely used open source solution for Java developers who want to create and use APIs.
 
 ## Science
 
