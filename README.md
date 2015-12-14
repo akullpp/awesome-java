@@ -202,6 +202,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
 * [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
 * [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
+* [JBBP](https://github.com/raydac/java-binary-block-parser) - lightweight framework to describe binary structures with DSL and parse (or write) binary data, compatible with Android
 
 ## Date and Time
 
