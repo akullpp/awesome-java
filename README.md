@@ -629,6 +629,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
 * [Play](https://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
+* [Rapidoid](http://www.rapidoid.org/) - An Open source (Apache license), Simple, Secure and Extremely fast Web Framework for Java.
 * [Ratpack](http://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
