@@ -272,6 +272,8 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 
 * [Netty](http://netty.io/) - A framework for building high performance network applications.
 * [OkHttp](http://square.github.io/okhttp/) - An HTTP+SPDY client for Android and Java applications.
+* [Nifty](https://github.com/facebook/nifty) - Nifty is an implementation of Thrift clients and servers on Netty.It is also the implementation used by Swift.
+* [Finagle](https://github.com/twitter/finagle) - Finagle is an extensible RPC system for the JVM, used to construct high-concurrency servers.
 
 ## ORM
 
