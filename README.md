@@ -174,7 +174,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything which simplifies interactions with the database.*
 
-* [Apache Hive] (https://hive.apache.org/) - Data warehouse infrastructure built on top of Hadoop.
+* [Apache Hive](https://hive.apache.org/) - Data warehouse infrastructure built on top of Hadoop.
 * [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
 * [Crate](https://crate.io/) - Distributed data store that implements data synchronization, sharding, scaling, and replication. In addition, it provides a SQL-based syntax to execute queries across a cluster.
 * [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
@@ -367,7 +367,9 @@ A curated list of awesome Java frameworks, libraries and software.
 *Current implementations of the JVM/JDK.*
 
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
-* [OpenJDK](http://openjdk.java.net/) - Open-source implementation.
+* [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
+* [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
+* [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
 
 ## Logging
 
