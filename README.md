@@ -127,6 +127,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
 * [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
 
+## Command-line Argument Parsers
+
+*Libraries that make it easy to parse command line options, arguments, etc.*
+
+* [args4j](http://args4j.kohsuke.org/) - Small library to parse command like arguments similar to javac.
+* [JewelCLI](http://jewelcli.lexicalscope.com/) - Uses annotations to automatically parse and inject the values with regex validation and Enum support.
+* [JCommander](http://jcommander.org/) - Command line arguments parsing framework with custom types and validation via implementing interfaces.
+* [JOpt Simple](http://pholser.github.io/jopt-simple/) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Does not use annotations, uses a fluent API instead.
+
 ## Compiler-compiler
 
 *Frameworks that help to create parsers, interpreters or compilers.*
@@ -600,13 +609,11 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries which provide general utility functions.*
 
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
-* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
-* [CRaSH](http://www.crashub.org) - Provides a CLI for running processes.
+* [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others.
 * [Gephi](https://github.com/gephi/gephi/) - Cross-platform for visualizing and manipulating large graph networks.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Tuples.
-* [JCommander](http://jcommander.org/) - Command line arguments parser.
 * [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 
 ## Web Crawling
