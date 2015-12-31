@@ -672,7 +672,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Adam Bien](https://twitter.com/AdamBien/) - Freelancer: Author, JavaONE Rockstar Speaker, Consultant, Java Champion.
 * [Aleksey Shipilëv](https://twitter.com/shipilev) - Performance Geek, Benchmarking Tzar, Concurrency Bug Hunter.
 * [Antonio Goncalves](https://twitter.com/agoncal/) - Java Champion, JUG Leader, Devoxx France, Java EE 6/7, JCP, Author.
-* [Arun Gupta](https://twitter.com/arungupta/) - Java Champion, JavaOne Rockstar, UG Leader, Devoxx4Kids-er, Red Hatter.
+* [Arun Gupta](https://twitter.com/arungupta/) - Java Champion, JavaOne Rockstar, JUG Leader, Devoxx4Kids-er, VP of Developer Advocacy at Couchbase.
 * [Brian Goetz](https://twitter.com/BrianGoetz) - Java Language Architect at Oracle.
 * [Bruno Borges](https://twitter.com/brunoborges) - Product Manager/Java Jock at Oracle.
 * [Ed Burns](https://twitter.com/edburns) - Consulting Member of the Technical Staff at Oracle.
