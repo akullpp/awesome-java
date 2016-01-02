@@ -458,6 +458,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries for network programming.*
 
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
+* [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
 * [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
 * [Netty](http://netty.io/) - Framework for building high performance network applications.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
