@@ -543,6 +543,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
 * [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
+* [Blade](https://github.com/biezhi/blade) - Blade is a simple, elegant Java Web Framework!
 
 ## Science
 
@@ -666,6 +667,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+* [Blade](https://github.com/biezhi/blade) - Blade is a simple, elegant Java Web Framework!
 
 # Resources
 
