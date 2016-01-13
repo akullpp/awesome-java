@@ -625,6 +625,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Tuples.
 * [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
+* [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - a library that helps to construct difficult regular expressions
 
 ## Web Crawling
 
