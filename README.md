@@ -378,6 +378,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library.
+* [Fastjson](https://github.com/alibaba/fastjson) - Fastjson is a powerful JSON library, it is measured to be faster than any other Java parser and databinder.
 
 ## JSON Processing
 
@@ -487,6 +488,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Netty](http://netty.io/) - Framework for building high performance network applications.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
 * [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
+* [Nifty](https://github.com/facebook/nifty) - Nifty is an implementation of Thrift clients.
+* [Finagle](https://github.com/twitter/finagle) - Finagle is an extensible RPC system.
 
 ## ORM
 
