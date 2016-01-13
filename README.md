@@ -33,6 +33,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [IDE](#ide)
     - [Imagery](#imagery)
     - [JSON](#json)
+    - [JSON Processing](#json-processing)
     - [JVM and JDK](#jvm-and-jdk)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
@@ -371,12 +372,20 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## JSON
 
-*Libraries that simplify JSON processing.*
+*Libraries for serializing and deserializing JSON to and from Java objects.*
 
 * [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java to JSON conversion library.
 * [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library.
+
+## JSON Processing
+
+*Libraries for processing data in JSON format.*
+
+* [JsonPath](https://github.com/jayway/JsonPath) - Extract data from JSON using XPATH like syntax.
+* [JsonSurfer](https://github.com/jsurfer/JsonSurfer) - Streaming JsonPath processor dedicated to processing big and complicated JSON data.
+* [Jolt](https://github.com/bazaarvoice/jolt) - JSON to JSON transformation tool.
 
 ## JVM and JDK
 
