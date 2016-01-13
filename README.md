@@ -526,6 +526,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Rapidoid](http://www.rapidoid.org/) - A Simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance.
+* [Restlet Framework](http://restlet.com/products/restlet-framework/) - The flexible and powerful pioneer REST Web API framework for Java.
 * [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
