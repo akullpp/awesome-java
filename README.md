@@ -128,7 +128,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
 * [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
-* [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
+* [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
 * [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
 
 ## Command-line Argument Parsers
@@ -287,7 +287,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
 * [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
-* [Nexus](http://www.sonatype.com/nexus) - Binary management with proxy and caching capabilities.
+* [Nexus](http://www.sonatype.com/nexus/solution-overview) - Binary management with proxy and caching capabilities.
 * [packr](https://github.com/libgdx/packr/) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
 
 ## Document Processing
@@ -305,7 +305,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
 * [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
 * [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
-* [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
+* [Java Modeling Language (JML)](http://www.eecs.ucf.edu/~leavens/JML/) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
 * [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
 * [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
 * [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
@@ -329,7 +329,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [jMonkeyEngine](http://jmonkeyengine.org/) - Game engine for modern 3D development.
 * [libGDX](https://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
-* [LWJGL](http://www.lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
+* [LWJGL](https://www.lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 
 ## GUI
 
@@ -420,7 +420,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Spark](http://spark.apache.org/) - Data analytics cluster computing framework.
 * [DeepDive](http://deepdive.stanford.edu) - Creates structured information from unstructured data and integrates it into an existing database.
 * [Deeplearning4j](http://deeplearning4j.org/) - Distributed and multi-threaded deep learning library.
-* [H2O](http://h2o.ai/) - Analytics engine for statistics over big data.
+* [H2O](http://www.h2o.ai/) - Analytics engine for statistics over big data.
 * [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution.
 * [Oryx 2](https://github.com/OryxProject/oryx) - A framework for building real-time large scale machine learning applications, which also includes end-to-end applications for collaborative filtering, classification, regression, and clustering.
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
@@ -454,7 +454,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that monitor applications in production.*
 
-* [AppDynamics](http://www.appdynamics.com/) - Commercial performance monitor.
+* [AppDynamics](https://www.appdynamics.com/) - Commercial performance monitor.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
@@ -497,7 +497,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Ebean](http://ebean-orm.github.io/) - Provides simple and fast data access.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
-* [MyBatis](http://mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
+* [MyBatis](http://www.mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
 * [OrmLite](http://ormlite.com/) - Lightweight package avoiding the complexity and overhead of other ORM products.
 
 ## PDF
@@ -625,7 +625,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
-* [Spock](http://docs.spockframework.org/) - JUnit-compatible framework featuring an expressive Groovy-derived specification language.
+* [Spock](http://spockframework.github.io/spock/docs/) - JUnit-compatible framework featuring an expressive Groovy-derived specification language.
 * [TestNG](http://testng.org/) - Testing framework.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
@@ -665,10 +665,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
 * [Play](https://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
-* [Ratpack](http://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
+* [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
-* [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+* [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
 # Resources
 
@@ -737,7 +737,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [InfoQ](http://www.infoq.com/)
 * [Java, SQL, and jOOQ](http://blog.jooq.org/)
-* [Java.net](https://home.java.net/)
+* [Java.net](https://community.oracle.com/community/java)
 * [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
 * [JavaWorld](http://www.javaworld.com/)
 * [JAXenter](https://jaxenter.com/)
