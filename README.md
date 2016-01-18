@@ -372,7 +372,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [kibana](http://www.elasticsearch.org/overview/kibana/) - Analyzes and visualizes log files.
 * [Logback](http://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
 * [logstash](http://logstash.net/) - Tool for managing log files.
-* [Metrics](http://metrics.codahale.com/) - Expose metrics via JMX or HTTP and can send them to a database.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
 
 ## Machine Learning
@@ -420,6 +419,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
+* [Metrics](http://metrics.codahale.com/) - Expose metrics via JMX or HTTP and can send them to a database.
 * [New Relic](http://newrelic.com/) - Commercial performance monitor.
 * [SPM](http://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.
 * [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
