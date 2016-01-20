@@ -10,7 +10,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
     - [Code Coverage](#code-coverage)
-	- [Command-line Argument Parsers](#command-line-argument-parsers)
+    - [Command-line Argument Parsers](#command-line-argument-parsers)
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
     - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
@@ -369,6 +369,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
 * [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
 * [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
+* [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - An automatic plugin to the javax.imageio package to read and write to multiple image files that aren't supported by imageio, such as TIFF, PSD, SVG, ICNS and more.
 
 ## JSON
 
