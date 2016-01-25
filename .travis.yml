@@ -4,4 +4,4 @@ rvm:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot README.md --white-list citrusframework.org,wiki.openjdk.java.net
+  - awesome_bot README.md --white-list citrusframework.org,wiki.openjdk.java.net,projectreactor.io
