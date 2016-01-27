@@ -537,6 +537,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.
 * [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
+* [RAML](http://raml.org/) - Modeling language to generate REST APIs with contract first.
 * [Rapidoid](http://www.rapidoid.org/) - A Simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBoss Netty HTTP stack to provide scaling and performance.
