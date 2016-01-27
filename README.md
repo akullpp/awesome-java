@@ -392,8 +392,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Current implementations of the JVM/JDK.*
 
+* [Avian](https://github.com/ReadyTalk/avian) - JVM with both a JIT & AOT modes. Includes an iOS port.
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
 * [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
+* [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking concurrent GC for iOS.
 * [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
 * [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
 
@@ -442,8 +444,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything else.*
 
-* [Avian](https://github.com/ReadyTalk/avian) - Open source JVM with both a JIT & AOT modes. Includes an iOS port.
-* [Codename One](https://www.codenameone.com/) - Open source cross platform solution for writing native mobile apps in Java for iOS, Android, Windows etc.
+* [Codename One](https://www.codenameone.com/) - Cross platform solution for writing native mobile (iOS, Android, etc.)
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
@@ -451,7 +452,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
-* [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - The open source VM that underlies [Codename One](https://www.codenameone.com/).
 * [RoboVM](https://robovm.com/) - Commercial framework with a free trial to write native iOS apps.
 
 ## Monitoring
