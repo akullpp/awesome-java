@@ -251,7 +251,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
 * [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
-* [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
 
 ## Distributed Applications
 
@@ -530,6 +529,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
 * [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
 * [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
+* [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
 
 ## REST Frameworks
 
