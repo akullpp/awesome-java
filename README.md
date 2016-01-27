@@ -515,6 +515,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools for performance analysis, profiling and benchmarking.*
 
+* [honest-profiler](https://github.com/RichardWarburton/honest-profiler) - An low-overhead, bias-free sampling profiler.
 * [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM.
 * [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial profiler.
