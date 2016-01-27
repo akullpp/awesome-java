@@ -745,12 +745,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JavaWorld](http://www.javaworld.com/)
 * [JAXenter](https://jaxenter.com/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
-* [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
 * [The Takipi Blog](http://blog.takipi.com/)
 * [TheServerSide.com](http://www.theserverside.com/)
-* [Thoughts On Java](http://www.thoughts-on-java.org/)
 * [Vanilla Java](http://vanillajava.blogspot.ch/)
-* [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
 
 # Contributing
