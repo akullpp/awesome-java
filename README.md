@@ -714,7 +714,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [James Weaver](https://twitter.com/JavaFXpert) - Java/JavaFX/IoT developer, author and speaker.
 * [Java EE](https://twitter.com/Java_EE/) - Official Java EE Twitter account.
 * [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
-* [Java.net](https://twitter.com/javanetbuzz/) - Official Java.net account.
 * [Java](https://twitter.com/java/) - Official Java Twitter account.
 * [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
 * [Lukas Eder](https://twitter.com/lukaseder) - Founder and CEO Data Geekery (jOOQ).
@@ -726,10 +725,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
 * [Peter Lawrey](https://twitter.com/PeterLawrey) - Peter Lawrey, Java performance expert.
 * [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
-* [Roberto Cortez](https://twitter.com/radcortez) - Java EE/JPA expert, speaker, open source.
 * [Simon Maple](https://twitter.com/sjmaple) - Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
 * [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
-* [Tim Boudreau](https://twitter.com/kablosna) - Author and NetBeans guru.
 * [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
 
 ## Websites
