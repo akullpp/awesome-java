@@ -442,12 +442,16 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything else.*
 
+* [Avian](https://github.com/ReadyTalk/avian) - Open source JVM with both a JIT & AOT modes. Includes an iOS port.
+* [Codename One](https://www.codenameone.com/) - Open source cross platform solution for writing native mobile apps in Java for iOS, Android, Windows etc.
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
+* [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+* [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - The open source VM that underlies [Codename One](https://www.codenameone.com/).
 * [RoboVM](https://robovm.com/) - Commercial framework with a free trial to write native iOS apps.
 
 ## Monitoring
