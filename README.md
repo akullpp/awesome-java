@@ -391,8 +391,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Current implementations of the JVM/JDK.*
 
+* [Avian](https://github.com/ReadyTalk/avian) - JVM with both a JIT & AOT modes. Includes an iOS port.
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
 * [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
+* [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking concurrent GC for iOS.
 * [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
 * [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
 
@@ -441,7 +443,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything else.*
 
+* [Codename One](https://www.codenameone.com/) - Cross platform solution for writing native mobile (iOS, Android, etc.)
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
+* [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://github.com/mabe02/lanterna) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
