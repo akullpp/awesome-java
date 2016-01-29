@@ -407,7 +407,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
 * [Logback](http://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
 * [logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
-* [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and can send them to a database.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
 * [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
 
@@ -462,6 +461,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Jolokia](https://jolokia.org/) - JMX over REST.
 * [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
+* [Metrics](http://metrics.dropwizard.io/) - Expose metrics via JMX or HTTP and can send them to a database.
 * [New Relic](http://newrelic.com/) - Commercial performance monitor.
 * [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.
 * [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
