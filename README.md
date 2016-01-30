@@ -115,6 +115,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that provide metrics and quality measurements.*
 
 * [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
+* [Checker Framework](https://github.com/checkstyle/checkstyle) - Static analysis by enhanceing Java’s type system.
 * [Codacy](https://www.codacy.com) - Commercial (free for open source) continuous static analysis, code coverage, and software metrics to automate code reviews.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
