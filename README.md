@@ -9,6 +9,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
+    - [Code Conventions](#code-conventions)
     - [Code Coverage](#code-coverage)
 	- [Command-line Argument Parsers](#command-line-argument-parsers)
     - [Compiler-compiler](#compiler-compiler)
@@ -121,6 +122,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+
+## Code Conventions
+
+*Coding Conventions or Code Standards used throughout the industry.
+
+* [Google Java Style](https://google.github.io/styleguide/javaguide.html) - Google's Java Style Guide.
 
 ## Code Coverage
 
