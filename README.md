@@ -392,8 +392,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Current implementations of the JVM/JDK.*
 
+* [Avian](https://github.com/ReadyTalk/avian) - JVM with both a JIT & AOT modes. Includes an iOS port.
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
 * [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
+* [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking concurrent GC for iOS.
 * [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
 * [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
 
@@ -406,7 +408,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
 * [Logback](http://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
 * [logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
-* [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and can send them to a database.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
 * [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
 
@@ -442,7 +443,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything else.*
 
+* [Codename One](https://www.codenameone.com/) - Cross platform solution for writing native mobile (iOS, Android, etc.)
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
+* [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://github.com/mabe02/lanterna) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
@@ -459,6 +462,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Jolokia](https://jolokia.org/) - JMX over REST.
 * [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
+* [Metrics](http://metrics.dropwizard.io/) - Expose metrics via JMX or HTTP and can send them to a database.
 * [New Relic](http://newrelic.com/) - Commercial performance monitor.
 * [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.
 * [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
