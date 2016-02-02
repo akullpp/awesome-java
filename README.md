@@ -544,7 +544,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
 * [RAML](http://raml.org/) - Modeling language to generate REST APIs with contract first.
-* [Rapidoid](http://www.rapidoid.org/) - A Simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
+* [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBoss Netty HTTP stack to provide scaling and performance.
 * [Restlet Framework](https://github.com/restlet/restlet-framework-java/) - Pioneering framework with powerful routing and filtering capabilities, unified client and server API.
@@ -649,7 +649,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Tuples.
 * [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
-* [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - a library that helps to construct difficult regular expressions
+* [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - A library that helps to construct difficult regular expressions.
 
 ## Web Crawling
 
