@@ -20,6 +20,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Database](#database)
     - [Date and Time](#date-and-time)
     - [Dependency Injection](#dependency-injection)
+    - [Deployment](#deployment)
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
     - [Distributed Databases](#distributed-databases)
@@ -237,6 +238,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
 * [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
 * [HK2](https://hk2.java.net) - Light-weight and dynamic dependency injection framework.
+
+## Deployment
+
+*Tools that deploy applications.*
+
+* [Boxfuse](https://boxfuse.com) - Deployment of JVM application to AWS using the principles of Immutable Infrastructure.
 
 ## Development
 
