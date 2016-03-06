@@ -311,7 +311,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
 * [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
 * [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
-* [Krakatoa](http://krakatoa.lri.fr/) - Krakatoa is a front-end of the [Why](http://why.lri.fr/) platform for deductive program verification. Krakatoa deals with Java programs annotated in a variant of the The Java Modeling Language (JML).
+* [Krakatoa](http://krakatoa.lri.fr/) - Krakatoa is a front-end of the [Why](http://why.lri.fr/) platform for deductive program verification. Krakatoa deals with Java programs annotated in a variant of the Java Modeling Language (JML).
 * [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
 
 ## Functional Programming
