@@ -4,6 +4,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
     - [Ancients](#ancients)
+    - [Audio](#audio)
     - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
@@ -75,6 +76,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
 * [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
+
+## Audio
+
+*Libraries that deal with sound.*
+
+* [Beads](http://www.beadsproject.net) - Library written in Java for realtime audio.
 
 ## Bean Mapping
 
