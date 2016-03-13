@@ -529,7 +529,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
 * [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.
-* [XRebel](http://zeroturnaround.com/software/xrebel/) - Profiler for Java Web applications.
+* [XRebel](http://zeroturnaround.com/software/xrebel/) - A commercial profiler for Java Web applications.
 
 ## Reactive libraries
 
