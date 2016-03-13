@@ -318,7 +318,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that facilitate functional programming.*
 
-* [Cyclops](https://github.com/aol/cyclops) - Monad and stream utilities, comprehensions, pattern matching, trampolines and much more.
+* [cyclops-react](https://github.com/aol/cyclops-react) - Monad and stream utilities, comprehensions, pattern matching, functional extensions for all JDK collections, future streams, trampolines and much more.
 * [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
 * [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
 * [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
