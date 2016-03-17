@@ -416,8 +416,7 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Machine Learning
 
 *Tools that provide specific statistical algorithms which allow learning from data.*
-* [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence and Learning Engine.
-Smile is a fast and comprehensive machine learning system.
+
 * [Apache Flink](https://flink.apache.org/) - Fast and reliable large-scale data processing engine.
 * [Apache Hadoop](http://hadoop.apache.org/) - Storage and large-scale processing of data-sets on clusters of commodity hardware.
 * [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification.
@@ -427,6 +426,8 @@ Smile is a fast and comprehensive machine learning system.
 * [H2O](http://www.h2o.ai/) - Analytics engine for statistics over big data.
 * [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution.
 * [Oryx 2](https://github.com/OryxProject/oryx) - A framework for building real-time large scale machine learning applications, which also includes end-to-end applications for collaborative filtering, classification, regression, and clustering.
+* [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence and Learning Engine.
+Smile is a fast and comprehensive machine learning system.
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 ## Messaging
