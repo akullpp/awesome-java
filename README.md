@@ -506,6 +506,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
 * [MyBatis](http://www.mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
+* [NativeCriteria](https://github.com/pnowy/NativeCriteria) - simple, friendly API for design for select queries to work with work on all databases supported by Hibernate
 * [OrmLite](http://ormlite.com/) - Lightweight package avoiding the complexity and overhead of other ORM products.
 
 ## PDF
