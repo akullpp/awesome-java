@@ -506,6 +506,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
 * [MyBatis](http://www.mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
+* [Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper) - supports pagination in [MyBatis](http://mybatis.org/mybatis-3/)
 * [OrmLite](http://ormlite.com/) - Lightweight package avoiding the complexity and overhead of other ORM products.
 
 ## PDF
