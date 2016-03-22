@@ -746,6 +746,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [InfoQ](http://www.infoq.com/)
 * [Java, SQL, and jOOQ](http://blog.jooq.org/)
+* [Java Algorithms and Clients](http://algs4.cs.princeton.edu/code/)
 * [Java.net](https://community.oracle.com/community/java)
 * [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
 * [JavaWorld](http://www.javaworld.com/)
