@@ -641,6 +641,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
 * [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
+* [J8Spec](https://tprado.github.io/j8spec/) - J8Spec is a library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
 
 ## Utility
 
