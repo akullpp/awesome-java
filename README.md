@@ -566,7 +566,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
 * [GraphStream](http://graphstream-project.org/) - Library for modeling and analysis of dynamic graphs.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
-* [JGraphX](https://github.com/jgraph/jgraphx) - JGraphX provides functionality for visualisation and interaction with node-edge graphs (not charts).
+* [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualisation (mainly Swing) and interaction with node-edge graphs.
 
 ## Search
 
