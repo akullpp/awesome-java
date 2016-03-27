@@ -33,8 +33,8 @@ A curated list of awesome Java frameworks, libraries and software.
     - [High Performance](#high-performance)
     - [IDE](#ide)
     - [Imagery](#imagery)
-    - [JSON](#json)
     - [JSON Processing](#json-processing)
+    - [JSON](#json)
     - [JVM and JDK](#jvm-and-jdk)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
@@ -115,8 +115,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that provide metrics and quality measurements.*
 
-* [Codacy](https://www.codacy.com) - Continuous static analysis, code coverage, and software metrics to automate code reviews.
 * [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
+* [Codacy](https://www.codacy.com) - Continuous static analysis, code coverage, and software metrics to automate code reviews.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
@@ -127,9 +127,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks and tools that enable collection of code coverage metrics for test suites.*
 
-* [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
 * [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
 * [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
+* [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
 * [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
 
 ## Command-line Argument Parsers
@@ -137,8 +137,8 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that make it easy to parse command line options, arguments, etc.*
 
 * [args4j](http://args4j.kohsuke.org/) - Small library to parse command like arguments similar to javac.
-* [JewelCLI](http://jewelcli.lexicalscope.com/) - Uses annotations to automatically parse and inject the values with regex validation and Enum support.
 * [JCommander](http://jcommander.org/) - Command line arguments parsing framework with custom types and validation via implementing interfaces.
+* [JewelCLI](http://jewelcli.lexicalscope.com/) - Uses annotations to automatically parse and inject the values with regex validation and Enum support.
 * [JOpt Simple](http://pholser.github.io/jopt-simple/) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Does not use annotations, uses a fluent API instead.
 
 ## Compiler-compiler
@@ -402,9 +402,9 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries for processing data in JSON format.*
 
 * [fastjson](https://github.com/alibaba/fastjson) - Very fast processor with no additional dependencies and full data binding.
+* [Jolt](https://github.com/bazaarvoice/jolt) - JSON to JSON transformation tool.
 * [JsonPath](https://github.com/jayway/JsonPath) - Extract data from JSON using XPATH like syntax.
 * [JsonSurfer](https://github.com/jsurfer/JsonSurfer) - Streaming JsonPath processor dedicated to processing big and complicated JSON data.
-* [Jolt](https://github.com/bazaarvoice/jolt) - JSON to JSON transformation tool.
 
 ## JVM and JDK
 
@@ -414,8 +414,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
 * [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
 * [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking concurrent GC for iOS.
-* [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
 * [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
+* [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
 
 ## Logging
 
@@ -505,8 +505,8 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries for network programming.*
 
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
-* [Finagle](https://github.com/twitter/finagle) - Extensible RPC system used to construct high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol agnostic, which simplifies the implementation of new protocols.
 * [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
+* [Finagle](https://github.com/twitter/finagle) - Extensible RPC system used to construct high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol agnostic, which simplifies the implementation of new protocols.
 * [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
 * [Netty](http://netty.io/) - Framework for building high performance network applications.
 * [Nifty](https://github.com/facebook/nifty) - Implementation of Thrift clients and servers on Netty.
@@ -544,8 +544,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial profiler.
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
-* [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.
 * [XRebel](http://zeroturnaround.com/software/xrebel/) - A commercial profiler for Java Web applications.
+* [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.
 
 ## Reactive libraries
 
@@ -565,10 +565,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
 * [RAML](http://raml.org/) - Modeling language to generate REST APIs with contract first.
 * [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
+* [rest.li](https://github.com/linkedin/rest.li) - Framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBoss Netty HTTP stack to provide scaling and performance.
 * [Restlet Framework](https://github.com/restlet/restlet-framework-java/) - Pioneering framework with powerful routing and filtering capabilities, unified client and server API.
-* [rest.li](https://github.com/linkedin/rest.li) - Framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.
 * [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
@@ -668,8 +668,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Tuples.
-* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - A library that helps to construct difficult regular expressions.
+* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 
 ## Web Crawling
 
