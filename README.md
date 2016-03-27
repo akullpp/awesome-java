@@ -193,7 +193,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Crate](https://crate.io/) - Distributed data store that implements data synchronization, sharding, scaling, and replication. In addition, it provides a SQL-based syntax to execute queries across a cluster.
 * [eXist](https://github.com/eXist-db/exist) - A NoSQL document database and application platform.
 * [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
-* [Flyway](http://flywaydb.org/) - Simple database migration tool.
+* [Flyway](https://flywaydb.org/) - Simple database migration tool.
 * [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
@@ -201,7 +201,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
-* [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
+* [Presto](https://github.com/prestodb/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
 * [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
 * [Speedment](https://github.com/speedment/speedment) - A database access library that utilizes the Java 8 Stream API for querying.
@@ -322,14 +322,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
 * [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
 * [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
-* [Javaslang](http://javaslang.com) - Functional component library that provides persistent data types and functional control structures.
+* [Javaslang](http://www.javaslang.io/) - Functional component library that provides persistent data types and functional control structures.
 * [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 
 ## Game Development
 
 *Frameworks that support the development of games.*
 
-* [jMonkeyEngine](http://jmonkeyengine.org/) - Game engine for modern 3D development.
+* [jMonkeyEngine](https://jmonkeyengine.org/) - Game engine for modern 3D development.
 * [libGDX](https://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
 * [LWJGL](https://www.lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 
@@ -608,7 +608,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools which substitute expressions in a template.*
 
 * [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
-* [FreeMarker](http://freemarker.incubator.apache.org/) - General templating engine without any heavyweight or opinionated dependencies.
+* [FreeMarker](http://freemarker.org/) - General templating engine without any heavyweight or opinionated dependencies.
 * [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
