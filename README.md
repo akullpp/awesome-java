@@ -564,10 +564,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
 * [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
-* [GraphStream](http://graphstream-project.org/) - GraphStream is a Java library for the modeling and analysis of dynamic graphs. You can generate, import, export, measure, layout and visualize them.
+* [GraphStream](http://graphstream-project.org/) - Library for modeling and analysis of dynamic graphs.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 * [JGraphX](https://github.com/jgraph/jgraphx) - JGraphX provides functionality for visualisation and interaction with node-edge graphs (not charts).
-* [JUNG](http://jung.sourceforge.net/) - Java Universal Network/Graph Framework--is a software library that provides a common and extendible language for the modeling, analysis, and visualization of data that can be represented as a graph or network.
 
 ## Search
 
@@ -644,7 +643,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
 * [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
-* [J8Spec](https://tprado.github.io/j8spec/) - J8Spec is a library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
+* [J8Spec](https://github.com/j8spec/j8spec/) - J8Spec is a library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
 
 ## Utility
 
