@@ -542,6 +542,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [honest-profiler](https://github.com/RichardWarburton/honest-profiler) - An low-overhead, bias-free sampling profiler.
 * [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM.
+* [Java Mission Control](http://www.oracle.com/technetwork/java/javaseproducts/mission-control/java-mission-control-1998576.html) - An advanced set of tools that enables efficient and detailed analysis of the extensive of data collected by Java Flight Recorder.(since JDK 7u40)
 * [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial profiler.
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 * [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
