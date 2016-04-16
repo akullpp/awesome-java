@@ -577,11 +577,13 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Science
 
-*Libraries for scientific computing and analysis.*
+*Libraries for scientific computing, analysis and visualization.*
 
 * [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
-* [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 * [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
+* [GraphStream](http://graphstream-project.org/) - Library for modeling and analysis of dynamic graphs.
+* [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
+* [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualisation (mainly Swing) and interaction with node-edge graphs.
 
 ## Search
 
@@ -658,6 +660,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
 * [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
+* [J8Spec](https://github.com/j8spec/j8spec/) - J8Spec is a library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
 
 ## Utility
 
@@ -666,6 +669,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
 * [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others.
 * [Gephi](https://github.com/gephi/gephi/) - Cross-platform for visualizing and manipulating large graph networks.
+* [Dex](https://github.com/PatMartin/Dex) - Java/JavaFX tool capable of powerful ETL and data visualization.
 * [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
 * [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
 * [javatuples](http://www.javatuples.org/) - Tuples.
@@ -762,6 +766,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [InfoQ](http://www.infoq.com/)
 * [Java, SQL, and jOOQ](http://blog.jooq.org/)
+* [Java Algorithms and Clients](http://algs4.cs.princeton.edu/code/)
 * [Java.net](https://community.oracle.com/community/java)
 * [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
 * [JavaWorld](http://www.javaworld.com/)
