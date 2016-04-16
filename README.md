@@ -45,6 +45,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
     - [ORM](#orm)
+    - [Performance analysis](#performance-analysis)
     - [PDF](#pdf)
     - [Reactive libraries](#reactive-libraries)
     - [REST Frameworks](#rest-frameworks)
