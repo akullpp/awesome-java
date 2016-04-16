@@ -47,6 +47,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [ORM](#orm)
     - [Performance analysis](#performance-analysis)
     - [PDF](#pdf)
+    - [Performance analysis](#performance-analysis)
     - [Reactive libraries](#reactive-libraries)
     - [REST Frameworks](#rest-frameworks)
     - [Science](#science)
