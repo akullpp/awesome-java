@@ -515,6 +515,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Nifty](https://github.com/facebook/nifty) - Implementation of Thrift clients and servers on Netty.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
 * [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
+* [urnlib](https://github.com/slub/urnlib) - Java library for representing, parsing and encoding URNs as in RFC 2141.
 
 ## ORM
 
