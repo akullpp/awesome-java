@@ -123,6 +123,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+* [Sputnik.ci](https://sputnik.ci) - Checks quality of contributions to your GitHub projects. Runs Checkstyle, PMD, FindBugs, Scalastyle, CodeNarc on changed code.
 
 ## Code Coverage
 
