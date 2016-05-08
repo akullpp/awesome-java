@@ -699,6 +699,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Blade](https://github.com/biezhi/blade) - Lightweight, modular framework which aims to be elegant and simple.
 * [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
+* [Jooby](http://jooby.org) - Scalable, fast and modular micro web framework.
 * [Ninja](http://www.ninjaframework.org/) - Full stack web framework.
 * [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
 * [Play](https://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
