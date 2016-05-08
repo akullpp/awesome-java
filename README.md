@@ -371,6 +371,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 * [Trove](http://trove.starlight-systems.com/) - Primitive collections.
+* [Apache Lucene](https://lucene.apache.org/core/) - Apache LuceneTM is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.
 
 ## IDE
 
