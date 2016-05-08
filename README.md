@@ -606,6 +606,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Cryptomator](https://cryptomator.org/) - Multiplatform transparent client-side encryption of files in the cloud.
 * [Google Keyczar](https://github.com/google/keyczar) - Easy to use, yet safe encryption framework with key versioning.
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.
+* [OACC](http://oaccframework.org/) - OACC (pronounced Oak) is an advanced Java™ Application Security Framework. OACC provides a high performance API that provides permission based authorization services for Java applications. In a nutshell, OACC allows your application to enforce security by answering the question: Is entity ‘A’ allowed to perform action ‘p’ on entity ‘B’?
 * [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
 
 ## Serialization
