@@ -457,6 +457,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
 * [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
 * [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
+* [Nakadi](https://github.com/zalando/nakadi) - Provides a RESTful API on top of Kafka.
 * [JeroMQ](https://github.com/zeromq/jeromq) - Implementation of ZeroMQ.
 * [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library.
 
