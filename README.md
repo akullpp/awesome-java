@@ -772,7 +772,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
 * [The Takipi Blog](http://blog.takipi.com/)
 * [TheServerSide.com](http://www.theserverside.com/)
-* [Vanilla Java](http://vanillajava.blogspot.ch/)
+* [Vanilla Java](https://vanilla-java.github.io/)
 * [Voxxed](https://www.voxxed.com/)
 
 # Contributing
