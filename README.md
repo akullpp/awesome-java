@@ -467,6 +467,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Codename One](https://www.codenameone.com/) - Cross platform solution for writing native mobile (iOS, Android, etc.)
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
+* [JBake](http://jbake.org) - Java based static site/blog generator.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [jabba](https://github.com/shyiko/jabba) - Java Version Manager inspired by nvm.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
