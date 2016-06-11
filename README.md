@@ -62,6 +62,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Web Frameworks](#web-frameworks)
 - [Resources](#resources)
     - [Communities](#communities)
+    - [Frontends](#frontends)
     - [Influential Books](#influential-books)
     - [Podcasts](#podcasts)
     - [Twitter](#twitter)
@@ -716,6 +717,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [r/java](https://www.reddit.com/r/java) - Subreddit for the Java community.
 * [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
 * [vJUG](http://virtualjug.com/) - Virtual Java User Group.
+
+## Frontends
+
+*Websites that provide a frontend for this list. Please note, there won't be an official website. We don't associate with a particular website and everybody is allowed to create one.*
+
+* [java.libhunt.com](https://java.libhunt.com/)
 
 ## Influential Books
 
