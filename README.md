@@ -10,7 +10,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
     - [Code Coverage](#code-coverage)
-	- [Command-line Argument Parsers](#command-line-argument-parsers)
+    - [Command-line Argument Parsers](#command-line-argument-parsers)
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
     - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
@@ -47,6 +47,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [ORM](#orm)
     - [PDF](#pdf)
     - [Performance analysis](#performance-analysis)
+    - [Platform](#platform)
     - [Reactive libraries](#reactive-libraries)
     - [REST Frameworks](#rest-frameworks)
     - [Science](#science)
@@ -475,7 +476,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
-* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 
 ## Monitoring
 
@@ -550,6 +550,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 * [XRebel](http://zeroturnaround.com/software/xrebel/) - A commercial profiler for Java Web applications.
 * [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.
+
+## Platform
+
+*Frameworks that are suites of multiple libraries encompassing several categories.*
+
+* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 
 ## Reactive libraries
 
