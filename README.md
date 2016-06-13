@@ -652,6 +652,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
 * [Citrus](http://citrusframework.org/) - Integration testing framework with focus on client- and serverside messaging.
+* [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
 * [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
