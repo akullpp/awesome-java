@@ -198,7 +198,7 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Database
 
 *Everything which simplifies interactions with the database.*
-
+ne
 * [Apache Hive](https://hive.apache.org/) - Data warehouse infrastructure built on top of Hadoop.
 * [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
 * [eXist](https://github.com/eXist-db/exist) - A NoSQL document database and application platform.
@@ -521,6 +521,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
 * [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
 * [urnlib](https://github.com/slub/urnlib) - Java library for representing, parsing and encoding URNs as in RFC 2141.
+* [MINA](https://mina.apache.org/) - Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract event-driven asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO.
 
 ## ORM
 
