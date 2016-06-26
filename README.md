@@ -77,7 +77,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Hadoop](http://hadoop.apache.org/) - Storage and large-scale processing of data-sets on clusters of commodity hardware.
 * [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
 * [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
-* [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
 * [FreeMarker](http://freemarker.org/) - General templating engine without any heavyweight or opinionated dependencies.
 * [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE sponsored by Oracle.
 * [GWT](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
@@ -117,6 +116,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
 * [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
+* [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
 * [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
 
 ## Cluster Management
