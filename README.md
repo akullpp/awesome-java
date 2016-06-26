@@ -506,6 +506,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that specialize on processing text.*
 
 * [CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) - Stanford's CoreNLP provides a set of fundamental tools for tasks like tagging, named entity recognition, sentiment analysis and many more.
+* [DKPro](https://dkpro.github.io/) - A collection of re-usable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
 * [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for a variety of tasks ranging from POS tagging to sentiment analysis.
 
 ## Networking
