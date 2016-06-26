@@ -271,7 +271,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, and fault tolerant event-driven applications.
 * [Apache Storm](http://storm.apache.org/) - Realtime computation system.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
+* [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
+* [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
 * [Ehcache](http://www.ehcache.org/) - Distributed general purpose cache.
 * [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
