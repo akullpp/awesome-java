@@ -160,6 +160,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks that help to create parsers, interpreters or compilers.*
 
 * [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
+* [JFlex](http://jflex.de/) - A lexical analyzer generator for Java.
 
 ## Configuration
 
