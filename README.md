@@ -147,6 +147,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
 * [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
 
+## Code Generators
+
+*Code that generates boilerplate code.*
+
+* [Immutables](http://immutables.github.io/) - Java annotation processors to generate simple, safe and consistent value objects.
+* [FreeBuilder](https://github.com/google/FreeBuilder) - Automatic generation of the Builder pattern.
+* [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
+* [Lombok](https://projectlombok.org/) - Code generator which aims to reduce verbosity.
+
 ## Command-line Argument Parsers
 
 *Libraries that make it easy to parse command line options, arguments, etc.*
@@ -258,10 +267,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Auto](https://github.com/google/auto) - Collection of source code generators.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
-* [Immutables](http://immutables.github.io/) - Scala-like case classes.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
-* [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
 
 ## Distributed Applications
