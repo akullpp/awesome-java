@@ -7,6 +7,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
+    - [Cloud Storage](#cloud-storage)
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
     - [Code Coverage](#code-coverage)
@@ -55,6 +56,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Security](#security)
     - [Serialization](#serialization)
     - [Server](#server)
+	- [Social login](#social-login)
     - [Template Engine](#template-engine)
     - [Testing](#testing)
     - [Utility](#utility)
@@ -118,6 +120,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
 * [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
 * [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
+
+## Cloud Storage
+
+*Libraries for cloud storage services.*
+
+* [CloudRail](https://cloudrail.com) - Unified API for many Services.
 
 ## Cluster Management
 
@@ -639,6 +647,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
 * [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM.
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
+
+## Social login
+
+*Libraries for social login.*
+
+* [CloudRail](https://cloudrail.com) - Unified API for many Services.
 
 ## Template Engine
 
