@@ -403,7 +403,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 * [JSON-io](https://github.com/jdereg/json-io) - Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.
-* [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library.
+* [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
 
 ## JSON Processing
 
@@ -430,10 +430,10 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that log the behavior of an application.*
 
 * [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite with a powerful plugin and configuration architecture.
-* [graylog](https://www.graylog.org/) - Open-source aggregator suited for extended role and permission management.
-* [kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
+* [Graylog](https://www.graylog.org/) - Open-source aggregator suited for extended role and permission management.
+* [Kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
 * [Logback](http://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
-* [logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
+* [Logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
 * [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
 
