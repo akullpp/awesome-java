@@ -659,6 +659,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Citrus](http://citrusframework.org/) - Integration testing framework with focus on client- and serverside messaging.
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
 * [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
+* [Cukes-REST](https://github.com/ctco/cukes-rest) - A collection of Gherkin steps for REST-service testing using Cucumber.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
