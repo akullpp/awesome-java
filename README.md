@@ -7,6 +7,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
+    - [Caching](#caching)
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
     - [Code Coverage](#code-coverage)
@@ -120,6 +121,13 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
 * [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
 * [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
+
+## Caching
+
+*Libraries which provide caching facilities.*
+
+* [Caffeine](https://github.com/ben-manes/caffeine) - High performance, near optimal caching library.
+* [Ehcache](http://www.ehcache.org/) - Distributed general purpose cache.
 
 ## Cluster Management
 
@@ -276,7 +284,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
-* [Ehcache](http://www.ehcache.org/) - Distributed general purpose cache.
 * [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
