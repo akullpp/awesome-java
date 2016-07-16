@@ -211,6 +211,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache Hive](https://hive.apache.org/) - Data warehouse infrastructure built on top of Hadoop.
 * [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
+* [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) - Efficient in-memory (opt. persisted to disk) off-heap key-value store.
 * [eXist](https://github.com/eXist-db/exist) - A NoSQL document database and application platform.
 * [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
 * [Flyway](https://flywaydb.org/) - Simple database migration tool.
