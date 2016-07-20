@@ -531,6 +531,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
 * [Finagle](https://github.com/twitter/finagle) - Extensible RPC system used to construct high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol agnostic, which simplifies the implementation of new protocols.
 * [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
+* [gRPC](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
 * [Netty](http://netty.io/) - Framework for building high performance network applications.
 * [Nifty](https://github.com/facebook/nifty) - Implementation of Thrift clients and servers on Netty.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
