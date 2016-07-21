@@ -475,7 +475,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Nakadi](https://github.com/zalando/nakadi) - Provides a RESTful API on top of Kafka.
 * [JeroMQ](https://github.com/zeromq/jeromq) - Implementation of ZeroMQ.
 * [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library.
-* [Alibaba RocketMQ](https://github.com/alibaba/RocketMQ) - A fast, reliable, and scalable distributed messaging platform made by alibaba
+* [Alibaba RocketMQ](https://github.com/alibaba/RocketMQ) - A fast, reliable, and scalable distributed messaging platform made by alibaba.
 
 ## Miscellaneous
 
