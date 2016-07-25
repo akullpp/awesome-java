@@ -390,7 +390,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Hosting
 
-* Cloud hosting services for Java applications.*
+*Cloud hosting services for Java applications.*
 
 * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - AWS-based PaaS with support of Tomcat & Jetty.
 * [Jelastic](https://jelastic.com/jelastic-for-developers/) - Java cloud hosting(PaaS) with support of Tomcat, Jetty, GlassFish, JBoss, TomEE & WildFly. 
