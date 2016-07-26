@@ -444,6 +444,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Graylog](https://www.graylog.org/) - Open-source aggregator suited for extended role and permission management.
 * [Kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
 * [Logback](http://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
+* [Logbook](https://github.com/zalando/logbook) - Extensible, open-source library for HTTP request and response logging.
 * [Logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
 * [SLF4J](http://www.slf4j.org/) - Abstraction layer which is to be used with an implementation.
 * [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
