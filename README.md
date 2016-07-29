@@ -290,7 +290,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [Orbit](http://www.orbit.cloud/) - Virtual Actors, adding another level of abstraction to traditional actors.
-* [Pinpoint](https://github.com/naver/pinpoint) - Application performance management tool.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 
 ## Distributed Databases
@@ -510,6 +509,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open source performance monitoring and transaction tracing for JVM apps.
 * [Glowroot](https://glowroot.org/) - Open source Java APM.
+* [Pinpoint](https://github.com/naver/pinpoint) - Open source APM tool.
 
 ## Native
 *For working with platform-specific native libraries.*
