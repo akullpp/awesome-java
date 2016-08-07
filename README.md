@@ -452,7 +452,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
 * [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
-* [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server in Java & Android
+* [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server.
 
 ## Template Engine
 
