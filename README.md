@@ -364,6 +364,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Geo](https://github.com/davidmoten/geo/) - GeoHash utilities in Java.
 * [Geotoolkit.org](http://www.geotoolkit.org/) - Library for developing geospatial applications. Built on top of the Apache SIS project.
 * [GeoTools](http://geotools.org/) - Library that provides tools for geospatial data.
+* [GraphHopper](https://github.com/graphhopper/graphhopper) - Apache licensed road routing engine using OpenStreetMap data.
 * [H2GIS](http://www.h2gis.org/) - A spatial extension of the H2 database.
 * [Jgeohash](http://astrapi69.github.io/jgeohash/) - Library that can assist Java developers in using the GeoHash algorithm.
 * [Mapsforge](https://github.com/mapsforge/mapsforge/) - Software for the rendering of maps based on OpenStreetMap data.
