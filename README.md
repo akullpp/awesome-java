@@ -11,6 +11,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
     - [Code Coverage](#code-coverage)
+    - [Code Generators](#code-generators)
     - [Command-line Argument Parsers](#command-line-argument-parsers)
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
@@ -157,6 +158,17 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
 * [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
 
+## Code Generators
+
+*Tools that generate patterns for repetitive code in order to reduce verbosity and error-proneness.*
+
+* [FreeBuilder](https://github.com/google/FreeBuilder) - Automatic generation of the Builder pattern.
+* [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
+* [Lombok](https://projectlombok.org/) - Code generator which aims to reduce verbosity.
+* [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
+* [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
+* [Immutables](http://immutables.github.io/) - Java annotation processors to generate simple, safe and consistent value objects.
+
 ## Command-line Argument Parsers
 
 *Libraries that make it easy to parse command line options, arguments, etc.*
@@ -266,15 +278,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Augmentation of the development process at a fundamental level.*
 
-* [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 * [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
-* [Auto](https://github.com/google/auto) - Collection of source code generators.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
-* [Immutables](http://immutables.github.io/) - Scala-like case classes.
-* [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
-* [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
 
 ## Distributed Applications
