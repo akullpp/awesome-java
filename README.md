@@ -402,7 +402,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that assist with the creation, evaluation or manipulation of graphical images.*
 
 * [Imgscalr](https://github.com/thebuzzmedia/imgscalr) - Simple and efficient hardware-accelerated image-scaling library implemented in pure Java 2D.
-* [Tess4J](https://github.com/nguyenq/tess4j) - A Java JNA wrapper for Tesseract OCR API. It provides optical character recognition (OCR) support for: TIFF (single and multipage), JPEG, GIF, PNG, BMP and PDF
+* [Tess4J](https://github.com/nguyenq/tess4j) - A JNA wrapper for Tesseract OCR API.
 * [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
 * [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins which extend the number of supported image file formats.
 * [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
