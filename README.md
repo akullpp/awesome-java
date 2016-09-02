@@ -273,7 +273,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
 * [Immutables](http://immutables.github.io/) - Scala-like case classes.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
-* [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
+* [JRebel ![c]](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
 * [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
 
@@ -827,3 +827,5 @@ A curated list of awesome Java frameworks, libraries and software.
 Contributions are very welcome!
 
 Please have a look at [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) for guidelines.
+
+[c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/4fd320b3cb04846852a7500befeb51dfa8f99000/commercial.svg
