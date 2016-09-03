@@ -11,6 +11,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
     - [Code Coverage](#code-coverage)
+    - [Code Generators](#code-generators)
     - [Command-line Argument Parsers](#command-line-argument-parsers)
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
@@ -157,6 +158,17 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
 * [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
 
+## Code Generators
+
+*Tools that generate patterns for repetitive code in order to reduce verbosity and error-proneness.*
+
+* [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
+* [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
+* [FreeBuilder](https://github.com/google/FreeBuilder) - Automatic generation of the Builder pattern.
+* [Immutables](http://immutables.github.io/) - Java annotation processors to generate simple, safe and consistent value objects.
+* [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
+* [Lombok](https://projectlombok.org/) - Code generator which aims to reduce verbosity.
+
 ## Command-line Argument Parsers
 
 *Libraries that make it easy to parse command line options, arguments, etc.*
@@ -266,15 +278,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Augmentation of the development process at a fundamental level.*
 
-* [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 * [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
-* [Auto](https://github.com/google/auto) - Collection of source code generators.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
-* [Immutables](http://immutables.github.io/) - Scala-like case classes.
-* [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
 * [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
-* [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
 
 ## Distributed Applications
@@ -316,6 +323,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
 * [Nexus](http://www.sonatype.com/nexus/solution-overview) - Binary management with proxy and caching capabilities.
 * [packr](https://github.com/libgdx/packr/) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
+* [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) - Maven plugin for making self-executing JARs.
 
 ## Document Processing
 
@@ -415,8 +423,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java to JSON conversion library.
 * [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
-* [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 * [Jackson-datatype-money](https://github.com/zalando/jackson-datatype-money) - Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types.
+* [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 * [JSON-io](https://github.com/jdereg/json-io) - Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
 
@@ -478,10 +486,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
 * [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
 * [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
-* [Nakadi](https://github.com/zalando/nakadi) - Provides a RESTful API on top of Kafka.
 * [JeroMQ](https://github.com/zeromq/jeromq) - Implementation of ZeroMQ.
-* [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library.
+* [Nakadi](https://github.com/zalando/nakadi) - Provides a RESTful API on top of Kafka.
 * [RocketMQ](https://github.com/alibaba/RocketMQ) - A fast, reliable, and scalable distributed messaging platform.
+* [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library.
 
 ## Miscellaneous
 
@@ -506,18 +514,18 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that monitor applications in production.*
 
 * [AppDynamics](https://www.appdynamics.com/) - Commercial performance monitor.
+* [Glowroot](https://glowroot.org/) - Open source Java APM.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Jolokia](https://jolokia.org/) - JMX over REST.
 * [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
 * [Metrics](http://metrics.dropwizard.io/) - Expose metrics via JMX or HTTP and can send them to a database.
 * [New Relic](http://newrelic.com/) - Commercial performance monitor.
+* [OverOps](https://www.overops.com/) - Commercial in-production error monitoring and debugging.
+* [Pinpoint](https://github.com/naver/pinpoint) - Open source APM tool.
 * [Prometheus](https://prometheus.io/) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
 * [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.
-* [OverOps](https://www.overops.com/) - Commercial in-production error monitoring and debugging.
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open source performance monitoring and transaction tracing for JVM apps.
-* [Glowroot](https://glowroot.org/) - Open source Java APM.
-* [Pinpoint](https://github.com/naver/pinpoint) - Open source APM tool.
 
 ## Native
 *For working with platform-specific native libraries.*
@@ -542,6 +550,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Finagle](https://github.com/twitter/finagle) - Extensible RPC system used to construct high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol agnostic, which simplifies the implementation of new protocols.
 * [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
 * [gRPC](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
+* [MINA](https://mina.apache.org/) - Abstract event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
 * [Netty](http://netty.io/) - Framework for building high performance network applications.
 * [Nifty](https://github.com/facebook/nifty) - Implementation of Thrift clients and servers on Netty.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
@@ -660,9 +669,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Tomcat](http://tomcat.apache.org/) - Robust all-round server for Servlet and JSP.
 * [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE.
 * [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
+* [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server.
 * [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM.
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
-* [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server.
 
 ## Template Engine
 
