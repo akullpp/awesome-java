@@ -41,6 +41,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
+    - [Microservice](#microservice)
     - [Miscellaneous](#miscellaneous)
     - [Monitoring](#monitoring)
     - [Native](#native)
@@ -298,7 +299,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
-* [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [Orbit](http://www.orbit.cloud/) - Virtual Actors, adding another level of abstraction to traditional actors.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 
@@ -510,6 +510,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Detect uses of legacy Java APIs.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
+
+## Microservice
+
+*Tools for managing microservices, i.e. creation, coordination or discovery.*
+
+* [Apollo](https://spotify.github.io/apollo/) -  Libraries for writing composable microservices.
+* [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
+* [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
 ## Monitoring
 
