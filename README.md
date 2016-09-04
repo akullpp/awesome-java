@@ -48,6 +48,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
     - [ORM](#orm)
+    - [PaaS](#paas)
     - [PDF](#pdf)
     - [Performance analysis](#performance-analysis)
     - [Platform](#platform)
@@ -216,7 +217,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks and libraries that simplify reading/writing CSV data.*
 
-* [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
+* [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser.
 * [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
 * [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
 
@@ -283,7 +284,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 * [Faux Pas](https://github.com/zalando/faux-pas) - Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions.
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
-* [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
+* [JRebel ![c]](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
 
 ## Distributed Applications
@@ -524,18 +525,18 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that monitor applications in production.*
 
-* [AppDynamics](https://www.appdynamics.com/) - Commercial performance monitor.
+* [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
 * [Glowroot](https://glowroot.org/) - Open source Java APM.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Jolokia](https://jolokia.org/) - JMX over REST.
 * [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
 * [Metrics](http://metrics.dropwizard.io/) - Expose metrics via JMX or HTTP and can send them to a database.
-* [New Relic](http://newrelic.com/) - Commercial performance monitor.
-* [OverOps](https://www.overops.com/) - Commercial in-production error monitoring and debugging.
+* [New Relic ![c]](http://newrelic.com/) - Performance monitor.
+* [OverOps ![c]](https://www.overops.com/) - In-Production error monitoring and debugging.
 * [Pinpoint](https://github.com/naver/pinpoint) - Open source APM tool.
 * [Prometheus](https://prometheus.io/) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
-* [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.
+* [SPM ![c]](https://sematext.com/spm/) - Performance monitor with distributing transaction tracing for JVM apps.
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open source performance monitoring and transaction tracing for JVM apps.
 
 ## Native
@@ -578,6 +579,17 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
 * [MyBatis](http://www.mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
 
+## PaaS
+
+*Java platform as a service.*
+
+* [AWS Elastic Beanstalk ![c]](https://aws.amazon.com/elasticbeanstalk/) - AWS-based with support for Tomcat and Jetty.
+* [AWS Lambda ![c]](https://aws.amazon.com/lambda/) - Serverless computation.
+* [Google App Engine ![c]](https://cloud.google.com/) - PaaS on Google's infrastructure.
+* [Heroku ![c]](https://www.heroku.com/) - Abstract computing environments.
+* [Jelastic ![c]](https://jelastic.com/) - Supports Tomcat, Jetty, GlassFish, JBoss, TomEE and WildFly.
+* [OpenShift Enterprise ![c]](https://www.openshift.com/) - On premise solution.
+
 ## PDF
 
 *Everything that helps with the creation of PDF files.*
@@ -596,10 +608,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [honest-profiler](https://github.com/RichardWarburton/honest-profiler) - An low-overhead, bias-free sampling profiler.
 * [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
-* [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial profiler.
+* [JProfiler ![c]](https://www.ej-technologies.com/products/jprofiler/overview.html) - Profiler.
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
-* [XRebel](http://zeroturnaround.com/software/xrebel/) - A commercial profiler for Java Web applications.
-* [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.
+* [XRebel ![c]](http://zeroturnaround.com/software/xrebel/) - Profiler for web applications.
+* [YourKit Java Profiler ![c]](https://www.yourkit.com/features/) - Profiler.
 
 ## Platform
 
@@ -848,3 +860,5 @@ A curated list of awesome Java frameworks, libraries and software.
 Contributions are very welcome!
 
 Please have a look at [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) for guidelines.
+
+[c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg
