@@ -401,6 +401,13 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 
+## Hosting
+
+*Cloud hosting services for Java applications.*
+
+* [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - AWS-based PaaS with support of Tomcat & Jetty.
+* [Jelastic](https://jelastic.com/jelastic-for-developers/) - Java cloud hosting(PaaS) with support of Tomcat, Jetty, GlassFish, JBoss, TomEE & WildFly. 
+
 ## IDE
 
 *Integrated development environments that try to simplify several aspects of development.*
