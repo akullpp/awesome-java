@@ -312,6 +312,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Druid](http://druid.io) - Real-time and historical OLAP data store that excel at aggregation and approximation queries.
 * [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
 * [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
+* [OrientDB](https://orientdb.com/orientdb/) - Embeddable distributed database written on top of Hazelcast.
 
 ## Distribution
 
