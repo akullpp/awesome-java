@@ -212,6 +212,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
 * [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
+* [Concourse](https://concourse.ci/) - Provides dockerized pipeline with configuration that can be save in version control.
 
 ## CSV
 
@@ -735,7 +736,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [Spock](http://spockframework.github.io/spock/docs/) - JUnit-compatible framework featuring an expressive Groovy-derived specification language.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
-* [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
+* [WireMock](http://wiremock.org/) - Stubs and mocks web services.
+* [MockServer](http://www.mock-server.com/) - Mocking framework for Http and Https used for integration testing.
 
 ## Utility
 
