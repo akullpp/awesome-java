@@ -396,8 +396,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
 * [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
+* [Eclipse Collections](https://github.com/eclipse/eclipse-collections) - Collections framework inspired by Smalltalk.
 * [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections.
-* [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
