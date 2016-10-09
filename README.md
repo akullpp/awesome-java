@@ -167,8 +167,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 * [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
 * [FreeBuilder](https://github.com/google/FreeBuilder) - Automatic generation of the Builder pattern.
-* [Immutables](http://immutables.github.io/) - Java annotation processors to generate simple, safe and consistent value objects.
+* [Immutables](http://immutables.github.io/) - Annotation processors to generate simple, safe and consistent value objects.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
+* [Joda-Beans](http://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 * [Lombok](https://projectlombok.org/) - Code generator which aims to reduce verbosity.
 
 ## Command-line Argument Parsers
@@ -506,6 +507,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [javaslang-circuitbreaker](https://github.com/javaslang/javaslang-circuitbreaker) - Functional fault tolerance library.
 * [JBake](http://jbake.org) - Static website generator.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
+* [Joda-Money](http://www.joda.org/joda-money/) - Basic currency and money classes and algorithms not provided by the JDK.
 * [JPad](http://jpad.io/) - Snippet runner.
 * [Lanterna](https://github.com/mabe02/lanterna) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
