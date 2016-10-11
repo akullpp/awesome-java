@@ -522,6 +522,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools for managing microservices, i.e. creation, coordination or discovery.*
 
 * [Apollo](https://spotify.github.io/apollo/) -  Libraries for writing composable microservices.
+* [Eureka](https://github.com/Netflix/eureka) -  REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
