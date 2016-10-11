@@ -522,6 +522,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools for managing microservices, i.e. creation, coordination or discovery.*
 
 * [Apollo](https://spotify.github.io/apollo/) -  Libraries for writing composable microservices.
+* [Consul](https://www.consul.io/) -  Distributed, highly available and datacenter-aware registry/discovery service.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
