@@ -137,7 +137,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks which can dynamically manage applications inside of a cluster.*
 
 * [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
-* [Apache Mesos](http://mesos.apache.org/) -  Abstracts CPU, memory, storage, and other compute resources away from machines.
+* [Apache Mesos](http://mesos.apache.org/) - Abstracts CPU, memory, storage, and other compute resources away from machines.
 * [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 ## Code Analysis
@@ -521,8 +521,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools for managing microservices, i.e. creation, coordination or discovery.*
 
-* [Apollo](https://spotify.github.io/apollo/) -  Libraries for writing composable microservices.
-* [Eureka](https://github.com/Netflix/eureka) -  REST based service registry for resilient load balancing and failover.
+* [Apollo](https://spotify.github.io/apollo/) - Libraries for writing composable microservices.
+* [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
@@ -735,7 +735,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [MockServer](http://www.mock-server.com/) - Allows mocking of systems that are integrated with HTTP/S.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
-* [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
+* [PowerMock](https://github.com/jayway/powermock) - Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
