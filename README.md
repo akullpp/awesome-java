@@ -816,6 +816,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Something to listen to while programming.*
 
+* [Java Off Heap](http://www.javaoffheap.com/)
 * [The Java Council](http://virtualjug.com/podcast/)
 * [The Java Posse](http://www.javaposse.com/) - Discontinued as of 02/2015.
 
