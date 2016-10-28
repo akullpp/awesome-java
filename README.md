@@ -713,6 +713,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
+* [Jtwig](http://jtwig.org/) - Modular, configurable and fully tested template engine.
 
 ## Testing
 
