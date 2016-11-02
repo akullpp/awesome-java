@@ -628,6 +628,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks that are suites of multiple libraries encompassing several categories.*
 
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
+* [CUBA Platform](https://cuba-platform.com) - High level framework for development of enterprise applications with rich web interface, based on Spring, EclipseLink and Vaadin.
 
 ## Reactive libraries
 
