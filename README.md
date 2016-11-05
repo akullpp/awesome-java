@@ -622,6 +622,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 * [XRebel ![c]](http://zeroturnaround.com/software/xrebel/) - Profiler for web applications.
 * [YourKit Java Profiler ![c]](https://www.yourkit.com/features/) - Profiler.
+* [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - JMH is a Java harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targetting the JVM.
 
 ## Platform
 
