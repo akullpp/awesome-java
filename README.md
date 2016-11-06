@@ -860,7 +860,7 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Websites
 
 *Sites to read.*
-
+* [Awesome of Java](http://awesome.aerobatic.io/java/)
 * [Google Java Style](https://google.github.io/styleguide/javaguide.html)
 * [InfoQ](http://www.infoq.com/)
 * [Java Algorithms and Clients](http://algs4.cs.princeton.edu/code/)
