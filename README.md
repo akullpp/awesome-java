@@ -210,7 +210,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools which support continuously building, testing and releasing applications.*
 
 * [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
-* [Concourse](https://concourse.ci/) - Provides dockerized pipeline with configuration that can be save in version control.
+* [Concourse](https://concourse.ci/) - Provides dockerized pipeline with configuration that can be saved in version control.
 * [fabric8](http://fabric8.io/) - Integration platform for containers.
 * [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
