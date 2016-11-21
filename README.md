@@ -152,6 +152,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
+* [Infer](http://fbinfer.com/) - Tool to produce a list of potential bugs.
 
 ## Code Coverage
 
