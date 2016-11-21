@@ -246,7 +246,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
 * [Realm](https://github.com/realm/realm-java) - Mobile database to run directly inside phones, tablets or wearables.
 * [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
-* [Speedment](https://github.com/speedment/speedment) - A database access library that utilizes the Java 8 Stream API for querying.
+* [Speedment](https://github.com/speedment/speedment) - Database access library that utilizes the Java 8 Stream API for querying.
+* [sql2o](http://sql2o.org/) - Thin JDBC wrapper that simplyfies database access and provides simple mapping of ResultSets to POJOs.
 * [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library which offers advanced performance monitoring capabilities.
 
 ## Data structures
