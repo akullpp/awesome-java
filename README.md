@@ -194,6 +194,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that provide external configuration.*
 
+- [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
 * [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
 * [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
 * [ini4j](http://ini4j.sourceforge.net/) - Provides an API for handling Windows' INI files.
