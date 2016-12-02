@@ -148,11 +148,11 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Codacy](https://www.codacy.com) - Continuous static analysis, code coverage, and software metrics to automate code reviews.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
+* [Infer](http://fbinfer.com/) - Tool to produce a list of potential bugs.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
-* [Infer](http://fbinfer.com/) - Tool to produce a list of potential bugs.
 
 ## Code Coverage
 
@@ -194,10 +194,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that provide external configuration.*
 
-- [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
 * [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
-* [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
 * [ini4j](http://ini4j.sourceforge.net/) - Provides an API for handling Windows' INI files.
+* [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
+- [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
 
 ## Constraint Satisfaction Problem Solver
 
@@ -619,20 +619,21 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools for performance analysis, profiling and benchmarking.*
 
+* [GCeasy ![c]](http://gceasy.io) - Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.
 * [honest-profiler](https://github.com/RichardWarburton/honest-profiler) - An low-overhead, bias-free sampling profiler.
 * [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
+* [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - JMH is a Java harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
 * [JProfiler ![c]](https://www.ej-technologies.com/products/jprofiler/overview.html) - Profiler.
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 * [XRebel ![c]](http://zeroturnaround.com/software/xrebel/) - Profiler for web applications.
 * [YourKit Java Profiler ![c]](https://www.yourkit.com/features/) - Profiler.
-* [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - JMH is a Java harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
 
 ## Platform
 
 *Frameworks that are suites of multiple libraries encompassing several categories.*
 
-* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 * [CUBA Platform](https://cuba-platform.com) - High level framework for development of enterprise applications with rich web interface, based on Spring, EclipseLink and Vaadin.
+* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 
 ## Reactive libraries
 
@@ -685,10 +686,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
 * [Bouncy Castle](https://www.bouncycastle.org/java.html) - All-purpose cryptographic library. JCA provider, wide range of functions from basic helpers to PGP/SMIME operations.
 * [Cryptomator](https://cryptomator.org/) - Multiplatform transparent client-side encryption of files in the cloud.
-* [Keyczar](https://github.com/google/keyczar) - Easy to use, yet safe encryption framework with key versioning.
 * [Hdiv](https://github.com/hdiv/hdiv) - Runtime application self-protection against OWASP Top 10 security risks such us Insecure Direct Object References, SQL injection, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF) and much more.
 * [jjwt](https://github.com/jwtk/jjwt) - Java JWT: JSON Web Token for Java and Android.
 * [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.
+* [Keyczar](https://github.com/google/keyczar) - Easy to use, yet safe encryption framework with key versioning.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
 * [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 * [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
@@ -718,8 +719,8 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools which substitute expressions in a template.*
 
 * [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
-* [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 * [Jtwig](http://jtwig.org/) - Modular, configurable and fully tested template engine.
+* [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
 ## Testing
 
