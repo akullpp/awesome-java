@@ -551,6 +551,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Prometheus](https://prometheus.io/) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
 * [SPM ![c]](https://sematext.com/spm/) - Performance monitor with distributing transaction tracing for JVM apps.
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open source performance monitoring and transaction tracing for JVM apps.
+* [nudge4j](https://github.com/lorenzoongithub/nudge4j) - A remote developer console from the browser for java 8 apps.
 
 ## Native
 *For working with platform-specific native libraries.*
