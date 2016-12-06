@@ -33,6 +33,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Geospatial](#geospatial)
     - [GUI](#gui)
     - [High Performance](#high-performance)
+    - [Hypermedia Types](#hypermedia-types)
     - [IDE](#ide)
     - [Imagery](#imagery)
     - [JSON Processing](#json-processing)
@@ -403,6 +404,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
+
+## Hypermedia Types
+
+*Libraries that handle serialization to hypermedia types.*
+
+* [Siren4J](https://github.com/eserating/siren4j) - Java library for the Siren Hypermedia Type Specification.
 
 ## IDE
 
