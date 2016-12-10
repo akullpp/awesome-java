@@ -409,8 +409,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that handle serialization to hypermedia types.*
 
-* [JSON-LD](https://github.com/jsonld-java/jsonld-java) - JSON-LD implementation for Java.
-* [Siren4J](https://github.com/eserating/siren4j) - Java library for the Siren Hypermedia Type Specification.
+* [JSON-LD](https://github.com/jsonld-java/jsonld-java) - JSON-LD implementation.
+* [Siren4J](https://github.com/eserating/siren4j) - Library for the Siren specification.
 
 ## IDE
 
