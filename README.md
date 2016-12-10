@@ -33,6 +33,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Geospatial](#geospatial)
     - [GUI](#gui)
     - [High Performance](#high-performance)
+    - [Hypermedia Types](#hypermedia-types)
     - [IDE](#ide)
     - [Imagery](#imagery)
     - [JSON Processing](#json-processing)
@@ -410,6 +411,13 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 
+## Hypermedia Types
+
+*Libraries that handle serialization to hypermedia types.*
+
+* [JSON-LD](https://github.com/jsonld-java/jsonld-java) - JSON-LD implementation.
+* [Siren4J](https://github.com/eserating/siren4j) - Library for the Siren specification.
+
 ## IDE
 
 *Integrated development environments that try to simplify several aspects of development.*
@@ -507,6 +515,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Everything else.*
 
 * [Codename One](https://www.codenameone.com/) - Cross platform solution for writing native mobile (iOS, Android, etc.)
+* [CQEngine](https://github.com/npgall/cqengine) - Ultra-fast SQL-like queries on Java collections.
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
@@ -749,6 +758,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
 * [PowerMock](https://github.com/jayway/powermock) - Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
+* [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
