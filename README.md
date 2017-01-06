@@ -630,6 +630,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools for performance analysis, profiling and benchmarking.*
 
 * [GCeasy ![c]](http://gceasy.io) - Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.
+* [fastThread](http://fastthread.io) - Tool to analyze and visualize thread dumps. It provides a free cloud-based upload interface.
 * [honest-profiler](https://github.com/RichardWarburton/honest-profiler) - An low-overhead, bias-free sampling profiler.
 * [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - JMH is a Java harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
