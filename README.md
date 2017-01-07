@@ -447,6 +447,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
 * [JSON-io](https://github.com/jdereg/json-io) - Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
+* [jsoniter](http://jsoniter.com) - A fast and flexible JSON library, with iterator api and lazy parsing api.
 
 ## JSON Processing
 
