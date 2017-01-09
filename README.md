@@ -242,7 +242,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [Jedis](https://github.com/xetorthio/jedis) - A small client for interaction with redis, with methods for commands.
-* [jetcd](https://github.com/justinsb/jetcd) - A client library for etcd. 
+* [jetcd](https://github.com/justinsb/jetcd) - A client library for etcd.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
@@ -522,6 +522,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [jabba](https://github.com/shyiko/jabba) - Java Version Manager inspired by nvm.
 * [javaslang-circuitbreaker](https://github.com/javaslang/javaslang-circuitbreaker) - Functional fault tolerance library.
+* [JavaX](http://javax.ai1.lol/) - Reinventing and extending Java with a focus on simplicity.
 * [JBake](http://jbake.org) - Static website generator.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Joda-Money](http://www.joda.org/joda-money/) - Basic currency and money classes and algorithms not provided by the JDK.
