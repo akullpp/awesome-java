@@ -246,6 +246,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
+* [MariaDB4j](https://github.com/vorburger/MariaDB4j/) - Launcher for MariaDB which requires no installation or external dependencies.
 * [Presto](https://github.com/prestodb/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
 * [Realm](https://github.com/realm/realm-java) - Mobile database to run directly inside phones, tablets or wearables.
