@@ -212,7 +212,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools which support continuously building, testing and releasing applications.*
 
-* [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
+* [Bamboo ![c]](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
 * [Concourse](https://concourse.ci/) - Provides dockerized pipeline with configuration that can be saved in version control.
 * [fabric8](http://fabric8.io/) - Integration platform for containers.
 * [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
@@ -307,7 +307,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
-* [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
+* [Hazelcast ![c]](http://hazelcast.org/) - Highly scalable in-memory datagrid.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
 * [Orbit](http://www.orbit.cloud/) - Virtual Actors, adding another level of abstraction to traditional actors.
@@ -328,13 +328,13 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools which handle the distribution of applications in native formats.*
 
-* [Bintray](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for open-source software or several business plans.
+* [Bintray ![c]](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for open-source software or several business plans.
 * [Boxfuse](https://boxfuse.com) - Deployment of JVM application to AWS using the principles of Immutable Infrastructure.
 * [Capsule](http://www.capsule.io/) - Simple and powerful packaging and deployment. A fat JAR on steroids or a "Docker for Java" that supports JVM-optimized containers.
 * [Central Repository](http://search.maven.org/) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven and available in all other build tools.
 * [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
 * [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
-* [Nexus](http://www.sonatype.com/nexus/solution-overview) - Binary management with proxy and caching capabilities.
+* [Nexus ![c]](http://www.sonatype.com/nexus/solution-overview) - Binary management with proxy and caching capabilities.
 * [packr](https://github.com/libgdx/packr/) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
 * [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) - Maven plugin for making self-executing JARs.
 
@@ -425,7 +425,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Integrated development environments that try to simplify several aspects of development.*
 
 * [Eclipse](http://www.eclipse.org/) - Established, open-souce project with support for lots of plugins and languages.
-* [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
+* [IntelliJ IDEA ![c]](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 * [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features from database access to HTML5.
 
 ## Imagery
