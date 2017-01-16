@@ -307,7 +307,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
-* [Hazelcast ![c]](http://hazelcast.org/) - Highly scalable in-memory datagrid with professional plans and a free open-source version.
+* [Hazelcast ![c]](http://hazelcast.org/) - Highly scalable in-memory datagrid with a free open-source version.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
 * [Orbit](http://www.orbit.cloud/) - Virtual Actors, adding another level of abstraction to traditional actors.
