@@ -491,6 +491,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Flink](https://flink.apache.org/) - Fast and reliable large-scale data processing engine.
 * [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification.
 * [Apache Spark](http://spark.apache.org/) - Data analytics cluster computing framework.
+* [DatumBox](http://www.datumbox.com) - Provides several algorithms and pre-trained models for natural language processing.
 * [DeepDive](http://deepdive.stanford.edu) - Creates structured information from unstructured data and integrates it into an existing database.
 * [Deeplearning4j](http://deeplearning4j.org/) - Distributed and multi-threaded deep learning library.
 * [H2O](http://www.h2o.ai/) - Analytics engine for statistics over big data.
