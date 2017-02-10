@@ -792,6 +792,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3 compatible object storage server.
 * [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
+* [JGit](https://eclipse.org/jgit/) - A lightweight pure Java library implementing the Git version control system.
 
 ## Web Crawling
 
