@@ -549,6 +549,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
+* [Light-Java](https://github.com/networknt/light-java) - The fastest and most productive microservices framework
 
 ## Monitoring
 
@@ -681,6 +682,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
 * [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
+* [Light-Java-Rest](https://github.com/networknt/light-java-rest) - A RESTful framework built on top of Light-Java with swagger-codegen and use swagger spec during runtime for validation and security.
 
 ## Science
 
@@ -714,6 +716,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
 * [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 * [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
+* [Light-OAuth2](https://github.com/networknt/light-oauth2) - The fastest, lightest and cloud native OAuth 2.0 authorization microservices based on light-java.
 
 ## Serialization
 
@@ -822,6 +825,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+* [Light-Java](https://github.com/networknt/light-java) - The fastest and most productive microservices framework
 
 # Resources
 
