@@ -295,6 +295,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Faux Pas](https://github.com/zalando/faux-pas) - Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions.
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
 * [JavaParser](https://github.com/javaparser/javaparser) - Parse, modify and generate Java code.
+* [JavaSymbolSolver](https://github.com/javaparser/javasymbolsolver) - A symbol solver for Java.
 * [JRebel ![c]](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
 
