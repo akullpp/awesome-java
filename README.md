@@ -549,7 +549,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
-* [Light-Java](https://github.com/networknt/light-java) - The fastest and most productive microservices framework
+* [Light-Java](https://github.com/networknt/light-java) - A fast, light weight and productive microservices framework
+* [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
 
 ## Monitoring
 
@@ -692,6 +693,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [GraphStream](http://graphstream-project.org/) - Library for modeling and analysis of dynamic graphs.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 * [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualisation (mainly Swing) and interaction with node-edge graphs.
+* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) - Modular, light and easy graph theoretic framework.
 
 ## Search
 
@@ -716,7 +718,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
 * [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 * [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
-* [Light-OAuth2](https://github.com/networknt/light-oauth2) - The fastest, lightest and cloud native OAuth 2.0 authorization microservices based on light-java.
+* [Light-OAuth2](https://github.com/networknt/light-oauth2) - A fast, light and cloud native OAuth 2.0 authorization microservices based on light-java.
 
 ## Serialization
 
@@ -773,6 +775,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [MockServer](http://www.mock-server.com/) - Allows mocking of systems that are integrated with HTTP/S.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
+* [pojo-tester](http://www.pojo.pl/) - Automatically performs tests on basic POJO-methods.
 * [PowerMock](https://github.com/jayway/powermock) - Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
 * [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
@@ -825,7 +828,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
-* [Light-Java](https://github.com/networknt/light-java) - The fastest and most productive microservices framework
 
 # Resources
 
