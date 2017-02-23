@@ -549,7 +549,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
-* [Light-Java](https://github.com/networknt/light-java) - A fast, light weight and productive microservices framework
 * [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
 
 ## Monitoring
@@ -656,6 +655,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [CUBA Platform](https://cuba-platform.com) - High level framework for development of enterprise applications with rich web interface, based on Spring, EclipseLink and Vaadin.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
+* [Light-Java](https://github.com/networknt/light-java) - A fast, light weight and productive microservices framework with [security](https://github.com/networknt/light-oauth2) built in.
 
 ## Reactive libraries
 
@@ -683,7 +683,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
 * [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
-* [Light-Java-Rest](https://github.com/networknt/light-java-rest) - A RESTful framework built on top of Light-Java with swagger-codegen and use swagger spec during runtime for validation and security.
 
 ## Science
 
@@ -718,7 +717,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
 * [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 * [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
-* [Light-OAuth2](https://github.com/networknt/light-oauth2) - A fast, light and cloud native OAuth 2.0 authorization microservices based on light-java.
 
 ## Serialization
 
