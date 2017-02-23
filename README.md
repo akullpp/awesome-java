@@ -655,7 +655,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [CUBA Platform](https://cuba-platform.com) - High level framework for development of enterprise applications with rich web interface, based on Spring, EclipseLink and Vaadin.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
-* [Light-Java](https://github.com/networknt/light-java) - A fast, light weight and productive microservices framework with [security](https://github.com/networknt/light-oauth2) built in.
+* [Light-Java](https://github.com/networknt/light-java) - A fast, lightweight and productive microservices framework with [security](https://github.com/networknt/light-oauth2) built in.
 
 ## Reactive libraries
 
