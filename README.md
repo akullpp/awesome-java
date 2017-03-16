@@ -217,6 +217,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [fabric8](http://fabric8.io/) - Integration platform for containers.
 * [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
+* [Semaphore](https://semaphoreci.com) - Hosted CI/CD service, free for open-source and 100 private builds with native Docker support.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
 * [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
 
