@@ -225,6 +225,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks and libraries that simplify reading/writing CSV data.*
 
+* [jackson-dataformat-csv](https://github.com/FasterXML/jackson-dataformat-csv) - Jackson extension for reading and writing CSV.
 * [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser.
 * [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
 * [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
