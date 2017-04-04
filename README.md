@@ -771,7 +771,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [J8Spec](https://github.com/j8spec/j8spec/) - J8Spec is a library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
 * [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing of JSON strings.
 * [JBehave](http://jbehave.org/) - Framework for Behavioural Driven Development.
-* [JFairy] (https://github.com/Codearte/jfairy) - Fake data generator.
+* [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
 * [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
 * [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
 * [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG like dataprovider runner for JUnit.
