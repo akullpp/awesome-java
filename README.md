@@ -541,7 +541,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Membrane Service Proxy](https://github.com/membrane/service-proxy) - An open source, reverse proxy framework written in Java.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Detect uses of legacy Java APIs.
-* [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.ub.com/takari
+* [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 
 ## Microservice
