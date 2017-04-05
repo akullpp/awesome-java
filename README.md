@@ -287,6 +287,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
 * [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
+* [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
 * [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
 * [HK2](https://hk2.java.net) - Light-weight and dynamic dependency injection framework.
 
@@ -542,6 +543,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Detect uses of legacy Java APIs.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+* [Polyglot for Maven](https://github.com/takari/polyglot-maven/) - Extensions for Maven 3.3.1+ that allows the POM model to be written in dialects other than XML.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 
 ## Microservice
@@ -779,6 +781,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [MockServer](http://www.mock-server.com/) - Allows mocking of systems that are integrated with HTTP/S.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
+* [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports on whether instances of a given class are immutable.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
 * [pojo-tester](http://www.pojo.pl/) - Automatically performs tests on basic POJO-methods.
 * [PowerMock](https://github.com/jayway/powermock) - Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
@@ -786,7 +789,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
 * [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
 * [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
-* [Spock](http://spockframework.github.io/spock/docs/) - JUnit-compatible framework featuring an expressive Groovy-derived specification language.
 * [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [WireMock](http://wiremock.org/) - Stubs and mocks web services.
