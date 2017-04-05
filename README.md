@@ -542,6 +542,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Detect uses of legacy Java APIs.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+* [Polyglot for Maven](https://github.com/takari/polyglot-maven/) - Extensions for Maven 3.3.1+ that allows the POM model to be written in dialects other than XML.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 
 ## Microservice
@@ -779,6 +780,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
 * [MockServer](http://www.mock-server.com/) - Allows mocking of systems that are integrated with HTTP/S.
 * [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
+* [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports on whether instances of a given class are immutable.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
 * [pojo-tester](http://www.pojo.pl/) - Automatically performs tests on basic POJO-methods.
 * [PowerMock](https://github.com/jayway/powermock) - Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
