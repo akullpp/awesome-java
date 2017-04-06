@@ -561,7 +561,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
 * [Glowroot](https://glowroot.org/) - Open source Java APM.
-* [Instrumental](https://instrumentalapp.com) - Real-time Java application performance montioring.
+* [Instrumental ![c]](https://instrumentalapp.com) - Real-time Java application performance monitoring. A commercial service with free development accounts.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
 * [Jolokia](https://jolokia.org/) - JMX over REST.
