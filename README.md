@@ -10,6 +10,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Caching](#caching)
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
+    - [Code Conventions](#code-conventions)
     - [Code Coverage](#code-coverage)
     - [Code Generators](#code-generators)
     - [Command-line Argument Parsers](#command-line-argument-parsers)
@@ -155,6 +156,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
+
+## Code Conventions
+
+*Coding Conventions or Code Standards used throughout the industry.
+
+* [Google Java Style](https://google.github.io/styleguide/javaguide.html) - Google's Java Style Guide.
 
 ## Code Coverage
 
