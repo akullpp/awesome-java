@@ -4,6 +4,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
     - [Ancients](#ancients)
+    - [Audio](#audio)
     - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
@@ -97,6 +98,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Quartz](https://github.com/quartz-scheduler/quartz) - Open-source job scheduler library with Apache 2.0 license.
 * [TestNG](http://testng.org/) - Testing framework.
 * [Trove](http://trove.starlight-systems.com/) - Primitive collections.
+
+## Audio
+
+*Libraries that deal with sound.*
+
+* [Beads](http://www.beadsproject.net) - Library written in Java for realtime audio.
 
 ## Bean Mapping
 
