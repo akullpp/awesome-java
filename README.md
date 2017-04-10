@@ -910,6 +910,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Java Algorithms and Clients](http://algs4.cs.princeton.edu/code/)
 * [Java, SQL, and jOOQ](http://blog.jooq.org/)
 * [Java.net](https://community.oracle.com/community/java)
+* [Java Code Geeks](https://www.javacodegeeks.com/)
 * [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
 * [JavaWorld](http://www.javaworld.com/)
 * [JAXenter](https://jaxenter.com/)
