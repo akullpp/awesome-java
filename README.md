@@ -39,6 +39,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [JSON Processing](#json-processing)
     - [JSON](#json)
     - [JVM and JDK](#jvm-and-jdk)
+    - [Embedded key-value stores](#embedded-key-value-stores)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
@@ -476,6 +477,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking concurrent GC for iOS.
 * [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
 * [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
+
+## Embedded key-value stores
+
+*Embedded key-value storage libraries.*
+
+* [LevelDB](https://github.com/dain/leveldb) - Port of LevelDB to Java.
+* [LMDB JNI](https://github.com/deephacks/lmdbjni) - LMDB for Java.
+* [RocksDB](https://github.com/facebook/rocksdb) - RocksDB for Java.
 
 ## Logging
 
