@@ -373,10 +373,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
 * [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
 * [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
-* [Javaslang](http://www.javaslang.io/) - Functional component library that provides persistent data types and functional control structures.
 * [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 * [protonpack](https://github.com/poetix/protonpack) - Collection of stream utilities.
 * [StreamEx](https://github.com/amaembo/streamex) - Enhancing Java 8 Streams.
+* [Vavr](http://www.vavr.io/) - Functional component library that provides persistent data types and functional control structures. (formerly known as Javaslang)
 
 ## Game Development
 
