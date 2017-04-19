@@ -63,6 +63,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Template Engine](#template-engine)
     - [Testing](#testing)
     - [Utility](#utility)
+    - [Version Managers](#version-managers)
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
 - [Resources](#resources)
@@ -530,7 +531,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
-* [jabba](https://github.com/shyiko/jabba) - Java Version Manager inspired by nvm.
 * [javaslang-circuitbreaker](https://github.com/javaslang/javaslang-circuitbreaker) - Functional fault tolerance library.
 * [JavaX](http://javax.ai1.lol/) - Reinventing and extending Java with a focus on simplicity.
 * [JBake](http://jbake.org) - Static website generator.
@@ -809,6 +809,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3 compatible object storage server.
 * [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
+
+## Version Managers
+
+*Utilities that help setup the development shell environment and switch between different Java versions.*
+
+* [jabba](https://github.com/shyiko/jabba) - Java Version Manager inspired by nvm. Supports Mac OS X, Linux, Windows.
+* [jenv](https://github.com/gcuisinier/jenv) - Java Version Manager inspired by rbenv. Can configure globally or per project. Tested on Debian and Mac OS X.
+* [SDKMan](https://github.com/sdkman/sdkman-cli) - Java Version Manager inspired by RVM and rbenv. Supports UNIX-based platforms and Windows.
 
 ## Web Crawling
 
