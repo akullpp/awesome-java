@@ -760,6 +760,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that test from model to the view.*
 
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
+* [ArchUnit](https://github.com/TNG/ArchUnit) - Architecture test library, to specify and assert architecture rules in plain Java.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
