@@ -764,6 +764,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
+* [cdp4j](https://github.com/webfolderio/cdp4j) - Web automation and testing library for Chromium based browsers.
 * [Citrus](http://citrusframework.org/) - Integration testing framework with focus on client- and serverside messaging.
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
 * [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
