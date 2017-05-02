@@ -554,6 +554,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [consul-api](https://github.com/Ecwid/consul-api) - Client for the [Consul](https://www.consul.io/) API a distributed, highly available and datacenter-aware registry/discovery service.
 * [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
+* [Light Java](https://github.com/networknt/light-java) - A fast and configurable REST microservices framework for docker containers on the cloud.
+* [Ja-micro](https://github.com/Sixt/ja-micro) - Lightweight framework for building java microservices based off [Go Micro](https://github.com/micro)
 * [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
