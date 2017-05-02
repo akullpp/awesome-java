@@ -116,7 +116,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
 * [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
+* [Freeline](https://www.freelinebuild.com/) - A super fast build tool for Android, an alternative to Instant Run, created by Alibaba.
 * [Gradle](http://gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+* [Nedbula](https://nebula-plugins.github.io/) - A collection of Gradle plugins, created by Netflix.
 
 ## Bytecode Manipulation
 
