@@ -14,7 +14,7 @@ There are two required criteria for a pull request:
 
 1. If an entry has a similar scope as other entries in the same category, the description must state the unique features that distinguishes it from the other entries.
 
-2. If an entry does not met conditions *(a)* to *(d)* there has to be an explanation either in the description or the pull request why it should be added to the list.
+2. If an entry does not meet conditions *(a)* to *(d)* there has to be an explanation either in the description or the pull request why it should be added to the list.
 
 Self-promotion is frowned upon and will be reviewed critically but the suggestion will of course be approved if they criteria match.
 
