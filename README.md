@@ -185,6 +185,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [args4j](http://args4j.kohsuke.org/) - Small library to parse command like arguments similar to javac.
 * [JCommander](http://jcommander.org/) - Command line arguments parsing framework with custom types and validation via implementing interfaces.
 * [JOpt Simple](http://pholser.github.io/jopt-simple/) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Does not use annotations, uses a fluent API instead.
+* [Airline](https://github.com/airlift/airline) - Java annotation-based framework for parsing Git like command line structures.
 
 ## Compiler-compiler
 
