@@ -562,6 +562,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that monitor applications in production.*
 
 * [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
+* [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
 * [Glowroot](https://glowroot.org/) - Open source Java APM.
 * [Instrumental ![c]](https://instrumentalapp.com) - Real-time Java application performance monitoring. A commercial service with free development accounts.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
@@ -576,6 +577,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Prometheus](https://prometheus.io/) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
 * [SPM ![c]](https://sematext.com/spm/) - Performance monitor with distributing transaction tracing for JVM apps.
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open source performance monitoring and transaction tracing for JVM apps.
+* [Sysmon](https://github.com/palantir/Sysmon) - Lightweight platform monitoring tool for Java VMs.
 
 ## Native
 *For working with platform-specific native libraries.*
