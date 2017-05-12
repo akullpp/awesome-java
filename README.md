@@ -156,7 +156,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
-* [SourceClear ![c]](https://www.sourceclear.com/) - checks the open-souce libraries being used for security vulnerabilities.
+* [SourceClear ![c]](https://www.sourceclear.com/) - Checks open-souce libraries for security vulnerabilities.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
 
 ## Code Coverage
