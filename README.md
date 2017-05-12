@@ -776,7 +776,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
 * [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
 * [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
-* [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing of JSON strings.
+* [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing of JSON 
+s.
 * [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG like dataprovider runner for JUnit.
 * [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests.
 * [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) - Descriptive behavioural specification framework.
@@ -811,6 +812,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3 compatible object storage server.
 * [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
+* [strman-java](https://github.com/shekhargulati/strman-java): A Java 8 library for working with String.
 
 ## Version Managers
 
