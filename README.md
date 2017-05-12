@@ -54,7 +54,9 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Performance analysis](#performance-analysis)
     - [Platform](#platform)
     - [Reactive libraries](#reactive-libraries)
-    - [REST Frameworks](#rest-frameworks)
+    - [REST Client Frameworks](#rest-client-frameworks)
+    - [REST Server Frameworks](#rest-server-frameworks)
+    - [REST Documentation](#rest-documentation)
     - [Science](#science)
     - [Search](#search)
     - [Security](#security)
@@ -550,15 +552,27 @@ A curated list of awesome Java frameworks, libraries and software.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 
 ## Microservice
-
 *Tools for managing microservices, i.e. creation, coordination or discovery.*
 
 * [Apollo](https://spotify.github.io/apollo/) - Libraries for writing composable microservices.
+* [Baratine](http://baratine.io) - Toolkit for building distributed and reactive applications for multiple environments, either standalone or embedded.
+* [Blade](https://github.com/biezhi/blade) - Lightweight, modular framework which aims to be elegant and simple.
+* [Bootique](http://bootique.io/) - Minimally opinionated framework for runnable apps.
 * [consul-api](https://github.com/Ecwid/consul-api) - Client for the [Consul](https://www.consul.io/) API a distributed, highly available and datacenter-aware registry/discovery service.
+* [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.
 * [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
+* [Jooby](http://jooby.org) - Scalable, fast and modular micro framework which offers multiple programming models.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
-* [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
+* [Microserver](https://github.com/aol/micro-server) - A convenient extensible Microservices plugin system for Spring & Spring Boot, with over 30 plugins and growing, that supports both micro-monolith and pure microservices styles.
+* [Ninja](http://www.ninjaframework.org/) - Full stack web framework.
+* [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
+* [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
+* [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
+* [Restlet Framework](https://github.com/restlet/restlet-framework-java/) - Pioneering framework with powerful routing and filtering capabilities, unified client and server API.
+* [rest.li](https://github.com/linkedin/rest.li) - Framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.
 * [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
+* [Spark](http://sparkjava.com/) - Sinatra inspired framework.
+* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 
 ## Monitoring
 
@@ -681,22 +695,25 @@ A curated list of awesome Java frameworks, libraries and software.
 * [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 * [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
 
-## REST Frameworks
+## REST Client Frameworks
 
-*Frameworks specifically for creating RESTful services.*
+*Frameworks specifically for consuming RESTful services.*
 
-* [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.
 * [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
+* [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
+* [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
+
+## REST Server Frameworks
+
+*Frameworks specifically for producing RESTful services.*
+
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
-* [Microserver](https://github.com/aol/micro-server) — A convenient extensible Microservices plugin system for Spring & Spring Boot, with over 30 plugins and growing, that supports both micro-monolith and pure microservices styles.
-* [RAML](http://raml.org/) - Modeling language to generate REST APIs with contract first.
-* [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
-* [rest.li](https://github.com/linkedin/rest.li) - Framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBoss Netty HTTP stack to provide scaling and performance.
-* [Restlet Framework](https://github.com/restlet/restlet-framework-java/) - Pioneering framework with powerful routing and filtering capabilities, unified client and server API.
-* [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
-* [Spark](http://sparkjava.com/) - Sinatra inspired framework.
+
+## REST Documentation
+
+* [RAML](http://raml.org/) - Modeling language to generate REST APIs with contract first.
 * [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
 
 ## Science
@@ -840,17 +857,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache Tapestry](http://tapestry.apache.org/) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
-* [Baratine](http://baratine.io) - Toolkit for building distributed and reactive applications for multiple environments, either standalone or embedded.
-* [Blade](https://github.com/biezhi/blade) - Lightweight, modular framework which aims to be elegant and simple.
-* [Bootique](http://bootique.io/) - Minimally opinionated framework for runnable apps.
 * [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
-* [Jooby](http://jooby.org) - Scalable, fast and modular micro framework which offers multiple programming models.
-* [Ninja](http://www.ninjaframework.org/) - Full stack web framework.
-* [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
 * [Play](https://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
-* [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
-* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
 # Resources
