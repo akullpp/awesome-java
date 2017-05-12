@@ -614,7 +614,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *APIs which handle the persistence of objects.*
 
 * [Apache Cayenne](http://cayenne.apache.org/) - Provides clean, static API for data access. Also includes GUI Modeler for working with database mappings, DB reverse engineering and generation.
-* [Ebean](http://ebean-orm.github.io/) - Provides simple and fast data access.
+* [Ebean](https://ebean-orm.github.io/) - Provides simple and fast data access.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
 * [MyBatis](http://www.mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
