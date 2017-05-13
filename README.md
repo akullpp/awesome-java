@@ -152,7 +152,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
 * [Infer](http://fbinfer.com/) - Tool to produce a list of potential bugs.
-* [Jacks](https://jacks.codiscope.com) - Analyze the strength of your source code directly from your GitHub repositories.
+* [Jacks](https://jacks.codiscope.com) - Analyze your GitHub repositories for security weaknesses.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
