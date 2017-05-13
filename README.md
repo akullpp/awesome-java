@@ -255,7 +255,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
 * [Realm](https://github.com/realm/realm-java) - Mobile database to run directly inside phones, tablets or wearables.
 * [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
-* [requery](https://github.com/requery/requery) - modern SQL based query & persistence for Java / Kotlin / Android.
+* [requery](https://github.com/requery/requery) - A modern, lightweight but powerful object mapping and SQL generator. Easily map to or create databases, perform queries and updates from any platform that uses Java.
 * [Speedment](https://github.com/speedment/speedment) - Database access library that utilizes the Java 8 Stream API for querying.
 * [sql2o](http://sql2o.org/) - Thin JDBC wrapper that simplifies database access and provides simple mapping of ResultSets to POJOs.
 * [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library which offers advanced performance monitoring capabilities.
@@ -272,7 +272,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Persistent Collection](http://pcollections.org/) - Persistent and immutable analogue of the Java Collections Framework.
 * [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
 * [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
-* [Tape](https://github.com/square/tape) - A lightning fast, transactional, file-based FIFO for Android and Java.
+* [Tape](https://github.com/square/tape) - A lightning fast, transactional, file-based FIFO.
 * [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
 
 ## Date and Time
@@ -706,7 +706,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [GraphStream](http://graphstream-project.org/) - Library for modeling and analysis of dynamic graphs.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 * [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualisation (mainly Swing) and interaction with node-edge graphs.
-* [Tablesaw](https://github.com/lwhite1/tablesaw) - The simplest way to slice data in Java.
+* [Tablesaw](https://github.com/lwhite1/tablesaw) - The shortest path to data science in Java. It includes a data-frame, an embedded column-store, and hundreds of methods to transform, summarize, or filter data.
 
 ## Search
 
