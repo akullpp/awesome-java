@@ -317,11 +317,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
+* [consul-api](https://github.com/Ecwid/consul-api) - Client for the [Consul](https://www.consul.io/) API a distributed, highly available and datacenter-aware registry/discovery service.
+* [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Hazelcast ![c]](http://hazelcast.org/) - Highly scalable in-memory datagrid with a free open-source version.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
 * [Orbit](http://www.orbit.cloud/) - Virtual Actors, adding another level of abstraction to traditional actors.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
+* [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
 ## Distributed Databases
 
@@ -549,27 +552,24 @@ A curated list of awesome Java frameworks, libraries and software.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 
 ## Microservice
-*Tools for managing microservices, i.e. creation, coordination or discovery.*
 
-* [Apollo](https://spotify.github.io/apollo/) - Libraries for writing composable microservices.
-* [Baratine](http://baratine.io) - Toolkit for building distributed and reactive applications for multiple environments, either standalone or embedded.
-* [Blade](https://github.com/biezhi/blade) - Lightweight, modular framework which aims to be elegant and simple.
-* [Bootique](http://bootique.io/) - Minimally opinionated framework for runnable apps.
-* [consul-api](https://github.com/Ecwid/consul-api) - Client for the [Consul](https://www.consul.io/) API a distributed, highly available and datacenter-aware registry/discovery service.
-* [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.
-* [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
-* [Jooby](http://jooby.org) - Scalable, fast and modular micro framework which offers multiple programming models.
-* [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
-* [Microserver](https://github.com/aol/micro-server) - A convenient extensible Microservices plugin system for Spring & Spring Boot, with over 30 plugins and growing, that supports both micro-monolith and pure microservices styles.
-* [Ninja](http://www.ninjaframework.org/) - Full stack web framework.
-* [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
-* [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
-* [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
-* [Restlet Framework](https://github.com/restlet/restlet-framework-java/) - Pioneering framework with powerful routing and filtering capabilities, unified client and server API.
-* [rest.li](https://github.com/linkedin/rest.li) - Framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.
-* [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
-* [Spark](http://sparkjava.com/) - Sinatra inspired framework.
-* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
+| Framework                                | Style                                    | Servlets | Stars   | Batteries Included     |
+| ---------------------------------------- | ---------------------------------------- | -------- | ------- | ---------------------- |
+| [Apollo](https://spotify.github.io/apollo/) | ` Route.sync("GET", "/ping", requestContext -> "pong")` |          | 1000    |                        |
+| [Blade](https://github.com/biezhi/blade) | `$().get("/user/:uid", (request, response) `) | ?        | 2000+   |                        |
+| [Bootique](http://bootique.io/)          | JAX-RS                                   |          | 500+    | Modules                |
+| [Dropwizard](https://github.com/dropwizard/dropwizard) | JAX-RS                                   | X        | 5,500+  | Plugins +  ecosystem   |
+| [Jooby](http://jooby.org/)               | `get("/", () -> "Hey Jooby!")`           | ?        | 500     | Modules                |
+| [Microserver](https://github.com/aol/micro-server) | JAX-RS                                   |          | 740     |                        |
+| [Lagom](https://www.lightbend.com/platform/development/lagom-framework) | `   restCall(Method.POST,"/order/:orderId/item",         this::addItem)` |          | 1300    |                        |
+| [Ninja](http://www.ninjaframework.org/)  | `router.GET().route("/").with(ApplicationController::index)` | X        | 1500+   | Full Stack             |
+| [Pippo](http://www.pippo.ro/)            | `        GET("/", routeContext -> routeContext.send("Hello World"))`, JAX-RS |          | 500+    |                        |
+| [Ratpack](https://ratpack.io/)           | https://ratpack.io/                      |          | 1500+   |                        |
+| [Rapoid](http://www.rapidoid.org/)       | ` On.get("/size").json((String msg) -> msg.length())` | ?        | 900+    | Modules                |
+| [Restlet](https://github.com/restlet/restlet-framework-java/) | router.attach("/users/{user}", account)` |          | 500     | Enterprisey            |
+| [rest.li](https://github.com/linkedin/rest.li) | JAX-RS inspired                          |          | 1500+   |                        |
+| [Spark](http://sparkjava.com/)           | ` get("/hello", (req, res) -> "Hello World");` |          | 6000+   | Community view plugins |
+| [Spring Boot](https://github.com/spring-projects/spring-boot) | Spring MVC, JAX-RS                       | X        | 12,500+ | Yes                    |
 
 ## Monitoring
 
