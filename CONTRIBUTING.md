@@ -1,20 +1,22 @@
 # Contribution Guidelines
 
-Unfortunately, not every library/tool/framework can be considered. The aim of the list is to provide a concise list of noteworthy modern software. This means that suggested software is either
+Unfortunately, not every library/tool/framework can be considered. The aim of the list is to provide a concise list of noteworthy modern software. This means that suggested software is:
 
-(a) widely recommended regardless of personal opinion
+(a) widely recommended regardless of personal opinion (e.g. 100+ Github stars)
 
 (b) highly discussed in the community due to its innovative nature
 
 (c) absolutely unique in its approach and function
 
-(d) a niche product that fills a gap
+(d) a niche product that fills a gap  
+
+(e) developer friendly (i.e has a commercial friendly license or clear pricing)  
 
 There are two required criteria for a pull request:
 
 1. If an entry has a similar scope as other entries in the same category, the description must state the unique features that distinguishes it from the other entries.
 
-2. If an entry does not meet conditions *(a)* to *(d)* there has to be an explanation either in the description or the pull request why it should be added to the list.
+2. If an entry does not meet conditions *(a)* to *(e)* there has to be an explanation either in the description or the pull request why it should be added to the list.
 
 Self-promotion is frowned upon and will be reviewed critically but the suggestion will of course be approved if they criteria match.
 
