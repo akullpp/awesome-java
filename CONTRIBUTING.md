@@ -8,7 +8,17 @@ Unfortunately, not every library/tool/framework can be considered. This list aim
 
 (c) absolutely unique in its approach and function
 
-(d) a niche product that fills a gap
+(d) a niche product that fills a gap  
+
+Suggested software must also be developer-friendly, which means it meets the following criteria:  
+
+(i) If an open source *application*, it is licensed under one of the open source licenses listed on https://opensource.org/licenses.
+
+(ii) If an open source *library*, it is licensed under one of the open source licenses listed on https://opensource.org/licenses, with the exception of GPL and AGPL (due to their viral nature).  
+
+(iii) If commercial, it has clear pricing.
+
+## Pull Requests 
 
 There are two required criteria for a pull request:
 
