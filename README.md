@@ -558,7 +558,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Eureka](https://github.com/Netflix/eureka) - REST based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 * [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
-* [SnopEE](https://github.com/ivargrimstad/snoop) - Discovery service for Java EE microservices.
 
 ## Monitoring
 
