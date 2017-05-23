@@ -2,7 +2,7 @@
 
 Unfortunately, not every library/tool/framework can be considered. The aim of the list is to provide a concise list of noteworthy modern software. This means that suggested software is:
 
-(a) widely recommended regardless of personal opinion (e.g. 100+ Github stars)
+(a) widely recommended regardless of personal opinion (e.g. 100+ GitHub stars)
 
 (b) highly discussed in the community due to its innovative nature
 
@@ -10,13 +10,16 @@ Unfortunately, not every library/tool/framework can be considered. The aim of th
 
 (d) a niche product that fills a gap  
 
-(e) developer friendly (i.e has a commercial friendly license or clear pricing)  
+Suggested software must also be developer-friendly, which means it meets the following criteria:  
+(i) If an open source application, it is licensed under one of the [permissive](https://opensource.org/faq#permissive) open source licenses listed on [https://opensource.org/licenses](https://opensource.org/licenses).  
+  
+(ii) If commercial, it has clear pricing.  
 
 There are two required criteria for a pull request:
 
 1. If an entry has a similar scope as other entries in the same category, the description must state the unique features that distinguishes it from the other entries.
 
-2. If an entry does not meet conditions *(a)* to *(e)* there has to be an explanation either in the description or the pull request why it should be added to the list.
+2. If an entry does not meet conditions *(a)* to *(d)* there has to be an explanation either in the description or the pull request why it should be added to the list.
 
 Self-promotion is frowned upon and will be reviewed critically but the suggestion will of course be approved if they criteria match.
 
