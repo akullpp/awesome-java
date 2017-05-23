@@ -706,7 +706,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [GraphStream](http://graphstream-project.org/) - Library for modeling and analysis of dynamic graphs.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 * [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualisation (mainly Swing) and interaction with node-edge graphs.
-* [Tablesaw](https://github.com/lwhite1/tablesaw) - The shortest path to data science in Java. It includes a data-frame, an embedded column-store, and hundreds of methods to transform, summarize, or filter data.
+* [Tablesaw](https://github.com/lwhite1/tablesaw) - Includes a data-frame, an embedded column-store, and hundreds of methods to transform, summarize, or filter data.
 
 ## Search
 
