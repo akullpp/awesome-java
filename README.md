@@ -291,8 +291,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
 * [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
+* [Feather](https://github.com/zsoltherpai/feather) - Ultra Lightweight, JSR-330 compliant dependency injection library.
 * [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
-* [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
+* [Guice](https://github.com/google/guice) - Lightweight and opinionated framework that completes Dagger.
 * [HK2](https://hk2.java.net) - Lightweight and dynamic dependency injection framework.
 
 ## Development
