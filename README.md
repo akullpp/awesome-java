@@ -108,7 +108,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator that simplifies mappings between different bean types, based on a convention over configuration approach.
 * [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
 * [Orika](https://github.com/orika-mapper/orika) - Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
-* [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper. Its name stands for "Stupid Simple Statically Linked Mapper."
+* [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
 
 ## Build
 
@@ -162,8 +162,8 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks and tools that enable code coverage metrics collection for test suites.*
 
 * [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation instead of bytecode instrumentation.
-* [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2-licensed.
-* [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation. Prominently used by EclEmma, the Eclipse code coverage plugin.
+* [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics.
+* [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation.
 
 ## Code Generators
 
@@ -182,7 +182,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that make it easy to parse command line options, arguments, etc.*
 
 * [Airline](https://github.com/airlift/airline) - Annotation-based framework for parsing Git-like command-line arguments.
-* [args4j](http://args4j.kohsuke.org/) - Small library to parse command-line arguments; similar to javac.
+* [args4j](http://args4j.kohsuke.org/) - Small library to parse command-line arguments.
 * [JCommander](http://jcommander.org/) - Command-line argument parsing framework with custom types and validation via implementing interfaces.
 * [JOpt Simple](http://pholser.github.io/jopt-simple/) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations.
 
@@ -230,7 +230,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jackson-dataformat-csv](https://github.com/FasterXML/jackson-dataformat-csv) - Jackson extension for reading and writing CSV.
 * [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser.
 * [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
-* [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSVs. Also comes with parsers for TSV and fixed width records.
+* [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete parsers. Also comes with parsers for TSV and fixed width records.
 
 ## Database
 
@@ -309,7 +309,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
-* [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, and fault-tolerant, event-driven applications.
+* [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.
 * [Apache Storm](http://storm.apache.org/) - Realtime computation system.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
@@ -399,7 +399,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [H2GIS](http://www.h2gis.org/) - A spatial extension of the H2 database.
 * [Jgeohash](http://astrapi69.github.io/jgeohash/) - Library for using the GeoHash algorithm.
 * [Mapsforge](https://github.com/mapsforge/mapsforge/) - Map rendering based on OpenStreetMap data.
-* [Spatial4j](https://github.com/locationtech/spatial4j/) - General purpose, spatial/geospatial, ASL-licensed, open-source Java library.
+* [Spatial4j](https://github.com/locationtech/spatial4j/) - General purpose spatial/geospatial library.
 
 ## GUI
 
@@ -440,7 +440,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that assist with the creation, evaluation or manipulation of graphical images.*
 
-* [Imgscalr](https://github.com/thebuzzmedia/imgscalr) - Simple, efficient, and hardware-accelerated image-scaling library implemented in pure Java 2D.
+* [Imgscalr](https://github.com/thebuzzmedia/imgscalr) - Simple, efficient and hardware-accelerated image-scaling library implemented in pure Java 2D.
 * [Tess4J](https://github.com/nguyenq/tess4j) - A JNA wrapper for Tesseract OCR API.
 * [Thumbnailator](https://github.com/coobird/thumbnailator) - High-quality thumbnail generation library.
 * [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins that extend the number of supported image file formats.
@@ -588,7 +588,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that specialize in processing text.*
 
-* [CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. From Stanford.
+* [CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis.
 * [DKPro](https://dkpro.github.io/) - Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
 * [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for tasks ranging from POS tagging to sentiment analysis.
 
