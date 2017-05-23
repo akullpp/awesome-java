@@ -644,7 +644,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Dynamic Jasper](http://dynamicjasper.com/) - Abstraction layer to JasperReports.
 * [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
 * [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
-* [iText](http://itextpdf.com/) - Creates PDF files programmatically but requires a license for commercial purposes.
+* [iText ![c]](http://itextpdf.com/) - Creates PDF files programmatically.
 * [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
 
 ## Performance analysis
