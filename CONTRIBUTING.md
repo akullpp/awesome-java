@@ -6,9 +6,9 @@ Unfortunately, not every library/tool/framework can be considered. Awesome Java 
 
 (b) highly discussed in the community due to its innovative nature
 
-(c) absolutely unique in its approach and function; and/or
+(c) absolutely unique in its approach and function
 
-(d) a niche product that fills a gap.
+(d) a niche product that fills a gap
 
 Self-promotion is frowned upon and viewed critically, but your suggestion will of course be approved if the criteria match.
 
