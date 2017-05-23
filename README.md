@@ -453,6 +453,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries for serializing and deserializing JSON to and from Java objects.*
 
+* [HikariJSON](https://github.com/brettwooldridge/HikariJSON) - High-performance JSON parser, 2x faster than Jackson.
 * [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java-to-JSON conversion library.
 * [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [Jackson-datatype-money](https://github.com/zalando/jackson-datatype-money) - Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types.
@@ -460,6 +461,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JSON-io](https://github.com/jdereg/json-io) - Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.
 * [jsoniter](http://jsoniter.com) - Fast and flexible library with iterator and lazy parsing API.
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
+* [Moshi](https://github.com/square/moshi) - Modern JSON library, less opinionated and uses built-in types like List and Map.
 
 ## JSON Processing
 
