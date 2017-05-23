@@ -314,7 +314,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
-* [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.
 * [Apache Storm](http://storm.apache.org/) - Realtime computation system.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
@@ -682,6 +681,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries for developing reactive applications.*
 
+* [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.
 * [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
 * [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
 * [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
