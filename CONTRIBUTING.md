@@ -11,9 +11,11 @@ Unfortunately, not every library/tool/framework can be considered. The aim of th
 (d) a niche product that fills a gap  
 
 Suggested software must also be developer-friendly, which means it meets the following criteria:  
-(i) If an open source application, it is licensed under one of the [permissive](https://opensource.org/faq#permissive) open source licenses listed on [https://opensource.org/licenses](https://opensource.org/licenses).  
-  
-(ii) If commercial, it has clear pricing.  
+(i) If an open source *application*, it is licensed under one of the open source licenses listed on https://opensource.org/licenses.
+
+(ii) If an open source *library*, it is licensed under one of the open source licenses listed on https://opensource.org/licenses, with the exception of GPL and AGPL (due to their viral nature).  
+
+(iii) If commercial, it has clear pricing.
 
 There are two required criteria for a pull request:
 
