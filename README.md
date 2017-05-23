@@ -859,7 +859,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Awesome REST](https://github.com/marmelab/awesome-rest)
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
 
-
 ## Communities
 
 *Active discussions.*
