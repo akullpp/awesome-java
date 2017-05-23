@@ -10,6 +10,12 @@ Unfortunately, not every library/tool/framework can be considered. This list aim
 
 (d) a niche product that fills a gap
 
+There are two required criteria for a pull request:
+
+1. If an entry has a similar scope as other entries in the same category, the description must state the unique features that distinguishes it from the other entries.
+
+2. If an entry does not meet conditions *(a)* to *(d)* there has to be an explanation either in the description or the pull request why it should be added to the list.
+
 Self-promotion is frowned upon and viewed critically, but your suggestion will of course be approved if the criteria match.
 
 If your entry isn't accepted, please check the [Issues](https://github.com/akullpp/awesome-java/issues) for items marked with the "question" tag to see if it had been previously discussed. If nothing comes up, feel free to create a new issue, adding the "question" tag.
