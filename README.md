@@ -458,7 +458,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JSON-io](https://github.com/jdereg/json-io) - Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.
 * [jsoniter](http://jsoniter.com) - Fast and flexible library with iterator and lazy parsing API.
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
-* [Moshi](https://github.com/square/moshi) - A modern JSON library, less opinionated and uses built-in types like List and Map.
+* [Moshi](https://github.com/square/moshi) - Modern JSON library, less opinionated and uses built-in types like List and Map.
 
 ## JSON Processing
 
