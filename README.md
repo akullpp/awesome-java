@@ -67,6 +67,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
 - [Resources](#resources)
+    - [Awesome Lists](#awesome-lists)
     - [Communities](#communities)
     - [Frontends](#frontends)
     - [Influential Books](#influential-books)
@@ -862,6 +863,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
 # Resources
+
+## Awesome Lists
+
+*Awesome lists related to the Java/JVM ecosystem*  
+
+- [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
+- [Awesome JVM](https://github.com/deephacks/awesome-jvm)
+- [Awesome REST](https://github.com/marmelab/awesome-rest)
+- [Useful Java Links](https://github.com/Vedenin/useful-java-links)
 
 ## Communities
 
