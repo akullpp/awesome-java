@@ -703,7 +703,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [GraphStream](http://graphstream-project.org/) - Library for modeling and analysis of dynamic graphs.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 * [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualisation (mainly Swing) and interaction with node-edge graphs.
-* [Mines Java Toolkit](https://github.com/MinesJTK/jtk) - Library for geophysical scientific computation, visualization and digital signal analysis
+* [Mines Java Toolkit](https://github.com/MinesJTK/jtk) - Library for geophysical scientific computation, visualization and digital signal analysis.
 
 ## Search
 
