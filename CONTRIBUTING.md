@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Unfortunately, not every library/tool/framework can be considered. Awesome Java aims to provide a concise list of noteworthy modern software. This means that suggested software is:
+Unfortunately, not every library/tool/framework can be considered. This list aims to provide a concise list of noteworthy modern software. This means that suggested software is:
 
 (a) widely recommended, regardless of personal opinion
 
