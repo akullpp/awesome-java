@@ -216,6 +216,9 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that support continuously building, testing and releasing applications.*
 
 * [Bamboo ![c]](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
+* [Buddy ![c]](https://buddy.works/) - Hosted CI/CD platform with on-premise option.
+* [CircleCI ![c]](https://circleci.com) - Hosted CI/CD platform with docker and OSX support. Concurrent builds rather than project based billing model.
+* [Codefresh ![c]](https://codefresh.io/) - Docker-native CI/CD platform.
 * [Concourse](https://concourse.ci/) - Provides dockerized pipeline with configuration that can be saved in version control.
 * [fabric8](http://fabric8.io/) - Integration platform for containers.
 * [Go](https://www.thoughtworks.com/go/) - ThoughtWorks' open-source solution.
