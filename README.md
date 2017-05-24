@@ -147,15 +147,17 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Code Analysis
 
 *Tools that provide metrics and quality measurements.*
-
+* [Code Climate ![c]](https://codeclimate.com) - Automated code review for test coverage, complexity, duplication, security and style.
 * [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
-* [Codacy](https://www.codacy.com) - Continuous static analysis, code coverage, and software metrics to automate code reviews.
+* [Codacy ![c]](https://www.codacy.com) - Continuous static analysis, code coverage, and software metrics to automate code reviews.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
 * [Infer](http://fbinfer.com/) - Tool to produce a list of potential bugs.
+* [Jacks](https://jacks.codiscope.com) - Analyze your GitHub repositories for security weaknesses.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+* [SourceClear ![c]](https://www.sourceclear.com/) - Checks open-souce libraries for security vulnerabilities.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
 
 ## Code Coverage
