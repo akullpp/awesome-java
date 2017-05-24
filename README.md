@@ -182,6 +182,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that make it easy to parse command line options, arguments, etc.*
 
+* [picocli](http://picocli.info/) - ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 * [Airline](https://github.com/airlift/airline) - Annotation-based framework for parsing Git-like command-line arguments.
 * [args4j](http://args4j.kohsuke.org/) - Small library to parse command-line arguments.
 * [JCommander](http://jcommander.org/) - Command-line argument parsing framework with custom types and validation via implementing interfaces.
