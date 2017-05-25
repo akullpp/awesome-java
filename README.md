@@ -33,6 +33,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Geospatial](#geospatial)
     - [GUI](#gui)
     - [High Performance](#high-performance)
+    - [HTTP Clients](#http-clients)
     - [Hypermedia Types](#hypermedia-types)
     - [IDE](#ide)
     - [Imagery](#imagery)
@@ -322,7 +323,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
 * [Orbit](http://www.orbit.cloud/) - Virtual actors; adds another level of abstraction to traditional actors.
-* [Ribbon](https://github.com/Netflix/ribbon) - Client side IPC library that is battle-tested in cloud. 
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 * [Zuul](https://github.com/Netflix/zuul) - A gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 
@@ -425,6 +425,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
+
+## HTTP Clients
+* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
+* [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
+* [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
+* [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
+* [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
+* [Ribbon](https://github.com/Netflix/ribbon) - Client side HTTP/TCP/UDP library that is battle-tested in cloud.
+* [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
 
 ## Hypermedia Types
 
@@ -561,7 +570,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [consul-api](https://github.com/Ecwid/consul-api) - Client for the [Consul](https://www.consul.io/) API: a distributed, highly available and datacenter-aware registry/discovery service.
 * [Eureka](https://github.com/Netflix/eureka) - REST-based service registry for resilient load balancing and failover.
 * [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
-* [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
 
 ## Monitoring
 
@@ -602,9 +610,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Networking
 
-*Libraries for network programming.*
+*Libraries for building network servers.*
 
-* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 * [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
 * [Finagle](https://github.com/twitter/finagle) - Extensible RPC system for constructing high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol-agnostic to simplify implementation of new protocols.
 * [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
@@ -612,8 +619,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [MINA](https://mina.apache.org/) - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
 * [Netty](http://netty.io/) - Framework for building high-performance network applications.
 * [Nifty](https://github.com/facebook/nifty) - Implementation of Thrift clients and servers on Netty.
-* [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
-* [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
 * [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly.
 * [urnlib](https://github.com/slub/urnlib) - Represent, parse and encode URNs as in RFC 2141.
 
@@ -690,7 +695,6 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks specifically for creating RESTful services.*
 
 * [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.
-* [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 * [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
 * [Microserver](https://github.com/aol/micro-server) — A convenient extensible Microservices plugin system for Spring & Spring Boot, with over 30 plugins and growing, that supports both micro-monolith and pure microservices styles.
 * [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.
@@ -698,7 +702,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBoss Netty HTTP stack to provide scaling and performance.
 * [Restlet Framework](https://github.com/restlet/restlet-framework-java/) - Pioneering framework with powerful routing and filtering capabilities, unified client and server API.
-* [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
 
 ## Science
