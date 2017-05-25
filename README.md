@@ -427,6 +427,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 
 ## HTTP Clients
+
+*Libraries that assist with creating HTTP requests and/or binding responses.*  
+
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 * [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
