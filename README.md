@@ -8,7 +8,6 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Caching](#caching)
-    - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
     - [Code Coverage](#code-coverage)
     - [Code Generators](#code-generators)
@@ -135,14 +134,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Caffeine](https://github.com/ben-manes/caffeine) - High-performance, near-optimal caching library.
 * [Ehcache](http://www.ehcache.org/) - Distributed general-purpose cache.
-
-## Cluster Management
-
-*Frameworks that can dynamically manage applications inside of a cluster.*
-
-* [Apache Aurora](http://aurora.apache.org/) - Mesos framework for long-running services and cron jobs.
-* [Apache Mesos](http://mesos.apache.org/) - Abstracts CPU, memory, storage, and other compute resources away from machines.
-* [Singularity](http://getsingularity.com/) - Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 ## Code Analysis
 
@@ -313,7 +304,6 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
 * [Apache Storm](http://storm.apache.org/) - Realtime computation system.
-* [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
@@ -324,7 +314,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Orbit](http://www.orbit.cloud/) - Virtual actors; adds another level of abstraction to traditional actors.
 * [Ribbon](https://github.com/Netflix/ribbon) - Client side IPC library that is battle-tested in cloud. 
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
-* [Zuul](https://github.com/Netflix/zuul) - A gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 
 ## Distributed Databases
 
@@ -522,10 +511,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Aeron](https://github.com/real-logic/Aeron) - Efficient, reliable, unicast and multicast message transport.
 * [Apache ActiveMQ](http://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication.
 * [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
-* [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
 * [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
 * [JeroMQ](https://github.com/zeromq/jeromq) - Implementation of ZeroMQ.
-* [Nakadi](https://github.com/zalando/nakadi) - Provides a RESTful API on top of Kafka.
 * [RocketMQ](https://github.com/alibaba/RocketMQ) - A fast, reliable, and scalable distributed messaging platform.
 * [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library.
 
