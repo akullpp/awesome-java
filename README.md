@@ -312,6 +312,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
+* [Apache Geode](http://geode.apache.org/) - In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
 * [Apache Storm](http://storm.apache.org/) - Realtime computation system.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
