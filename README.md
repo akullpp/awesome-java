@@ -16,7 +16,6 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
     - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
-    - [Continuous Integration](#continuous-integration)
     - [CSV](#csv)
     - [Data structures](#data-structures)
     - [Database](#database)
@@ -208,19 +207,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
 * [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
 * [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
-
-## Continuous Integration
-
-*Tools that support continuously building, testing and releasing applications.*
-
-* [Bamboo ![c]](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
-* [Concourse](https://concourse.ci/) - Provides dockerized pipeline with configuration that can be saved in version control.
-* [fabric8](http://fabric8.io/) - Integration platform for containers.
-* [Go](https://www.thoughtworks.com/go/) - ThoughtWorks' open-source solution.
-* [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-* [Semaphore](https://semaphoreci.com) - Hosted CI/CD service, free for open-source and 100 private builds with native Docker support.
-* [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrains' CI solution with a free version.
-* [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
 
 ## CSV
 
@@ -865,7 +851,7 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Awesome Lists
 
 *Awesome lists related to the Java/JVM ecosystem*  
-
+- [Awesome CI and CD](https://github.com/ciandcd/awesome-ciandcd)
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
 - [Awesome REST](https://github.com/marmelab/awesome-rest)
