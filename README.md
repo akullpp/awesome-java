@@ -322,7 +322,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
 * [Orbit](http://www.orbit.cloud/) - Virtual actors; adds another level of abstraction to traditional actors.
-* [Ribbon](https://github.com/Netflix/ribbon) - Client side IPC library that is battle-tested in cloud. 
+* [Ribbon](https://github.com/Netflix/ribbon) - Client side IPC library that is battle-tested in cloud.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 * [Zuul](https://github.com/Netflix/zuul) - A gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 
@@ -539,6 +539,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [javaslang-circuitbreaker](https://github.com/javaslang/javaslang-circuitbreaker) - Functional fault tolerance library.
+* [JBot](https://github.com/ramswaroop/jbot) - Framework for building chat bots.
 * [JavaX](http://javax.ai1.lol/) - Reinventing and extending Java with a focus on simplicity.
 * [JBake](http://jbake.org) - Static website generator.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
@@ -864,7 +865,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Awesome Lists
 
-*Awesome lists related to the Java/JVM ecosystem*  
+*Awesome lists related to the Java/JVM ecosystem*
 
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
