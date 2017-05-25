@@ -107,6 +107,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
 * [JMapper](http://jmapper-framework.github.io/jmapper-core/) - Using byte code manipulation for lightning fast mapping. Supporting annotations, API or XML configuration.
 * [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator that simplifies mappings between different bean types, based on a convention over configuration approach.
+* [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
+* [Orika](https://github.com/orika-mapper/orika) - Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
+* [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
 
 ## Build
 
