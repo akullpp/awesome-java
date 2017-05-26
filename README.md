@@ -16,7 +16,6 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
     - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
-    - [Continuous Integration](#continuous-integration)
     - [CSV](#csv)
     - [Data structures](#data-structures)
     - [Database](#database)
@@ -160,7 +159,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks and tools that enable code coverage metrics collection for test suites.*
 
-* [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation instead of bytecode instrumentation.
+* [Clover ![c]](https://www.atlassian.com/software/clover/overview) - Relies on source-code instrumentation instead of bytecode instrumentation.
 * [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics.
 * [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation.
 
@@ -209,19 +208,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
 * [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
 * [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
-
-## Continuous Integration
-
-*Tools that support continuously building, testing and releasing applications.*
-
-* [Bamboo ![c]](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
-* [Concourse](https://concourse.ci/) - Provides dockerized pipeline with configuration that can be saved in version control.
-* [fabric8](http://fabric8.io/) - Integration platform for containers.
-* [Go](https://www.thoughtworks.com/go/) - ThoughtWorks' open-source solution.
-* [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-* [Semaphore](https://semaphoreci.com) - Hosted CI/CD service, free for open-source and 100 private builds with native Docker support.
-* [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrains' CI solution with a free version.
-* [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
 
 ## CSV
 
@@ -313,6 +299,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
+* [Apache Geode](http://geode.apache.org/) - In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
 * [Apache Storm](http://storm.apache.org/) - Realtime computation system.
 * [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
@@ -435,7 +422,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
 * [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
-* [Ribbon](https://github.com/Netflix/ribbon) - Client side HTTP/TCP/UDP library that is battle-tested in cloud.
+* [Ribbon](https://github.com/Netflix/ribbon) - Client side IPC library that is battle-tested in cloud.
 * [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
 
 ## Hypermedia Types
@@ -551,6 +538,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [javaslang-circuitbreaker](https://github.com/javaslang/javaslang-circuitbreaker) - Functional fault tolerance library.
+* [JBot](https://github.com/ramswaroop/jbot) - Framework for building chat bots.
 * [JavaX](http://javax.ai1.lol/) - Reinventing and extending Java with a focus on simplicity.
 * [JBake](http://jbake.org) - Static website generator.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
@@ -629,6 +617,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *APIs that handle the persistence of objects.*
 
+* [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) - Simple database and CSV mapper.
 * [Apache Cayenne](http://cayenne.apache.org/) - Provides clean, static API for data access. Also includes GUI Modeler for working with database mappings, DB reverse engineering and generation.
 * [Ebean](http://ebean-orm.github.io/) - Provides simple and fast data access.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
@@ -870,8 +859,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Awesome Lists
 
-*Awesome lists related to the Java/JVM ecosystem*  
+*Awesome lists related to the Java/JVM ecosystem*
 
+- [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
 - [Awesome REST](https://github.com/marmelab/awesome-rest)
