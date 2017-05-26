@@ -422,7 +422,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
 * [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
 * [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
-* [Ribbon](https://github.com/Netflix/ribbon) - Client side IPC library that is battle-tested in cloud.
+* [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in cloud.
 * [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
 
 ## Hypermedia Types
