@@ -5,6 +5,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Awesome Java](#awesome-java)
     - [Ancients](#ancients)
     - [Bean Mapping](#bean-mapping)
+    - [Benchmark](#benchmark)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Caching](#caching)
@@ -110,6 +111,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
 * [Orika](https://github.com/orika-mapper/orika) - Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
 * [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
+
+## Benchmark
+
+*Libraries to benchmark your code
+
+* [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - JMH is a Java harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targetting the JVM.
 
 ## Build
 
