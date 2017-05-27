@@ -440,6 +440,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [IntelliJ IDEA ![c]](http://www.jetbrains.com/idea/) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 * [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features, from database access to HTML5.
 
+## IntelliJ IDEA Java Plugins
+
+* [Advanced Java Folding](https://plugins.jetbrains.com/idea/plugin/9320-advanced-java-folding) - Reduce code verbosity by folding common Java constructions.
+
 ## Imagery
 
 *Libraries that assist with the creation, evaluation or manipulation of graphical images.*
