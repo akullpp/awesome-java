@@ -179,11 +179,11 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that make it easy to parse command line options, arguments, etc.*
 
-* [picocli](http://picocli.info/) - ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 * [Airline](https://github.com/airlift/airline) - Annotation-based framework for parsing Git-like command-line arguments.
 * [args4j](http://args4j.kohsuke.org/) - Small library to parse command-line arguments.
 * [JCommander](http://jcommander.org/) - Command-line argument parsing framework with custom types and validation via implementing interfaces.
 * [JOpt Simple](http://pholser.github.io/jopt-simple/) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations.
+* [picocli](http://picocli.info/) - ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 
 ## Compiler-compiler
 
@@ -454,9 +454,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries for serializing and deserializing JSON to and from Java objects.*
 
-* [HikariJSON](https://github.com/brettwooldridge/HikariJSON) - High-performance JSON parser, 2x faster than Jackson.
 * [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java-to-JSON conversion library.
 * [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
+* [HikariJSON](https://github.com/brettwooldridge/HikariJSON) - High-performance JSON parser, 2x faster than Jackson.
 * [Jackson-datatype-money](https://github.com/zalando/jackson-datatype-money) - Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types.
 * [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON, but offers performance gains if you need to instantiate the library more often.
 * [JSON-io](https://github.com/jdereg/json-io) - Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.
@@ -538,9 +538,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 * [J2ObjC](https://github.com/google/j2objc) - Java to Objective-C translator for porting Android libraries to iOS.
 * [javaslang-circuitbreaker](https://github.com/javaslang/javaslang-circuitbreaker) - Functional fault tolerance library.
-* [JBot](https://github.com/ramswaroop/jbot) - Framework for building chat bots.
 * [JavaX](http://javax.ai1.lol/) - Reinventing and extending Java with a focus on simplicity.
 * [JBake](http://jbake.org) - Static website generator.
+* [JBot](https://github.com/ramswaroop/jbot) - Framework for building chat bots.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Joda-Money](http://www.joda.org/joda-money/) - Basic currency and money classes and algorithms not provided by the JDK.
 * [JPad](http://jpad.io/) - Snippet runner.
@@ -567,8 +567,8 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that monitor applications in production.*
 
 * [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
-* [Glowroot](https://glowroot.org/) - Open-source Java APM.
 * [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
+* [Glowroot](https://glowroot.org/) - Open-source Java APM.
 * [Instrumental ![c]](https://instrumentalapp.com) - Real-time Java application performance monitoring. A commercial service with free development accounts.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Connect to multiple JVMs and query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVM attributes. Supports different output writes, including Graphite, Ganglia, and StatsD.
@@ -617,12 +617,12 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *APIs that handle the persistence of objects.*
 
-* [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) - Simple database and CSV mapper.
 * [Apache Cayenne](http://cayenne.apache.org/) - Provides clean, static API for data access. Also includes GUI Modeler for working with database mappings, DB reverse engineering and generation.
 * [Ebean](http://ebean-orm.github.io/) - Provides simple and fast data access.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used with an active community.
 * [MyBatis](http://www.mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
+* [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) - Simple database and CSV mapper.
 
 ## PaaS
 
@@ -774,13 +774,13 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
 * [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
 * [Cukes-REST](https://github.com/ctco/cukes-rest) - A collection of Gherkin steps for REST-service testing using Cucumber.
+* [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
 * [Galen](https://github.com/galenframework/galen) - Layout and functional testing framework for websites.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 * [J8Spec](https://github.com/j8spec/j8spec/) - J8Spec is a library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
 * [JBehave](http://jbehave.org/) - Framework for Behavioural Driven Development.
 * [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
-* [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
 * [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
 * [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
 * [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing of JSON strings.
@@ -861,10 +861,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Awesome lists related to the Java/JVM ecosystem*
 
-- [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
 - [Awesome REST](https://github.com/marmelab/awesome-rest)
+- [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
 
 ## Communities
