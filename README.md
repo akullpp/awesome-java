@@ -71,7 +71,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Communities](#communities)
     - [Frontends](#frontends)
     - [Influential Books](#influential-books)
-    - [Podcasts](#podcasts)
+    - [Podcasts and Screencasts](#podcasts-and-screencasts)
     - [Twitter](#twitter)
     - [Websites](#websites)
 - [Contributing](#contributing)
@@ -415,7 +415,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## HTTP Clients
 
-*Libraries that assist with creating HTTP requests and/or binding responses.*  
+*Libraries that assist with creating HTTP requests and/or binding responses.*
 
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 * [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
@@ -891,11 +891,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
-## Podcasts
+## Podcasts and Screencasts
 
-*Something to listen to while programming.*
+*Something to look at or listen to while programming.*
 
 * [Java Off Heap](http://www.javaoffheap.com/)
+* [Marco Behler's Screencasts](https://www.marcobehler.com/series) - Screencasts about modern Java development.
 * [The Java Council](http://virtualjug.com/podcast/)
 * [The Java Posse](http://www.javaposse.com/) - Discontinued as of 02/2015.
 
