@@ -919,6 +919,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
 * [Lukas Eder](https://twitter.com/lukaseder) - Java Champion, speaker, JUG.ch co-leader, Founder and CEO Data Geekery (jOOQ).
 * [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
+* [Mark Heckler](https://twitter.com/MkHeck) - Pivotal Principal Technologist and Developer Advocate, conference speaker, published author, and Java Champion, focusing on Internet of Things and the cloud.
 * [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
 * [Markus Eisele](https://twitter.com/myfear) - Java EE evangelist, Red Hat.
 * [Martijn Verburg](https://twitter.com/karianna) - London JUG co-leader, speaker, author, Java Champion and much more.
