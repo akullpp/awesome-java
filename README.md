@@ -912,6 +912,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Bruno Borges](https://twitter.com/brunoborges) - Product Manager/Java Jock at Oracle.
 * [Ed Burns](https://twitter.com/edburns) - Consulting Member of the Technical Staff at Oracle.
 * [Eugen Paraschiv](https://twitter.com/baeldung) - Author of the Spring Security Course.
+* [Holly Cummins](https://twitter.com/holly_cummins) - Technical Lead of IBM London's Bluemix Garage, Java Champion, developer, author, JavaOne rockstar.
 * [James Weaver](https://twitter.com/JavaFXpert) - Java/JavaFX/IoT developer, author and speaker.
 * [Java EE](https://twitter.com/Java_EE/) - Official Java EE Twitter account.
 * [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
