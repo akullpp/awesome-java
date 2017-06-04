@@ -803,6 +803,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [WireMock](http://wiremock.org/) - Stubs and mocks web services.
+* [Zalenium](https://github.com/zalando/zalenium) - Allows anyone to have a disposable and flexible docker-based Selenium Grid infrastructure featuring video recording, live preview and online/offline dashboards.
 
 ## Utility
 
