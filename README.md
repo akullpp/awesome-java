@@ -923,7 +923,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Markus Eisele](https://twitter.com/myfear) - Java EE evangelist, Red Hat.
 * [Martijn Verburg](https://twitter.com/karianna) - London JUG co-leader, speaker, author, Java Champion and much more.
 * [Martin Thompson](https://twitter.com/mjpt777) - Pasty faced performance gangster.
-* [Monica Beckwith](https://twitter.com/mon_beck) - Java/JVM/GC) performance consultant, JavaOne Rock Star.
+* [Monica Beckwith](https://twitter.com/mon_beck) - Performance consultant, JavaOne Rock Star.
 * [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
 * [Peter Lawrey](https://twitter.com/PeterLawrey) - Peter Lawrey, Java performance expert.
 * [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
