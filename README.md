@@ -913,6 +913,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Chris Richardson](https://twitter.com/crichardson) - Software architect, consultant, and serial entrepreneur, Java Champion, JavaOne Rock Star, *POJOs in Action* author.
 * [Ed Burns](https://twitter.com/edburns) - Consulting Member of the Technical Staff at Oracle.
 * [Eugen Paraschiv](https://twitter.com/baeldung) - Author of the Spring Security Course.
+* [Hadi Hariri](https://twitter.com/hhariri) - Developer Advocacy lead at JetBrains, speaker, host of @TalkingKotlin,  JavaOne Rockstar.
 * [James Weaver](https://twitter.com/JavaFXpert) - Java/JavaFX/IoT developer, author and speaker.
 * [Java EE](https://twitter.com/Java_EE/) - Official Java EE Twitter account.
 * [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
