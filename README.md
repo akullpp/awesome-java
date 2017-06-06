@@ -23,7 +23,6 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
-    - [Distributed Databases](#distributed-databases)
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
     - [Formal Verification](#formal-verification)
@@ -135,6 +134,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Caffeine](https://github.com/ben-manes/caffeine) - High-performance, near-optimal caching library.
 * [Ehcache](http://www.ehcache.org/) - Distributed general-purpose cache.
+* [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
 
 ## Cluster Management
 
@@ -222,7 +222,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything that simplifies interactions with the database.*
 
-* [Apache Hive](https://hive.apache.org/) - Data warehouse infrastructure built on top of Hadoop.
 * [Apache Phoenix](http://phoenix.apache.org/) - High-performance relational database layer over HBase for low-latency applications.
 * [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) - Efficient, in-memory (opt. persisted to disk), off-heap key-value store.
 * [eXist](https://github.com/eXist-db/exist) - A NoSQL document database and application platform.
@@ -237,6 +236,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 * [MariaDB4j](https://github.com/vorburger/MariaDB4j/) - Launcher for MariaDB that requires no installation or external dependencies.
+* [OrientDB](https://orientdb.com/orientdb/) - Embeddable distributed database written on top of Hazelcast.
 * [Presto](https://github.com/prestodb/presto) - Distributed SQL query engine for big data.
 * [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
 * [Realm](https://github.com/realm/realm-java) - Mobile database to run directly inside phones, tablets or wearables.
@@ -312,17 +312,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Orbit](http://www.orbit.cloud/) - Virtual actors; adds another level of abstraction to traditional actors.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 * [Zuul](https://github.com/Netflix/zuul) - A gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
-
-## Distributed Databases
-
-*Databases in a distributed system that appear to applications as a single data source.*
-
-* [Apache Cassandra](http://cassandra.apache.org) - Column-oriented and providing high availability with no single point of failure.
-* [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
-* [Druid](http://druid.io) - Real-time and historical OLAP data store that excels at aggregation and approximation queries.
-* [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
-* [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
-* [OrientDB](https://orientdb.com/orientdb/) - Embeddable distributed database written on top of Hazelcast.
 
 ## Distribution
 
