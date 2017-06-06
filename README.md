@@ -918,6 +918,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
 * [Java](https://twitter.com/java/) - Official Java Twitter account.
 * [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
+* [Josh Long](https://twitter.com/starbuxman) - Spring Advocate at Pivotal, author of O'Reilly's *Cloud Native Java* and *Building Microservices with Spring Boot*, JavaOne Rock Star.
 * [Lukas Eder](https://twitter.com/lukaseder) - Java Champion, speaker, JUG.ch co-leader, Founder and CEO Data Geekery (jOOQ).
 * [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
 * [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
