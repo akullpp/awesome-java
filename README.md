@@ -600,7 +600,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for tasks ranging from POS tagging to sentiment analysis.
 * [CogCompNLP](https://github.com/CogComp/cogcomp-nlp) - Provides common annotators for plain text input.
 
-
 ## Networking
 
 *Libraries for building network servers.*
