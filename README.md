@@ -925,6 +925,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Martin Thompson](https://twitter.com/mjpt777) - Pasty faced performance gangster.
 * [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
 * [Peter Lawrey](https://twitter.com/PeterLawrey) - Peter Lawrey, Java performance expert.
+* [Randy Shoup](https://twitter.com/randyshoup) - Stitch Fix VP Engineering, speaker, JavaOne Rock Star.
 * [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
 * [Simon Maple](https://twitter.com/sjmaple) - Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
 * [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
