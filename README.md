@@ -83,7 +83,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Ant](http://ant.apache.org/) - Build process management with XML.
 * [Apache Hadoop](http://hadoop.apache.org/) - Storage and large-scale processing of data sets on clusters of commodity hardware.
 * [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
-* [Apache Velocity](http://velocity.apache.org/) - A Java-based template engine for HTML pages, emails or source code generation.
+* [Apache Velocity](http://velocity.apache.org/) - A template engine for HTML pages, emails or source code generation.
 * [FreeMarker](http://freemarker.org/) - General templating engine with no heavyweight or opinionated dependencies.
 * [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE, sponsored by Oracle.
 * [GWT](http://www.gwtproject.org/) - Toolbox that includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
