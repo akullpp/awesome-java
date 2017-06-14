@@ -174,6 +174,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
 * [Joda-Beans](http://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 * [Lombok](https://projectlombok.org/) - Code generator that aims to reduce verbosity.
+* [JavaPoet](https://github.com/square/javapoet) - API to generate source files.
 
 ## Command-line Argument Parsers
 
