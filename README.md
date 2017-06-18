@@ -335,7 +335,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Distributed Transactions
 
-*Distributed transactions provide a mechanism for ensuring consistency of data updates in the presence of concurrent access and partial failures.
+*Distributed transactions provide a mechanism for ensuring consistency of data updates in the presence of concurrent access and partial failures.*
 
 * [Atomikos](https://www.atomikos.com) - Provides transactions for REST, SOA and microservices, also with support for JTA and XA.
 * [Bitronix](https://github.com/bitronix/btm) - A simple but complete implementation of the JTA 1.1 API..
