@@ -25,6 +25,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
     - [Distributed Databases](#distributed-databases)
+    - [Distributed Transactions](#distributed-transactions)
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
     - [Formal Verification](#formal-verification)
@@ -331,6 +332,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
 * [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
 * [OrientDB](https://orientdb.com/orientdb/) - Embeddable distributed database written on top of Hazelcast.
+
+## Distributed Transactions
+
+*Distributed transactions provide a mechanism for ensuring consistency of data updates in the presence of concurrent access and partial failures.
+
+* [Atomikos](https://www.atomikos.com) - Provides transactions for REST, SOA and microservices, also with support for JTA and XA.
+* [Bitronix](https://github.com/bitronix/btm) - A simple but complete implementation of the JTA 1.1 API..
+* [Narayana](http://narayana.io) - Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards. (Previous called Arjuna Transactions).
 
 ## Distribution
 
