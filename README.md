@@ -293,7 +293,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
 * [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
-* [Faux Pas](https://github.com/zalando/faux-pas) - Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions.
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
 * [JavaParser](https://github.com/javaparser/javaparser) - Parse, modify and generate Java code.
 * [JavaSymbolSolver](https://github.com/javaparser/javasymbolsolver) - A symbol solver for Java.
@@ -363,6 +362,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
 * [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
 * [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 that aims to fix gaps in lambda by providing numerous missing types and a rich set of sequential Stream API additions.
+* [NoException](https://noexception.machinezoo.com/) - Lets functional interfaces throw checked exceptions and converts exceptions to Optional return values.
 * [protonpack](https://github.com/poetix/protonpack) - Collection of stream utilities.
 * [StreamEx](https://github.com/amaembo/streamex) - Enhances Java 8 Streams.
 * [Vavr](http://www.vavr.io/) - Functional component library that provides persistent data types and functional control structures.
