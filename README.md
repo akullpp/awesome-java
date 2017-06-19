@@ -858,6 +858,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
+- [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
 - [Awesome REST](https://github.com/marmelab/awesome-rest)
 - [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
