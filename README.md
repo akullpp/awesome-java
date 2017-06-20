@@ -233,8 +233,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [H2](http://h2database.com/) - Small SQL database notable for its in-memory functionality.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High-performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
-* [Jedis](https://github.com/xetorthio/jedis) - A small client for interaction with redis, with methods for commands.
-* [Jest](https://github.com/searchbox-io/Jest) - Elasticsearch REST Client, supports JSON queries and also has own Java DSL.
+* [Jedis](https://github.com/xetorthio/jedis) - A small client for interaction with Redis, with methods for commands.
+* [Jest](https://github.com/searchbox-io/Jest) - Elasticsearch REST client, supports JSON queries and also has own Java DSL.
 * [jetcd](https://github.com/justinsb/jetcd) - A client library for etcd.
 * [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ). 
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
