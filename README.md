@@ -154,6 +154,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Infer](https://github.com/facebook/infer) - Modern static analysis tool for verifying the correctness of code.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
+* [Sourcetrail ![c]](https://www.sourcetrail.com) - Visual source code navigator.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
 
 ## Code Coverage
