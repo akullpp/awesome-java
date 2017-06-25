@@ -86,17 +86,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [FreeMarker](http://freemarker.org/) - General templating engine with no heavyweight or opinionated dependencies.
 * [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE, sponsored by Oracle.
 * [GWT](http://www.gwtproject.org/) - Toolbox that includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
-* [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that, when combined, create flexible expressions of intent.
 * [HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made for embedding.
 * [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
 * [Java Modeling Language (JML)](http://www.eecs.ucf.edu/~leavens/JML/) - Behavioral interface specification language useful for specifying the behavior of code modules. It combines Eiffel's Design by Contract approach with the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
 * [JavaCC](https://javacc.org/) - Parser generator with syntactic lookahead.
 * [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
-* [JUnit](http://junit.org/) - Common testing framework.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
 * [Quartz](https://github.com/quartz-scheduler/quartz) - Open-source job scheduler library with Apache 2.0 license.
-* [TestNG](http://testng.org/) - Testing framework inspired by JUnit and NUnit, with different functionalities.
+
 * [Trove](http://trove.starlight-systems.com/) - High-performance primitive collections.
 
 ## Bean Mapping
@@ -771,44 +769,56 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that test from model to the view.*
 
-* [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
+### BDD
+* [Cucumber](https://github.com/cucumber/cucumber-jvm) - Behavioural Driven Development (BDD) testing framework.
+* [Cukes-REST](https://github.com/ctco/cukes-rest) - A collection of Gherkin steps for REST-service testing using Cucumber.
+* [J8Spec](https://github.com/j8spec/j8spec/) - Library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
+* [JBehave](http://jbehave.org/) - Framework for BDD.
+* [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
+* [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) - Descriptive behavioural specification framework.
+
+### Frameworks
+
 * [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
+* [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
+* [Citrus](http://citrusframework.org/) - Integration testing framework that focuses on both client- and server-side messaging.
+* [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
+* [JUnit](http://junit.org/) - Common testing framework.
+* [TestNG](http://testng.org/) - Testing framework inspired by JUnit and NUnit, with different functionalities.
+* [Spock](https://github.com/spockframework/spock) - Developer testing and specification framework for Java and Groovy applications.
+
+See [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
+
+### Mocking
+
+* [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
+* [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
+* [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
+* [JMockit](http://jmockit.org/) - Integration testing, API mocking and faking, and code coverage.
+* [Mockito](https://github.com/mockito/mockito) - Mocking framework that lets you write tests with a clean and simple API.
+* [MockServer](http://www.mock-server.com/) - Allows mocking of systems integrated with HTTPS.
+* [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks.
+* [PowerMock](https://github.com/jayway/powermock) - Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers.
+* [WireMock](http://wiremock.org/) - Stubs and mocks web services.
+
+### Utilities / Helpers
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
 * [Burst](https://github.com/square/burst) - A unit testing library for varying test data.
-* [Citrus](http://citrusframework.org/) - Integration testing framework that focuses on both client- and server-side messaging.
-* [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
-* [Cucumber](https://github.com/cucumber/cucumber-jvm) - Behavioural Driven Development (BDD) testing framework.
-* [Cukes-REST](https://github.com/ctco/cukes-rest) - A collection of Gherkin steps for REST-service testing using Cucumber.
-* [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
-* [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
-* [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
-* [J8Spec](https://github.com/j8spec/j8spec/) - Library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
-* [JBehave](http://jbehave.org/) - Framework for BDD.
-* [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
-* [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
-* [JMockit](http://jmockit.org/) - Integration testing, API mocking and faking, and code coverage.
+* [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications
+* [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that, when combined, create flexible expressions of intent.
 * [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing JSON strings.
 * [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG-like data provider/runner for JUnit.
 * [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creates readable and maintainable parametrised tests.
-* [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) - Descriptive behavioural specification framework.
-* [Mockito](https://github.com/mockito/mockito) - Mocking framework that lets you write tests with a clean and simple API.
-* [MockServer](http://www.mock-server.com/) - Allows mocking of systems integrated with HTTPS.
-* [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks; Duke's Choice Award winner (2013).
 * [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports whether instances of a given class are immutable.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 * [pojo-tester](http://www.pojo.pl/) - Automatically performs tests on basic POJO methods.
-* [PowerMock](https://github.com/jayway/powermock) - Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers.
 * [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
 * [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing of REST/HTTP services.
-* [Spock](https://github.com/spockframework/spock) - Developer testing and specification framework for Java and Groovy applications.
 * [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
-* [WireMock](http://wiremock.org/) - Stubs and mocks web services.
-
-See [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
 
 ## Utility
 
