@@ -871,6 +871,7 @@ See [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
 - [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
 - [Awesome REST](https://github.com/marmelab/awesome-rest)
+- [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
 - [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
 
