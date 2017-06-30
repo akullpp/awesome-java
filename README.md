@@ -584,12 +584,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Metrics](http://metrics.dropwizard.io/) - Expose metrics via JMX or HTTP and send them to a database.
 * [New Relic ![c]](http://newrelic.com/) - Performance monitor.
 * [nudge4j](https://github.com/lorenzoongithub/nudge4j) - Remote developer console from the browser for Java 8 via bytecode injection.
+* [Opentracing](http://opentracing.io/) - A vendor-neutral open standard for distributed tracing.
 * [OverOps ![c]](https://www.overops.com/) - In-production error monitoring and debugging.
 * [Pinpoint](https://github.com/naver/pinpoint) - Open-source APM tool.
 * [Prometheus](https://prometheus.io/) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
 * [SPM ![c]](https://sematext.com/spm/) - Performance monitor with distributing transaction tracing for JVM apps.
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open-source performance monitoring and transaction tracing for JVM apps.
 * [Sysmon](https://github.com/palantir/Sysmon) - Lightweight platform monitoring tool for Java VMs.
+* [Zipkin](http://zipkin.io/) - A distributed tracing system.
+
 
 ## Native
 *For working with platform-specific native libraries.*
