@@ -591,6 +591,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [SPM ![c]](https://sematext.com/spm/) - Performance monitor with distributing transaction tracing for JVM apps.
 * [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open-source performance monitoring and transaction tracing for JVM apps.
 * [Sysmon](https://github.com/palantir/Sysmon) - Lightweight platform monitoring tool for Java VMs.
+* [Zipkin](http://zipkin.io/) - A distributed tracing system.
+
 
 ## Native
 *For working with platform-specific native libraries.*
