@@ -568,7 +568,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
 * [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
-* [Failsafe Actuator](https://github.com/zalando-incubator/failsafe-actuator) - Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.
 * [Glowroot](https://glowroot.org/) - Open-source Java APM.
 * [Instrumental ![c]](https://instrumentalapp.com) - Real-time Java application performance monitoring. A commercial service with free development accounts.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
@@ -670,7 +669,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [CUBA Platform](https://cuba-platform.com) - High level framework for development of enterprise applications with rich web interface, based on Spring, EclipseLink and Vaadin.
 * [Light-Java](https://github.com/networknt/light-java) - A fast, lightweight and productive microservices framework with [security](https://github.com/networknt/light-oauth2) built in.
 * [Orienteer](https://github.com/OrienteerBAP/Orienteer) - Open source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
-* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
+### [Dropwizard] (https://dropwizard.github.io/dropwizard/)
+*Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.*
+[Dropwizard Cassandra](https://github.com/composable-systems/dropwizard-cassandra) - Provides useful functionality for Dropwizard apps that communicate with Cassandra clusters.
+
+### [Spring](http://projects.spring.io/spring-framework/)
+*Provides many packages ranging from dependency injection to aspect-oriented programming to security.*
+* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
+* [Failsafe Actuator](https://github.com/zalando-incubator/failsafe-actuator) - Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.
 
 
 ## Reactive libraries
@@ -853,7 +859,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Play](https://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
 * [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 * [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
-* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
 # Resources
