@@ -560,7 +560,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [Polyglot for Maven](https://github.com/takari/polyglot-maven/) - Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
-* [Togglz](https://www.togglz.org/) - Implementation of the Feature Toggles pattern for Java.
+* [Togglz](https://www.togglz.org/) - Implementation of the Feature Toggles pattern.
 
 ## Microservice
 
