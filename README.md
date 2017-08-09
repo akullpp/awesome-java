@@ -237,7 +237,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jedis](https://github.com/xetorthio/jedis) - Small client for interaction with Redis, with methods for commands.
 * [Jest](https://github.com/searchbox-io/Jest) - Client for the Elasticsearch REST API.
 * [jetcd](https://github.com/justinsb/jetcd) - Client library for etcd.
-* [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ). 
+* [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
@@ -473,6 +473,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jsoniter](http://jsoniter.com) - Fast and flexible library with iterator and lazy parsing API.
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
 * [Moshi](https://github.com/square/moshi) - Modern JSON library, less opinionated and uses built-in types like List and Map.
+* [Yasson](https://github.com/eclipse/yasson) - Java framework which provides a standard binding layer between Java classes and JSON documents. 
 
 ## JSON Processing
 
