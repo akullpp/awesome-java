@@ -109,6 +109,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
 * [Orika](https://github.com/orika-mapper/orika) - JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.
 * [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
+* [Smooks](https://github.com/smooks/smooks) - Mapper that process XML and non XML data.
 
 ## Build
 
@@ -237,7 +238,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jedis](https://github.com/xetorthio/jedis) - Small client for interaction with Redis, with methods for commands.
 * [Jest](https://github.com/searchbox-io/Jest) - Client for the Elasticsearch REST API.
 * [jetcd](https://github.com/justinsb/jetcd) - Client library for etcd.
-* [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ). 
+* [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
