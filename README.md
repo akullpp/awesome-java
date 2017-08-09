@@ -156,6 +156,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [Sourcetrail ![c]](https://www.sourcetrail.com) - Visual source code navigator.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
+* [Spotbugs](https://github.com/spotbugs/spotbugs) - FindBugs' successor. Tool for static analysis to look for bugs.
 
 ## Code Coverage
 
@@ -237,7 +238,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jedis](https://github.com/xetorthio/jedis) - Small client for interaction with Redis, with methods for commands.
 * [Jest](https://github.com/searchbox-io/Jest) - Client for the Elasticsearch REST API.
 * [jetcd](https://github.com/justinsb/jetcd) - Client library for etcd.
-* [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ). 
+* [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
