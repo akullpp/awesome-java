@@ -784,8 +784,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
 * [Citrus](http://citrusframework.org/) - Integration testing framework that focuses on both client- and server-side messaging.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
-* [JUnit](http://junit.org/) - Common testing framework.
-* [TestNG](http://testng.org/) - Testing framework inspired by JUnit and NUnit, with different functionalities.
+* [JUnit](http://junit.org/) 💀 - Common testing framework.
+* [TestNG](http://testng.org/) 💀 - Testing framework inspired by JUnit and NUnit, with different functionalities.
 * [Spock](https://github.com/spockframework/spock) - Developer testing and specification framework for Java and Groovy applications.
 
 See [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
@@ -807,7 +807,7 @@ See [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
 * [Burst](https://github.com/square/burst) - A unit testing library for varying test data.
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications
-* [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that, when combined, create flexible expressions of intent.
+* [Hamcrest](http://hamcrest.org/JavaHamcrest/) 💀 - Matchers that, when combined, create flexible expressions of intent.
 * [JSONAssert](http://jsonassert.skyscreamer.org/) - Simplifies testing JSON strings.
 * [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG-like data provider/runner for JUnit.
 * [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creates readable and maintainable parametrised tests.
