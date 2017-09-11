@@ -275,7 +275,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - Simple conversion between different calendar systems.
 * [iCal4j](https://github.com/ical4j/ical4j) - Parse and build iCalendar [RFC 5545](https://tools.ietf.org/html/rfc5545) data models.
 * [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
-* [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time.
 * [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
 
 ## Dependency Injection
