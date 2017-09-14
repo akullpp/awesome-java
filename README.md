@@ -872,7 +872,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks and libraries that simplify reading/writing XML data.*
 
-* [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Library that simplifies reading and writing of XML.
+* [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Library that allows to read/write XML by using annotations or XPath.
 
 # Resources
 
