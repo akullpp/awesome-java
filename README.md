@@ -808,8 +808,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [WireMock](http://wiremock.org/) - Stubs and mocks web services.
 
-See [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
-
 ## Utility
 
 *Libraries which provide general utility functions.*
