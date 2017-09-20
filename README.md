@@ -783,7 +783,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Cucumber](https://github.com/cucumber/cucumber-jvm) - Behavioural Driven Development (BDD) testing framework.
 * [Cukes-REST](https://github.com/ctco/cukes-rest) - A collection of Gherkin steps for REST-service testing using Cucumber.
 * [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
-* [Galen](https://github.com/galenframework/galen) - Layout and functional testing framework for websites.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 * [J8Spec](https://github.com/j8spec/j8spec/) - Library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
@@ -805,8 +804,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
 * [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
 * [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing of REST/HTTP services.
-* [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
-* [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
 * [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 * [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 * [WireMock](http://wiremock.org/) - Stubs and mocks web services.
@@ -872,6 +869,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
 - [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
 - [Awesome REST](https://github.com/marmelab/awesome-rest)
+- [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
 - [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
 
