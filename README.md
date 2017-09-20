@@ -677,10 +677,22 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks that are suites of multiple libraries encompassing several categories.*
 
-* [CUBA Platform](https://cuba-platform.com) - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin.
-* [Light-Java](https://github.com/networknt/light-java) - A fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2).
-* [Orienteer](https://github.com/OrienteerBAP/Orienteer) - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
-* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages for dependency injection, aspect-oriented programming, security, etc.
+* [CUBA Platform](https://cuba-platform.com) - High level framework for development of enterprise applications with rich web interface, based on Spring, EclipseLink and Vaadin.
+* [Light-Java](https://github.com/networknt/light-java) - A fast, lightweight and productive microservices framework with [security](https://github.com/networknt/light-oauth2) built in.
+* [Orienteer](https://github.com/OrienteerBAP/Orienteer) - Open source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
+
+### [Dropwizard] (https://dropwizard.github.io/dropwizard/)
+
+*Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.*
+
+[Dropwizard Cassandra](https://github.com/composable-systems/dropwizard-cassandra) - Provides useful functionality for Dropwizard apps that communicate with Cassandra clusters.
+
+### [Spring](http://projects.spring.io/spring-framework/)
+
+*Provides many packages ranging from dependency injection to aspect-oriented programming to security.*
+
+* [Failsafe Actuator](https://github.com/zalando-incubator/failsafe-actuator) - Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.
+* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 
 ## Reactive libraries
 
@@ -854,15 +866,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry, with a stateful GUI.
 * [Blade](https://github.com/biezhi/blade) - Lightweight, modular framework that aims to be elegant and simple.
 * [Bootique](http://bootique.io/) - Minimally opinionated framework for runnable apps.
-* [Grails](https://grails.org/) - Groovy framework that provides a highly productive environment by favoring convention over configuration, no XML and support for mixins.
-* [Jooby](http://jooby.org) - Scalable, fast and modular micro-framework that offers multiple programming models.
-* [Ninja](http://www.ninjaframework.org/) - Full-stack web framework.
-* [Pippo](http://www.pippo.ro/) - Small, highly modularized, Sinatra-like framework.
-* [Play](https://www.playframework.com/) - Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala.
-* [PrimeFaces](http://primefaces.org/) - JSF framework with both free and commercial/support versions and frontend components.
-* [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
-* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework that simplifies the development of new Spring applications.
-* [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client side.
+* [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
+* [Jooby](http://jooby.org) - Scalable, fast and modular micro framework which offers multiple programming models.
+* [Ninja](http://www.ninjaframework.org/) - Full stack web framework.
+* [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
+* [Play](https://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
+* [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
+* [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
+* [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
 # Resources
 
