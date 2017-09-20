@@ -236,7 +236,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jedis](https://github.com/xetorthio/jedis) - Small client for interaction with Redis, with methods for commands.
 * [Jest](https://github.com/searchbox-io/Jest) - Client for the Elasticsearch REST API.
 * [jetcd](https://github.com/justinsb/jetcd) - Client library for etcd.
-* [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ). 
+* [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).
 * [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
@@ -273,7 +273,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - Simple conversion between different calendar systems.
 * [iCal4j](https://github.com/ical4j/ical4j) - Parse and build iCalendar [RFC 5545](https://tools.ietf.org/html/rfc5545) data models.
-* [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
 * [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
 
 ## Dependency Injection
