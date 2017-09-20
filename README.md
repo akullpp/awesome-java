@@ -95,7 +95,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JUnit](http://junit.org/) - Common testing framework.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
 * [Quartz](https://github.com/quartz-scheduler/quartz) - Open-source job scheduler library with Apache 2.0 license.
-* [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 * [TestNG](http://testng.org/) - Testing framework inspired by JUnit and NUnit, with different functionalities.
 * [Trove](http://trove.starlight-systems.com/) - High-performance primitive collections.
 
@@ -679,7 +678,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [CUBA Platform](https://cuba-platform.com) - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin.
 * [Light-Java](https://github.com/networknt/light-java) - A fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2).
 * [Orienteer](https://github.com/OrienteerBAP/Orienteer) - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
-* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages for dependency injection, aspect-oriented programming, security, etc.
+* [Spring](https://spring.io/projects) - Provides many packages for dependency injection, aspect-oriented programming, security, etc.
 
 ## Reactive libraries
 
@@ -688,6 +687,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.
 * [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provides a standard for asynchronous stream processing with non-blocking backpressure.
 * [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
+* [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 * [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
 
 ## REST Frameworks
