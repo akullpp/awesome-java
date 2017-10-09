@@ -249,6 +249,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [requery](https://github.com/requery/requery) - A modern, lightweight but powerful object mapping and SQL generator. Easily map to or create databases, or perform queries and updates from any Java-using platform.
 * [Speedment](https://github.com/speedment/speedment) - Database access library that utilizes Java 8's Stream API for querying.
 * [sql2o](http://sql2o.org/) - Thin JDBC wrapper that simplifies database access and provides simple mapping of ResultSets to POJOs.
+* [SQLJet] (https://sqljet.com) - SQLJet is an independent pure Java implementation of a popular SQLite database management system. 
 * [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library with advanced performance monitoring capabilities.
 * [Xodus](http://jetbrains.github.io/xodus/) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
 
