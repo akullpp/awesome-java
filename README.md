@@ -202,6 +202,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ini4j](http://ini4j.sourceforge.net/) - Provides an API for handling Windows' INI files.
 * [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
 * [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
+* [cfg4j](https://github.com/cfg4j/cfg4j) - Modern configuration library for distributed apps written in Java.
+* [centraldogma](https://github.com/line/centraldogma) - Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2.
 
 ## Constraint Satisfaction Problem Solver
 
