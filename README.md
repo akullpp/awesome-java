@@ -812,6 +812,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries which provide general utility functions.*
 
 * [Apache Commons](http://commons.apache.org/) - Provides configuration, validation, collections, file uploading, XML processing and other general-purpose functions.
+* [cactoos](http://www.cactoos.org) - Cactoos is a collection of object-oriented Java primitives.
 * [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others.
 * [Dex](https://github.com/PatMartin/Dex) - Java/JavaFX tool capable of powerful ETL and data visualization.
 * [Embulk](http://www.embulk.org/) - Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
