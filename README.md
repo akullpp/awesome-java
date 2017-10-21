@@ -856,6 +856,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [PrimeFaces](http://primefaces.org/) - JSF framework with both free and commercial/support versions and frontend components.
 * [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework that simplifies the development of new Spring applications.
+* [Takes](https://github.com/yegor256/takes) - Object-oriented and immutable Java 7 web development framework.
 * [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client side.
 
 # Resources
