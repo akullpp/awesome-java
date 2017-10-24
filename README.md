@@ -172,10 +172,10 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
 * [FreeBuilder](https://github.com/google/FreeBuilder) - Automatically generates the Builder pattern.
 * [Immutables](http://immutables.github.io/) - Annotation processors to generate simple, safe and consistent value objects.
+* [JavaPoet](https://github.com/square/javapoet) - API to generate source files.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
 * [Joda-Beans](http://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 * [Lombok](https://projectlombok.org/) - Code generator that aims to reduce verbosity.
-* [JavaPoet](https://github.com/square/javapoet) - API to generate source files.
 
 ## Command-line Argument Parsers
 
@@ -557,8 +557,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Detect uses of legacy Java APIs.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [Polyglot for Maven](https://github.com/takari/polyglot-maven/) - Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML.
-* [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 * [Togglz](https://www.togglz.org/) - Implementation of the Feature Toggles pattern.
+* [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 
 ## Microservice
 
@@ -713,7 +713,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 * [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualizing (mainly Swing) and interacting with node-edge graphs.
 * [Mines Java Toolkit](https://github.com/MinesJTK/jtk) - Library for geophysical scientific computation, visualization and digital signal analysis.
-* [Morpheus](http://www.zavtech.com/morpheus/docs/) - Provides a versatile two-dimensional memory efficient tabular data structure called a DataFrame to enable efficient in-memory analytics for scientific computing on the JVM. 
+* [Morpheus](http://www.zavtech.com/morpheus/docs/) - Provides a versatile two-dimensional memory efficient tabular data structure called a DataFrame to enable efficient in-memory analytics for scientific computing on the JVM.
 * [Tablesaw](https://github.com/lwhite1/tablesaw) - Includes a data-frame, an embedded column store, and hundreds of methods to transform, summarize, or filter data.
 
 ## Search
@@ -740,6 +740,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
 * [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 * [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
+* [Vault](https://www.vaultproject.io/) - Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets. It handles leasing, key revocation, key rolling, and auditing. Through a unified API, users can access an encrypted Key/Value store and network encryption-as-a-service, or generate AWS IAM/STS credentials, SQL/NoSQL databases, X.509 certificates, SSH credentials, and more.
 
 ## Serialization
 
