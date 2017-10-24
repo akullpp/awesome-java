@@ -777,7 +777,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
 * [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
-* [Beanmother](https://github.com/keepcosmos/beanmother) - A library for setting up Java Bean as test data.
+* [Beanmother](https://github.com/keepcosmos/beanmother) - Sets up beans from YAML fixtures.
 * [Burst](https://github.com/square/burst) - A unit testing library for varying test data.
 * [Citrus](http://citrusframework.org/) - Integration testing framework that focuses on both client- and server-side messaging.
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
