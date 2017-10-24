@@ -754,6 +754,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [FST](https://github.com/RuedigerMoeller/fast-serialization) - JDK-compatible, high-performance object graph serialization.
 * [Kryo](https://github.com/EsotericSoftware/kryo) - Fast and efficient object graph serialization framework.
 * [MessagePack](https://github.com/msgpack/msgpack-java) - Efficient binary serialization format.
+* [PHP Serializer](https://github.com/marcospassos/java-php-serializer) - Serializing objects in the PHP serialization format.
 
 ## Server
 
