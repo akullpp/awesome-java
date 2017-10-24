@@ -65,6 +65,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Version Managers](#version-managers)
     - [Web Crawling](#web-crawling)
     - [Web Frameworks](#web-frameworks)
+    - [XML](#xml)
 - [Resources](#resources)
     - [Awesome Lists](#awesome-lists)
     - [Communities](#communities)
@@ -871,6 +872,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework that simplifies the development of new Spring applications.
 * [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client side.
+
+## XML
+
+*Frameworks and libraries that simplify reading/writing XML data.*
+
+* [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Library that allows to read/write XML by using annotations or XPath.
 
 # Resources
 
