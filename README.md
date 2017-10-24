@@ -84,15 +84,15 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
 * [Apache Velocity](https://velocity.apache.org/) - A template engine for HTML pages, emails or source code generation.
 * [FreeMarker](http://freemarker.org/) - General templating engine with no heavyweight or opinionated dependencies.
-* [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE, sponsored by Oracle.
+* [GlassFish](https://javaee.github.io/glassfish) - Application server and reference implementation for Java EE, sponsored by Oracle.
 * [GWT](http://www.gwtproject.org/) - Toolbox that includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that, when combined, create flexible expressions of intent.
 * [HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made for embedding.
 * [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
 * [Java Modeling Language (JML)](http://www.eecs.ucf.edu/~leavens/JML/) - Behavioral interface specification language useful for specifying the behavior of code modules. It combines Eiffel's Design by Contract approach with the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
 * [JavaCC](https://javacc.org/) - Parser generator with syntactic lookahead.
-* [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
-* [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
+* [JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/) - Oracle's open-source implementation of the JSF standard, Mojarra.
+* [JavaServer Pages](https://javaee.github.io/javaee-jsp-api/) - Common templating for websites with custom tag libraries.
 * [JUnit](http://junit.org/) - Common testing framework.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
 * [Quartz](https://github.com/quartz-scheduler/quartz) - Open-source job scheduler library with Apache 2.0 license.
@@ -287,7 +287,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Feather](https://github.com/zsoltherpai/feather) - Ultra-lightweight, JSR-330-compliant dependency injection library.
 * [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
 * [Guice](https://github.com/google/guice) - Lightweight and opinionated framework that completes Dagger.
-* [HK2](https://hk2.java.net) - Lightweight and dynamic dependency injection framework.
+* [HK2](https://javaee.github.io/hk2) - Lightweight and dynamic dependency injection framework.
 
 ## Development
 
@@ -618,7 +618,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
 * [Finagle](https://github.com/twitter/finagle) - Extensible RPC system for constructing high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol-agnostic to simplify implementation of new protocols.
-* [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
+* [Grizzly](https://javaee.github.io/grizzly) - NIO framework. Used as a network layer in Glassfish.
 * [gRPC](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
 * [MINA](https://mina.apache.org/) - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
 * [Netty](http://netty.io/) - Framework for building high-performance network applications.
@@ -699,7 +699,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks specifically for creating RESTful services.*
 
 * [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.
-* [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
+* [Jersey](https://github.com:jersey/jersey) - JAX-RS reference implementation.
 * [Microserver](https://github.com/aol/micro-server) — A convenient, extensible microservices plugin system for Spring & Spring Boot. With more than 30 plugins and growing, it supports both micro-monolith and pure microservices styles.
 * [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of an embedded HTTP server, GUI components and dependency injection.
 * [rest.li](https://github.com/linkedin/rest.li) - Framework for building robust, scalable RESTful architectures using typesafe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.
