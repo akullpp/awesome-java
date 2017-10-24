@@ -848,7 +848,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environments.
 * [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
 * [JSoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
-* [StormCrawler](http://stormcrawler.net/) - SDK for building low-latency, scalable web crawlers on [Apache Storm](http://storm.apache.org/).
+* [StormCrawler](http://stormcrawler.net/) - SDK for building low-latency and scalable web crawlers.
 
 ## Web Frameworks
 
