@@ -473,7 +473,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jsoniter](http://jsoniter.com) - Fast and flexible library with iterator and lazy parsing API.
 * [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
 * [Moshi](https://github.com/square/moshi) - Modern JSON library, less opinionated and uses built-in types like List and Map.
-* [Yasson](https://github.com/eclipse/yasson) - Java framework which provides a standard binding layer between Java classes and JSON documents. 
+* [Yasson](https://github.com/eclipse/yasson) - Binding layer between classes and JSON documents similar to JAXB.
 
 ## JSON Processing
 
