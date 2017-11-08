@@ -177,6 +177,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
 * [Joda-Beans](http://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 * [Lombok](https://projectlombok.org/) - Code generator that aims to reduce verbosity.
+* [cli-spring-boot-scaffold](https://github.com/NetoDevel/cli-spring-boot-scaffold) - A CLI to generate CRUD for Spring Boot and Thymeleaf
 
 ## Command-line Argument Parsers
 
