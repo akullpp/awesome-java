@@ -862,7 +862,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry, with a stateful GUI.
 * [Blade](https://github.com/biezhi/blade) - Lightweight, modular framework that aims to be elegant and simple.
 * [Bootique](http://bootique.io/) - Minimally opinionated framework for runnable apps.
-* [Firefly](http://www.fireflysource.com/) - an asynchronous web framework for rapid development of high-performance web application.
+* [Firefly](http://www.fireflysource.com/) - Asynchronous framework for rapid development of high-performance web application.
 * [Grails](https://grails.org/) - Groovy framework that provides a highly productive environment by favoring convention over configuration, no XML and support for mixins.
 * [Jooby](http://jooby.org) - Scalable, fast and modular micro-framework that offers multiple programming models.
 * [Ninja](http://www.ninjaframework.org/) - Full-stack web framework.
