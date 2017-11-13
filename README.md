@@ -215,6 +215,11 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
 * [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
 
+## Contract Testing
+
+* [Pact](https://github.com/DiUS/pact-jvm/) - Provides Consumer Driven Contracts in the JVM.
+* [Spring Cloud Contract](https://github.com/spring-cloud/spring-cloud-contract/) - Provides Consumer Driven Contracts in Spring.
+
 ## CSV
 
 *Frameworks and libraries that simplify reading/writing CSV data.*
