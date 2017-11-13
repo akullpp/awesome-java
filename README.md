@@ -883,15 +883,16 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Awesome Lists
 
-*Awesome lists related to the Java/JVM ecosystem*
+*Awesome lists related to the Java & JVM ecosystem.*
 
-- [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
-- [Awesome JVM](https://github.com/deephacks/awesome-jvm)
-- [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
-- [Awesome REST](https://github.com/marmelab/awesome-rest)
-- [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
-- [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
-- [Useful Java Links](https://github.com/Vedenin/useful-java-links)
+* [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
+* [AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX) - A curated list of awesome JavaFX frameworks, libraries, books etc... .
+* [Awesome JVM](https://github.com/deephacks/awesome-jvm)
+* [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
+* [Awesome REST](https://github.com/marmelab/awesome-rest)
+* [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
+* [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
+* [Useful Java Links](https://github.com/Vedenin/useful-java-links)
 
 ## Communities
 
