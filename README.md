@@ -23,6 +23,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
+    - [Distributed Transactions](#distributed-transactions)
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
     - [Formal Verification](#formal-verification)
@@ -323,16 +324,13 @@ A curated list of awesome Java frameworks, libraries and software.
 * [resilience4j](https://github.com/resilience4j/resilience4j) - Functional fault tolerance library.
 * [Zuul](https://github.com/Netflix/zuul) - A gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 
-## Distributed Databases
+## Distributed Transactions
 
-*Databases in a distributed system that appear to applications as a single data source.*
+*Distributed transactions provide a mechanism for ensuring consistency of data updates in the presence of concurrent access and partial failures.*
 
-* [Apache Cassandra](http://cassandra.apache.org) - Column-oriented and provides high availability with no single point of failure.
-* [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
-* [Druid](http://druid.io) - Real-time and historical OLAP data store that excels at aggregation and approximation queries.
-* [Infinispan](http://infinispan.org/) - Highly concurrent key-value data store used for caching.
-* [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
-* [OrientDB](https://orientdb.com/orientdb/) - Embeddable distributed database written on top of Hazelcast.
+* [Atomikos](https://www.atomikos.com) - Provides transactions for REST, SOA and microservices with support for JTA and XA.
+* [Bitronix](https://github.com/bitronix/btm) - A simple but complete implementation of the JTA 1.1 API.
+* [Narayana](http://narayana.io) - Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards.
 
 ## Distribution
 
