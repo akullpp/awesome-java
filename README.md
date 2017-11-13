@@ -157,6 +157,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [Sourcetrail ![c]](https://www.sourcetrail.com) - Visual source code navigator.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
+* [Spotbugs](https://github.com/spotbugs/spotbugs) - FindBugs' successor. Tool for static analysis to look for bugs.
 
 ## Code Coverage
 
