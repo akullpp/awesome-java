@@ -184,6 +184,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that make it easy to parse command line options, arguments, etc.*
 
 * [Airline](https://github.com/airlift/airline) - Annotation-based framework for parsing Git-like command-line arguments.
+* [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/) - Provides an API for parsing short/long command line options using POSIX/GNU syntax. Can print help messages detailing the options available for a command line tool.
 * [args4j](http://args4j.kohsuke.org/) - Small library to parse command-line arguments.
 * [JCommander](http://jcommander.org/) - Command-line argument-parsing framework with custom types and validation via implementing interfaces.
 * [JOpt Simple](http://pholser.github.io/jopt-simple/) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations.
