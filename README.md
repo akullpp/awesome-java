@@ -356,7 +356,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Formal Verification
 
-*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
+*Formal-methods tools: proof assistants, model checking, symbolic execution, etc.*
 
 * [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
 * [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
@@ -541,7 +541,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything else.*
 
-* [Codename One](https://www.codenameone.com/) - Cross-platform solution for writing native mobile (iOS, Android, etc.) apps.
+* [Codename One](https://www.codenameone.com/) - Cross-platform solution for writing native mobile apps.
 * [CQEngine](https://github.com/npgall/cqengine) - Ultra-fast, SQL-like queries on Java collections.
 * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
