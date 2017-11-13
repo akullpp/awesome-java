@@ -151,7 +151,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
-* [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
+* [Spotbugs](https://github.com/spotbugs/spotbugs) - Static analysis of bytecode to find potential bugs.
 * [Infer](https://github.com/facebook/infer) - Modern static analysis tool for verifying the correctness of code.
 * [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
