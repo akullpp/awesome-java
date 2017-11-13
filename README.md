@@ -337,9 +337,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Distributed transactions provide a mechanism for ensuring consistency of data updates in the presence of concurrent access and partial failures.*
 
-* [Atomikos](https://www.atomikos.com) - Provides transactions for REST, SOA and microservices, also with support for JTA and XA.
-* [Bitronix](https://github.com/bitronix/btm) - A simple but complete implementation of the JTA 1.1 API..
-* [Narayana](http://narayana.io) - Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards. (Previous called Arjuna Transactions).
+* [Atomikos](https://www.atomikos.com) - Provides transactions for REST, SOA and microservices with support for JTA and XA.
+* [Bitronix](https://github.com/bitronix/btm) - A simple but complete implementation of the JTA 1.1 API.
+* [Narayana](http://narayana.io) - Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards.
 
 ## Distribution
 
