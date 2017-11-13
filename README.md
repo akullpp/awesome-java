@@ -776,6 +776,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
 * [Jtwig](http://jtwig.org/) - Modular, configurable and fully tested template engine.
+* [Jade4J](https://github.com/neuland/jade4j) - Implementation of jade.
+* [Pebble](http://www.mitchellbosecke.com/pebble/home) - Inspired by Twig and separates itself with it's inheritance feature and it's easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files.
 
 ## Testing
