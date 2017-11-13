@@ -110,6 +110,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
 * [Orika](https://github.com/orika-mapper/orika) - JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.
 * [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
+* [Smooks](https://github.com/smooks/smooks) - Mapper that process XML and non XML data.
 
 ## Build
 
