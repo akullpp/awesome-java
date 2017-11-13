@@ -799,6 +799,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
 * [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
+* [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) - Native bindings for Hoverfly a proxy which allows you to simulate HTTP services.
 * [J8Spec](https://github.com/j8spec/j8spec/) - Library that allows tests written in Java to follow the BDD style introduced by RSpec and Jasmine.
 * [JBehave](http://jbehave.org/) - Framework for BDD.
 * [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
