@@ -109,7 +109,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
 * [Orika](https://github.com/orika-mapper/orika) - JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.
 * [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
-* [Smooks](https://github.com/smooks/smooks) - Mapper that process XML and non XML data.
 
 ## Build
 
@@ -565,6 +564,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Polyglot for Maven](https://github.com/takari/polyglot-maven/) - Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 * [Togglz](https://www.togglz.org/) - Implementation of the Feature Toggles pattern.
+* [Smooks](https://github.com/smooks/smooks) - Extensible framework for building applications that process data which means bindings, transformations, message processing and enrichment.
 
 ## Microservice
 
