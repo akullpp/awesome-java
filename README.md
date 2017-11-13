@@ -80,19 +80,19 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *In existence since the beginning of time, and which people will continue using long after the hype has waned.*
 
-* [Apache Ant](http://ant.apache.org/) - Build process management with XML.
-* [Apache Hadoop](http://hadoop.apache.org/) - Storage and large-scale processing of data sets on clusters of commodity hardware.
+* [Apache Ant](https://ant.apache.org/) - Build process management with XML.
+* [Apache Hadoop](https://hadoop.apache.org/) - Storage and large-scale processing of data sets on clusters of commodity hardware.
 * [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
-* [Apache Velocity](http://velocity.apache.org/) - A template engine for HTML pages, emails or source code generation.
+* [Apache Velocity](https://velocity.apache.org/) - A template engine for HTML pages, emails or source code generation.
 * [FreeMarker](http://freemarker.org/) - General templating engine with no heavyweight or opinionated dependencies.
-* [GlassFish](http://javaee.github.io/glassfish/) - Application server and reference implementation for Java EE, sponsored by Oracle.
+* [GlassFish](https://javaee.github.io/glassfish/) - Application server and reference implementation for Java EE, sponsored by Oracle.
 * [GWT](http://www.gwtproject.org/) - Toolbox that includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
 * [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that, when combined, create flexible expressions of intent.
-* [HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made for embedding.
+* [HornetQ](https://hornetq.jboss.org/) - Clear, concise, modular and made for embedding.
 * [Java Modeling Language (JML)](http://www.eecs.ucf.edu/~leavens/JML/) - Behavioral interface specification language useful for specifying the behavior of code modules. It combines Eiffel's Design by Contract approach with the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
 * [JavaCC](https://javacc.org/) - Parser generator with syntactic lookahead.
-* [JavaServer Faces](http://javaee.github.io/javaserverfaces-spec/) - Oracle's open-source implementation of the JSF standard, Mojarra.
-* [JavaServer Pages](http://javaee.github.io/javaee-jsp-api/) - Common templating for websites with custom tag libraries.
+* [JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/) - Oracle's open-source implementation of the JSF standard, Mojarra.
+* [JavaServer Pages](https://javaee.github.io/javaee-jsp-api/) - Common templating for websites with custom tag libraries.
 * [JUnit](http://junit.org/) - Common testing framework.
 * [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
 * [Quartz](https://github.com/quartz-scheduler/quartz) - Open-source job scheduler library with Apache 2.0 license.
@@ -105,7 +105,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks that ease bean mapping.*
 
 * [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another using annotations and API or XML configuration.
-* [JMapper](http://jmapper-framework.github.io/jmapper-core/) - Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration.
+* [JMapper](https://jmapper-framework.github.io/jmapper-core/) - Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration.
 * [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator that simplifies mappings between different bean types, based on a convention-over-configuration approach.
 * [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
 * [Orika](https://github.com/orika-mapper/orika) - JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.
@@ -115,19 +115,19 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that handle the build cycle and dependencies of an application.*
 
-* [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain.
-* [Bazel](http://bazel.io) - Tool from Google that builds code quickly and reliably.
-* [Gradle](http://gradle.org/) - Incremental builds programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+* [Apache Maven](https://maven.apache.org/) - Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain.
+* [Bazel](https://bazel.io) - Tool from Google that builds code quickly and reliably.
+* [Gradle](https://gradle.org/) - Incremental builds programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
 
 ## Bytecode Manipulation
 
 *Libraries to manipulate bytecode programmatically.*
 
-* [ASM](http://asm.ow2.org/) - All-purpose, low-level bytecode manipulation and analysis.
+* [ASM](https://asm.ow2.org/) - All-purpose, low-level bytecode manipulation and analysis.
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
-* [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting.
+* [Byteman](https://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting.
 * [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
-* [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify bytecode editing.
+* [Javassist](https://jboss-javassist.github.io/javassist/) - Tries to simplify bytecode editing.
 
 ## Caching
 
@@ -141,8 +141,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks that can dynamically manage applications inside of a cluster.*
 
-* [Apache Aurora](http://aurora.apache.org/) - Mesos framework for long-running services and cron jobs.
-* [Apache Mesos](http://mesos.apache.org/) - Abstracts CPU, memory, storage, and other compute resources away from machines.
+* [Apache Aurora](https://aurora.apache.org/) - Mesos framework for long-running services and cron jobs.
+* [Apache Mesos](https://mesos.apache.org/) - Abstracts CPU, memory, storage, and other compute resources away from machines.
 * [Singularity](http://getsingularity.com/) - Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 ## Code Analysis
@@ -153,7 +153,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
 * [Spotbugs](https://github.com/spotbugs/spotbugs) - Static analysis of bytecode to find potential bugs.
 * [Infer](https://github.com/facebook/infer) - Modern static analysis tool for verifying the correctness of code.
-* [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
+* [jQAssistant](https://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [Sourcetrail ![c]](https://www.sourcetrail.com) - Visual source code navigator.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
@@ -163,7 +163,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks and tools that enable code coverage metrics collection for test suites.*
 
 * [Clover ![c]](https://www.atlassian.com/software/clover/overview) - Relies on source-code instrumentation instead of bytecode instrumentation.
-* [Cobertura](http://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics.
+* [Cobertura](https://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics.
 * [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation.
 
 ## Code Generators
@@ -173,7 +173,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 * [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
 * [FreeBuilder](https://github.com/google/FreeBuilder) - Automatically generates the Builder pattern.
-* [Immutables](http://immutables.github.io/) - Annotation processors to generate simple, safe and consistent value objects.
+* [Immutables](https://immutables.github.io/) - Annotation processors to generate simple, safe and consistent value objects.
 * [JavaPoet](https://github.com/square/javapoet) - API to generate source files.
 * [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
 * [Joda-Beans](http://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
@@ -186,7 +186,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Airline](https://github.com/airlift/airline) - Annotation-based framework for parsing Git-like command-line arguments.
 * [args4j](http://args4j.kohsuke.org/) - Small library to parse command-line arguments.
 * [JCommander](http://jcommander.org/) - Command-line argument-parsing framework with custom types and validation via implementing interfaces.
-* [JOpt Simple](http://pholser.github.io/jopt-simple/) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations.
+* [JOpt Simple](https://pholser.github.io/jopt-simple/) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations.
 * [picocli](http://picocli.info/) - ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation-based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 
 ## Compiler-compiler
@@ -213,7 +213,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
 * [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
-* [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
+* [OptaPlanner](https://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
 
 ## CSV
 
@@ -221,26 +221,26 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [jackson-dataformat-csv](https://github.com/FasterXML/jackson-dataformat-csv) - Jackson extension for reading and writing CSV.
 * [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser.
-* [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
+* [Super CSV](https://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
 * [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete parsers. Also comes with parsers for TSV and fixed-width records.
 
 ## Database
 
 *Everything that simplifies interactions with the database.*
 
-* [Apache Phoenix](http://phoenix.apache.org/) - High-performance relational database layer over HBase for low-latency applications.
+* [Apache Phoenix](https://phoenix.apache.org/) - High-performance relational database layer over HBase for low-latency applications.
 * [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) - Efficient, in-memory (opt. persisted to disk), off-heap key-value store.
 * [eXist](https://github.com/eXist-db/exist) - A NoSQL document database and application platform.
 * [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
 * [Flyway](https://flywaydb.org/) - Simple database migration tool.
-* [H2](http://h2database.com/) - Small SQL database notable for its in-memory functionality.
+* [H2](https://h2database.com/) - Small SQL database notable for its in-memory functionality.
 * [HikariCP](https://github.com/brettwooldridge/HikariCP) - High-performance JDBC connection pool.
 * [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
 * [Jedis](https://github.com/xetorthio/jedis) - Small client for interaction with Redis, with methods for commands.
 * [Jest](https://github.com/searchbox-io/Jest) - Client for the Elasticsearch REST API.
 * [jetcd](https://github.com/justinsb/jetcd) - Client library for etcd.
 * [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).
-* [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
+* [jOOQ](https://www.jooq.org/) - Generates typesafe code based on SQL schema.
 * [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
 * [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 * [MariaDB4j](https://github.com/vorburger/MariaDB4j/) - Launcher for MariaDB that requires no installation or external dependencies.
@@ -253,7 +253,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Speedment](https://github.com/speedment/speedment) - Database access library that utilizes Java 8's Stream API for querying.
 * [sql2o](http://sql2o.org/) - Thin JDBC wrapper that simplifies database access and provides simple mapping of ResultSets to POJOs.
 * [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library with advanced performance monitoring capabilities.
-* [Xodus](http://jetbrains.github.io/xodus/) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
+* [Xodus](https://jetbrains.github.io/xodus/) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
 
 ## Data Structures
 
@@ -261,7 +261,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache Avro](https://avro.apache.org/) - Data interchange format with dynamic typing, untagged data, and absence of manually assigned IDs.
 * [Apache Orc](https://orc.apache.org/) - Fast and efficient columnar storage format for Hadoop-based workloads.
-* [Apache Parquet](http://parquet.apache.org/) - Columnar storage format based on assembly algorithms from Google's paper on Dremel.
+* [Apache Parquet](https://parquet.apache.org/) - Columnar storage format based on assembly algorithms from Google's paper on Dremel.
 * [Apache Thrift](https://thrift.apache.org/) - Data interchange format that originated at Facebook.
 * [Big Queue](https://github.com/bulldog2011/bigqueue) - A big, fast and persistent queue based on memory-mapped files.
 * [Persistent Collection](http://pcollections.org/) - Persistent and immutable analogue of the Java Collections Framework.
@@ -284,32 +284,32 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that help to realize the [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
 * [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
-* [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
+* [Dagger2](https://google.github.io/dagger/) - Compile-time injection framework without reflection.
 * [Feather](https://github.com/zsoltherpai/feather) - Ultra-lightweight, JSR-330-compliant dependency injection library.
 * [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
 * [Guice](https://github.com/google/guice) - Lightweight and opinionated framework that completes Dagger.
-* [HK2](http://javaee.github.io/hk2) - Lightweight and dynamic dependency injection framework.
+* [HK2](https://javaee.github.io/hk2) - Lightweight and dynamic dependency injection framework.
 
 ## Development
 
 *Augmentation of the development process at a fundamental level.*
 
 * [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
-* [DCEVM](http://dcevm.github.io/) - JVM modification that allows unlimited redefinition of loaded classes at runtime.
+* [DCEVM](https://dcevm.github.io/) - JVM modification that allows unlimited redefinition of loaded classes at runtime.
 * [Faux Pas](https://github.com/zalando/faux-pas) - Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions.
 * [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
 * [JavaParser](https://github.com/javaparser/javaparser) - Parse, modify and generate Java code.
 * [JavaSymbolSolver](https://github.com/javaparser/javasymbolsolver) - A symbol solver for Java.
-* [JRebel ![c]](http://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
+* [JRebel ![c]](https://zeroturnaround.com/software/jrebel/) - Instantly reloads code and configuration changes without redeploys.
 * [NoException](https://noexception.machinezoo.com/) - Allows checked exceptions in functional interfaces and converts exceptions to Optional return.
 
 ## Distributed Applications
 
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
-* [Apache Geode](http://geode.apache.org/) - In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
-* [Apache Storm](http://storm.apache.org/) - Realtime computation system.
-* [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
+* [Apache Geode](https://geode.apache.org/) - In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
+* [Apache Storm](https://storm.apache.org/) - Realtime computation system.
+* [Apache ZooKeeper](https://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
@@ -341,7 +341,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Central Repository](http://search.maven.org/) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven, and available in all other build tools.
 * [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
 * [JitPack](https://jitpack.io/) - Easy-to-use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
-* [Nexus ![c]](http://www.sonatype.com/nexus/solution-overview) - Binary management with proxy and caching capabilities.
+* [Nexus ![c]](https://www.sonatype.com/nexus/solution-overview) - Binary management with proxy and caching capabilities.
 * [packr](https://github.com/libgdx/packr/) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
 * [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) - Maven plugin for making self-executing JARs.
 
@@ -349,21 +349,21 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that assist with processing office document formats.*
 
-* [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
+* [Apache POI](https://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
 * [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
-* [docx4j](http://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
+* [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
 
 ## Formal Verification
 
 *Formal-methods tools: proof assistants, model checking, symbolic execution, etc.*
 
 * [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
-* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
-* [Daikon](http://plse.cs.washington.edu/daikon/) - Detects likely program invariants and generates JML specs based on those invariants.
-* [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
+* [Checker Framework](https://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
+* [Daikon](https://plse.cs.washington.edu/daikon/) - Detects likely program invariants and generates JML specs based on those invariants.
+* [Java Path Finder (JPF)](https://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
 * [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects inconsistencies between code and JML specification through feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
 * [KeY](http://key-project.org/) - Formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
-* [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
+* [OpenJML](https://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
 
 ## Functional Programming
 
@@ -385,19 +385,19 @@ A curated list of awesome Java frameworks, libraries and software.
 * [jMonkeyEngine](https://jmonkeyengine.org/) - Game engine for modern 3D development.
 * [libGDX](https://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
 * [LWJGL](https://www.lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
-* [FXGL](http://almasb.github.io/FXGL/) - JavaFX Game Development Framework.
+* [FXGL](https://almasb.github.io/FXGL/) - JavaFX Game Development Framework.
 
 ## Geospatial
 
 *Libraries for working with geospatial data and algorithms.*
 
-* [Apache SIS](http://sis.apache.org/) - Library for developing geospatial applications.
+* [Apache SIS](https://sis.apache.org/) - Library for developing geospatial applications.
 * [Geo](https://github.com/davidmoten/geo/) - GeoHash utilities in Java.
 * [Geotoolkit.org](http://www.geotoolkit.org/) - Library for developing geospatial applications. Built on top of the Apache SIS project.
 * [GeoTools](http://geotools.org/) - Library that provides tools for geospatial data.
 * [GraphHopper](https://github.com/graphhopper/graphhopper) - Road-routing engine. Used as a Java library or standalone web service.
 * [H2GIS](http://www.h2gis.org/) - A spatial extension of the H2 database.
-* [Jgeohash](http://astrapi69.github.io/jgeohash/) - Library for using the GeoHash algorithm.
+* [Jgeohash](https://astrapi69.github.io/jgeohash/) - Library for using the GeoHash algorithm.
 * [Mapsforge](https://github.com/mapsforge/mapsforge/) - Map rendering based on OpenStreetMap data.
 * [Spatial4j](https://github.com/locationtech/spatial4j/) - General-purpose spatial/geospatial library.
 
@@ -405,19 +405,19 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries to create modern graphical user interfaces.*
 
-* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
-* [Scene Builder](http://gluonhq.com/open-source/scene-builder/) - Visual layout tool for JavaFX applications.
-* [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit, a graphical widget toolkit.
+* [JavaFX](https://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
+* [Scene Builder](https://gluonhq.com/open-source/scene-builder/) - Visual layout tool for JavaFX applications.
+* [SWT](https://www.eclipse.org/swt/) - The Standard Widget Toolkit, a graphical widget toolkit.
 
 ## High Performance
 
 *Everything about high-performance computation, from collections to specific libraries.*
 
 * [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
-* [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
+* [Disruptor](https://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
 * [Eclipse Collections](https://github.com/eclipse/eclipse-collections) - Collections framework inspired by Smalltalk.
 * [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections.
-* [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
+* [HPPC](https://labs.carrotsearch.com/hppc.html) - Primitive collections.
 * [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
 * [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
 
@@ -427,9 +427,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 * [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
-* [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
+* [OkHttp](https://square.github.io/okhttp/) - HTTP+SPDY client.
 * [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
-* [Retrofit](http://square.github.io/retrofit/) - Typesafe REST client.
+* [Retrofit](https://square.github.io/retrofit/) - Typesafe REST client.
 * [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in cloud.
 * [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
 
@@ -444,8 +444,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Integrated development environments that try to simplify several aspects of development.*
 
-* [Eclipse](http://www.eclipse.org/) - Established open-source project with support for lots of plugins and languages.
-* [IntelliJ IDEA ![c]](http://www.jetbrains.com/idea/) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
+* [Eclipse](https://www.eclipse.org/) - Established open-source project with support for lots of plugins and languages.
+* [IntelliJ IDEA ![c]](https://www.jetbrains.com/idea/) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 * [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features, from database access to HTML5.
 
 ## Imagery
@@ -462,7 +462,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries for serializing and deserializing JSON to and from Java objects.*
 
-* [Genson](http://owlike.github.io/genson/) - Powerful and easy-to-use Java-to-JSON conversion library.
+* [Genson](https://owlike.github.io/genson/) - Powerful and easy-to-use Java-to-JSON conversion library.
 * [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [HikariJSON](https://github.com/brettwooldridge/HikariJSON) - High-performance JSON parser, 2x faster than Jackson.
 * [Jackson-datatype-money](https://github.com/zalando/jackson-datatype-money) - Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types.
@@ -491,19 +491,19 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
 * [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking, concurrent GC for iOS.
 * [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early-access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
-* [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
+* [Zulu OpenJDK](https://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
 
 ## Logging
 
 *Libraries that log the behavior of an application.*
 
-* [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite with a powerful plugin and configuration architecture.
+* [Apache Log4j 2](https://logging.apache.org/log4j/) - Complete rewrite with a powerful plugin and configuration architecture.
 * [Graylog](https://www.graylog.org/) - Open-source aggregator suited for extended role and permission management.
 * [Kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
-* [Logback](http://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
+* [Logback](https://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
 * [Logbook](https://github.com/zalando/logbook) - Extensible, open-source library for HTTP request and response logging.
 * [Logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
-* [SLF4J](http://www.slf4j.org/) - Abstraction layer/simple logging facade.
+* [SLF4J](https://www.slf4j.org/) - Abstraction layer/simple logging facade.
 * [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
 * [Tracer](https://github.com/zalando/tracer) - Call tracing and log correlation in distributed systems.
 
@@ -513,24 +513,24 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache Flink](https://flink.apache.org/) - Fast, reliable, large-scale data processing engine.
 * [Apache Mahout](https://mahout.apache.org/) - Scalable algorithms focused on collaborative filtering, clustering and classification.
-* [Apache Spark](http://spark.apache.org/) - Data analytics cluster-computing framework.
+* [Apache Spark](https://spark.apache.org/) - Data analytics cluster-computing framework.
 * [DatumBox](http://www.datumbox.com) - Provides several algorithms and pre-trained models for natural language processing.
 * [DeepDive](http://deepdive.stanford.edu) - Creates structured information from unstructured data and integrates it into an existing database.
 * [Deeplearning4j](http://deeplearning4j.org/) - Distributed and multi-threaded deep learning library.
 * [H2O](http://www.h2o.ai/) - Analytics engine for statistics over big data.
 * [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution.
 * [Oryx 2](https://github.com/OryxProject/oryx) - Framework for building real-time, large-scale machine learning applications. Includes end-to-end applications for collaborative filtering, classification, regression, and clustering.
-* [Smile](http://haifengl.github.io/smile/) - The Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.
-* [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
+* [Smile](https://haifengl.github.io/smile/) - The Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.
+* [Weka](https://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 ## Messaging
 
 *Tools that help send messages between clients to ensure protocol independency.*
 
 * [Aeron](https://github.com/real-logic/Aeron) - Efficient, reliable, unicast and multicast message transport.
-* [Apache ActiveMQ](http://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication.
-* [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
-* [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
+* [Apache ActiveMQ](https://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication.
+* [Apache Camel](https://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
+* [Apache Kafka](https://kafka.apache.org/) - High-throughput distributed messaging system.
 * [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
 * [JeroMQ](https://github.com/zeromq/jeromq) - Implementation of ZeroMQ.
 * [Nakadi](https://github.com/zalando/nakadi) - Provides a RESTful API on top of Kafka.
@@ -591,7 +591,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Jolokia](https://jolokia.org/) - JMX over REST.
 * [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
 * [Metrics](http://metrics.dropwizard.io/) - Expose metrics via JMX or HTTP and send them to a database.
-* [New Relic ![c]](http://newrelic.com/) - Performance monitor.
+* [New Relic ![c]](https://newrelic.com/) - Performance monitor.
 * [nudge4j](https://github.com/lorenzoongithub/nudge4j) - Remote developer console from the browser for Java 8 via bytecode injection.
 * [OverOps ![c]](https://www.overops.com/) - In-production error monitoring and debugging.
 * [Pinpoint](https://github.com/naver/pinpoint) - Open-source APM tool.
@@ -612,7 +612,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that specialize in processing text.*
 
 * [CogCompNLP](https://github.com/CogComp/cogcomp-nlp) - Provides common annotators for plain text input.
-* [CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis.
+* [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis.
 * [DKPro](https://dkpro.github.io/) - Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
 * [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for tasks ranging from POS tagging to sentiment analysis.
 
@@ -622,7 +622,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
 * [Finagle](https://github.com/twitter/finagle) - Extensible RPC system for constructing high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol-agnostic to simplify implementation of new protocols.
-* [Grizzly](http://javaee.github.io/grizzly) - NIO framework. Used as a network layer in Glassfish.
+* [Grizzly](https://javaee.github.io/grizzly) - NIO framework. Used as a network layer in Glassfish.
 * [gRPC](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
 * [KryoNet](https://github.com/EsotericSoftware/kryonet) - Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo.
 * [MINA](https://mina.apache.org/) - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
@@ -635,8 +635,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *APIs that handle the persistence of objects.*
 
-* [Apache Cayenne](http://cayenne.apache.org/) - Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation.
-* [Ebean](http://ebean-orm.github.io/) - Provides simple and fast data access.
+* [Apache Cayenne](https://cayenne.apache.org/) - Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation.
+* [Ebean](https://ebean-orm.github.io/) - Provides simple and fast data access.
 * [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 * [Hibernate](http://hibernate.org/orm/) - Robust and widely used, with an active community.
 * [MyBatis](http://www.mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
@@ -657,12 +657,12 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools to help with PDF file creation.*
 
-* [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDFs from XSL-FO.
-* [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDFs.
+* [Apache FOP](https://xmlgraphics.apache.org/fop/) - Creates PDFs from XSL-FO.
+* [Apache PDFBox](https://pdfbox.apache.org/) - Toolbox for creating and manipulating PDFs.
 * [Dynamic Jasper](http://dynamicjasper.com/) - Abstraction layer to JasperReports.
 * [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
 * [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
-* [iText ![c]](http://itextpdf.com/) - Creates PDF files programmatically.
+* [iText ![c]](https://itextpdf.com/) - Creates PDF files programmatically.
 * [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
 
 ## Performance analysis
@@ -677,7 +677,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - a Java harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
 * [JProfiler ![c]](https://www.ej-technologies.com/products/jprofiler/overview.html) - Database profiling for JDBC, JPA and NoSQL, with JEE support.
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
-* [XRebel ![c]](http://zeroturnaround.com/software/xrebel/) - Real-time profiling for web applications, with an in-browser widget.
+* [XRebel ![c]](https://zeroturnaround.com/software/xrebel/) - Real-time profiling for web applications, with an in-browser widget.
 * [YourKit Java Profiler ![c]](https://www.yourkit.com/features/) - Profiler for any application running on the JVM.
 
 ## Platform
@@ -707,7 +707,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Microserver](https://github.com/aol/micro-server) — A convenient, extensible microservices plugin system for Spring & Spring Boot. With more than 30 plugins and growing, it supports both micro-monolith and pure microservices styles.
 * [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of an embedded HTTP server, GUI components and dependency injection.
 * [rest.li](https://github.com/linkedin/rest.li) - Framework for building robust, scalable RESTful architectures using typesafe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.
-* [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
+* [RESTEasy](https://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
 * [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBoss Netty HTTP stack that provides scaling and performance.
 * [Restlet Framework](https://github.com/restlet/restlet-framework-java/) - Pioneering framework with powerful routing and filtering capabilities, and a unified client and server API.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
@@ -730,19 +730,19 @@ A curated list of awesome Java frameworks, libraries and software.
 *Engines that index documents for search and analysis.*
 
 * [Apache Lucene](https://lucene.apache.org/) - High-performance, full-featured, cross-platform, text search engine library.
-* [Apache Solr](http://lucene.apache.org/solr/) - Enterprise search engine optimized for high-volume traffic.
+* [Apache Solr](https://lucene.apache.org/solr/) - Enterprise search engine optimized for high-volume traffic.
 * [Elasticsearch](https://www.elastic.co/) - Distributed, multitenant-capable, full-text search engine with a RESTful web interface and schema-free JSON documents.
 
 ## Security
 
 *Libraries that handle security, authentication, authorization or session management.*
 
-* [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
+* [Apache Shiro](https://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
 * [Bouncy Castle](https://www.bouncycastle.org/java.html) - All-purpose cryptographic library and JCA provider offering a wide range of functions, from basic helpers to PGP/SMIME operations.
 * [Cryptomator](https://cryptomator.org/) - Multiplatform, transparent, client-side encryption of files in the cloud.
 * [Hdiv](https://github.com/hdiv/hdiv) - Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.
 * [jjwt](https://github.com/jwtk/jjwt) - JSON web token for Java and Android.
-* [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.
+* [Keycloak](https://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.
 * [Keyczar](https://github.com/google/keyczar) - Easy-to-use, safe encryption framework with key versioning.
 * [Keywhiz](https://github.com/square/keywhiz) - System for distributing and managing secrets.
 * [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) - Advanced password strength estimation.
@@ -765,9 +765,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Servers specifically used to deploy applications.*
 
-* [Apache Tomcat](http://tomcat.apache.org/) - Robust, all-round server for Servlet and JSP.
-* [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE.
-* [Jetty](http://www.eclipse.org/jetty/) - Provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
+* [Apache Tomcat](https://tomcat.apache.org/) - Robust, all-round server for Servlet and JSP.
+* [Apache TomEE](https://tomee.apache.org/) - Tomcat plus Java EE.
+* [Jetty](https://www.eclipse.org/jetty/) - Provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
 * [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server.
 * [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM.
 * [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
@@ -776,7 +776,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that substitute expressions in a template.*
 
-* [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
+* [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
 * [Jtwig](http://jtwig.org/) - Modular, configurable and fully tested template engine.
 * [Jade4J](https://github.com/neuland/jade4j) - Implementation of jade.
 * [Pebble](http://www.mitchellbosecke.com/pebble/home) - Inspired by Twig and separates itself with it's inheritance feature and it's easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
@@ -786,14 +786,14 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that test from model to the view.*
 
-* [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
+* [Apache JMeter](https://jmeter.apache.org/) - Functional testing and performance measurements.
 * [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
-* [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
+* [AssertJ](https://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
 * [Beanmother](https://github.com/keepcosmos/beanmother) - Sets up beans from YAML fixtures.
 * [Burst](https://github.com/square/burst) - A unit testing library for varying test data.
-* [Citrus](http://citrusframework.org/) - Integration testing framework that focuses on both client- and server-side messaging.
+* [Citrus](https://citrusframework.org/) - Integration testing framework that focuses on both client- and server-side messaging.
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
 * [Cucumber](https://github.com/cucumber/cucumber-jvm) - Behavioural Driven Development (BDD) testing framework.
 * [Cukes-REST](https://github.com/ctco/cukes-rest) - A collection of Gherkin steps for REST-service testing using Cucumber.
@@ -829,7 +829,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries which provide general utility functions.*
 
-* [Apache Commons](http://commons.apache.org/) - Provides configuration, validation, collections, file uploading, XML processing and other general-purpose functions.
+* [Apache Commons](https://commons.apache.org/) - Provides configuration, validation, collections, file uploading, XML processing and other general-purpose functions.
 * [cactoos](http://www.cactoos.org) - Collection of object-oriented primitives.
 * [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others.
 * [Dex](https://github.com/PatMartin/Dex) - Java/JavaFX tool capable of powerful ETL and data visualization.
@@ -840,7 +840,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - Library that helps with constructing difficult regular expressions.
 * [JGit](https://eclipse.org/jgit/) - A lightweight, pure Java library implementing the Git version control system.
 * [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3-compatible object storage server.
-* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
+* [Protégé](https://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 * [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
 
 ## Version Managers
@@ -855,7 +855,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that analyze the content of websites.*
 
-* [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environments.
+* [Apache Nutch](https://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environments.
 * [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
 * [JSoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
 * [StormCrawler](http://stormcrawler.net/) - SDK for building low-latency and scalable web crawlers.
@@ -864,8 +864,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks that handle the communication between the layers of a web application.*
 
-* [Apache Tapestry](http://tapestry.apache.org/) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
-* [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry, with a stateful GUI.
+* [Apache Tapestry](https://tapestry.apache.org/) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
+* [Apache Wicket](https://wicket.apache.org/) - Component-based web application framework similar to Tapestry, with a stateful GUI.
 * [Blade](https://github.com/biezhi/blade) - Lightweight, modular framework that aims to be elegant and simple.
 * [Bootique](http://bootique.io/) - Minimally opinionated framework for runnable apps.
 * [Firefly](http://www.fireflysource.com/) - Asynchronous framework for rapid development of high-performance web application.
@@ -874,9 +874,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Ninja](http://www.ninjaframework.org/) - Full-stack web framework.
 * [Pippo](http://www.pippo.ro/) - Small, highly modularized, Sinatra-like framework.
 * [Play](https://www.playframework.com/) - Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala.
-* [PrimeFaces](http://primefaces.org/) - JSF framework with both free and commercial/support versions and frontend components.
+* [PrimeFaces](https://primefaces.org/) - JSF framework with both free and commercial/support versions and frontend components.
 * [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
-* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework that simplifies the development of new Spring applications.
+* [Spring Boot](https://projects.spring.io/spring-boot/) - Microframework that simplifies the development of new Spring applications.
 * [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client side.
 
 # Resources
@@ -899,8 +899,8 @@ A curated list of awesome Java frameworks, libraries and software.
 *Active discussions.*
 
 * [r/java](https://www.reddit.com/r/java) - Subreddit for the Java community.
-* [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
-* [VirtualJUG](http://virtualjug.com/) - Virtual Java User Group.
+* [stackoverflow](https://stackoverflow.com/questions/tagged/java) - Question/answer platform.
+* [VirtualJUG](https://virtualjug.com/) - Virtual Java User Group.
 
 ## Frontends
 
@@ -924,7 +924,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Java Off Heap](http://www.javaoffheap.com/)
 * [Marco Behler's Screencasts](https://www.marcobehler.com/series) - Screencasts about modern Java development.
-* [The Java Council](http://virtualjug.com/podcast/)
+* [The Java Council](https://virtualjug.com/podcast/)
 * [The Java Posse](http://www.javaposse.com/) - Discontinued as of 02/2015.
 
 ## Twitter
@@ -970,14 +970,14 @@ A curated list of awesome Java frameworks, libraries and software.
 *Sites to read.*
 
 * [Google Java Style](https://google.github.io/styleguide/javaguide.html)
-* [InfoQ](http://www.infoq.com/)
-* [Java Algorithms and Clients](http://algs4.cs.princeton.edu/code/)
-* [Java, SQL, and jOOQ](http://blog.jooq.org/)
+* [InfoQ](https://www.infoq.com/)
+* [Java Algorithms and Clients](https://algs4.cs.princeton.edu/code/)
+* [Java, SQL, and jOOQ](https://blog.jooq.org/)
 * [Java.net](https://community.oracle.com/community/java)
 * [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
 * [JavaWorld](http://www.javaworld.com/)
 * [JAXenter](https://jaxenter.com/)
-* [RebelLabs](http://zeroturnaround.com/rebellabs/)
+* [RebelLabs](https://zeroturnaround.com/rebellabs/)
 * [The Takipi Blog](http://blog.takipi.com/)
 * [TheServerSide.com](http://www.theserverside.com/)
 * [Vanilla Java](https://vanilla-java.github.io/)
