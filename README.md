@@ -583,6 +583,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
 * [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
 * [Failsafe Actuator](https://github.com/zalando-incubator/failsafe-actuator) - Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.
+* [BugSnag ![c]](https://www.bugsnag.com/) - Exception and error monitoring with a integration of several third party tools for a better workflow and a free hobbyist tier.
 * [Glowroot](https://glowroot.org/) - Open-source Java APM.
 * [Instrumental ![c]](https://instrumentalapp.com) - Real-time Java application performance monitoring. A commercial service with free development accounts.
 * [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
