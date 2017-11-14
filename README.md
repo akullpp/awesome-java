@@ -815,6 +815,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ### Frameworks
 
+*Provide a
+
 * [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
 * [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
@@ -835,12 +837,16 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ### Miscellaneous
 
+*Other stuff related to testing.*
+
 * [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports whether instances of a given class are immutable.
 * [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
 * [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 * [pojo-tester](http://www.pojo.pl/) - Automatically performs tests on basic POJO methods.
 
 ### Mocking
+
+*Tools which mock collaborators to help testing single, isolated units.*
 
 * [JMockit](http://jmockit.org/) - Integration testing, API mocking and faking, and code coverage.
 * [Mockito](https://github.com/mockito/mockito) - Mocking framework that lets you write tests with a clean and simple API.
