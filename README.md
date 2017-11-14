@@ -3,7 +3,6 @@
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
-    - [Ancients](#ancients)
     - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
@@ -77,27 +76,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Contributing](#contributing)
 
 - - -
-
-## Ancients
-
-*In existence since the beginning of time, and which people will continue using long after the hype has waned.*
-
-* [Apache Ant](https://ant.apache.org/) - Build process management with XML.
-* [Apache Hadoop](https://hadoop.apache.org/) - Storage and large-scale processing of data sets on clusters of commodity hardware.
-* [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
-* [Apache Velocity](https://velocity.apache.org/) - A template engine for HTML pages, emails or source code generation.
-* [FreeMarker](http://freemarker.org/) - General templating engine with no heavyweight or opinionated dependencies.
-* [GlassFish](https://javaee.github.io/glassfish/) - Application server and reference implementation for Java EE, sponsored by Oracle.
-* [GWT](http://www.gwtproject.org/) - Toolbox that includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
-* [HornetQ](https://hornetq.jboss.org/) - Clear, concise, modular and made for embedding.
-* [Java Modeling Language (JML)](http://www.eecs.ucf.edu/~leavens/JML/) - Behavioral interface specification language useful for specifying the behavior of code modules. It combines Eiffel's Design by Contract approach with the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
-* [JavaCC](https://javacc.org/) - Parser generator with syntactic lookahead.
-* [JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/) - Oracle's open-source implementation of the JSF standard, Mojarra.
-* [JavaServer Pages](https://javaee.github.io/javaee-jsp-api/) - Common templating for websites with custom tag libraries.
-* [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
-* [Quartz](https://github.com/quartz-scheduler/quartz) - Open-source job scheduler library with Apache 2.0 license.
-* [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
-* [Trove](http://trove.starlight-systems.com/) - High-performance primitive collections.
 
 ## Bean Mapping
 
@@ -827,7 +805,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Citrus](https://citrusframework.org/) - Integration testing framework that focuses on both client- and server-side messaging.
 * [Gatling](https://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [JUnit](http://junit.org/) - Common testing framework.
-* [TestNG](http://testng.org/) 💀 - Testing framework inspired by JUnit and NUnit, with different functionalities.
 * [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 * [Pact JVM](https://github.com/DiUS/pact-jvm/) - Consumer-driven contract testing.
 
