@@ -76,6 +76,8 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Websites](#websites)
 - [Contributing](#contributing)
 
+- - -
+
 ## Ancients
 
 *In existence since the beginning of time, and which people will continue using long after the hype has waned.*
