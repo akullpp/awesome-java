@@ -26,6 +26,10 @@ There are two required criteria for a pull request:
 
 2. If an entry does not meet conditions *(a)* to *(d)* there has to be an explanation either in the description or the pull request why it should be added to the list.
 
+3. If an entry doesn't fit any of the pre-existing specialised sections, it should go under Miscellaneous.
+
+4. If two or more entries in Miscellaneous are in the same domain, then they can be moved to a new specialised section.
+
 Self-promotion is frowned upon and viewed critically, but your suggestion will of course be approved if the criteria match.
 
 If your entry isn't accepted, please check the [Issues](https://github.com/akullpp/awesome-java/issues) for items marked with the "question" tag to see if it had been previously discussed. If nothing comes up, feel free to create a new issue, adding the "question" tag.
