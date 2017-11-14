@@ -815,7 +815,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ### Frameworks
 
-*Provide a
+*Provide environments to run tests for a specific use case.*
 
 * [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 * [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
