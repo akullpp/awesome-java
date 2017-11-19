@@ -533,7 +533,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [JPad](http://jpad.io/) - Snippet runner.
 * [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
-* [Maven Wrapper](https://github.com/takari/maven-wrapper) - Analogue of Gradle Wrapper for Maven, allows build projects without installing maven.
+* [Maven Wrapper](https://github.com/takari/maven-wrapper) - Analogue of Gradle Wrapper for Maven, allows building projects without installing maven.
 * [Membrane Service Proxy](https://github.com/membrane/service-proxy) - An open-source, reverse-proxy framework written in Java.
 * [Multi-OS Engine](https://software.intel.com/en-us/multi-os-engine) - An open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
@@ -895,8 +895,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Play](https://www.playframework.com/) - Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala.
 * [PrimeFaces](https://primefaces.org/) - JSF framework with both free and commercial/support versions and frontend components.
 * [Ratpack](https://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
-* [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is build around the concepts of True Object-Oriented Programming and immutablity.
-* [Vaadin](https://vaadin.com/home) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client side.
+* [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
+* [Vaadin](https://vaadin.com/home) - Event-driven framework built on top of GWT. Uses server-side architecture with Ajax on the client side.
 
 # Resources
 
