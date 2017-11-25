@@ -606,7 +606,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [MINA](https://mina.apache.org/) - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
 * [Netty](https://netty.io/) - Framework for building high-performance network applications.
 * [Nifty](https://github.com/facebook/nifty) - Implementation of Thrift clients and servers on Netty.
-* [sshj](https://github.com/hierynomus/sshj) - Ssh, scp and sftp for java.
+* [sshj](https://github.com/hierynomus/sshj) - Programatically use SSH, SCP or SFTP.
 * [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly.
 * [urnlib](https://github.com/slub/urnlib) - Represent, parse and encode URNs, as in RFC 2141.
 
