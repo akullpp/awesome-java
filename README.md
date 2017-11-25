@@ -599,7 +599,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries for building network servers.*
 
 * [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
-* [Dubbo](https://github.com/alibaba/dubbo) - High-performance, java based, open source RPC framework.
+* [Dubbo](https://github.com/alibaba/dubbo) - High-performance RPC framework.
 * [Finagle](https://github.com/twitter/finagle) - Extensible RPC system for constructing high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol-agnostic to simplify implementation of new protocols.
 * [Grizzly](https://javaee.github.io/grizzly) - NIO framework. Used as a network layer in Glassfish.
 * [gRPC](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
