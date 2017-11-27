@@ -299,6 +299,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Orbit](http://www.orbit.cloud/) - Virtual actors; adds another level of abstraction to traditional actors.
 * [Quasar](https://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 * [resilience4j](https://github.com/resilience4j/resilience4j) - Functional fault tolerance library.
+* [ScaleCube](https://github.com/scalecube/scalecube) - Embeddable Cluster-Membership library based on SWIM and gossip protocol.
 * [Zuul](https://github.com/Netflix/zuul) - A gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 
 ## Distributed Transactions
