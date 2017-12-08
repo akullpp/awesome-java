@@ -128,12 +128,12 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
 * [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
-* [Spotbugs](https://github.com/spotbugs/spotbugs) - Static analysis of bytecode to find potential bugs.
 * [Infer](https://github.com/facebook/infer) - Modern static analysis tool for verifying the correctness of code.
 * [jQAssistant](https://jqassistant.org/) - Static code analysis with Neo4J-based query language.
 * [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 * [Sourcetrail ![c]](https://www.sourcetrail.com) - Visual source code navigator.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
+* [Spotbugs](https://github.com/spotbugs/spotbugs) - Static analysis of bytecode to find potential bugs.
 
 ## Code Coverage
 
@@ -361,10 +361,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks that support the development of games.*
 
+* [FXGL](https://almasb.github.io/FXGL/) - JavaFX Game Development Framework.
 * [jMonkeyEngine](https://jmonkeyengine.org/) - Game engine for modern 3D development.
 * [libGDX](https://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
 * [LWJGL](https://www.lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
-* [FXGL](https://almasb.github.io/FXGL/) - JavaFX Game Development Framework.
 
 ## Geospatial
 
@@ -537,9 +537,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 * [Maven Wrapper](https://github.com/takari/maven-wrapper) - Analogue of Gradle Wrapper for Maven, allows building projects without installing maven.
 * [Membrane Service Proxy](https://github.com/membrane/service-proxy) - An open-source, reverse-proxy framework written in Java.
-* [Multi-OS Engine](https://software.intel.com/en-us/multi-os-engine) - An open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.
 * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Detect uses of legacy Java APIs.
+* [Multi-OS Engine](https://software.intel.com/en-us/multi-os-engine) - An open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.
 * [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 * [Polyglot for Maven](https://github.com/takari/polyglot-maven/) - Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML.
 * [Smooks](https://github.com/smooks/smooks) - Extensible framework for building applications that process data which means bindings, transformations, message processing and enrichment.
@@ -562,8 +562,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
 * [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
+* [BugSnag ![c]](https://www.bugsnag.com/) - Exception and error monitoring with an integration of several third party tools for a better workflow and a free hobbyist tier.
 * [Failsafe Actuator](https://github.com/zalando-incubator/failsafe-actuator) - Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.
-* [BugSnag ![c]](https://www.bugsnag.com/) - Exception and error monitoring with a integration of several third party tools for a better workflow and a free hobbyist tier.
 * [Glowroot](https://glowroot.org/) - Open-source Java APM.
 * [inspectIT](http://www.inspectit.rocks) - Captures detailed run-time information via hooks that can be changed on the fly. It supports tracing over multiple systems via the OpenTracing API and can correlate the data with end user monitoring.
 * [Instrumental ![c]](https://instrumentalapp.com) - Real-time Java application performance monitoring. A commercial service with free development accounts.
@@ -761,9 +761,9 @@ A curated list of awesome Java frameworks, libraries and software.
 *Tools that substitute expressions in a template.*
 
 * [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
+* [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
 * [Jtwig](http://jtwig.org/) - Modular, configurable and fully tested template engine.
-* [Jade4J](https://github.com/neuland/jade4j) - Implementation of jade.
-* [Pebble](http://www.mitchellbosecke.com/pebble/home) - Inspired by Twig and separates itself with it's inheritance feature and it's easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
+* [Pebble](http://www.mitchellbosecke.com/pebble/home) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files.
 
 ## Testing
@@ -777,7 +777,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
 * [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
 * [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
-* [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) - Native bindings for Hoverfly a proxy which allows you to simulate HTTP services.
+* [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) - Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.
 * [REST Assured](https://github.com/jayway/rest-assured) - DSL for easy testing of REST/HTTP services.
 
 ### BDD
@@ -810,8 +810,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Citrus](https://citrusframework.org/) - Integration testing framework that focuses on both client- and server-side messaging.
 * [Gatling](https://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
 * [JUnit](http://junit.org/) - Common testing framework.
-* [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 * [Pact JVM](https://github.com/DiUS/pact-jvm/) - Consumer-driven contract testing.
+* [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 
 ### Matchers
 
