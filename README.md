@@ -549,6 +549,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Togglz](https://www.togglz.org/) - Implementation of the Feature Toggles pattern.
 * [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 * [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Processes XML by using annotations or XPath within code.
+* [OctoLinker](https://github.com/OctoLinker/browser-extension) - Browser extension which allows to navigate through code on GitHub more efficiently.
 
 ## Microservice
 
