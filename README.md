@@ -211,6 +211,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Apache Phoenix](https://phoenix.apache.org/) - High-performance relational database layer over HBase for low-latency applications.
 * [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) - Efficient, in-memory (opt. persisted to disk), off-heap key-value store.
 * [eXist](https://github.com/eXist-db/exist) - A NoSQL document database and application platform.
+* [Firebase Realtime Database](https://firebase.google.com/docs/database/) - Store and sync data with NoSQL cloud database.
 * [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
 * [Flyway](https://flywaydb.org/) - Simple database migration tool.
 * [H2](https://h2database.com/) - Small SQL database notable for its in-memory functionality.
@@ -234,7 +235,6 @@ A curated list of awesome Java frameworks, libraries and software.
 * [sql2o](https://sql2o.org/) - Thin JDBC wrapper that simplifies database access and provides simple mapping of ResultSets to POJOs.
 * [Vibur DBCP](https://www.vibur.org/) - JDBC connection pool library with advanced performance monitoring capabilities.
 * [Xodus](https://jetbrains.github.io/xodus/) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
-* [Firebase Realtime Database](https://firebase.google.com/docs/database/) - Store and sync data with NoSQL cloud database.
 
 
 
