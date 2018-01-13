@@ -898,6 +898,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Bootique](http://bootique.io/) - Minimally opinionated framework for runnable apps.
 * [Firefly](http://www.fireflysource.com/) - Asynchronous framework for rapid development of high-performance web application.
 * [Grails](https://grails.org/) - Groovy framework that provides a highly productive environment by favoring convention over configuration, no XML and support for mixins.
+* [Javalin](https://javalin.io) - Web framework primarily for creating REST APIs
 * [Jooby](http://jooby.org) - Scalable, fast and modular micro-framework that offers multiple programming models.
 * [Ninja](http://www.ninjaframework.org/) - Full-stack web framework.
 * [Pippo](http://www.pippo.ro/) - Small, highly modularized, Sinatra-like framework.
