@@ -100,7 +100,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries to manipulate bytecode programmatically.*
 
-* [ASM](https://asm.ow2.org/) - All-purpose, low-level bytecode manipulation and analysis.
+* [ASM](http://asm.ow2.org/) - All-purpose, low-level bytecode manipulation and analysis.
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
 * [Byteman](https://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting.
 * [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
