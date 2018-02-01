@@ -173,6 +173,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Frameworks that help to create parsers, interpreters or compilers.*
 
 * [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
+* [JavaCC](https://javacc.org) - Java parser generator that generates top-down (recursive descent) parsers. Allows lexical state switching and permits extended BNF specifications
 * [JFlex](http://jflex.de/) - A lexical analyzer generator.
 
 ## Configuration
