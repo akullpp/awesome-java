@@ -54,6 +54,7 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Platform](#platform)
     - [Reactive libraries](#reactive-libraries)
     - [REST Frameworks](#rest-frameworks)
+    - [Resilience](#resilience)
     - [Science](#science)
     - [Search](#search)
     - [Security](#security)
@@ -294,12 +295,14 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Atomix](http://atomix.io/atomix/) - Fault-tolerant distributed coordination framework.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
+* [Circuit Breaker](http://www.plummb.com) - Incorporate Circuit breaker with few lines of code change.
 * [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Circuit breaker design pattern for Dropwizard.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 * [Hazelcast ![c]](https://hazelcast.org/) - Highly scalable in-memory datagrid with a free open-source version.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and cluster creation.
 * [Orbit](http://www.orbit.cloud/) - Virtual actors; adds another level of abstraction to traditional actors.
+* [Plummb](http://www.plummb.com) - Resilience as a Service to make the application resilient and robust.
 * [Quasar](https://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 * [resilience4j](https://github.com/resilience4j/resilience4j) - Functional fault tolerance library.
 * [ScaleCube](https://github.com/scalecube/scalecube) - Embeddable Cluster-Membership library based on SWIM and gossip protocol.
@@ -486,6 +489,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Logback](https://logback.qos.ch/) - Robust logging library with interesting configuration options via Groovy.
 * [Logbook](https://github.com/zalando/logbook) - Extensible, open-source library for HTTP request and response logging.
 * [Logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
+* [Method Logging](http://www.plummb.com) - Emit information about expensive and pending methods. 
 * [SLF4J](https://www.slf4j.org/) - Abstraction layer/simple logging facade.
 * [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
 * [Tracer](https://github.com/zalando/tracer) - Call tracing and log correlation in distributed systems.
@@ -701,6 +705,12 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Spark](http://sparkjava.com/) - Sinatra inspired framework.
 * [Crnk](http://www.crnk.io/) - Implementation of the JSON API specification to build resource-oriented REST endpoints with sorting, filtering, paging, linking, object graphs, type-safety, bulk updates, integrations and more.
 
+## Resilience
+
+*Frameworks/Services specifically for Resilience.*
+
+* [Plummb](http://www.plummb.com) - Resilience as a Service to make the application resilient and robust.
+
 ## Science
 
 *Libraries for scientific computing, analysis and visualization.*
@@ -738,6 +748,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
 * [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 * [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
+* [Plummb](http://www.plummb.com) - Mask/morph sensitive information exposed to browser
 * [Vault](https://www.vaultproject.io/) - Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets. It handles leasing, key revocation, key rolling, and auditing. Through a unified API, users can access an encrypted Key/Value store and network encryption-as-a-service, or generate AWS IAM/STS credentials, SQL/NoSQL databases, X.509 certificates, SSH credentials, and more.
 
 ## Serialization
