@@ -672,10 +672,70 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Frameworks that are suites of multiple libraries encompassing several categories.*
 
+### Apache Commons
+
+[Pool](http://commons.apache.org/proper/commons-pool/) - Generic object pooling component.
+[BCEL](http://commons.apache.org/proper/commons-bcel/) - Byte Code Engineering Library - analyze, create, and manipulate Java class files.
+[Codec](http://commons.apache.org/proper/commons-codec/) - General encoding/decoding algorithms (for example phonetic, base64, URL).
+[Compress](http://commons.apache.org/proper/commons-compress/) - Defines an API for working with tar, zip and bzip2 files.
+[IO](http://commons.apache.org/proper/commons-io/) - Collection of I/O utilities.
+[Configuration](http://commons.apache.org/proper/commons-configuration/) - Reading of configuration/preferences files in various formats.
+[VFS](http://commons.apache.org/proper/commons-vfs/) - Virtual File System component for treating files, FTP, SMB, ZIP and such like as a single logical file system.
+[Jelly](http://commons.apache.org/proper/commons-jelly/) - XML based scripting and processing engine.
+[CSV](http://commons.apache.org/proper/commons-csv/) - Component for reading and writing comma separated value files.
+[JCS](http://commons.apache.org/proper/commons-jcs/) - Java Caching System.
+[Email](http://commons.apache.org/proper/commons-email/) - Library for sending e-mail from Java.
+[DbUtils](http://commons.apache.org/proper/commons-dbutils/) - JDBC helper library.
+[FileUpload](http://commons.apache.org/proper/commons-fileupload/) - File upload capability for your servlets and web applications.
+[Lang](http://commons.apache.org/proper/commons-lang/) - Provides extra functionality for classes in java.lang.
+[Jexl](http://commons.apache.org/proper/commons-jexl/) - Expression language which extends the Expression Language of the JSTL.
+[CLI](http://commons.apache.org/proper/commons-cli/) - Command Line arguments parser.
+[Validator](http://commons.apache.org/proper/commons-validator/) - Framework to define validators and validation rules in an xml file.
+[Net](http://commons.apache.org/proper/commons-net/) - Collection of network utilities and protocol implementations.
+[RNG](https://commons.apache.org/proper/commons-rng/) - Commons Rng provides implementations of pseudo-random numbers generators.
+[RDF](https://commons.apache.org/proper/commons-rdf/) - Common implementation of RDF 1.1 that could be implemented by systems on the JVM.
+[Weaver](http://commons.apache.org/proper/commons-weaver/) - Provides an easy way to enhance (weave) compiled bytecode.
+[BeanUtils](http://commons.apache.org/proper/commons-beanutils/) - Easy-to-use wrappers around the Java reflection and introspection APIs.
+[Collections](http://commons.apache.org/proper/commons-collections/) - Extends or augments the Java Collections Framework.
+[DBCP](http://commons.apache.org/proper/commons-dbcp/) - Database connection pooling services.
+[Math](http://commons.apache.org/proper/commons-math/) - Lightweight, self-contained mathematics and statistics components.
+[Exec](http://commons.apache.org/proper/commons-exec/) - API for dealing with external process execution and environment management in Java.
+[Logging](https://en.wikipedia.org/wiki/Apache_Commons_Logging) Wrapper around a variety of logging API implementations.
+[OGNL](http://commons.apache.org/proper/commons-ognl/) - An Object-Graph Navigation Language.
+[JCI](http://commons.apache.org/proper/commons-jci/) - Java Compiler Interface.
+[Daemon](http://commons.apache.org/proper/commons-daemon/) - Alternative invocation mechanism for unix-daemon-like java code.
+[Functor](http://commons.apache.org/proper/commons-functor/) - A functor is a function that can be manipulated as an object, or an object representing a single, generic function.
+[Digester](http://commons.apache.org/proper/commons-digester/) - XML-to-Java-object mapping utility.
+[BSF](http://commons.apache.org/proper/commons-bsf/) - Bean Scripting Framework - interface to scripting languages, including JSR-223.
+[Imaging](http://commons.apache.org/proper/commons-imaging/) - A pure-Java image library.
+[SCXML](http://commons.apache.org/proper/commons-scxml/) - An implementation of the State Chart XML specification aimed at creating and maintaining a Java SCXML engine.
+[JXPath](http://commons.apache.org/proper/commons-jxpath/) - Utilities for manipulating Java Beans using the XPath syntax.
+[Chain](http://commons.apache.org/proper/commons-chain/) - Chain of Responsibility pattern implementation.
+[Proxy](http://commons.apache.org/proper/commons-proxy/) - Library for creating dynamic proxies.
+[BeanUtils2](http://commons.apache.org/sandbox/commons-beanutils2/) - Redesign of Commons BeanUtils.
+[ClassScan](http://commons.apache.org/sandbox/commons-classscan/) - Find Class interfaces, methods, fields, and annotations without loading.
+[CLI2](http://commons.apache.org/sandbox/commons-cli2) Redesign of Commons CLI.
+[Convert](http://commons.apache.org/sandbox/commons-convert/) - Commons-Convert aims to provide a single library dedicated to the task of converting an object of one type to another.
+[Finder](http://commons.apache.org/sandbox/commons-finder/) - Java library inspired by the UNIX find command.
+[Flatfile](http://commons.apache.org/sandbox/commons-flatfile/) - Java library for working with flat data structures.
+[Graph](http://commons.apache.org/sandbox/commons-graph/) - A general purpose Graph APIs and algorithms.
+[I18n](http://commons.apache.org/sandbox/commons-i18n/) - Adds the feature of localized message bundles that consist of one or many localized texts that belong together.
+[Id](http://commons.apache.org/sandbox/commons-id/) - Id is a component used to generate identifiers.
+[Javaflow](http://commons.apache.org/sandbox/commons-javaflow/) - Continuation implementation to capture the state of the application.
+[JNet](http://commons.apache.org/sandbox/commons-jnet/) - JNet allows to use dynamically register url stream handlers through the java.net API.
+[Monitoring](http://commons.apache.org/sandbox/commons-monitoring/) - Monitoring aims to provide a simple but extensible monitoring solution for Java applications.
+[Nabla](http://commons.apache.org/sandbox/commons-nabla/) - Nabla provides automatic differentiation classes that can generate derivative of any function implemented in the Java language.
+[OpenPGP](http://commons.apache.org/sandbox/commons-openpgp/) - Interface to signing and verifying data using OpenPGP.
+[Performance](http://commons.apache.org/sandbox/commons-performance/) - A small framework for microbenchmark clients, with implementations for Commons DBCP and Pool.
+[Pipeline](http://commons.apache.org/sandbox/commons-pipeline/) - Provides a set of pipeline utilities designed around work queues that run in parallel to sequentially process data objects.
+
+### Other
+
 * [CUBA Platform](https://cuba-platform.com) - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin.
 * [Light-Java](https://github.com/networknt/light-java) - A fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2).
 * [Orienteer](https://github.com/OrienteerBAP/Orienteer) - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
 * [Spring](https://spring.io/projects) - Provides many packages for dependency injection, aspect-oriented programming, security, etc.
+
 
 ## Reactive libraries
 
@@ -858,7 +918,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries which provide general utility functions.*
 
-* [Apache Commons](https://commons.apache.org/) - Provides configuration, validation, collections, file uploading, XML processing and other general-purpose functions.
 * [cactoos](http://www.cactoos.org) - Collection of object-oriented primitives.
 * [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others.
 * [Dex](https://github.com/PatMartin/Dex) - Java/JavaFX tool capable of powerful ETL and data visualization.
