@@ -923,6 +923,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
 * [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 * [Useful Java Links](https://github.com/Vedenin/useful-java-links)
+* [Hackr.io's Curated Java Resources](https://hackr.io/tutorials/learn-java)
 
 ## Communities
 
