@@ -295,7 +295,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
 * [Copycat](http://atomix.io/copycat/) - Fault-tolerant state machine replication framework.
 * [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Circuit breaker design pattern for Dropwizard.
-* [Exception Handling](http://www.plummb.com) - Exception Handling in a highly-configurable Data Driven approach.
+* [Exception Handling ![c]](http://www.plummb.com) - Exception Handling in a highly-configurable Data Driven approach.
 * [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 * [Hazelcast ![c]](https://hazelcast.org/) - Highly scalable in-memory datagrid with a free open-source version.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
