@@ -429,6 +429,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Eclipse](https://www.eclipse.org/) - Established open-source project with support for lots of plugins and languages.
 * [IntelliJ IDEA ![c]](https://www.jetbrains.com/idea/) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 * [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features, from database access to HTML5.
+* [Visual Studio Code](https://code.visualstudio.com/docs/languages/java) - The Java support in VS Code is provided through extensions and optimized for lightweight Java projects with a simple, modern workflow. The [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) provides project support, code completion, linting, debugging, testing, code formatting, snippets, and more.
 
 ## Imagery
 
