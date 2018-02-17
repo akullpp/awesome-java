@@ -195,6 +195,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
 * [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
 * [OptaPlanner](https://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
+* [Drools](https://github.com/kiegroup/drools) - Drools Expert is the rule engine and Drools Fusion does complex event processing (CEP).
 
 ## CSV
 
