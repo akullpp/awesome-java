@@ -136,7 +136,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Sourcetrail ![c]](https://www.sourcetrail.com) - Visual source code navigator.
 * [Spoon](https://github.com/INRIA/spoon/) - Library for analyzing and transforming Java source code.
 * [Spotbugs](https://github.com/spotbugs/spotbugs) - Static analysis of bytecode to find potential bugs.
-* [Parasoft Jtest](https://www.parasoft.com/products/jtest) - Static analysis and static application security testing. Integrates with JUnit (unit testing) and Parasoft DTP (quality dashboard).
+* [Parasoft Jtest ![c]](https://www.parasoft.com/products/jtest) - Static analysis and static application security testing. Integrates with JUnit (unit testing) and Parasoft DTP (quality dashboard).
 
 ## Code Coverage
 
