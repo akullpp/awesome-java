@@ -1,4 +1,4 @@
-# Awesome Java [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+﻿# Awesome Java [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome Java frameworks, libraries and software.
 
@@ -1054,6 +1054,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
 * [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
 * [Venkat Subramaniam](https://twitter.com/venkat_s) - Author, University of Houston professor, MicroSoft MVP award recipient, JavaOne Rock Star, Java Champion.
+* [Yegor Bugayenko](https://twitter.com/yegor256) - Author, blogger, speaker, founder and lead architect of Cactoos, Takes and Rultor.
 
 ## Websites
 
