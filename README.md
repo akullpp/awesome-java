@@ -300,7 +300,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
 * [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and cluster creation.
 * [Orbit](http://www.orbit.cloud/) - Virtual actors; adds another level of abstraction to traditional actors.
-* [Plummb](http://www.plummb.com) - Resilience as a Service to make Java application resilient and robust to 
+* [Plummb](http://www.plummb.com) - Resilience as a Service to make Java application resilient and robust, specially in micro-services world.
 * [Quasar](https://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 * [resilience4j](https://github.com/resilience4j/resilience4j) - Functional fault tolerance library.
 * [ScaleCube](https://github.com/scalecube/scalecube) - Embeddable Cluster-Membership library based on SWIM and gossip protocol.
