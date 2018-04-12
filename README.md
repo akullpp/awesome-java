@@ -3,6 +3,7 @@
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
+    - [ASCII/Console](#asciiconsole)
     - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
@@ -76,6 +77,19 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Contributing](#contributing)
 
 - - -
+
+## ASCII/Console
+
+*Tools that ease console IO operations*
+
+* [ASCII Art](https://github.com/alcibiade/asciiart) - The tool for creating ASCII reports, multi-column tables, graphs. Supports for rendering images as strings.
+* [ASCII Table](https://github.com/vdmeer/asciitable) - A simple tool to format tables with rich format options.
+* [AsciidoctorJ](https://github.com/asciidoctor/asciidoctorj) - Java bindings for Asciidoctor, tool that can convert AsciiDoc content to HTML5, DocBook 5 or 4.5, EPUB3, PDF and other formats.
+* [Console UI](https://github.com/awegmann/consoleui) - Tiny java library that provides simple UI elements like checkboxes, lists, etc.
+* [Jansi](https://github.com/fusesource/jansi) - a small library that allows you to use ANSI escape codes to format your console output which works even on windows.
+* [Java ASCII Render](https://github.com/indvd00m/java-ascii-render) - A library that supports graphical primitives/elements, layers, context, canvas.
+* [JLine](https://github.com/jline/jline3) - A library for handling console input with features from modern shells like completion, history, etc.
+* [Text-IO](https://github.com/beryx/text-io) - A library for creating Java console applications.
 
 ## Bean Mapping
 
