@@ -94,6 +94,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [Apache Maven](https://maven.apache.org/) - Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain.
 * [Bazel](https://bazel.io) - Tool from Google that builds code quickly and reliably.
+* [Buck](https://github.com/facebook/buck) - Encourages the creation of small, reusable modules consisting of code and resources.
 * [Gradle](https://gradle.org/) - Incremental builds programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
 
 ## Bytecode Manipulation
