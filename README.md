@@ -572,6 +572,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [AppDynamics ![c]](https://www.appdynamics.com/) - Performance monitor.
 * [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
 * [BugSnag ![c]](https://www.bugsnag.com/) - Exception and error monitoring with an integration of several third party tools for a better workflow and a free hobbyist tier.
+* [LeakCanary](https://github.com/square/leakcanary) - Memory leak detection.
 * [Failsafe Actuator](https://github.com/zalando-incubator/failsafe-actuator) - Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.
 * [Glowroot](https://glowroot.org/) - Open-source Java APM.
 * [inspectIT](http://www.inspectit.rocks) - Captures detailed run-time information via hooks that can be changed on the fly. It supports tracing over multiple systems via the OpenTracing API and can correlate the data with end user monitoring.
