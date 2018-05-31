@@ -102,6 +102,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 * [ASM](http://asm.ow2.org/) - All-purpose, low-level bytecode manipulation and analysis.
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
+* [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) - Java 8 Jar & Android APK reverse engineering suite.
 * [Byteman](https://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting.
 * [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
 * [Javassist](https://jboss-javassist.github.io/javassist/) - Tries to simplify bytecode editing.
