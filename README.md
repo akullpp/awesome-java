@@ -445,6 +445,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries for serializing and deserializing JSON to and from Java objects.*
 
+* [DSL-JSON](https://github.com/ngs-doo/dsl-json) - JSON library with advanced compile time databinding.
 * [Genson](https://owlike.github.io/genson/) - Powerful and easy-to-use Java-to-JSON conversion library.
 * [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
 * [HikariJSON](https://github.com/brettwooldridge/HikariJSON) - High-performance JSON parser, 2x faster than Jackson.
