@@ -747,6 +747,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Akka](https://akka.io) - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.
 * [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provides a standard for asynchronous stream processing with non-blocking backpressure.
 * [Reactor](https://projectreactor.io/) - Library for building reactive fast-data applications.
+* [RxJava](https://github.com/ReactiveX/RxJava) - Allows for composing asynchronous and event-based programs using observable sequences.
 * [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
 
 ## REST Frameworks
