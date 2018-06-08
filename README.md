@@ -415,7 +415,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 - [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 - [OkHttp](https://square.github.io/okhttp) - HTTP+SPDY client.
-- [Play WS](https://github.com/playframework/play-ws) - Typesafe HTTP Client with Reactive Streams & HTTP Cache, built on async-http-client
+- [Play WS](https://github.com/playframework/play-ws) - Typesafe HTTP Client with Reactive Streams & HTTP Cache, built on async-http-client.
 - [restQL-core](https://github.com/B2W-BIT/restQL-core) - Microservice query language that fetches information from multiple services.
 - [Retrofit](https://square.github.io/retrofit) - Typesafe REST client.
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in cloud.
