@@ -27,6 +27,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Distributed Transactions](#distributed-transactions)
   - [Distribution](#distribution)
   - [Document Processing](#document-processing)
+  - [Fakers](#fakers)
   - [Formal Verification](#formal-verification)
   - [Functional Programming](#functional-programming)
   - [Game Development](#game-development)
@@ -339,6 +340,16 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache POI](https://poi.apache.org) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
 - [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
+
+### Fakers
+
+*Libraries that assist with fakeing data.*
+
+- [DataFactory](https://github.com/andygibson/datafactory) - Java library for generating test data.
+- [faker](https://github.com/blocoio/faker) - A proguard friendly faker library, no locale support.
+- [java-faker](https://github.com/DiUS/java-faker) - Port of Perl's [Data::Faker](https://metacpan.org/pod/Data::Faker) library / Ruby's [faker](https://github.com/stympy/faker) gem supports Locales.
+- [jfairy](https://github.com/Devskiller/jfairy) - Fake data generator you can try [online](https://devskiller.com/datafairy/).
+- [jpamock](https://github.com/celiovasconcelos/jpamock) - Hibernate intergrated faker.
 
 ### Formal Verification
 
