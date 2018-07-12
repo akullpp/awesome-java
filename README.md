@@ -914,7 +914,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools which mock collaborators to help testing single, isolated units.*
 
-- [JMockit](http://jmockit.org) - Integration testing, API mocking and faking, and code coverage.
+- [JMockit](http://jmockit.github.io) - Integration testing, API mocking and faking, and code coverage.
 - [Mockito](https://github.com/mockito/mockito) - Mocking framework that lets you write tests with a clean and simple API.
 - [MockServer](https://www.mock-server.com) - Allows mocking of systems integrated with HTTPS.
 - [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks.
