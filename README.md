@@ -234,7 +234,6 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [Apache Spark](http://spark.apache.org/) - Open-source data analytics cluster computing framework.
 * [h2o](http://0xdata.github.io/h2o/) - Analytics engine for statistics over big data.
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
-* [Deep Learning 4j](http://deeplearning4j.org/) - A commercial-grade deep learning library written in Java. Set up your own (distributed) neural network to solve a machine learning problem.
 
 ## Messaging
 
