@@ -813,6 +813,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [OACC](http://oaccframework.org) - Provides permission-based authorization services.
 - [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 - [PicketLink](http://picketlink.org) - Umbrella project for security and identity management.
+- [Themis](https://github.com/cossacklabs/themis) - Multi-platform high-level cryptographic library provides easy-to-use encryption for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications.
 - [Vault](https://www.vaultproject.io) - Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets. It handles leasing, key revocation, key rolling, and auditing. Through a unified API, users can access an encrypted Key/Value store and network encryption-as-a-service, or generate AWS IAM/STS credentials, SQL/NoSQL databases, X.509 certificates, SSH credentials, and more.
 
 ### Serialization
