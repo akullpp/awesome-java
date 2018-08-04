@@ -296,9 +296,8 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache Geode](https://geode.apache.org) - In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
 - [Apache Storm](https://storm.apache.org) - Realtime computation system.
 - [Apache ZooKeeper](https://zookeeper.apache.org) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
-- [Atomix](http://atomix.io/atomix) - Fault-tolerant distributed coordination framework.
+- [Atomix](http://atomix.io/) - Fault-tolerant distributed coordination framework.
 - [Axon Framework](http://www.axonframework.org) - Framework for creating CQRS applications.
-- [Copycat](http://atomix.io/copycat) - Fault-tolerant state machine replication framework.
 - [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Circuit breaker design pattern for Dropwizard.
 - [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 - [Hazelcast ![c]](https://hazelcast.org) - Highly scalable in-memory datagrid with a free open-source version.
