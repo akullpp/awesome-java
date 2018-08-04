@@ -806,6 +806,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Cryptomator](https://cryptomator.org) - Multiplatform, transparent, client-side encryption of files in the cloud.
 - [Hdiv](https://github.com/hdiv/hdiv) - Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.
 - [jjwt](https://github.com/jwtk/jjwt) - JSON web token for Java and Android.
+- [Jwks RSA](https://github.com/auth0/jwks-rsa-java) - JSON Web Key Set parser.
 - [Keycloak](https://keycloak.jboss.org) - Integrated SSO and IDM for browser apps and RESTful web services.
 - [Keyczar](https://github.com/google/keyczar) - Easy-to-use, safe encryption framework with key versioning.
 - [Keywhiz](https://github.com/square/keywhiz) - System for distributing and managing secrets.
