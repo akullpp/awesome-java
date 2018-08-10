@@ -54,6 +54,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [PDF](#pdf)
   - [Performance analysis](#performance-analysis)
   - [Platform](#platform)
+  - [Processes](#processes)
   - [Reactive libraries](#reactive-libraries)
   - [REST Frameworks](#rest-frameworks)
   - [Science](#science)
@@ -749,6 +750,14 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Light-Java](https://github.com/networknt/light-java) - A fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2).
 - [Orienteer](https://github.com/OrienteerBAP/Orienteer) - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
 - [Spring](https://spring.io/projects) - Provides many packages for dependency injection, aspect-oriented programming, security, etc.
+
+### Processes
+
+*Libraries that help the management of operating system processes.*
+
+- [ch.vorburger.exec](https://github.com/vorburger/ch.vorburger.exec) - Convenient API around Apache Commons Exec.
+- [zt-exec](https://github.com/zeroturnaround/zt-exec) - Provides a unified API to Apache Commons Exec and ProcessBuilder.
+- [zt-process-killer](https://github.com/zeroturnaround/zt-process-killer) - Stops processes started from Java or the system processes via PID.
 
 ### Reactive libraries
 
