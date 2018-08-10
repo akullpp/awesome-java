@@ -54,6 +54,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [PDF](#pdf)
   - [Performance analysis](#performance-analysis)
   - [Platform](#platform)
+  - [Processes](#processes)
   - [Reactive libraries](#reactive-libraries)
   - [REST Frameworks](#rest-frameworks)
   - [Science](#science)
@@ -750,6 +751,14 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Orienteer](https://github.com/OrienteerBAP/Orienteer) - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
 - [Spring](https://spring.io/projects) - Provides many packages for dependency injection, aspect-oriented programming, security, etc.
 
+### Processes
+
+*Libraries that help the management of operating system processes.*
+
+- [ch.vorburger.exec](https://github.com/vorburger/ch.vorburger.exec) - Convenient API around Apache Commons Exec.
+- [zt-exec](https://github.com/zeroturnaround/zt-exec) - Provides a unified API to Apache Commons Exec and ProcessBuilder.
+- [zt-process-killer](https://github.com/zeroturnaround/zt-process-killer) - Stops processes started from Java or the system processes via PID.
+
 ### Reactive libraries
 
 *Libraries for developing reactive applications.*
@@ -940,8 +949,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others.
 - [Dex](https://github.com/PatMartin/Dex) - Java/JavaFX tool capable of powerful ETL and data visualization.
 - [Embulk](http://www.embulk.org) - Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
-- [Exec by Vorburger.ch](https://github.com/vorburger/ch.vorburger.exec) - launch external processes, with significant improvements over Apache Commons Exec.
-- [Exec by ZT](https://github.com/zeroturnaround/zt-exec) - another external process utility
 - [fswatch](https://github.com/vorburger/ch.vorburger.fswatch) - Micro library to watch for directory file system changes, simplifying java.nio.file.WatchService
 - [Gephi](https://github.com/gephi/gephi) - Cross-platform for visualizing and manipulating large graph networks.
 - [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and more.
