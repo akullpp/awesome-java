@@ -271,6 +271,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that help to realize the [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
 - [Apache DeltaSpike](https://deltaspike.apache.org) - CDI extension framework.
+- [asciitable](https://github.com/vdmeer/asciitable) - Library to draw tables in ASCII manner in console output
 - [Dagger2](https://google.github.io/dagger) - Compile-time injection framework without reflection.
 - [Feather](https://github.com/zsoltherpai/feather) - Ultra-lightweight, JSR-330-compliant dependency injection library.
 - [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
