@@ -795,6 +795,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [DataMelt](http://jwork.org/dmelt) - Environment for scientific computation, data analysis and data visualization.
 - [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) - Modular, light and easy graph framework for theoretic algorithms.
 - [GraphStream](http://graphstream-project.org) - Library for modeling and analyzing dynamic graphs.
+- [JFreeChart](http://www.jfree.org/jfreechart) - 2D chart library for Swing, JavaFX and server-side applications.
 - [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 - [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualizing (mainly Swing) and interacting with node-edge graphs.
 - [Mines Java Toolkit](https://github.com/MinesJTK/jtk) - Library for geophysical scientific computation, visualization and digital signal analysis.
