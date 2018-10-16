@@ -337,9 +337,10 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that assist with processing office document formats.*
 
-- [Apache POI](https://poi.apache.org) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
-- [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
-- [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
+* [Apache POI](https://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
+* [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
+* [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
+* [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
 
 ### Formal Verification
 
