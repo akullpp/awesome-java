@@ -6,6 +6,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Projects](#projects)
   - [Bean Mapping](#bean-mapping)
+  - [Blockchain](#blockchain)
   - [Build](#build)
   - [Bytecode Manipulation](#bytecode-manipulation)
   - [Caching](#caching)
@@ -90,6 +91,10 @@ A curated list of awesome Java frameworks, libraries and software.
 - [ModelMapper](https://github.com/jhalterman/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
 - [Orika](https://github.com/orika-mapper/orika) - JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.
 - [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
+
+### Blockchain
+
+- [web3j](https://github.com/web3j/web3j) - Lightweight library for integrating with the Ethereum blockchain.
 
 ### Build
 
