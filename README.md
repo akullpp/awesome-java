@@ -847,7 +847,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server.
 - [WebSphere Liberty](https://developer.ibm.com/wasdev) - Lightweight, modular server developed by IBM.
 - [WildFly](http://www.wildfly.org) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
-
+- [OpenLiberty](https://github.com/OpenLiberty/open-liberty) - Open Liberty is a highly composable, fast to start, dynamic application server runtime environment.
 ### Template Engine
 
 *Tools that substitute expressions in a template.*
@@ -995,7 +995,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Ratpack](https://ratpack.io) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
 - [Vaadin](https://vaadin.com/home) - Event-driven framework built on top of GWT. Uses server-side architecture with Ajax on the client side.
-- [OpenLiberty](https://github.com/OpenLiberty/open-liberty) - Open Liberty is a highly composable, fast to start, dynamic application server runtime environment.
 
 ## Resources
 
