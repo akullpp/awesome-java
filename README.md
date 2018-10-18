@@ -634,6 +634,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Nifty](https://github.com/facebook/nifty) - Implementation of Thrift clients and servers on Netty.
 - [sshj](https://github.com/hierynomus/sshj) - Programatically use SSH, SCP or SFTP.
 - [TLS Channel](https://github.com/marianobarrios/tls-channel) - Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.
+- [TLS Connection Illustration](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced.
 - [Undertow](http://undertow.io) - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly.
 - [urnlib](https://github.com/slub/urnlib) - Represent, parse and encode URNs, as in RFC 2141.
 
@@ -949,7 +950,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries which provide general utility functions.*
 
-- [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) - Rate limiting library based on token-bucket algorithm. 
+- [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) - Rate limiting library based on token-bucket algorithm.
 - [cactoos](http://www.cactoos.org) - Collection of object-oriented primitives.
 - [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others.
 - [Dex](https://github.com/PatMartin/Dex) - Java/JavaFX tool capable of powerful ETL and data visualization.
