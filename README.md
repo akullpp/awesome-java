@@ -896,6 +896,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
 - [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
 - [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
+- [Java Faker](https://github.com/DiUS/java-faker) - A port of Ruby's fake data generator.
 
 #### Frameworks
 
@@ -950,7 +951,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries which provide general utility functions.*
 
-- [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) - Rate limiting library based on token-bucket algorithm. 
+- [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) - Rate limiting library based on token-bucket algorithm.
 - [cactoos](http://www.cactoos.org) - Collection of object-oriented primitives.
 - [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others.
 - [Dex](https://github.com/PatMartin/Dex) - Java/JavaFX tool capable of powerful ETL and data visualization.
