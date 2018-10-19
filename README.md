@@ -626,7 +626,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Finagle](https://github.com/twitter/finagle) - Extensible RPC system for constructing high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol-agnostic to simplify implementation of new protocols.
 - [Grizzly](https://javaee.github.io/grizzly) - NIO framework. Used as a network layer in Glassfish.
 - [gRPC](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
-- [JSch](http://www.jcraft.com/jsch/) - JSch is a pure Java implementation of SSH2.
+- [JSch](http://www.jcraft.com/jsch) - Implementation of SSH2.
 - [KryoNet](https://github.com/EsotericSoftware/kryonet) - Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo.
 - [MINA](https://mina.apache.org) - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
 - [Netty](https://netty.io) - Framework for building high-performance network applications.
