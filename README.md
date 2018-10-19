@@ -9,11 +9,11 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Build](#build)
   - [Bytecode Manipulation](#bytecode-manipulation)
   - [Caching](#caching)
+  - [CLI](#cli)
   - [Cluster Management](#cluster-management)
   - [Code Analysis](#code-analysis)
   - [Code Coverage](#code-coverage)
   - [Code Generators](#code-generators)
-  - [Command-line Argument Parsers](#command-line-argument-parsers)
   - [Compiler-compiler](#compiler-compiler)
   - [Configuration](#configuration)
   - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
@@ -119,6 +119,22 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Ehcache](http://www.ehcache.org) - Distributed general-purpose cache.
 - [Infinispan](http://infinispan.org) - Highly concurrent key/value datastore used for caching.
 
+### CLI
+
+*Libraries for everything related to the CLI.*
+
+- [ASCII Table](https://github.com/vdmeer/asciitable) - Library to draw tables in ASCII.
+- [Airline](https://github.com/airlift/airline) - Annotation-based framework for parsing Git-like command-line arguments.
+- [args4j](http://args4j.kohsuke.org) - Small library to parse command-line arguments.
+- [Jansi](https://github.com/fusesource/jansi) - ANSI escape codes to format console output.
+- [Java ASCII Render](https://github.com/indvd00m/java-ascii-render) - Graphical primitives for the console.
+- [JCommander](http://jcommander.org) - Command-line argument-parsing framework with custom types and validation via implementing interfaces.
+- [JLine](https://github.com/jline/jline3) - Includes features from modern shells like completion or history.
+- [JOpt Simple](https://pholser.github.io/jopt-simple) - Fluent parser that uses the POSIX#getopt and GNU#getopt_long syntaxes.
+- [picocli](http://picocli.info) - ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
+- [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
+- [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses.
+
 ### Cluster Management
 
 *Frameworks that can dynamically manage applications inside of a cluster.*
@@ -162,16 +178,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
 - [Joda-Beans](http://www.joda.org/joda-beans) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 - [Lombok](https://projectlombok.org) - Code generator that aims to reduce verbosity.
-
-### Command-line Argument Parsers
-
-*Libraries that make it easy to parse command line options, arguments, etc.*
-
-- [Airline](https://github.com/airlift/airline) - Annotation-based framework for parsing Git-like command-line arguments.
-- [args4j](http://args4j.kohsuke.org) - Small library to parse command-line arguments.
-- [JCommander](http://jcommander.org) - Command-line argument-parsing framework with custom types and validation via implementing interfaces.
-- [JOpt Simple](https://pholser.github.io/jopt-simple) - Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations.
-- [picocli](http://picocli.info) - ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation-based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 
 ### Compiler-compiler
 
@@ -550,7 +556,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 - [Joda-Money](http://www.joda.org/joda-money) - Basic currency and money classes and algorithms not provided by the JDK.
 - [JPad](http://jpad.io) - Snippet runner.
-- [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses.
 - [LightAdmin](http://lightadmin.org) - Pluggable CRUD UI library for rapid application development.
 - [Maven Wrapper](https://github.com/takari/maven-wrapper) - Analogue of Gradle Wrapper for Maven, allows building projects without installing maven.
 - [Membrane Service Proxy](https://github.com/membrane/service-proxy) - An open-source, reverse-proxy framework written in Java.
@@ -707,7 +712,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [FileUpload](http://commons.apache.org/proper/commons-fileupload) - File upload capability for your servlets and web applications.
 - [Lang](http://commons.apache.org/proper/commons-lang) - Provides extra functionality for classes in java.lang.
 - [Jexl](http://commons.apache.org/proper/commons-jexl) - Expression language which extends the Expression Language of the JSTL.
-- [CLI](http://commons.apache.org/proper/commons-cli) - Command Line arguments parser.
+- [CLI](http://commons.apache.org/proper/commons-cli) - Command-line arguments parser.
 - [Validator](http://commons.apache.org/proper/commons-validator) - Framework to define validators and validation rules in an xml file.
 - [Net](http://commons.apache.org/proper/commons-net) - Collection of network utilities and protocol implementations.
 - [RNG](https://commons.apache.org/proper/commons-rng) - Commons Rng provides implementations of pseudo-random numbers generators.
