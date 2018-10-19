@@ -490,8 +490,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [OpenJ9](https://github.com/eclipse/openj9) - High performance, enterprise calibre, flexibly licensed, openly governed cross platform Java Virtual Machine extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project.
 - [OpenJDK](http://openjdk.java.net) - Open-source implementation for Linux.
 - [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking, concurrent GC for iOS.
-- [Zulu OpenJDK 9](https://zulu.org/zulu-9-pre-release-downloads) - Early-access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
-- [Zulu OpenJDK](https://www.azul.com/downloads/zulu) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
+- [Zulu](https://www.azul.com/downloads/zulu) - OpenJDK builds for Windows, Linux, and Mac OS X.
 
 ### Logging
 
