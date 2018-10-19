@@ -995,7 +995,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Ratpack](https://ratpack.io) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
 - [Vaadin](https://vaadin.com/home) - Event-driven framework built on top of GWT. Uses server-side architecture with Ajax on the client side.
-- [Javalin](https://javalin.io/) - A simple web framework for Java and Kotlin.
+- [Javalin](https://javalin.io) - Focus on flexibility, simplicity and interoperability between Java and Kotlin.
 
 ## Resources
 
