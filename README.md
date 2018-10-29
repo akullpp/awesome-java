@@ -155,6 +155,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [NullAway](https://github.com/uber/NullAway) - Eliminates NullPointerExceptions with low build-time overhead.
 - [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 - [SonarJava](https://github.com/SonarSource/sonar-java) - Static analyzer for SonarQube & SonarLint.
+- [Code Climate](https://github.com/codeclimate/codeclimate) - Is a command line interface for the Code Climate analysis platform.
 - [Sourcetrail ![c]](https://www.sourcetrail.com) - Visual source code navigator.
 - [Spoon](https://github.com/INRIA/spoon) - Library for analyzing and transforming Java source code.
 - [Spotbugs](https://github.com/spotbugs/spotbugs) - Static analysis of bytecode to find potential bugs.
