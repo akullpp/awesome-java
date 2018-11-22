@@ -40,6 +40,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [JSON Processing](#json-processing)
   - [JSON](#json)
   - [JVM and JDK](#jvm-and-jdk)
+    - [Open JDK Distributions](#open-jdk-distributions)
   - [Logging](#logging)
   - [Machine Learning](#machine-learning)
   - [Messaging](#messaging)
@@ -492,6 +493,14 @@ A curated list of awesome Java frameworks, libraries and software.
 - [OpenJDK](http://openjdk.java.net) - Open-source implementation for Linux.
 - [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking, concurrent GC for iOS.
 - [Zulu](https://www.azul.com/downloads/zulu) - OpenJDK builds for Windows, Linux, and Mac OS X.
+
+#### Open JDK Distributions
+
+*Open JDK disributions by vendors*
+- [Open JDK](https://openjdk.java.net/) - Open JDK distributed by Oracle
+- [Adopt Open JDK](https://adoptopenjdk.net/) - Adopt open JDK distributions, allows to choose JVM (HotSpot, Openj9)
+- [Corretto](https://aws.amazon.com/corretto/) - No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon
+- [RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview/) - Free and open source implementation of the Java Platform, Standard Edition (Java SE).
 
 ### Logging
 
