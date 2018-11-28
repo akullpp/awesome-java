@@ -599,6 +599,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Kamon](http://www.kamon.io) - Tool for monitoring applications running on the JVM.
 - [Metrics](http://metrics.dropwizard.io) - Expose metrics via JMX or HTTP and send them to a database.
 - [New Relic ![c]](https://newrelic.com) - Performance monitor.
+- [DataDog ![c]](https://docs.datadoghq.com/tracing/setup/java/) - Modern monitoring & analytics.
 - [nudge4j](https://github.com/lorenzoongithub/nudge4j) - Remote developer console from the browser for Java 8 via bytecode injection.
 - [OverOps ![c]](https://www.overops.com) - In-production error monitoring and debugging.
 - [Pinpoint](https://github.com/naver/pinpoint) - Open-source APM tool.
