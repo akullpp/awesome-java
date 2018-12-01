@@ -130,6 +130,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Jansi](https://github.com/fusesource/jansi) - ANSI escape codes to format console output.
 - [Java ASCII Render](https://github.com/indvd00m/java-ascii-render) - Graphical primitives for the console.
 - [JCommander](http://jcommander.org) - Command-line argument-parsing framework with custom types and validation via implementing interfaces.
+- [jbock](https://github.com/h908714124/jbock) - Typesafe, reflection-free, annotation based command-line parser 
 - [JLine](https://github.com/jline/jline3) - Includes features from modern shells like completion or history.
 - [JOpt Simple](https://pholser.github.io/jopt-simple) - Fluent parser that uses the POSIX#getopt and GNU#getopt_long syntaxes.
 - [picocli](http://picocli.info) - ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
