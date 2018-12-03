@@ -499,6 +499,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Open JDK disributions by vendors*
 - [Open JDK](https://openjdk.java.net/) - Open JDK distributed by Oracle
 - [Adopt Open JDK](https://adoptopenjdk.net/) - Adopt open JDK distributions, allows to choose JVM (HotSpot, Openj9)
+- [Azul Open JDK](https://www.azul.com/downloads/zulu/) - Zulu® is a certified build of OpenJDK that is fully compliant with the Java SE standard. Zulu is 100% open source and freely downloadable.
 - [Corretto](https://aws.amazon.com/corretto/) - No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon
 - [RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview/) - Free and open source implementation of the Java Platform, Standard Edition (Java SE).
 
