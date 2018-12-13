@@ -1061,7 +1061,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Java Off Heap](http://www.javaoffheap.com)
 - [Marco Behler's Screencasts](https://www.marcobehler.com/series) - Screencasts about modern Java development.
-- [The Java Council](https://virtualjug.com/podcast)
+- [The Java Council](https://virtualjug.com/#podcast)
 - [The Java Posse](http://www.javaposse.com) - Discontinued as of 02/2015.
 
 ### Twitter
