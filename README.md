@@ -432,7 +432,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Retrofit](https://square.github.io/retrofit) - Typesafe REST client.
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in cloud.
 - [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
-- [Scarlet](https://github.com/Tinder/Scarlet) - A Retrofit inspired WebSocket client for Kotlin, Java, and Android.
 
 ### Hypermedia Types
 
@@ -494,7 +493,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Avian](https://github.com/ReadyTalk/avian) - JVM with JIT, AOT modes and iOS port.
 - [Corretto](https://aws.amazon.com/corretto) - No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon.
 - [Graal](https://github.com/oracle/graal) - Polyglot embeddable JVM.
-- [Liberica JDK](https://www.bell-sw.com/java.html) - Liberica is a 100% open-source Java 9, 10 & 11 implementation. It is built from OpenJDK which BellSoft contributes to, thoroughly tested and passed the JCK as provided under the license from OpenJDK.
+- [Liberica JDK](https://www.bell-sw.com/java.html) - Built from OpenJDK, thoroughly tested and passed the JCK.
 - [OpenJ9](https://github.com/eclipse/openj9) - High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project.
 - [Open JDK](https://openjdk.java.net) - Open JDK distributed by Oracle.
 - [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking, concurrent GC for iOS.
@@ -541,14 +540,14 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache Kafka](https://kafka.apache.org) - High-throughput distributed messaging system.
 - [Apache Pulsar](https://pulsar.apache.org) - Distributed pub/sub-messaging system.
 - [Apache RocketMQ](https://rocketmq.apache.org/) - A fast, reliable, and scalable distributed messaging platform.
-- [Apache Qpid](https://qpid.apache.org/) - Apache Qpid™ makes messaging tools that speak AMQP and support many languages and platforms.
+- [Apache Qpid](https://qpid.apache.org) - Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms.
 - [EventBus](https://github.com/greenrobot/EventBus) - Simple publish/subscribe event bus.
 - [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
 - [JeroMQ](https://github.com/zeromq/jeromq) - Implementation of ZeroMQ.
 - [Nakadi](https://github.com/zalando/nakadi) - Provides a RESTful API on top of Kafka.
-- [RabbitMQ](https://github.com/rabbitmq/rabbitmq-java-client) - RabbitMQ Java client.
+- [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client) - RabbitMQ client.
 - [Smack](https://github.com/igniterealtime/Smack) - Cross-platform XMPP client library.
-- [NATS](https://github.com/nats-io/java-nats) - NATS Server is a simple, high performance open source messaging system.
+- [NATS](https://github.com/nats-io/java-nats) - NATS client.
 
 ### Miscellaneous
 
@@ -565,7 +564,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [JavaX](http://javax.ai1.lol) - Reinventing and extending Java with a focus on simplicity.
 - [JBake](http://jbake.org) - Static website generator.
 - [JBot](https://github.com/ramswaroop/jbot) - Framework for building chatbots.
-- [Jcuda](https://github.com/jcuda/jcuda-main) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
+- [Jcuda](http://jcuda.org) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
 - [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 - [Joda-Money](http://www.joda.org/joda-money) - Basic currency and money classes and algorithms not provided by the JDK.
 - [JPad](http://jpad.io) - Snippet runner.
@@ -608,7 +607,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [inspectIT](http://www.inspectit.rocks) - Captures detailed run-time information via hooks that can be changed on the fly. It supports tracing over multiple systems via the OpenTracing API and can correlate the data with end user monitoring.
 - [Instrumental ![c]](https://instrumentalapp.com) - Real-time Java application performance monitoring. A commercial service with free development accounts.
 - [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
-- [Jaeger](https://github.com/jaegertracing/jaeger-client-java) - Jaeger's Tracing Instrumentation Library for Java.
+- [Jaeger client](https://github.com/jaegertracing/jaeger-client-java) - Jaeger client.
 - [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connect to multiple JVMs and query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVM attributes. Supports different output writes, including Graphite, Ganglia, and StatsD.
 - [Jolokia](https://jolokia.org) - JMX over REST.
 - [Kamon](http://www.kamon.io) - Tool for monitoring applications running on the JVM.
@@ -844,7 +843,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Hdiv](https://github.com/hdiv/hdiv) - Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.
 - [jjwt](https://github.com/jwtk/jjwt) - JSON web token for Java and Android.
 - [Jwks RSA](https://github.com/auth0/jwks-rsa-java) - JSON Web Key Set parser.
-- [Kalium](https://github.com/abstractj/kalium) - Java binding to the Networking and Cryptography (NaCl) library.
+- [Kalium](https://github.com/abstractj/kalium) - Binding for the Networking and Cryptography (NaCl) library.
 - [Keycloak](https://keycloak.jboss.org) - Integrated SSO and IDM for browser apps and RESTful web services.
 - [Keyczar](https://github.com/google/keyczar) - Easy-to-use, safe encryption framework with key versioning.
 - [Keywhiz](https://github.com/square/keywhiz) - System for distributing and managing secrets.
@@ -882,13 +881,11 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Tools that substitute expressions in a template.*
 
-- [Freemarker](https://freemarker.apache.org/) - Apache FreeMarker™ is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.
 - [Handlebars.java](https://jknack.github.io/handlebars.java) - Logicless and semantic Mustache templates.
 - [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
 - [Jtwig](http://jtwig.org) - Modular, configurable and fully tested template engine.
 - [Pebble](http://www.mitchellbosecke.com/pebble/home) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
 - [Thymeleaf](http://www.thymeleaf.org) - Aims to be a substitute for JSP and works for XML files.
-- [Twirl](https://github.com/playframework/twirl) - Twirl is the Play template engine.
 
 ### Testing
 
@@ -1120,8 +1117,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Sites to read.*
 
-- [Baeldung - Java, Spring and Web Development tutorials](https://www.baeldung.com/)
-- [Dzone](https://dzone.com/)
+- [Baeldung](https://www.baeldung.com)
+- [Dzone](https://dzone.com)
 - [Google Java Style](https://google.github.io/styleguide/javaguide.html)
 - [InfoQ](https://www.infoq.com)
 - [Java Algorithms and Clients](https://algs4.cs.princeton.edu/code)
