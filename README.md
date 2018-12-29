@@ -508,7 +508,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Logback](https://logback.qos.ch) - Robust logging library with interesting configuration options via Groovy.
 - [Logbook](https://github.com/zalando/logbook) - Extensible, open-source library for HTTP request and response logging.
 - [Logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
-- [p6spy](https://github.com/p6spy/p6spy) - Framework that enables all JDBC transactions to be logged.
+- [p6spy](https://github.com/p6spy/p6spy) - Enables logging for all JDBC transactions without changes to the code.
 - [SLF4J](https://www.slf4j.org) - Abstraction layer/simple logging facade.
 - [tinylog](http://www.tinylog.org) - Lightweight logging framework with static logger class.
 - [Tracer](https://github.com/zalando/tracer) - Call tracing and log correlation in distributed systems.
