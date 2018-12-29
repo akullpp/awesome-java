@@ -547,7 +547,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Nakadi](https://github.com/zalando/nakadi) - Provides a RESTful API on top of Kafka.
 - [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client) - RabbitMQ client.
 - [Smack](https://github.com/igniterealtime/Smack) - Cross-platform XMPP client library.
-- [NATS](https://github.com/nats-io/java-nats) - NATS client.
+- [NATS client](https://github.com/nats-io/java-nats) - NATS client.
 
 ### Miscellaneous
 
