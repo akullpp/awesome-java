@@ -814,6 +814,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Mines Java Toolkit](https://github.com/MinesJTK/jtk) - Library for geophysical scientific computation, visualization and digital signal analysis.
 - [Morpheus](http://www.zavtech.com/morpheus/docs) - Provides a versatile two-dimensional memory efficient tabular data structure called a DataFrame to enable efficient in-memory analytics for scientific computing on the JVM.
 - [Tablesaw](https://github.com/lwhite1/tablesaw) - Includes a data-frame, an embedded column store, and hundreds of methods to transform, summarize, or filter data.
+- [XChart](https://github.com/knowm/XChart) - A light-weight library for plotting data. Many customizable chart types are available.
 
 ### Search
 
