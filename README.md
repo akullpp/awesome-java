@@ -564,7 +564,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [JavaX](http://javax.ai1.lol) - Reinventing and extending Java with a focus on simplicity.
 - [JBake](http://jbake.org) - Static website generator.
 - [JBot](https://github.com/ramswaroop/jbot) - Framework for building chatbots.
-- [Jcuda](http://jcuda.org) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
+- [JCuda](http://jcuda.org) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
 - [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 - [Joda-Money](http://www.joda.org/joda-money) - Basic currency and money classes and algorithms not provided by the JDK.
 - [JPad](http://jpad.io) - Snippet runner.
