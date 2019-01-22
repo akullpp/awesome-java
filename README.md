@@ -836,6 +836,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache Lucene](https://lucene.apache.org) - High-performance, full-featured, cross-platform, text search engine library.
 - [Apache Solr](https://lucene.apache.org/solr) - Enterprise search engine optimized for high-volume traffic.
 - [Elasticsearch](https://www.elastic.co) - Distributed, multitenant-capable, full-text search engine with a RESTful web interface and schema-free JSON documents.
+- [Indexer4j](https://github.com/haeungun/indexer4j) - Simple and light full text indexing and searching library.
 
 ### Security
 
