@@ -550,7 +550,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client) - RabbitMQ client.
 - [Smack](https://github.com/igniterealtime/Smack) - Cross-platform XMPP client library.
 - [NATS client](https://github.com/nats-io/java-nats) - NATS client.
-- [QMQ](https://github.com/qunarcorp/qmq) -QMQ client.
+- [QMQ](https://github.com/qunarcorp/qmq) -QMQ distributed messaging platform,High Availability
 
 ### Miscellaneous
 
