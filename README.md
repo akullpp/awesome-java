@@ -117,10 +117,11 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that provide caching facilities.*
 
+- [Cache2K](https://cache2k.org/) - pure in-memory object cache implementation - JCache Implemenation as well
 - [Caffeine](https://github.com/ben-manes/caffeine) - High-performance, near-optimal caching library.
 - [Ehcache](http://www.ehcache.org) - Distributed general-purpose cache.
 - [Infinispan](http://infinispan.org) - Highly concurrent key/value datastore used for caching.
-- [Cache2K](https://cache2k.org/) - battle proofed in-memory object cache implementation
+
 
 ### CLI
 
