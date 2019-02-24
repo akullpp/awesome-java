@@ -288,6 +288,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
 - [Guice](https://github.com/google/guice) - Lightweight and opinionated framework that completes Dagger.
 - [HK2](https://javaee.github.io/hk2) - Lightweight and dynamic dependency injection framework.
+- [JayWire](https://github.com/vanillasource/jaywire) - Lightweight dependency injection framework.
 
 ### Development
 
