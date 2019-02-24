@@ -1135,7 +1135,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [JavaWorld](https://www.javaworld.com)
 - [JAXenter](https://jaxenter.com)
 - [RebelLabs](https://zeroturnaround.com/rebellabs)
-- [The OverOps Blog](https://blog.overops.com)
+- [OverOps Blog](https://blog.overops.com)
 - [TheServerSide.com](http://www.theserverside.com)
 - [Vanilla Java](https://vanilla-java.github.io)
 - [Voxxed](https://www.voxxed.com)
