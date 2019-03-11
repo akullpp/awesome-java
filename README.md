@@ -1119,6 +1119,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Peter Lawrey](https://twitter.com/PeterLawrey) - Peter Lawrey, Java performance expert.
 - [Randy Shoup](https://twitter.com/randyshoup) - Stitch Fix VP Engineering, speaker, JavaOne Rock Star.
 - [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
+- [Sander Mak](https://twitter.com/Sander_Mak) - Java Champion, author.
 - [Simon Maple](https://twitter.com/sjmaple) - Java Champion, VirtualJUG founder, LJC leader, RebelLabs author.
 - [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
 - [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
