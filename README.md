@@ -665,6 +665,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [TLS Channel](https://github.com/marianobarrios/tls-channel) - Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.
 - [Undertow](http://undertow.io) - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly.
 - [urnlib](https://github.com/slub/urnlib) - Represent, parse and encode URNs, as in RFC 2141.
+- [brpc-java](https://github.com/baidu/brpc-java) - Java implementation for Baidu RPC, multi-protocol & high performance RPC.
 
 ### ORM
 
