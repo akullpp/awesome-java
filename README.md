@@ -1052,6 +1052,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
 - [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
+- [Java Concurrency Checklist](https://github.com/code-review-checklists/java-concurrency)
 
 ### Communities
 
