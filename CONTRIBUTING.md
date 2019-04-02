@@ -18,6 +18,8 @@ Suggested software must also be developer-friendly, which means it meets the fol
 
 (iii) If commercial, it has clear pricing.
 
+(iv) It has a documentation in the English language.
+
 ## Pull Requests 
 
 There are two required criteria for a pull request:
