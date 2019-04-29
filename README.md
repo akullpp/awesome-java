@@ -214,9 +214,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ### CQRS
 
-*Frameworks and libraries that help implementing CQRS pattern.*
+*Frameworks and libraries that help implementing Command and Query Responsibility Segregation (CQRS) pattern.*
+- [PipelinR](https://github.com/sizovs/pipelinr) – Small utility library for using handlers and commands with pipelines.
 - [Xerj.CommandStack](https://github.com/XerProjects/xerj.commandstack) – Small, easy-to-use command handling library that has first class support for dependency injection pattern and frameworks.
-- [PipelinR](https://github.com/sizovs/pipelinr) – Small utility library for using handlers and commands with pipelines. 
 
 ### CSV
 
