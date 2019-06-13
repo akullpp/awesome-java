@@ -7,7 +7,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Projects](#projects)
   - [Bean Mapping](#bean-mapping)
   - [Build](#build)
-  - [Bytecode Manipulation](#bytecode-manipulation)
   - [Caching](#caching)
   - [CLI](#cli)
   - [Cluster Management](#cluster-management)
@@ -672,6 +671,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *APIs that handle the persistence of objects.*
 
 - [Apache Cayenne](https://cayenne.apache.org) - Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation.
+- [Doma 2](https://doma.readthedocs.io) - Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL.
 - [Ebean](https://ebean-orm.github.io) - Provides simple and fast data access.
 - [EclipseLink](https://www.eclipse.org/eclipselink) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 - [Hibernate](http://hibernate.org/orm) - Robust and widely used, with an active community.
