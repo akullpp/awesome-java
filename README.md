@@ -701,6 +701,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
 - [iText ![c]](https://itextpdf.com) - Creates PDF files programmatically.
 - [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
+- [Open HTML to PDF](https://github.com/danfickle/openhtmltopdf/) - An HTML to PDF library for the JVM. Based on Flying Saucer and Apache PDF-BOX 2
 
 ### Performance analysis
 
