@@ -7,6 +7,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Projects](#projects)
   - [Bean Mapping](#bean-mapping)
   - [Build](#build)
+  - [Bytecode Manipulation](#bytecode-manipulation)
   - [Caching](#caching)
   - [CLI](#cli)
   - [Cluster Management](#cluster-management)
