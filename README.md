@@ -51,6 +51,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Networking](#networking)
   - [ORM](#orm)
   - [PaaS](#paas)
+  - [Payments](#payments)
   - [PDF](#pdf)
   - [Performance analysis](#performance-analysis)
   - [Platform](#platform)
@@ -691,6 +692,12 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Heroku ![c]](https://www.heroku.com) - Abstract computing environments.
 - [Jelastic ![c]](https://jelastic.com) - Supports Tomcat, Jetty, GlassFish, JBoss, TomEE and WildFly.
 - [OpenShift Enterprise ![c]](https://www.openshift.com) - On-premise solution.
+
+### Payments
+
+*Libraries for taking payments*
+
+- [Square Java SDK](https://github.com/square/connect-java-sdk/) - Java client library for payments and other Square APIs.
 
 ### PDF
 
