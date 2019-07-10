@@ -27,6 +27,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Distributed Transactions](#distributed-transactions)
   - [Distribution](#distribution)
   - [Document Processing](#document-processing)
+  - [Financial](#financial)
   - [Formal Verification](#formal-verification)
   - [Functional Programming](#functional-programming)
   - [Game Development](#game-development)
@@ -51,7 +52,6 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Networking](#networking)
   - [ORM](#orm)
   - [PaaS](#paas)
-  - [Payments](#payments)
   - [PDF](#pdf)
   - [Performance analysis](#performance-analysis)
   - [Platform](#platform)
@@ -360,6 +360,12 @@ A curated list of awesome Java frameworks, libraries and software.
 - [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
+
+### Financial
+
+*Libraries for taking payments and more*
+
+- [Square Java SDK](https://github.com/square/connect-java-sdk/) - Java client library for payments and other Square APIs.
 
 ### Formal Verification
 
@@ -692,12 +698,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Heroku ![c]](https://www.heroku.com) - Abstract computing environments.
 - [Jelastic ![c]](https://jelastic.com) - Supports Tomcat, Jetty, GlassFish, JBoss, TomEE and WildFly.
 - [OpenShift Enterprise ![c]](https://www.openshift.com) - On-premise solution.
-
-### Payments
-
-*Libraries for taking payments*
-
-- [Square Java SDK](https://github.com/square/connect-java-sdk/) - Java client library for payments and other Square APIs.
 
 ### PDF
 
