@@ -699,7 +699,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache FOP](https://xmlgraphics.apache.org/fop) - Creates PDFs from XSL-FO.
 - [Apache PDFBox](https://pdfbox.apache.org) - Toolbox for creating and manipulating PDFs.
 - [Dynamic Jasper](http://dynamicjasper.com) - Abstraction layer to JasperReports.
-- [DynamicReports](http://dynamicreports.org) - Simplifies JasperReports.
+- [DynamicReports](https://github.com/dynamicreports/dynamicreports) - Simplifies JasperReports.
 - [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
 - [iText ![c]](https://itextpdf.com) - Creates PDF files programmatically.
 - [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
