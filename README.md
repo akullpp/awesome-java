@@ -570,7 +570,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) - No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes.
 - [J2ObjC](https://github.com/google/j2objc) - Java-to-Objective-C translator for porting Android libraries to iOS.
 - [JavaCV](https://github.com/bytedeco/javacv) - Java interface to OpenCV, FFmpeg, and more.
-- [JavaX](http://javax.ai1.lol) - Reinventing and extending Java with a focus on simplicity.
+- [JavaX](http://javax.botcompany.de) - Reinventing and extending Java with a focus on simplicity.
 - [JBake](http://jbake.org) - Static website generator.
 - [JBot](https://github.com/ramswaroop/jbot) - Framework for building chatbots.
 - [JCuda](http://jcuda.org) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
