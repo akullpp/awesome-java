@@ -432,6 +432,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that assist with creating HTTP requests and/or binding responses.*
 
+- [Armeria](https://github.com/line/armeria) - Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC
 - [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 - [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 - [OkHttp](https://square.github.io/okhttp) - HTTP+SPDY client.
@@ -440,7 +441,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Retrofit](https://square.github.io/retrofit) - Typesafe REST client.
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in cloud.
 - [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
-- [Armeria](https://github.com/line/armeria) - Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC
 
 ### Hypermedia Types
 
