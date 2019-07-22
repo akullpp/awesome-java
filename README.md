@@ -440,6 +440,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Retrofit](https://square.github.io/retrofit) - Typesafe REST client.
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in cloud.
 - [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
+- [Armeria](https://github.com/line/armeria) - Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC
 
 ### Hypermedia Types
 
