@@ -940,7 +940,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Beanmother](https://github.com/keepcosmos/beanmother) - Sets up beans from YAML fixtures.
 - [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
-- [JFairy](https://github.com/Codearte/jfairy) - Fake data generator.
+- [jFairy](https://github.com/Devskiller/jfairy) - Fake data generator.
 - [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
 - [Java Faker](https://github.com/DiUS/java-faker) - A port of Ruby's fake data generator.
 
