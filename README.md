@@ -256,6 +256,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [sql2o](https://sql2o.org) - Thin JDBC wrapper that simplifies database access and provides simple mapping of ResultSets to POJOs.
 - [Vibur DBCP](https://www.vibur.org) - JDBC connection pool library with advanced performance monitoring capabilities.
 - [Xodus](https://jetbrains.github.io/xodus) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
+- [Db4o-gpl](https://github.com/iboxdb/db4o-gpl) - Object-oriented database, embedded and remote connections supported.
 
 ### Data Structures
 
