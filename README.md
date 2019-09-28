@@ -607,6 +607,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Helidon](https://helidon.io) - Two-style approach for writing microservices: Functional-reactive and as an implementation of [MicroProfile](https://microprofile.io).
 - [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 - [Micronaut](http://micronaut.io) - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
+- [Spring Boot](https://spring.io/projects/spring-boot) - Makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 
 ### Monitoring
 
