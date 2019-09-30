@@ -413,7 +413,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries to create modern graphical user interfaces.*
 
-- [JavaFX](https://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
+- [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main) - The successor of Swing.
 - [Scene Builder](https://gluonhq.com/open-source/scene-builder) - Visual layout tool for JavaFX applications.
 - [SWT](https://www.eclipse.org/swt) - The Standard Widget Toolkit, a graphical widget toolkit.
 
