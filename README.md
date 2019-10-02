@@ -459,6 +459,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [IntelliJ IDEA ![c]](https://www.jetbrains.com/idea) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 - [NetBeans](https://netbeans.org) - Provides integration for several Java SE and EE features, from database access to HTML5.
 - [Visual Studio Code](https://code.visualstudio.com/docs/languages/java) - Provides Java support for lightweight projects with a simple, modern workflow by using extensions from the internal marketplace.
+- [BlueJ](https://www.bluej.org) - A free Java Development Environment designed for beginners, used by millions worldwide.
 
 ### Imagery
 
