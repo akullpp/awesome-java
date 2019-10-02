@@ -427,7 +427,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [fastutil](http://fastutil.di.unimi.it) - Fast and compact type-specific collections.
 - [HPPC](https://labs.carrotsearch.com/hppc.html) - Primitive collections.
 - [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
-- [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
+- [Koloboke](https://koloboke.com) - Hash sets and hash maps.
 
 ### HTTP Clients
 
