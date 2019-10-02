@@ -209,7 +209,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that help with implementing optimization and satisfiability problems.*
 
-- [Choco](http://choco-solver.org) - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
+- [Choco](http://www.choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
 - [JaCoP](https://github.com/radsz/jacop) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
 - [OptaPlanner](https://www.optaplanner.org) - Business planning and resource scheduling optimization solver.
 
@@ -316,7 +316,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache Geode](https://geode.apache.org) - In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
 - [Apache Storm](https://storm.apache.org) - Realtime computation system.
 - [Apache ZooKeeper](https://zookeeper.apache.org) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
-- [Atomix](http://atomix.io/) - Fault-tolerant distributed coordination framework.
+- [Atomix](https://atomix.io/) - Fault-tolerant distributed coordination framework.
 - [Axon Framework](http://www.axonframework.org) - Framework for creating CQRS applications.
 - [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Circuit breaker design pattern for Dropwizard.
 - [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
@@ -402,7 +402,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache SIS](https://sis.apache.org) - Library for developing geospatial applications.
 - [Geo](https://github.com/davidmoten/geo) - GeoHash utilities in Java.
 - [Geotoolkit.org](http://www.geotoolkit.org) - Library for developing geospatial applications. Built on top of the Apache SIS project.
-- [GeoTools](http://geotools.org) - Library that provides tools for geospatial data.
+- [GeoTools](https://geotools.org/) - Library that provides tools for geospatial data.
 - [GraphHopper](https://github.com/graphhopper/graphhopper) - Road-routing engine. Used as a Java library or standalone web service.
 - [H2GIS](http://www.h2gis.org) - A spatial extension of the H2 database.
 - [Jgeohash](https://astrapi69.github.io/jgeohash) - Library for using the GeoHash algorithm.
@@ -808,7 +808,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm) - Provides a standard for asynchronous stream processing with non-blocking backpressure.
 - [Reactor](https://projectreactor.io) - Library for building reactive fast-data applications.
 - [RxJava](https://github.com/ReactiveX/RxJava) - Allows for composing asynchronous and event-based programs using observable sequences.
-- [vert.x](http://vertx.io) - Polyglot event-driven application framework.
+- [vert.x](https://vertx.io/) - Polyglot event-driven application framework.
 
 ### REST Frameworks
 
@@ -873,7 +873,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [PicketLink](http://picketlink.org) - Umbrella project for security and identity management.
 - [SecurityBuilder](https://github.com/tersesystems/securitybuilder) - Fluent Builder API for JCA and JSSE classes and especially X.509 certificates.
 - [Themis](https://github.com/cossacklabs/themis) - Multi-platform high-level cryptographic library provides easy-to-use encryption for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications.
-- [Tink](http://github.com/google/tink) - Provides a simple and misuse-proof API for common cryptographic tasks.
+- [Tink](https://github.com/google/tink) - Provides a simple and misuse-proof API for common cryptographic tasks.
 - [Vault](https://www.vaultproject.io) - Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets. It handles leasing, key revocation, key rolling, and auditing. Through a unified API, users can access an encrypted Key/Value store and network encryption-as-a-service, or generate AWS IAM/STS credentials, SQL/NoSQL databases, X.509 certificates, SSH credentials, and more.
 
 ### Serialization
@@ -1037,7 +1037,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache Tapestry](https://tapestry.apache.org) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
 - [Apache Wicket](https://wicket.apache.org) - Component-based web application framework similar to Tapestry, with a stateful GUI.
 - [Blade](https://github.com/biezhi/blade) - Lightweight, modular framework that aims to be elegant and simple.
-- [Bootique](http://bootique.io) - Minimally opinionated framework for runnable apps.
+- [Bootique](https://bootique.io/) - Minimally opinionated framework for runnable apps.
 - [Firefly](http://www.fireflysource.com) - Asynchronous framework for rapid development of high-performance web application.
 - [Grails](https://grails.org) - Groovy framework that provides a highly productive environment by favoring convention over configuration, no XML and support for mixins.
 - [Jooby](http://jooby.org) - Scalable, fast and modular micro-framework that offers multiple programming models.
