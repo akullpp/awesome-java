@@ -438,7 +438,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 - [OkHttp](https://square.github.io/okhttp) - HTTP+SPDY client.
 - [Play WS](https://github.com/playframework/play-ws) - Typesafe client with reactive streams and caching.
-- [restQL-java](https://github.com/B2W-BIT/restQL-java) - Microservice query language that fetches information from multiple services.
+- [restQL-core-java](https://github.com/B2W-BIT/restQL-java) - Microservice query language that fetches information from multiple services.
 - [Retrofit](https://square.github.io/retrofit) - Typesafe REST client.
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in cloud.
 - [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
