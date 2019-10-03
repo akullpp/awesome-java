@@ -989,7 +989,6 @@ A curated list of awesome Java frameworks, libraries and software.
 *Simplifies the writing of parameterized tests.*
 
 - [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG-like data provider/runner for JUnit.
-- [JUnitParams](https://pragmatists.github.io/JUnitParams) - Creates readable and maintainable parametrised tests.
 
 ### Utility
 
