@@ -864,7 +864,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [jjwt](https://github.com/jwtk/jjwt) - JSON web token for Java and Android.
 - [Jwks RSA](https://github.com/auth0/jwks-rsa-java) - JSON Web Key Set parser.
 - [Kalium](https://github.com/abstractj/kalium) - Binding for the Networking and Cryptography (NaCl) library.
-- [Keycloak](https://keycloak.jboss.org) - Integrated SSO and IDM for browser apps and RESTful web services.
+- [Keycloak](https://www.keycloak.org) - Integrated SSO and IDM for browser apps and RESTful web services.
 - [Keyczar](https://github.com/google/keyczar) - Easy-to-use, safe encryption framework with key versioning.
 - [Keywhiz](https://github.com/square/keywhiz) - System for distributing and managing secrets.
 - [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) - Advanced password strength estimation.
