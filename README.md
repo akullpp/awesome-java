@@ -37,6 +37,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Hypermedia Types](#hypermedia-types)
   - [IDE](#ide)
   - [Imagery](#imagery)
+  - [Introspection](#introspection)
   - [JSON Processing](#json-processing)
   - [JSON](#json)
   - [JVM and JDK](#jvm-and-jdk)
@@ -469,6 +470,16 @@ A curated list of awesome Java frameworks, libraries and software.
 - [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins that extend the number of supported image file formats.
 - [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
 - [image-comparison](https://github.com/romankh3/image-comparison) - Compares two images with the same sizes and shows the differences visually by drawing rectangles.
+
+### Introspection
+
+*Libraries that help make the Java introspection and reflection API easier and faster to use.*
+
+- [Classgraph](https://github.com/classgraph/classgraph) - ClassGraph (formerly FastClasspathScanner) is an uber-fast, ultra-lightweight, parallelized classpath scanner and module scanner for Java, Scala, Kotlin and other JVM languages.
+- [Reflections](https://github.com/ronmamo/reflections) - Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.
+- [ReflectASM](https://github.com/EsotericSoftware/reflectasm) - ReflectASM is a very small Java library that provides high performance reflection by using code generation.
+- [jOOR](https://github.com/jOOQ/jOOR) - jOOR stands for jOOR Object Oriented Reflection. It is a simple wrapper for the java.lang.reflect package.
+- [Mirror](http://projetos.vidageek.net/mirror/mirror/) - Mirror was created to bring light to a simple problem, usually named ReflectionUtil, which is on almost all projects that rely on reflection to do advanced tasks.
 
 ### JSON
 
