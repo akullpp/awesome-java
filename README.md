@@ -977,6 +977,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Other stuff related to testing.*
 
+- [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG-like data provider/runner for JUnit.
 - [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports whether instances of a given class are immutable.
 - [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
 - [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
@@ -992,12 +993,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks.
 - [PowerMock](https://github.com/jayway/powermock) - Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers.
 - [WireMock](http://wiremock.org) - Stubs and mocks web services.
-
-#### Parameterization
-
-*Simplifies the writing of parameterized tests.*
-
-- [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG-like data provider/runner for JUnit.
 
 ### Utility
 
