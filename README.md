@@ -624,7 +624,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Jaeger client](https://github.com/jaegertracing/jaeger-client-java) - Jaeger client.
 - [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connect to multiple JVMs and query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVM attributes. Supports different output writes, including Graphite, Ganglia, and StatsD.
 - [Jolokia](https://jolokia.org) - JMX over REST.
-- [Kamon](http://www.kamon.io) - Tool for monitoring applications running on the JVM.
+- [Kamon ![c]](https://kamon.io) - Tool for monitoring applications running on the JVM.
 - [Metrics](http://metrics.dropwizard.io) - Expose metrics via JMX or HTTP and send them to a database.
 - [New Relic ![c]](https://newrelic.com) - Performance monitor.
 - [Datadog ![c]](https://docs.datadoghq.com/tracing/setup/java/) - Modern monitoring & analytics.
