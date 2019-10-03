@@ -902,7 +902,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Apache TomEE](https://tomee.apache.org) - Tomcat plus Java EE.
 - [Jetty](https://www.eclipse.org/jetty) - Provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
 - [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server.
-- [WebSphere Liberty](https://developer.ibm.com/wasdev) - Lightweight, modular server developed by IBM. (GPL-2.0-only)
+- [WebSphere Liberty ![c]](https://developer.ibm.com/wasdev) - Lightweight, modular server developed by IBM. (GPL-2.0-only)
 - [WildFly](http://www.wildfly.org) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support. (LGPL-2.1-only)
 
 ### Template Engine
