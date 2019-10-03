@@ -990,7 +990,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Burst](https://github.com/square/burst) - A unit testing library for varying test data.
 - [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - A TestNG-like data provider/runner for JUnit.
-- [JUnitParams](https://pragmatists.github.io/JUnitParams) - Creates readable and maintainable parametrised tests.
 
 ### Utility
 
