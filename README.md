@@ -972,6 +972,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [AssertJ](https://joel-costigliola.github.io/assertj) - Fluent assertions that improve readability.
 - [JSONAssert](http://jsonassert.skyscreamer.org) - Simplifies testing JSON strings.
 - [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
+- [XMLUnit](https://github.com/xmlunit/xmlunit) - Simplifies testing for XML output.
 
 #### Miscellaneous
 
