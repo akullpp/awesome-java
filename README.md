@@ -360,7 +360,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
-
+- [EasyXLS](https://www.easyxls.com) - Excel library to import or export data to Excel files in Java
 ### Formal Verification
 
 *Formal-methods tools: proof assistants, model checking, symbolic execution, etc.*
