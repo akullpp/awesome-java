@@ -681,6 +681,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [MINA](https://mina.apache.org) - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
 - [Netty](https://netty.io) - Framework for building high-performance network applications.
 - [Nifty](https://github.com/facebook/nifty) - Implementation of Thrift clients and servers on Netty.
+- [ServiceTalk](https://github.com/apple/servicetalk/) - A network application framework built on Netty with APIs tailored to specific protocols (e.g. HTTP/1.x, HTTP/2.x, etc...) and support for multiple programming paradigms.
 - [sshj](https://github.com/hierynomus/sshj) - Programatically use SSH, SCP or SFTP.
 - [TLS Channel](https://github.com/marianobarrios/tls-channel) - Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.
 - [Undertow](http://undertow.io) - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly. (LGPL-2.1-only)
