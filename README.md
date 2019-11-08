@@ -660,6 +660,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries that specialize in processing text.*
 
+- [Beagle](https://github.com/tokenmill/beagle) - Stored full-text search query engine.
 - [CogCompNLP](https://github.com/CogComp/cogcomp-nlp) - Provides common annotators for plain text input. (Research and Academic Use License)
 - [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. (GPL-3.0-or-later)
 - [DKPro](https://dkpro.github.io) - Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
