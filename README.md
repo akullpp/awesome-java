@@ -1143,6 +1143,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
 - [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
 - [Venkat Subramaniam](https://twitter.com/venkat_s) - Author, University of Houston professor, MicroSoft MVP award recipient, JavaOne Rock Star, Java Champion.
+- [Vlad Mihalcea](https://twitter.com/vlad_mihalcea) - Java Champion working on Hypersistence Optimizer, database aficionado, author of High-Performance Java Persistence book.
 
 ### Websites
 
