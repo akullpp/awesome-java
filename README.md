@@ -487,9 +487,9 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ### Job Scheduling
 
-*Libraries for scheduling background jobs*
+*Libraries for scheduling background jobs.*
 
-- [Quartz](https://github.com/quartz-scheduler/quartz) - Quartz Scheduler is a richly featured, open source job scheduling library that can be integrated within virtually any Java application
+- [Quartz](https://github.com/quartz-scheduler/quartz) - Quartz Scheduler is a richly featured, open source job scheduling library that can be integrated within virtually any Java application.
 
 ### JSON
 
