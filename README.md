@@ -523,7 +523,7 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Open JDK](https://openjdk.java.net) - Open JDK community home. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) - VM with non-blocking, concurrent GC for iOS. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview) - RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0)
-- [SAP Machine](https://sap.github.io/SapMachine) - SAP's no-cost, rigourously tested and JCK-verifieed OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0)
+- [SAP Machine](https://sap.github.io/SapMachine) - SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [Zulu](https://www.azul.com/downloads/zulu) - OpenJDK builds for Windows, Linux, and Mac OS X. (GPL-2.0-only WITH Classpath-exception-2.0)
 
 ### Logging
