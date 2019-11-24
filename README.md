@@ -490,6 +490,9 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries for scheduling background jobs.*
 
 - [Quartz](https://github.com/quartz-scheduler/quartz) - Quartz Scheduler is a richly featured, open source job scheduling library that can be integrated within virtually any Java application.
+- [Sundial](https://github.com/knowm/Sundial) - A Lightweight Job Scheduling Framework for Java. Simply define jobs, define triggers, and start the Sundial scheduler.
+- [Wisp](https://github.com/Coreoz/Wisp) - A simple Java Scheduler library with a minimal footprint and a straightforward API.
+- [db-scheduler](https://github.com/kagkarlsson/db-scheduler) - Persistent cluster-friendly scheduler for Java.
 
 ### JSON
 
