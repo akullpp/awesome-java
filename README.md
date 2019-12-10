@@ -976,6 +976,7 @@ A curated list of awesome Java frameworks, libraries and software.
 *Libraries that provide custom matchers.*
 
 - [AssertJ](https://joel-costigliola.github.io/assertj) - Fluent assertions that improve readability.
+- [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
 - [JSONAssert](http://jsonassert.skyscreamer.org) - Simplifies testing JSON strings.
 - [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
 - [XMLUnit](https://github.com/xmlunit/xmlunit) - Simplifies testing for XML output.
