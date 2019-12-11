@@ -978,7 +978,7 @@ _Libraries that provide custom matchers._
 
 - [AssertJ](https://joel-costigliola.github.io/assertj) - Fluent assertions that improve readability.
 - [JSONAssert](http://jsonassert.skyscreamer.org) - Simplifies testing JSON strings.
-- [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
+- [Truth](https://truth.dev) - Google's fluent assertion and proposition framework.
 - [XMLUnit](https://github.com/xmlunit/xmlunit) - Simplifies testing for XML output.
 
 #### Miscellaneous
