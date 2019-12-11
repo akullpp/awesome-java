@@ -38,6 +38,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [IDE](#ide)
   - [Imagery](#imagery)
   - [Introspection](#introspection)
+  - [Job Scheduling](#job-scheduling)
   - [JSON Processing](#json-processing)
   - [JSON](#json)
   - [JVM and JDK](#jvm-and-jdk)
@@ -483,6 +484,15 @@ _Libraries that help make the Java introspection and reflection API easier and f
 - [Objenesis](http://objenesis.org) - Allows dynamic instantiation without default constructor, e.g. constructors which have required arguments, side effects or throw exceptions.
 - [ReflectASM](https://github.com/EsotericSoftware/reflectasm) - ReflectASM is a very small Java library that provides high performance reflection by using code generation.
 - [Reflections](https://github.com/ronmamo/reflections) - Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.
+
+### Job Scheduling
+
+*Libraries for scheduling background jobs.*
+
+- [Quartz](https://github.com/quartz-scheduler/quartz) - Feature-rich, open source job scheduling library that can be integrated within virtually any Java application.
+- [Sundial](https://github.com/knowm/Sundial) - Lightweight framework to simply define jobs, define triggers and start the scheduler.
+- [Wisp](https://github.com/Coreoz/Wisp) - Simple library with minimal footprint and straightforward API.
+- [db-scheduler](https://github.com/kagkarlsson/db-scheduler) - Persistent and cluster-friendly scheduler.
 
 ### JSON
 
