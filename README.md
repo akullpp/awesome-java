@@ -249,7 +249,7 @@ _Everything that simplifies interactions with the database._
 - [MapDB](http://www.mapdb.org) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 - [MariaDB4j](https://github.com/vorburger/MariaDB4j) - Launcher for MariaDB that requires no installation or external dependencies.
 - [OrientDB](https://orientdb.com/orientdb) - Embeddable distributed database written on top of Hazelcast.
-- [Presto](https://github.com/prestodb/presto) - Distributed SQL query engine for big data.
+- [Presto](https://prestosql.io) - Distributed SQL query engine for big data.
 - [Querydsl](http://www.querydsl.com) - Typesafe unified queries.
 - [Realm](https://github.com/realm/realm-java) - Mobile database to run directly inside phones, tablets or wearables.
 - [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
