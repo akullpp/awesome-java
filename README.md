@@ -353,6 +353,7 @@ _Tools that handle the distribution of applications in native formats._
 - [Nexus ![c]](https://www.sonatype.com/nexus/solution-overview) - Binary management with proxy and caching capabilities.
 - [packr](https://github.com/libgdx/packr) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
 - [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) - Maven plugin for making self-executing JARs.
+- [CloudRepo](https://cloudrepo.io) - Cloud based, private and public Maven and PyPi repositories.
 
 ### Document Processing
 
