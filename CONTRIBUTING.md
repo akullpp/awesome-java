@@ -16,7 +16,7 @@ Suggested software must also be developer-friendly, which means it meets the fol
 
 (ii) If an open source *library*, it is licensed under one of the open source licenses listed on https://opensource.org/licenses, with the exception of GPL and AGPL (due to their viral nature).  
 
-(iii) If commercial, it has clear pricing.
+(iii) If commercial, it has clear pricing and at least one free tier.
 
 (iv) It has a documentation in the English language.
 
