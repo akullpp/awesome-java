@@ -246,6 +246,7 @@ _Everything that simplifies interactions with the database._
 - [jetcd](https://github.com/justinsb/jetcd) - Client library for etcd.
 - [Jinq](https://github.com/my2iu/Jinq) - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).
 - [jOOQ](https://www.jooq.org) - Generates typesafe code based on SQL schema.
+- [Leaf](https://github.com/Meituan-Dianping/Leaf) - Distributed ID generate service.
 - [Liquibase](http://www.liquibase.org) - Database-independent library for tracking, managing and applying database schema changes.
 - [MapDB](http://www.mapdb.org) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 - [MariaDB4j](https://github.com/vorburger/MariaDB4j) - Launcher for MariaDB that requires no installation or external dependencies.
