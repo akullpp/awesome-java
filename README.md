@@ -337,6 +337,7 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
 - [Atomikos](https://www.atomikos.com) - Provides transactions for REST, SOA and microservices with support for JTA and XA.
 - [Bitronix](https://github.com/bitronix/btm) - A simple but complete implementation of the JTA 1.1 API.
 - [Narayana](http://narayana.io) - Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards. (LGPL-2.1-only)
+- [Seata](https://seata.io) - Delivers high performance and easy to use distributed transaction services under a microservices architecture.
 
 ### Distribution
 
