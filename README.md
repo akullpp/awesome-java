@@ -41,6 +41,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Job Scheduling](#job-scheduling)
   - [JSON Processing](#json-processing)
   - [JSON](#json)
+  - [JSON Comprison](#json-comparison)
   - [JVM and JDK](#jvm-and-jdk)
   - [Logging](#logging)
   - [Machine Learning](#machine-learning)
@@ -517,6 +518,13 @@ _Libraries for processing data in JSON format._
 - [Jolt](https://github.com/bazaarvoice/jolt) - JSON to JSON transformation tool.
 - [JsonPath](https://github.com/jayway/JsonPath) - Extract data from JSON using XPATH-like syntax.
 - [JsonSurfer](https://github.com/jsurfer/JsonSurfer) - Streaming JsonPath processor dedicated to processing big and complicated JSON data.
+
+### JSON Comparison
+
+_Libraries for Comparison data in JSON format._
+
+- [Json-comparison](https://github.com/eBay/json-comparison/) - Powerful JSON comparison tool for identifying all the changes within JSON files
+
 
 ### JVM and JDK
 
