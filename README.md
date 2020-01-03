@@ -971,6 +971,7 @@ _Provide environments to run tests for a specific use case._
 - [Citrus](https://citrusframework.org) - Integration testing framework that focuses on both client- and server-side messaging.
 - [Gatling](https://gatling.io) - Load testing tool designed for ease of use, maintainability and high performance.
 - [JUnit](http://junit.org) - Common testing framework.
+- [jqwik](https://jqwik.net) - Engine for property-based testing built on JUnit 5.
 - [Pact JVM](https://github.com/DiUS/pact-jvm) - Consumer-driven contract testing.
 - [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 
