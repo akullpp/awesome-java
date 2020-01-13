@@ -564,6 +564,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 - [Oryx 2](https://github.com/OryxProject/oryx) - Framework for building real-time, large-scale machine learning applications. Includes end-to-end applications for collaborative filtering, classification, regression, and clustering.
 - [Smile](https://haifengl.github.io/smile) - The Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.
 - [Weka](https://www.cs.waikato.ac.nz/ml/weka) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization. (GPL-3.0-only)
+- [Synapses](https://mrdimosthenis.github.io/Synapses) - Lightweight Neural Network library, for js, jvm and .net
 
 ### Messaging
 
