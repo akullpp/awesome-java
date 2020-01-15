@@ -365,6 +365,8 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Libraries for taking payments and more*
 
+- [Parity](https://github.com/paritytrading/parity) - Parity is an open source software platform for trading venues.
+- [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency Financial Information Exchange (FIX) engine for the JVM.
 - [Square Java SDK](https://github.com/square/connect-java-sdk/) - Java client library for payments and other Square APIs.
 
 ### Formal Verification
