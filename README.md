@@ -641,6 +641,7 @@ _Tools for creating and managing microservices._
 - [Lagom](https://www.lightbend.com/lagom) - Framework for creating microservice-based systems.
 - [Micronaut](http://micronaut.io) - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
 - [Nacos](https://nacos.io) - Dynamic service discovery, configuration and service management platform for building cloud native applications.
+- [Quarkus](https://quarkus.io) - Kubernetes stack tailored for the HotSpot and Graal VM.
 
 ### Monitoring
 
