@@ -27,6 +27,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Distributed Transactions](#distributed-transactions)
   - [Distribution](#distribution)
   - [Document Processing](#document-processing)
+  - [Financial](#financial)
   - [Formal Verification](#formal-verification)
   - [Functional Programming](#functional-programming)
   - [Game Development](#game-development)
@@ -360,6 +361,15 @@ _Libraries that assist with processing office document formats._
 - [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
+
+### Financial
+
+*Libraries related to the financial domain.*
+
+- [Parity](https://github.com/paritytrading/parity) - Platform for trading venues.
+- [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency financial information exchange.
+- [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API
+- [Square](https://github.com/square/connect-java-sdk/) - Integration with the Square API.
 
 ### Formal Verification
 
