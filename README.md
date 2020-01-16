@@ -623,7 +623,7 @@ _Everything else._
 - [OpenRefine](http://openrefine.org) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
 - [PipelinR](https://github.com/sizovs/pipelinr) – Small utility library for using handlers and commands with pipelines.
 - [Polyglot for Maven](https://github.com/takari/polyglot-maven) - Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML.
-- [Simple Java Mail](http://www.simplejavamail.org) - Simple Java Mail is a mailing library with a very clean and fluent API.
+- [Simple Java Mail](http://www.simplejavamail.org) - Mailing library with a very clean and fluent API. 
 - [Smooks](https://github.com/smooks/smooks) - Extensible framework for building applications that process data which means bindings, transformations, message processing and enrichment. (LGPL-3.0-only)
 - [Togglz](https://www.togglz.org) - Implementation of the Feature Toggles pattern.
 - [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
