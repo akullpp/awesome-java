@@ -369,8 +369,8 @@ _Libraries that assist with processing office document formats._
 
 - [Parity](https://github.com/paritytrading/parity) - Platform for trading venues.
 - [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency financial information exchange.
-- [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API
 - [Square](https://github.com/square/connect-java-sdk/) - Integration with the Square API.
+- [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API
 
 ### Formal Verification
 
