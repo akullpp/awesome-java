@@ -546,7 +546,7 @@ _Libraries that log the behavior of an application._
 - [Kibana](https://www.elastic.co/kibana) - Analyzes and visualizes log files. Some features require payment.
 - [Logback](http://logback.qos.ch) - Robust logging library with interesting configuration options via Groovy.
 - [Logbook](https://github.com/zalando/logbook) - Extensible, open-source library for HTTP request and response logging.
-- [Logstash](https://www.elastic.co /logstash) - Tool for managing log files.
+- [Logstash](https://www.elastic.co/logstash) - Tool for managing log files.
 - [p6spy](https://github.com/p6spy/p6spy) - Enables logging for all JDBC transactions without changes to the code.
 - [SLF4J](http://www.slf4j.org) - Abstraction layer/simple logging facade.
 - [tinylog](https://tinylog.org/v2/) - Lightweight logging framework with static logger class.
