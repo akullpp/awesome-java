@@ -499,6 +499,8 @@ _Libraries for scheduling background jobs._
 - [Sundial](https://github.com/knowm/Sundial) - Lightweight framework to simply define jobs, define triggers and start the scheduler.
 - [Wisp](https://github.com/Coreoz/Wisp) - Simple library with minimal footprint and straightforward API.
 - [db-scheduler](https://github.com/kagkarlsson/db-scheduler) - Persistent and cluster-friendly scheduler.
+- [easy-batch](https://github.com/j-easy/easy-batch) - The simple, stupid batch framework for Java
+- [shedlock](https://github.com/lukas-krecan/ShedLock) - Distributed lock for your spring scheduled tasks 
 
 ### JSON
 
