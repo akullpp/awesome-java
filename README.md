@@ -311,6 +311,7 @@ _Augmentation of the development process at a fundamental level._
 - [Manifold](https://github.com/manifold-systems/manifold) - Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.
 - [NoException](https://noexception.machinezoo.com) - Allows checked exceptions in functional interfaces and converts exceptions to Optional return.
 - [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow) - Ignores checked exceptions without bytecode manipulation. Can also be used inside Java 8 stream operations.
+- [Tail](https://kag0.github.io/tail) - Enable infinite recursion using tail call optimization.
 
 ### Distributed Applications
 
