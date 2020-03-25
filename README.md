@@ -605,6 +605,7 @@ _Tools for creating and managing microservices._
 - [Micronaut](https://micronaut.io) - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
 - [Nacos](https://nacos.io) - Dynamic service discovery, configuration and service management platform for building cloud native applications.
 - [Quarkus](https://quarkus.io) - Kubernetes stack tailored for the HotSpot and Graal VM.
+- [Sentinel](https://github.com/alibaba/Sentinel) - Flow control component enabling reliability, resilience and monitoring for microservices.
 
 ### Miscellaneous
 
