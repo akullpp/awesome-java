@@ -510,6 +510,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
 - [DSL-JSON](https://github.com/ngs-doo/dsl-json) - JSON library with advanced compile time databinding.
 - [Genson](http://genson.io) - Powerful and easy-to-use Java-to-JSON conversion library.
 - [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
+- [hate](https://github.com/blackdoor/hate) - Build hypermedia-friendly objects with HAL (uses jackson).
 - [HikariJSON](https://github.com/brettwooldridge/HikariJSON) - High-performance JSON parser, 2x faster than Jackson.
 - [jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8) - Set of Jackson modules for Java 8 datatypes and features.
 - [Jackson-datatype-money](https://github.com/zalando/jackson-datatype-money) - Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types.
