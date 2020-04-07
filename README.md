@@ -459,6 +459,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 
 _Libraries that handle serialization to hypermedia types._
 
+- [hate](https://github.com/blackdoor/hate) - Builds hypermedia-friendly objects according to HAL specification.
 - [JSON-LD](https://github.com/jsonld-java/jsonld-java) - JSON-LD implementation.
 - [Siren4J](https://github.com/eserating/siren4j) - Library for the Siren specification.
 
