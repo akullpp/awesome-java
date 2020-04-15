@@ -311,6 +311,7 @@ _Augmentation of the development process at a fundamental level._
 - [Manifold](https://github.com/manifold-systems/manifold) - Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.
 - [NoException](https://noexception.machinezoo.com) - Allows checked exceptions in functional interfaces and converts exceptions to Optional return.
 - [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow) - Ignores checked exceptions without bytecode manipulation. Can also be used inside Java 8 stream operations.
+- [Tail](https://kag0.github.io/tail) - Enable infinite recursion using tail call optimization.
 
 ### Distributed Applications
 
@@ -347,6 +348,7 @@ _Tools that handle the distribution of applications in native formats._
 - [Boxfuse ![c]](https://boxfuse.com) - Deployment of JVM applications to AWS using the principles of immutable infrastructure.
 - [Capsule](https://github.com/puniverse/capsule) - Simple and powerful packaging and deployment. A fat JAR on steroids, or a "Docker for Java" that supports JVM-optimized containers.
 - [Central Repository](https://search.maven.org) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven, and available in all other build tools.
+- [Cloudsmith ![c]](https://cloudsmith.io) - Fully managed package management SaaS with support for Maven/Gradle/SBT with a free tier.
 - [IzPack](http://izpack.org) - Setup authoring tool for cross-platform deployments.
 - [jlink.online](https://github.com/cilki/jlink.online) - Builds optimized runtimes over HTTP.
 - [Nexus ![c]](https://www.sonatype.com) - Binary management with proxy and caching capabilities.
@@ -457,6 +459,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 
 _Libraries that handle serialization to hypermedia types._
 
+- [hate](https://github.com/blackdoor/hate) - Builds hypermedia-friendly objects according to HAL specification.
 - [JSON-LD](https://github.com/jsonld-java/jsonld-java) - JSON-LD implementation.
 - [Siren4J](https://github.com/eserating/siren4j) - Library for the Siren specification.
 
@@ -529,6 +532,7 @@ _Current implementations of the JVM/JDK._
 - [Adopt Open JDK](https://adoptopenjdk.net) - Community-driven OpenJDK builds, including both HotSpot and OpenJ9.
 - [Avian](https://github.com/ReadyTalk/avian) - JVM with JIT, AOT modes and iOS port.
 - [Corretto](https://aws.amazon.com/corretto/) - No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon. (GPL-2.0-only WITH Classpath-exception-2.0)
+- [Dragonwell8](https://github.com/alibaba/dragonwell8) - Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications.
 - [Graal](https://github.com/oracle/graal) - Polyglot embeddable JVM. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [Liberica JDK](https://bell-sw.com) - Built from OpenJDK, thoroughly tested and passed the JCK. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [OpenJ9](https://github.com/eclipse/openj9) - High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project.
@@ -602,6 +606,7 @@ _Tools for creating and managing microservices._
 - [Micronaut](https://micronaut.io) - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
 - [Nacos](https://nacos.io) - Dynamic service discovery, configuration and service management platform for building cloud native applications.
 - [Quarkus](https://quarkus.io) - Kubernetes stack tailored for the HotSpot and Graal VM.
+- [Sentinel](https://github.com/alibaba/Sentinel) - Flow control component enabling reliability, resilience and monitoring for microservices.
 
 ### Miscellaneous
 
@@ -1021,6 +1026,7 @@ _Tools which mock collaborators to help testing single, isolated units._
 
 _Libraries which provide general utility functions._
 
+- [Arthas](https://github.com/alibaba/arthas) - Allows to troubleshoot production issues for applications without modifying code or restarting servers.
 - [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) - Rate limiting library based on token-bucket algorithm.
 - [cactoos](https://github.com/yegor256/cactoos) - Collection of object-oriented primitives.
 - [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others. (LGPL-2.1-or-later)
