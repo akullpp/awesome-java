@@ -933,6 +933,7 @@ _Servers specifically used to deploy applications._
 
 _Tools that substitute expressions in a template._
 
+- [Freemarker](https://freemarker.apache.org) - Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.
 - [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
 - [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
 - [Jtwig](http://jtwig.org) - Modular, configurable and fully tested template engine.
