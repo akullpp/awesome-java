@@ -483,7 +483,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
 - [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins that extend the number of supported image file formats.
 - [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
 - [image-comparison](https://github.com/romankh3/image-comparison) - Compares two images with the same sizes and shows the differences visually by drawing rectangles.
-* [imgix-java](https://docs.imgix.com/libraries/imgix-java) - Easily update image urls to be fast and responsive.
+* [imgix-java ![c]](https://docs.imgix.com/libraries/imgix-java) - Easily update image urls to be fast and responsive.
 
 ### Introspection
 
