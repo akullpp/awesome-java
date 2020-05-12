@@ -498,7 +498,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
 ### Job Scheduling
 
 _Libraries for scheduling background jobs._
-
+- [JobRunr](https://github.com/jobrunr/jobrunr) - Extremely easy way to perform distributed background processing in Java using Java 8 lambda's.
 - [Quartz](https://github.com/quartz-scheduler/quartz) - Feature-rich, open source job scheduling library that can be integrated within virtually any Java application.
 - [Sundial](https://github.com/knowm/Sundial) - Lightweight framework to simply define jobs, define triggers and start the scheduler.
 - [Wisp](https://github.com/Coreoz/Wisp) - Simple library with minimal footprint and straightforward API.
