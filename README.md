@@ -157,11 +157,11 @@ _Tools that provide metrics and quality measurements._
 
 - [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards. (LGPL-2.1-or-later)
 - [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
+- [FindBugs](http://findbugs.sourceforge.net/) - A program which uses static analysis to look for bugs in Java code 
 - [Infer](https://github.com/facebook/infer) - Modern static analysis tool for verifying the correctness of code.
 - [jQAssistant](https://jqassistant.org) - Static code analysis with Neo4J-based query language. (GPL-3.0-only)
 - [NullAway](https://github.com/uber/NullAway) - Eliminates NullPointerExceptions with low build-time overhead.
 - [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
-- [FindBugs](http://findbugs.sourceforge.net/) - A program which uses static analysis to look for bugs in Java code 
 - [SonarJava](https://github.com/SonarSource/sonar-java) - Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
 - [Sourcetrail](https://www.sourcetrail.com) - Visual source code navigator.
 - [Spoon](https://github.com/INRIA/spoon) - Library for analyzing and transforming Java source code.
