@@ -408,6 +408,7 @@ _Frameworks that support the development of games._
 - [jMonkeyEngine](https://jmonkeyengine.org) - Game engine for modern 3D development.
 - [libGDX](https://libgdx.badlogicgames.com) - All-round cross-platform, high-level framework.
 - [LWJGL](https://www.lwjgl.org) - Robust framework that abstracts libraries like OpenGL/CL/AL.
+- [Mini2Dx](https://mini2dx.org) - Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.
 
 ### Geospatial
 
