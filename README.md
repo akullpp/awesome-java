@@ -205,7 +205,7 @@ _Libraries that provide external configuration._
 - [dotenv](https://github.com/shyiko/dotenv) - Twelve-factor configuration library which uses environment-specific files.
 - [ini4j](http://ini4j.sourceforge.net) - Provides an API for handling Windows' INI files.
 - [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
-- [microconfig](https://microconfig.io) - Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed. 
+- [microconfig](https://microconfig.io) - Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed.
 - [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
 
 ### Constraint Satisfaction Problem Solver
@@ -574,6 +574,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 - [H2O](https://www.h2o.ai) - Analytics engine for statistics over big data.
 - [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only)
 - [Oryx 2](https://github.com/OryxProject/oryx) - Framework for building real-time, large-scale machine learning applications. Includes end-to-end applications for collaborative filtering, classification, regression, and clustering.
+- [Siddhi](https://github.com/siddhi-io/siddhi) - Cloud native streaming and complex event processing engine.
 - [Smile](https://github.com/haifengl/smile) - Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.
 - [Synapses](https://mrdimosthenis.github.io/Synapses/#synapses) - Lightweight library for neural networks.
 - [Weka](https://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization. (GPL-3.0-only)
