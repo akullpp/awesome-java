@@ -186,6 +186,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
 - [Joda-Beans](https://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 - [Lombok](https://projectlombok.org) - Code generator that aims to reduce verbosity.
+- [Telosys](https://www.telosys.org/) - Simple and light code generator available as an Eclipse Plugin (http://marketplace.eclipse.org/content/telosys-tools) and also as a Command Line Interface (https://github.com/telosys-tools-bricks/telosys-cli/wiki).
 
 ### Compiler-compiler
 
