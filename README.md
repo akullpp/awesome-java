@@ -647,6 +647,7 @@ _Everything else._
 - [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 - [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Processes XML by using annotations or XPath within code.
 - [yGuard](https://github.com/yWorks/yGuard) - Obfuscation via renaming and shrinking.
+- [TrashEmail](https://github.com/r0hi7/Trashemail) - Opensource framework for getting mails delivered to your Telegram.
 
 ### Monitoring
 
