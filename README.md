@@ -1083,6 +1083,7 @@ _Libraries that analyze the content of websites._
 
 _Frameworks that handle the communication between the layers of a web application._
 
+- [ActiveJ](https://activej.io) - Lightweight asynchronous framework built from the ground up for developing high-performance web applications.
 - [Apache Tapestry](https://tapestry.apache.org) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
 - [Apache Wicket](https://wicket.apache.org) - Component-based web application framework similar to Tapestry, with a stateful GUI.
 - [Blade](https://github.com/lets-blade/blade) - Lightweight, modular framework that aims to be elegant and simple.
