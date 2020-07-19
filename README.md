@@ -47,6 +47,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Messaging](#messaging)
   - [Microservice](#microservice)
   - [Miscellaneous](#miscellaneous)
+  - [Mobile Development](#mobile-development)
   - [Monitoring](#monitoring)
   - [Native](#native)
   - [Natural Language Processing](#natural-language-processing)
