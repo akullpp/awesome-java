@@ -652,7 +652,7 @@ _Everything else._
 _Tools for creating or managing mobile applications._
 
 - [Codename One](https://www.codenameone.com) - Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0)
-- [MobileUI](https://mobileui.dev) - Cross-platform framework for developing mobile apps (iOS, Android) with native UI in Java and Kotlin.
+- [MobileUI](https://mobileui.dev) - Cross-platform framework for developing mobile apps with native UI in Java and Kotlin.
 - [Multi-OS Engine](https://multi-os-engine.org) - Open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.
 
 ### Monitoring
