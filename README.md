@@ -826,7 +826,6 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 
 #### Other
 
-- [ActiveJ](https://activej.io) - Lightweight asynchronous framework built from the ground up for developing high-performance web applications.
 - [CUBA Platform](https://www.cuba-platform.com/) - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin.
 - [Light-4J](https://github.com/networknt/light-4j/) - Fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2/).
 - [Orienteer](https://github.com/OrienteerBAP/Orienteer/) - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
@@ -1071,6 +1070,7 @@ _Libraries that analyze the content of websites._
 
 _Frameworks that handle the communication between the layers of a web application._
 
+- [ActiveJ](https://activej.io) - Lightweight asynchronous framework built from the ground up for developing high-performance web applications.
 - [Apache Tapestry](https://tapestry.apache.org) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
 - [Apache Wicket](https://wicket.apache.org) - Component-based web application framework similar to Tapestry, with a stateful GUI.
 - [Blade](https://github.com/lets-blade/blade) - Lightweight, modular framework that aims to be elegant and simple.
