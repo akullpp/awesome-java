@@ -416,7 +416,6 @@ _Libraries for working with geospatial data and algorithms._
 
 - [Apache SIS](https://sis.apache.org) - Library for developing geospatial applications.
 - [Geo](https://github.com/davidmoten/geo) - GeoHash utilities in Java.
-- [Geotk](https://github.com/Geomatys/geotoolkit) - Library for developing geospatial applications. Built on top of the Apache SIS project. (LGPL-2.1-only)
 - [GeoTools](https://geotools.org) - Library that provides tools for geospatial data. (LGPL-2.1-only)
 - [GraphHopper](https://github.com/graphhopper/graphhopper) - Road-routing engine. Used as a Java library or standalone web service.
 - [H2GIS](http://www.h2gis.org) - Spatial extension of the H2 database. (LGPL-3.0-only)
