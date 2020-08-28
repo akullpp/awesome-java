@@ -570,6 +570,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 - [Apache Mahout](https://mahout.apache.org) - Scalable algorithms focused on collaborative filtering, clustering and classification.
 - [DatumBox](http://www.datumbox.com) - Provides several algorithms and pre-trained models for natural language processing.
 - [Deeplearning4j](https://deeplearning4j.org) - Distributed and multi-threaded deep learning library.
+- [DJL](https://djl.ai) - High-level and engine-agnostic framework for deep learning.
 - [H2O ![c]](https://www.h2o.ai) - Analytics engine for statistics over big data.
 - [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only)
 - [Oryx 2](https://github.com/OryxProject/oryx) - Framework for building real-time, large-scale machine learning applications. Includes end-to-end applications for collaborative filtering, classification, regression, and clustering.
