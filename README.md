@@ -108,6 +108,7 @@ _Tools that handle the build cycle and dependencies of an application._
 
 _Libraries to manipulate bytecode programmatically._
 
+- [ActiveSpecializer](https://specializer.activej.io) - Automagically speeds up your code by rewriting the bytecode in runtime.
 - [ASM](https://asm.ow2.io) - All-purpose, low-level bytecode manipulation and analysis.
 - [Byte Buddy](https://bytebuddy.net) - Further simplifies bytecode generation with a fluent API.
 - [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) - Java 8 Jar & Android APK reverse engineering suite. (GPL-3.0-only)
