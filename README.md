@@ -124,8 +124,8 @@ _Libraries that provide caching facilities._
 - [cache2k](https://cache2k.org) - In-memory high performance caching library.
 - [Caffeine](https://github.com/ben-manes/caffeine) - High-performance, near-optimal caching library.
 - [Ehcache](http://www.ehcache.org) - Distributed general-purpose cache.
-- [Infinispan](https://infinispan.org) - Highly concurrent key/value datastore used for caching.
 - [Guava](https://github.com/google/guava) - Guava is a collection of Java libraries.  Included is a very flexible in-memory caching library.  See the [wiki](https://github.com/google/guava/wiki/CachesExplained) for more details.
+- [Infinispan](https://infinispan.org) - Highly concurrent key/value datastore used for caching.
 
 ### CLI
 
