@@ -1087,6 +1087,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 
 _Awesome lists related to the Java & JVM ecosystem._
 
+- [Awesome AI/ML/DL: Java](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/details/java-jvm.md#java)
 - [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
 - [AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
