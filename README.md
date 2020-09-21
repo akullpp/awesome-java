@@ -735,7 +735,7 @@ _Java platform as a service._
 
 ### PDF
 
-_Tools to help with PDF file creation._
+_Tools to help with PDF files._
 
 - [Apache FOP](https://xmlgraphics.apache.org/fop/) - Creates PDFs from XSL-FO.
 - [Apache PDFBox](https://pdfbox.apache.org) - Toolbox for creating and manipulating PDFs.
@@ -747,6 +747,7 @@ _Tools to help with PDF file creation._
 - [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine. (LGPL-3.0-only)
 - [Open HTML to PDF](https://github.com/danfickle/openhtmltopdf) - Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.
 - [OpenPDF](https://github.com/LibrePDF/OpenPDF) - Open-source iText fork. (LGPL-3.0-only & MPL-2.0)
+- [Tabula](https://github.com/tabulapdf/tabula-java) - Extracts tables from PDF files.
 
 ### Performance analysis
 
