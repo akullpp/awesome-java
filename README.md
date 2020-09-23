@@ -1140,6 +1140,7 @@ _Something to look at or listen to while programming._
 - [Java Off Heap](http://www.javaoffheap.com)
 - [The Java Council](https://virtualjug.com/#podcast)
 - [The Java Posse](http://www.javaposse.com) - Discontinued as of 02/2015.
+- [Inside Java](https://inside.java/podcast)
 
 ### Twitter
 
