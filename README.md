@@ -1210,3 +1210,22 @@ Contributions are very welcome!
 Please have a look at the [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) guidelines and [the validation tools](https://github.com/akullpp/awesome-java-lint).
 
 [c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg
+
+
+###Java Program Convert Fahrenheit To Celsius | 
+
+class FahrenheittoCelsius
+{
+	public static void main(String arg[])	
+	{
+	    double a,c;
+             	    Scanner sc=new Scanner(System.in);	   	 
+	    System.out.println("Enter  Fahrenheit temperature");
+                   a=sc.nextDouble(); 
+	    System.out.println("Celsius temperature is = "+celsius(a));		  	  	     
+	} 
+	static double celsius(double f)
+	{	
+	return  (f-32)*5/9;
+	}
+}
