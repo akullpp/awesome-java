@@ -708,7 +708,7 @@ _Libraries for building network servers._
 - [Netty](https://netty.io) - Framework for building high-performance network applications.
 - [Drift](https://github.com/airlift/drift) - Easy-to-use, annotation-based library for creating Thrift clients and serializable types.
 - [ServiceTalk](https://github.com/apple/servicetalk) - Framework built on Netty with APIs tailored to specific protocols and support for multiple programming paradigms.
-- [sshj](https://github.com/hierynomus/sshj) - Programatically use SSH, SCP or SFTP.
+- [sshj](https://github.com/hierynomus/sshj) - Programmatically use SSH, SCP or SFTP.
 - [TLS Channel](https://github.com/marianobarrios/tls-channel) - Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.
 - [Undertow](http://undertow.io) - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly. (LGPL-2.1-only)
 - [urnlib](https://github.com/slub/urnlib) - Represent, parse and encode URNs, as in RFC 2141. (GPL-3.0-only)
