@@ -456,6 +456,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in cloud.
 - [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
 - [unirest-java](https://github.com/Kong/unirest-java) - Simplified, lightweight HTTP client library.
+- [RxSON](https://github.com/rxson/rxson) - Reactive client to transform JSON streamed chunks to reactive POJOs as soon as they arrive, and before the response complete.
 
 ### Hypermedia Types
 
