@@ -1138,6 +1138,7 @@ _Books that made a big impact and are still worth reading._
 
 _Something to look at or listen to while programming._
 
+- [A Bootiful Podcast](https://bootifulpodcast.fm)
 - [Inside Java](https://inside.java/podcast) (Official)
 - [Java Off Heap](http://www.javaoffheap.com)
 - [The Java Council](https://virtualjug.com/#podcast)
