@@ -455,7 +455,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 - [Apache HttpComponents](https://hc.apache.org/) - A toolset of low level Java components focused on HTTP and associated protocols.
 - [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 - [Feign](https://github.com/OpenFeign/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
-- [Google Http Client](https://github.com/googleapis/google-http-java-client) - Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson2 and Protobuf.
+- [Google HTTP Client](https://github.com/googleapis/google-http-java-client) - Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.
 - [methanol](https://github.com/mizosoft/methanol) - HTTP client extensions library.
 - [restQL-java](https://github.com/b2wdigital/restQL-java) - Microservice query language that fetches information from multiple services.
 - [Retrofit](https://square.github.io/retrofit/) - Typesafe REST client.
@@ -951,7 +951,7 @@ _Tools that substitute expressions in a template._
 - [Freemarker](https://freemarker.apache.org) - Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.
 - [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
 - [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
-- [jte](https://github.com/casid/jte) - Compiles to Java classes, is lightweight and fast.
+- [jte](https://github.com/casid/jte) - Compiles to classes and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.
 - [Jtwig](https://github.com/jtwig/jtwig) - Modular, configurable and fully tested template engine.
 - [Pebble](https://pebbletemplates.io) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
 - [Rocker](https://github.com/fizzed/rocker) - Optimized, memory efficient and speedy template engine producing statically typed, plain objects.
