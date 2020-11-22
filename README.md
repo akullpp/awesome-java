@@ -239,6 +239,7 @@ _Efficient and specific data structures._
 - [HyperMinHash-java](https://github.com/LiveRamp/HyperMinHash-java) - Probabilistic data structure for computing union, intersection, and set cardinality in loglog space.
 - [Persistent Collection](https://github.com/hrldcpr/pcollections) - Persistent and immutable analogue of the Java Collections Framework.
 - [Protobuf](https://github.com/protocolbuffers/protobuf) - Google's data interchange format.
+- [RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) - Fast and efficient compressed bitmap.
 - [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
 - [Tape](https://github.com/square/tape) - Lightning-fast, transactional, file-based FIFO.
 - [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
