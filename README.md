@@ -434,6 +434,7 @@ _Libraries to create modern graphical user interfaces._
 
 - [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main) - Successor of Swing.
 - [Scene Builder](https://gluonhq.com/products/scene-builder/) - Visual layout tool for JavaFX applications.
+- [scene2d.ui](https://github.com/libgdx/libgdx/wiki/Scene2d.ui) - OpenGL-based GUI toolkit for desktop/web/mobile. 
 - [SWT](https://www.eclipse.org/swt/) - Graphical widget toolkit.
 
 ### High Performance
