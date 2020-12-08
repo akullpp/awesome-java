@@ -199,11 +199,11 @@ _Frameworks that help to create parsers, interpreters or compilers._
 
 ### Computer Vision
 
-_Libraries which seek to gain high level information from images and videos_
+_Libraries which seek to gain high level information from images and videos._
 
-- [BoofCV](https://boofcv.org) - Libray for image processing, camera calibration, tracking, SFM, MVS, 3D vision, QR Code, Android, ... etc.
-- [ImageJ](https://imagej.net/ImageJ) - Opensource medical image processing application and API.
-- [JavaCV](https://github.com/bytedeco/javacv) - Java interface to OpenCV, FFmpeg, and more.
+- [BoofCV](https://boofcv.org) - Libray for image processing, camera calibration, tracking, SFM, MVS, 3D vision, QR Code and much more.
+- [ImageJ](https://imagej.net/ImageJ) - Medical image processing application with an API.
+- [JavaCV](https://github.com/bytedeco/javacv) - Java interface to OpenCV, FFmpeg, and much more.
 
 ### Configuration
 
