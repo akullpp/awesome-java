@@ -644,6 +644,7 @@ _Everything else._
 - [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 - [Joda-Money](https://www.joda.org/joda-money/) - Basic currency and money classes and algorithms not provided by the JDK.
 - [JPad](http://jpad.io) - Snippet runner.
+- [jsweet](https://github.com/cincheo/jsweet) - Source transpiler to TypeScript/JavaScript.
 - [Maven Wrapper](https://github.com/takari/maven-wrapper) - Analogue of Gradle Wrapper for Maven, allows building projects without installing maven.
 - [Membrane Service Proxy](https://github.com/membrane/service-proxy) - Open-source, reverse-proxy framework.
 - [MinimalFTP](https://github.com/Guichaguri/MinimalFTP) - Lightweight, small and customizable FTP server.
