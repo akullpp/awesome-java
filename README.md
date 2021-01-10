@@ -419,8 +419,10 @@ _Libraries that facilitate functional programming._
 _Frameworks that support the development of games._
 
 - [FXGL](https://almasb.github.io/FXGL/) - JavaFX Game Development Framework.
+- [JBox2D](http://www.jbox2d.org/) - Port of the renowned C++ 2D physics engine.
 - [jMonkeyEngine](https://jmonkeyengine.org) - Game engine for modern 3D development.
-- [libGDX](https://libgdx.badlogicgames.com) - All-round cross-platform, high-level framework.
+- [libGDX](https://libgdx.com) - All-round cross-platform, high-level framework.
+- [Litiengine](https://litiengine.com/) - AWT-based, lightweight 2D game engine.
 - [LWJGL](https://www.lwjgl.org) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 - [Mini2Dx](https://mini2dx.org) - Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.
 
