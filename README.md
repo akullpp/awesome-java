@@ -66,6 +66,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Security](#security)
   - [Serialization](#serialization)
   - [Server](#server)
+  - [Technical Analysis](#techincal-analysis)
   - [Template Engine](#template-engine)
   - [Testing](#testing)
   - [Utility](#utility)
@@ -954,6 +955,13 @@ _Servers specifically used to deploy applications._
 - [Jetty](https://www.eclipse.org/jetty/) - Provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
 - [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server.
 - [WildFly](https://www.wildfly.org) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support. (LGPL-2.1-only)
+
+### Technical Analysis
+
+_Tools used for Technical Analysis of Financial Data_
+
+- [ta4j](https://github.com/ta4j/ta4j) - Ta4j is an open source library for technical analysis. It provides the basic components for creation, evaluation and execution of trading strategies.
+- [TA-Lib](https://ta-lib.org/) - TA-Lib is widely used by trading software developers requiring to perform technical analysis of financial market data.
 
 ### Template Engine
 
