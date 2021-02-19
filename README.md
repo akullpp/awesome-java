@@ -144,6 +144,7 @@ _Libraries for everything related to the CLI._
 - [picocli](https://picocli.info) - ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
+- [SimpleLocalize](https://github.com/simplelocalize/simplelocalize-cli) - Handle i18n and message_{lang}.properties files.
 
 ### Cluster Management
 
