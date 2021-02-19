@@ -922,7 +922,7 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Apache Shiro](https://shiro.apache.org) - Performs authentication, authorization, cryptography and session management.
 - [Bouncy Castle](https://www.bouncycastle.org/java.html) - All-purpose cryptographic library and JCA provider offering a wide range of functions, from basic helpers to PGP/SMIME operations.
 - [Cryptomator](https://cryptomator.org) - Multiplatform, transparent, client-side encryption of files in the cloud. (GPL-3.0-only)
-- [Gatekeeper](https://github.com/Hakky54/gatekeeper) - Guards your publicly accessible internal implementations from being used by library users
+- [Gatekeeper](https://github.com/Hakky54/gatekeeper) - Guards your publicly accessible internal implementations from being used by library users.
 - [Hdiv](https://github.com/hdiv/hdiv) - Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.
 - [jjwt](https://github.com/jwtk/jjwt) - JSON web token for Java and Android.
 - [Jwks RSA](https://github.com/auth0/jwks-rsa-java) - JSON Web Key Set parser.
