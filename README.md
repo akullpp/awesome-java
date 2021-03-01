@@ -930,6 +930,7 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Keywhiz](https://github.com/square/keywhiz) - System for distributing and managing secrets.
 - [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) - Advanced password strength estimation.
 - [OACC](http://oaccframework.org) - Provides permission-based authorization services.
+- [OTP-Java](https://github.com/BastiaanJansen/OTP-Java) - One-time password generator library according to RFC 4226 (HOTP) and RFC 6238 (TOTP).
 - [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 - [Password4j](https://github.com/Password4j/password4j) - User-friendly cryptographic library that supports Argon2, Bcrypt, Scrypt, PBKDF2 and various other cryptographic hash functions.
 - [SecurityBuilder](https://github.com/tersesystems/securitybuilder) - Fluent Builder API for JCA and JSSE classes and especially X.509 certificates.
