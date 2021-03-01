@@ -389,6 +389,7 @@ _Libraries related to the financial domain._
 - [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency financial information exchange.
 - [Square](https://github.com/square/connect-java-sdk) - Integration with the Square API.
 - [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API.
+- [ta4j](https://github.com/ta4j/ta4j) - Library for technical analysis.
 
 ### Formal Verification
 
