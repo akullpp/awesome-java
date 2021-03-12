@@ -745,6 +745,7 @@ _APIs that handle the persistence of objects._
 - [MyBatis](https://github.com/mybatis/mybatis-3) - Couples objects with stored procedures or SQL statements.
 - [Permazen](https://github.com/permazen/permazen) - Language-natural persistence layer.
 - [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) - Simple database and CSV mapper.
+- [ObjectiveSql](https://github.com/braisdom/ObjectiveSql) - ObjectiveSQL is an ORM framework in Java based on ActiveRecord pattern, which encourages rapid development and clean, codes with the least and convention over configuration.
 
 ### PaaS
 
