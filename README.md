@@ -665,6 +665,7 @@ _Everything else._
 - [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 - [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Processes XML by using annotations or XPath within code.
 - [yGuard](https://github.com/yWorks/yGuard) - Obfuscation via renaming and shrinking.
+- [DevProjects](https://www.codementor.io/projects/java) - Free community with Java projects to learn Java or help others learn.
 
 ### Mobile Development
 
