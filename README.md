@@ -72,6 +72,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Version Managers](#version-managers)
   - [Web Crawling](#web-crawling)
   - [Web Frameworks](#web-frameworks)
+  - [Workflow Orchestration Engines](#workflow-orchestration-engines)
 - [Resources](#resources)
   - [Awesome Lists](#awesome-lists)
   - [Communities](#communities)
@@ -1112,6 +1113,11 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [Ratpack](https://ratpack.io) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
 - [Vaadin](https://vaadin.com) - Event-driven framework that uses standard web components. Server-side architecture with Ajax on the client side.
+
+### Workflow Orchestration Engines
+
+- [Cadence](https://cadenceworkflow.io) - Stateful code platform from Uber.
+- [Temporal](https://temporal.io) - Microservice orchestration platform, forked from Cadence but gRPC based.
 
 ## Resources
 
