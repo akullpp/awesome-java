@@ -181,6 +181,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 
 - [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 - [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
+- [Bootify ![c]](https://bootify.io) - Browser-based Spring Boot app generation with JPA model and REST API.
 - [FreeBuilder](https://github.com/inferred/FreeBuilder) - Automatically generates the Builder pattern.
 - [Immutables](https://immutables.github.io) - Annotation processors to generate simple, safe and consistent value objects.
 - [JavaPoet](https://github.com/square/javapoet) - API to generate source files.
