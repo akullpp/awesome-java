@@ -719,6 +719,7 @@ _Libraries that specialize in processing text._
 
 _Libraries for building network servers._
 
+- [Commons-networking](https://github.com/CiscoSE/commons-networking) - Client for server-sent events (SSE).
 - [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
 - [Dubbo](https://github.com/apache/dubbo) - High-performance RPC framework.
 - [Grizzly](https://javaee.github.io/grizzly/) - NIO framework. Used as a network layer in Glassfish.
