@@ -971,6 +971,7 @@ _Tools that substitute expressions in a template._
 - [Jtwig](https://github.com/jtwig/jtwig) - Modular, configurable and fully tested template engine.
 - [Pebble](https://pebbletemplates.io) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
 - [Rocker](https://github.com/fizzed/rocker) - Optimized, memory efficient and speedy template engine producing statically typed, plain objects.
+- [StringTemplate](https://github.com/antlr/stringtemplate4) - Template engine for generating source code, web pages, emails, or any other formatted text output.
 - [Thymeleaf](https://www.thymeleaf.org) - Aims to be a substitute for JSP and works for XML files.
 
 ### Testing
