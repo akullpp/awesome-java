@@ -282,6 +282,7 @@ _Everything that simplifies interactions with the database._
 - [MapDB](http://www.mapdb.org) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 - [MariaDB4j](https://github.com/vorburger/MariaDB4j) - Launcher for MariaDB that requires no installation or external dependencies.
 - [Modality](https://github.com/arkanovicz/modality) - Lightweight ORM with database reverse engineering features.
+- [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions) - Allows you to use MongoDB query language to query your relational database.
 - [Trino](https://trino.io) - Distributed SQL query engine for big data.
 - [QueryStream](https://github.com/querystream/querystream) - Build JPA Criteria queries using a Stream-like API.
 - [Querydsl](http://www.querydsl.com) - Typesafe unified queries.
