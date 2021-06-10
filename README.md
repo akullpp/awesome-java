@@ -53,6 +53,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Native](#native)
   - [Natural Language Processing](#natural-language-processing)
   - [Networking](#networking)
+  - [OAuth](#oauth) 
   - [ORM](#orm)
   - [PaaS](#paas)
   - [PDF](#pdf)
@@ -634,6 +635,7 @@ _Tools for creating and managing microservices._
 - [Nacos](https://nacos.io) - Dynamic service discovery, configuration and service management platform for building cloud native applications.
 - [Quarkus](https://quarkus.io) - Kubernetes stack tailored for the HotSpot and Graal VM.
 - [Sentinel](https://github.com/alibaba/Sentinel) - Flow control component enabling reliability, resilience and monitoring for microservices.
+- [Grails](https://grails.org/) - A powerful Groovy-based web application framework for the JVM built on top of Spring Boot.
 
 ### Miscellaneous
 
@@ -734,6 +736,12 @@ _Libraries for building network servers._
 - [TLS Channel](https://github.com/marianobarrios/tls-channel) - Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.
 - [Undertow](http://undertow.io) - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly. (LGPL-2.1-only)
 - [urnlib](https://github.com/slub/urnlib) - Represent, parse and encode URNs, as in RFC 2141. (GPL-3.0-only)
+
+### OAuth
+
+_OAuth frameworks to get access to protected data from an application._
+
+- [Keycloak](https://www.keycloak.org/) - Open source Identity and Access Management for modern applications and services.
 
 ### ORM
 
