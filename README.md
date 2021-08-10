@@ -962,6 +962,7 @@ _Servers specifically used to deploy applications._
 - [Apache TomEE](https://tomee.apache.org) - Tomcat plus Java EE.
 - [Jetty](https://www.eclipse.org/jetty/) - Provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
 - [nanohttpd](https://github.com/NanoHttpd/nanohttpd) - Tiny, easily embeddable HTTP server.
+- [Tommy](https://github.com/xnbox/tommy) - Apache Tomcat bundled as single executable jar that allows to run or embed custom apps.
 - [WildFly](https://www.wildfly.org) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support. (LGPL-2.1-only)
 
 ### Template Engine
