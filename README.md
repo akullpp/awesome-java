@@ -387,6 +387,7 @@ _Libraries that assist with processing office document formats._
 
 _Libraries related to the financial domain._
 
+- [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot) - Trading bot framework.
 - [Parity](https://github.com/paritytrading/parity) - Platform for trading venues.
 - [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency financial information exchange.
 - [Square](https://github.com/square/connect-java-sdk) - Integration with the Square API.
