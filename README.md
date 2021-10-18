@@ -1203,8 +1203,6 @@ _Active accounts to follow. Descriptions from Twitter._
 - [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
 - [Java](https://twitter.com/java) - Official Java Twitter account.
 - [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
-- [Jean-Michel Doudoux](https://twitter.com/jmdoudoux) - Java Champion, CTO of Oxiane.
-- [José Paumard](https://twitter.com/JosePaumard) - Java Advocate at Java Platform Group at Oracle, Java Champion Alumni, JavaOne Rockstar.
 - [Josh Long](https://twitter.com/starbuxman) - Spring Advocate at Pivotal, author of O'Reilly's Cloud Native Java- and Building Microservices with Spring Boot, JavaOne Rock Star.
 - [Lukas Eder](https://twitter.com/lukaseder) - Java Champion, speaker, Founder and CEO Data Geekery (jOOQ).
 - [Mani Sarkar](https://twitter.com/theNeomatrix369) - Java champion, Polyglot, Software Crafter involved with @graalvm, AI/ML/DL, Data Science, Developer communities, speaker & blogger. Creator of couple of awesome lists like this one.
@@ -1226,6 +1224,10 @@ _Active accounts to follow. Descriptions from Twitter._
 - [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
 - [Venkat Subramaniam](https://twitter.com/venkat_s) - Author, University of Houston professor, MicroSoft MVP award recipient, JavaOne Rock Star, Java Champion.
 - [Vlad Mihalcea](https://twitter.com/vlad_mihalcea) - Java Champion working on Hypersistence Optimizer, database aficionado, author of High-Performance Java Persistence book.
+
+### Java Champion
+
+- [Java Champions list](https://apexapps.oracle.com/pls/apex/f?p=119297:3::::::)
 
 ### Websites
 
