@@ -263,7 +263,7 @@ _Everything that simplifies interactions with the database._
 - [Apache Calcite](https://calcite.apache.org) - Dynamic data management framework. It contains many of the pieces that comprise a typical database management system.
 - [Apache Drill](https://drill.apache.org) - Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration.
 - [Apache Phoenix](https://phoenix.apache.org) - High-performance relational database layer over HBase for low-latency applications.
-- [AranoDB](https://github.com/arangodb/arangodb-java-driver) - ArangoDB Java driver.
+- [ArangoDB](https://github.com/arangodb/arangodb-java-driver) - ArangoDB Java driver.
 - [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) - Efficient, in-memory (opt. persisted to disk), off-heap key-value store.
 - [Debezium](https://debezium.io/) - Low latency data streaming platform for change data capture.
 - [druid](https://druid.apache.org) - High-performance, column-oriented, distributed data store.
