@@ -974,7 +974,7 @@ _Servers specifically used to deploy applications._
 _Tools that substitute expressions in a template._
 
 - [Freemarker](https://freemarker.apache.org) - Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.
-- [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
+- [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
 - [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
 - [Jamal](https://github.com/verhas/jamal) - Embeddable and extendable template engine embedded into Maven, JavaDoc, and supporting extensions to include Groovy, Ruby, JavaScript, JShell, PlantUml etc. Also supports snippet handling.
 - [jte](https://github.com/casid/jte) - Compiles to classes, and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.
