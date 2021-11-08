@@ -74,12 +74,12 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Web Frameworks](#web-frameworks)
   - [Workflow Orchestration Engines](#workflow-orchestration-engines)
 - [Resources](#resources)
-  - [Awesome Lists](#awesome-lists)
+  - [Related Awesome Lists](#awesome-lists)
   - [Communities](#communities)
   - [Frontends](#frontends)
   - [Influential Books](#influential-books)
   - [Podcasts and Screencasts](#podcasts-and-screencasts)
-  - [Twitter](#twitter)
+  - [People](#people)
   - [Websites](#websites)
 
 ## Projects
@@ -1135,9 +1135,9 @@ _Frameworks that handle the communication between the layers of a web applicatio
 
 ## Resources
 
-### Awesome Lists
+### Related Awesome Lists
 
-_Awesome lists related to the Java & JVM ecosystem._
+_Awesome Lists related to the Java & JVM ecosystem._
 
 - [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Graal](https://github.com/neomatrix369/awesome-graal)
@@ -1186,7 +1186,9 @@ _Something to look at or listen to while programming._
 - [The Java Council](https://virtualjug.com/#podcast)
 - [The Java Posse](http://www.javaposse.com) - Discontinued as of 02/2015.
 
-### Twitter
+### People
+
+#### Twitter
 
 _Active accounts to follow. Descriptions from Twitter._
 
@@ -1227,6 +1229,10 @@ _Active accounts to follow. Descriptions from Twitter._
 - [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
 - [Venkat Subramaniam](https://twitter.com/venkat_s) - Author, University of Houston professor, MicroSoft MVP award recipient, JavaOne Rock Star, Java Champion.
 - [Vlad Mihalcea](https://twitter.com/vlad_mihalcea) - Java Champion working on Hypersistence Optimizer, database aficionado, author of High-Performance Java Persistence book.
+
+#### Other
+
+- [Groundbreakers](https://apexapps.oracle.com/pls/apex/f?p=119297:3::::::) - Oracle ACEs, Groundbreaker Ambassadors and Java Champions.
 
 ### Websites
 
