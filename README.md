@@ -183,6 +183,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
 - [Bootify ![c]](https://bootify.io) - Browser-based Spring Boot app generation with JPA model and REST API.
 - [FreeBuilder](https://github.com/inferred/FreeBuilder) - Automatically generates the Builder pattern.
+- [Geci](https://github.com/verhas/javageci) - Discovers files that need generated code, updates automatically and writes to the source with a convenient API. 
 - [Immutables](https://immutables.github.io) - Annotation processors to generate simple, safe and consistent value objects.
 - [JavaPoet](https://github.com/square/javapoet) - API to generate source files.
 - [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
@@ -976,7 +977,8 @@ _Tools that substitute expressions in a template._
 - [Freemarker](https://freemarker.apache.org) - Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.
 - [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
 - [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
-- [jte](https://github.com/casid/jte) - Compiles to classes and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.
+- [Jamal](https://github.com/verhas/jamal) - Extendable template engine embedded into Maven/JavaDoc, supporting multiple extensions (Groovy, Ruby, JavaScript, JShell, PlantUml) with support for snippet handling.
+- [jte](https://github.com/casid/jte) - Compiles to classes, and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.
 - [Jtwig](https://github.com/jtwig/jtwig) - Modular, configurable and fully tested template engine.
 - [Pebble](https://pebbletemplates.io) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
 - [Rocker](https://github.com/fizzed/rocker) - Optimized, memory efficient and speedy template engine producing statically typed, plain objects.
