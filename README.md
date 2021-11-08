@@ -384,12 +384,6 @@ _Libraries that assist with processing office document formats._
 - [fastexcel](https://github.com/dhatim/fastexcel) - High performance library to read and write large Excel (XLSX) worksheets.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
 
-### Error Reporting
-
-_Libraries that assist with error reporting and analysis._
-
-- [Sentry](https://github.com/getsentry/sentry-java) - Java SDK for seamless integration with [Sentry](https://github.com/getsentry/sentry) - application error tracking and performance analysis platform.
-
 ### Financial
 
 _Libraries related to the financial domain._
