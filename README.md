@@ -936,6 +936,7 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Cryptomator](https://cryptomator.org) - Multiplatform, transparent, client-side encryption of files in the cloud. (GPL-3.0-only)
 - [Hdiv](https://github.com/hdiv/hdiv) - Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.
 - [jjwt](https://github.com/jwtk/jjwt) - JSON web token for Java and Android.
+- [jwt-java](https://github.com/BastiaanJansen/jwt-java) - JSON Web Token implementation for Java according to RFC 7519. Easily create, parse and validate JSON Web Tokens using a fluent API.
 - [Jwks RSA](https://github.com/auth0/jwks-rsa-java) - JSON Web Key Set parser.
 - [Kalium](https://github.com/abstractj/kalium) - Binding for the Networking and Cryptography (NaCl) library.
 - [Keycloak](https://www.keycloak.org) - Integrated SSO and IDM for browser apps and RESTful web services.
