@@ -158,7 +158,7 @@ _可以动态管理集群内应用程序的框架。_
 _提供指标和质量测量的工具。_
 
 - [Checkstyle](https://github.com/checkstyle/checkstyle) - 编码约定和标准的静态分析。 （LGPL-2.1 或更高版本）
-- [容易出错](https://github.com/google/error-prone) - 将常见的编程错误捕获为编译时错误。
+- [Error Prone](https://github.com/google/error-prone) - 将常见的编程错误捕获为编译时错误。
 - [Infer](https://github.com/facebook/infer) - 用于验证代码正确性的现代静态分析工具。
 - [jQAssistant](https://jqassistant.org) - 使用基于 Neo4J 的查询语言进行静态代码分析。 （仅限 GPL-3.0）
 - [NullAway](https://github.com/uber/NullAway) - 以低构建时间开销消除 NullPointerExceptions。
@@ -175,10 +175,10 @@ _为测试套件启用代码覆盖率指标收集的框架和工具。_
 - [Clover](https://www.atlassian.com/software/clover) - 依赖源代码检测而不是字节码检测。
 - [Cobertura](https://cobertura.github.io/cobertura/) - 依靠离线（或静态）字节码检测和类加载来收集代码覆盖率指标。 （仅限 GPL-2.0）
 - [JaCoCo](https://www.eclemma.org/jacoco/) - 支持收集代码覆盖率指标的框架，使用离线和运行时字节码检测。
--
+
 ### 代码生成器
 
-_为重复代码生成模式以减少冗长和容易出错的工具。_
+_生成重复代码的工具，可以有效减少代码量和错误._
 
 - [ADT4J](https://github.com/sviperll/adt4j) - 代数数据类型的 JSR-269 代码生成器。
 - [Auto](https://github.com/google/auto) - 生成工厂、服务和值类。
@@ -222,7 +222,7 @@ _提供外部配置的库。_
 - [ini4j](http://ini4j.sourceforge.net) - 提供处理 Windows 的 INI 文件的 API。
 - [KAConf](https://github.com/mariomac/kaconf) - 基于注解的 Java 和 Kotlin 配置系统。
 - [microconfig](https://microconfig.io) - 为微服务设计的配置系统，有助于将配置与代码分离。不同服务的配置可以有共同的和特定的部分，并且可以动态分布。
-- [所有者](https://github.com/lviggiano/owner) - 减少属性的样板。
+- [owner](https://github.com/lviggiano/owner) - 减少属性的样板。
 
 ### 约束满足问题求解器
 
@@ -344,7 +344,7 @@ _用于编写分布式和容错应用程序的库和框架。_
 - [Apache ZooKeeper](https://zookeeper.apache.org) - 为大型分布式系统提供分布式配置、同步和命名注册表的协调服务。
 - [Atomix](https://atomix.io) - 容错分布式协调框架。
 - [Axon](https://axoniq.io) - 创建 CQRS 应用程序的框架。
-- [Dropwizard 断路器](https://github.com/mtakaki/dropwizard-circuitbreaker) - Dropwizard 的断路器设计模式。 （仅限 GPL-2.0）
+- [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Dropwizard 的断路器设计模式。 （仅限 GPL-2.0）
 - [Failsafe](https://github.com/jhalterman/failsafe) - 使用重试和断路器进行简单的故障处理。
 - [Hazelcast](https://github.com/hazelcast/hazelcast) - 具有免费开源版本的高度可扩展的内存数据网格。
 - [JGroups](http://www.jgroups.org) - 用于可靠消息传递和集群创建的工具包。
@@ -369,7 +369,7 @@ _以原生格式处理应用程序分发的工具。_
 - [Artipie](https://github.com/artipie/artipie) - 将它们托管在文件系统或 S3 上的二进制工件管理工具包。
 - [Boxfuse ![c]](https://boxfuse.com) - 使用不可变基础设施的原则将 JVM 应用程序部署到 AWS。
 - [Capsule](https://github.com/puniverse/capsule) - 简单强大的打包部署。类固醇上的胖 JAR，或支持 JVM 优化容器的“Docker for Java”。
-- [中央存储库](https://search.maven.org) - 最大的二进制组件存储库，作为开源社区的免费服务提供。 Apache Maven 使用的默认值，并且在所有其他构建工具中都可用。
+- [Central Repository ](https://search.maven.org) - 最大的二进制组件存储库，作为开源社区的免费服务提供。 Apache Maven 使用的默认值，并且在所有其他构建工具中都可用。
 - [Cloudsmith ![c]](https://cloudsmith.io) - 完全托管的包管理 SaaS，支持 Maven/Gradle/SBT 并提供免费套餐。
 - [Getdown](https://github.com/threerings/getdown) - 用于将 Java 应用程序部署到最终用户计算机并使其保持最新状态的系统。作为 Java Web Start 的替代品而开发。
 - [IzPack](http://izpack.org) - 为跨平台部署设置创作工具。
@@ -487,7 +487,7 @@ _帮助创建 HTTP 请求和/或绑定响应的库。_
 
 ### 超媒体类型
 
-处理超媒体类型序列化的库。_
+_处理超媒体类型序列化的库。_
 
 - [hate](https://github.com/blackdoor/hate) - 根据 HAL 规范构建对超媒体友好的对象。
 - [JSON-LD](https://github.com/jsonld-java/jsonld-java) - JSON-LD 实现。
@@ -495,7 +495,7 @@ _帮助创建 HTTP 请求和/或绑定响应的库。_
 
 ### IDE
 
-_Integrated development environments that try to simplify several aspects of development._
+_简化部分开发的集成开发环境。._
 
 - [Eclipse](https://www.eclipse.org) - 建立了支持大量插件和语言的开源项目。
 - [IntelliJ IDEA ![c]](https://www.jetbrains.com/idea/) - 支持多种 JVM 语言，为 Android 开发提供了不错的选择。 商业版面向企业部门。
@@ -1246,6 +1246,6 @@ _这些网站值得阅读._
 
 热烈欢迎进行贡献!
 
-请先看 [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) 引导 和 [the validation tools](https://github.com/akullpp/awesome-java-lint).
+请先看 [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) 引导 和 [验证工具](https://github.com/akullpp/awesome-java-lint).
 
 [c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg
