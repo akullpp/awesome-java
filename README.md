@@ -1,5 +1,7 @@
 # Awesome Java [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+Read in different language : [en](README.md),[zh](README_zh.md)
+
 A curated list of awesome Java frameworks, libraries and software.
 
 ## Contents

@@ -1,5 +1,7 @@
 # Awesome Java [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+读不同语言的版本 : [en](README.md),[zh](README_zh.md)
+
 Java 框架、库和软件的精选列表
 
 ## 目录
