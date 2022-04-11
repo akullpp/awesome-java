@@ -1260,6 +1260,7 @@ _Sites to read._
 - [TheServerSide.com](http://www.theserverside.com)
 - [Vanilla Java](https://vanilla-java.github.io)
 - [Voxxed](https://www.voxxed.com)
+- [Scaler Topics](https://www.scaler.com/topics/)
 
 ## Contributing
 
