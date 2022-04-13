@@ -398,6 +398,7 @@ _Libraries related to the financial domain._
 - [Square](https://github.com/square/connect-java-sdk) - Integration with the Square API.
 - [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API.
 - [ta4j](https://github.com/ta4j/ta4j) - Library for technical analysis.
+- [Jpos](https://github.com/jpos/jPOS) - Framework for ISO 8583 based transactions (credit/debit card).
 
 ### Formal Verification
 
