@@ -1185,6 +1185,7 @@ _Books that made a big impact and are still worth reading._
 
 _Something to look at or listen to while programming._
 
+- [140 Second Ducklings](https://twitter.com/debugagent/status/1491075324805001219?s=20&t=pJat2j-HN-iRfY3CY5f6qQ) - Short videos on Twitter explaining Java debugging in depth.
 - [A Bootiful Podcast](https://bootifulpodcast.fm)
 - [Inside Java](https://inside.java/podcast) (Official)
 - [Java Off Heap](http://www.javaoffheap.com)
