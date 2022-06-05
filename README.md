@@ -100,6 +100,7 @@ _Frameworks that ease bean mapping._
 
 _Tools that handle the build cycle and dependencies of an application._
 
+- [Apache Ant](https://ant.apache.org/) - One of the first java build and dependency management tools
 - [Apache Maven](https://maven.apache.org) - Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain.
 - [Bazel](https://bazel.build) - Tool from Google that builds code quickly and reliably.
 - [Buck](https://github.com/facebook/buck) - Encourages the creation of small, reusable modules consisting of code and resources.
@@ -115,6 +116,7 @@ _Libraries to manipulate bytecode programmatically._
 - [Byteman](https://byteman.jboss.org) - Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting. (LGPL-2.1-or-later)
 - [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
 - [Javassist](https://github.com/jboss-javassist/javassist) - Tries to simplify bytecode editing.
+- [Maker](https://github.com/cojen/maker) - Provides low level bytecode generation
 - [Mixin](https://github.com/SpongePowered/Mixin) - Manipulate bytecode at runtime using real Java code.
 - [Perses](https://github.com/nicolasmanic/perses) - Dynamically injects failure/latency at the bytecode level according to principles of chaos engineering.
 
