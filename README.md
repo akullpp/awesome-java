@@ -478,6 +478,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 - [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 - [Feign](https://github.com/OpenFeign/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 - [Google HTTP Client](https://github.com/googleapis/google-http-java-client) - Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.
+- [OkHttp](https://square.github.io/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
 - [methanol](https://github.com/mizosoft/methanol) - HTTP client extensions library.
 - [restQL-java](https://github.com/b2wdigital/restQL-java) - Microservice query language that fetches information from multiple services.
 - [Retrofit](https://square.github.io/retrofit/) - Typesafe REST client.
