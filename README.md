@@ -981,6 +981,7 @@ _Servers specifically used to deploy applications._
 
 _Tools that substitute expressions in a template._
 
+- [Apache Velocity](https://velocity.apache.org/) - Velocity is template engine, permitting anyone to use a simple yet powerful template language to reference objects defined in Java code.
 - [Freemarker](https://freemarker.apache.org) - Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.
 - [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
 - [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
