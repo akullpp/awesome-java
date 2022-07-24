@@ -199,6 +199,7 @@ _Frameworks that help to create parsers, interpreters or compilers._
 - [ANTLR](https://www.antlr.org) - Complex full-featured framework for top-down parsing.
 - [JavaCC](https://javacc.github.io/javacc/) - Parser generator that generates top-down parsers. Allows lexical state switching and permits extended BNF specifications.
 - [JFlex](https://jflex.de) - Lexical analyzer generator.
+- [Xtext](https://www.eclipse.org/Xtext/) - Xtext is a framework for development of programming languages and domain-specific languages.
 
 ### Computer Vision
 
