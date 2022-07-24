@@ -263,6 +263,7 @@ _Efficient and specific data structures._
 _Everything that simplifies interactions with the database._
 
 - [Apache Calcite](https://calcite.apache.org) - Dynamic data management framework. It contains many of the pieces that comprise a typical database management system.
+- [Apache Cassandra](https://cassandra.apache.org/) - Cassandra is a distributed high-performance, non-relational database management system.
 - [Apache Drill](https://drill.apache.org) - Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration.
 - [Apache Phoenix](https://phoenix.apache.org) - High-performance relational database layer over HBase for low-latency applications.
 - [ArangoDB](https://github.com/arangodb/arangodb-java-driver) - ArangoDB Java driver.
