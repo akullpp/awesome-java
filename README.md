@@ -1158,6 +1158,7 @@ _Awesome Lists related to the Java & JVM ecosystem._
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
 - [Java Concurrency Checklist](https://github.com/code-review-checklists/java-concurrency)
 - [Java Developer Roadmap](https://github.com/s4kibs4mi/java-developer-roadmap)
+- [Explore Java](https://kandi.openweaver.com/explore/java) - Discover & find a curated list of popular & new libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi
 
 ### Communities
 
