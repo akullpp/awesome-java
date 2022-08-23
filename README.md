@@ -162,10 +162,12 @@ _Tools that provide metrics and quality measurements._
 - [jQAssistant](https://jqassistant.org) - Static code analysis with Neo4J-based query language. (GPL-3.0-only)
 - [NullAway](https://github.com/uber/NullAway) - Eliminates NullPointerExceptions with low build-time overhead.
 - [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
+- [p3c](https://github.com/alibaba/p3c) - Provide Java coding guidelines by installing a plugin in IntelliJ IDEA.
 - [SonarJava](https://github.com/SonarSource/sonar-java) - Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
 - [Spoon](https://github.com/INRIA/spoon) - Library for analyzing and transforming Java source code.
 - [Spotbugs](https://github.com/spotbugs/spotbugs) - Static analysis of bytecode to find potential bugs. (LGPL-2.1-only)
-- [p3c](https://github.com/alibaba/p3c) - Provide Java coding guidelines by installing a plugin in IntelliJ IDEA
+
+
 ### Code Coverage
 
 _Frameworks and tools that enable code coverage metrics collection for test suites._
