@@ -650,6 +650,7 @@ _Tools for creating and managing microservices._
 _Everything else._
 
 - [CQEngine](https://github.com/npgall/cqengine) - Ultra-fast, SQL-like queries on Java collections.
+- [Deezpatch](https://github.com/joeljeremy7/deezpatch) - A simple and performant dispatch library for decoupling messages (requests and events) from message handlers.
 - [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
 - [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) - No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes. (No explicit license)
