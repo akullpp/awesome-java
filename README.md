@@ -1134,6 +1134,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [Ratpack](https://ratpack.io) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
 - [Vaadin](https://vaadin.com) - Event-driven framework that uses standard web components. Server-side architecture with Ajax on the client side.
+- [ZK](https://www.zkoss.org) - Server centric, event-driven and component based open source framework for rapid development with ready-to-use themes and 200+ components for building enterprise web and mobile apps offering free and commercial versions.
 
 ### Workflow Orchestration Engines
 
