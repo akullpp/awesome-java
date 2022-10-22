@@ -1029,7 +1029,7 @@ _Everything related to the creation and handling of random data._
 - [jFairy](https://github.com/Devskiller/jfairy) - Fake data generator.
 - [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
 - [Java Faker](https://github.com/DiUS/java-faker) - Port of Ruby's fake data generator.
-- [Mockneat](https://github.com/nomemory/mockneat) - Mockneat Maven Central Build Status codecov is an arbitrary data-generator open-source library written in Java
+- [Mockneat](https://github.com/nomemory/mockneat) - Another fake data generator.
 
 #### Frameworks
 
