@@ -436,6 +436,7 @@ _Frameworks that support the development of games._
 - [Litiengine](https://litiengine.com/) - AWT-based, lightweight 2D game engine.
 - [LWJGL](https://www.lwjgl.org) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 - [Mini2Dx](https://mini2dx.org) - Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.
+- [Void2D](https://github.com/xzripper/Void2D) - High-level 2D game engine with built-in physics based on Swing.
 
 ### Geospatial
 
