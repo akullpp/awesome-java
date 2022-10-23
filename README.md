@@ -873,6 +873,7 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 - [Light-4J](https://github.com/networknt/light-4j/) - Fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2/).
 - [Orienteer](https://github.com/OrienteerBAP/Orienteer/) - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
 - [Spring](https://spring.io/projects/) - Provides many packages for dependency injection, aspect-oriented programming, security, etc.
+- [tinystruct](https://github.com/tinystruct/tinystruct/) - A simple Java development framework that can help you to create applications with modularity and support both CLI and web.
 
 ### Processes
 
