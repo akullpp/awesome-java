@@ -1257,6 +1257,7 @@ _Sites to read._
 
 - [Baeldung](https://www.baeldung.com)
 - [Dzone](https://dzone.com)
+- [Explore Java](https://kandi.openweaver.com/explore/java)
 - [foojay.io](https://foojay.io)
 - [Google Java Style](https://google.github.io/styleguide/javaguide.html)
 - [InfoQ](https://www.infoq.com)
