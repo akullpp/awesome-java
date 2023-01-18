@@ -1093,6 +1093,7 @@ _Libraries which provide general utility functions._
 - [Arthas](https://github.com/alibaba/arthas) - Allows to troubleshoot production issues for applications without modifying code or restarting servers.
 - [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) - Rate limiting library based on token-bucket algorithm.
 - [cactoos](https://github.com/yegor256/cactoos) - Collection of object-oriented primitives.
+- [Chocotea](https://github.com/cleopatra27/chocotea) - Generates postman collection, environment and integration tests from java code.
 - [CRaSH](http://www.crashub.org) - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others. (LGPL-2.1-or-later)
 - [Dex](https://github.com/PatMartin/Dex) - Java/JavaFX tool capable of powerful ETL and data visualization.
 - [Embulk](https://github.com/embulk/embulk) - Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
@@ -1106,7 +1107,6 @@ _Libraries which provide general utility functions._
 - [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3-compatible object storage server.
 - [Protégé](https://protege.stanford.edu) - Provides an ontology editor and a framework to build knowledge-based systems.
 - [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
-- [Chocotea](https://github.com/cleopatra27/chocotea) - Generates postman collection, environment and integration tests from java code.
 
 ### Version Managers
 
