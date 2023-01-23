@@ -276,7 +276,7 @@ _Everything that simplifies interactions with the database._
 - [Flyway](https://flywaydb.org) - Simple database migration tool.
 - [H2](https://h2database.com) - Small SQL database notable for its in-memory functionality.
 - [HikariCP](https://github.com/brettwooldridge/HikariCP) - High-performance JDBC connection pool.
-- [HSQLDB](https://hsqldb.org/) - HyperSQL 100% Java database. 
+- [HSQLDB](https://hsqldb.org/) - HyperSQL 100% Java database.
 - [JDBI](http://jdbi.org) - Convenient abstraction of JDBC.
 - [Jedis](https://github.com/xetorthio/jedis) - Small client for interaction with Redis, with methods for commands.
 - [Jest](https://github.com/searchbox-io/Jest) - Client for the Elasticsearch REST API.
@@ -516,7 +516,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
 - [Thumbnailator](https://github.com/coobird/thumbnailator) - High-quality thumbnail generation library.
 - [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins that extend the number of supported image file formats.
 - [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
-- [image-comparison](https://github.com/romankh3/image-comparison) - Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison. Can be used for automation qa tests.
+- [image-comparison](https://github.com/romankh3/image-comparison) - Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison.
 
 ### Introspection
 
@@ -644,8 +644,12 @@ _Tools for creating and managing microservices._
 - [consul-api](https://github.com/Ecwid/consul-api) - Client for the Consul API: a distributed, highly available and datacenter-aware registry/discovery service.
 - [Eureka](https://github.com/Netflix/eureka) - REST-based service registry for resilient load balancing and failover.
 - [Helidon](https://helidon.io) - Two-style approach for writing microservices: Functional-reactive and as an implementation of MicroProfile.
+- [JDA](https://github.com/DV8FromTheWorld/JDA) - Wrapping of the Discord REST API and its WebSocket events.
+- [KeenType](https://github.com/DaveJarvis/KeenType) - Modernized version of a Java-based implementation of the New Typesetting System, which was heavily based on Donald E. Knuth's original TeX.
+- [kubernetes-client](https://github.com/fabric8io/kubernetes-client) - Client provides access to the full Kubernetes & OpenShift REST APIs via a fluent DSL.
 - [Micronaut](https://micronaut.io) - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
 - [Nacos](https://nacos.io) - Dynamic service discovery, configuration and service management platform for building cloud native applications.
+- [OpenAI-Java](https://github.com/TheoKanning/openai-java) - Java libraries for using OpenAI's GPT-3 API.
 - [Quarkus](https://quarkus.io) - Kubernetes stack tailored for the HotSpot and Graal VM.
 - [Sentinel](https://github.com/alibaba/Sentinel) - Flow control component enabling reliability, resilience and monitoring for microservices.
 
@@ -653,6 +657,7 @@ _Tools for creating and managing microservices._
 
 _Everything else._
 
+- [AWS SDK for Java 2.0](https://github.com/aws/aws-sdk-java-v2) - Wrapper around AWS' API.
 - [CQEngine](https://github.com/npgall/cqengine) - Ultra-fast, SQL-like queries on Java collections.
 - [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
@@ -947,6 +952,7 @@ _Libraries that handle security, authentication, authorization or session manage
 
 - [Apache Shiro](https://shiro.apache.org) - Performs authentication, authorization, cryptography and session management.
 - [Bouncy Castle](https://www.bouncycastle.org/java.html) - All-purpose cryptographic library and JCA provider offering a wide range of functions, from basic helpers to PGP/SMIME operations.
+- [DependencyCheck](https://github.com/jeremylong/DependencyCheck) - Detects publicly disclosed vulnerabilities contained within a project's dependencies.
 - [Cryptomator](https://cryptomator.org) - Multiplatform, transparent, client-side encryption of files in the cloud. (GPL-3.0-only)
 - [Hdiv](https://github.com/hdiv/hdiv) - Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.
 - [jjwt](https://github.com/jwtk/jjwt) - JSON web token for Java and Android.
