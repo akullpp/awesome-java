@@ -276,7 +276,7 @@ _Everything that simplifies interactions with the database._
 - [Flyway](https://flywaydb.org) - Simple database migration tool.
 - [H2](https://h2database.com) - Small SQL database notable for its in-memory functionality.
 - [HikariCP](https://github.com/brettwooldridge/HikariCP) - High-performance JDBC connection pool.
-- [HSQLDB](https://hsqldb.org/) - HyperSQL 100% Java database. 
+- [HSQLDB](https://hsqldb.org/) - HyperSQL 100% Java database.
 - [JDBI](http://jdbi.org) - Convenient abstraction of JDBC.
 - [Jedis](https://github.com/xetorthio/jedis) - Small client for interaction with Redis, with methods for commands.
 - [Jest](https://github.com/searchbox-io/Jest) - Client for the Elasticsearch REST API.
@@ -613,6 +613,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 - [Smile](https://github.com/haifengl/smile) - Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.
 - [Tribuo](https://tribuo.org/) - Provides tools for classification, regression, clustering, model development and interfaces with other libraries such as scikit-learn, pytorch and TensorFlow.
 - [Weka](https://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization. (GPL-3.0-only)
+- [Intelligent java](https://github.com/Barqawiz/IntelliJava) - seamlessly integration with remote deep learning frameworks and language models using few java lines..
 
 ### Messaging
 
