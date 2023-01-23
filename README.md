@@ -276,6 +276,7 @@ _Everything that simplifies interactions with the database._
 - [Flyway](https://flywaydb.org) - Simple database migration tool.
 - [H2](https://h2database.com) - Small SQL database notable for its in-memory functionality.
 - [HikariCP](https://github.com/brettwooldridge/HikariCP) - High-performance JDBC connection pool.
+- [HSQLDB](https://hsqldb.org/) - HyperSQL 100% Java database. 
 - [JDBI](http://jdbi.org) - Convenient abstraction of JDBC.
 - [Jedis](https://github.com/xetorthio/jedis) - Small client for interaction with Redis, with methods for commands.
 - [Jest](https://github.com/searchbox-io/Jest) - Client for the Elasticsearch REST API.
@@ -918,7 +919,7 @@ _Libraries for scientific computing, analysis and visualization._
 
 - [BioJava](https://biojava.org/) - Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics.
 - [Chart-FX](https://github.com/GSI-CS-CO/chart-fx) - Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.
-- [DataMelt](https://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later)
+- [DataMelt](https://datamelt.org/) - Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later)
 - [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) - Modular, light and easy graph framework for theoretic algorithms.
 - [GraphStream](http://graphstream-project.org) - Library for modeling and analyzing dynamic graphs.
 - [JFreeChart](http://www.jfree.org/jfreechart/) - 2D chart library for Swing, JavaFX and server-side applications. (LGPL-2.1-only)
