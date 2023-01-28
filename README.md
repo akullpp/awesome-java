@@ -1210,11 +1210,11 @@ _Something to look at or listen to while programming._
 
 - [140 Second Ducklings](https://twitter.com/debugagent/status/1491075324805001219) - Short videos on Twitter explaining Java debugging in depth.
 - [A Bootiful Podcast](https://bootifulpodcast.fm)
+- [Foojay Podcast](https://foojay.io/today/category/podcast/)
 - [Inside Java](https://inside.java/podcast) (Official)
 - [Java Off Heap](http://www.javaoffheap.com)
 - [The Java Council](https://virtualjug.com/#podcast)
 - [The Java Posse](http://www.javaposse.com) - Discontinued as of 02/2015.
-- [Friends of OpenJDK](https://foojay.io/)
 
 ### People
 
