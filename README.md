@@ -195,6 +195,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [Lombok](https://projectlombok.org) - Code generator that aims to reduce verbosity.
 - [Record-Builder](https://github.com/Randgalt/record-builder) - Companion builder class, withers and templates for Java records.
 - [Telosys](https://www.telosys.org/) - Simple and light code generator available as an Eclipse Plugin and also as a CLI.
+- [Flatlogic](https://flatlogic.com/generator) - create full-stack application boilerplates based on database schema! 
 
 ### Compiler-compiler
 
