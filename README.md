@@ -185,6 +185,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 - [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
 - [Bootify ![c]](https://bootify.io) - Browser-based Spring Boot app generation with JPA model and REST API.
+- [Flatlogic](https://flatlogic.com/generator) - create full-stack application boilerplates based on database schema. 
 - [FreeBuilder](https://github.com/inferred/FreeBuilder) - Automatically generates the Builder pattern.
 - [Geci](https://github.com/verhas/javageci) - Discovers files that need generated code, updates automatically and writes to the source with a convenient API.
 - [Immutables](https://immutables.github.io) - Annotation processors to generate simple, safe and consistent value objects.
@@ -195,7 +196,6 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [Lombok](https://projectlombok.org) - Code generator that aims to reduce verbosity.
 - [Record-Builder](https://github.com/Randgalt/record-builder) - Companion builder class, withers and templates for Java records.
 - [Telosys](https://www.telosys.org/) - Simple and light code generator available as an Eclipse Plugin and also as a CLI.
-- [Flatlogic](https://flatlogic.com/generator) - create full-stack application boilerplates based on database schema! 
 
 ### Compiler-compiler
 
