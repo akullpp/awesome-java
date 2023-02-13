@@ -1073,6 +1073,7 @@ _Libraries that provide custom matchers._
 - [AssertJ](https://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
 - [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
 - [JSONAssert](http://jsonassert.skyscreamer.org) - Simplifies testing JSON strings.
+- [JsonUnit](https://github.com/lukas-krecan/JsonUnit) - Library that simplifies JSON comparison in tests.
 - [Truth](https://truth.dev) - Google's fluent assertion and proposition framework.
 - [XMLUnit](https://github.com/xmlunit/xmlunit) - Simplifies testing for XML output.
 
