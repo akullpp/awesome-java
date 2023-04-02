@@ -1091,6 +1091,8 @@ _Other stuff related to testing._
 - [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports whether instances of a given class are immutable.
 - [raml-tester](https://github.com/nidi3/raml-tester) - Tests if a request/response matches a given RAML definition.
 - [TestContainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
+- [testrail-junit](https://github.com/RSheremeta/testrail-junit) - A Library for integration JUnit-based tests with TestRail.
+- [testrail-testng](https://github.com/RSheremeta/testrail-testng) - A Library for integration TestNG-based tests with TestRail.
 - [pojo-tester](https://www.pojo.pl) - Automatically performs tests on basic POJO methods. (LGPL-3.0-only)
 
 #### Mocking
