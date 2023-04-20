@@ -701,7 +701,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Keyczar](https://github.com/google/keyczar) - Easy to use, yet safe encryption framework with key versioning.
 * [OACC](http://oaccframework.org/) - Provides permission-based authorization services.
 * [pac4j](https://github.com/pac4j/pac4j) - Security engine.
-* [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
+* [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management. [deprecated]
+* [Elytron](https://wildfly-security.github.io/wildfly-elytron/) - WildFly Elytron is a set of Java APIs and SPIs for application server and client side security.
 
 ## Serialization
 
