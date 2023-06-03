@@ -304,6 +304,7 @@ _Everything that simplifies interactions with the database._
 - [Trino](https://trino.io) - Distributed SQL query engine for big data.
 - [Vibur DBCP](https://www.vibur.org) - JDBC connection pool library with advanced performance monitoring capabilities.
 - [Xodus](https://github.com/JetBrains/xodus) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
+- [CosId](https://github.com/Ahoo-Wang/CosId) - Universal, flexible, high-performance distributed ID generator.
 
 ### Date and Time
 
