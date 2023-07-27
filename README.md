@@ -383,7 +383,7 @@ _Tools that handle the distribution of applications in native formats._
 - [IzPack](http://izpack.org) - Setup authoring tool for cross-platform deployments.
 - [JavaPackager](https://github.com/fvarrui/JavaPackager) - Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, Mac OS X or GNU/Linux executables, and generate installers for them.
 - [jDeploy](https://www.jdeploy.com) - Deploy desktop apps as native Mac, Windows or Linux bundles.
-- [jlink.online](https://github.com/cilki/jlink.online) - Builds optimized runtimes over HTTP.
+- [jlink.online](https://github.com/AdoptOpenJDK/jlink.online) - Builds optimized runtimes over HTTP.
 - [Nexus ![c]](https://www.sonatype.com) - Binary management with proxy and caching capabilities.
 - [packr](https://github.com/libgdx/packr) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and macOS.
 - [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) - Maven plugin for making self-executing JARs.
