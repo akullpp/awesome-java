@@ -297,6 +297,7 @@ _Everything that simplifies interactions with the database._
 - [MapDB](http://www.mapdb.org) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 - [MariaDB4j](https://github.com/vorburger/MariaDB4j) - Launcher for MariaDB that requires no installation or external dependencies.
 - [Modality](https://github.com/arkanovicz/modality) - Lightweight ORM with database reverse engineering features.
+- [OpenDJ](https://github.com/OpenIdentityPlatform/OpenDJ) - LDAPv3 compliant directory service, developed for the Java platform, providing a high performance, highly available, and secure store for the identities.
 - [Querydsl](http://www.querydsl.com) - Typesafe unified queries.
 - [QueryStream](https://github.com/querystream/querystream) - Build JPA Criteria queries using a Stream-like API.
 - [QuestDB](https://github.com/questdb/questdb) - High-performance SQL database for time series. Supports InfluxDB line protocol, PostgreSQL wire protocol, and REST.
@@ -362,6 +363,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
 - [JGroups](http://www.jgroups.org) - Toolkit for reliable messaging and cluster creation.
 - [Quasar](http://docs.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 - [resilience4j](https://github.com/resilience4j/resilience4j) - Functional fault tolerance library.
+- [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG) - High-performance reverse proxy server with specialized session management and credential replay functionality.
 - [ScaleCube Services](https://github.com/scalecube/scalecube-services) - Embeddable Cluster-Membership library based on SWIM and gossip protocol.
 - [Zuul](https://github.com/Netflix/zuul) - Gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 
@@ -977,6 +979,7 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Keywhiz](https://github.com/square/keywhiz) - System for distributing and managing secrets.
 - [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) - Advanced password strength estimation.
 - [OACC](http://oaccframework.org) - Provides permission-based authorization services.
+- [OpenAM](https://github.com/OpenIdentityPlatform/OpenAM) - Access management solution that includes authentication, SSO, authorization, federation, entitlements and web services security.
 - [OTP-Java](https://github.com/BastiaanJansen/OTP-Java) - One-time password generator library according to RFC 4226 (HOTP) and RFC 6238 (TOTP).
 - [pac4j](https://github.com/pac4j/pac4j) - Security engine.
 - [Passay](http://www.passay.org/) - Enforce password policy by validating candidate passwords against a configurable rule set.
