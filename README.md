@@ -661,6 +661,7 @@ _Tools for creating and managing microservices._
 - [JDA](https://github.com/DV8FromTheWorld/JDA) - Wrapping of the Discord REST API and its WebSocket events.
 - [KeenType](https://github.com/DaveJarvis/KeenType) - Modernized version of a Java-based implementation of the New Typesetting System, which was heavily based on Donald E. Knuth's original TeX.
 - [kubernetes-client](https://github.com/fabric8io/kubernetes-client) - Client provides access to the full Kubernetes & OpenShift REST APIs via a fluent DSL.
+- [KumuluzEE](https://ee.kumuluz.com/) - Develop microservices with Java EE / Jakarta EE technologies and extend them with Node.js, Go and other languages. Migrate existing Java EE applications to microservices and cloud-native architecture.
 - [Micronaut](https://micronaut.io) - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
 - [Nacos](https://nacos.io) - Dynamic service discovery, configuration and service management platform for building cloud native applications.
 - [OpenAI-Java](https://github.com/TheoKanning/openai-java) - Java libraries for using OpenAI's GPT-3 API.
