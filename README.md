@@ -756,6 +756,7 @@ _Libraries that specialize in processing text._
 - [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. (GPL-3.0-or-later)
 - [DKPro](https://dkpro.github.io) - Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
 - [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for tasks ranging from POS tagging to sentiment analysis.
+- [Embedchain-JS](https://github.com/embedchain/embedchainjs) - Framework to easily create LLM powered bots over any dataset.
 
 ### Networking
 
