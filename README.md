@@ -1307,6 +1307,7 @@ _Sites to read._
 - [Vanilla Java](https://vanilla-java.github.io)
 - [Voxxed](https://www.voxxed.com)
 - [Java Weekly](https://discu.eu/weekly/java/)
+- [Java Magician](https://javamagician.com/) (Spanish)
 
 ## Contributing
 
