@@ -1299,6 +1299,7 @@ _Sites to read._
 - [Java, SQL, and jOOQ](https://blog.jooq.org)
 - [Java.net](https://community.oracle.com/community/java)
 - [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
+- [Java Magician](https://javamagician.com/) (Spanish)
 - [JavaWorld](https://www.javaworld.com)
 - [JAXenter](https://jaxenter.com)
 - [RebelLabs](https://zeroturnaround.com/rebellabs)
@@ -1307,7 +1308,6 @@ _Sites to read._
 - [Vanilla Java](https://vanilla-java.github.io)
 - [Voxxed](https://www.voxxed.com)
 - [Java Weekly](https://discu.eu/weekly/java/)
-- [Java Magician](https://javamagician.com/) (Spanish)
 
 ## Contributing
 
