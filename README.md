@@ -713,9 +713,9 @@ _Tools for creating or managing mobile applications._
 - [MobileUI](https://mobileui.dev) - Cross-platform framework for developing mobile apps with native UI in Java and Kotlin.
 - [Multi-OS Engine](https://multi-os-engine.org) - Open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.
 
-### Monitoring
+### Observability/Monitoring
 
-_Tools that monitor applications in production._
+_Tools that observe/monitor applications in production._
 
 - [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
 - [Failsafe Actuator](https://github.com/zalando/failsafe-actuator) - Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.
