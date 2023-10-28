@@ -1145,6 +1145,7 @@ _Libraries which provide general utility functions._
 - [JGit](https://www.eclipse.org/jgit/) - Lightweight, pure Java library implementing the Git version control system.
 - [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3-compatible object storage server.
 - [Protégé](https://protege.stanford.edu) - Provides an ontology editor and a framework to build knowledge-based systems.
+- [Semver4j](https://github.com/semver4j/semver4j) - Lightweight library that helps you handling semantic versioning with different modes.
 - [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
 
 ### Version Managers
