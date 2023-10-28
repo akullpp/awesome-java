@@ -720,7 +720,7 @@ _Tools for creating or managing mobile applications._
 
 ### Monitoring
 
-_Tools that monitor applications in production._
+_Tools that observe/monitor applications in production by providing telemetry._
 
 - [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
 - [Datadog ![c]](https://github.com/DataDog/dd-trace-java) - Modern monitoring & analytics.
