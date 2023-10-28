@@ -52,7 +52,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Native](#native)
   - [Natural Language Processing](#natural-language-processing)
   - [Networking](#networking)
-  - [Observability/Monitoring](#observability/monitoring)
+  - [Observability/Monitoring](#observabilitymonitoring)
   - [ORM](#orm)
   - [PaaS](#paas)
   - [PDF](#pdf)
