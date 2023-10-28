@@ -996,6 +996,7 @@ _Libraries that handle serialization with high efficiency._
 
 - [FlatBuffers](https://github.com/google/flatbuffers) - Memory-efficient serialization library that can access serialized data without unpacking and parsing it.
 - [FST](https://github.com/RuedigerMoeller/fast-serialization) - JDK-compatible, high-performance object graph serialization.
+- [Fury](https://github.com/alipay/fury) - Blazing fast object graph serialization framework powered by JIT and zero-copy.
 - [Kryo](https://github.com/EsotericSoftware/kryo) - Fast and efficient object graph serialization framework.
 - [MessagePack](https://github.com/msgpack/msgpack-java) - Efficient binary serialization format.
 - [PHP Serializer](https://github.com/marcospassos/java-php-serializer) - Serializing objects in the PHP serialization format.
