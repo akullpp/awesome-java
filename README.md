@@ -4,83 +4,86 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Contents
 
-- [Projects](#projects)
-  - [Bean Mapping](#bean-mapping)
-  - [Build](#build)
-  - [Bytecode Manipulation](#bytecode-manipulation)
-  - [Caching](#caching)
-  - [CLI](#cli)
-  - [Cluster Management](#cluster-management)
-  - [Code Analysis](#code-analysis)
-  - [Code Coverage](#code-coverage)
-  - [Code Generators](#code-generators)
-  - [Compiler-compiler](#compiler-compiler)
-  - [Computer Vision](#computer-vision)
-  - [Configuration](#configuration)
-  - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
-  - [CSV](#csv)
-  - [Data Structures](#data-structures)
-  - [Database](#database)
-  - [Date and Time](#date-and-time)
-  - [Dependency Injection](#dependency-injection)
-  - [Development](#development)
-  - [Distributed Applications](#distributed-applications)
-  - [Distributed Transactions](#distributed-transactions)
-  - [Distribution](#distribution)
-  - [Document Processing](#document-processing)
-  - [Financial](#financial)
-  - [Formal Verification](#formal-verification)
-  - [Functional Programming](#functional-programming)
-  - [Game Development](#game-development)
-  - [Geospatial](#geospatial)
-  - [GUI](#gui)
-  - [High Performance](#high-performance)
-  - [HTTP Clients](#http-clients)
-  - [Hypermedia Types](#hypermedia-types)
-  - [IDE](#ide)
-  - [Imagery](#imagery)
-  - [Introspection](#introspection)
-  - [Job Scheduling](#job-scheduling)
-  - [JSON](#json)
-  - [JVM and JDK](#jvm-and-jdk)
-  - [Logging](#logging)
-  - [Machine Learning](#machine-learning)
-  - [Messaging](#messaging)
-  - [Microservice](#microservice)
-  - [Miscellaneous](#miscellaneous)
-  - [Mobile Development](#mobile-development)
-  - [Monitoring](#monitoring)
-  - [Native](#native)
-  - [Natural Language Processing](#natural-language-processing)
-  - [Networking](#networking)
-  - [ORM](#orm)
-  - [PaaS](#paas)
-  - [PDF](#pdf)
-  - [Performance analysis](#performance-analysis)
-  - [Platform](#platform)
-  - [Processes](#processes)
-  - [Reactive libraries](#reactive-libraries)
-  - [REST Frameworks](#rest-frameworks)
-  - [Science](#science)
-  - [Search](#search)
-  - [Security](#security)
-  - [Serialization](#serialization)
-  - [Server](#server)
-  - [Template Engine](#template-engine)
-  - [Testing](#testing)
-  - [Utility](#utility)
-  - [Version Managers](#version-managers)
-  - [Web Crawling](#web-crawling)
-  - [Web Frameworks](#web-frameworks)
-  - [Workflow Orchestration Engines](#workflow-orchestration-engines)
-- [Resources](#resources)
-  - [Related Awesome Lists](#awesome-lists)
-  - [Communities](#communities)
-  - [Frontends](#frontends)
-  - [Influential Books](#influential-books)
-  - [Podcasts and Screencasts](#podcasts-and-screencasts)
-  - [People](#people)
-  - [Websites](#websites)
+- [Awesome Java ](#awesome-java-)
+  - [Contents](#contents)
+  - [Projects](#projects)
+    - [Bean Mapping](#bean-mapping)
+    - [Build](#build)
+    - [Bytecode Manipulation](#bytecode-manipulation)
+    - [Caching](#caching)
+    - [CLI](#cli)
+    - [Cluster Management](#cluster-management)
+    - [Code Analysis](#code-analysis)
+    - [Code Coverage](#code-coverage)
+    - [Code Generators](#code-generators)
+    - [Compiler-compiler](#compiler-compiler)
+    - [Computer Vision](#computer-vision)
+    - [Configuration](#configuration)
+    - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
+    - [CSV](#csv)
+    - [Data Structures](#data-structures)
+    - [Database](#database)
+    - [Date and Time](#date-and-time)
+    - [Dependency Injection](#dependency-injection)
+    - [Development](#development)
+    - [Distributed Applications](#distributed-applications)
+    - [Distributed Transactions](#distributed-transactions)
+    - [Distribution](#distribution)
+    - [Document Processing](#document-processing)
+    - [Financial](#financial)
+    - [Formal Verification](#formal-verification)
+    - [Functional Programming](#functional-programming)
+    - [Game Development](#game-development)
+    - [Geospatial](#geospatial)
+    - [GUI](#gui)
+    - [High Performance](#high-performance)
+    - [HTTP Clients](#http-clients)
+    - [Hypermedia Types](#hypermedia-types)
+    - [IDE](#ide)
+    - [Imagery](#imagery)
+    - [Introspection](#introspection)
+    - [Job Scheduling](#job-scheduling)
+    - [JSON](#json)
+    - [JVM and JDK](#jvm-and-jdk)
+    - [Logging](#logging)
+    - [Machine Learning](#machine-learning)
+    - [Messaging](#messaging)
+    - [Microservice](#microservice)
+    - [Miscellaneous](#miscellaneous)
+    - [Mobile Development](#mobile-development)
+    - [Monitoring](#monitoring)
+    - [Native](#native)
+    - [Natural Language Processing](#natural-language-processing)
+    - [Networking](#networking)
+    - [ORM](#orm)
+    - [PaaS](#paas)
+    - [PDF](#pdf)
+    - [Performance analysis](#performance-analysis)
+    - [Platform](#platform)
+    - [Processes](#processes)
+    - [Reactive libraries](#reactive-libraries)
+    - [REST Frameworks](#rest-frameworks)
+    - [Science](#science)
+    - [Search](#search)
+    - [Security](#security)
+    - [Serialization](#serialization)
+    - [Server](#server)
+    - [Template Engine](#template-engine)
+    - [Testing](#testing)
+    - [Utility](#utility)
+    - [Version Managers](#version-managers)
+    - [Web Crawling](#web-crawling)
+    - [Web Frameworks](#web-frameworks)
+    - [Workflow Orchestration Engines](#workflow-orchestration-engines)
+  - [Resources](#resources)
+    - [Related Awesome Lists](#related-awesome-lists)
+    - [Communities](#communities)
+    - [Frontends](#frontends)
+    - [Influential Books](#influential-books)
+    - [Podcasts and Screencasts](#podcasts-and-screencasts)
+    - [People](#people)
+    - [Websites](#websites)
+  - [Contributing](#contributing)
 
 ## Projects
 
@@ -170,7 +173,6 @@ _Tools that provide metrics and quality measurements._
 - [SonarJava](https://github.com/SonarSource/sonar-java) - Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
 - [Spoon](https://github.com/INRIA/spoon) - Library for analyzing and transforming Java source code.
 - [Spotbugs](https://github.com/spotbugs/spotbugs) - Static analysis of bytecode to find potential bugs. (LGPL-2.1-only)
-
 
 ### Code Coverage
 
@@ -385,9 +387,9 @@ _Tools that handle the distribution of applications in native formats._
 - [Capsule](https://github.com/puniverse/capsule) - Simple and powerful packaging and deployment. A fat JAR on steroids, or a "Docker for Java" that supports JVM-optimized containers.
 - [Central Repository](https://search.maven.org) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven, and available in all other build tools.
 - [Cloudsmith ![c]](https://cloudsmith.io) - Fully managed package management SaaS with support for Maven/Gradle/SBT with a free tier.
-- [Getdown](https://github.com/threerings/getdown) - A system for deploying Java applications to end-user computers and keeping them up to date. Developed as an alternative to Java Web Start.
+- [Getdown](https://github.com/threerings/getdown) - System for deploying Java applications to end-user computers and keeping them up to date. Developed as an alternative to Java Web Start.
 - [IzPack](http://izpack.org) - Setup authoring tool for cross-platform deployments.
-- [JavaPackager](https://github.com/fvarrui/JavaPackager) - Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, Mac OS X or GNU/Linux executables, and generate installers for them.
+- [JavaPackager](https://github.com/fvarrui/JavaPackager) - Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them.
 - [jDeploy](https://www.jdeploy.com) - Deploy desktop apps as native Mac, Windows or Linux bundles.
 - [jlink.online](https://github.com/AdoptOpenJDK/jlink.online) - Builds optimized runtimes over HTTP.
 - [Nexus ![c]](https://www.sonatype.com) - Binary management with proxy and caching capabilities.
@@ -490,9 +492,9 @@ _Everything about high-performance computation, from collections to specific lib
 
 _Libraries that assist with creating HTTP requests and/or binding responses._
 
-- [Apache HttpComponents](https://hc.apache.org/) - A toolset of low-level Java components focused on HTTP and associated protocols.
+- [Apache HttpComponents](https://hc.apache.org/) - Toolset of low-level Java components focused on HTTP and associated protocols.
 - [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
-- [Avaje Http Client](https://avaje.io/http-client) - A wrapper on JDK 11's HttpClient that adds Feign-like interface among other enhancements.
+- [Avaje Http Client](https://avaje.io/http-client) - Wrapper on JDK 11's HttpClient that adds Feign-like interface among other enhancements.
 - [Feign](https://github.com/OpenFeign/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 - [Google HTTP Client](https://github.com/googleapis/google-http-java-client) - Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.
 - [methanol](https://github.com/mizosoft/methanol) - HTTP client extensions library.
@@ -1039,7 +1041,7 @@ _Tools that simplify testing asynchronous services._
 
 - [Awaitility](https://github.com/awaitility/awaitility) - DSL for synchronizing asynchronous operations.
 - [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
-- [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. (GPL-2.0-only)
+- [GreenMail](https://greenmail-mail-test.github.io/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. (GPL-2.0-only)
 - [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) - Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.
 - [Karate](https://github.com/intuit/karate) - DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.
 - [REST Assured](https://github.com/rest-assured/rest-assured) - DSL for easy testing of REST/HTTP services.
@@ -1134,7 +1136,7 @@ _Libraries which provide general utility functions._
 - [fswatch](https://github.com/vorburger/ch.vorburger.fswatch) - Micro library to watch for directory file system changes, simplifying java.nio.file.WatchService.
 - [Gephi](https://github.com/gephi/gephi) - Cross-platform for visualizing and manipulating large graph networks. (GPL-3.0-only)
 - [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and more.
-- [JADE](http://jade.tilab.com) - Framework and environment for building and debugging multi-agent systems. (LGPL-2.0-only)
+- [JADE](https://jade.tilab.com) - Framework and environment for building and debugging multi-agent systems. (LGPL-2.0-only)
 - [Java Diff Utils](https://java-diff-utils.github.io/java-diff-utils/) - Utilities for text or data comparison and patching.
 - [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - Library that helps with constructing difficult regular expressions.
 - [JGit](https://www.eclipse.org/jgit/) - Lightweight, pure Java library implementing the Git version control system.
@@ -1211,7 +1213,6 @@ _Active discussions._
 
 - [r/java](https://www.reddit.com/r/java/) - Subreddit for the Java community.
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/java) - Question/answer platform.
-- [VirtualJUG](https://virtualjug.com) - Virtual Java User Group.
 
 ### Frontends
 
@@ -1239,7 +1240,6 @@ _Something to look at or listen to while programming._
 - [Foojay Podcast](https://foojay.io/today/category/podcast/)
 - [Inside Java](https://inside.java/podcast) (Official)
 - [Java Off Heap](http://www.javaoffheap.com)
-- [The Java Council](https://virtualjug.com/#podcast)
 - [The Java Posse](http://www.javaposse.com) - Discontinued as of 02/2015.
 
 ### People
