@@ -134,17 +134,22 @@ _Libraries that provide caching facilities._
 
 _Libraries for everything related to the CLI._
 
-- [ASCII Table](https://github.com/vdmeer/asciitable) - Library to draw tables in ASCII.
-- [Airline](https://github.com/airlift/airline) - Annotation-based framework for parsing Git-like command-line arguments.
-- [args4j](http://args4j.kohsuke.org) - Small library to parse command-line arguments.
-- [Jansi](https://github.com/fusesource/jansi) - ANSI escape codes to format console output.
-- [Java ASCII Render](https://github.com/indvd00m/java-ascii-render) - Graphical primitives for the console.
+#### Argument Parsing
+
+_Libraries to assist with parsing command line arguments._
+
+- [Airline](https://rvesse.github.io/airline/) - Annotation-based framework for parsing Git-like command-line arguments.
 - [JCommander](http://jcommander.org) - Command-line argument-parsing framework with custom types and validation via implementing interfaces.
 - [jbock](https://github.com/jbock-java/jbock) - Reflectionless command line parser.
-- [Jexer](https://gitlab.com/klamonte/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 - [JLine](https://github.com/jline/jline3) - Includes features from modern shells like completion or history.
-- [JOpt Simple](https://jopt-simple.github.io/jopt-simple/) - Fluent parser that uses the POSIX#getopt and GNU#getopt_long syntaxes.
 - [picocli](https://picocli.info) - ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
+
+#### Text-Based User Interfaces
+
+_Libraries that provide TUI frameworks, or building blocks related functions._
+
+- [Jansi](https://github.com/fusesource/jansi) - ANSI escape codes to format console output.
+- [Jexer](https://gitlab.com/klamonte/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
 
