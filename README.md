@@ -143,7 +143,7 @@ _Libraries to assist with parsing command line arguments._
 - [JLine](https://github.com/jline/jline3) - Includes features from modern shells like completion or history.
 - [picocli](https://picocli.info) - ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 
-#### Text-Based User Interfaces (TUI)
+#### Text-Based User Interfaces
 
 _Libraries that provide TUI frameworks, or building blocks related functions._
 
