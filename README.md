@@ -478,6 +478,7 @@ _Libraries to create modern graphical user interfaces._
 
 - [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main) - Successor of Swing.
 - [Scene Builder](https://gluonhq.com/products/scene-builder/) - Visual layout tool for JavaFX applications.
+- [SnapKit](https://github.com/reportmill/SnapKit) - Modern Java UI library for both desktop and web.
 - [SWT](https://www.eclipse.org/swt/) - Graphical widget toolkit.
 
 ### High Performance
@@ -523,6 +524,7 @@ _Integrated development environments that try to simplify several aspects of dev
 - [IntelliJ IDEA ![c]](https://www.jetbrains.com/idea/) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 - [jGRASP](https://www.jgrasp.org) - Created to provide software visualizations that work in conjunction with the debugger such as Control Structure Diagrams, UML class diagrams and Object Viewer.
 - [NetBeans](https://netbeans.apache.org) - Provides integration for several Java SE and EE features, from database access to HTML5.
+- [SnapCode](https://reportmill.com/SnapCode/) - Modern IDE for Java running in the browser, focused on education.
 - [Visual Studio Code](https://code.visualstudio.com/docs/languages/java) - Provides Java support for lightweight projects with a simple, modern workflow by using extensions from the internal marketplace.
 
 ### Imagery
