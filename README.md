@@ -597,6 +597,7 @@ _Current implementations of the JVM/JDK._
 - [RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview) - RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [SAP Machine](https://sap.github.io/SapMachine/) - SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [Zulu](https://www.azul.com/products/zulu-community/) - OpenJDK builds for Windows, Linux, and macOS. (GPL-2.0-only WITH Classpath-exception-2.0)
+- [Microsoft JDK](https://github.com/microsoft/openjdk) - Microsoft Build of OpenJDK, Free, Open Source, Freshly Brewed!
 
 ### Logging
 
@@ -1125,6 +1126,7 @@ _Tools which mock collaborators to help testing single, isolated units._
 - [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks.
 - [PowerMock](https://github.com/powermock/powermock) - Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers.
 - [WireMock](http://wiremock.org) - Stubs and mocks web services.
+- [EasyMock](https://github.com/easymock/easymock) - EasyMock is a Java library that provides an easy way to use Mock Objects in unit testing.
 
 ### Utility
 
