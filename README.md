@@ -1213,6 +1213,7 @@ _Awesome Lists related to the Java & JVM ecosystem._
 - [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
 - [Awesome REST](https://github.com/marmelab/awesome-rest)
 - [Awesome Selenium](https://github.com/christian-bromann/awesome-selenium)
+- [Awesome Hybris](https://github.com/eminyagiz42/awesome-hybris)
 - [ciandcd](https://github.com/ciandcd/awesome-ciandcd)
 - [Useful Java Links](https://github.com/Vedenin/useful-java-links)
 - [Java Concurrency Checklist](https://github.com/code-review-checklists/java-concurrency)
