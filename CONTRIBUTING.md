@@ -6,7 +6,7 @@ Unfortunately, not every library/tool/framework can be considered. This list aim
 (b) highly discussed in the community due to its innovative nature
 
 (c) absolutely unique in its approach and function
-
+gk
 (d) a niche product that fills a gap
 
 Suggested software must also be developer-friendly, which means it meets the following criteria:
