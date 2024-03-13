@@ -649,6 +649,7 @@ _Tools that help send messages between clients to ensure protocol independency._
 - [Apache Pulsar](https://pulsar.apache.org) - Distributed pub/sub-messaging system.
 - [Apache RocketMQ](https://rocketmq.apache.org) - Fast, reliable, and scalable distributed messaging platform.
 - [Apache Qpid](https://qpid.apache.org) - Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms.
+- [AutoMQ](https://github.com/AutoMQ/automq-for-kafka) - AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective.
 - [Deezpatch](https://github.com/joel-jeremy/deezpatch) - Simple, lightweight, and performant dispatch library for decoupling messages (requests and events) and message handlers.
 - [EventBus](https://github.com/greenrobot/EventBus) - Simple publish/subscribe event bus.
 - [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
