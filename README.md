@@ -149,7 +149,7 @@ _Libraries to assist with parsing command line arguments._
 _Libraries that provide TUI frameworks, or building blocks related functions._
 
 - [Jansi](https://github.com/fusesource/jansi) - ANSI escape codes to format console output.
-- [Jexer](https://gitlab.com/klamonte/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
+- [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
 
