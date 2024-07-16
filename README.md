@@ -201,6 +201,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [Joda-Beans](https://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 - [JPA Buddy ![c]](https://www.jpa-buddy.com) - Plugin for IntelliJ IDEA. Provides visual tools for generating JPA entities, Spring Data JPA repositories, Liquibase changelogs and SQL scripts. Offers automatic Liquibase/Flyway script generation by comparing model to DB, and reverse engineering JPA entities from DB tables.
 - [Lombok](https://projectlombok.org) - Code generator that aims to reduce verbosity.
+- [Manifold](https://github.com/manifold-systems/manifold) - Compiler plugin toward reducing boilerplate, adding innovative features, and more.
 - [Record-Builder](https://github.com/Randgalt/record-builder) - Companion builder class, withers and templates for Java records.
 - [Telosys](https://www.telosys.org/) - Simple and light code generator available as an Eclipse Plugin and also as a CLI.
 
@@ -252,6 +253,7 @@ _Frameworks and libraries that simplify reading/writing CSV data._
 
 - [FastCSV](https://github.com/osiegmar/FastCSV) - Performance-optimized, dependency-free and RFC 4180 compliant.
 - [jackson-dataformat-csv](https://github.com/FasterXML/jackson-dataformat-csv) - Jackson extension for reading and writing CSV.
+- [manifod-csv](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-csv) - Compiler plugin for direct, type-safe access to CSV without code gen steps or POJOs.
 - [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser.
 - [Super CSV](https://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
 - [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete parsers. Also comes with parsers for TSV and fixed-width records.
@@ -299,6 +301,7 @@ _Everything that simplifies interactions with the database._
 - [Leaf](https://github.com/Meituan-Dianping/Leaf) - Distributed ID generate service.
 - [Lettuce](https://lettuce.io/) - Lettuce is a scalable Redis client for building non-blocking Reactive applications.
 - [Liquibase](http://www.liquibase.org) - Database-independent library for tracking, managing and applying database schema changes.
+- [manifold-sql](https://github.com/manifold-systems/manifold/blob/master/manifold-deps-parent/manifold-sql/readme.md) - Write _inline_ native SQL of any complexity _type-safely_ within Java code • schema-first • db-independent • CRUD • comprehensive IDE support
 - [MapDB](http://www.mapdb.org) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 - [MariaDB4j](https://github.com/vorburger/MariaDB4j) - Launcher for MariaDB that requires no installation or external dependencies.
 - [Modality](https://github.com/arkanovicz/modality) - Lightweight ORM with database reverse engineering features.
@@ -472,6 +475,12 @@ _Libraries for working with geospatial data and algorithms._
 - [Mapsforge](https://github.com/mapsforge/mapsforge) - Map rendering based on OpenStreetMap data. (LGPL-3.0-only)
 - [Spatial4j](https://github.com/locationtech/spatial4j) - General-purpose spatial/geospatial library.
 
+### GraphQL
+
+_Libraries for working with GraphQL, either client or server focus._
+
+- [manifold-graphql](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-graphql) - Compiler plugin for direct, type-safe access to GraphQL, no code gen steps, no POJOs.
+
 ### GUI
 
 _Libraries to create modern graphical user interfaces._
@@ -548,6 +557,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
 - [Objenesis](http://objenesis.org) - Allows dynamic instantiation without default constructor, e.g. constructors which have required arguments, side effects or throw exceptions.
 - [ReflectASM](https://github.com/EsotericSoftware/reflectasm) - ReflectASM is a very small Java library that provides high performance reflection by using code generation.
 - [Reflections](https://github.com/ronmamo/reflections) - Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.
+- [Type-safe Reflection](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-ext#type-safe-reflection-via-jailbreak) -  A compiler plugin lets you leverage the convenience and type-safety of the Java compiler by writing code as if reflection were not needed, and generates reliable, efficient reflection code for you.
 
 ### Job Scheduling
 
@@ -577,6 +587,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
 - [jsoniter](http://jsoniter.com) - Fast and flexible library with iterator and lazy parsing API.
 - [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
 - [Moshi](https://github.com/square/moshi) - Modern JSON library, less opinionated and uses built-in types like List and Map.
+- [manifold-json](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-json) - Compiler plugin for direct, type-safe access to JSON & JSON Schema, no code gen steps, no POJOs.
 - [Yasson](https://github.com/eclipse-ee4j/yasson) - Binding layer between classes and JSON documents similar to JAXB.
 - [fastjson](https://github.com/alibaba/fastjson) - Very fast processor with no additional dependencies and full data binding.
 - [Jolt](https://github.com/bazaarvoice/jolt) - JSON to JSON transformation tool.
@@ -801,6 +812,7 @@ _APIs that handle the persistence of objects._
 - [Ebean](https://ebean.io) - Provides simple and fast data access.
 - [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 - [Hibernate](http://hibernate.org/orm/) - Robust and widely used, with an active community. (LGPL-2.1-only)
+- [manifold-sql](https://github.com/manifold-systems/manifold/blob/master/manifold-deps-parent/manifold-sql/readme.md) -  Write _inline_ native SQL of any complexity _type-safely_ within Java code • schema-first • db-independent • CRUD • comprehensive IDE support
 - [MyBatis](https://github.com/mybatis/mybatis-3) - Couples objects with stored procedures or SQL statements.
 - [ObjectiveSql](https://github.com/braisdom/ObjectiveSql) - ActiveRecord ORM for rapid development and convention over configuration.
 - [Permazen](https://github.com/permazen/permazen) - Language-natural persistence layer.
@@ -962,6 +974,7 @@ _Libraries for scientific computing, analysis and visualization._
 - [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 - [JGraphX](https://github.com/jgraph/jgraphx) - Library for visualizing (mainly Swing) and interacting with node-edge graphs.
 - [LogicNG](https://github.com/logic-ng/LogicNG) - Library for creating, manipulating and solving Boolean and Pseudo-Boolean formulas.
+- [manifold-science](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-science) - Compiler plugin, use physical quantities, write type-safe code: `Force f = 5 kg * 9.807 m/s/s;`, use Rational numbers, more.
 - [Mines Java Toolkit](https://github.com/MinesJTK/jtk) - Library for geophysical scientific computation, visualization and digital signal analysis.
 - [Morpheus](https://github.com/zavtech/morpheus-core) - Provides a versatile two-dimensional memory efficient tabular data structure called a DataFrame to enable efficient in-memory analytics for scientific computing on the JVM.
 - [Orekit](https://www.orekit.org/) - A low level space flight dynamics library providing basic elements (orbits, dates, attitude, frames...) and various algorithms (conversions, propagations, pointing...) to handle them.
@@ -1038,6 +1051,7 @@ _Tools that substitute expressions in a template._
 - [jstachio](https://github.com/jstachio/jstachio) - Typesafe Mustache templating engine.
 - [jte](https://github.com/casid/jte) - Compiles to classes, and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.
 - [Jtwig](https://github.com/jtwig/jtwig) - Modular, configurable and fully tested template engine.
+- [ManTL](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-templates) - Lightweight, type-safe templates, integrates with the Java compiler, fast, modern much improved JSP.
 - [Pebble](https://pebbletemplates.io) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
 - [Rocker](https://github.com/fizzed/rocker) - Optimized, memory efficient and speedy template engine producing statically typed, plain objects.
 - [StringTemplate](https://github.com/antlr/stringtemplate4) - Template engine for generating source code, web pages, emails, or any other formatted text output.
