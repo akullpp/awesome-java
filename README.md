@@ -1098,6 +1098,7 @@ _Provide environments to run tests for a specific use case._
 - [jqwik](https://jqwik.net) - Engine for property-based testing built on JUnit 5.
 - [Pact JVM](https://github.com/DiUS/pact-jvm) - Consumer-driven contract testing.
 - [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
+- [weld-testing](https://github.com/weld/weld-testing) - Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5.
 
 #### Matchers
 
