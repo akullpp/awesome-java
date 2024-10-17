@@ -1331,6 +1331,7 @@ _Sites to read._
 - [Vanilla Java](https://vanilla-java.github.io)
 - [Voxxed](https://www.voxxed.com)
 - [Java Weekly](https://discu.eu/weekly/java/)
+- [LabEx Java Tutorials](https://labex.io/tutorials/quick-start-with-java-free-tutorials-413788)
 
 ## Contributing
 
