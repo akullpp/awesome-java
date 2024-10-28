@@ -1092,6 +1092,7 @@ _Provide environments to run tests for a specific use case._
 - [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 - [Apache JMeter](http://jmeter.apache.org) - Functional testing and performance measurements.
 - [Arquillian](http://arquillian.org) - Integration and functional testing platform for Java EE containers.
+- [cdi-test](https://github.com/guhilling/cdi-test) - JUnit extension for easy and efficient testing of CDI components.
 - [Citrus](https://citrusframework.org) - Integration testing framework that focuses on both client- and server-side messaging.
 - [Gatling](https://gatling.io) - Load testing tool designed for ease of use, maintainability and high performance.
 - [JUnit](https://junit.org/junit5/) - Common testing framework.
