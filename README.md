@@ -157,7 +157,6 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 
 _Frameworks that can dynamically manage applications inside of a cluster._
 
-- [Apache Aurora](https://aurora.apache.org) - Mesos framework for long-running services and cron jobs.
 - [Singularity](http://getsingularity.com) - Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 ### Code Analysis
