@@ -616,6 +616,7 @@ _Libraries that log the behavior of an application._
 - [SLF4J](http://www.slf4j.org) - Abstraction layer/simple logging facade.
 - [tinylog](https://tinylog.org/v2/) - Lightweight logging framework with static logger class.
 - [OpenTracing Toolbox](https://github.com/zalando/opentracing-toolbox) - Collection of libraries that build on top of OpenTracing and provide extensions and plugins to existing instrumentations.
+- [Flogger](https://google.github.io/flogger/) - Flogger is a fluent logging API for Java. It supports a wide variety of features, and has many benefits over existing logging APIs.
 
 ### Machine Learning
 
