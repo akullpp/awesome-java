@@ -5,6 +5,7 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Contents
 
 - [Projects](#projects)
+  - [Architecture](#architecture)  
   - [Bean Mapping](#bean-mapping)
   - [Build](#build)
   - [Bytecode Manipulation](#bytecode-manipulation)
@@ -83,6 +84,13 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Contributing](#contributing)
 
 ## Projects
+
+### Architecture
+
+_Frameworks and libraries that help implementing and verifying design and architecture concepts._
+
+- [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
+- [jMolecules](https://github.com/xmolecules/jmolecules) - Annotations and interfaces to express design and architecture concepts in code.
 
 ### Bean Mapping
 
@@ -1081,7 +1089,6 @@ _Everything related to the creation and handling of random data._
 
 _Provide environments to run tests for a specific use case._
 
-- [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 - [Apache JMeter](http://jmeter.apache.org) - Functional testing and performance measurements.
 - [Arquillian](http://arquillian.org) - Integration and functional testing platform for Java EE containers.
 - [cdi-test](https://github.com/guhilling/cdi-test) - JUnit extension for easy and efficient testing of CDI components.
