@@ -10,7 +10,6 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Bytecode Manipulation](#bytecode-manipulation)
   - [Caching](#caching)
   - [CLI](#cli)
-  - [Cluster Management](#cluster-management)
   - [Code Analysis](#code-analysis)
   - [Code Coverage](#code-coverage)
   - [Code Generators](#code-generators)
@@ -152,13 +151,6 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 - [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
-
-### Cluster Management
-
-_Frameworks that can dynamically manage applications inside of a cluster._
-
-- [Apache Aurora](https://aurora.apache.org) - Mesos framework for long-running services and cron jobs.
-- [Singularity](http://getsingularity.com) - Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 ### Code Analysis
 
