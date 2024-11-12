@@ -327,7 +327,7 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
 - [Feather](https://github.com/zsoltherpai/feather) - Ultra-lightweight, JSR-330-compliant dependency injection library.
 - [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
 - [Guice](https://github.com/google/guice) - Lightweight and opinionated framework that completes Dagger.
-- [HK2](https://javaee.github.io/hk2/) - Lightweight and dynamic dependency injection framework.
+- [HK2](https://eclipse-ee4j.github.io/glassfish-hk2/) - Lightweight and dynamic dependency injection framework.
 - [JayWire](https://github.com/vanillasource/jaywire) - Lightweight dependency injection framework. (LGPL-3.0-only)
 
 ### Development
