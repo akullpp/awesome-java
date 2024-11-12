@@ -10,7 +10,6 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Bytecode Manipulation](#bytecode-manipulation)
   - [Caching](#caching)
   - [CLI](#cli)
-  - [Cluster Management](#cluster-management)
   - [Code Analysis](#code-analysis)
   - [Code Coverage](#code-coverage)
   - [Code Generators](#code-generators)
