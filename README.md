@@ -153,12 +153,6 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
 
-### Cluster Management
-
-_Frameworks that can dynamically manage applications inside of a cluster._
-
-- [Singularity](http://getsingularity.com) - Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
-
 ### Code Analysis
 
 _Tools that provide metrics and quality measurements._
