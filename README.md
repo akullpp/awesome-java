@@ -743,6 +743,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
 - [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 - [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connect to multiple JVMs and query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVM attributes. Supports different output writes, including Graphite, Ganglia, and StatsD.
 - [Jolokia](https://jolokia.org) - JMX over REST.
+- [MetricsHub](https://github.com/sentrysoftware/metricshub) - Collects metrics about servers, applications, services, and more, and pushes telemetry into any observability platform supporting OpenTelemetry.
 - [Micrometer](https://github.com/micrometer-metrics/micrometer) - Vendor-neutral metrics/observability facade for the most popular metrics/observability libraries.
 - [Micrometer Tracing](https://github.com/micrometer-metrics/tracing) - Vendor-neutral distributed tracing facade for the most popular tracer libraries.
 - [nudge4j](https://github.com/lorenzoongithub/nudge4j) - Remote developer console from the browser for Java 8 via bytecode injection.
