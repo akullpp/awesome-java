@@ -1091,6 +1091,7 @@ _Everything related to the creation and handling of random data._
 _Provide environments to run tests for a specific use case._
 
 - [Apache JMeter](http://jmeter.apache.org) - Functional testing and performance measurements.
+- [AngusTester](https://github.com/xcancloud/AngusTester) - An intelligent R&D and testing platform that enables small and medium-sized enterprises to establish their own R&D, standardize workflow, and improve work efficiency.
 - [Arquillian](http://arquillian.org) - Integration and functional testing platform for Java EE containers.
 - [cdi-test](https://github.com/guhilling/cdi-test) - JUnit extension for easy and efficient testing of CDI components.
 - [Citrus](https://citrusframework.org) - Integration testing framework that focuses on both client- and server-side messaging.
@@ -1131,6 +1132,7 @@ _Other stuff related to testing._
 _Tools which mock collaborators to help testing single, isolated units._
 
 - [JMockit](http://jmockit.github.io) - Integration testing, API mocking and faking, and code coverage.
+- [JMock](https://github.com/xcancloud/JMock) - A high-performance data generation and simulation component library implemented in Java..
 - [Mockito](https://github.com/mockito/mockito) - Mocking framework that lets you write tests with a clean and simple API.
 - [MockServer](https://www.mock-server.com) - Allows mocking of systems integrated with HTTPS.
 - [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks.
