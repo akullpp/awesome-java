@@ -537,7 +537,8 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
 - [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins that extend the number of supported image file formats.
 - [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
 - [image-comparison](https://github.com/romankh3/image-comparison) - Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison.
-- [scrimage](https://sksamuel.github.io/scrimage/) - Scrimage is an immutable, functional, and performant JVM library for manipulation of images. JPG,GIF,PNG,WEBP,TIFF etc.
+- [scrimage](https://sksamuel.github.io/scrimage) - Immutable, functional, and performant JVM library for manipulation of images.
+
 ### Introspection
 
 _Libraries that help make the Java introspection and reflection API easier and faster to use._
