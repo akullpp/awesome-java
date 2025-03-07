@@ -457,7 +457,7 @@ _Frameworks that support the development of games._
 - [LWJGL](https://www.lwjgl.org) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 - [Mini2Dx](https://mini2dx.org) - Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.
 - [Void2D](https://github.com/xzripper/Void2D) - High-level 2D game engine with built-in physics based on Swing.
-- [vulkan4j](https://vulkan4j.7dg.tech) - Vulkan, OpenGL ES2, GLFW and Vulkan Memory Allocator bindings using Project Panama `java.lang.foreign` APIs.
+- [vulkan4j](https://github.com/chuigda/vulkan4j) - Vulkan, OpenGL ES2 and GLFW Memory Allocator bindings.
 
 ### Geospatial
 
