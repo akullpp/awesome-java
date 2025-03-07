@@ -1076,7 +1076,7 @@ _Testing for the software development process that emerged from TDD and was heav
 
 _Everything related to the creation and handling of random data._
 
-- [AutoParams](https://autoparams.github.io) - Supports generating test data or combining scenarios for parameterized tests in Java and Kotlin.
+- [AutoParams](https://github.com/AutoParams/AutoParams) - Supports generating test data or combining scenarios for parameterized tests.
 - [Beanmother](https://github.com/keepcosmos/beanmother) - Sets up beans from YAML fixtures.
 - [Datafaker](https://github.com/datafaker-net/datafaker) - Modern fake data generator forked from Java Faker.
 - [Fixture Factory](https://github.com/six2six/fixture-factory) - Generates fake objects from a template.
