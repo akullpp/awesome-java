@@ -516,6 +516,7 @@ _Libraries that handle serialization to hypermedia types._
 - [hate](https://github.com/blackdoor/hate) - Builds hypermedia-friendly objects according to HAL specification.
 - [JSON-LD](https://github.com/jsonld-java/jsonld-java) - JSON-LD implementation.
 - [Siren4J](https://github.com/eserating-chwy/siren4j) - Library for the Siren specification.
+- [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas) - Standalone and Spring support for building hypermedia-based APIs using HAL, HAL FORMS, Collection+JSON, ALPS and UBER.
 
 ### IDE
 
