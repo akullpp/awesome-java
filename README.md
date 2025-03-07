@@ -806,7 +806,6 @@ _APIs that handle the persistence of objects._
 - [MyBatis-Plus](https://github.com/baomidou/mybatis-plus) - An powerful enhanced toolkit of MyBatis for simplify development.
 - [ObjectiveSql](https://github.com/braisdom/ObjectiveSql) - ActiveRecord ORM for rapid development and convention over configuration.
 - [Permazen](https://github.com/permazen/permazen) - Language-natural persistence layer.
-- [Reladomo](https://github.com/permazen/permazen) - Reladomo is an enterprise grade object-relational mapping framework for Java.
 - [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) - Simple database and CSV mapper.
 
 ### PaaS
