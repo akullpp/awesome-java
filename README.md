@@ -33,6 +33,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Functional Programming](#functional-programming)
   - [Game Development](#game-development)
   - [Geospatial](#geospatial)
+  - [GraphQL](#graphql)
   - [GUI](#gui)
   - [High Performance](#high-performance)
   - [HTTP Clients](#http-clients)
@@ -201,7 +202,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [Joda-Beans](https://www.joda.org/joda-beans/) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
 - [JPA Buddy ![c]](https://www.jpa-buddy.com) - Plugin for IntelliJ IDEA. Provides visual tools for generating JPA entities, Spring Data JPA repositories, Liquibase changelogs and SQL scripts. Offers automatic Liquibase/Flyway script generation by comparing model to DB, and reverse engineering JPA entities from DB tables.
 - [Lombok](https://projectlombok.org) - Code generator that aims to reduce verbosity.
-- [Manifold](https://github.com/manifold-systems/manifold) - Compiler plugin toward reducing boilerplate, adding innovative features, and more.
+- [Manifold](https://github.com/manifold-systems/manifold) - Compiler plugin toward reducing boilerplate and adding innovative features.
 - [Record-Builder](https://github.com/Randgalt/record-builder) - Companion builder class, withers and templates for Java records.
 - [Telosys](https://www.telosys.org/) - Simple and light code generator available as an Eclipse Plugin and also as a CLI.
 
@@ -301,7 +302,7 @@ _Everything that simplifies interactions with the database._
 - [Leaf](https://github.com/Meituan-Dianping/Leaf) - Distributed ID generate service.
 - [Lettuce](https://lettuce.io/) - Lettuce is a scalable Redis client for building non-blocking Reactive applications.
 - [Liquibase](http://www.liquibase.org) - Database-independent library for tracking, managing and applying database schema changes.
-- [manifold-sql](https://github.com/manifold-systems/manifold/blob/master/manifold-deps-parent/manifold-sql/readme.md) - Write _inline_ native SQL of any complexity _type-safely_ within Java code • schema-first • db-independent • CRUD • comprehensive IDE support
+- [manifold-sql](https://github.com/manifold-systems/manifold/blob/master/manifold-deps-parent/manifold-sql/readme.md) - Adds the ability to write inline native SQL of any complexity type-safely code.
 - [MapDB](http://www.mapdb.org) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
 - [MariaDB4j](https://github.com/vorburger/MariaDB4j) - Launcher for MariaDB that requires no installation or external dependencies.
 - [Modality](https://github.com/arkanovicz/modality) - Lightweight ORM with database reverse engineering features.
@@ -478,7 +479,7 @@ _Libraries for working with geospatial data and algorithms._
 
 _Libraries for working with GraphQL, either client or server focus._
 
-- [manifold-graphql](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-graphql) - Compiler plugin for direct, type-safe access to GraphQL, no code gen steps, no POJOs.
+- [manifold-graphql](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-graphql) - Compiler plugin for direct, type-safe access to GraphQL.
 
 ### GUI
 
@@ -556,7 +557,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
 - [Objenesis](http://objenesis.org) - Allows dynamic instantiation without default constructor, e.g. constructors which have required arguments, side effects or throw exceptions.
 - [ReflectASM](https://github.com/EsotericSoftware/reflectasm) - ReflectASM is a very small Java library that provides high performance reflection by using code generation.
 - [Reflections](https://github.com/ronmamo/reflections) - Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.
-- [Type-safe Reflection](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-ext#type-safe-reflection-via-jailbreak) -  A compiler plugin lets you leverage the convenience and type-safety of the Java compiler by writing code as if reflection were not needed, and generates reliable, efficient reflection code for you.
+- [Type-safe Reflection](https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-ext#type-safe-reflection-via-jailbreak) -  Compiler plugin which leverages the convenience and type-safety of the Java compiler by writing code as if reflection were not needed, and generates reliable, efficient reflection code for you.
 
 ### Job Scheduling
 
