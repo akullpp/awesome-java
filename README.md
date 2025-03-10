@@ -1001,6 +1001,7 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Kalium](https://github.com/abstractj/kalium) - Binding for the Networking and Cryptography (NaCl) library.
 - [Keycloak](https://www.keycloak.org) - Integrated SSO and IDM for browser apps and RESTful web services.
 - [Keywhiz](https://github.com/square/keywhiz) - System for distributing and managing secrets.
+- [Logto](https://github.com/logto-io/logto) - Developer-friendly integration with AuthN, AuthZ, MFA, SSO, user management, and multi-tenancy features (OIDC/OAuth2/SAML supported).
 - [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) - Advanced password strength estimation.
 - [OACC](http://oaccframework.org) - Provides permission-based authorization services.
 - [OpenAM](https://github.com/OpenIdentityPlatform/OpenAM) - Access management solution that includes authentication, SSO, authorization, federation, entitlements and web services security.
