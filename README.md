@@ -137,6 +137,13 @@ _Libraries that provide caching facilities._
 - [Ehcache](http://www.ehcache.org) - Distributed general-purpose cache.
 - [Infinispan](https://infinispan.org) - Highly concurrent key/value datastore used for caching.
 
+### Cloud Integration
+
+  - [AWS SDK for Java](https://github.com/aws/aws-sdk-java)- Provides Java APIs for interacting with Amazon Web Services.
+  
+  - [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java)- Client libraries for accessing Google Cloud services from Java applications.
+  
+
 ### CLI
 
 _Libraries for everything related to the CLI._
@@ -936,6 +943,7 @@ _Libraries for developing reactive applications._
 - [Akka](https://akka.io) - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.
 - [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm) - Provides a standard for asynchronous stream processing with non-blocking backpressure.
 - [Reactor](https://github.com/reactor/reactor-core) - Library for building reactive fast-data applications.
+- [Reactor](https://github.com/reactor/reactor) - A framework for building non-blocking applications on the JVM, providing support for reactive programming.
 - [RxJava](https://github.com/ReactiveX/RxJava) - Allows for composing asynchronous and event-based programs using observable sequences.
 - [vert.x](https://vertx.io) - Polyglot event-driven application framework.
 
