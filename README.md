@@ -718,6 +718,7 @@ _Everything else._
 - [Smooks](https://github.com/smooks/smooks) - Framework for fragment-based message processing. (Apache-2.0 OR LGPL-3.0-or-later)
 - [Svix](https://github.com/svix/svix-webhooks/tree/main/java) - Library for the Svix API to send webhooks and verify signatures.
 - [Togglz](https://www.togglz.org) - Implementation of the Feature Toggles pattern.
+- [Tony9402 Algorithm Problem Set](https://algorithm.tony9402.com) - A lightweight platform offering a large set of categorized algorithm problems for competitive programming and coding interviews.
 - [TypeTools](https://github.com/jhalterman/typetools) - Tools for resolving generic types.
 - [webcam-capture](https://github.com/sarxos/webcam-capture) - Library for using built-in and external webcams directly in Java.
 - [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Processes XML by using annotations or XPath within code.
