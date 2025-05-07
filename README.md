@@ -1098,6 +1098,7 @@ _Everything related to the creation and handling of random data._
 _Provide environments to run tests for a specific use case._
 
 - [Apache JMeter](http://jmeter.apache.org) - Functional testing and performance measurements.
+- [JMeter DSL.java](https://abstracta.github.io/jmeter-java-dsl/) - Load tests with JMeter as simple as a Junit test.
 - [Arquillian](http://arquillian.org) - Integration and functional testing platform for Java EE containers.
 - [cdi-test](https://github.com/guhilling/cdi-test) - JUnit extension for easy and efficient testing of CDI components.
 - [Citrus](https://citrusframework.org) - Integration testing framework that focuses on both client- and server-side messaging.
