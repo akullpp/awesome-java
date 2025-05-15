@@ -315,6 +315,7 @@ _Everything that simplifies interactions with the database._
 - [Vibur DBCP](https://www.vibur.org) - JDBC connection pool library with advanced performance monitoring capabilities.
 - [Xodus](https://github.com/JetBrains/xodus) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
 - [CosId](https://github.com/Ahoo-Wang/CosId) - Universal, flexible, high-performance distributed ID generator.
+- [Apache Cassandra](https://github.com/apache/cassandra) Distributed NoSQL database designed to handle large volumes of data across many commodity servers.
 
 ### Date and Time
 
@@ -371,6 +372,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
 - [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG) - High-performance reverse proxy server with specialized session management and credential replay functionality.
 - [ScaleCube Services](https://github.com/scalecube/scalecube-services) - Embeddable Cluster-Membership library based on SWIM and gossip protocol.
 - [Zuul](https://github.com/Netflix/zuul) - Gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
+- [Apache Spark](https://github.com/apache/spark) Multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.
 
 ### Distributed Transactions
 
