@@ -1233,6 +1233,7 @@ _Awesome Lists related to the Java & JVM ecosystem._
 - [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Graal](https://github.com/neomatrix369/awesome-graal)
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
+- [Awesome Java libraries and hidden gems](https://libs.tech/java)
 - [Awesome J2ME](https://github.com/hstsethi/awesome-j2me)
 - [AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
