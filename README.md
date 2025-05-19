@@ -6,11 +6,13 @@ A curated list of awesome Java frameworks, libraries and software.
 
 - [Projects](#projects)
   - [Architecture](#architecture)
+  - [Artificial Intelligence](#artificial-intelligence)
   - [Bean Mapping](#bean-mapping)
   - [Build](#build)
   - [Bytecode Manipulation](#bytecode-manipulation)
   - [Caching](#caching)
   - [CLI](#cli)
+  - [Cloud](#cloud)
   - [Code Analysis](#code-analysis)
   - [Code Coverage](#code-coverage)
   - [Code Generators](#code-generators)
@@ -92,6 +94,13 @@ _Frameworks and libraries that help implementing and verifying design and archit
 - [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 - [jMolecules](https://github.com/xmolecules/jmolecules) - Annotations and interfaces to express design and architecture concepts in code.
 
+### Artificial Intelligence
+
+_Frameworks that help you to leverage LLMs and AI._
+
+- [LangChain4j](https://github.com/langchain4j/langchain4j) - Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.
+- [Spring AI](https://spring.io/projects/spring-ai) - Application framework for AI engineering for Spring.
+
 ### Bean Mapping
 
 _Frameworks that ease bean mapping._
@@ -159,6 +168,13 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 - [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
+
+### Cloud
+
+_Libraries to integrate or use cloud-specific features._
+
+- [AWS SDK for Java](https://github.com/aws/aws-sdk-java) - Provides Java APIs for interacting with Amazon Web Services.
+- [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java) - Client libraries for accessing Google Cloud services from Java applications.
 
 ### Code Analysis
 
@@ -441,6 +457,7 @@ _Libraries that facilitate functional programming._
 - [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
 - [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
 - [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 that aims to fix gaps in lambda by providing numerous missing types and a rich set of sequential Stream API additions.
+- [Packrat](https://github.com/jhspetersson/packrat) - Gatherers library for Java Stream API. Gatherers can enhance streams with custom intermediate operations.
 - [protonpack](https://github.com/poetix/protonpack) - Collection of stream utilities.
 - [StreamEx](https://github.com/amaembo/streamex) - Enhances Java 8 Streams.
 - [Vavr](https://www.vavr.io) - Functional component library that provides persistent data types and functional control structures.
@@ -686,7 +703,6 @@ _Tools for creating and managing microservices._
 
 _Everything else._
 
-- [AWS SDK for Java 2.0](https://github.com/aws/aws-sdk-java-v2) - Wrapper around AWS' API.
 - [CQEngine](https://github.com/npgall/cqengine) - Ultra-fast, SQL-like queries on Java collections.
 - [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
@@ -735,6 +751,7 @@ _Tools for creating or managing mobile applications._
 
 _Tools that observe/monitor applications in production by providing telemetry._
 
+- [Apitally](https://github.com/apitally/apitally-java) - Simple, privacy-focused API monitoring, analytics and request logging for Spring Boot apps.
 - [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
 - [Datadog ![c]](https://github.com/DataDog/dd-trace-java) - Modern monitoring & analytics.
 - [Dropwizard Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and send them to a database.
@@ -935,7 +952,7 @@ _Libraries for developing reactive applications._
 
 - [Akka](https://akka.io) - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.
 - [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm) - Provides a standard for asynchronous stream processing with non-blocking backpressure.
-- [Reactor](https://github.com/reactor/reactor-core) - Library for building reactive fast-data applications.
+- [Reactor](https://github.com/reactor/reactor) - A framework for building non-blocking applications on the JVM, providing support for reactive programming.
 - [RxJava](https://github.com/ReactiveX/RxJava) - Allows for composing asynchronous and event-based programs using observable sequences.
 - [vert.x](https://vertx.io) - Polyglot event-driven application framework.
 
@@ -1098,6 +1115,7 @@ _Everything related to the creation and handling of random data._
 _Provide environments to run tests for a specific use case._
 
 - [Apache JMeter](http://jmeter.apache.org) - Functional testing and performance measurements.
+- [JMeter DSL.java](https://abstracta.github.io/jmeter-java-dsl/) - Load tests with JMeter as simple as a Junit test.
 - [Arquillian](http://arquillian.org) - Integration and functional testing platform for Java EE containers.
 - [cdi-test](https://github.com/guhilling/cdi-test) - JUnit extension for easy and efficient testing of CDI components.
 - [Citrus](https://citrusframework.org) - Integration testing framework that focuses on both client- and server-side messaging.
@@ -1223,6 +1241,7 @@ _Awesome Lists related to the Java & JVM ecosystem._
 - [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Graal](https://github.com/neomatrix369/awesome-graal)
 - [Awesome Gradle Plugins](https://github.com/ksoichiro/awesome-gradle)
+- [Awesome Java libraries and hidden gems](https://libs.tech/java)
 - [Awesome J2ME](https://github.com/hstsethi/awesome-j2me)
 - [AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
