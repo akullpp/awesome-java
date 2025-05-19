@@ -5,7 +5,8 @@ A curated list of awesome Java frameworks, libraries and software.
 ## Contents
 
 - [Projects](#projects)
-  - [Architecture](#architecture)  
+  - [Architecture](#architecture)
+  - [Artificial Intelligence](#artificial-intelligence)
   - [Bean Mapping](#bean-mapping)
   - [Build](#build)
   - [Bytecode Manipulation](#bytecode-manipulation)
@@ -91,6 +92,13 @@ _Frameworks and libraries that help implementing and verifying design and archit
 
 - [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 - [jMolecules](https://github.com/xmolecules/jmolecules) - Annotations and interfaces to express design and architecture concepts in code.
+
+### Artificial Intelligence
+
+_Frameworks that help you to leverage LLMs and AI._
+
+- [LangChain4j](https://github.com/langchain4j/langchain4j) - Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.
+- [Spring AI](https://spring.io/projects/spring-ai) - Application framework for AI engineering for Spring.
 
 ### Bean Mapping
 
