@@ -138,13 +138,6 @@ _Libraries that provide caching facilities._
 - [Ehcache](http://www.ehcache.org) - Distributed general-purpose cache.
 - [Infinispan](https://infinispan.org) - Highly concurrent key/value datastore used for caching.
 
-### Cloud
-
-_Libraries to integrate or use cloud-specific features._
-
-- [AWS SDK for Java](https://github.com/aws/aws-sdk-java)- Provides Java APIs for interacting with Amazon Web Services.
-- [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java)- Client libraries for accessing Google Cloud services from Java applications.
-
 ### CLI
 
 _Libraries for everything related to the CLI._
@@ -167,6 +160,13 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 - [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 - [Text-IO](https://github.com/beryx/text-io) - Aids the creation of full console-based applications.
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
+
+### Cloud
+
+_Libraries to integrate or use cloud-specific features._
+
+- [AWS SDK for Java](https://github.com/aws/aws-sdk-java) - Provides Java APIs for interacting with Amazon Web Services.
+- [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java) - Client libraries for accessing Google Cloud services from Java applications.
 
 ### Code Analysis
 
