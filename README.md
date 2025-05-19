@@ -11,6 +11,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Bytecode Manipulation](#bytecode-manipulation)
   - [Caching](#caching)
   - [CLI](#cli)
+  - [Cloud](#cloud)
   - [Code Analysis](#code-analysis)
   - [Code Coverage](#code-coverage)
   - [Code Generators](#code-generators)
@@ -137,12 +138,12 @@ _Libraries that provide caching facilities._
 - [Ehcache](http://www.ehcache.org) - Distributed general-purpose cache.
 - [Infinispan](https://infinispan.org) - Highly concurrent key/value datastore used for caching.
 
-### Cloud Integration
+### Cloud
 
-  - [AWS SDK for Java](https://github.com/aws/aws-sdk-java)- Provides Java APIs for interacting with Amazon Web Services.
-  
-  - [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java)- Client libraries for accessing Google Cloud services from Java applications.
-  
+_Libraries to integrate or use cloud-specific features._
+
+- [AWS SDK for Java](https://github.com/aws/aws-sdk-java)- Provides Java APIs for interacting with Amazon Web Services.
+- [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java)- Client libraries for accessing Google Cloud services from Java applications.
 
 ### CLI
 
@@ -693,7 +694,6 @@ _Tools for creating and managing microservices._
 
 _Everything else._
 
-- [AWS SDK for Java 2.0](https://github.com/aws/aws-sdk-java-v2) - Wrapper around AWS' API.
 - [CQEngine](https://github.com/npgall/cqengine) - Ultra-fast, SQL-like queries on Java collections.
 - [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
@@ -942,7 +942,6 @@ _Libraries for developing reactive applications._
 
 - [Akka](https://akka.io) - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.
 - [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm) - Provides a standard for asynchronous stream processing with non-blocking backpressure.
-- [Reactor](https://github.com/reactor/reactor-core) - Library for building reactive fast-data applications.
 - [Reactor](https://github.com/reactor/reactor) - A framework for building non-blocking applications on the JVM, providing support for reactive programming.
 - [RxJava](https://github.com/ReactiveX/RxJava) - Allows for composing asynchronous and event-based programs using observable sequences.
 - [vert.x](https://vertx.io) - Polyglot event-driven application framework.
