@@ -846,9 +846,9 @@ _Java platform as a service._
 
 ### Pathfinding
 
-_Pathfinding for Java_
+_Algorithms and libraries for finding routes in graphs and spatial environments._
 
-- [Pathetic](https://github.com/bsommerfeld/pathetic) - A highly configurable 3D pathfinding library that uses internal optimizations for high performance.
+- [Pathetic](https://github.com/bsommerfeld/pathetic) - A highly configurable 3D A* pathfinding library that uses specific optimizations for high performance.
 
 ### PDF
 
