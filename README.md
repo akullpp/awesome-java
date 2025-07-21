@@ -57,6 +57,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Networking](#networking)
   - [ORM](#orm)
   - [PaaS](#paas)
+  - [Pathfinding](#pathfinding)
   - [PDF](#pdf)
   - [Performance analysis](#performance-analysis)
   - [Platform](#platform)
@@ -842,6 +843,12 @@ _Java platform as a service._
 - [Heroku ![c]](https://www.heroku.com) - Abstract computing environments.
 - [Microsoft Azure ![c]](https://azure.microsoft.com/en-us/) - Microsoft's cloud infrastructure.
 - [OpenShift ![c]](https://www.openshift.com) - Provides additionally an on-premise solution.
+
+### Pathfinding
+
+_Pathfinding for Java_
+
+- [Pathetic](https://github.com/bsommerfeld/pathetic) - A highly configurable 3D pathfinding library that uses internal optimizations for high performance.
 
 ### PDF
 
