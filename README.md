@@ -1120,6 +1120,7 @@ _Everything related to the creation and handling of random data._
 - [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
 - [Java Faker](https://github.com/DiUS/java-faker) - Port of Ruby's fake data generator.
 - [Mockneat](https://github.com/nomemory/mockneat) - Another fake data generator.
+- [JMock](https://github.com/xcancloud/JMock) - JMock is a high-performance data generation and simulation component library implemented in Java.
 
 #### Frameworks
 
