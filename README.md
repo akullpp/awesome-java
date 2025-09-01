@@ -1,112 +1,158 @@
-# Awesome Java [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome Java frameworks, libraries and software.
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="120" alt="Java Logo"/>
+  
+  <h1>Awesome Java <img src="https://awesome.re/badge-flat2.svg" alt="Awesome Badge" height="28"/></h1>
+  <p>
+    <b>A curated, modern, and beautiful list of the best Java frameworks, libraries, and tools.</b>
+  </p>
+  <p>
+    <a href="https://github.com/akullpp/awesome-java/stargazers"><img src="https://img.shields.io/github/stars/akullpp/awesome-java?style=flat-square" alt="GitHub stars"></a>
+    <a href="https://github.com/akullpp/awesome-java/network"><img src="https://img.shields.io/github/forks/akullpp/awesome-java?style=flat-square" alt="GitHub forks"></a>
+    <a href="https://github.com/akullpp/awesome-java/issues"><img src="https://img.shields.io/github/issues/akullpp/awesome-java?style=flat-square" alt="GitHub issues"></a>
+    <a href="https://github.com/akullpp/awesome-java/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/akullpp/awesome-java?style=flat-square" alt="License"></a>
+  </p>
+  <p>
+    <em>Last updated: September 2025</em>
+  </p>
+</div>
 
-## Contents
+---
 
-- [Projects](#projects)
-  - [Architecture](#architecture)
-  - [Artificial Intelligence](#artificial-intelligence)
-  - [Bean Mapping](#bean-mapping)
-  - [Build](#build)
-  - [Bytecode Manipulation](#bytecode-manipulation)
-  - [Caching](#caching)
-  - [CLI](#cli)
-  - [Cloud](#cloud)
-  - [Code Analysis](#code-analysis)
-  - [Code Coverage](#code-coverage)
-  - [Code Generators](#code-generators)
-  - [Compiler-compiler](#compiler-compiler)
-  - [Computer Vision](#computer-vision)
-  - [Configuration](#configuration)
-  - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
-  - [CSV](#csv)
-  - [Data Structures](#data-structures)
-  - [Database](#database)
-  - [Date and Time](#date-and-time)
-  - [Dependency Injection](#dependency-injection)
-  - [Development](#development)
-  - [Distributed Applications](#distributed-applications)
-  - [Distributed Transactions](#distributed-transactions)
-  - [Distribution](#distribution)
-  - [Document Processing](#document-processing)
-  - [Financial](#financial)
-  - [Formal Verification](#formal-verification)
-  - [Functional Programming](#functional-programming)
-  - [Game Development](#game-development)
-  - [Geospatial](#geospatial)
-  - [GUI](#gui)
-  - [High Performance](#high-performance)
-  - [HTTP Clients](#http-clients)
-  - [Hypermedia Types](#hypermedia-types)
-  - [IDE](#ide)
-  - [Imagery](#imagery)
-  - [Introspection](#introspection)
-  - [Job Scheduling](#job-scheduling)
-  - [JSON](#json)
-  - [JVM and JDK](#jvm-and-jdk)
-  - [Logging](#logging)
-  - [Machine Learning](#machine-learning)
-  - [Messaging](#messaging)
-  - [Microservice](#microservice)
-  - [Miscellaneous](#miscellaneous)
-  - [Mobile Development](#mobile-development)
-  - [Monitoring](#monitoring)
-  - [Native](#native)
-  - [Natural Language Processing](#natural-language-processing)
-  - [Networking](#networking)
-  - [ORM](#orm)
-  - [PaaS](#paas)
-  - [Pathfinding](#pathfinding)
-  - [PDF](#pdf)
-  - [Performance analysis](#performance-analysis)
-  - [Platform](#platform)
-  - [Processes](#processes)
-  - [Reactive libraries](#reactive-libraries)
-  - [REST Frameworks](#rest-frameworks)
-  - [Science](#science)
-  - [Search](#search)
-  - [Security](#security)
-  - [Serialization](#serialization)
-  - [Server](#server)
-  - [Template Engine](#template-engine)
-  - [Testing](#testing)
-  - [Utility](#utility)
-  - [Version Managers](#version-managers)
-  - [Web Crawling](#web-crawling)
-  - [Web Frameworks](#web-frameworks)
-  - [Workflow Orchestration Engines](#workflow-orchestration-engines)
-- [Resources](#resources)
-  - [Related Awesome Lists](#related-awesome-lists)
-  - [Communities](#communities)
-  - [Frontends](#frontends)
-  - [Influential Books](#influential-books)
-  - [Podcasts and Screencasts](#podcasts-and-screencasts)
-  - [People](#people)
-  - [Websites](#websites)
+<p align="center">
+  <b>🚀 Discover the most <span style="color:#f39c12;">awesome</span> Java resources for modern development!</b><br>
+  <sub>From frameworks to tools, everything you need to build amazing Java applications.</sub>
+</p>
+
+---
+
+
+## 📚 Contents
+
+<details>
+  <summary><strong>Projects</strong></summary>
+  
+  - <a href="#architecture">Architecture</a>
+  - <a href="#artificial-intelligence">Artificial Intelligence</a>
+  - <a href="#bean-mapping">Bean Mapping</a>
+  - <a href="#build">Build</a>
+  - <a href="#bytecode-manipulation">Bytecode Manipulation</a>
+  - <a href="#caching">Caching</a>
+  - <a href="#cli">CLI</a>
+  - <a href="#cloud">Cloud</a>
+  - <a href="#code-analysis">Code Analysis</a>
+  - <a href="#code-coverage">Code Coverage</a>
+  - <a href="#code-generators">Code Generators</a>
+  - <a href="#compiler-compiler">Compiler-compiler</a>
+  - <a href="#computer-vision">Computer Vision</a>
+  - <a href="#configuration">Configuration</a>
+  - <a href="#constraint-satisfaction-problem-solver">Constraint Satisfaction Problem Solver</a>
+  - <a href="#csv">CSV</a>
+  - <a href="#data-structures">Data Structures</a>
+  - <a href="#database">Database</a>
+  - <a href="#date-and-time">Date and Time</a>
+  - <a href="#dependency-injection">Dependency Injection</a>
+  - <a href="#development">Development</a>
+  - <a href="#distributed-applications">Distributed Applications</a>
+  - <a href="#distributed-transactions">Distributed Transactions</a>
+  - <a href="#distribution">Distribution</a>
+  - <a href="#document-processing">Document Processing</a>
+  - <a href="#financial">Financial</a>
+  - <a href="#formal-verification">Formal Verification</a>
+  - <a href="#functional-programming">Functional Programming</a>
+  - <a href="#game-development">Game Development</a>
+  - <a href="#geospatial">Geospatial</a>
+  - <a href="#gui">GUI</a>
+  - <a href="#high-performance">High Performance</a>
+  - <a href="#http-clients">HTTP Clients</a>
+  - <a href="#hypermedia-types">Hypermedia Types</a>
+  - <a href="#ide">IDE</a>
+  - <a href="#imagery">Imagery</a>
+  - <a href="#introspection">Introspection</a>
+  - <a href="#job-scheduling">Job Scheduling</a>
+  - <a href="#json">JSON</a>
+  - <a href="#jvm-and-jdk">JVM and JDK</a>
+  - <a href="#logging">Logging</a>
+  - <a href="#machine-learning">Machine Learning</a>
+  - <a href="#messaging">Messaging</a>
+  - <a href="#microservice">Microservice</a>
+  - <a href="#miscellaneous">Miscellaneous</a>
+  - <a href="#mobile-development">Mobile Development</a>
+  - <a href="#monitoring">Monitoring</a>
+  - <a href="#native">Native</a>
+  - <a href="#natural-language-processing">Natural Language Processing</a>
+  - <a href="#networking">Networking</a>
+  - <a href="#orm">ORM</a>
+  - <a href="#paas">PaaS</a>
+  - <a href="#pathfinding">Pathfinding</a>
+  - <a href="#pdf">PDF</a>
+  - <a href="#performance-analysis">Performance analysis</a>
+  - <a href="#platform">Platform</a>
+  - <a href="#processes">Processes</a>
+  - <a href="#reactive-libraries">Reactive libraries</a>
+  - <a href="#rest-frameworks">REST Frameworks</a>
+  - <a href="#science">Science</a>
+  - <a href="#search">Search</a>
+  - <a href="#security">Security</a>
+  - <a href="#serialization">Serialization</a>
+  - <a href="#server">Server</a>
+  - <a href="#template-engine">Template Engine</a>
+  - <a href="#testing">Testing</a>
+  - <a href="#utility">Utility</a>
+  - <a href="#version-managers">Version Managers</a>
+  - <a href="#web-crawling">Web Crawling</a>
+  - <a href="#web-frameworks">Web Frameworks</a>
+  - <a href="#workflow-orchestration-engines">Workflow Orchestration Engines</a>
+</details>
+
+<details>
+  <summary><strong>Resources</strong></summary>
+  
+  - <a href="#related-awesome-lists">Related Awesome Lists</a>
+  - <a href="#communities">Communities</a>
+  - <a href="#frontends">Frontends</a>
+  - <a href="#influential-books">Influential Books</a>
+  - <a href="#podcasts-and-screencasts">Podcasts and Screencasts</a>
+  - <a href="#people">People</a>
+  - <a href="#websites">Websites</a>
+</details>
+
 - [Contributing](#contributing)
 
-## Projects
 
-### Architecture
 
-_Frameworks and libraries that help implementing and verifying design and architecture concepts._
+---
+
+## 🚩 Projects
+
+
+---
+
+### 🏛️ Architecture
+
+<sub><i>Frameworks and libraries that help implement and verify design and architecture concepts.</i></sub>
 
 - [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 - [jMolecules](https://github.com/xmolecules/jmolecules) - Annotations and interfaces to express design and architecture concepts in code.
 
-### Artificial Intelligence
 
-_Frameworks that help you to leverage LLMs and AI._
+---
+
+### 🤖 Artificial Intelligence
+
+<sub><i>Frameworks that help you leverage LLMs and AI.</i></sub>
 
 - [LangChain4j](https://github.com/langchain4j/langchain4j) - Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.
 - [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk) -  Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns.
 - [simple-openai](https://github.com/sashirestela/simple-openai) - Library to use the OpenAI API (and compatible ones) in the simplest possible way.
 - [Spring AI](https://spring.io/projects/spring-ai) - Application framework for AI engineering for Spring.
 
-### Bean Mapping
 
-_Frameworks that ease bean mapping._
+---
+
+### 🫘 Bean Mapping
+
+<sub><i>Frameworks that ease bean mapping.</i></sub>
 
 - [dOOv](https://github.com/doov-io/doov) - Provides fluent API for typesafe domain model validation and mapping. It uses annotations, code generation and a type safe DSL to make bean validation and mapping fast and easy.
 - [JMapper](https://github.com/jmapper-framework/jmapper-core) - Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration.
@@ -116,18 +162,24 @@ _Frameworks that ease bean mapping._
 - [reMap](https://github.com/remondis-it/remap) - Lambda and method handle-based mapping which requires code and not annotations if objects have different names.
 - [Selma](https://github.com/xebia-france/selma) - Annotation processor-based bean mapper.
 
-### Build
 
-_Tools that handle the build cycle and dependencies of an application._
+---
+
+### 🛠️ Build
+
+<sub><i>Tools that handle the build cycle and dependencies of an application.</i></sub>
 
 - [Apache Maven](https://maven.apache.org) - Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain.
 - [Bazel](https://bazel.build) - Tool from Google that builds code quickly and reliably.
 - [Buck2](https://github.com/facebook/buck2) - Encourages the creation of small, reusable modules consisting of code and resources.
 - [Gradle](https://gradle.org) - Incremental builds programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
 
-### Bytecode Manipulation
 
-_Libraries to manipulate bytecode programmatically._
+---
+
+### 🧬 Bytecode Manipulation
+
+<sub><i>Libraries to manipulate bytecode programmatically.</i></sub>
 
 - [ASM](https://asm.ow2.io) - All-purpose, low-level bytecode manipulation and analysis.
 - [Byte Buddy](https://bytebuddy.net) - Further simplifies bytecode generation with a fluent API.
@@ -1369,10 +1421,15 @@ _Sites to read._
 - [Voxxed](https://www.voxxed.com)
 - [Java Weekly](https://discu.eu/weekly/java/)
 
-## Contributing
 
-Contributions are very welcome!
+---
+
+## 🤝 Contributing
+
+Contributions are very welcome! If you have a suggestion, improvement, or a new awesome Java resource, feel free to open an issue or pull request.
 
 Please have a look at the [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) guidelines and [the validation tools](https://github.com/akullpp/awesome-java-lint).
+
+---
 
 [c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg
