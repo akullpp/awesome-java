@@ -554,6 +554,7 @@ _Integrated development environments that try to simplify several aspects of dev
 
 _Libraries that assist with the creation, evaluation or manipulation of graphical images._
 
+- [Barcode-Lib4J](https://github.com/vws-java/Barcode-Lib4J) - Generates QR Code, DataMatrix, and other 1D/2D barcodes as vector (PDF, EPS, SVG) and raster (PNG, BMP, JPG) images with DPI awareness, high precision, and CMYK color model support.
 - [Imgscalr](https://github.com/rkalla/imgscalr) - Simple, efficient and hardware-accelerated image-scaling library implemented in pure Java 2D.
 - [Tess4J](https://github.com/nguyenq/tess4j) - JNA wrapper for Tesseract OCR API.
 - [Thumbnailator](https://github.com/coobird/thumbnailator) - High-quality thumbnail generation library.
