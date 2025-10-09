@@ -744,6 +744,8 @@ _Everything else._
 - [webcam-capture](https://github.com/sarxos/webcam-capture) - Library for using built-in and external webcams directly in Java.
 - [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Processes XML by using annotations or XPath within code.
 - [yGuard](https://github.com/yWorks/yGuard) - Obfuscation via renaming and shrinking.
+- [JBang](https://github.com/maxandersen/jbang/) - JBang makes it easy to use Java for scripting. It lets you use a single file for
+  code and dependency management and allows you to run it directly.
 
 ### Mobile Development
 
@@ -800,7 +802,7 @@ _Libraries that specialize in processing text._
 - [CogCompNLP](https://github.com/CogComp/cogcomp-nlp) - Provides common annotators for plain text input. (Research and Academic Use License)
 - [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. (GPL-3.0-or-later)
 - [DKPro](https://dkpro.github.io) - Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
-- [Hypherator](https://github.com/ejossev/hypherator-java) - Java hyphenation library with iterator-like interface. Can be used out-of-the box - dictionaries for multiple languages are bundled in. 
+- [Hypherator](https://github.com/ejossev/hypherator-java) - Java hyphenation library with iterator-like interface. Can be used out-of-the box - dictionaries for multiple languages are bundled in.
 - [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for tasks ranging from POS tagging to sentiment analysis.
 
 ### Networking
