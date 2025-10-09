@@ -1156,6 +1156,7 @@ _Other stuff related to testing._
 
 - [ConsoleCaptor](https://github.com/Hakky54/console-captor) - Captures console output for unit testing purposes.
 - [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - TestNG-like data provider/runner for JUnit.
+- [junit-pioneer](https://junit-pioneer.org/) - JUnit 5 extension pack, pushing the frontiers on Jupiter.
 - [LogCaptor](https://github.com/Hakky54/log-captor) - Captures log entries for unit testing purposes.
 - [log-capture](https://github.com/dm-drogeriemarkt/log-capture) - Captures log entries and provides assertions for unit and integration testing.
 - [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports whether instances of a given class are immutable.
