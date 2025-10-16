@@ -150,13 +150,13 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
   var table = new StringBuilder();
   table.append(Constants.SECTION_COMMENT_PREFIX).append(sectionName).append(" -->\n\n");
   table.append("### ").append(sectionName).append("\n\n");
-  table.append("<table style=\"table-layout: fixed; width: 850px;\">\n");
+  table.append("<table style=\"table-layout: fixed !important; width: 850px !important; border-collapse: collapse; min-width: 850px !important; max-width: 850px !important; font-size: 14px;\">\n");
   table.append("<thead>\n");
   table.append("<tr>\n");
-  table.append("<th style=\"width: 200px;\">Name</th>\n");
-  table.append("<th style=\"width: 400px;\">Description</th>\n");
-  table.append("<th style=\"width: 125px;\">Stars</th>\n");
-  table.append("<th style=\"width: 125px;\">Updated</th>\n");
+  table.append("<th style=\"width: 200px !important; min-width: 200px !important; max-width: 200px !important;\">Name</th>\n");
+  table.append("<th style=\"width: 400px !important; min-width: 400px !important; max-width: 400px !important;\">Description</th>\n");
+  table.append("<th style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important;\">Stars</th>\n");
+  table.append("<th style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important;\">Updated</th>\n");
   table.append("</tr>\n");
   table.append("</thead>\n");
   table.append("<tbody>\n");
@@ -168,10 +168,10 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
     var commit = badge != null ? badge.lastCommitBadge() : Constants.NO_BADGE;
 
     table.append("<tr>\n");
-    table.append("<td><a href=\"").append(entry.url()).append("\">").append(entry.name()).append("</a></td>\n");
-    table.append("<td>").append(desc).append("</td>\n");
-    table.append("<td>").append(stars).append("</td>\n");
-    table.append("<td>").append(commit).append("</td>\n");
+    table.append("<td style=\"width: 200px !important; min-width: 200px !important; max-width: 200px !important; overflow: hidden;\"><a href=\"").append(entry.url()).append("\">").append(entry.name()).append("</a></td>\n");
+    table.append("<td style=\"width: 400px !important; min-width: 400px !important; max-width: 400px !important; overflow: hidden;\">").append(desc).append("</td>\n");
+    table.append("<td style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; text-align: center;\">").append(stars).append("</td>\n");
+    table.append("<td style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; text-align: center;\">").append(commit).append("</td>\n");
     table.append("</tr>\n");
   }
 
