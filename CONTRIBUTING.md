@@ -43,7 +43,7 @@ Furthermore, please ensure your pull request follows the following guidelines:
 - Use the following format for libraries: \[LIBRARY\]\(LINK\) - DESCRIPTION.
 - Entries should be sorted in ascending alphabetical order, i.e. a to z.
 - New categories or improvements to the existing categorization are welcome.
-- Keep descriptions short, simple and unbiased.
+- Keep descriptions below or euqal to 160 characters, simple and unbiased.
 - End all descriptions with a full stop/period.
 - Check your spelling and grammar.
 - Make sure your text editor is set to remove trailing whitespace.
