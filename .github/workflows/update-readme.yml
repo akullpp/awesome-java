@@ -1,0 +1,110 @@
+name: Update README from CONTRIBUTE_README
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "CONTRIBUTE_README.md"
+      - "scripts/*.java"
+  pull_request:
+    branches: [master]
+    paths:
+      - "CONTRIBUTE_README.md"
+      - "scripts/*.java"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+       - name: Set up Java
+         uses: actions/setup-java@v4
+         with:
+           distribution: "temurin"
+           java-version: "25"
+
+      - name: Step 1 - Validate Input
+        run: |
+          echo "Step 1: Validating input file..."
+          java --enable-preview --source 25 scripts/step_1_validate_input.java
+
+      - name: Step 2 - Parse Projects
+        run: |
+          echo "Step 2: Parsing project entries..."
+          java --enable-preview --source 25 scripts/step_2_parse_projects.java
+
+      - name: Step 3 - Generate Badges
+        run: |
+          echo "Step 3: Generating GitHub badges..."
+          java --enable-preview --source 25 scripts/step_3_generate_badges.java
+
+      - name: Step 4 - Generate Tables
+        run: |
+          echo "Step 4: Generating HTML tables..."
+          java --enable-preview --source 25 scripts/step_4_generate_tables.java
+
+      - name: Step 5 - Assemble README
+        run: |
+          echo "Step 5: Assembling final README..."
+          java --enable-preview --source 25 scripts/step_5_assemble_readme.java
+
+      - name: Step 6 - Validate Transformation
+        run: |
+          echo "Step 6: Validating transformation..."
+          java --enable-preview --source 25 scripts/step_6_validate_transformation.java
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to README.md"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in README.md"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Auto-update README.md from CONTRIBUTE_README.md
+
+          - Converted list format to HTML tables
+          - Added GitHub stars and last commit badges
+          - Updated via GitHub Actions workflow"
+          git push
+          echo "Changes committed and pushed to repository"
+
+      - name: Create summary
+        run: |
+          echo "## Workflow Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Completed Steps:" >> $GITHUB_STEP_SUMMARY
+          echo "1. Checked out repository" >> $GITHUB_STEP_SUMMARY
+          echo "2. Set up Java 25" >> $GITHUB_STEP_SUMMARY
+          echo "3. Step 1: Validated input file" >> $GITHUB_STEP_SUMMARY
+          echo "4. Step 2: Parsed project entries" >> $GITHUB_STEP_SUMMARY
+          echo "5. Step 3: Generated GitHub badges" >> $GITHUB_STEP_SUMMARY
+          echo "6. Step 4: Generated HTML tables" >> $GITHUB_STEP_SUMMARY
+          echo "7. Step 5: Assembled final README" >> $GITHUB_STEP_SUMMARY
+          echo "8. Step 6: Validated transformation" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.changes.outputs.changed }}" == "true" ]; then
+            echo "9. Committed and pushed changes" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "9. No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### File Statistics:" >> $GITHUB_STEP_SUMMARY
+          echo "- **Lines**: $(wc -l < README.md)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Size**: $(du -h README.md | cut -f1)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Badges**: $(grep -c 'img.shields.io' README.md)" >> $GITHUB_STEP_SUMMARY

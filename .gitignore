@@ -1,3 +1,4 @@
 .idea/
 .vscode/
-.scripts/
+.tmp/
+.tool-versions
