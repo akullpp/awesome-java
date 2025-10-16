@@ -91,9 +91,9 @@ List<BadgeMapping> generateBadgeMappings(List<ProjectEntry> entries) {
       continue;
     }
 
-    var starsBadge = String.format("<img src=\"%s\" alt=\"GitHub stars\" style=\"width:100%%;height:40px;display:block;object-fit:cover;\">", Constants.GITHUB_STARS_BADGE_URL.formatted(repo));
+    var starsBadge = String.format("![GitHub stars](%s)", Constants.GITHUB_STARS_BADGE_URL.formatted(repo));
 
-    var lastCommitBadge = String.format("<img src=\"%s\" alt=\"Last commit\" style=\"width:100%%;height:40px;display:block;object-fit:cover;\">", Constants.GITHUB_LAST_COMMIT_BADGE_URL.formatted(repo));
+    var lastCommitBadge = String.format("![Last commit](%s)", Constants.GITHUB_LAST_COMMIT_BADGE_URL.formatted(repo));
 
     mappings.add(new BadgeMapping(
       entry.name(),

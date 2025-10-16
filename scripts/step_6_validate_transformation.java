@@ -419,8 +419,19 @@ ValidationResult validateTransformation(List<ProjectEntry> original, List<Projec
   // Check for extra sections (sections in transformed but not in original)
   for (var transformedSection : transformedSections) {
     var key = transformedSection.name().toLowerCase();
+    var isSubsection = key.contains(" > ");
+    
     if (!originalSectionMap.containsKey(key)) {
-      extraSections.add(transformedSection);
+      // For subsections, check if the parent section exists
+      if (isSubsection) {
+        var parentSection = key.split(" > ")[0];
+        if (!originalSectionMap.containsKey(parentSection)) {
+          extraSections.add(transformedSection);
+        }
+        // Skip subsections as they are valid if parent exists
+      } else {
+        extraSections.add(transformedSection);
+      }
     }
   }
 

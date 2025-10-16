@@ -45,7 +45,7 @@ public final class Constants {
   public static final String TABLE_STYLE = "width:100%;table-layout:fixed;border-collapse:collapse;";
   public static final String NAME_CELL_STYLE = "width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
   public static final String DESC_CELL_STYLE = "width:58%;word-wrap:break-word;";
-  public static final String BADGE_CELL_STYLE = "width:12%;text-align:center;vertical-align:middle;min-height:40px;padding:0;";
+  public static final String BADGE_CELL_STYLE = "";
 
   // Badge URLs - Updated to remove labels
   public static final String GITHUB_STARS_BADGE_URL = "https://img.shields.io/github/stars/%s?style=for-the-badge&label=";
