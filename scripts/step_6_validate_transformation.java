@@ -420,7 +420,7 @@ ValidationResult validateTransformation(List<ProjectEntry> original, List<Projec
   for (var transformedSection : transformedSections) {
     var key = transformedSection.name().toLowerCase();
     var isSubsection = key.contains(" > ");
-    
+
     if (!originalSectionMap.containsKey(key)) {
       // For subsections, check if the parent section exists
       if (isSubsection) {
