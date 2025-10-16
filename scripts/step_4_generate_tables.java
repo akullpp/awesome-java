@@ -155,8 +155,8 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
   table.append("<tr>\n");
   table.append("<th style=\"width: 200px !important; min-width: 200px !important; max-width: 200px !important;\">Name</th>\n");
   table.append("<th style=\"width: 400px !important; min-width: 400px !important; max-width: 400px !important;\">Description</th>\n");
-  table.append("<th style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important;\">Stars</th>\n");
-  table.append("<th style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important;\">Updated</th>\n");
+  table.append("<th style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; height: auto;\">Stars</th>\n");
+  table.append("<th style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; height: auto;\">Updated</th>\n");
   table.append("</tr>\n");
   table.append("</thead>\n");
   table.append("<tbody>\n");
@@ -170,8 +170,8 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
     table.append("<tr>\n");
     table.append("<td style=\"width: 200px !important; min-width: 200px !important; max-width: 200px !important; overflow: hidden;\"><a href=\"").append(entry.url()).append("\">").append(entry.name()).append("</a></td>\n");
     table.append("<td style=\"width: 400px !important; min-width: 400px !important; max-width: 400px !important; overflow: hidden;\">").append(desc).append("</td>\n");
-    table.append("<td style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; text-align: center;\">").append(stars).append("</td>\n");
-    table.append("<td style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; text-align: center;\">").append(commit).append("</td>\n");
+    table.append("<td style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; text-align: center; height: auto; vertical-align: middle;\">").append(stars).append("</td>\n");
+    table.append("<td style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; text-align: center; height: auto; vertical-align: middle;\">").append(commit).append("</td>\n");
     table.append("</tr>\n");
   }
 
