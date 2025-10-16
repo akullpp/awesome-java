@@ -24,11 +24,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-       - name: Set up Java
-         uses: actions/setup-java@v4
-         with:
-           distribution: "temurin"
-           java-version: "25"
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "25"
 
       - name: Step 1 - Validate Input
         run: |

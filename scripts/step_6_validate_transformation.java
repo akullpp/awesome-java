@@ -26,11 +26,15 @@ void main(String[] args) throws IOException {
 
   var originalEntries = extractProjectEntries(originalContent);
   var transformedEntries = extractProjectEntriesFromTables(transformedContent);
+  var originalSections = extractSections(originalContent);
+  var transformedSections = extractSections(transformedContent);
 
   System.out.printf("Found %d entries in original README%n", originalEntries.size());
   System.out.printf("Found %d entries in transformed README%n", transformedEntries.size());
+  System.out.printf("Found %d sections in original README%n", originalSections.size());
+  System.out.printf("Found %d sections in transformed README%n", transformedSections.size());
 
-  var validationResult = validateTransformation(originalEntries, transformedEntries);
+  var validationResult = validateTransformation(originalEntries, transformedEntries, originalSections, transformedSections);
   printValidationResults(validationResult);
 
   if (!validationResult.isValid()) {
@@ -39,6 +43,52 @@ void main(String[] args) throws IOException {
   }
 
   System.out.println("SUCCESS: All entries validated successfully!");
+}
+
+/**
+ * Extracts all sections (including subsections and arbitrary multi-level sections) from markdown content.
+ */
+List<SectionInfo> extractSections(String content) {
+  var sections = new ArrayList<SectionInfo>();
+  var lines = content.split("\n");
+
+  for (int i = 0; i < lines.length; i++) {
+    var line = lines[i];
+
+    // Extract all sections and subsections throughout the document
+    if (line.startsWith(Constants.SUBSECTION)) {
+      var sectionName = line.substring(Constants.SUBSECTION.length()).trim();
+      var level = 1; // Subsection level
+      sections.add(new SectionInfo(sectionName, level, i));
+    } else {
+      // Handle arbitrary multi-level sections (####, #####, ######, etc.)
+      var level = getSectionLevel(line);
+      if (level > 1) {
+        var sectionName = line.substring(level + 1).trim(); // Remove the # symbols and space
+        sections.add(new SectionInfo(sectionName, level, i));
+      }
+    }
+  }
+
+  return sections;
+}
+
+/**
+ * Determines the section level based on the number of # symbols.
+ * Returns 0 if the line is not a section header.
+ */
+int getSectionLevel(String line) {
+  if (!line.startsWith("#")) {
+    return 0;
+  }
+
+  int level = 0;
+  for (int i = 0; i < line.length() && line.charAt(i) == '#'; i++) {
+    level++;
+  }
+
+  // Must have at least 3 # symbols and a space after them
+  return (level >= 3 && line.length() > level && line.charAt(level) == ' ') ? level : 0;
 }
 
 /**
@@ -238,12 +288,15 @@ ProjectEntry parseProjectEntry(String[] lines, int startIndex, String section) {
 }
 
 /**
- * Validates that all original entries are present in the transformed version.
+ * Validates that all original entries and sections are present in the transformed version.
  */
-ValidationResult validateTransformation(List<ProjectEntry> original, List<ProjectEntry> transformed) {
+ValidationResult validateTransformation(List<ProjectEntry> original, List<ProjectEntry> transformed,
+                                       List<SectionInfo> originalSections, List<SectionInfo> transformedSections) {
   var missingEntries = new ArrayList<ProjectEntry>();
   var wrongSectionEntries = new ArrayList<SectionMismatch>();
   var extraEntries = new ArrayList<ProjectEntry>();
+  var missingSections = new ArrayList<SectionInfo>();
+  var extraSections = new ArrayList<SectionInfo>();
 
   // Create maps for easier lookup
   var originalMap = original.stream()
@@ -267,7 +320,10 @@ ValidationResult validateTransformation(List<ProjectEntry> original, List<Projec
       missingEntries.add(originalEntry);
     } else {
       var transformedEntry = transformedMap.get(key);
-      if (!originalEntry.section().equals(transformedEntry.section())) {
+      // Compare base section names (before " > ") for hierarchical sections
+      var originalBaseSection = originalEntry.section();
+      var transformedBaseSection = transformedEntry.section().split(" > ")[0];
+      if (!originalBaseSection.equals(transformedBaseSection)) {
         wrongSectionEntries.add(new SectionMismatch(
           originalEntry,
           transformedEntry
@@ -283,10 +339,56 @@ ValidationResult validateTransformation(List<ProjectEntry> original, List<Projec
       extraEntries.add(transformedEntry);
     }
   }
+
+  // Create section maps for easier lookup
+  var originalSectionMap = originalSections.stream()
+    .collect(Collectors.toMap(
+      s -> s.name().toLowerCase(),
+      s -> s,
+      (s1, s2) -> s1
+    ));
+
+  var transformedSectionMap = transformedSections.stream()
+    .collect(Collectors.toMap(
+      s -> s.name().toLowerCase(),
+      s -> s,
+      (s1, s2) -> s1
+    ));
+
+  // Check for missing sections - only check main sections (### level) that have entries
+  var sectionsWithEntries = original.stream()
+    .map(ProjectEntry::section)
+    .distinct()
+    .collect(Collectors.toSet());
+
+  for (var originalSection : originalSections) {
+    var key = originalSection.name().toLowerCase();
+    // Only check main sections (### level) that have entries and are missing from transformed
+    if (originalSection.level() == 3 &&
+        sectionsWithEntries.contains(originalSection.name())) {
+      // Check if any transformed section starts with this base section name
+      var hasMatchingSection = transformedSections.stream()
+        .anyMatch(s -> s.name().toLowerCase().startsWith(key));
+      if (!hasMatchingSection) {
+        missingSections.add(originalSection);
+      }
+    }
+  }
+
+  // Check for extra sections (sections in transformed but not in original)
+  for (var transformedSection : transformedSections) {
+    var key = transformedSection.name().toLowerCase();
+    if (!originalSectionMap.containsKey(key)) {
+      extraSections.add(transformedSection);
+    }
+  }
+
   return new ValidationResult(
     missingEntries,
     wrongSectionEntries,
-    extraEntries
+    extraEntries,
+    missingSections,
+    extraSections
   );
 }
 
@@ -300,7 +402,9 @@ void printValidationResults(ValidationResult result) {
 
   if (result.missingEntries().isEmpty() &&
       result.wrongSectionEntries().isEmpty() &&
-      result.extraEntries().isEmpty()) {
+      result.extraEntries().isEmpty() &&
+      result.missingSections().isEmpty() &&
+      result.extraSections().isEmpty()) {
     System.out.println("All validations passed!");
     return;
   }
@@ -331,6 +435,22 @@ void printValidationResults(ValidationResult result) {
     }
     System.out.println();
   }
+
+  if (!result.missingSections().isEmpty()) {
+    System.out.printf("MISSING SECTIONS (%d):%n", result.missingSections().size());
+    for (var section : result.missingSections()) {
+      System.out.printf("  - %s (Level: %d, Line: %d)%n", section.name(), section.level(), section.lineNumber());
+    }
+    System.out.println();
+  }
+
+  if (!result.extraSections().isEmpty()) {
+    System.out.printf("EXTRA SECTIONS (%d):%n", result.extraSections().size());
+    for (var section : result.extraSections()) {
+      System.out.printf("  - %s (Level: %d, Line: %d)%n", section.name(), section.level(), section.lineNumber());
+    }
+    System.out.println();
+  }
 }
 
 /**
@@ -339,10 +459,15 @@ void printValidationResults(ValidationResult result) {
 record ValidationResult(
   List<ProjectEntry> missingEntries,
   List<SectionMismatch> wrongSectionEntries,
-  List<ProjectEntry> extraEntries
+  List<ProjectEntry> extraEntries,
+  List<SectionInfo> missingSections,
+  List<SectionInfo> extraSections
 ) {
   boolean isValid() {
-    return missingEntries.isEmpty() && wrongSectionEntries.isEmpty();
+    return missingEntries.isEmpty() &&
+           wrongSectionEntries.isEmpty() &&
+           missingSections.isEmpty() &&
+           extraSections.isEmpty();
   }
 }
 
@@ -352,4 +477,13 @@ record ValidationResult(
 record SectionMismatch(
   ProjectEntry original,
   ProjectEntry transformed
+) {}
+
+/**
+ * Represents section information including name, level, and line number.
+ */
+record SectionInfo(
+  String name,
+  int level,
+  int lineNumber
 ) {}

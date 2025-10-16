@@ -411,11 +411,12 @@ _Libraries that provide caching facilities._
 _Libraries for everything related to the CLI._
 
 #### Argument Parsing
+
 _Libraries to assist with parsing command line arguments._
 
 
 
-<!-- SECTION:CLI -->
+<!-- SECTION:CLI > Argument Parsing -->
 <table style="width:100%;table-layout:fixed;border-collapse:collapse;">
   <tbody>
     <tr>
@@ -458,6 +459,18 @@ _Libraries to assist with parsing command line arguments._
       <td style="width:7.5%;text-align:center;">-</td>
       <td style="width:7.5%;text-align:center;">-</td>
     </tr>
+  </tbody>
+</table>
+
+#### Text-Based User Interfaces
+
+_Libraries that provide TUI frameworks, or building blocks related functions._
+
+
+
+<!-- SECTION:CLI > Text-Based User Interfaces -->
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;">
+  <tbody>
     <tr>
       <td style="width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
         <a href="https://github.com/fusesource/jansi">Jansi</a>
@@ -4676,7 +4689,8 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 #### Apache Commons
 
 
-<!-- SECTION:Platform -->
+
+<!-- SECTION:Platform > Apache Commons -->
 <table style="width:100%;table-layout:fixed;border-collapse:collapse;">
   <tbody>
     <tr>
@@ -5111,6 +5125,16 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
       <td style="width:7.5%;text-align:center;">-</td>
       <td style="width:7.5%;text-align:center;">-</td>
     </tr>
+  </tbody>
+</table>
+
+#### Other
+
+
+
+<!-- SECTION:Platform > Other -->
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;">
+  <tbody>
     <tr>
       <td style="width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
         <a href="https://www.cuba-platform.com/">CUBA Platform</a>
@@ -5939,11 +5963,12 @@ _Tools that substitute expressions in a template._
 _Tools that test from model to the view._
 
 #### Asynchronous
+
 _Tools that simplify testing asynchronous services._
 
 
 
-<!-- SECTION:Testing -->
+<!-- SECTION:Testing > Asynchronous -->
 <table style="width:100%;table-layout:fixed;border-collapse:collapse;">
   <tbody>
     <tr>
@@ -6002,6 +6027,18 @@ _Tools that simplify testing asynchronous services._
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/stars/testingisdocumenting/webtau?style=flat-square&label=" alt="GitHub stars"></td>
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/last-commit/testingisdocumenting/webtau?style=flat-square&label=" alt="Last commit"></td>
     </tr>
+  </tbody>
+</table>
+
+#### BDD
+
+_Testing for the software development process that emerged from TDD and was heavily influenced by DDD and OOAD._
+
+
+
+<!-- SECTION:Testing > BDD -->
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;">
+  <tbody>
     <tr>
       <td style="width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
         <a href="https://github.com/cucumber/cucumber-jvm">Cucumber</a>
@@ -6058,6 +6095,18 @@ _Tools that simplify testing asynchronous services._
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/stars/serenity-bdd/serenity-core?style=flat-square&label=" alt="GitHub stars"></td>
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/last-commit/serenity-bdd/serenity-core?style=flat-square&label=" alt="Last commit"></td>
     </tr>
+  </tbody>
+</table>
+
+#### Fixtures
+
+_Everything related to the creation and handling of random data._
+
+
+
+<!-- SECTION:Testing > Fixtures -->
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;">
+  <tbody>
     <tr>
       <td style="width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
         <a href="https://github.com/AutoParams/AutoParams">AutoParams</a>
@@ -6138,6 +6187,18 @@ _Tools that simplify testing asynchronous services._
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/stars/xcancloud/JMock?style=flat-square&label=" alt="GitHub stars"></td>
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/last-commit/xcancloud/JMock?style=flat-square&label=" alt="Last commit"></td>
     </tr>
+  </tbody>
+</table>
+
+#### Frameworks
+
+_Provide environments to run tests for a specific use case._
+
+
+
+<!-- SECTION:Testing > Frameworks -->
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;">
+  <tbody>
     <tr>
       <td style="width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
         <a href="http://jmeter.apache.org">Apache JMeter</a>
@@ -6226,6 +6287,18 @@ _Tools that simplify testing asynchronous services._
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/stars/weld/weld-testing?style=flat-square&label=" alt="GitHub stars"></td>
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/last-commit/weld/weld-testing?style=flat-square&label=" alt="Last commit"></td>
     </tr>
+  </tbody>
+</table>
+
+#### Matchers
+
+_Libraries that provide custom matchers._
+
+
+
+<!-- SECTION:Testing > Matchers -->
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;">
+  <tbody>
     <tr>
       <td style="width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
         <a href="https://joel-costigliola.github.io/assertj/">AssertJ</a>
@@ -6274,6 +6347,18 @@ _Tools that simplify testing asynchronous services._
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/stars/xmlunit/xmlunit?style=flat-square&label=" alt="GitHub stars"></td>
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/last-commit/xmlunit/xmlunit?style=flat-square&label=" alt="Last commit"></td>
     </tr>
+  </tbody>
+</table>
+
+#### Miscellaneous
+
+_Other stuff related to testing._
+
+
+
+<!-- SECTION:Testing > Miscellaneous -->
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;">
+  <tbody>
     <tr>
       <td style="width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
         <a href="https://github.com/Hakky54/console-captor">ConsoleCaptor</a>
@@ -6362,6 +6447,18 @@ _Tools that simplify testing asynchronous services._
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/stars/testcontainers/testcontainers-java?style=flat-square&label=" alt="GitHub stars"></td>
       <td style="width:7.5%;text-align:center;"><img src="https://img.shields.io/github/last-commit/testcontainers/testcontainers-java?style=flat-square&label=" alt="Last commit"></td>
     </tr>
+  </tbody>
+</table>
+
+#### Mocking
+
+_Tools which mock collaborators to help testing single, isolated units._
+
+
+
+<!-- SECTION:Testing > Mocking -->
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;">
+  <tbody>
     <tr>
       <td style="width:20%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
         <a href="http://jmockit.github.io">JMockit</a>

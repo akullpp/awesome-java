@@ -40,10 +40,12 @@ List<ProjectEntry> parseProjectEntries(String content) {
   var projectEntries = new ArrayList<ProjectEntry>();
   var inProjectSection = false;
   var currentSection = "";
+  var sectionStack = new ArrayList<String>();
 
   for (int i = 0; i < lines.length; i++) {
     var line = lines[i];
     var isSubsection = line.startsWith(Constants.SUBSECTION);
+    var sectionLevel = getSectionLevel(line);
 
     // Check if we're entering the Projects section
     if (line.startsWith(Constants.PROJECTS_SECTION)) {
@@ -54,6 +56,7 @@ List<ProjectEntry> parseProjectEntries(String content) {
     if (inProjectSection &&
         line.startsWith(Constants.SECTION) &&
         !isSubsection &&
+        sectionLevel == 0 &&
         !line.equals(Constants.PROJECTS_SECTION)
     ) {
       inProjectSection = false;
@@ -61,9 +64,24 @@ List<ProjectEntry> parseProjectEntries(String content) {
     if (!inProjectSection) {
       continue;
     }
-    // Track current subsection
-    if (isSubsection) {
-      currentSection = line.substring(Constants.SUBSECTION.length());
+    // Track section hierarchy - maintain a stack of section levels
+    if (sectionLevel >= 3) {
+      var sectionName = line.substring(sectionLevel + 1).trim();
+
+      // Adjust stack size to match current level
+      while (sectionStack.size() >= sectionLevel - 2) {
+        sectionStack.remove(sectionStack.size() - 1);
+      }
+
+      // Add current section to stack
+      sectionStack.add(sectionName);
+
+      // Build full section path for entries
+      if (sectionStack.size() == 1) {
+        currentSection = sectionName; // Main section (###)
+      } else {
+        currentSection = String.join(" > ", sectionStack); // Subsection path
+      }
       continue;
     }
     // Skip headers and empty lines
@@ -81,6 +99,24 @@ List<ProjectEntry> parseProjectEntries(String content) {
     }
   }
   return projectEntries;
+}
+
+/**
+ * Determines the section level based on the number of # symbols.
+ * Returns 0 if the line is not a section header.
+ */
+int getSectionLevel(String line) {
+  if (!line.startsWith("#")) {
+    return 0;
+  }
+
+  int level = 0;
+  for (int i = 0; i < line.length() && line.charAt(i) == '#'; i++) {
+    level++;
+  }
+
+  // Must have at least 3 # symbols and a space after them
+  return (level >= 3 && line.length() > level && line.charAt(level) == ' ') ? level : 0;
 }
 
 /**
@@ -102,6 +138,7 @@ ProjectEntry parseProjectEntry(String[] lines, int startIndex, String section) {
       if (nextLine.isBlank() ||
           nextLine.startsWith(Constants.SECTION) ||
           nextLine.startsWith(Constants.SUBSECTION) ||
+          getSectionLevel(nextLine) > 0 ||
           nextLine.matches(Constants.ENTRY_PATTERN)
       ) {
         break;

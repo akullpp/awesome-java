@@ -47,6 +47,7 @@ String assembleReadme(String originalContent, String tablesContent) {
   // Create a mapping of sections to their tables
   var sectionToTableMap = createSectionToTableMap(tables);
 
+
   for (int i = 0; i < lines.length; i++) {
     var line = lines[i];
 
@@ -79,6 +80,11 @@ String assembleReadme(String originalContent, String tablesContent) {
       result.append(line).append("\n\n");
       continue;
     }
+    // Handle sub-subsection headers (####)
+    if (line.startsWith("#### ")) {
+      result.append(line).append("\n\n");
+      continue;
+    }
     // Handle headers
     if (line.startsWith("_") && line.endsWith("_")) {
       result.append(line).append("\n\n");
@@ -95,9 +101,10 @@ String assembleReadme(String originalContent, String tablesContent) {
       if (currentSubsection != null && sectionToTableMap.containsKey(currentSubsection)) {
         result.append(sectionToTableMap.get(currentSubsection)).append("</table>\n\n");
       }
-      // Skip ALL remaining list items in this section until we hit the next subsection or end delimiter
+      // Skip remaining list items in this subsection until we hit the next subsection or end delimiter
       while (i + 1 < lines.length &&
              !lines[i + 1].startsWith(Constants.SUBSECTION) &&
+             !lines[i + 1].startsWith("#### ") &&
              !lines[i + 1].contains(Constants.END_PROJECTS_SECTION_COMMENT)) {
         i++;
         if (lines[i].matches(Constants.ENTRY_PATTERN)) {
@@ -161,13 +168,33 @@ Map<String, String> createSectionToTableMap(String[] tables) {
 
 /**
  * Finds the current subsection by looking backwards from the given line index.
+ * Handles both flat sections (###) and hierarchical sections (####).
  */
 String findCurrentSubsection(String[] lines, int currentIndex) {
+  String currentMainSection = null;
+  String currentSubsection = null;
+
   for (int i = currentIndex; i >= 0; i--) {
     var line = lines[i];
+
+    // Check for subsection (####) first
+    if (line.startsWith("#### ") && currentSubsection == null) {
+      currentSubsection = line.substring(5).trim();
+    }
+
+    // Check for main section (###)
     if (line.startsWith(Constants.SUBSECTION)) {
-      return line.substring(Constants.SUBSECTION.length());
+      currentMainSection = line.substring(Constants.SUBSECTION.length());
+      break; // Stop when we find the main section
     }
   }
-  return null;
+
+  // If we found both main section and subsection, return hierarchical name
+  if (currentMainSection != null && currentSubsection != null) {
+    return currentMainSection + " > " + currentSubsection;
+  }
+
+  // Otherwise return just the main section
+  return currentMainSection;
 }
+
