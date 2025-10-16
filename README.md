@@ -100,7 +100,7 @@ _Frameworks and libraries that help implementing and verifying design and archit
         <a href="https://github.com/TNG/ArchUnit">ArchUnit</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Test library for specifying and asserting architecture rules.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/TNG/ArchUnit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/TNG/ArchUnit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/TNG/ArchUnit?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@ _Frameworks and libraries that help implementing and verifying design and archit
         <a href="https://github.com/xmolecules/jmolecules">jMolecules</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Annotations and interfaces to express design and architecture concepts in code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xmolecules/jmolecules?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xmolecules/jmolecules?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/xmolecules/jmolecules?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -128,7 +128,7 @@ _Frameworks that help you to leverage LLMs and AI._
         <a href="https://github.com/langchain4j/langchain4j">LangChain4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/langchain4j/langchain4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/langchain4j/langchain4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/langchain4j/langchain4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -136,7 +136,7 @@ _Frameworks that help you to leverage LLMs and AI._
         <a href="https://github.com/modelcontextprotocol/java-sdk">MCP Java SDK</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/modelcontextprotocol/java-sdk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/modelcontextprotocol/java-sdk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/modelcontextprotocol/java-sdk?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -144,7 +144,7 @@ _Frameworks that help you to leverage LLMs and AI._
         <a href="https://github.com/sashirestela/simple-openai">simple-openai</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library to use the OpenAI API (and compatible ones) in the simplest possible way.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sashirestela/simple-openai?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sashirestela/simple-openai?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/sashirestela/simple-openai?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -172,7 +172,7 @@ _Frameworks that ease bean mapping._
         <a href="https://github.com/doov-io/doov">dOOv</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides fluent API for typesafe domain model validation and mapping. It uses annotations, code generation and a type safe DSL to make bean validation and mapping fast and easy.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/doov-io/doov?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/doov-io/doov?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/doov-io/doov?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -180,7 +180,7 @@ _Frameworks that ease bean mapping._
         <a href="https://github.com/jmapper-framework/jmapper-core">JMapper</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jmapper-framework/jmapper-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jmapper-framework/jmapper-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jmapper-framework/jmapper-core?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -188,7 +188,7 @@ _Frameworks that ease bean mapping._
         <a href="https://github.com/mapstruct/mapstruct">MapStruct</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Code generator that simplifies mappings between different bean types, based on a convention-over-configuration approach.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mapstruct/mapstruct?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mapstruct/mapstruct?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mapstruct/mapstruct?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -196,7 +196,7 @@ _Frameworks that ease bean mapping._
         <a href="https://github.com/modelmapper/modelmapper">ModelMapper</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Intelligent object mapping library that automatically maps objects to each other.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/modelmapper/modelmapper?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/modelmapper/modelmapper?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/modelmapper/modelmapper?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -204,7 +204,7 @@ _Frameworks that ease bean mapping._
         <a href="https://github.com/orika-mapper/orika">Orika</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/orika-mapper/orika?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/orika-mapper/orika?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/orika-mapper/orika?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -212,7 +212,7 @@ _Frameworks that ease bean mapping._
         <a href="https://github.com/remondis-it/remap">reMap</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lambda and method handle-based mapping which requires code and not annotations if objects have different names.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/remondis-it/remap?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/remondis-it/remap?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/remondis-it/remap?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -220,7 +220,7 @@ _Frameworks that ease bean mapping._
         <a href="https://github.com/xebia-france/selma">Selma</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Annotation processor-based bean mapper.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xebia-france/selma?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xebia-france/selma?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/xebia-france/selma?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -256,7 +256,7 @@ _Tools that handle the build cycle and dependencies of an application._
         <a href="https://github.com/facebook/buck2">Buck2</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Encourages the creation of small, reusable modules consisting of code and resources.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/facebook/buck2?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/facebook/buck2?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/facebook/buck2?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -300,7 +300,7 @@ _Libraries to manipulate bytecode programmatically._
         <a href="https://github.com/Konloch/bytecode-viewer">bytecode-viewer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java 8 Jar & Android APK reverse engineering suite. (GPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Konloch/bytecode-viewer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Konloch/bytecode-viewer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Konloch/bytecode-viewer?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -316,7 +316,7 @@ _Libraries to manipulate bytecode programmatically._
         <a href="https://github.com/cglib/cglib">cglib</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Bytecode generation library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cglib/cglib?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cglib/cglib?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/cglib/cglib?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -324,7 +324,7 @@ _Libraries to manipulate bytecode programmatically._
         <a href="https://github.com/jboss-javassist/javassist">Javassist</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Tries to simplify bytecode editing.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jboss-javassist/javassist?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jboss-javassist/javassist?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jboss-javassist/javassist?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -332,7 +332,7 @@ _Libraries to manipulate bytecode programmatically._
         <a href="https://github.com/cojen/maker">Maker</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides low level bytecode generation.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cojen/maker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cojen/maker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/cojen/maker?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -340,7 +340,7 @@ _Libraries to manipulate bytecode programmatically._
         <a href="https://github.com/SpongePowered/Mixin">Mixin</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Manipulate bytecode at runtime using real Java code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SpongePowered/Mixin?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SpongePowered/Mixin?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/SpongePowered/Mixin?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -348,7 +348,7 @@ _Libraries to manipulate bytecode programmatically._
         <a href="https://github.com/nicolasmanic/perses">Perses</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Dynamically injects failure/latency at the bytecode level according to principles of chaos engineering.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nicolasmanic/perses?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nicolasmanic/perses?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/nicolasmanic/perses?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -384,7 +384,7 @@ _Libraries that provide caching facilities._
         <a href="https://github.com/ben-manes/caffeine">Caffeine</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-performance, near-optimal caching library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ben-manes/caffeine?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ben-manes/caffeine?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ben-manes/caffeine?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -440,7 +440,7 @@ _Libraries to assist with parsing command line arguments._
         <a href="https://github.com/jbock-java/jbock">jbock</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Reflectionless command line parser.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jbock-java/jbock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jbock-java/jbock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jbock-java/jbock?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -448,7 +448,7 @@ _Libraries to assist with parsing command line arguments._
         <a href="https://github.com/jline/jline3">JLine</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Includes features from modern shells like completion or history.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jline/jline3?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jline/jline3?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jline/jline3?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -476,7 +476,7 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
         <a href="https://github.com/fusesource/jansi">Jansi</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">ANSI escape codes to format console output.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/fusesource/jansi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/fusesource/jansi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/fusesource/jansi?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -492,7 +492,7 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
         <a href="https://github.com/beryx/text-io">Text-IO</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Aids the creation of full console-based applications.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/beryx/text-io?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/beryx/text-io?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/beryx/text-io?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -500,7 +500,7 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
         <a href="https://github.com/mabe02/lanterna">Lanterna</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Easy console text-GUI library, similar to curses. (LGPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mabe02/lanterna?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mabe02/lanterna?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mabe02/lanterna?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -520,7 +520,7 @@ _Libraries to integrate or use cloud-specific features._
         <a href="https://github.com/aws/aws-sdk-java">AWS SDK for Java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides Java APIs for interacting with Amazon Web Services.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/aws/aws-sdk-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/aws/aws-sdk-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/aws/aws-sdk-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -528,7 +528,7 @@ _Libraries to integrate or use cloud-specific features._
         <a href="https://github.com/googleapis/google-cloud-java">Google Cloud Client Libraries</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Client libraries for accessing Google Cloud services from Java applications.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/googleapis/google-cloud-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/googleapis/google-cloud-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/googleapis/google-cloud-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -548,7 +548,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/checkstyle/checkstyle">Checkstyle</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Static analysis of coding conventions and standards. (LGPL-2.1-or-later)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/checkstyle/checkstyle?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/checkstyle/checkstyle?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/checkstyle/checkstyle?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -556,7 +556,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/google/error-prone">Error Prone</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Catches common programming mistakes as compile-time errors.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/error-prone?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/error-prone?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/error-prone?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -564,7 +564,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/PicnicSupermarket/error-prone-support">Error Prone Support</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Error Prone extensions: extra bug checkers and a large battery of Refaster templates.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/PicnicSupermarket/error-prone-support?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/PicnicSupermarket/error-prone-support?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/PicnicSupermarket/error-prone-support?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -572,7 +572,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/facebook/infer">Infer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Modern static analysis tool for verifying the correctness of code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/facebook/infer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/facebook/infer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/facebook/infer?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -588,7 +588,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/uber/NullAway">NullAway</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Eliminates NullPointerExceptions with low build-time overhead.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/uber/NullAway?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/uber/NullAway?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/uber/NullAway?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -596,7 +596,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/pmd/pmd">PMD</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Source code analysis for finding bad coding practices.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/pmd/pmd?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/pmd/pmd?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/pmd/pmd?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -604,7 +604,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/alibaba/p3c">p3c</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides Alibaba's coding guidelines for PMD, IDEA and Eclipse.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/p3c?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/p3c?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/alibaba/p3c?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -612,7 +612,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/jimbethancourt/RefactorFirst">RefactorFirst</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Identifies and prioritizes God Classes and Highly Coupled classes.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jimbethancourt/RefactorFirst?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jimbethancourt/RefactorFirst?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jimbethancourt/RefactorFirst?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -620,7 +620,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/SonarSource/sonar-java">SonarJava</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SonarSource/sonar-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SonarSource/sonar-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/SonarSource/sonar-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -628,7 +628,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/INRIA/spoon">Spoon</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library for analyzing and transforming Java source code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/INRIA/spoon?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/INRIA/spoon?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/INRIA/spoon?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -636,7 +636,7 @@ _Tools that provide metrics and quality measurements._
         <a href="https://github.com/spotbugs/spotbugs">Spotbugs</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Static analysis of bytecode to find potential bugs. (LGPL-2.1-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/spotbugs/spotbugs?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/spotbugs/spotbugs?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/spotbugs/spotbugs?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -692,7 +692,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/sviperll/adt4j">ADT4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JSR-269 code generator for algebraic data types.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sviperll/adt4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sviperll/adt4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/sviperll/adt4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -700,7 +700,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/google/auto">Auto</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Generates factory, service, and value classes.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/auto?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/auto?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/auto?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -716,7 +716,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/Marcel091004/EasyEntityToDTO">EasyEntityToDTO</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Annotation processor for automatic DTO and Mapper generation with zero boilerplate.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Marcel091004/EasyEntityToDTO?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Marcel091004/EasyEntityToDTO?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Marcel091004/EasyEntityToDTO?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -724,7 +724,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/inferred/FreeBuilder">FreeBuilder</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Automatically generates the Builder pattern.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/inferred/FreeBuilder?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/inferred/FreeBuilder?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/inferred/FreeBuilder?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -732,7 +732,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/verhas/javageci">Geci</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Discovers files that need generated code, updates automatically and writes to the source with a convenient API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/verhas/javageci?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/verhas/javageci?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/verhas/javageci?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -748,7 +748,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/square/javapoet">JavaPoet</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">API to generate source files.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/javapoet?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/javapoet?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/square/javapoet?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -756,7 +756,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/jhipster/generator-jhipster">JHipster</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Yeoman source code generator for Spring Boot and AngularJS.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhipster/generator-jhipster?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhipster/generator-jhipster?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jhipster/generator-jhipster?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -772,7 +772,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/bcaillard/jspecify-packageinfo-generator">JSpecify Package-Info Generator</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Maven plugin that automatically generates package-info.java files with JSpecify annotations (@NullMarked and @NullUnmarked), helping you manage nullness boundaries in your Java projects without manual boilerplate.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bcaillard/jspecify-packageinfo-generator?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bcaillard/jspecify-packageinfo-generator?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bcaillard/jspecify-packageinfo-generator?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -788,7 +788,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
         <a href="https://github.com/Randgalt/record-builder">Record-Builder</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Companion builder class, withers and templates for Java records.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Randgalt/record-builder?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Randgalt/record-builder?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Randgalt/record-builder?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -868,7 +868,7 @@ _Libraries which seek to gain high level information from images and videos._
         <a href="https://github.com/bytedeco/javacv">JavaCV</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java interface to OpenCV, FFmpeg, and much more.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bytedeco/javacv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bytedeco/javacv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bytedeco/javacv?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -896,7 +896,7 @@ _Libraries that provide external configuration._
         <a href="https://github.com/line/centraldogma">centraldogma</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/line/centraldogma?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/line/centraldogma?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/line/centraldogma?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -904,7 +904,7 @@ _Libraries that provide external configuration._
         <a href="https://github.com/lightbend/config">config</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Configuration library supporting Java properties, JSON or its human optimized superset HOCON.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lightbend/config?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lightbend/config?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/lightbend/config?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -912,7 +912,7 @@ _Libraries that provide external configuration._
         <a href="https://github.com/SpongePowered/Configurate">Configurate</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Configuration library with support for various configuration formats and transformations.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SpongePowered/Configurate?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SpongePowered/Configurate?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/SpongePowered/Configurate?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -928,7 +928,7 @@ _Libraries that provide external configuration._
         <a href="https://github.com/shyiko/dotenv">dotenv</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Twelve-factor configuration library which uses environment-specific files.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/shyiko/dotenv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/shyiko/dotenv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/shyiko/dotenv?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -936,7 +936,7 @@ _Libraries that provide external configuration._
         <a href="https://github.com/joel-jeremy/externalized-properties">Externalized Properties</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight yet powerful configuration library which supports resolution of properties from external sources and an extensible post-processing/conversion mechanism.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/joel-jeremy/externalized-properties?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/joel-jeremy/externalized-properties?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/joel-jeremy/externalized-properties?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -944,7 +944,7 @@ _Libraries that provide external configuration._
         <a href="https://github.com/gestalt-config/gestalt">Gestalt</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Gestalt offers a comprehensive solution to the challenges of configuration management. It allows you to source configuration data from multiple inputs, merge them intelligently, and present them in a structured, type-safe manner.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/gestalt-config/gestalt?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/gestalt-config/gestalt?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/gestalt-config/gestalt?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -960,7 +960,7 @@ _Libraries that provide external configuration._
         <a href="https://github.com/mariomac/kaconf">KAConf</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Annotation-based configuration system for Java and Kotlin.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mariomac/kaconf?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mariomac/kaconf?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mariomac/kaconf?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -976,7 +976,7 @@ _Libraries that provide external configuration._
         <a href="https://github.com/lviggiano/owner">owner</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Reduces boilerplate of properties.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lviggiano/owner?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lviggiano/owner?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/lviggiano/owner?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -1004,7 +1004,7 @@ _Libraries that help with implementing optimization and satisfiability problems.
         <a href="https://github.com/radsz/jacop">JaCoP</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models. (AGPL-3.0)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/radsz/jacop?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/radsz/jacop?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/radsz/jacop?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1040,7 +1040,7 @@ _Frameworks and libraries that simplify reading/writing CSV data._
         <a href="https://github.com/osiegmar/FastCSV">FastCSV</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Performance-optimized, dependency-free and RFC 4180 compliant.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/osiegmar/FastCSV?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/osiegmar/FastCSV?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/osiegmar/FastCSV?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1048,7 +1048,7 @@ _Frameworks and libraries that simplify reading/writing CSV data._
         <a href="https://github.com/FasterXML/jackson-dataformat-csv">jackson-dataformat-csv</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Jackson extension for reading and writing CSV.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/FasterXML/jackson-dataformat-csv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/FasterXML/jackson-dataformat-csv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/FasterXML/jackson-dataformat-csv?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1072,7 +1072,7 @@ _Frameworks and libraries that simplify reading/writing CSV data._
         <a href="https://github.com/uniVocity/univocity-parsers">uniVocity-parsers</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">One of the fastest and most feature-complete parsers. Also comes with parsers for TSV and fixed-width records.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/uniVocity/univocity-parsers?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/uniVocity/univocity-parsers?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/uniVocity/univocity-parsers?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -1124,7 +1124,7 @@ _Efficient and specific data structures._
         <a href="https://github.com/bulldog2011/bigqueue">Big Queue</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Fast and persistent queue based on memory-mapped files.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bulldog2011/bigqueue?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bulldog2011/bigqueue?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bulldog2011/bigqueue?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1132,7 +1132,7 @@ _Efficient and specific data structures._
         <a href="https://github.com/LiveRamp/HyperMinHash-java">HyperMinHash-java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Probabilistic data structure for computing union, intersection, and set cardinality in loglog space.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/LiveRamp/HyperMinHash-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/LiveRamp/HyperMinHash-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/LiveRamp/HyperMinHash-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1140,7 +1140,7 @@ _Efficient and specific data structures._
         <a href="https://github.com/hrldcpr/pcollections">Persistent Collection</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Persistent and immutable analogue of the Java Collections Framework.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/hrldcpr/pcollections?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/hrldcpr/pcollections?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/hrldcpr/pcollections?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1148,7 +1148,7 @@ _Efficient and specific data structures._
         <a href="https://github.com/protocolbuffers/protobuf">Protobuf</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Google's data interchange format.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/protocolbuffers/protobuf?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/protocolbuffers/protobuf?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/protocolbuffers/protobuf?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1156,7 +1156,7 @@ _Efficient and specific data structures._
         <a href="https://github.com/RoaringBitmap/RoaringBitmap">RoaringBitmap</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Fast and efficient compressed bitmap.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/RoaringBitmap/RoaringBitmap?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/RoaringBitmap/RoaringBitmap?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/RoaringBitmap/RoaringBitmap?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1164,7 +1164,7 @@ _Efficient and specific data structures._
         <a href="https://github.com/real-logic/simple-binary-encoding">SBE</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple Binary Encoding, one of the fastest message formats around.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/real-logic/simple-binary-encoding?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/real-logic/simple-binary-encoding?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/real-logic/simple-binary-encoding?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1172,7 +1172,7 @@ _Efficient and specific data structures._
         <a href="https://github.com/square/tape">Tape</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightning-fast, transactional, file-based FIFO.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/tape?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/tape?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/square/tape?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1180,7 +1180,7 @@ _Efficient and specific data structures._
         <a href="https://github.com/square/wire">Wire</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Clean, lightweight protocol buffers.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/wire?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/wire?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/square/wire?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -1224,7 +1224,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/arangodb/arangodb-java-driver">ArangoDB</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">ArangoDB Java driver.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/arangodb/arangodb-java-driver?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/arangodb/arangodb-java-driver?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/arangodb/arangodb-java-driver?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1232,7 +1232,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/OpenHFT/Chronicle-Map">Chronicle Map</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Efficient, in-memory (opt. persisted to disk), off-heap key-value store.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenHFT/Chronicle-Map?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenHFT/Chronicle-Map?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/OpenHFT/Chronicle-Map?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1256,7 +1256,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/eXist-db/exist">eXist</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">NoSQL document database and application platform. (LGPL-2.1-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eXist-db/exist?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eXist-db/exist?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/eXist-db/exist?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1264,7 +1264,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/vladmihalcea/flexy-pool">FlexyPool</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Brings metrics and failover strategies to the most common connection pooling solutions.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vladmihalcea/flexy-pool?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vladmihalcea/flexy-pool?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/vladmihalcea/flexy-pool?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1288,7 +1288,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/brettwooldridge/HikariCP">HikariCP</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-performance JDBC connection pool.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/brettwooldridge/HikariCP?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/brettwooldridge/HikariCP?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/brettwooldridge/HikariCP?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1312,7 +1312,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/xetorthio/jedis">Jedis</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Small client for interaction with Redis, with methods for commands.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xetorthio/jedis?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xetorthio/jedis?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/xetorthio/jedis?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1320,7 +1320,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/searchbox-io/Jest">Jest</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Client for the Elasticsearch REST API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/searchbox-io/Jest?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/searchbox-io/Jest?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/searchbox-io/Jest?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1328,7 +1328,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/justinsb/jetcd">jetcd</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Client library for etcd.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/justinsb/jetcd?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/justinsb/jetcd?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/justinsb/jetcd?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1336,7 +1336,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/my2iu/Jinq">Jinq</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/my2iu/Jinq?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/my2iu/Jinq?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/my2iu/Jinq?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1352,7 +1352,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/Meituan-Dianping/Leaf">Leaf</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Distributed ID generate service.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Meituan-Dianping/Leaf?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Meituan-Dianping/Leaf?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Meituan-Dianping/Leaf?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1384,7 +1384,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/vorburger/MariaDB4j">MariaDB4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Launcher for MariaDB that requires no installation or external dependencies.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vorburger/MariaDB4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vorburger/MariaDB4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/vorburger/MariaDB4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1392,7 +1392,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/arkanovicz/modality">Modality</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight ORM with database reverse engineering features.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/arkanovicz/modality?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/arkanovicz/modality?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/arkanovicz/modality?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1400,7 +1400,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/OpenIdentityPlatform/OpenDJ">OpenDJ</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">LDAPv3 compliant directory service, developed for the Java platform, providing a high performance, highly available, and secure store for the identities.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenDJ?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenDJ?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/OpenIdentityPlatform/OpenDJ?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1416,7 +1416,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/querystream/querystream">QueryStream</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Build JPA Criteria queries using a Stream-like API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/querystream/querystream?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/querystream/querystream?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/querystream/querystream?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1424,7 +1424,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/questdb/questdb">QuestDB</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-performance SQL database for time series. Supports InfluxDB line protocol, PostgreSQL wire protocol, and REST.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/questdb/questdb?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/questdb/questdb?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/questdb/questdb?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1432,7 +1432,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/realm/realm-java">Realm</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Mobile database to run directly inside phones, tablets or wearables.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/realm/realm-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/realm/realm-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/realm/realm-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1440,7 +1440,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/redisson/redisson">Redisson</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Allows for distributed and scalable data structures on top of a Redis server.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/redisson/redisson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/redisson/redisson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/redisson/redisson?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1448,7 +1448,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/requery/requery">requery</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Modern, lightweight but powerful object mapping and SQL generator. Easily map to or create databases, or perform queries and updates from any Java-using platform.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/requery/requery?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/requery/requery?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/requery/requery?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1456,7 +1456,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/speedment/speedment">Speedment</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Database access library that utilizes Java 8's Stream API for querying.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/speedment/speedment?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/speedment/speedment?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/speedment/speedment?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1464,7 +1464,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/mhewedy/spring-data-jpa-mongodb-expressions">Spring Data JPA MongoDB Expressions</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Allows you to use MongoDB query language to query your relational database.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mhewedy/spring-data-jpa-mongodb-expressions?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mhewedy/spring-data-jpa-mongodb-expressions?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mhewedy/spring-data-jpa-mongodb-expressions?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1488,7 +1488,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/JetBrains/xodus">Xodus</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Highly concurrent transactional schema-less and ACID-compliant embedded database.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/JetBrains/xodus?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/JetBrains/xodus?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/JetBrains/xodus?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1496,7 +1496,7 @@ _Everything that simplifies interactions with the database._
         <a href="https://github.com/Ahoo-Wang/CosId">CosId</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Universal, flexible, high-performance distributed ID generator.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Ahoo-Wang/CosId?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Ahoo-Wang/CosId?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Ahoo-Wang/CosId?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -1516,7 +1516,7 @@ _Libraries related to handling date and time._
         <a href="https://github.com/ical4j/ical4j">iCal4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Parse and build iCalendar [RFC 5545](https://tools.ietf.org/html/rfc5545) data models.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ical4j/ical4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ical4j/ical4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ical4j/ical4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1524,7 +1524,7 @@ _Libraries related to handling date and time._
         <a href="https://github.com/svendiedrichsen/jollyday">Jollyday</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Determines the holidays for a given year, country/name and eventually state/region.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/svendiedrichsen/jollyday?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/svendiedrichsen/jollyday?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/svendiedrichsen/jollyday?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1532,7 +1532,7 @@ _Libraries related to handling date and time._
         <a href="https://github.com/ThreeTen/threeten-extra">ThreeTen-Extra</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Additional date-time classes that complement those in JDK 8.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ThreeTen/threeten-extra?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ThreeTen/threeten-extra?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ThreeTen/threeten-extra?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1540,7 +1540,7 @@ _Libraries related to handling date and time._
         <a href="https://github.com/MenoData/Time4J">Time4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Advanced date and time library. (LGPL-2.1-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/MenoData/Time4J?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/MenoData/Time4J?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/MenoData/Time4J?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -1584,7 +1584,7 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
         <a href="https://github.com/zsoltherpai/feather">Feather</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Ultra-lightweight, JSR-330-compliant dependency injection library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zsoltherpai/feather?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zsoltherpai/feather?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zsoltherpai/feather?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1592,7 +1592,7 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
         <a href="https://github.com/Netflix/governator">Governator</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Extensions and utilities that enhance Google Guice.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Netflix/governator?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Netflix/governator?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Netflix/governator?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1600,7 +1600,7 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
         <a href="https://github.com/google/guice">Guice</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight and opinionated framework that completes Dagger.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/guice?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/guice?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/guice?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1616,7 +1616,7 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
         <a href="https://github.com/vanillasource/jaywire">JayWire</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight dependency injection framework. (LGPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vanillasource/jaywire?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vanillasource/jaywire?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/vanillasource/jaywire?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -1652,7 +1652,7 @@ _Augmentation of the development process at a fundamental level._
         <a href="https://github.com/zalando/faux-pas">Faux Pas</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/faux-pas?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/faux-pas?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zalando/faux-pas?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1660,7 +1660,7 @@ _Augmentation of the development process at a fundamental level._
         <a href="https://github.com/HotswapProjects/HotswapAgent">HotswapAgent</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Unlimited runtime class and resource redefinition. (GPL-2.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/HotswapProjects/HotswapAgent?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/HotswapProjects/HotswapAgent?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/HotswapProjects/HotswapAgent?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1668,7 +1668,7 @@ _Augmentation of the development process at a fundamental level._
         <a href="https://github.com/javaparser/javaparser">JavaParser</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Parse, modify and generate Java code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javaparser/javaparser?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javaparser/javaparser?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/javaparser/javaparser?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1676,7 +1676,7 @@ _Augmentation of the development process at a fundamental level._
         <a href="https://github.com/javaparser/javasymbolsolver">JavaSymbolSolver</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Symbol solver.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javaparser/javasymbolsolver?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javaparser/javasymbolsolver?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/javaparser/javasymbolsolver?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1684,7 +1684,7 @@ _Augmentation of the development process at a fundamental level._
         <a href="https://github.com/manifold-systems/manifold">Manifold</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/manifold-systems/manifold?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/manifold-systems/manifold?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/manifold-systems/manifold?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1700,7 +1700,7 @@ _Augmentation of the development process at a fundamental level._
         <a href="https://github.com/rainerhahnekamp/sneakythrow">SneakyThrow</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Ignores checked exceptions without bytecode manipulation. Can also be used inside Java 8 stream operations.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rainerhahnekamp/sneakythrow?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rainerhahnekamp/sneakythrow?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/rainerhahnekamp/sneakythrow?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1768,7 +1768,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
         <a href="https://github.com/mtakaki/dropwizard-circuitbreaker">Dropwizard Circuit Breaker</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Circuit breaker design pattern for Dropwizard. (GPL-2.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mtakaki/dropwizard-circuitbreaker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mtakaki/dropwizard-circuitbreaker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mtakaki/dropwizard-circuitbreaker?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1776,7 +1776,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
         <a href="https://github.com/jhalterman/failsafe">Failsafe</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple failure handling with retries and circuit breakers.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhalterman/failsafe?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhalterman/failsafe?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jhalterman/failsafe?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1784,7 +1784,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
         <a href="https://github.com/hazelcast/hazelcast">Hazelcast</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Highly scalable in-memory datagrid with a free open-source version.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/hazelcast/hazelcast?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/hazelcast/hazelcast?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/hazelcast/hazelcast?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1808,7 +1808,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
         <a href="https://github.com/resilience4j/resilience4j">resilience4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Functional fault tolerance library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/resilience4j/resilience4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/resilience4j/resilience4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/resilience4j/resilience4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1816,7 +1816,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
         <a href="https://github.com/OpenIdentityPlatform/OpenIG">OpenIG</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-performance reverse proxy server with specialized session management and credential replay functionality.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenIG?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenIG?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/OpenIdentityPlatform/OpenIG?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1824,7 +1824,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
         <a href="https://github.com/scalecube/scalecube-services">ScaleCube Services</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Embeddable Cluster-Membership library based on SWIM and gossip protocol.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/scalecube/scalecube-services?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/scalecube/scalecube-services?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/scalecube/scalecube-services?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1832,7 +1832,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
         <a href="https://github.com/Netflix/zuul">Zuul</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Gateway service that provides dynamic routing, monitoring, resiliency, security, and more.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Netflix/zuul?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Netflix/zuul?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Netflix/zuul?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -1860,7 +1860,7 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
         <a href="https://github.com/bitronix/btm">Bitronix</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple but complete implementation of the JTA 1.1 API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bitronix/btm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bitronix/btm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bitronix/btm?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1876,7 +1876,7 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
         <a href="https://github.com/seata/seata">Seata</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Delivers high performance and easy to use distributed transaction services under a microservices architecture.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/seata/seata?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/seata/seata?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/seata/seata?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -1896,7 +1896,7 @@ _Tools that handle the distribution of applications in native formats._
         <a href="https://github.com/artipie/artipie">Artipie</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Binary artifact management toolkit which hosts them on the file system or S3.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/artipie/artipie?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/artipie/artipie?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/artipie/artipie?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1904,7 +1904,7 @@ _Tools that handle the distribution of applications in native formats._
         <a href="https://github.com/puniverse/capsule">Capsule</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple and powerful packaging and deployment. A fat JAR on steroids, or a "Docker for Java" that supports JVM-optimized containers.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/puniverse/capsule?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/puniverse/capsule?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/puniverse/capsule?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1920,7 +1920,7 @@ _Tools that handle the distribution of applications in native formats._
         <a href="https://github.com/threerings/getdown">Getdown</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">System for deploying Java applications to end-user computers and keeping them up to date. Developed as an alternative to Java Web Start.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/threerings/getdown?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/threerings/getdown?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/threerings/getdown?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1936,7 +1936,7 @@ _Tools that handle the distribution of applications in native formats._
         <a href="https://github.com/fvarrui/JavaPackager">JavaPackager</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/fvarrui/JavaPackager?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/fvarrui/JavaPackager?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/fvarrui/JavaPackager?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1952,7 +1952,7 @@ _Tools that handle the distribution of applications in native formats._
         <a href="https://github.com/AdoptOpenJDK/jlink.online">jlink.online</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Builds optimized runtimes over HTTP.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AdoptOpenJDK/jlink.online?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AdoptOpenJDK/jlink.online?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/AdoptOpenJDK/jlink.online?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1960,7 +1960,7 @@ _Tools that handle the distribution of applications in native formats._
         <a href="https://github.com/libgdx/packr">packr</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Packs JARs, assets and the JVM for native distribution on Windows, Linux and macOS.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/libgdx/packr?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/libgdx/packr?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/libgdx/packr?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -1968,7 +1968,7 @@ _Tools that handle the distribution of applications in native formats._
         <a href="https://github.com/brianm/really-executable-jars-maven-plugin">really-executable-jars-maven-plugin</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Maven plugin for making self-executing JARs.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/brianm/really-executable-jars-maven-plugin?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/brianm/really-executable-jars-maven-plugin?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/brianm/really-executable-jars-maven-plugin?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2012,7 +2012,7 @@ _Libraries that assist with processing office document formats._
         <a href="https://github.com/dhatim/fastexcel">fastexcel</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High performance library to read and write large Excel (XLSX) worksheets.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dhatim/fastexcel?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dhatim/fastexcel?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/dhatim/fastexcel?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2020,7 +2020,7 @@ _Libraries that assist with processing office document formats._
         <a href="https://github.com/creditdatamw/zerocell">zerocell</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/creditdatamw/zerocell?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/creditdatamw/zerocell?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/creditdatamw/zerocell?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2040,7 +2040,7 @@ _Libraries related to the financial domain._
         <a href="https://github.com/cassandre-tech/cassandre-trading-bot">Cassandre</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Trading bot framework.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cassandre-tech/cassandre-trading-bot?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cassandre-tech/cassandre-trading-bot?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/cassandre-tech/cassandre-trading-bot?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2048,7 +2048,7 @@ _Libraries related to the financial domain._
         <a href="https://github.com/paritytrading/parity">Parity</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Platform for trading venues.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/paritytrading/parity?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/paritytrading/parity?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/paritytrading/parity?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2056,7 +2056,7 @@ _Libraries related to the financial domain._
         <a href="https://github.com/paritytrading/philadelphia">Philadelphia</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Low-latency financial information exchange.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/paritytrading/philadelphia?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/paritytrading/philadelphia?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/paritytrading/philadelphia?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2064,7 +2064,7 @@ _Libraries related to the financial domain._
         <a href="https://github.com/square/connect-java-sdk">Square</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Integration with the Square API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/connect-java-sdk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/connect-java-sdk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/square/connect-java-sdk?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2072,7 +2072,7 @@ _Libraries related to the financial domain._
         <a href="https://github.com/stripe/stripe-java">Stripe</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Integration with the Stripe API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/stripe/stripe-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/stripe/stripe-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/stripe/stripe-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2080,7 +2080,7 @@ _Libraries related to the financial domain._
         <a href="https://github.com/ta4j/ta4j">ta4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library for technical analysis.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ta4j/ta4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ta4j/ta4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ta4j/ta4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2100,7 +2100,7 @@ _Formal-methods tools: proof assistants, model checking, symbolic execution, etc
         <a href="https://github.com/ksen007/janala2">CATG</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Concolic unit testing engine. Automatically generates unit tests using formal methods.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ksen007/janala2?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ksen007/janala2?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ksen007/janala2?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2124,7 +2124,7 @@ _Formal-methods tools: proof assistants, model checking, symbolic execution, etc
         <a href="https://github.com/javapathfinder/jpf-core">Java Path Finder (JPF)</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JVM formal verification tool containing a model checker and more. Created by NASA.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javapathfinder/jpf-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javapathfinder/jpf-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/javapathfinder/jpf-core?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2168,7 +2168,7 @@ _Libraries that facilitate functional programming._
         <a href="https://github.com/aol/cyclops">Cyclops</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Monad and stream utilities, comprehensions, pattern matching, functional extensions for all JDK collections, future streams, trampolines and much more.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/aol/cyclops?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/aol/cyclops?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/aol/cyclops?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2176,7 +2176,7 @@ _Libraries that facilitate functional programming._
         <a href="https://github.com/derive4j/derive4j">derive4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching and morphisms. (GPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/derive4j/derive4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/derive4j/derive4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/derive4j/derive4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2200,7 +2200,7 @@ _Libraries that facilitate functional programming._
         <a href="https://github.com/jOOQ/jOOL">jOOλ</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Extension to Java 8 that aims to fix gaps in lambda by providing numerous missing types and a rich set of sequential Stream API additions.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jOOQ/jOOL?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jOOQ/jOOL?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jOOQ/jOOL?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2208,7 +2208,7 @@ _Libraries that facilitate functional programming._
         <a href="https://github.com/jhspetersson/packrat">Packrat</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Gatherers library for Java Stream API. Gatherers can enhance streams with custom intermediate operations.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhspetersson/packrat?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhspetersson/packrat?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jhspetersson/packrat?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2216,7 +2216,7 @@ _Libraries that facilitate functional programming._
         <a href="https://github.com/poetix/protonpack">protonpack</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Collection of stream utilities.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/poetix/protonpack?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/poetix/protonpack?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/poetix/protonpack?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2224,7 +2224,7 @@ _Libraries that facilitate functional programming._
         <a href="https://github.com/amaembo/streamex">StreamEx</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Enhances Java 8 Streams.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/amaembo/streamex?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/amaembo/streamex?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/amaembo/streamex?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2308,7 +2308,7 @@ _Frameworks that support the development of games._
         <a href="https://github.com/xzripper/Void2D">Void2D</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-level 2D game engine with built-in physics based on Swing.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xzripper/Void2D?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xzripper/Void2D?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/xzripper/Void2D?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2316,7 +2316,7 @@ _Frameworks that support the development of games._
         <a href="https://github.com/chuigda/vulkan4j">vulkan4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Vulkan, OpenGL ES2 and GLFW Memory Allocator bindings.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/chuigda/vulkan4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/chuigda/vulkan4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/chuigda/vulkan4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2344,7 +2344,7 @@ _Libraries for working with geospatial data and algorithms._
         <a href="https://github.com/davidmoten/geo">Geo</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">GeoHash utilities in Java.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/davidmoten/geo?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/davidmoten/geo?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/davidmoten/geo?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2360,7 +2360,7 @@ _Libraries for working with geospatial data and algorithms._
         <a href="https://github.com/graphhopper/graphhopper">GraphHopper</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Road-routing engine. Used as a Java library or standalone web service.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/graphhopper/graphhopper?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/graphhopper/graphhopper?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/graphhopper/graphhopper?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2384,7 +2384,7 @@ _Libraries for working with geospatial data and algorithms._
         <a href="https://github.com/mapsforge/mapsforge">Mapsforge</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Map rendering based on OpenStreetMap data. (LGPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mapsforge/mapsforge?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mapsforge/mapsforge?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mapsforge/mapsforge?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2392,7 +2392,7 @@ _Libraries for working with geospatial data and algorithms._
         <a href="https://github.com/locationtech/spatial4j">Spatial4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">General-purpose spatial/geospatial library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/locationtech/spatial4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/locationtech/spatial4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/locationtech/spatial4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2428,7 +2428,7 @@ _Libraries to create modern graphical user interfaces._
         <a href="https://github.com/reportmill/SnapKit">SnapKit</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Modern Java UI library for both desktop and web.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/reportmill/SnapKit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/reportmill/SnapKit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/reportmill/SnapKit?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2456,7 +2456,7 @@ _Everything about high-performance computation, from collections to specific lib
         <a href="https://github.com/real-logic/Agrona">Agrona</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Data structures and utility methods that are common in high-performance applications.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/real-logic/Agrona?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/real-logic/Agrona?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/real-logic/Agrona?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2472,7 +2472,7 @@ _Everything about high-performance computation, from collections to specific lib
         <a href="https://github.com/eclipse/eclipse-collections">Eclipse Collections</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Collections framework inspired by Smalltalk.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eclipse/eclipse-collections?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eclipse/eclipse-collections?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/eclipse/eclipse-collections?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2496,7 +2496,7 @@ _Everything about high-performance computation, from collections to specific lib
         <a href="https://github.com/JCTools/JCTools">JCTools</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Concurrency tools currently missing from the JDK.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/JCTools/JCTools?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/JCTools/JCTools?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/JCTools/JCTools?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2504,7 +2504,7 @@ _Everything about high-performance computation, from collections to specific lib
         <a href="https://github.com/leventov/Koloboke">Koloboke</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Carefully designed extension of the Java Collections Framework with primitive specializations and more.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/leventov/Koloboke?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/leventov/Koloboke?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/leventov/Koloboke?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2532,7 +2532,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
         <a href="https://github.com/AsyncHttpClient/async-http-client">Async Http Client</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Asynchronous HTTP and WebSocket client library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AsyncHttpClient/async-http-client?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AsyncHttpClient/async-http-client?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/AsyncHttpClient/async-http-client?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2548,7 +2548,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
         <a href="https://github.com/OpenFeign/feign">Feign</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenFeign/feign?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenFeign/feign?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/OpenFeign/feign?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2556,7 +2556,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
         <a href="https://github.com/googleapis/google-http-java-client">Google HTTP Client</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/googleapis/google-http-java-client?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/googleapis/google-http-java-client?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/googleapis/google-http-java-client?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2564,7 +2564,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
         <a href="https://github.com/mizosoft/methanol">methanol</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">HTTP client extensions library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mizosoft/methanol?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mizosoft/methanol?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mizosoft/methanol?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2580,7 +2580,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
         <a href="https://github.com/Netflix/ribbon">Ribbon</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Client-side IPC library that is battle-tested in the cloud.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Netflix/ribbon?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Netflix/ribbon?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Netflix/ribbon?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2588,7 +2588,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
         <a href="https://github.com/zalando/riptide">Riptide</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Client-side response routing for Spring's RestTemplate.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/riptide?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/riptide?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zalando/riptide?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2596,7 +2596,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
         <a href="https://github.com/Kong/unirest-java">unirest-java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simplified, lightweight HTTP client library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Kong/unirest-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Kong/unirest-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Kong/unirest-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2616,7 +2616,7 @@ _Libraries that handle serialization to hypermedia types._
         <a href="https://github.com/blackdoor/hate">hate</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Builds hypermedia-friendly objects according to HAL specification.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/blackdoor/hate?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/blackdoor/hate?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/blackdoor/hate?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2624,7 +2624,7 @@ _Libraries that handle serialization to hypermedia types._
         <a href="https://github.com/jsonld-java/jsonld-java">JSON-LD</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JSON-LD implementation.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jsonld-java/jsonld-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jsonld-java/jsonld-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jsonld-java/jsonld-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2632,7 +2632,7 @@ _Libraries that handle serialization to hypermedia types._
         <a href="https://github.com/eserating-chwy/siren4j">Siren4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library for the Siren specification.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eserating-chwy/siren4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eserating-chwy/siren4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/eserating-chwy/siren4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2640,7 +2640,7 @@ _Libraries that handle serialization to hypermedia types._
         <a href="https://github.com/spring-projects/spring-hateoas">Spring HATEOAS</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Standalone and Spring support for building hypermedia-based APIs using HAL, HAL FORMS, Collection+JSON, ALPS and UBER.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/spring-projects/spring-hateoas?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/spring-projects/spring-hateoas?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/spring-projects/spring-hateoas?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2712,7 +2712,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
         <a href="https://github.com/vws-java/Barcode-Lib4J">Barcode-Lib4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Generates QR Code, DataMatrix, and other 1D/2D barcodes as vector (PDF, EPS, SVG) and raster (PNG, BMP, JPG) images with DPI awareness, high precision, and CMYK color model support.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vws-java/Barcode-Lib4J?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vws-java/Barcode-Lib4J?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/vws-java/Barcode-Lib4J?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2720,7 +2720,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
         <a href="https://github.com/rkalla/imgscalr">Imgscalr</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple, efficient and hardware-accelerated image-scaling library implemented in pure Java 2D.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rkalla/imgscalr?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rkalla/imgscalr?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/rkalla/imgscalr?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2728,7 +2728,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
         <a href="https://github.com/nguyenq/tess4j">Tess4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JNA wrapper for Tesseract OCR API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nguyenq/tess4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nguyenq/tess4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/nguyenq/tess4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2736,7 +2736,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
         <a href="https://github.com/coobird/thumbnailator">Thumbnailator</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-quality thumbnail generation library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/coobird/thumbnailator?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/coobird/thumbnailator?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/coobird/thumbnailator?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2744,7 +2744,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
         <a href="https://github.com/haraldk/TwelveMonkeys">TwelveMonkeys</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Collection of plugins that extend the number of supported image file formats.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/haraldk/TwelveMonkeys?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/haraldk/TwelveMonkeys?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/haraldk/TwelveMonkeys?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2752,7 +2752,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
         <a href="https://github.com/zxing/zxing">ZXing</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Multi-format 1D/2D barcode image processing library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zxing/zxing?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zxing/zxing?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zxing/zxing?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2760,7 +2760,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
         <a href="https://github.com/romankh3/image-comparison">image-comparison</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/romankh3/image-comparison?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/romankh3/image-comparison?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/romankh3/image-comparison?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2768,7 +2768,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
         <a href="https://github.com/lopcode/vips-ffm">vips-ffm</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Comprehensive bindings for libvips, using Java's "Foreign Function & Memory" API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lopcode/vips-ffm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lopcode/vips-ffm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/lopcode/vips-ffm?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2796,7 +2796,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
         <a href="https://github.com/classgraph/classgraph">ClassGraph</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">ClassGraph (formerly FastClasspathScanner) is an uber-fast, ultra-lightweight, parallelized classpath scanner and module scanner for Java, Scala, Kotlin and other JVM languages.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/classgraph/classgraph?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/classgraph/classgraph?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/classgraph/classgraph?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2804,7 +2804,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
         <a href="https://github.com/jOOQ/jOOR">jOOR</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">jOOR stands for jOOR Object Oriented Reflection. It is a simple wrapper for the java.lang.reflect package.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jOOQ/jOOR?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jOOQ/jOOR?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jOOQ/jOOR?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2828,7 +2828,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
         <a href="https://github.com/EsotericSoftware/reflectasm">ReflectASM</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">ReflectASM is a very small Java library that provides high performance reflection by using code generation.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EsotericSoftware/reflectasm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EsotericSoftware/reflectasm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/EsotericSoftware/reflectasm?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2836,7 +2836,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
         <a href="https://github.com/ronmamo/reflections">Reflections</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ronmamo/reflections?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ronmamo/reflections?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ronmamo/reflections?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2856,7 +2856,7 @@ _Libraries for scheduling background jobs._
         <a href="https://github.com/jobrunr/jobrunr">JobRunr</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Job scheduling library which utilizes lambdas for fire-and-forget, delayed and recurring jobs. Guarantees execution by single scheduler instance using optimistic locking. Has features for persistence, minimal dependencies and is embeddable.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jobrunr/jobrunr?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jobrunr/jobrunr?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jobrunr/jobrunr?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2864,7 +2864,7 @@ _Libraries for scheduling background jobs._
         <a href="https://github.com/quartz-scheduler/quartz">Quartz</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Feature-rich, open source job scheduling library that can be integrated within virtually any Java application.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/quartz-scheduler/quartz?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/quartz-scheduler/quartz?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/quartz-scheduler/quartz?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2872,7 +2872,7 @@ _Libraries for scheduling background jobs._
         <a href="https://github.com/knowm/Sundial">Sundial</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight framework to simply define jobs, define triggers and start the scheduler.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/knowm/Sundial?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/knowm/Sundial?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/knowm/Sundial?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2880,7 +2880,7 @@ _Libraries for scheduling background jobs._
         <a href="https://github.com/Coreoz/Wisp">Wisp</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple library with minimal footprint and straightforward API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Coreoz/Wisp?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Coreoz/Wisp?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Coreoz/Wisp?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2888,7 +2888,7 @@ _Libraries for scheduling background jobs._
         <a href="https://github.com/kagkarlsson/db-scheduler">db-scheduler</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Persistent and cluster-friendly scheduler.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/kagkarlsson/db-scheduler?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/kagkarlsson/db-scheduler?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/kagkarlsson/db-scheduler?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2896,7 +2896,7 @@ _Libraries for scheduling background jobs._
         <a href="https://github.com/j-easy/easy-batch">easy-batch</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Set up batch jobs with simple processing pipelines. Records are read in sequence from a data source, processed in pipeline and written in batches to a data sink.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/j-easy/easy-batch?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/j-easy/easy-batch?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/j-easy/easy-batch?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2904,7 +2904,7 @@ _Libraries for scheduling background jobs._
         <a href="https://github.com/lukas-krecan/ShedLock">shedlock</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Makes sure that your scheduled tasks are executed at most once at the same time. If a task is being executed on one node, it acquires a lock which prevents execution of the same task from another node or thread.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lukas-krecan/ShedLock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lukas-krecan/ShedLock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/lukas-krecan/ShedLock?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -2932,7 +2932,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/ngs-doo/dsl-json">DSL-JSON</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JSON library with advanced compile time databinding.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ngs-doo/dsl-json?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ngs-doo/dsl-json?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ngs-doo/dsl-json?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2948,7 +2948,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/google/gson">Gson</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/gson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/gson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/gson?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2956,7 +2956,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/brettwooldridge/HikariJSON">HikariJSON</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-performance JSON parser, 2x faster than Jackson.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/brettwooldridge/HikariJSON?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/brettwooldridge/HikariJSON?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/brettwooldridge/HikariJSON?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2964,7 +2964,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/FasterXML/jackson-modules-java8">jackson-modules-java8</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Set of Jackson modules for Java 8 datatypes and features.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/FasterXML/jackson-modules-java8?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/FasterXML/jackson-modules-java8?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/FasterXML/jackson-modules-java8?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2972,7 +2972,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/zalando/jackson-datatype-money">Jackson-datatype-money</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/jackson-datatype-money?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/jackson-datatype-money?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zalando/jackson-datatype-money?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2980,7 +2980,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/FasterXML/jackson">Jackson</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Similar to GSON, but offers performance gains if you need to instantiate the library more often.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/FasterXML/jackson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/FasterXML/jackson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/FasterXML/jackson?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -2988,7 +2988,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/jdereg/json-io">JSON-io</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jdereg/json-io?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jdereg/json-io?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jdereg/json-io?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3004,7 +3004,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/bluelinelabs/LoganSquare">LoganSquare</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bluelinelabs/LoganSquare?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bluelinelabs/LoganSquare?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bluelinelabs/LoganSquare?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3012,7 +3012,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/square/moshi">Moshi</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Modern JSON library, less opinionated and uses built-in types like List and Map.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/moshi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/moshi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/square/moshi?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3020,7 +3020,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/eclipse-ee4j/yasson">Yasson</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Binding layer between classes and JSON documents similar to JAXB.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eclipse-ee4j/yasson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eclipse-ee4j/yasson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/eclipse-ee4j/yasson?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3028,7 +3028,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/alibaba/fastjson">fastjson</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Very fast processor with no additional dependencies and full data binding.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/fastjson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/fastjson?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/alibaba/fastjson?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3036,7 +3036,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/bazaarvoice/jolt">Jolt</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JSON to JSON transformation tool.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bazaarvoice/jolt?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bazaarvoice/jolt?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bazaarvoice/jolt?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3044,7 +3044,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/json-path/JsonPath">JsonPath</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Extract data from JSON using XPATH-like syntax.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/json-path/JsonPath?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/json-path/JsonPath?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/json-path/JsonPath?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3052,7 +3052,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
         <a href="https://github.com/jsurfer/JsonSurfer">JsonSurfer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Streaming JsonPath processor dedicated to processing big and complicated JSON data.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jsurfer/JsonSurfer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jsurfer/JsonSurfer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jsurfer/JsonSurfer?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -3096,7 +3096,7 @@ _Current implementations of the JVM/JDK._
         <a href="https://github.com/alibaba/dragonwell8">Dragonwell8</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/dragonwell8?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/dragonwell8?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/alibaba/dragonwell8?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3104,7 +3104,7 @@ _Current implementations of the JVM/JDK._
         <a href="https://github.com/oracle/graal">Graal</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Polyglot embeddable JVM. (GPL-2.0-only WITH Classpath-exception-2.0)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/oracle/graal?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/oracle/graal?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/oracle/graal?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3120,7 +3120,7 @@ _Current implementations of the JVM/JDK._
         <a href="https://github.com/eclipse/openj9">OpenJ9</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eclipse/openj9?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/eclipse/openj9?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/eclipse/openj9?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3136,7 +3136,7 @@ _Current implementations of the JVM/JDK._
         <a href="https://github.com/codenameone/CodenameOne/tree/master/vm">ParparVM</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">VM with non-blocking, concurrent GC for iOS. (GPL-2.0-only WITH Classpath-exception-2.0)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/codenameone/CodenameOne/tree/master/vm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/codenameone/CodenameOne/tree/master/vm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/codenameone/CodenameOne/tree/master/vm?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3168,7 +3168,7 @@ _Current implementations of the JVM/JDK._
         <a href="https://github.com/microsoft/openjdk">Microsoft JDK</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Microsoft Build of OpenJDK, Free, Open Source, Freshly Brewed!</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/microsoft/openjdk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/microsoft/openjdk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/microsoft/openjdk?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -3196,7 +3196,7 @@ _Libraries that log the behavior of an application._
         <a href="https://github.com/tersesystems/echopraxia">Echopraxia</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">API designed around structured logging, rich context, and conditional logging. There are Logback and Log4J2 implementations, but Echopraxia's API is completely dependency-free, meaning it can be implemented with any logging API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/tersesystems/echopraxia?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/tersesystems/echopraxia?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/tersesystems/echopraxia?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3228,7 +3228,7 @@ _Libraries that log the behavior of an application._
         <a href="https://github.com/zalando/logbook">Logbook</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Extensible, open-source library for HTTP request and response logging.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/logbook?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/logbook?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zalando/logbook?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3244,7 +3244,7 @@ _Libraries that log the behavior of an application._
         <a href="https://github.com/p6spy/p6spy">p6spy</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Enables logging for all JDBC transactions without changes to the code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/p6spy/p6spy?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/p6spy/p6spy?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/p6spy/p6spy?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3268,7 +3268,7 @@ _Libraries that log the behavior of an application._
         <a href="https://github.com/zalando/opentracing-toolbox">OpenTracing Toolbox</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Collection of libraries that build on top of OpenTracing and provide extensions and plugins to existing instrumentations.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/opentracing-toolbox?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/opentracing-toolbox?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zalando/opentracing-toolbox?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3336,7 +3336,7 @@ _Tools that provide specific statistical algorithms for learning from data._
         <a href="https://github.com/Barqawiz/IntelliJava">Intelligent java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Seamlessly integrate with remote deep learning and language models programmatically.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Barqawiz/IntelliJava?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Barqawiz/IntelliJava?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Barqawiz/IntelliJava?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3344,7 +3344,7 @@ _Tools that provide specific statistical algorithms for learning from data._
         <a href="https://github.com/EdwardRaff/JSAT">JSAT</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EdwardRaff/JSAT?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EdwardRaff/JSAT?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/EdwardRaff/JSAT?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3352,7 +3352,7 @@ _Tools that provide specific statistical algorithms for learning from data._
         <a href="https://github.com/BayesWitnesses/m2cgen">m2cgen</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">CLI tool to transpile models into native code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/BayesWitnesses/m2cgen?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/BayesWitnesses/m2cgen?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/BayesWitnesses/m2cgen?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3360,7 +3360,7 @@ _Tools that provide specific statistical algorithms for learning from data._
         <a href="https://github.com/Gleethos/neureka">Neureka</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">A lightweight, platform independent, OpenCL accelerated nd-array/tensor library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Gleethos/neureka?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Gleethos/neureka?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Gleethos/neureka?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3376,7 +3376,7 @@ _Tools that provide specific statistical algorithms for learning from data._
         <a href="https://github.com/OryxProject/oryx">Oryx 2</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Framework for building real-time, large-scale machine learning applications. Includes end-to-end applications for collaborative filtering, classification, regression, and clustering.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OryxProject/oryx?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OryxProject/oryx?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/OryxProject/oryx?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3384,7 +3384,7 @@ _Tools that provide specific statistical algorithms for learning from data._
         <a href="https://github.com/siddhi-io/siddhi">Siddhi</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Cloud native streaming and complex event processing engine.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/siddhi-io/siddhi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/siddhi-io/siddhi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/siddhi-io/siddhi?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3392,7 +3392,7 @@ _Tools that provide specific statistical algorithms for learning from data._
         <a href="https://github.com/haifengl/smile">Smile</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/haifengl/smile?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/haifengl/smile?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/haifengl/smile?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3428,7 +3428,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/real-logic/Aeron">Aeron</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Efficient, reliable, unicast and multicast message transport.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/real-logic/Aeron?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/real-logic/Aeron?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/real-logic/Aeron?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3484,7 +3484,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/AutoMQ/automq-for-kafka">AutoMQ</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AutoMQ/automq-for-kafka?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AutoMQ/automq-for-kafka?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/AutoMQ/automq-for-kafka?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3492,7 +3492,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/joel-jeremy/deezpatch">Deezpatch</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple, lightweight, and performant dispatch library for decoupling messages (requests and events) and message handlers.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/joel-jeremy/deezpatch?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/joel-jeremy/deezpatch?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/joel-jeremy/deezpatch?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3500,7 +3500,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/greenrobot/EventBus">EventBus</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple publish/subscribe event bus.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/greenrobot/EventBus?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/greenrobot/EventBus?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/greenrobot/EventBus?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3516,7 +3516,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/zeromq/jeromq">JeroMQ</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Implementation of ZeroMQ.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zeromq/jeromq?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zeromq/jeromq?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zeromq/jeromq?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3524,7 +3524,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/zalando/nakadi">Nakadi</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides a RESTful API on top of Kafka.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/nakadi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/nakadi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zalando/nakadi?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3532,7 +3532,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/rabbitmq/rabbitmq-java-client">RabbitMQ Java client</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">RabbitMQ client.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-java-client?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-java-client?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/rabbitmq/rabbitmq-java-client?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3540,7 +3540,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/igniterealtime/Smack">Smack</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Cross-platform XMPP client library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/igniterealtime/Smack?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/igniterealtime/Smack?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/igniterealtime/Smack?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3548,7 +3548,7 @@ _Tools that help send messages between clients to ensure protocol independency._
         <a href="https://github.com/nats-io/nats.java">NATS client</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">NATS client.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nats-io/nats.java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nats-io/nats.java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/nats-io/nats.java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -3576,7 +3576,7 @@ _Tools for creating and managing microservices._
         <a href="https://github.com/line/armeria">Armeria</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/line/armeria?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/line/armeria?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/line/armeria?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3584,7 +3584,7 @@ _Tools for creating and managing microservices._
         <a href="https://github.com/Ecwid/consul-api">consul-api</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Client for the Consul API: a distributed, highly available and datacenter-aware registry/discovery service.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Ecwid/consul-api?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Ecwid/consul-api?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Ecwid/consul-api?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3592,7 +3592,7 @@ _Tools for creating and managing microservices._
         <a href="https://github.com/Netflix/eureka">Eureka</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">REST-based service registry for resilient load balancing and failover.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Netflix/eureka?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Netflix/eureka?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Netflix/eureka?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3608,7 +3608,7 @@ _Tools for creating and managing microservices._
         <a href="https://github.com/DV8FromTheWorld/JDA">JDA</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Wrapping of the Discord REST API and its WebSocket events.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/DV8FromTheWorld/JDA?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/DV8FromTheWorld/JDA?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/DV8FromTheWorld/JDA?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3616,7 +3616,7 @@ _Tools for creating and managing microservices._
         <a href="https://github.com/DaveJarvis/KeenType">KeenType</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Modernized version of a Java-based implementation of the New Typesetting System, which was heavily based on Donald E. Knuth's original TeX.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/DaveJarvis/KeenType?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/DaveJarvis/KeenType?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/DaveJarvis/KeenType?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3624,7 +3624,7 @@ _Tools for creating and managing microservices._
         <a href="https://github.com/fabric8io/kubernetes-client">kubernetes-client</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Client provides access to the full Kubernetes & OpenShift REST APIs via a fluent DSL.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/fabric8io/kubernetes-client?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/fabric8io/kubernetes-client?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/fabric8io/kubernetes-client?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3648,7 +3648,7 @@ _Tools for creating and managing microservices._
         <a href="https://github.com/TheoKanning/openai-java">OpenAI-Java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java libraries for using OpenAI's GPT-3 API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/TheoKanning/openai-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/TheoKanning/openai-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/TheoKanning/openai-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3664,7 +3664,7 @@ _Tools for creating and managing microservices._
         <a href="https://github.com/alibaba/Sentinel">Sentinel</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Flow control component enabling reliability, resilience and monitoring for microservices.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/Sentinel?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/Sentinel?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/alibaba/Sentinel?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -3684,7 +3684,7 @@ _Everything else._
         <a href="https://github.com/npgall/cqengine">CQEngine</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Ultra-fast, SQL-like queries on Java collections.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/npgall/cqengine?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/npgall/cqengine?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/npgall/cqengine?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3692,7 +3692,7 @@ _Everything else._
         <a href="https://github.com/iluwatar/java-design-patterns">Design Patterns</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Implementation and explanation of the most common design patterns.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/iluwatar/java-design-patterns?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/iluwatar/java-design-patterns?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/iluwatar/java-design-patterns?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3700,7 +3700,7 @@ _Everything else._
         <a href="https://github.com/ff4j/ff4j">FF4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Feature Flags for Java.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ff4j/ff4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ff4j/ff4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ff4j/ff4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3708,7 +3708,7 @@ _Everything else._
         <a href="https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition">FizzBuzz Enterprise Edition</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes. (No explicit license)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3716,7 +3716,7 @@ _Everything else._
         <a href="https://github.com/ip2location/ip2location-io-java">IP2Location.io Java SDK</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Wrapper for the IP2Location.io Geolocation API and the IP2WHOIS domain WHOIS API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ip2location/ip2location-io-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ip2location/ip2location-io-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ip2location/ip2location-io-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3724,7 +3724,7 @@ _Everything else._
         <a href="https://github.com/ladutsko/isbn-core">ISBN core</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">A small library that contains a representation object of ISBN-10 and ISBN-13 and tools to parse, validate and format one.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ladutsko/isbn-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ladutsko/isbn-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ladutsko/isbn-core?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3732,7 +3732,7 @@ _Everything else._
         <a href="https://github.com/google/j2objc">J2ObjC</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java-to-Objective-C translator for porting Android libraries to iOS.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/j2objc?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/j2objc?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/j2objc?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3748,7 +3748,7 @@ _Everything else._
         <a href="https://github.com/rampatra/jbot">JBot</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Framework for building chatbots. (GPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rampatra/jbot?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rampatra/jbot?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/rampatra/jbot?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3764,7 +3764,7 @@ _Everything else._
         <a href="https://github.com/felldo/JEmoji">JEmoji</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">An auto-generated emoji library that provides type-safe direct access to emojis and alias support for Discord, Slack, GitHub and many more features.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/felldo/JEmoji?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/felldo/JEmoji?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/felldo/JEmoji?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3772,7 +3772,7 @@ _Everything else._
         <a href="https://github.com/google/jimfs">Jimfs</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">In-memory file system.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/jimfs?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/jimfs?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/jimfs?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3788,7 +3788,7 @@ _Everything else._
         <a href="https://github.com/jooq/joox">jOOX</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple wrapper for the org.w3c.dom package, to allow for fluent XML document creation and manipulation with an API inspired by jQuery.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jooq/joox?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jooq/joox?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jooq/joox?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3804,7 +3804,7 @@ _Everything else._
         <a href="https://github.com/cincheo/jsweet">jsweet</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Source transpiler to TypeScript/JavaScript.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cincheo/jsweet?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cincheo/jsweet?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/cincheo/jsweet?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3812,7 +3812,7 @@ _Everything else._
         <a href="https://github.com/takari/maven-wrapper">Maven Wrapper</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Analogue of Gradle Wrapper for Maven, allows building projects without installing maven.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/takari/maven-wrapper?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/takari/maven-wrapper?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/takari/maven-wrapper?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3820,7 +3820,7 @@ _Everything else._
         <a href="https://github.com/membrane/service-proxy">Membrane Service Proxy</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Open-source, reverse-proxy framework.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/membrane/service-proxy?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/membrane/service-proxy?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/membrane/service-proxy?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3828,7 +3828,7 @@ _Everything else._
         <a href="https://github.com/Guichaguri/MinimalFTP">MinimalFTP</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight, small and customizable FTP server.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Guichaguri/MinimalFTP?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Guichaguri/MinimalFTP?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Guichaguri/MinimalFTP?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3836,7 +3836,7 @@ _Everything else._
         <a href="https://github.com/adamfisk/LittleProxy">LittleProxy</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High performance HTTP proxy atop Netty's event-based networking library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/adamfisk/LittleProxy?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/adamfisk/LittleProxy?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/adamfisk/LittleProxy?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3844,7 +3844,7 @@ _Everything else._
         <a href="https://github.com/winterbe/java8-tutorial">Modern Java - A Guide to Java 8</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Popular Java 8 guide.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/winterbe/java8-tutorial?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/winterbe/java8-tutorial?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/winterbe/java8-tutorial?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3852,7 +3852,7 @@ _Everything else._
         <a href="https://github.com/gaul/modernizer-maven-plugin">Modernizer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Detect uses of legacy Java APIs.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/gaul/modernizer-maven-plugin?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/gaul/modernizer-maven-plugin?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/gaul/modernizer-maven-plugin?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3860,7 +3860,7 @@ _Everything else._
         <a href="https://github.com/OctoLinker/OctoLinker">OctoLinker</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Browser extension which allows to navigate through code on GitHub more efficiently.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OctoLinker/OctoLinker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OctoLinker/OctoLinker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/OctoLinker/OctoLinker?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3876,7 +3876,7 @@ _Everything else._
         <a href="https://github.com/sizovs/pipelinr">PipelinR</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Small utility library for using handlers and commands with pipelines.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sizovs/pipelinr?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sizovs/pipelinr?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/sizovs/pipelinr?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3884,7 +3884,7 @@ _Everything else._
         <a href="https://github.com/takari/polyglot-maven">Polyglot for Maven</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/takari/polyglot-maven?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/takari/polyglot-maven?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/takari/polyglot-maven?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3892,7 +3892,7 @@ _Everything else._
         <a href="https://github.com/Kartikvk1996/RR4J">RR4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">RR4J is a tool that records java bytecode execution and later allows developers to replay locally.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Kartikvk1996/RR4J?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Kartikvk1996/RR4J?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Kartikvk1996/RR4J?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3900,7 +3900,7 @@ _Everything else._
         <a href="https://github.com/bbottema/simple-java-mail">Simple Java Mail</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Mailing with a clean and fluent API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bbottema/simple-java-mail?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bbottema/simple-java-mail?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bbottema/simple-java-mail?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3908,7 +3908,7 @@ _Everything else._
         <a href="https://github.com/smooks/smooks">Smooks</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Framework for fragment-based message processing. (Apache-2.0 OR LGPL-3.0-or-later)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/smooks/smooks?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/smooks/smooks?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/smooks/smooks?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3916,7 +3916,7 @@ _Everything else._
         <a href="https://github.com/svix/svix-webhooks/tree/main/java">Svix</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library for the Svix API to send webhooks and verify signatures.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/svix/svix-webhooks/tree/main/java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/svix/svix-webhooks/tree/main/java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/svix/svix-webhooks/tree/main/java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3932,7 +3932,7 @@ _Everything else._
         <a href="https://github.com/jhalterman/typetools">TypeTools</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Tools for resolving generic types.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhalterman/typetools?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhalterman/typetools?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jhalterman/typetools?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3940,7 +3940,7 @@ _Everything else._
         <a href="https://github.com/sarxos/webcam-capture">webcam-capture</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library for using built-in and external webcams directly in Java.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sarxos/webcam-capture?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sarxos/webcam-capture?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/sarxos/webcam-capture?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3948,7 +3948,7 @@ _Everything else._
         <a href="https://github.com/SvenEwald/xmlbeam">XMLBeam</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Processes XML by using annotations or XPath within code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SvenEwald/xmlbeam?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SvenEwald/xmlbeam?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/SvenEwald/xmlbeam?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3956,7 +3956,7 @@ _Everything else._
         <a href="https://github.com/yWorks/yGuard">yGuard</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Obfuscation via renaming and shrinking.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/yWorks/yGuard?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/yWorks/yGuard?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/yWorks/yGuard?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -3964,7 +3964,7 @@ _Everything else._
         <a href="https://github.com/maxandersen/jbang/">JBang</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JBang makes it easy to use Java for scripting. It lets you use a single file for code and dependency management and allows you to run it directly.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/maxandersen/jbang/?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/maxandersen/jbang/?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/maxandersen/jbang/?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -4020,7 +4020,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/apitally/apitally-java">Apitally</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple, privacy-focused API monitoring, analytics and request logging for Spring Boot apps.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/apitally/apitally-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/apitally/apitally-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/apitally/apitally-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4028,7 +4028,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/stevensouza/automon">Automon</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Combines the power of AOP with monitoring and/or logging tools.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/stevensouza/automon?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/stevensouza/automon?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/stevensouza/automon?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4036,7 +4036,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/dropwizard/metrics">Dropwizard Metrics</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Expose metrics via JMX or HTTP and send them to a database.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dropwizard/metrics?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dropwizard/metrics?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/dropwizard/metrics?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4044,7 +4044,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/zalando/failsafe-actuator">Failsafe Actuator</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/failsafe-actuator?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zalando/failsafe-actuator?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zalando/failsafe-actuator?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4060,7 +4060,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/dromara/hertzbeat">HertzBeat</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Real-time monitoring system with custom-monitor and agentless.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dromara/hertzbeat?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dromara/hertzbeat?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/dromara/hertzbeat?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4068,7 +4068,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/opengoofy/hippo4j/blob/develop/README-EN.md">hippo4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Dynamic and observable thread pool framework.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/opengoofy/hippo4j/blob/develop/README-EN.md?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/opengoofy/hippo4j/blob/develop/README-EN.md?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/opengoofy/hippo4j/blob/develop/README-EN.md?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4084,7 +4084,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/jaegertracing/jaeger-client-java">Jaeger client</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Jaeger client.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jaegertracing/jaeger-client-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jaegertracing/jaeger-client-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jaegertracing/jaeger-client-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4092,7 +4092,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/javamelody/javamelody">JavaMelody</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Performance monitoring and profiling.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javamelody/javamelody?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javamelody/javamelody?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/javamelody/javamelody?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4100,7 +4100,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/jmxtrans/jmxtrans">jmxtrans</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Connect to multiple JVMs and query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVM attributes. Supports different output writes, including Graphite, Ganglia, and StatsD.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jmxtrans/jmxtrans?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jmxtrans/jmxtrans?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jmxtrans/jmxtrans?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4116,7 +4116,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/micrometer-metrics/micrometer">Micrometer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Vendor-neutral metrics/observability facade for the most popular metrics/observability libraries.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/micrometer-metrics/micrometer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/micrometer-metrics/micrometer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/micrometer-metrics/micrometer?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4124,7 +4124,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/micrometer-metrics/tracing">Micrometer Tracing</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Vendor-neutral distributed tracing facade for the most popular tracer libraries.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/micrometer-metrics/tracing?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/micrometer-metrics/tracing?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/micrometer-metrics/tracing?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4132,7 +4132,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/lorenzoongithub/nudge4j">nudge4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Remote developer console from the browser for Java 8 via bytecode injection.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lorenzoongithub/nudge4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lorenzoongithub/nudge4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/lorenzoongithub/nudge4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4140,7 +4140,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/open-telemetry/opentelemetry-java">OpenTelemetry</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Instrument, generate, collect, and export telemetry data to help you analyze your software’s performance and behavior.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/open-telemetry/opentelemetry-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/open-telemetry/opentelemetry-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/open-telemetry/opentelemetry-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4148,7 +4148,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/naver/pinpoint">Pinpoint</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Open-source APM tool.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/naver/pinpoint?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/naver/pinpoint?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/naver/pinpoint?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4156,7 +4156,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/prometheus/client_java">Prometheus</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/prometheus/client_java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/prometheus/client_java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/prometheus/client_java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4164,7 +4164,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/stagemonitor/stagemonitor">Stagemonitor</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Open-source performance monitoring and transaction tracing for JVM apps.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/stagemonitor/stagemonitor?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/stagemonitor/stagemonitor?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/stagemonitor/stagemonitor?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4172,7 +4172,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
         <a href="https://github.com/palantir/Sysmon">Sysmon</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight platform monitoring tool for Java VMs.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/palantir/Sysmon?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/palantir/Sysmon?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/palantir/Sysmon?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4200,7 +4200,7 @@ _For working with platform-specific native libraries._
         <a href="https://github.com/Syncleus/aparapi">Aparapi</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Converts bytecode to OpenCL which allows execution on GPUs.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Syncleus/aparapi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Syncleus/aparapi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Syncleus/aparapi?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4208,7 +4208,7 @@ _For working with platform-specific native libraries._
         <a href="https://github.com/bytedeco/javacpp">JavaCPP</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides efficient and easy access to native C++.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bytedeco/javacpp?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bytedeco/javacpp?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bytedeco/javacpp?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4216,7 +4216,7 @@ _For working with platform-specific native libraries._
         <a href="https://github.com/java-native-access/jna">JNA</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Work with native libraries without writing JNI. Also provides interfaces to common system libraries.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/java-native-access/jna?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/java-native-access/jna?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/java-native-access/jna?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4224,7 +4224,7 @@ _For working with platform-specific native libraries._
         <a href="https://github.com/jnr/jnr-ffi">JNR</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama).</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jnr/jnr-ffi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jnr/jnr-ffi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jnr/jnr-ffi?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4232,7 +4232,7 @@ _For working with platform-specific native libraries._
         <a href="https://github.com/scijava/native-lib-loader">native-lib-loader</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Native library loader for extracting and loading native libraries from Java.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/scijava/native-lib-loader?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/scijava/native-lib-loader?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/scijava/native-lib-loader?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -4252,7 +4252,7 @@ _Libraries that specialize in processing text._
         <a href="https://github.com/CogComp/cogcomp-nlp">CogCompNLP</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides common annotators for plain text input. (Research and Academic Use License)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/CogComp/cogcomp-nlp?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/CogComp/cogcomp-nlp?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/CogComp/cogcomp-nlp?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4276,7 +4276,7 @@ _Libraries that specialize in processing text._
         <a href="https://github.com/ejossev/hypherator-java">Hypherator</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java hyphenation library with iterator-like interface. Can be used out-of-the box - dictionaries for multiple languages are bundled in.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ejossev/hypherator-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ejossev/hypherator-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ejossev/hypherator-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4304,7 +4304,7 @@ _Libraries for building network servers._
         <a href="https://github.com/CiscoSE/commons-networking">Commons-networking</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Client for server-sent events (SSE).</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/CiscoSE/commons-networking?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/CiscoSE/commons-networking?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/CiscoSE/commons-networking?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4312,7 +4312,7 @@ _Libraries for building network servers._
         <a href="https://github.com/puniverse/comsat">Comsat</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Integrates standard Java web-related APIs with Quasar fibers and actors.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/puniverse/comsat?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/puniverse/comsat?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/puniverse/comsat?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4320,7 +4320,7 @@ _Libraries for building network servers._
         <a href="https://github.com/apache/dubbo">Dubbo</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-performance RPC framework.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/apache/dubbo?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/apache/dubbo?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/apache/dubbo?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4336,7 +4336,7 @@ _Libraries for building network servers._
         <a href="https://github.com/grpc/grpc-java">gRPC</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">RPC framework based on protobuf and HTTP/2.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/grpc/grpc-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/grpc/grpc-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/grpc/grpc-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4344,7 +4344,7 @@ _Libraries for building network servers._
         <a href="https://github.com/EsotericSoftware/kryonet">KryoNet</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EsotericSoftware/kryonet?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EsotericSoftware/kryonet?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/EsotericSoftware/kryonet?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4368,7 +4368,7 @@ _Libraries for building network servers._
         <a href="https://github.com/airlift/drift">Drift</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Easy-to-use, annotation-based library for creating Thrift clients and serializable types.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/airlift/drift?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/airlift/drift?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/airlift/drift?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4376,7 +4376,7 @@ _Libraries for building network servers._
         <a href="https://github.com/apple/servicetalk">ServiceTalk</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Framework built on Netty with APIs tailored to specific protocols and support for multiple programming paradigms.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/apple/servicetalk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/apple/servicetalk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/apple/servicetalk?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4384,7 +4384,7 @@ _Libraries for building network servers._
         <a href="https://github.com/hierynomus/sshj">sshj</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Programmatically use SSH, SCP or SFTP.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/hierynomus/sshj?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/hierynomus/sshj?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/hierynomus/sshj?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4392,7 +4392,7 @@ _Libraries for building network servers._
         <a href="https://github.com/marianobarrios/tls-channel">TLS Channel</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/marianobarrios/tls-channel?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/marianobarrios/tls-channel?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/marianobarrios/tls-channel?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4408,7 +4408,7 @@ _Libraries for building network servers._
         <a href="https://github.com/slub/urnlib">urnlib</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Represent, parse and encode URNs, as in RFC 2141. (GPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/slub/urnlib?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/slub/urnlib?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/slub/urnlib?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4416,7 +4416,7 @@ _Libraries for building network servers._
         <a href="https://github.com/komamitsu/fluency">Fluency</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High throughput data ingestion logger to Fluentd and Fluent Bit.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/komamitsu/fluency?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/komamitsu/fluency?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/komamitsu/fluency?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -4444,7 +4444,7 @@ _APIs that handle the persistence of objects._
         <a href="https://github.com/domaframework/doma">Doma</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/domaframework/doma?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/domaframework/doma?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/domaframework/doma?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4476,7 +4476,7 @@ _APIs that handle the persistence of objects._
         <a href="https://github.com/mybatis/mybatis-3">MyBatis</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Couples objects with stored procedures or SQL statements.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mybatis/mybatis-3?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mybatis/mybatis-3?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mybatis/mybatis-3?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4484,7 +4484,7 @@ _APIs that handle the persistence of objects._
         <a href="https://github.com/baomidou/mybatis-plus">MyBatis-Plus</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">A powerful enhanced toolkit of MyBatis for simplifying development.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/baomidou/mybatis-plus?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/baomidou/mybatis-plus?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/baomidou/mybatis-plus?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4492,7 +4492,7 @@ _APIs that handle the persistence of objects._
         <a href="https://github.com/braisdom/ObjectiveSql">ObjectiveSql</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">ActiveRecord ORM for rapid development and convention over configuration.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/braisdom/ObjectiveSql?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/braisdom/ObjectiveSql?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/braisdom/ObjectiveSql?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4500,7 +4500,7 @@ _APIs that handle the persistence of objects._
         <a href="https://github.com/permazen/permazen">Permazen</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Language-natural persistence layer.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/permazen/permazen?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/permazen/permazen?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/permazen/permazen?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4508,7 +4508,7 @@ _APIs that handle the persistence of objects._
         <a href="https://github.com/arnaudroger/SimpleFlatMapper">SimpleFlatMapper</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple database and CSV mapper.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/arnaudroger/SimpleFlatMapper?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/arnaudroger/SimpleFlatMapper?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/arnaudroger/SimpleFlatMapper?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -4532,7 +4532,7 @@ _Algorithms and libraries for finding routes in graphs and spatial environments.
         <a href="https://github.com/bsommerfeld/pathetic">Pathetic</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">A highly configurable 3D A* pathfinding library that uses specific optimizations for high performance.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bsommerfeld/pathetic?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/bsommerfeld/pathetic?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/bsommerfeld/pathetic?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -4576,7 +4576,7 @@ _Tools to help with PDF files._
         <a href="https://github.com/dynamicreports/dynamicreports">DynamicReports</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simplifies JasperReports. (LGPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dynamicreports/dynamicreports?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dynamicreports/dynamicreports?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/dynamicreports/dynamicreports?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4592,7 +4592,7 @@ _Tools to help with PDF files._
         <a href="https://github.com/flyingsaucerproject/flyingsaucer">flyingsaucer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">XML/XHTML and CSS 2.1 renderer. (LGPL-2.1-or-later)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/flyingsaucerproject/flyingsaucer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/flyingsaucerproject/flyingsaucer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/flyingsaucerproject/flyingsaucer?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4608,7 +4608,7 @@ _Tools to help with PDF files._
         <a href="https://github.com/danfickle/openhtmltopdf">Open HTML to PDF</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/danfickle/openhtmltopdf?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/danfickle/openhtmltopdf?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/danfickle/openhtmltopdf?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4616,7 +4616,7 @@ _Tools to help with PDF files._
         <a href="https://github.com/LibrePDF/OpenPDF">OpenPDF</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Open-source iText fork. (LGPL-3.0-only & MPL-2.0)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/LibrePDF/OpenPDF?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/LibrePDF/OpenPDF?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/LibrePDF/OpenPDF?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4624,7 +4624,7 @@ _Tools to help with PDF files._
         <a href="https://github.com/tabulapdf/tabula-java">Tabula</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Extracts tables from PDF files.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/tabulapdf/tabula-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/tabulapdf/tabula-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/tabulapdf/tabula-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -4644,7 +4644,7 @@ _Tools for performance analysis, profiling and benchmarking._
         <a href="https://github.com/jvm-profiling-tools/honest-profiler">honest-profiler</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Low-overhead, bias-free sampling profiler.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jvm-profiling-tools/honest-profiler?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jvm-profiling-tools/honest-profiler?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jvm-profiling-tools/honest-profiler?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4652,7 +4652,7 @@ _Tools for performance analysis, profiling and benchmarking._
         <a href="https://github.com/giltene/jHiccup">jHiccup</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Logs and records platform JVM stalls.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/giltene/jHiccup?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/giltene/jHiccup?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/giltene/jHiccup?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4660,7 +4660,7 @@ _Tools for performance analysis, profiling and benchmarking._
         <a href="https://github.com/AdoptOpenJDK/jitwatch">JITWatch</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Analyze the JIT compiler optimisations made by the HotSpot JVM.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AdoptOpenJDK/jitwatch?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AdoptOpenJDK/jitwatch?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/AdoptOpenJDK/jitwatch?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -4676,7 +4676,7 @@ _Tools for performance analysis, profiling and benchmarking._
         <a href="https://github.com/LatencyUtils/LatencyUtils">LatencyUtils</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Utilities for latency measurement and reporting.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/LatencyUtils/LatencyUtils?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/LatencyUtils/LatencyUtils?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/LatencyUtils/LatencyUtils?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -5148,7 +5148,7 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
         <a href="https://github.com/networknt/light-4j/">Light-4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2/).</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/networknt/light-4j/?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/networknt/light-4j/?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/networknt/light-4j/?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5156,7 +5156,7 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
         <a href="https://github.com/OrienteerBAP/Orienteer/">Orienteer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OrienteerBAP/Orienteer/?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OrienteerBAP/Orienteer/?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/OrienteerBAP/Orienteer/?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5184,7 +5184,7 @@ _Libraries that help the management of operating system processes._
         <a href="https://github.com/vorburger/ch.vorburger.exec">ch.vorburger.exec</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Convenient API around Apache Commons Exec.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vorburger/ch.vorburger.exec?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vorburger/ch.vorburger.exec?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/vorburger/ch.vorburger.exec?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5192,7 +5192,7 @@ _Libraries that help the management of operating system processes._
         <a href="https://github.com/zeroturnaround/zt-exec">zt-exec</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides a unified API to Apache Commons Exec and ProcessBuilder.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zeroturnaround/zt-exec?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zeroturnaround/zt-exec?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zeroturnaround/zt-exec?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5200,7 +5200,7 @@ _Libraries that help the management of operating system processes._
         <a href="https://github.com/zeroturnaround/zt-process-killer">zt-process-killer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Stops processes started from Java or the system processes via PID.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zeroturnaround/zt-process-killer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zeroturnaround/zt-process-killer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zeroturnaround/zt-process-killer?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -5228,7 +5228,7 @@ _Libraries for developing reactive applications._
         <a href="https://github.com/reactive-streams/reactive-streams-jvm">Reactive Streams</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides a standard for asynchronous stream processing with non-blocking backpressure.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/reactive-streams/reactive-streams-jvm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/reactive-streams/reactive-streams-jvm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/reactive-streams/reactive-streams-jvm?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5236,7 +5236,7 @@ _Libraries for developing reactive applications._
         <a href="https://github.com/reactor/reactor">Reactor</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">A framework for building non-blocking applications on the JVM, providing support for reactive programming.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/reactor/reactor?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/reactor/reactor?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/reactor/reactor?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5244,7 +5244,7 @@ _Libraries for developing reactive applications._
         <a href="https://github.com/ReactiveX/RxJava">RxJava</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Allows for composing asynchronous and event-based programs using observable sequences.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ReactiveX/RxJava?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ReactiveX/RxJava?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ReactiveX/RxJava?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5272,7 +5272,7 @@ _Frameworks specifically for creating RESTful services._
         <a href="https://github.com/dropwizard/dropwizard">Dropwizard</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dropwizard/dropwizard?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dropwizard/dropwizard?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/dropwizard/dropwizard?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5296,7 +5296,7 @@ _Frameworks specifically for creating RESTful services._
         <a href="https://github.com/aol/micro-server">Microserver</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Convenient, extensible microservices plugin system for Spring & Spring Boot. With more than 30 plugins and growing, it supports both micro-monolith and pure microservices styles.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/aol/micro-server?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/aol/micro-server?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/aol/micro-server?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5312,7 +5312,7 @@ _Frameworks specifically for creating RESTful services._
         <a href="https://github.com/linkedin/rest.li">rest.li</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Framework for building robust, scalable RESTful architectures using typesafe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/linkedin/rest.li?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/linkedin/rest.li?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/linkedin/rest.li?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5328,7 +5328,7 @@ _Frameworks specifically for creating RESTful services._
         <a href="https://github.com/RestExpress/RestExpress">RestExpress</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Thin wrapper on the JBoss Netty HTTP stack that provides scaling and performance.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/RestExpress/RestExpress?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/RestExpress/RestExpress?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/RestExpress/RestExpress?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5336,7 +5336,7 @@ _Frameworks specifically for creating RESTful services._
         <a href="https://github.com/restlet/restlet-framework-java">Restlet Framework</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Pioneering framework with powerful routing and filtering capabilities, and a unified client and server API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/restlet/restlet-framework-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/restlet/restlet-framework-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/restlet/restlet-framework-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5360,7 +5360,7 @@ _Frameworks specifically for creating RESTful services._
         <a href="https://github.com/springdoc/springdoc-openapi">springdoc-openapi</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Automates the generation of API documentation using Spring Boot projects.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/springdoc/springdoc-openapi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/springdoc/springdoc-openapi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/springdoc/springdoc-openapi?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5396,7 +5396,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/GSI-CS-CO/chart-fx">Chart-FX</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/GSI-CS-CO/chart-fx?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/GSI-CS-CO/chart-fx?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/GSI-CS-CO/chart-fx?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5412,7 +5412,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/Erdos-Graph-Framework/Erdos">Erdos</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Modular, light and easy graph framework for theoretic algorithms.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Erdos-Graph-Framework/Erdos?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Erdos-Graph-Framework/Erdos?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Erdos-Graph-Framework/Erdos?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5436,7 +5436,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/jgrapht/jgrapht">JGraphT</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Graph library that provides mathematical graph-theory objects and algorithms.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jgrapht/jgrapht?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jgrapht/jgrapht?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jgrapht/jgrapht?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5444,7 +5444,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/jgraph/jgraphx">JGraphX</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library for visualizing (mainly Swing) and interacting with node-edge graphs.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jgraph/jgraphx?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jgraph/jgraphx?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jgraph/jgraphx?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5452,7 +5452,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/logic-ng/LogicNG">LogicNG</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library for creating, manipulating and solving Boolean and Pseudo-Boolean formulas.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/logic-ng/LogicNG?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/logic-ng/LogicNG?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/logic-ng/LogicNG?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5460,7 +5460,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/MinesJTK/jtk">Mines Java Toolkit</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library for geophysical scientific computation, visualization and digital signal analysis.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/MinesJTK/jtk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/MinesJTK/jtk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/MinesJTK/jtk?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5468,7 +5468,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/zavtech/morpheus-core">Morpheus</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides a versatile two-dimensional memory efficient tabular data structure called a DataFrame to enable efficient in-memory analytics for scientific computing on the JVM.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zavtech/morpheus-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/zavtech/morpheus-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/zavtech/morpheus-core?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5484,7 +5484,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/jfree/orson-charts">Orson-Charts</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Generates a wide variety of 3D charts that can be displayed with Swing and JavaFX or exported to PDF, SVG, PNG and JPEG. (GPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jfree/orson-charts?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jfree/orson-charts?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jfree/orson-charts?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5492,7 +5492,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/jtablesaw/tablesaw">Tablesaw</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Includes a data-frame, an embedded column store, and hundreds of methods to transform, summarize, or filter data.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jtablesaw/tablesaw?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jtablesaw/tablesaw?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jtablesaw/tablesaw?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5500,7 +5500,7 @@ _Libraries for scientific computing, analysis and visualization._
         <a href="https://github.com/knowm/XChart">XChart</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Light-weight library for plotting data. Many customizable chart types are available.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/knowm/XChart?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/knowm/XChart?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/knowm/XChart?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -5544,7 +5544,7 @@ _Engines that index documents for search and analysis._
         <a href="https://github.com/haeungun/indexer4j">Indexer4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple and light full text indexing and searching library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/haeungun/indexer4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/haeungun/indexer4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/haeungun/indexer4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -5572,7 +5572,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/Hakky54/ayza">Ayza</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">High-level SSL configuration builder for configuring HTTP clients and servers with SSL/TLS.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Hakky54/ayza?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Hakky54/ayza?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Hakky54/ayza?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5588,7 +5588,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/jeremylong/DependencyCheck">DependencyCheck</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Detects publicly disclosed vulnerabilities contained within a project's dependencies.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jeremylong/DependencyCheck?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jeremylong/DependencyCheck?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jeremylong/DependencyCheck?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5604,7 +5604,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/hdiv/hdiv">Hdiv</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/hdiv/hdiv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/hdiv/hdiv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/hdiv/hdiv?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5612,7 +5612,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/jwtk/jjwt">jjwt</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JSON web token for Java and Android.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jwtk/jjwt?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jwtk/jjwt?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jwtk/jjwt?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5620,7 +5620,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/BastiaanJansen/jwt-java">jwt-java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Easily create and parse JSON Web Tokens and create customized JWT validators using a fluent API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/BastiaanJansen/jwt-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/BastiaanJansen/jwt-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/BastiaanJansen/jwt-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5628,7 +5628,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/auth0/jwks-rsa-java">Jwks RSA</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JSON Web Key Set parser.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/auth0/jwks-rsa-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/auth0/jwks-rsa-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/auth0/jwks-rsa-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5636,7 +5636,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/abstractj/kalium">Kalium</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Binding for the Networking and Cryptography (NaCl) library.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/abstractj/kalium?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/abstractj/kalium?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/abstractj/kalium?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5652,7 +5652,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/square/keywhiz">Keywhiz</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">System for distributing and managing secrets.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/keywhiz?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/square/keywhiz?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/square/keywhiz?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5660,7 +5660,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/GoSimpleLLC/nbvcxz">Nbvcxz</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Advanced password strength estimation.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/GoSimpleLLC/nbvcxz?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/GoSimpleLLC/nbvcxz?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/GoSimpleLLC/nbvcxz?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5676,7 +5676,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/OpenIdentityPlatform/OpenAM">OpenAM</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Access management solution that includes authentication, SSO, authorization, federation, entitlements and web services security.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenAM?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenAM?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/OpenIdentityPlatform/OpenAM?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5684,7 +5684,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/BastiaanJansen/OTP-Java">OTP-Java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">One-time password generator library according to RFC 4226 (HOTP) and RFC 6238 (TOTP).</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/BastiaanJansen/OTP-Java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/BastiaanJansen/OTP-Java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/BastiaanJansen/OTP-Java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5692,7 +5692,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/pac4j/pac4j">pac4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Security engine.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/pac4j/pac4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/pac4j/pac4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/pac4j/pac4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5708,7 +5708,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/Password4j/password4j">Password4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">User-friendly cryptographic library that supports Argon2, Bcrypt, Scrypt, PBKDF2 and various other cryptographic hash functions.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Password4j/password4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Password4j/password4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Password4j/password4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5716,7 +5716,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/tersesystems/securitybuilder">SecurityBuilder</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Fluent Builder API for JCA and JSSE classes and especially X.509 certificates.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/tersesystems/securitybuilder?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/tersesystems/securitybuilder?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/tersesystems/securitybuilder?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5724,7 +5724,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/cossacklabs/themis">Themis</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Multi-platform high-level cryptographic library provides easy-to-use encryption for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cossacklabs/themis?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cossacklabs/themis?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/cossacklabs/themis?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5732,7 +5732,7 @@ _Libraries that handle security, authentication, authorization or session manage
         <a href="https://github.com/google/tink">Tink</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides a simple and misuse-proof API for common cryptographic tasks.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/tink?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/tink?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/tink?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5760,7 +5760,7 @@ _Libraries that handle serialization with high efficiency._
         <a href="https://github.com/google/flatbuffers">FlatBuffers</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Memory-efficient serialization library that can access serialized data without unpacking and parsing it.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/flatbuffers?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/flatbuffers?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/flatbuffers?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5768,7 +5768,7 @@ _Libraries that handle serialization with high efficiency._
         <a href="https://github.com/RuedigerMoeller/fast-serialization">FST</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JDK-compatible, high-performance object graph serialization.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/RuedigerMoeller/fast-serialization?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/RuedigerMoeller/fast-serialization?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/RuedigerMoeller/fast-serialization?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5776,7 +5776,7 @@ _Libraries that handle serialization with high efficiency._
         <a href="https://github.com/alipay/fury">Fury</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Blazing fast object graph serialization framework powered by JIT and zero-copy.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alipay/fury?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alipay/fury?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/alipay/fury?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5784,7 +5784,7 @@ _Libraries that handle serialization with high efficiency._
         <a href="https://github.com/EsotericSoftware/kryo">Kryo</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Fast and efficient object graph serialization framework.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EsotericSoftware/kryo?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/EsotericSoftware/kryo?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/EsotericSoftware/kryo?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5792,7 +5792,7 @@ _Libraries that handle serialization with high efficiency._
         <a href="https://github.com/msgpack/msgpack-java">MessagePack</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Efficient binary serialization format.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/msgpack/msgpack-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/msgpack/msgpack-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/msgpack/msgpack-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5800,7 +5800,7 @@ _Libraries that handle serialization with high efficiency._
         <a href="https://github.com/marcospassos/java-php-serializer">PHP Serializer</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Serializing objects in the PHP serialization format.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/marcospassos/java-php-serializer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/marcospassos/java-php-serializer?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/marcospassos/java-php-serializer?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -5844,7 +5844,7 @@ _Servers specifically used to deploy applications._
         <a href="https://github.com/NanoHttpd/nanohttpd">nanohttpd</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Tiny, easily embeddable HTTP server.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/NanoHttpd/nanohttpd?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/NanoHttpd/nanohttpd?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/NanoHttpd/nanohttpd?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5888,7 +5888,7 @@ _Tools that substitute expressions in a template._
         <a href="https://github.com/neuland/jade4j">Jade4J</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Implementation of Pug (formerly known as Jade).</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/neuland/jade4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/neuland/jade4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/neuland/jade4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5896,7 +5896,7 @@ _Tools that substitute expressions in a template._
         <a href="https://github.com/verhas/jamal">Jamal</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Extendable template engine embedded into Maven/JavaDoc, supporting multiple extensions (Groovy, Ruby, JavaScript, JShell, PlantUml) with support for snippet handling.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/verhas/jamal?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/verhas/jamal?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/verhas/jamal?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5904,7 +5904,7 @@ _Tools that substitute expressions in a template._
         <a href="https://github.com/jstachio/jstachio">jstachio</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Typesafe Mustache templating engine.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jstachio/jstachio?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jstachio/jstachio?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jstachio/jstachio?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5912,7 +5912,7 @@ _Tools that substitute expressions in a template._
         <a href="https://github.com/casid/jte">jte</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Compiles to classes, and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/casid/jte?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/casid/jte?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/casid/jte?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5920,7 +5920,7 @@ _Tools that substitute expressions in a template._
         <a href="https://github.com/jtwig/jtwig">Jtwig</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Modular, configurable and fully tested template engine.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jtwig/jtwig?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jtwig/jtwig?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jtwig/jtwig?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5936,7 +5936,7 @@ _Tools that substitute expressions in a template._
         <a href="https://github.com/fizzed/rocker">Rocker</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Optimized, memory efficient and speedy template engine producing statically typed, plain objects.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/fizzed/rocker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/fizzed/rocker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/fizzed/rocker?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5944,7 +5944,7 @@ _Tools that substitute expressions in a template._
         <a href="https://github.com/antlr/stringtemplate4">StringTemplate</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Template engine for generating source code, web pages, emails, or any other formatted text output.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/antlr/stringtemplate4?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/antlr/stringtemplate4?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/antlr/stringtemplate4?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5976,7 +5976,7 @@ _Tools that simplify testing asynchronous services._
         <a href="https://github.com/awaitility/awaitility">Awaitility</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">DSL for synchronizing asynchronous operations.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/awaitility/awaitility?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/awaitility/awaitility?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/awaitility/awaitility?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -5984,7 +5984,7 @@ _Tools that simplify testing asynchronous services._
         <a href="https://github.com/jhalterman/concurrentunit">ConcurrentUnit</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Toolkit for testing multi-threaded and asynchronous applications.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhalterman/concurrentunit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jhalterman/concurrentunit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jhalterman/concurrentunit?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6000,7 +6000,7 @@ _Tools that simplify testing asynchronous services._
         <a href="https://github.com/SpectoLabs/hoverfly-java">Hoverfly Java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SpectoLabs/hoverfly-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/SpectoLabs/hoverfly-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/SpectoLabs/hoverfly-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6008,7 +6008,7 @@ _Tools that simplify testing asynchronous services._
         <a href="https://github.com/intuit/karate">Karate</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/intuit/karate?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/intuit/karate?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/intuit/karate?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6016,7 +6016,7 @@ _Tools that simplify testing asynchronous services._
         <a href="https://github.com/rest-assured/rest-assured">REST Assured</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">DSL for easy testing of REST/HTTP services.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rest-assured/rest-assured?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/rest-assured/rest-assured?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/rest-assured/rest-assured?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6024,7 +6024,7 @@ _Tools that simplify testing asynchronous services._
         <a href="https://github.com/testingisdocumenting/webtau">WebTau</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Test across REST-API, Graph QL, Browser, Database, CLI and Business Logic with consistent set of matchers and concepts.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/testingisdocumenting/webtau?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/testingisdocumenting/webtau?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/testingisdocumenting/webtau?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6044,7 +6044,7 @@ _Testing for the software development process that emerged from TDD and was heav
         <a href="https://github.com/cucumber/cucumber-jvm">Cucumber</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides a way to describe features in a plain language which customers can understand.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cucumber/cucumber-jvm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cucumber/cucumber-jvm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/cucumber/cucumber-jvm?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6052,7 +6052,7 @@ _Testing for the software development process that emerged from TDD and was heav
         <a href="https://github.com/ctco/cukes">Cukes-REST</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Collection of Gherkin steps for REST-service testing using Cucumber.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ctco/cukes?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/ctco/cukes?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/ctco/cukes?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6060,7 +6060,7 @@ _Testing for the software development process that emerged from TDD and was heav
         <a href="https://github.com/j8spec/j8spec">J8Spec</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Follows a Jasmine-like syntax.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/j8spec/j8spec?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/j8spec/j8spec?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/j8spec/j8spec?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6084,7 +6084,7 @@ _Testing for the software development process that emerged from TDD and was heav
         <a href="https://github.com/RichardWarburton/lambda-behave">Lamdba Behave</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Aims to provide a fluent API to write tests in long and descriptive sentences that read like plain English.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/RichardWarburton/lambda-behave?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/RichardWarburton/lambda-behave?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/RichardWarburton/lambda-behave?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6092,7 +6092,7 @@ _Testing for the software development process that emerged from TDD and was heav
         <a href="https://github.com/serenity-bdd/serenity-core">Serenity BDD</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Automated Acceptance testing and reporting library that works with Cucumber, JBehave and JUnit to make it easier to write high quality executable specifications.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/serenity-bdd/serenity-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/serenity-bdd/serenity-core?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/serenity-bdd/serenity-core?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6112,7 +6112,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/AutoParams/AutoParams">AutoParams</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Supports generating test data or combining scenarios for parameterized tests.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AutoParams/AutoParams?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/AutoParams/AutoParams?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/AutoParams/AutoParams?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6120,7 +6120,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/keepcosmos/beanmother">Beanmother</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Sets up beans from YAML fixtures.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/keepcosmos/beanmother?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/keepcosmos/beanmother?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/keepcosmos/beanmother?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6128,7 +6128,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/datafaker-net/datafaker">Datafaker</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Modern fake data generator forked from Java Faker.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/datafaker-net/datafaker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/datafaker-net/datafaker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/datafaker-net/datafaker?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6136,7 +6136,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/six2six/fixture-factory">Fixture Factory</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Generates fake objects from a template.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/six2six/fixture-factory?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/six2six/fixture-factory?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/six2six/fixture-factory?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6144,7 +6144,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/Devskiller/jfairy">jFairy</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Fake data generator.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Devskiller/jfairy?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Devskiller/jfairy?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Devskiller/jfairy?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6152,7 +6152,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/instancio/instancio">Instancio</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Automates data setup in unit tests by generating fully-populated, reproducible objects. Includes JUnit 5 extension.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/instancio/instancio?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/instancio/instancio?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/instancio/instancio?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6160,7 +6160,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/randomizedtesting/randomizedtesting">Randomized Testing</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JUnit test runner and plugins for running JUnit tests with pseudo-randomness.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/randomizedtesting/randomizedtesting?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/randomizedtesting/randomizedtesting?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/randomizedtesting/randomizedtesting?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6168,7 +6168,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/DiUS/java-faker">Java Faker</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Port of Ruby's fake data generator.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/DiUS/java-faker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/DiUS/java-faker?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/DiUS/java-faker?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6176,7 +6176,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/nomemory/mockneat">Mockneat</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Another fake data generator.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nomemory/mockneat?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nomemory/mockneat?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/nomemory/mockneat?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6184,7 +6184,7 @@ _Everything related to the creation and handling of random data._
         <a href="https://github.com/xcancloud/JMock">JMock</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JMock is a high-performance data generation and simulation component library implemented in Java.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xcancloud/JMock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xcancloud/JMock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/xcancloud/JMock?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6228,7 +6228,7 @@ _Provide environments to run tests for a specific use case._
         <a href="https://github.com/guhilling/cdi-test">cdi-test</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">JUnit extension for easy and efficient testing of CDI components.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/guhilling/cdi-test?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/guhilling/cdi-test?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/guhilling/cdi-test?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6268,7 +6268,7 @@ _Provide environments to run tests for a specific use case._
         <a href="https://github.com/DiUS/pact-jvm">Pact JVM</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Consumer-driven contract testing.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/DiUS/pact-jvm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/DiUS/pact-jvm?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/DiUS/pact-jvm?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6284,7 +6284,7 @@ _Provide environments to run tests for a specific use case._
         <a href="https://github.com/weld/weld-testing">weld-testing</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/weld/weld-testing?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/weld/weld-testing?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/weld/weld-testing?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6328,7 +6328,7 @@ _Libraries that provide custom matchers._
         <a href="https://github.com/lukas-krecan/JsonUnit">JsonUnit</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library that simplifies JSON comparison in tests.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lukas-krecan/JsonUnit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lukas-krecan/JsonUnit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/lukas-krecan/JsonUnit?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6344,7 +6344,7 @@ _Libraries that provide custom matchers._
         <a href="https://github.com/xmlunit/xmlunit">XMLUnit</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simplifies testing for XML output.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xmlunit/xmlunit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/xmlunit/xmlunit?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/xmlunit/xmlunit?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6364,7 +6364,7 @@ _Other stuff related to testing._
         <a href="https://github.com/Hakky54/console-captor">ConsoleCaptor</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Captures console output for unit testing purposes.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Hakky54/console-captor?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Hakky54/console-captor?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Hakky54/console-captor?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6372,7 +6372,7 @@ _Other stuff related to testing._
         <a href="https://github.com/TNG/junit-dataprovider">junit-dataprovider</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">TestNG-like data provider/runner for JUnit.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/TNG/junit-dataprovider?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/TNG/junit-dataprovider?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/TNG/junit-dataprovider?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6388,7 +6388,7 @@ _Other stuff related to testing._
         <a href="https://github.com/Hakky54/log-captor">LogCaptor</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Captures log entries for unit testing purposes.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Hakky54/log-captor?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/Hakky54/log-captor?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/Hakky54/log-captor?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6396,7 +6396,7 @@ _Other stuff related to testing._
         <a href="https://github.com/dm-drogeriemarkt/log-capture">log-capture</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Captures log entries and provides assertions for unit and integration testing.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dm-drogeriemarkt/log-capture?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dm-drogeriemarkt/log-capture?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/dm-drogeriemarkt/log-capture?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6404,7 +6404,7 @@ _Other stuff related to testing._
         <a href="https://github.com/MutabilityDetector/MutabilityDetector">Mutability Detector</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Reports whether instances of a given class are immutable.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/MutabilityDetector/MutabilityDetector?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/MutabilityDetector/MutabilityDetector?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/MutabilityDetector/MutabilityDetector?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6420,7 +6420,7 @@ _Other stuff related to testing._
         <a href="https://github.com/nidi3/raml-tester">raml-tester</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Tests if a request/response matches a given RAML definition.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nidi3/raml-tester?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/nidi3/raml-tester?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/nidi3/raml-tester?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6428,7 +6428,7 @@ _Other stuff related to testing._
         <a href="https://github.com/diffplug/selfie">Selfie</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Snapshot testing (inline and on disk).</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/diffplug/selfie?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/diffplug/selfie?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/diffplug/selfie?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6436,7 +6436,7 @@ _Other stuff related to testing._
         <a href="https://github.com/stebz/stebz">Stebz</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Multi-approach framework for test steps managing.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/stebz/stebz?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/stebz/stebz?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/stebz/stebz?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6444,7 +6444,7 @@ _Other stuff related to testing._
         <a href="https://github.com/testcontainers/testcontainers-java">Testcontainers</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/testcontainers/testcontainers-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/testcontainers/testcontainers-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/testcontainers/testcontainers-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6472,7 +6472,7 @@ _Tools which mock collaborators to help testing single, isolated units._
         <a href="https://github.com/mockito/mockito">Mockito</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Mocking framework that lets you write tests with a clean and simple API.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mockito/mockito?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/mockito/mockito?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/mockito/mockito?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6488,7 +6488,7 @@ _Tools which mock collaborators to help testing single, isolated units._
         <a href="https://github.com/dreamhead/moco">Moco</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Concise web services for stubs and mocks.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dreamhead/moco?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/dreamhead/moco?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/dreamhead/moco?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6496,7 +6496,7 @@ _Tools which mock collaborators to help testing single, isolated units._
         <a href="https://github.com/powermock/powermock">PowerMock</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/powermock/powermock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/powermock/powermock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/powermock/powermock?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6512,7 +6512,7 @@ _Tools which mock collaborators to help testing single, isolated units._
         <a href="https://github.com/easymock/easymock">EasyMock</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">EasyMock is a Java library that provides an easy way to use Mock Objects in unit testing.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/easymock/easymock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/easymock/easymock?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/easymock/easymock?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6532,7 +6532,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/alibaba/arthas">Arthas</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Allows to troubleshoot production issues for applications without modifying code or restarting servers.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/arthas?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/alibaba/arthas?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/alibaba/arthas?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6540,7 +6540,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/vladimir-bukhtoyarov/bucket4j">bucket4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Rate limiting library based on token-bucket algorithm.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vladimir-bukhtoyarov/bucket4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vladimir-bukhtoyarov/bucket4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/vladimir-bukhtoyarov/bucket4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6548,7 +6548,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/yegor256/cactoos">cactoos</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Collection of object-oriented primitives.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/yegor256/cactoos?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/yegor256/cactoos?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/yegor256/cactoos?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6556,7 +6556,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/cleopatra27/chocotea">Chocotea</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Generates postman collection, environment and integration tests from java code.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cleopatra27/chocotea?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/cleopatra27/chocotea?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/cleopatra27/chocotea?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6572,7 +6572,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/PatMartin/Dex">Dex</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java/JavaFX tool capable of powerful ETL and data visualization.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/PatMartin/Dex?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/PatMartin/Dex?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/PatMartin/Dex?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6580,7 +6580,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/marianobarrios/dregex">dregex</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Regular expression engine that uses deterministic finite automata. It supports some Perl-style features and yet retains linear matching time, and also offers set operations.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/marianobarrios/dregex?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/marianobarrios/dregex?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/marianobarrios/dregex?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6588,7 +6588,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/embulk/embulk">Embulk</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/embulk/embulk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/embulk/embulk?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/embulk/embulk?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6596,7 +6596,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/vorburger/ch.vorburger.fswatch">fswatch</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Micro library to watch for directory file system changes, simplifying java.nio.file.WatchService.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vorburger/ch.vorburger.fswatch?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/vorburger/ch.vorburger.fswatch?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/vorburger/ch.vorburger.fswatch?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6604,7 +6604,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/gephi/gephi">Gephi</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Cross-platform for visualizing and manipulating large graph networks. (GPL-3.0-only)</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/gephi/gephi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/gephi/gephi?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/gephi/gephi?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6612,7 +6612,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/google/guava">Guava</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and more.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/guava?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/google/guava?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/google/guava?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6628,7 +6628,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/MathieuSoysal/Javadoc-publisher.yml">Javadoc Publisher</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Generate Javadoc from your maven/gradle project and deploy it automatically on GitHub Page.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/MathieuSoysal/Javadoc-publisher.yml?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/MathieuSoysal/Javadoc-publisher.yml?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/MathieuSoysal/Javadoc-publisher.yml?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6644,7 +6644,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/VerbalExpressions/JavaVerbalExpressions">JavaVerbalExpressions</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Library that helps with constructing difficult regular expressions.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/VerbalExpressions/JavaVerbalExpressions?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/VerbalExpressions/JavaVerbalExpressions?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/VerbalExpressions/JavaVerbalExpressions?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6660,7 +6660,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/evpl/jkscope">JKScope</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java scope functions inspired by Kotlin.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/evpl/jkscope?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/evpl/jkscope?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/evpl/jkscope?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6668,7 +6668,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/minio/minio-java">minio-java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Provides simple APIs to access any Amazon S3-compatible object storage server.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/minio/minio-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/minio/minio-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/minio/minio-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6684,7 +6684,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/semver4j/semver4j">Semver4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight library that helps you handling semantic versioning with different modes.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/semver4j/semver4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/semver4j/semver4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/semver4j/semver4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6692,7 +6692,7 @@ _Libraries which provide general utility functions._
         <a href="https://github.com/javadev/underscore-java">Underscore-java</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Port of Underscore.js functions.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javadev/underscore-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/javadev/underscore-java?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/javadev/underscore-java?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6712,7 +6712,7 @@ _Utilities that help create the development shell environment and switch between
         <a href="https://github.com/shyiko/jabba">jabba</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java Version Manager inspired by nvm. Supports macOS, Linux and Windows.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/shyiko/jabba?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/shyiko/jabba?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/shyiko/jabba?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6720,7 +6720,7 @@ _Utilities that help create the development shell environment and switch between
         <a href="https://github.com/jenv/jenv">jenv</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java Version Manager inspired by rbenv. Can configure globally or per project. Tested on Debian and macOS.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jenv/jenv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/jenv/jenv?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/jenv/jenv?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6728,7 +6728,7 @@ _Utilities that help create the development shell environment and switch between
         <a href="https://github.com/sdkman/sdkman-cli">SDKMan</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Java Version Manager inspired by RVM and rbenv. Supports UNIX-based platforms and Windows.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sdkman/sdkman-cli?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/sdkman/sdkman-cli?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/sdkman/sdkman-cli?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6756,7 +6756,7 @@ _Libraries that analyze the content of websites._
         <a href="https://github.com/yasserg/crawler4j">Crawler4j</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Simple and lightweight web crawler.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/yasserg/crawler4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/yasserg/crawler4j?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/yasserg/crawler4j?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6780,7 +6780,7 @@ _Libraries that analyze the content of websites._
         <a href="https://github.com/code4craft/webmagic">webmagic</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Scalable crawler with downloading, url management, content extraction and persistent.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/code4craft/webmagic?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/code4craft/webmagic?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/code4craft/webmagic?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
   </tbody>
@@ -6824,7 +6824,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
         <a href="https://github.com/lets-blade/blade">Blade</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Lightweight, modular framework that aims to be elegant and simple.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lets-blade/blade?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/lets-blade/blade?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/lets-blade/blade?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6904,7 +6904,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
         <a href="https://github.com/yegor256/takes">Takes</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/yegor256/takes?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/yegor256/takes?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/yegor256/takes?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
@@ -6948,7 +6948,7 @@ _Platforms and frameworks for orchestrating workflows and business processes._
         <a href="https://github.com/flowable/flowable-engine">flowable</a>
       </td>
       <td style="width:60%;word-wrap:break-word;">Compact and efficient workflow and business process management platform.</td>
-      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/flowable/flowable-engine?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:auto;display:block;"></td>
+      <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/stars/flowable/flowable-engine?style=for-the-badge&label=" alt="GitHub stars" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
       <td style="width:10%;text-align:center;vertical-align:middle;min-height:40px;padding:0;"><img src="https://img.shields.io/github/last-commit/flowable/flowable-engine?style=for-the-badge&label=" alt="Last commit" style="width:100%;height:40px;display:block;object-fit:cover;"></td>
     </tr>
     <tr>
