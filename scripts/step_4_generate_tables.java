@@ -149,9 +149,12 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
   var sectionName = entries.get(0).section();
   var table = new StringBuilder("""
 %s%s -->
-<table style="%s">
-  <tbody>
-""".formatted(Constants.SECTION_COMMENT_PREFIX, sectionName, Constants.TABLE_STYLE));
+
+### %s
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
+""".formatted(Constants.SECTION_COMMENT_PREFIX, sectionName, sectionName));
 
   for (var entry : entries) {
     var desc = entry.description().isEmpty() ? Constants.NO_DESCRIPTION : entry.description();
@@ -159,27 +162,12 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
     var stars = badge != null ? badge.starsBadge() : Constants.NO_BADGE;
     var commit = badge != null ? badge.lastCommitBadge() : Constants.NO_BADGE;
 
-    table.append("""
-    <tr>
-      <td style="%s">
-        <a href="%s">%s</a>
-      </td>
-      <td style="%s">%s</td>
-      <td style="%s">%s</td>
-      <td style="%s">%s</td>
-    </tr>
-""".formatted(
-      Constants.NAME_CELL_STYLE, entry.url(), entry.name(),
-      Constants.DESC_CELL_STYLE, desc,
-      Constants.BADGE_CELL_STYLE, stars,
-      Constants.BADGE_CELL_STYLE, commit
+    table.append("| [%s](%s) | %s | %s | %s |\n".formatted(
+      entry.name(), entry.url(), desc, stars, commit
     ));
   }
-  table.append("""
-  </tbody>
-</table>
 
-""");
+  table.append("\n");
   return table.toString();
 }
 

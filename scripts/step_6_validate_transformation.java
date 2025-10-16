@@ -172,26 +172,34 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
       continue;
     }
 
-    // Track subsection changes
+    // Track section changes (both main sections and subsections)
     if (line.startsWith(Constants.SUBSECTION)) {
       currentSection = line.substring(Constants.SUBSECTION.length());
       continue;
     }
+    if (line.startsWith(Constants.SECTION) && !line.equals(Constants.PROJECTS_SECTION)) {
+      currentSection = line.substring(Constants.SECTION.length());
+      continue;
+    }
 
-    // Track table boundaries
-    if (line.contains("<table")) {
+    // Track table boundaries - look for Markdown table headers
+    if (line.startsWith("|") && line.contains("| Name |")) {
       inTable = true;
       tableSection = currentSection;
       continue;
     }
-    if (line.contains("</table>")) {
+    if (inTable && line.startsWith("|") && line.contains("| :--- |")) {
+      // Skip the separator row
+      continue;
+    }
+    if (inTable && !line.startsWith("|") && !line.trim().isEmpty()) {
       inTable = false;
       continue;
     }
 
-    // Extract entries from table rows
-    if (inTable && line.contains("<tr>")) {
-      var entry = extractEntryFromTableRow(lines, i, tableSection);
+    // Extract entries from Markdown table rows
+    if (inTable && line.startsWith("|") && !line.contains("| Name |") && !line.contains("| :--- |")) {
+      var entry = extractEntryFromMarkdownTableRow(line, tableSection);
       if (entry != null) {
         entries.add(entry);
       }
@@ -230,6 +238,39 @@ ProjectEntry extractEntryFromTableRow(String[] lines, int startIndex, String sec
       }
     }
   }
+
+  if (!name.isEmpty() && !url.isEmpty()) {
+    return new ProjectEntry(
+      name,
+      url,
+      description,
+      1,
+      section
+    );
+  }
+  return null;
+}
+
+/**
+ * Extracts a project entry from a Markdown table row.
+ */
+ProjectEntry extractEntryFromMarkdownTableRow(String line, String section) {
+  // Split by | and clean up
+  var parts = line.split("\\|");
+  if (parts.length < 5) {
+    return null;
+  }
+
+  // Extract name and URL from [Name](URL) format
+  var nameUrlPart = parts[1].trim();
+  var nameUrlMatch = Pattern.compile("\\[([^\\]]+)\\]\\(([^)]+)\\)").matcher(nameUrlPart);
+  if (!nameUrlMatch.find()) {
+    return null;
+  }
+
+  var name = nameUrlMatch.group(1);
+  var url = nameUrlMatch.group(2);
+  var description = parts[2].trim();
 
   if (!name.isEmpty() && !url.isEmpty()) {
     return new ProjectEntry(
