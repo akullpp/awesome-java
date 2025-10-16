@@ -93,6 +93,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 _Frameworks and libraries that help implementing and verifying design and architecture concepts._
 
+| | | | |
 |---|---|---|---|
 | [ArchUnit](https://github.com/TNG/ArchUnit) | Test library for specifying and asserting architecture rules. | ![](https://img.shields.io/github/stars/TNG/ArchUnit?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/TNG/ArchUnit?style=flat-square&label=)
 | [jMolecules](https://github.com/xmolecules/jmolecules) | Annotations and interfaces to express design and architecture concepts in code. | ![](https://img.shields.io/github/stars/xmolecules/jmolecules?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/xmolecules/jmolecules?style=flat-square&label=)
@@ -101,6 +102,7 @@ _Frameworks and libraries that help implementing and verifying design and archit
 
 _Frameworks that help you to leverage LLMs and AI._
 
+| | | | |
 |---|---|---|---|
 | [LangChain4j](https://github.com/langchain4j/langchain4j) | Simplifies integration of LLMs with unified APIs and a comprehensive toolbox. | ![](https://img.shields.io/github/stars/langchain4j/langchain4j?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/langchain4j/langchain4j?style=flat-square&label=)
 | [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk) | Enables applications to interact with AI models and tools through a standardized interface. | ![](https://img.shields.io/github/stars/modelcontextprotocol/java-sdk?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/modelcontextprotocol/java-sdk?style=flat-square&label=)
@@ -111,6 +113,7 @@ _Frameworks that help you to leverage LLMs and AI._
 
 _Frameworks that ease bean mapping._
 
+| | | | |
 |---|---|---|---|
 | [dOOv](https://github.com/doov-io/doov) | Provides fluent API for typesafe domain model validation and mapping. | ![](https://img.shields.io/github/stars/doov-io/doov?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/doov-io/doov?style=flat-square&label=)
 | [JMapper](https://github.com/jmapper-framework/jmapper-core) | Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration. | ![](https://img.shields.io/github/stars/jmapper-framework/jmapper-core?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/jmapper-framework/jmapper-core?style=flat-square&label=)
@@ -124,6 +127,7 @@ _Frameworks that ease bean mapping._
 
 _Tools that handle the build cycle and dependencies of an application._
 
+| | | | |
 |---|---|---|---|
 | [Apache Maven](https://maven.apache.org) | Declarative build and dependency management that favors convention over configuration. | - | - |
 | [Bazel](https://bazel.build) | Tool from Google that builds code quickly and reliably. | - | - |
@@ -134,6 +138,7 @@ _Tools that handle the build cycle and dependencies of an application._
 
 _Libraries to manipulate bytecode programmatically._
 
+| | | | |
 |---|---|---|---|
 | [ASM](https://asm.ow2.io) | All-purpose, low-level bytecode manipulation and analysis. | - | - |
 | [Byte Buddy](https://bytebuddy.net) | Further simplifies bytecode generation with a fluent API. | - | - |
@@ -150,6 +155,7 @@ _Libraries to manipulate bytecode programmatically._
 
 _Libraries that provide caching facilities._
 
+| | | | |
 |---|---|---|---|
 | [cache2k](https://cache2k.org) | In-memory high performance caching library. | - | - |
 | [Caffeine](https://github.com/ben-manes/caffeine) | High-performance, near-optimal caching library. | ![](https://img.shields.io/github/stars/ben-manes/caffeine?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/ben-manes/caffeine?style=flat-square&label=)
@@ -166,6 +172,7 @@ _Libraries to assist with parsing command line arguments._
 #### Text-Based User Interfaces
 _Libraries that provide TUI frameworks, or building blocks related functions._
 
+| | | | |
 |---|---|---|---|
 | [Airline](https://rvesse.github.io/airline/) | Annotation-based framework for parsing Git-like command-line arguments. | - | - |
 | [JCommander](http://jcommander.org) | Command-line argument-parsing framework with custom types and validation via implementing interfaces. | - | - |
@@ -181,6 +188,7 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 
 _Libraries to integrate or use cloud-specific features._
 
+| | | | |
 |---|---|---|---|
 | [AWS SDK for Java](https://github.com/aws/aws-sdk-java) | Provides Java APIs for interacting with Amazon Web Services. | ![](https://img.shields.io/github/stars/aws/aws-sdk-java?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/aws/aws-sdk-java?style=flat-square&label=)
 | [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java) | Client libraries for accessing Google Cloud services from Java applications. | ![](https://img.shields.io/github/stars/googleapis/google-cloud-java?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/googleapis/google-cloud-java?style=flat-square&label=)
@@ -189,6 +197,7 @@ _Libraries to integrate or use cloud-specific features._
 
 _Tools that provide metrics and quality measurements._
 
+| | | | |
 |---|---|---|---|
 | [Checkstyle](https://github.com/checkstyle/checkstyle) | Static analysis of coding conventions and standards. (LGPL-2.1-or-later) | ![](https://img.shields.io/github/stars/checkstyle/checkstyle?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/checkstyle/checkstyle?style=flat-square&label=)
 | [Error Prone](https://github.com/google/error-prone) | Catches common programming mistakes as compile-time errors. | ![](https://img.shields.io/github/stars/google/error-prone?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/google/error-prone?style=flat-square&label=)
@@ -207,6 +216,7 @@ _Tools that provide metrics and quality measurements._
 
 _Frameworks and tools that enable code coverage metrics collection for test suites._
 
+| | | | |
 |---|---|---|---|
 | [Clover](https://www.atlassian.com/software/clover) | Relies on source-code instrumentation instead of bytecode instrumentation. | - | - |
 | [Cobertura](https://cobertura.github.io/cobertura/) | Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics. (GPL-2.0-only) | - | - |
@@ -216,6 +226,7 @@ _Frameworks and tools that enable code coverage metrics collection for test suit
 
 _Tools that generate patterns for repetitive code in order to reduce verbosity and error-proneness._
 
+| | | | |
 |---|---|---|---|
 | [ADT4J](https://github.com/sviperll/adt4j) | JSR-269 code generator for algebraic data types. | ![](https://img.shields.io/github/stars/sviperll/adt4j?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/sviperll/adt4j?style=flat-square&label=)
 | [Auto](https://github.com/google/auto) | Generates factory, service, and value classes. | ![](https://img.shields.io/github/stars/google/auto?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/google/auto?style=flat-square&label=)
@@ -236,6 +247,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 
 _Frameworks that help to create parsers, interpreters or compilers._
 
+| | | | |
 |---|---|---|---|
 | [ANTLR](https://www.antlr.org) | Complex full-featured framework for top-down parsing. | - | - |
 | [JavaCC](https://javacc.github.io/javacc/) | Parser generator that generates top-down parsers. Allows lexical state switching and permits extended BNF specifications. | - | - |
@@ -245,6 +257,7 @@ _Frameworks that help to create parsers, interpreters or compilers._
 
 _Libraries which seek to gain high level information from images and videos._
 
+| | | | |
 |---|---|---|---|
 | [BoofCV](https://boofcv.org) | Library for image processing, camera calibration, tracking, SFM, MVS, 3D vision, QR Code and much more. | - | - |
 | [ImageJ](https://imagej.net/ImageJ) | Medical image processing application with an API. | - | - |
@@ -254,6 +267,7 @@ _Libraries which seek to gain high level information from images and videos._
 
 _Libraries that provide external configuration._
 
+| | | | |
 |---|---|---|---|
 | [avaje config](https://avaje.io/config/) | Loads yaml and properties files, supports dynamic configuration, plugins, file-watching and config event listeners. | - | - |
 | [centraldogma](https://github.com/line/centraldogma) | Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2. | ![](https://img.shields.io/github/stars/line/centraldogma?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/line/centraldogma?style=flat-square&label=)
@@ -272,6 +286,7 @@ _Libraries that provide external configuration._
 
 _Libraries that help with implementing optimization and satisfiability problems._
 
+| | | | |
 |---|---|---|---|
 | [Choco](https://choco-solver.org) | Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques. | - | - |
 | [JaCoP](https://github.com/radsz/jacop) | Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models. (AGPL-3.0) | ![](https://img.shields.io/github/stars/radsz/jacop?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/radsz/jacop?style=flat-square&label=)
@@ -282,6 +297,7 @@ _Libraries that help with implementing optimization and satisfiability problems.
 
 _Frameworks and libraries that simplify reading/writing CSV data._
 
+| | | | |
 |---|---|---|---|
 | [FastCSV](https://github.com/osiegmar/FastCSV) | Performance-optimized, dependency-free and RFC 4180 compliant. | ![](https://img.shields.io/github/stars/osiegmar/FastCSV?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/osiegmar/FastCSV?style=flat-square&label=)
 | [jackson-dataformat-csv](https://github.com/FasterXML/jackson-dataformat-csv) | Jackson extension for reading and writing CSV. | ![](https://img.shields.io/github/stars/FasterXML/jackson-dataformat-csv?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/FasterXML/jackson-dataformat-csv?style=flat-square&label=)
@@ -293,6 +309,7 @@ _Frameworks and libraries that simplify reading/writing CSV data._
 
 _Efficient and specific data structures._
 
+| | | | |
 |---|---|---|---|
 | [Apache Avro](https://avro.apache.org) | Data interchange format with dynamic typing, untagged data, and absence of manually assigned IDs. | - | - |
 | [Apache Orc](https://orc.apache.org) | Fast and efficient columnar storage format for Hadoop-based workloads. | - | - |
@@ -311,6 +328,7 @@ _Efficient and specific data structures._
 
 _Everything that simplifies interactions with the database._
 
+| | | | |
 |---|---|---|---|
 | [Apache Calcite](https://calcite.apache.org) | Dynamic data management framework. It contains many of the pieces that comprise a typical database management system. | - | - |
 | [Apache Drill](https://drill.apache.org) | Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration. | - | - |
@@ -355,6 +373,7 @@ _Everything that simplifies interactions with the database._
 
 _Libraries related to handling date and time._
 
+| | | | |
 |---|---|---|---|
 | [iCal4j](https://github.com/ical4j/ical4j) | Parse and build iCalendar [RFC 5545](https://tools.ietf.org/html/rfc5545) data models. | ![](https://img.shields.io/github/stars/ical4j/ical4j?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/ical4j/ical4j?style=flat-square&label=)
 | [Jollyday](https://github.com/svendiedrichsen/jollyday) | Determines the holidays for a given year, country/name and eventually state/region. | ![](https://img.shields.io/github/stars/svendiedrichsen/jollyday?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/svendiedrichsen/jollyday?style=flat-square&label=)
@@ -369,6 +388,7 @@ _Libraries that handle decentralization tasks._
 
 _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm._
 
+| | | | |
 |---|---|---|---|
 | [Apache DeltaSpike](https://deltaspike.apache.org) | CDI extension framework. | - | - |
 | [Avaje Inject](https://avaje.io/inject/) | Microservice-focused compile-time injection framework without reflection. | - | - |
@@ -383,6 +403,7 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
 
 _Augmentation of the development process at a fundamental level._
 
+| | | | |
 |---|---|---|---|
 | [AspectJ](https://www.eclipse.org/aspectj/) | Seamless aspect-oriented programming extension. | - | - |
 | [DCEVM](https://dcevm.github.io) | JVM modification that allows unlimited redefinition of loaded classes at runtime. (GPL-2.0-only) | - | - |
@@ -399,6 +420,7 @@ _Augmentation of the development process at a fundamental level._
 
 _Libraries and frameworks for writing distributed and fault-tolerant applications._
 
+| | | | |
 |---|---|---|---|
 | [Apache Geode](https://geode.apache.org) | In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery. | - | - |
 | [Apache Storm](https://storm.apache.org) | Realtime computation system. | - | - |
@@ -419,6 +441,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
 
 _Distributed transactions provide a mechanism for ensuring consistency of data updates in the presence of concurrent access and partial failures._
 
+| | | | |
 |---|---|---|---|
 | [Atomikos](https://www.atomikos.com) | Provides transactions for REST, SOA and microservices with support for JTA and XA. | - | - |
 | [Bitronix](https://github.com/bitronix/btm) | Simple but complete implementation of the JTA 1.1 API. | ![](https://img.shields.io/github/stars/bitronix/btm?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/bitronix/btm?style=flat-square&label=)
@@ -429,6 +452,7 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
 
 _Tools that handle the distribution of applications in native formats._
 
+| | | | |
 |---|---|---|---|
 | [Artipie](https://github.com/artipie/artipie) | Binary artifact management toolkit which hosts them on the file system or S3. | ![](https://img.shields.io/github/stars/artipie/artipie?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/artipie/artipie?style=flat-square&label=)
 | [Capsule](https://github.com/puniverse/capsule) | Simple and powerful packaging and deployment. A fat JAR on steroids, or a "Docker for Java" that supports JVM-optimized containers. | ![](https://img.shields.io/github/stars/puniverse/capsule?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/puniverse/capsule?style=flat-square&label=)
@@ -445,6 +469,7 @@ _Tools that handle the distribution of applications in native formats._
 
 _Libraries that assist with processing office document formats._
 
+| | | | |
 |---|---|---|---|
 | [Apache POI](https://poi.apache.org) | Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT). | - | - |
 | [documents4j](https://documents4j.com/#/) | API for document format conversion using third-party converters such as MS Word. | - | - |
@@ -456,6 +481,7 @@ _Libraries that assist with processing office document formats._
 
 _Libraries related to the financial domain._
 
+| | | | |
 |---|---|---|---|
 | [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot) | Trading bot framework. | ![](https://img.shields.io/github/stars/cassandre-tech/cassandre-trading-bot?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/cassandre-tech/cassandre-trading-bot?style=flat-square&label=)
 | [Parity](https://github.com/paritytrading/parity) | Platform for trading venues. | ![](https://img.shields.io/github/stars/paritytrading/parity?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/paritytrading/parity?style=flat-square&label=)
@@ -468,6 +494,7 @@ _Libraries related to the financial domain._
 
 _Formal-methods tools: proof assistants, model checking, symbolic execution, etc._
 
+| | | | |
 |---|---|---|---|
 | [CATG](https://github.com/ksen007/janala2) | Concolic unit testing engine. Automatically generates unit tests using formal methods. | ![](https://img.shields.io/github/stars/ksen007/janala2?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/ksen007/janala2?style=flat-square&label=)
 | [Checker Framework](https://checkerframework.org) | Pluggable type systems. Includes nullness types, physical units, immutability types and more. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
@@ -481,6 +508,7 @@ _Formal-methods tools: proof assistants, model checking, symbolic execution, etc
 
 _Libraries that facilitate functional programming._
 
+| | | | |
 |---|---|---|---|
 | [Cyclops](https://github.com/aol/cyclops) | Monad and stream utilities, comprehensions, pattern matching, functional extensions for all JDK collections, future streams, trampolines and much more. | ![](https://img.shields.io/github/stars/aol/cyclops?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/aol/cyclops?style=flat-square&label=)
 | [derive4j](https://github.com/derive4j/derive4j) | Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching and morphisms. (GPL-3.0-only) | ![](https://img.shields.io/github/stars/derive4j/derive4j?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/derive4j/derive4j?style=flat-square&label=)
@@ -496,6 +524,7 @@ _Libraries that facilitate functional programming._
 
 _Frameworks that support the development of games._
 
+| | | | |
 |---|---|---|---|
 | [FXGL](https://almasb.github.io/FXGL/) | JavaFX Game Development Framework. | - | - |
 | [JBox2D](http://www.jbox2d.org/) | Port of the renowned C++ 2D physics engine. | - | - |
@@ -511,6 +540,7 @@ _Frameworks that support the development of games._
 
 _Libraries for working with geospatial data and algorithms._
 
+| | | | |
 |---|---|---|---|
 | [Apache SIS](https://sis.apache.org) | Library for developing geospatial applications. | - | - |
 | [Geo](https://github.com/davidmoten/geo) | GeoHash utilities in Java. | ![](https://img.shields.io/github/stars/davidmoten/geo?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/davidmoten/geo?style=flat-square&label=)
@@ -525,6 +555,7 @@ _Libraries for working with geospatial data and algorithms._
 
 _Libraries to create modern graphical user interfaces._
 
+| | | | |
 |---|---|---|---|
 | [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main) | Successor of Swing. | - | - |
 | [Scene Builder](https://gluonhq.com/products/scene-builder/) | Visual layout tool for JavaFX applications. | - | - |
@@ -535,6 +566,7 @@ _Libraries to create modern graphical user interfaces._
 
 _Everything about high-performance computation, from collections to specific libraries._
 
+| | | | |
 |---|---|---|---|
 | [Agrona](https://github.com/real-logic/Agrona) | Data structures and utility methods that are common in high-performance applications. | ![](https://img.shields.io/github/stars/real-logic/Agrona?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/real-logic/Agrona?style=flat-square&label=)
 | [Disruptor](https://lmax-exchange.github.io/disruptor/) | Inter-thread messaging library. | - | - |
@@ -548,6 +580,7 @@ _Everything about high-performance computation, from collections to specific lib
 
 _Libraries that assist with creating HTTP requests and/or binding responses._
 
+| | | | |
 |---|---|---|---|
 | [Apache HttpComponents](https://hc.apache.org/) | Toolset of low-level Java components focused on HTTP and associated protocols. | - | - |
 | [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) | Asynchronous HTTP and WebSocket client library. | ![](https://img.shields.io/github/stars/AsyncHttpClient/async-http-client?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/AsyncHttpClient/async-http-client?style=flat-square&label=)
@@ -564,6 +597,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 
 _Libraries that handle serialization to hypermedia types._
 
+| | | | |
 |---|---|---|---|
 | [hate](https://github.com/blackdoor/hate) | Builds hypermedia-friendly objects according to HAL specification. | ![](https://img.shields.io/github/stars/blackdoor/hate?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/blackdoor/hate?style=flat-square&label=)
 | [JSON-LD](https://github.com/jsonld-java/jsonld-java) | JSON-LD implementation. | ![](https://img.shields.io/github/stars/jsonld-java/jsonld-java?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/jsonld-java/jsonld-java?style=flat-square&label=)
@@ -574,6 +608,7 @@ _Libraries that handle serialization to hypermedia types._
 
 _Integrated development environments that try to simplify several aspects of development._
 
+| | | | |
 |---|---|---|---|
 | [Eclipse](https://www.eclipse.org) | Established open-source project with support for lots of plugins and languages. | - | - |
 | [jGRASP](https://www.jgrasp.org) | Created to provide software visualizations that work in conjunction with the debugger such as Control Structure Diagrams, UML class diagrams and Object Viewer. | - | - |
@@ -585,6 +620,7 @@ _Integrated development environments that try to simplify several aspects of dev
 
 _Libraries that assist with the creation, evaluation or manipulation of graphical images._
 
+| | | | |
 |---|---|---|---|
 | [Barcode-Lib4J](https://github.com/vws-java/Barcode-Lib4J) | Generates QR Code, DataMatrix, and other 1D/2D barcodes as vector (PDF, EPS, SVG) and raster (PNG, BMP, JPG) images with DPI awareness, high precision, and CMYK color model support. | ![](https://img.shields.io/github/stars/vws-java/Barcode-Lib4J?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/vws-java/Barcode-Lib4J?style=flat-square&label=)
 | [Imgscalr](https://github.com/rkalla/imgscalr) | Simple, efficient and hardware-accelerated image-scaling library implemented in pure Java 2D. | ![](https://img.shields.io/github/stars/rkalla/imgscalr?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/rkalla/imgscalr?style=flat-square&label=)
@@ -600,6 +636,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
 
 _Libraries that help make the Java introspection and reflection API easier and faster to use._
 
+| | | | |
 |---|---|---|---|
 | [ClassGraph](https://github.com/classgraph/classgraph) | ClassGraph (formerly FastClasspathScanner) is an uber-fast, ultra-lightweight, parallelized classpath scanner and module scanner for Java, Scala, Kotlin and other JVM languages. | ![](https://img.shields.io/github/stars/classgraph/classgraph?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/classgraph/classgraph?style=flat-square&label=)
 | [jOOR](https://github.com/jOOQ/jOOR) | jOOR stands for jOOR Object Oriented Reflection. It is a simple wrapper for the java.lang.reflect package. | ![](https://img.shields.io/github/stars/jOOQ/jOOR?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/jOOQ/jOOR?style=flat-square&label=)
@@ -612,6 +649,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
 
 _Libraries for scheduling background jobs._
 
+| | | | |
 |---|---|---|---|
 | [JobRunr](https://github.com/jobrunr/jobrunr) | Job scheduling library which utilizes lambdas for fire-and-forget, delayed and recurring jobs. Guarantees execution by single scheduler instance using optimistic locking. Has features for persistence, minimal dependencies and is embeddable. | ![](https://img.shields.io/github/stars/jobrunr/jobrunr?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/jobrunr/jobrunr?style=flat-square&label=)
 | [Quartz](https://github.com/quartz-scheduler/quartz) | Feature-rich, open source job scheduling library that can be integrated within virtually any Java application. | ![](https://img.shields.io/github/stars/quartz-scheduler/quartz?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/quartz-scheduler/quartz?style=flat-square&label=)
@@ -625,6 +663,7 @@ _Libraries for scheduling background jobs._
 
 _Libraries for serializing and deserializing JSON to and from Java objects._
 
+| | | | |
 |---|---|---|---|
 | [Avaje Jsonb](https://avaje.io/jsonb/) | Reflection-free Json binding via source code generation with Jackson-like annotations. | - | - |
 | [DSL-JSON](https://github.com/ngs-doo/dsl-json) | JSON library with advanced compile time databinding. | ![](https://img.shields.io/github/stars/ngs-doo/dsl-json?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/ngs-doo/dsl-json?style=flat-square&label=)
@@ -648,6 +687,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
 
 _Current implementations of the JVM/JDK._
 
+| | | | |
 |---|---|---|---|
 | [Which JDK](https://whichjdk.com/) | Overview of common JVMs with pros and cons. | - | - |
 | [Adopt Open JDK](https://adoptopenjdk.net) | Community-driven OpenJDK builds, including both HotSpot and OpenJ9. | - | - |
@@ -667,6 +707,7 @@ _Current implementations of the JVM/JDK._
 
 _Libraries that log the behavior of an application._
 
+| | | | |
 |---|---|---|---|
 | [Apache Log4j 2](https://logging.apache.org/log4j/) | Complete rewrite with a powerful plugin and configuration architecture. | - | - |
 | [Echopraxia](https://github.com/tersesystems/echopraxia) | API designed around structured logging, rich context, and conditional logging. There are Logback and Log4J2 implementations, but Echopraxia's API is completely dependency-free, meaning it can be implemented with any logging API. | ![](https://img.shields.io/github/stars/tersesystems/echopraxia?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/tersesystems/echopraxia?style=flat-square&label=)
@@ -685,6 +726,7 @@ _Libraries that log the behavior of an application._
 
 _Tools that provide specific statistical algorithms for learning from data._
 
+| | | | |
 |---|---|---|---|
 | [Apache Flink](https://flink.apache.org) | Fast, reliable, large-scale data processing engine. | - | - |
 | [Apache Mahout](https://mahout.apache.org) | Scalable algorithms focused on collaborative filtering, clustering and classification. | - | - |
@@ -706,6 +748,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 
 _Tools that help send messages between clients to ensure protocol independency._
 
+| | | | |
 |---|---|---|---|
 | [Aeron](https://github.com/real-logic/Aeron) | Efficient, reliable, unicast and multicast message transport. | ![](https://img.shields.io/github/stars/real-logic/Aeron?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/real-logic/Aeron?style=flat-square&label=)
 | [Apache ActiveMQ](https://activemq.apache.org) | Message broker that implements JMS and converts synchronous to asynchronous communication. | - | - |
@@ -728,6 +771,7 @@ _Tools that help send messages between clients to ensure protocol independency._
 
 _Tools for creating and managing microservices._
 
+| | | | |
 |---|---|---|---|
 | [ActiveRPC](https://rpc.activej.io) | Lightweight and fast library for complex high-load distributed applications and Memcached-like solutions. | - | - |
 | [Armeria](https://github.com/line/armeria) | Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC. | ![](https://img.shields.io/github/stars/line/armeria?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/line/armeria?style=flat-square&label=)
@@ -747,6 +791,7 @@ _Tools for creating and managing microservices._
 
 _Everything else._
 
+| | | | |
 |---|---|---|---|
 | [CQEngine](https://github.com/npgall/cqengine) | Ultra-fast, SQL-like queries on Java collections. | ![](https://img.shields.io/github/stars/npgall/cqengine?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/npgall/cqengine?style=flat-square&label=)
 | [Design Patterns](https://github.com/iluwatar/java-design-patterns) | Implementation and explanation of the most common design patterns. | ![](https://img.shields.io/github/stars/iluwatar/java-design-patterns?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/iluwatar/java-design-patterns?style=flat-square&label=)
@@ -789,6 +834,7 @@ _Everything else._
 
 _Tools for creating or managing mobile applications._
 
+| | | | |
 |---|---|---|---|
 | [Codename One](https://www.codenameone.com) | Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
 | [MobileUI](https://mobileui.dev) | Cross-platform framework for developing mobile apps with native UI in Java and Kotlin. | - | - |
@@ -798,6 +844,7 @@ _Tools for creating or managing mobile applications._
 
 _Tools that observe/monitor applications in production by providing telemetry._
 
+| | | | |
 |---|---|---|---|
 | [Apitally](https://github.com/apitally/apitally-java) | Simple, privacy-focused API monitoring, analytics and request logging for Spring Boot apps. | ![](https://img.shields.io/github/stars/apitally/apitally-java?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/apitally/apitally-java?style=flat-square&label=)
 | [Automon](https://github.com/stevensouza/automon) | Combines the power of AOP with monitoring and/or logging tools. | ![](https://img.shields.io/github/stars/stevensouza/automon?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/stevensouza/automon?style=flat-square&label=)
@@ -825,6 +872,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
 
 _For working with platform-specific native libraries._
 
+| | | | |
 |---|---|---|---|
 | [Aparapi](https://github.com/Syncleus/aparapi) | Converts bytecode to OpenCL which allows execution on GPUs. | ![](https://img.shields.io/github/stars/Syncleus/aparapi?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/Syncleus/aparapi?style=flat-square&label=)
 | [JavaCPP](https://github.com/bytedeco/javacpp) | Provides efficient and easy access to native C++. | ![](https://img.shields.io/github/stars/bytedeco/javacpp?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/bytedeco/javacpp?style=flat-square&label=)
@@ -836,6 +884,7 @@ _For working with platform-specific native libraries._
 
 _Libraries that specialize in processing text._
 
+| | | | |
 |---|---|---|---|
 | [CogCompNLP](https://github.com/CogComp/cogcomp-nlp) | Provides common annotators for plain text input. (Research and Academic Use License) | ![](https://img.shields.io/github/stars/CogComp/cogcomp-nlp?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/CogComp/cogcomp-nlp?style=flat-square&label=)
 | [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) | Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. (GPL-3.0-or-later) | - | - |
@@ -847,6 +896,7 @@ _Libraries that specialize in processing text._
 
 _Libraries for building network servers._
 
+| | | | |
 |---|---|---|---|
 | [Commons-networking](https://github.com/CiscoSE/commons-networking) | Client for server-sent events (SSE). | ![](https://img.shields.io/github/stars/CiscoSE/commons-networking?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/CiscoSE/commons-networking?style=flat-square&label=)
 | [Comsat](https://github.com/puniverse/comsat) | Integrates standard Java web-related APIs with Quasar fibers and actors. | ![](https://img.shields.io/github/stars/puniverse/comsat?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/puniverse/comsat?style=flat-square&label=)
@@ -868,6 +918,7 @@ _Libraries for building network servers._
 
 _APIs that handle the persistence of objects._
 
+| | | | |
 |---|---|---|---|
 | [Apache Cayenne](https://cayenne.apache.org) | Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation. | - | - |
 | [Doma](https://github.com/domaframework/doma) | Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL. | ![](https://img.shields.io/github/stars/domaframework/doma?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/domaframework/doma?style=flat-square&label=)
@@ -888,6 +939,7 @@ _Java platform as a service._
 
 _Algorithms and libraries for finding routes in graphs and spatial environments._
 
+| | | | |
 |---|---|---|---|
 | [Pathetic](https://github.com/bsommerfeld/pathetic) | A highly configurable 3D A* pathfinding library that uses specific optimizations for high performance. | ![](https://img.shields.io/github/stars/bsommerfeld/pathetic?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/bsommerfeld/pathetic?style=flat-square&label=)
 
@@ -895,6 +947,7 @@ _Algorithms and libraries for finding routes in graphs and spatial environments.
 
 _Tools to help with PDF files._
 
+| | | | |
 |---|---|---|---|
 | [Apache FOP](https://xmlgraphics.apache.org/fop/) | Creates PDFs from XSL-FO. | - | - |
 | [Apache PDFBox](https://pdfbox.apache.org) | Toolbox for creating and manipulating PDFs. | - | - |
@@ -911,6 +964,7 @@ _Tools to help with PDF files._
 
 _Tools for performance analysis, profiling and benchmarking._
 
+| | | | |
 |---|---|---|---|
 | [honest-profiler](https://github.com/jvm-profiling-tools/honest-profiler) | Low-overhead, bias-free sampling profiler. | ![](https://img.shields.io/github/stars/jvm-profiling-tools/honest-profiler?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/jvm-profiling-tools/honest-profiler?style=flat-square&label=)
 | [jHiccup](https://github.com/giltene/jHiccup) | Logs and records platform JVM stalls. | ![](https://img.shields.io/github/stars/giltene/jHiccup?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/giltene/jHiccup?style=flat-square&label=)
@@ -924,6 +978,7 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 
 #### Apache Commons
 #### Other
+| | | | |
 |---|---|---|---|
 | [BCEL](http://commons.apache.org/proper/commons-bcel/) | Byte Code Engineering Library - analyze, create, and manipulate Java class files. | - | - |
 | [BeanUtils](http://commons.apache.org/proper/commons-beanutils/) | Easy-to-use wrappers around the Java reflection and introspection APIs. | - | - |
@@ -988,6 +1043,7 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 
 _Libraries that help the management of operating system processes._
 
+| | | | |
 |---|---|---|---|
 | [ch.vorburger.exec](https://github.com/vorburger/ch.vorburger.exec) | Convenient API around Apache Commons Exec. | ![](https://img.shields.io/github/stars/vorburger/ch.vorburger.exec?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/vorburger/ch.vorburger.exec?style=flat-square&label=)
 | [zt-exec](https://github.com/zeroturnaround/zt-exec) | Provides a unified API to Apache Commons Exec and ProcessBuilder. | ![](https://img.shields.io/github/stars/zeroturnaround/zt-exec?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/zeroturnaround/zt-exec?style=flat-square&label=)
@@ -997,6 +1053,7 @@ _Libraries that help the management of operating system processes._
 
 _Libraries for developing reactive applications._
 
+| | | | |
 |---|---|---|---|
 | [Akka](https://akka.io) | Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications. | - | - |
 | [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm) | Provides a standard for asynchronous stream processing with non-blocking backpressure. | ![](https://img.shields.io/github/stars/reactive-streams/reactive-streams-jvm?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/reactive-streams/reactive-streams-jvm?style=flat-square&label=)
@@ -1008,6 +1065,7 @@ _Libraries for developing reactive applications._
 
 _Frameworks specifically for creating RESTful services._
 
+| | | | |
 |---|---|---|---|
 | [Dropwizard](https://github.com/dropwizard/dropwizard) | Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics. | ![](https://img.shields.io/github/stars/dropwizard/dropwizard?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/dropwizard/dropwizard?style=flat-square&label=)
 | [Elide](https://elide.io) | Opinionated framework for JSON- or GraphQL-APIs based on a JPA data model. | - | - |
@@ -1027,6 +1085,7 @@ _Frameworks specifically for creating RESTful services._
 
 _Libraries for scientific computing, analysis and visualization._
 
+| | | | |
 |---|---|---|---|
 | [BioJava](https://biojava.org/) | Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics. | - | - |
 | [Chart-FX](https://github.com/GSI-CS-CO/chart-fx) | Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets. | ![](https://img.shields.io/github/stars/GSI-CS-CO/chart-fx?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/GSI-CS-CO/chart-fx?style=flat-square&label=)
@@ -1048,6 +1107,7 @@ _Libraries for scientific computing, analysis and visualization._
 
 _Engines that index documents for search and analysis._
 
+| | | | |
 |---|---|---|---|
 | [Apache Lucene](https://lucene.apache.org) | High-performance, full-featured, cross-platform, text search engine library. | - | - |
 | [Apache Solr](https://lucene.apache.org/solr/) | Enterprise search engine optimized for high-volume traffic. | - | - |
@@ -1058,6 +1118,7 @@ _Engines that index documents for search and analysis._
 
 _Libraries that handle security, authentication, authorization or session management._
 
+| | | | |
 |---|---|---|---|
 | [Apache Shiro](https://shiro.apache.org) | Performs authentication, authorization, cryptography and session management. | - | - |
 | [Ayza](https://github.com/Hakky54/ayza) | High-level SSL configuration builder for configuring HTTP clients and servers with SSL/TLS. | ![](https://img.shields.io/github/stars/Hakky54/ayza?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/Hakky54/ayza?style=flat-square&label=)
@@ -1087,6 +1148,7 @@ _Libraries that handle security, authentication, authorization or session manage
 
 _Libraries that handle serialization with high efficiency._
 
+| | | | |
 |---|---|---|---|
 | [FlatBuffers](https://github.com/google/flatbuffers) | Memory-efficient serialization library that can access serialized data without unpacking and parsing it. | ![](https://img.shields.io/github/stars/google/flatbuffers?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/google/flatbuffers?style=flat-square&label=)
 | [FST](https://github.com/RuedigerMoeller/fast-serialization) | JDK-compatible, high-performance object graph serialization. | ![](https://img.shields.io/github/stars/RuedigerMoeller/fast-serialization?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/RuedigerMoeller/fast-serialization?style=flat-square&label=)
@@ -1099,6 +1161,7 @@ _Libraries that handle serialization with high efficiency._
 
 _Servers specifically used to deploy applications._
 
+| | | | |
 |---|---|---|---|
 | [Apache Tomcat](https://tomcat.apache.org) | Robust, all-round server for Servlet and JSP. | - | - |
 | [Apache TomEE](https://tomee.apache.org) | Tomcat plus Java EE. | - | - |
@@ -1110,6 +1173,7 @@ _Servers specifically used to deploy applications._
 
 _Tools that substitute expressions in a template._
 
+| | | | |
 |---|---|---|---|
 | [Freemarker](https://freemarker.apache.org) | Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data. | - | - |
 | [Handlebars.java](https://jknack.github.io/handlebars.java/) | Logicless and semantic Mustache templates. | - | - |
@@ -1148,6 +1212,7 @@ _Other stuff related to testing._
 #### Mocking
 _Tools which mock collaborators to help testing single, isolated units._
 
+| | | | |
 |---|---|---|---|
 | [Awaitility](https://github.com/awaitility/awaitility) | DSL for synchronizing asynchronous operations. | ![](https://img.shields.io/github/stars/awaitility/awaitility?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/awaitility/awaitility?style=flat-square&label=)
 | [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) | Toolkit for testing multi-threaded and asynchronous applications. | ![](https://img.shields.io/github/stars/jhalterman/concurrentunit?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/jhalterman/concurrentunit?style=flat-square&label=)
@@ -1213,6 +1278,7 @@ _Tools which mock collaborators to help testing single, isolated units._
 
 _Libraries which provide general utility functions._
 
+| | | | |
 |---|---|---|---|
 | [Arthas](https://github.com/alibaba/arthas) | Allows to troubleshoot production issues for applications without modifying code or restarting servers. | ![](https://img.shields.io/github/stars/alibaba/arthas?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/alibaba/arthas?style=flat-square&label=)
 | [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) | Rate limiting library based on token-bucket algorithm. | ![](https://img.shields.io/github/stars/vladimir-bukhtoyarov/bucket4j?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/vladimir-bukhtoyarov/bucket4j?style=flat-square&label=)
@@ -1240,6 +1306,7 @@ _Libraries which provide general utility functions._
 
 _Utilities that help create the development shell environment and switch between different Java versions._
 
+| | | | |
 |---|---|---|---|
 | [jabba](https://github.com/shyiko/jabba) | Java Version Manager inspired by nvm. Supports macOS, Linux and Windows. | ![](https://img.shields.io/github/stars/shyiko/jabba?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/shyiko/jabba?style=flat-square&label=)
 | [jenv](https://github.com/jenv/jenv) | Java Version Manager inspired by rbenv. Can configure globally or per project. Tested on Debian and macOS. | ![](https://img.shields.io/github/stars/jenv/jenv?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/jenv/jenv?style=flat-square&label=)
@@ -1249,6 +1316,7 @@ _Utilities that help create the development shell environment and switch between
 
 _Libraries that analyze the content of websites._
 
+| | | | |
 |---|---|---|---|
 | [Apache Nutch](https://nutch.apache.org) | Highly extensible, highly scalable web crawler for production environments. | - | - |
 | [Crawler4j](https://github.com/yasserg/crawler4j) | Simple and lightweight web crawler. | ![](https://img.shields.io/github/stars/yasserg/crawler4j?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/yasserg/crawler4j?style=flat-square&label=)
@@ -1260,6 +1328,7 @@ _Libraries that analyze the content of websites._
 
 _Frameworks that handle the communication between the layers of a web application._
 
+| | | | |
 |---|---|---|---|
 | [ActiveJ](https://activej.io) | Lightweight asynchronous framework built from the ground up for developing high-performance web applications. | - | - |
 | [Apache Tapestry](https://tapestry.apache.org) | Component-oriented framework for creating dynamic, robust, highly scalable web applications. | - | - |
@@ -1280,6 +1349,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 
 ### Workflow Orchestration Engines
 
+| | | | |
 |---|---|---|---|
 | [Cadence](https://cadenceworkflow.io) | Stateful code platform from Uber. | - | - |
 | [flowable](https://github.com/flowable/flowable-engine) | Compact and efficient workflow and business process management platform. | ![](https://img.shields.io/github/stars/flowable/flowable-engine?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/flowable/flowable-engine?style=flat-square&label=)
