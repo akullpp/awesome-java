@@ -150,16 +150,8 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
   var table = new StringBuilder();
   table.append(Constants.SECTION_COMMENT_PREFIX).append(sectionName).append(" -->\n\n");
   table.append("### ").append(sectionName).append("\n\n");
-  table.append("<table style=\"table-layout: fixed !important; width: 795px !important; border-collapse: collapse; min-width: 795px !important; max-width: 795px !important; font-size: 14px;\">\n");
-  table.append("<thead>\n");
-  table.append("<tr>\n");
-  table.append("<th style=\"width: 200px !important; min-width: 200px !important; max-width: 200px !important;\">Name</th>\n");
-  table.append("<th style=\"width: 400px !important; min-width: 400px !important; max-width: 400px !important;\">Description</th>\n");
-  table.append("<th style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; height: auto;\">Stars</th>\n");
-  table.append("<th style=\"width: 70px !important; min-width: 70px !important; max-width: 70px !important; height: auto;\">Updated</th>\n");
-  table.append("</tr>\n");
-  table.append("</thead>\n");
-  table.append("<tbody>\n");
+  table.append("| Name | Description | Stars | Updated |\n");
+  table.append("| :--- | :---------- | :---: | :-----: |\n");
 
   for (var entry : entries) {
     var desc = entry.description().isEmpty() ? Constants.NO_DESCRIPTION : entry.description();
@@ -167,19 +159,10 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
     var stars = badge != null ? badge.starsBadge() : Constants.NO_BADGE;
     var commit = badge != null ? badge.lastCommitBadge() : Constants.NO_BADGE;
 
-    table.append("<tr>\n");
-    table.append("<td style=\"width: 200px !important; min-width: 200px !important; max-width: 200px !important; overflow: hidden;\"><a href=\"").append(entry.url()).append("\">").append(entry.name()).append("</a></td>\n");
-    table.append("<td style=\"width: 400px !important; min-width: 400px !important; max-width: 400px !important; overflow: hidden;\">").append(desc).append("</td>\n");
-    table.append("<td style=\"width: 125px !important; min-width: 125px !important; max-width: 125px !important; text-align: center; height: auto; vertical-align: middle;\">").append(stars).append("</td>\n");
-    table.append("<td style=\"width: 70px !important; min-width: 70px !important; max-width: 70px !important; text-align: center; height: auto; vertical-align: middle;\">").append(commit).append("</td>\n");
-    table.append("</tr>\n");
+    table.append("| [").append(entry.name()).append("](").append(entry.url()).append(") | ").append(desc).append(" | ").append(stars).append(" | ").append(commit).append(" |\n");
   }
 
-  table.append("""
-</tbody>
-</table>
-
-""");
+  table.append("\n");
   return table.toString();
 }
 

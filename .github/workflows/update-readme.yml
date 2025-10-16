@@ -1,17 +1,18 @@
 name: Update README from CONTRIBUTE_README
 
-on:
-  push:
-    branches: [master]
-    paths:
-      - "CONTRIBUTE_README.md"
-      - "scripts/*.java"
-  pull_request:
-    branches: [master]
-    paths:
-      - "CONTRIBUTE_README.md"
-      - "scripts/*.java"
-  workflow_dispatch:
+# Workflow disabled
+# on:
+#   push:
+#     branches: [master]
+#     paths:
+#       - "CONTRIBUTE_README.md"
+#       - "scripts/*.java"
+#   pull_request:
+#     branches: [master]
+#     paths:
+#       - "CONTRIBUTE_README.md"
+#       - "scripts/*.java"
+#   workflow_dispatch:
 
 jobs:
   update-readme:
