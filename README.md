@@ -24,6 +24,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Data Structures](#data-structures)
   - [Database](#database)
   - [Date and Time](#date-and-time)
+  - [Decentralization](#decentraliation)
   - [Dependency Injection](#dependency-injection)
   - [Development](#development)
   - [Distributed Applications](#distributed-applications)
@@ -345,6 +346,12 @@ _Libraries related to handling date and time._
 - [Jollyday](https://github.com/svendiedrichsen/jollyday) - Determines the holidays for a given year, country/name and eventually state/region.
 - [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra) - Additional date-time classes that complement those in JDK 8.
 - [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library. (LGPL-2.1-only)
+
+### Decentralization
+
+_Libraries that handle decentralization tasks._
+
+- [java-tron](https://github.com/tronprotocol/java-tron) Implementation of the Tron Protocol, whic utilizes blockchains to develop decentralized applications.
 
 ### Dependency Injection
 
