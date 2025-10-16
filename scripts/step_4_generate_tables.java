@@ -147,14 +147,19 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
     return "";
   }
   var sectionName = entries.get(0).section();
-  var table = new StringBuilder("""
-%s%s -->
-
-### %s
-
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-""".formatted(Constants.SECTION_COMMENT_PREFIX, sectionName, sectionName));
+  var table = new StringBuilder();
+  table.append(Constants.SECTION_COMMENT_PREFIX).append(sectionName).append(" -->\n\n");
+  table.append("### ").append(sectionName).append("\n\n");
+  table.append("<table>\n");
+  table.append("<thead>\n");
+  table.append("<tr>\n");
+  table.append("<th style=\"width: 25%;\">Name</th>\n");
+  table.append("<th style=\"width: 50%;\">Description</th>\n");
+  table.append("<th style=\"width: 125px;\">Stars</th>\n");
+  table.append("<th style=\"width: 125px;\">Updated</th>\n");
+  table.append("</tr>\n");
+  table.append("</thead>\n");
+  table.append("<tbody>\n");
 
   for (var entry : entries) {
     var desc = entry.description().isEmpty() ? Constants.NO_DESCRIPTION : entry.description();
@@ -162,12 +167,19 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
     var stars = badge != null ? badge.starsBadge() : Constants.NO_BADGE;
     var commit = badge != null ? badge.lastCommitBadge() : Constants.NO_BADGE;
 
-    table.append("| [%s](%s) | %s | %s | %s |\n".formatted(
-      entry.name(), entry.url(), desc, stars, commit
-    ));
+    table.append("<tr>\n");
+    table.append("<td><a href=\"").append(entry.url()).append("\">").append(entry.name()).append("</a></td>\n");
+    table.append("<td>").append(desc).append("</td>\n");
+    table.append("<td>").append(stars).append("</td>\n");
+    table.append("<td>").append(commit).append("</td>\n");
+    table.append("</tr>\n");
   }
 
-  table.append("\n");
+  table.append("""
+</tbody>
+</table>
+
+""");
   return table.toString();
 }
 

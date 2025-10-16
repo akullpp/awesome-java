@@ -182,24 +182,20 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
       continue;
     }
 
-    // Track table boundaries - look for Markdown table headers
-    if (line.startsWith("|") && line.contains("| Name |")) {
+    // Track table boundaries - look for HTML table tags
+    if (line.contains("<table>")) {
       inTable = true;
       tableSection = currentSection;
       continue;
     }
-    if (inTable && line.startsWith("|") && line.contains("| :--- |")) {
-      // Skip the separator row
-      continue;
-    }
-    if (inTable && !line.startsWith("|") && !line.trim().isEmpty()) {
+    if (line.contains("</table>")) {
       inTable = false;
       continue;
     }
 
-    // Extract entries from Markdown table rows
-    if (inTable && line.startsWith("|") && !line.contains("| Name |") && !line.contains("| :--- |")) {
-      var entry = extractEntryFromMarkdownTableRow(line, tableSection);
+    // Extract entries from HTML table rows
+    if (inTable && line.contains("<tr>")) {
+      var entry = extractEntryFromTableRow(lines, i, tableSection);
       if (entry != null) {
         entries.add(entry);
       }
