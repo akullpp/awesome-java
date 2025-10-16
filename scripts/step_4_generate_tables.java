@@ -150,11 +150,11 @@ String createHtmlTable(List<ProjectEntry> entries, Map<String, BadgeMapping> bad
   var table = new StringBuilder();
   table.append(Constants.SECTION_COMMENT_PREFIX).append(sectionName).append(" -->\n\n");
   table.append("### ").append(sectionName).append("\n\n");
-  table.append("<table>\n");
+  table.append("<table style=\"table-layout: fixed; width: 850px;\">\n");
   table.append("<thead>\n");
   table.append("<tr>\n");
-  table.append("<th style=\"width: 25%;\">Name</th>\n");
-  table.append("<th style=\"width: 50%;\">Description</th>\n");
+  table.append("<th style=\"width: 200px;\">Name</th>\n");
+  table.append("<th style=\"width: 400px;\">Description</th>\n");
   table.append("<th style=\"width: 125px;\">Stars</th>\n");
   table.append("<th style=\"width: 125px;\">Updated</th>\n");
   table.append("</tr>\n");

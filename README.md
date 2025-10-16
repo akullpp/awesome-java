@@ -96,11 +96,11 @@ _Frameworks and libraries that help implementing and verifying design and archit
 
 ### Architecture
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -131,11 +131,11 @@ _Frameworks that help you to leverage LLMs and AI._
 
 ### Artificial Intelligence
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -178,11 +178,11 @@ _Frameworks that ease bean mapping._
 
 ### Bean Mapping
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -243,11 +243,11 @@ _Tools that handle the build cycle and dependencies of an application._
 
 ### Build
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -290,11 +290,11 @@ _Libraries to manipulate bytecode programmatically._
 
 ### Bytecode Manipulation
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -373,11 +373,11 @@ _Libraries that provide caching facilities._
 
 ### Caching
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -424,11 +424,11 @@ _Libraries to assist with parsing command line arguments._
 
 ### CLI > Argument Parsing
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -477,11 +477,11 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 
 ### CLI > Text-Based User Interfaces
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -524,11 +524,11 @@ _Libraries to integrate or use cloud-specific features._
 
 ### Cloud
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -559,11 +559,11 @@ _Tools that provide metrics and quality measurements._
 
 ### Code Analysis
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -654,11 +654,11 @@ _Frameworks and tools that enable code coverage metrics collection for test suit
 
 ### Code Coverage
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -695,11 +695,11 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 
 ### Code Generators
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -802,11 +802,11 @@ _Frameworks that help to create parsers, interpreters or compilers._
 
 ### Compiler-compiler
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -843,11 +843,11 @@ _Libraries which seek to gain high level information from images and videos._
 
 ### Computer Vision
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -884,11 +884,11 @@ _Libraries that provide external configuration._
 
 ### Configuration
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -979,11 +979,11 @@ _Libraries that help with implementing optimization and satisfiability problems.
 
 ### Constraint Satisfaction Problem Solver
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1026,11 +1026,11 @@ _Frameworks and libraries that simplify reading/writing CSV data._
 
 ### CSV
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1079,11 +1079,11 @@ _Efficient and specific data structures._
 
 ### Data Structures
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1174,11 +1174,11 @@ _Everything that simplifies interactions with the database._
 
 ### Database
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1425,11 +1425,11 @@ _Libraries related to handling date and time._
 
 ### Date and Time
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1472,11 +1472,11 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
 
 ### Dependency Injection
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1543,11 +1543,11 @@ _Augmentation of the development process at a fundamental level._
 
 ### Development
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1626,11 +1626,11 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
 
 ### Distributed Applications
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1733,11 +1733,11 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
 
 ### Distributed Transactions
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1780,11 +1780,11 @@ _Tools that handle the distribution of applications in native formats._
 
 ### Distribution
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1863,11 +1863,11 @@ _Libraries that assist with processing office document formats._
 
 ### Document Processing
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1916,11 +1916,11 @@ _Libraries related to the financial domain._
 
 ### Financial
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -1975,11 +1975,11 @@ _Formal-methods tools: proof assistants, model checking, symbolic execution, etc
 
 ### Formal Verification
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2040,11 +2040,11 @@ _Libraries that facilitate functional programming._
 
 ### Functional Programming
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2117,11 +2117,11 @@ _Frameworks that support the development of games._
 
 ### Game Development
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2194,11 +2194,11 @@ _Libraries for working with geospatial data and algorithms._
 
 ### Geospatial
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2265,11 +2265,11 @@ _Libraries to create modern graphical user interfaces._
 
 ### GUI
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2312,11 +2312,11 @@ _Everything about high-performance computation, from collections to specific lib
 
 ### High Performance
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2377,11 +2377,11 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 
 ### HTTP Clients
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2460,11 +2460,11 @@ _Libraries that handle serialization to hypermedia types._
 
 ### Hypermedia Types
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2507,11 +2507,11 @@ _Integrated development environments that try to simplify several aspects of dev
 
 ### IDE
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2560,11 +2560,11 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
 
 ### Imagery
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2637,11 +2637,11 @@ _Libraries that help make the Java introspection and reflection API easier and f
 
 ### Introspection
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2696,11 +2696,11 @@ _Libraries for scheduling background jobs._
 
 ### Job Scheduling
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2761,11 +2761,11 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
 
 ### JSON
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2886,11 +2886,11 @@ _Current implementations of the JVM/JDK._
 
 ### JVM and JDK
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -2987,11 +2987,11 @@ _Libraries that log the behavior of an application._
 
 ### Logging
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3082,11 +3082,11 @@ _Tools that provide specific statistical algorithms for learning from data._
 
 ### Machine Learning
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3195,11 +3195,11 @@ _Tools that help send messages between clients to ensure protocol independency._
 
 ### Messaging
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3314,11 +3314,11 @@ _Tools for creating and managing microservices._
 
 ### Microservice
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3415,11 +3415,11 @@ _Everything else._
 
 ### Miscellaneous
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3654,11 +3654,11 @@ _Tools for creating or managing mobile applications._
 
 ### Mobile Development
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3695,11 +3695,11 @@ _Tools that observe/monitor applications in production by providing telemetry._
 
 ### Monitoring
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3844,11 +3844,11 @@ _For working with platform-specific native libraries._
 
 ### Native
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3897,11 +3897,11 @@ _Libraries that specialize in processing text._
 
 ### Natural Language Processing
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -3950,11 +3950,11 @@ _Libraries for building network servers._
 
 ### Networking
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4063,11 +4063,11 @@ _APIs that handle the persistence of objects._
 
 ### ORM
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4150,11 +4150,11 @@ _Algorithms and libraries for finding routes in graphs and spatial environments.
 
 ### Pathfinding
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4179,11 +4179,11 @@ _Tools to help with PDF files._
 
 ### PDF
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4262,11 +4262,11 @@ _Tools for performance analysis, profiling and benchmarking._
 
 ### Performance analysis
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4317,11 +4317,11 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 
 ### Platform > Apache Commons
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4662,11 +4662,11 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 
 ### Platform > Other
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4709,11 +4709,11 @@ _Libraries that help the management of operating system processes._
 
 ### Processes
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4750,11 +4750,11 @@ _Libraries for developing reactive applications._
 
 ### Reactive libraries
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4803,11 +4803,11 @@ _Frameworks specifically for creating RESTful services._
 
 ### REST Frameworks
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -4904,11 +4904,11 @@ _Libraries for scientific computing, analysis and visualization._
 
 ### Science
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5017,11 +5017,11 @@ _Engines that index documents for search and analysis._
 
 ### Search
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5064,11 +5064,11 @@ _Libraries that handle security, authentication, authorization or session manage
 
 ### Security
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5225,11 +5225,11 @@ _Libraries that handle serialization with high efficiency._
 
 ### Serialization
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5284,11 +5284,11 @@ _Servers specifically used to deploy applications._
 
 ### Server
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5337,11 +5337,11 @@ _Tools that substitute expressions in a template._
 
 ### Template Engine
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5430,11 +5430,11 @@ _Tools that simplify testing asynchronous services._
 
 ### Testing > Asynchronous
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5495,11 +5495,11 @@ _Testing for the software development process that emerged from TDD and was heav
 
 ### Testing > BDD
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5560,11 +5560,11 @@ _Everything related to the creation and handling of random data._
 
 ### Testing > Fixtures
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5643,11 +5643,11 @@ _Provide environments to run tests for a specific use case._
 
 ### Testing > Frameworks
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5732,11 +5732,11 @@ _Libraries that provide custom matchers._
 
 ### Testing > Matchers
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5791,11 +5791,11 @@ _Other stuff related to testing._
 
 ### Testing > Miscellaneous
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5880,11 +5880,11 @@ _Tools which mock collaborators to help testing single, isolated units._
 
 ### Testing > Mocking
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -5945,11 +5945,11 @@ _Libraries which provide general utility functions._
 
 ### Utility
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -6094,11 +6094,11 @@ _Utilities that help create the development shell environment and switch between
 
 ### Version Managers
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -6135,11 +6135,11 @@ _Libraries that analyze the content of websites._
 
 ### Web Crawling
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -6188,11 +6188,11 @@ _Frameworks that handle the communication between the layers of a web applicatio
 
 ### Web Frameworks
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>
@@ -6307,11 +6307,11 @@ _Platforms and frameworks for orchestrating workflows and business processes._
 
 ### Workflow Orchestration Engines
 
-<table>
+<table style="table-layout: fixed; width: 850px;">
 <thead>
 <tr>
-<th style="width: 25%;">Name</th>
-<th style="width: 50%;">Description</th>
+<th style="width: 200px;">Name</th>
+<th style="width: 400px;">Description</th>
 <th style="width: 125px;">Stars</th>
 <th style="width: 125px;">Updated</th>
 </tr>

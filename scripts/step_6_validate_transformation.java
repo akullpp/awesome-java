@@ -183,7 +183,7 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
     }
 
     // Track table boundaries - look for HTML table tags
-    if (line.contains("<table>")) {
+    if (line.contains("<table")) {
       inTable = true;
       tableSection = currentSection;
       continue;
@@ -195,6 +195,7 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
 
     // Extract entries from HTML table rows
     if (inTable && line.contains("<tr>")) {
+      // Look ahead to find the complete table row
       var entry = extractEntryFromTableRow(lines, i, tableSection);
       if (entry != null) {
         entries.add(entry);
@@ -225,8 +226,8 @@ ProjectEntry extractEntryFromTableRow(String[] lines, int startIndex, String sec
       }
     }
 
-    // Extract description from the next cell
-    if (line.contains("word-wrap:break-word;")) {
+    // Extract description from the second <td> cell
+    if (line.contains("</td>") && !line.contains("<a href=") && !line.contains("<img src=")) {
       var descMatch = Pattern.compile(">([^<]+)</td>").matcher(line);
       if (descMatch.find()) {
         description = descMatch.group(1).trim();
