@@ -337,6 +337,7 @@ _Everything that simplifies interactions with the database._
 - [Vibur DBCP](https://www.vibur.org) - JDBC connection pool library with advanced performance monitoring capabilities.
 - [Xodus](https://github.com/JetBrains/xodus) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
 - [CosId](https://github.com/Ahoo-Wang/CosId) - Universal, flexible, high-performance distributed ID generator.
+- [Apache ShardingSphere](https://github.com/apache/shardingsphere) - Distributed SQL transaction & query engine that allows for data sharding, scaling, encryption, and more on any database.
 
 ### Date and Time
 
