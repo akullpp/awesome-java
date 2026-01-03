@@ -179,6 +179,7 @@ _Libraries to integrate or use cloud-specific features._
 
 - [AWS SDK for Java](https://github.com/aws/aws-sdk-java) - Provides Java APIs for interacting with Amazon Web Services.
 - [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java) - Client libraries for accessing Google Cloud services from Java applications.
+- [Vedika API](https://vedika.io) - REST API for Vedic astrology with AI-powered chatbot, 108+ endpoints for Java and Spring Boot applications.
 
 ### Code Analysis
 
