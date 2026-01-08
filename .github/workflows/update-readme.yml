@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 name: Update README from CONTRIBUTE_README
 
 # Workflow disabled
@@ -109,3 +110,66 @@ jobs:
           echo "- **Lines**: $(wc -l < README.md)" >> $GITHUB_STEP_SUMMARY
           echo "- **Size**: $(du -h README.md | cut -f1)" >> $GITHUB_STEP_SUMMARY
           echo "- **Badges**: $(grep -c 'img.shields.io' README.md)" >> $GITHUB_STEP_SUMMARY
+||||||| Stash base
+=======
+name: Update README
+
+on:
+  schedule:
+    # Run once a week on Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches:
+      - master
+    paths:
+      - 'CONTRIBUTE_README.md'
+      - 'scripts/**'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for git operations
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '25'
+
+      - name: Checkout existing stats cache
+        run: |
+          mkdir -p .tmp
+          # Try to restore stats cache from previous run
+          if git show HEAD:.tmp/github-stats.txt > .tmp/github-stats.txt 2>/dev/null; then
+            echo "Restored existing stats cache from previous commit"
+          else
+            echo "No existing stats cache found, will fetch all data"
+          fi
+
+      - name: Run workflow
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          java --enable-preview --source 25 scripts/run_workflow.java
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          # Always commit the stats cache so it persists for next run
+          git add .tmp/github-stats.txt || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update README with latest GitHub stars and commit dates [skip ci]"
+            git push
+          fi
+
+>>>>>>> Stashed changes
