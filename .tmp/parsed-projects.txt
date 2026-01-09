@@ -1034,6 +1034,13 @@ SKIP:1
 SECTION:Database
 ---
 
+NAME:Apache ShardingSphere
+URL:https://github.com/apache/shardingsphere
+DESC:Distributed SQL transaction & query engine that allows for data sharding, scaling, encryption, and more on any database.
+SKIP:1
+SECTION:Database
+---
+
 NAME:iCal4j
 URL:https://github.com/ical4j/ical4j
 DESC:Parse and build iCalendar [RFC 5545](https://tools.ietf.org/html/rfc5545) data models.
@@ -3176,7 +3183,7 @@ SKIP:1
 SECTION:Networking
 ---
 
-NAME:gRPC
+NAME:gRPC-java
 URL:https://github.com/grpc/grpc-java
 DESC:RPC framework based on protobuf and HTTP/2.
 SKIP:1
@@ -3988,6 +3995,13 @@ SKIP:1
 SECTION:REST Frameworks
 ---
 
+NAME:openapi-generator
+URL:https://github.com/OpenAPITools/openapi-generator
+DESC:Allows generation of API client libraries, SDKs, server stubs, documentation and configuration automatically given an OpenAPI Spec.
+SKIP:1
+SECTION:REST Frameworks
+---
+
 NAME:BioJava
 URL:https://biojava.org/
 DESC:Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics.
@@ -4677,6 +4691,13 @@ SECTION:Testing
 NAME:weld-testing
 URL:https://github.com/weld/weld-testing
 DESC:Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5.
+SKIP:1
+SECTION:Testing
+---
+
+NAME:selenium
+URL:https://github.com/SeleniumHQ/selenium
+DESC:Browser automation framework and ecosystem.
 SKIP:1
 SECTION:Testing
 ---

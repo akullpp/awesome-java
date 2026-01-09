@@ -24,6 +24,7 @@ A curated list of awesome Java frameworks, libraries and software.
   - [Data Structures](#data-structures)
   - [Database](#database)
   - [Date and Time](#date-and-time)
+  - [Decentralization](#decentraliation)
   - [Dependency Injection](#dependency-injection)
   - [Development](#development)
   - [Distributed Applications](#distributed-applications)
@@ -336,6 +337,7 @@ _Everything that simplifies interactions with the database._
 - [Vibur DBCP](https://www.vibur.org) - JDBC connection pool library with advanced performance monitoring capabilities.
 - [Xodus](https://github.com/JetBrains/xodus) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
 - [CosId](https://github.com/Ahoo-Wang/CosId) - Universal, flexible, high-performance distributed ID generator.
+- [Apache ShardingSphere](https://github.com/apache/shardingsphere) - Distributed SQL transaction & query engine that allows for data sharding, scaling, encryption, and more on any database.
 
 ### Date and Time
 
@@ -345,6 +347,12 @@ _Libraries related to handling date and time._
 - [Jollyday](https://github.com/svendiedrichsen/jollyday) - Determines the holidays for a given year, country/name and eventually state/region.
 - [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra) - Additional date-time classes that complement those in JDK 8.
 - [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library. (LGPL-2.1-only)
+
+### Decentralization
+
+_Libraries that handle decentralization tasks._
+
+- [java-tron](https://github.com/tronprotocol/java-tron) Implementation of the Tron Protocol, whic utilizes blockchains to develop decentralized applications.
 
 ### Dependency Injection
 
@@ -814,7 +822,7 @@ _Libraries for building network servers._
 - [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
 - [Dubbo](https://github.com/apache/dubbo) - High-performance RPC framework.
 - [Grizzly](https://javaee.github.io/grizzly/) - NIO framework. Used as a network layer in Glassfish.
-- [gRPC](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
+- [gRPC-java](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
 - [KryoNet](https://github.com/EsotericSoftware/kryonet) - Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo.
 - [MINA](https://mina.apache.org) - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
 - [Netty](https://netty.io) - Framework for building high-performance network applications.
@@ -989,6 +997,7 @@ _Frameworks specifically for creating RESTful services._
 - [Crnk](http://www.crnk.io) - Implementation of the JSON API specification to build resource-oriented REST endpoints with sorting, filtering, paging, linking, object graphs, type-safety, bulk updates, integrations and more.
 - [springdoc-openapi](https://github.com/springdoc/springdoc-openapi) - Automates the generation of API documentation using Spring Boot projects.
 - [Swagger](https://swagger.io) - Standard, language-agnostic interface to REST APIs.
+- [openapi-generator](https://github.com/OpenAPITools/openapi-generator) - Allows generation of API client libraries, SDKs, server stubs, documentation and configuration automatically given an OpenAPI Spec.
 
 ### Science
 
@@ -1142,6 +1151,7 @@ _Provide environments to run tests for a specific use case._
 - [Pact JVM](https://github.com/DiUS/pact-jvm) - Consumer-driven contract testing.
 - [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 - [weld-testing](https://github.com/weld/weld-testing) - Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5.
+- [selenium](https://github.com/SeleniumHQ/selenium) - Browser automation framework and ecosystem.
 
 #### Matchers
 
@@ -1249,13 +1259,9 @@ _Frameworks that handle the communication between the layers of a web applicatio
 
 ### Workflow Orchestration Engines
 
-_Platforms and frameworks for orchestrating workflows and business processes._
-
 - [Cadence](https://cadenceworkflow.io) - Stateful code platform from Uber.
 - [flowable](https://github.com/flowable/flowable-engine) - Compact and efficient workflow and business process management platform.
 - [Temporal](https://temporal.io) - Microservice orchestration platform, forked from Cadence but gRPC based.
-
-<!-- END_PROJECTS_SECTION -->
 
 ## Resources
 

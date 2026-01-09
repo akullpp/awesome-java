@@ -235,6 +235,7 @@
 | [Vibur DBCP](https://www.vibur.org) | JDBC connection pool library with advanced performance monitoring capabilities. | - | - |
 | [Xodus](https://github.com/JetBrains/xodus) | Highly concurrent transactional schema-less and ACID-compliant embedded database. | 1.3k | 3mo |
 | [CosId](https://github.com/Ahoo-Wang/CosId) | Universal, flexible, high-performance distributed ID generator. | 599 | 1d |
+| [Apache ShardingSphere](https://github.com/apache/shardingsphere) | Distributed SQL transaction & query engine that allows for data sharding, scaling, encryption, and more on any database. | 20.6k | 1h |
 
 <!-- SECTION:Date and Time -->
 
@@ -701,7 +702,7 @@
 | [Comsat](https://github.com/puniverse/comsat) | Integrates standard Java web-related APIs with Quasar fibers and actors. | 595 | 9y |
 | [Dubbo](https://github.com/apache/dubbo) | High-performance RPC framework. | 41.7k | 1d |
 | [Grizzly](https://javaee.github.io/grizzly/) | NIO framework. Used as a network layer in Glassfish. | - | - |
-| [gRPC](https://github.com/grpc/grpc-java) | RPC framework based on protobuf and HTTP/2. | 11.9k | 15h |
+| [gRPC-java](https://github.com/grpc/grpc-java) | RPC framework based on protobuf and HTTP/2. | 11.9k | 1d |
 | [KryoNet](https://github.com/EsotericSoftware/kryonet) | Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo. | 1.8k | 5y |
 | [MINA](https://mina.apache.org) | Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO. | - | - |
 | [Netty](https://netty.io) | Framework for building high-performance network applications. | - | - |
@@ -857,6 +858,7 @@
 | [Crnk](http://www.crnk.io) | Implementation of the JSON API specification to build resource-oriented REST endpoints with sorting, filtering, paging, linking, object graphs, type-safety, bulk updates, integrations and more. | - | - |
 | [springdoc-openapi](https://github.com/springdoc/springdoc-openapi) | Automates the generation of API documentation using Spring Boot projects. | 3.7k | 6d |
 | [Swagger](https://swagger.io) | Standard, language-agnostic interface to REST APIs. | - | - |
+| [openapi-generator](https://github.com/OpenAPITools/openapi-generator) | Allows generation of API client libraries, SDKs, server stubs, documentation and configuration automatically given an OpenAPI Spec. | 25.6k | 22m |
 
 <!-- SECTION:Science -->
 
@@ -991,6 +993,7 @@
 | [Pact JVM](https://github.com/DiUS/pact-jvm) | Consumer-driven contract testing. | - | - |
 | [PIT](http://pitest.org) | Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites. | - | - |
 | [weld-testing](https://github.com/weld/weld-testing) | Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5. | 112 | 2d |
+| [selenium](https://github.com/SeleniumHQ/selenium) | Browser automation framework and ecosystem. | 33.9k | 1h |
 | [AssertJ](https://joel-costigliola.github.io/assertj/) | Fluent assertions that improve readability. | - | - |
 | [Hamcrest](http://hamcrest.org/JavaHamcrest/) | Matchers that can be combined to create flexible expressions of intent. | - | - |
 | [JSONAssert](http://jsonassert.skyscreamer.org) | Simplifies testing JSON strings. | - | - |
