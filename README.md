@@ -4,7 +4,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 ## Contents
 
-- [Awesome Java ](#awesome-java-)
+- [Awesome Java](#awesome-java-)
   - [Contents](#contents)
   - [Projects](#projects)
     - [Architecture](#architecture)
@@ -109,7 +109,6 @@ _Frameworks and libraries that help implementing and verifying design and archit
 
 | Name | Description | Stars | Updated |
 | :--- | :---------- | :---: | :-----: |
-| [Foobar](https://github.com/TNG/ArchUnit) | Lorem. | 3.6k | 3d |
 | [ArchUnit](https://github.com/TNG/ArchUnit) | Test library for specifying and asserting architecture rules. | 3.6k | 23h |
 | [jMolecules](https://github.com/xmolecules/jmolecules) | Annotations and interfaces to express design and architecture concepts in code. | 1.5k | 1mo |
 
