@@ -40,10 +40,12 @@ List<ProjectEntry> parseProjectEntries(String content) {
   var projectEntries = new ArrayList<ProjectEntry>();
   var inProjectSection = false;
   var currentSection = "";
+  var currentLevel4Section = "";
 
   for (int i = 0; i < lines.length; i++) {
     var line = lines[i];
     var isSubsection = line.startsWith(Constants.SUBSECTION);
+    var isLevel4Section = line.startsWith("####");
 
     // Check if we're entering the Projects section
     if (line.startsWith(Constants.PROJECTS_SECTION)) {
@@ -61,9 +63,15 @@ List<ProjectEntry> parseProjectEntries(String content) {
     if (!inProjectSection) {
       continue;
     }
-    // Track current subsection
+    // Track current level 3 subsection
     if (isSubsection) {
       currentSection = line.substring(Constants.SUBSECTION.length());
+      currentLevel4Section = ""; // Reset level 4 when we hit a new level 3
+      continue;
+    }
+    // Track current level 4 subsection
+    if (isLevel4Section) {
+      currentLevel4Section = line.substring(4).trim(); // Remove "#### "
       continue;
     }
     // Skip headers and empty lines
@@ -73,7 +81,11 @@ List<ProjectEntry> parseProjectEntries(String content) {
     }
     // List entries
     if (line.matches(Constants.ENTRY_PATTERN)) {
-      var projectEntry = parseProjectEntry(lines, i, currentSection);
+      // Combine level 3 and level 4 sections if level 4 exists
+      var fullSection = currentLevel4Section.isEmpty()
+          ? currentSection
+          : currentSection + "/" + currentLevel4Section;
+      var projectEntry = parseProjectEntry(lines, i, fullSection);
       if (projectEntry != null) {
         projectEntries.add(projectEntry);
         i += projectEntry.linesToSkip() - 1;
@@ -102,6 +114,7 @@ ProjectEntry parseProjectEntry(String[] lines, int startIndex, String section) {
       if (nextLine.isBlank() ||
           nextLine.startsWith(Constants.SECTION) ||
           nextLine.startsWith(Constants.SUBSECTION) ||
+          nextLine.startsWith("####") ||
           nextLine.matches(Constants.ENTRY_PATTERN)
       ) {
         break;

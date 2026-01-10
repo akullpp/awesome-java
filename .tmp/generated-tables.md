@@ -59,7 +59,7 @@
 | [Ehcache](http://www.ehcache.org) | Distributed general-purpose cache. | - | - |
 | [Infinispan](https://infinispan.org) | Highly concurrent key/value datastore used for caching. | - | - |
 
-<!-- SECTION:CLI -->
+<!-- SECTION:CLI/Argument Parsing -->
 
 | Name | Description | Stars | Updated |
 | :--- | :---------- | :---: | :-----: |
@@ -68,6 +68,11 @@
 | [jbock](https://github.com/jbock-java/jbock) | Reflectionless command line parser. | 88 | 2d |
 | [JLine](https://github.com/jline/jline3) | Includes features from modern shells like completion or history. | 1.7k | 22d |
 | [picocli](https://picocli.info) | ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args. | - | - |
+
+<!-- SECTION:CLI/Text-Based User Interfaces -->
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
 | [Jansi](https://github.com/fusesource/jansi) | ANSI escape codes to format console output. | 1.2k | 8mo |
 | [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) | Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision). | - | - |
 | [Text-IO](https://github.com/beryx/text-io) | Aids the creation of full console-based applications. | 351 | 5y |
@@ -733,7 +738,7 @@
 
 | Name | Description | Stars | Updated |
 | :--- | :---------- | :---: | :-----: |
-| [Pathetic](https://github.com/bsommerfeld/pathetic) | A highly configurable 3D A* pathfinding library that uses specific optimizations for high performance. | 236 | 1h |
+| [Pathetic](https://github.com/bsommerfeld/pathetic) | A highly configurable 3D A\* pathfinding library that uses specific optimizations for high performance. | 236 | 1h |
 
 <!-- SECTION:PDF -->
 
@@ -760,7 +765,7 @@
 | [JMH](http://openjdk.java.net/projects/code-tools/jmh/) | Harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM. (GPL-2.0 only WITH Classpath-exception-2.0) | - | - |
 | [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) | Utilities for latency measurement and reporting. | 465 | 1y |
 
-<!-- SECTION:Platform -->
+<!-- SECTION:Platform/Apache Commons -->
 
 | Name | Description | Stars | Updated |
 | :--- | :---------- | :---: | :-----: |
@@ -818,6 +823,11 @@
 | [Validator](http://commons.apache.org/proper/commons-validator/) | Framework to define validators and validation rules in an xml file. | - | - |
 | [VFS](http://commons.apache.org/proper/commons-vfs/) | Virtual File System component for treating files, FTP, SMB, ZIP and such like as a single logical file system. | - | - |
 | [Weaver](http://commons.apache.org/proper/commons-weaver/) | Provides an easy way to enhance (weave) compiled bytecode. | - | - |
+
+<!-- SECTION:Platform/Other -->
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
 | [CUBA Platform](https://www.cuba-platform.com/) | High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin. | - | - |
 | [Light-4J](https://github.com/networknt/light-4j/) | Fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2/). | N/A | N/A |
 | [Orienteer](https://github.com/OrienteerBAP/Orienteer/) | Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications. | N/A | N/A |
@@ -954,7 +964,7 @@
 | [StringTemplate](https://github.com/antlr/stringtemplate4) | Template engine for generating source code, web pages, emails, or any other formatted text output. | 1.0k | 7mo |
 | [Thymeleaf](https://www.thymeleaf.org) | Aims to be a substitute for JSP and works for XML files. | - | - |
 
-<!-- SECTION:Testing -->
+<!-- SECTION:Testing/Asynchronous -->
 
 | Name | Description | Stars | Updated |
 | :--- | :---------- | :---: | :-----: |
@@ -965,6 +975,11 @@
 | [Karate](https://github.com/intuit/karate) | DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy. | - | - |
 | [REST Assured](https://github.com/rest-assured/rest-assured) | DSL for easy testing of REST/HTTP services. | 7.1k | 26d |
 | [WebTau](https://github.com/testingisdocumenting/webtau) | Test across REST-API, Graph QL, Browser, Database, CLI and Business Logic with consistent set of matchers and concepts. | 379 | 3mo |
+
+<!-- SECTION:Testing/BDD -->
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
 | [Cucumber](https://github.com/cucumber/cucumber-jvm) | Provides a way to describe features in a plain language which customers can understand. | 2.8k | 1d |
 | [Cukes-REST](https://github.com/ctco/cukes) | Collection of Gherkin steps for REST-service testing using Cucumber. | 110 | 3y |
 | [J8Spec](https://github.com/j8spec/j8spec) | Follows a Jasmine-like syntax. | 48 | 3y |
@@ -972,6 +987,11 @@
 | [JGiven](http://jgiven.org) | Provides a fluent API which allows for simpler composition. | - | - |
 | [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) | Aims to provide a fluent API to write tests in long and descriptive sentences that read like plain English. | 253 | 5y |
 | [Serenity BDD](https://github.com/serenity-bdd/serenity-core) | Automated Acceptance testing and reporting library that works with Cucumber, JBehave and JUnit to make it easier to write high quality executable specifications. | 744 | 12h |
+
+<!-- SECTION:Testing/Fixtures -->
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
 | [AutoParams](https://github.com/AutoParams/AutoParams) | Supports generating test data or combining scenarios for parameterized tests. | 368 | 5mo |
 | [Beanmother](https://github.com/keepcosmos/beanmother) | Sets up beans from YAML fixtures. | 121 | 3y |
 | [Datafaker](https://github.com/datafaker-net/datafaker) | Modern fake data generator forked from Java Faker. | 1.7k | 5h |
@@ -982,6 +1002,11 @@
 | [Java Faker](https://github.com/DiUS/java-faker) | Port of Ruby's fake data generator. | 4.9k | 3y |
 | [Mockneat](https://github.com/nomemory/mockneat) | Another fake data generator. | 536 | 3y |
 | [JMock](https://github.com/xcancloud/JMock) | JMock is a high-performance data generation and simulation component library implemented in Java. | 422 | 2mo |
+
+<!-- SECTION:Testing/Frameworks -->
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
 | [Apache JMeter](http://jmeter.apache.org) | Functional testing and performance measurements. | - | - |
 | [JMeter DSL.java](https://abstracta.github.io/jmeter-java-dsl/) | Load tests with JMeter as simple as a JUnit test. | - | - |
 | [Arquillian](http://arquillian.org) | Integration and functional testing platform for Java EE containers. | - | - |
@@ -994,12 +1019,22 @@
 | [PIT](http://pitest.org) | Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites. | - | - |
 | [weld-testing](https://github.com/weld/weld-testing) | Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5. | 112 | 2d |
 | [selenium](https://github.com/SeleniumHQ/selenium) | Browser automation framework and ecosystem. | 33.9k | 1h |
+
+<!-- SECTION:Testing/Matchers -->
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
 | [AssertJ](https://joel-costigliola.github.io/assertj/) | Fluent assertions that improve readability. | - | - |
 | [Hamcrest](http://hamcrest.org/JavaHamcrest/) | Matchers that can be combined to create flexible expressions of intent. | - | - |
 | [JSONAssert](http://jsonassert.skyscreamer.org) | Simplifies testing JSON strings. | - | - |
 | [JsonUnit](https://github.com/lukas-krecan/JsonUnit) | Library that simplifies JSON comparison in tests. | 975 | 13h |
 | [Truth](https://truth.dev) | Google's fluent assertion and proposition framework. | - | - |
 | [XMLUnit](https://github.com/xmlunit/xmlunit) | Simplifies testing for XML output. | 314 | 2mo |
+
+<!-- SECTION:Testing/Testing Miscellaneous -->
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
 | [ConsoleCaptor](https://github.com/Hakky54/console-captor) | Captures console output for unit testing purposes. | 33 | 16d |
 | [junit-dataprovider](https://github.com/TNG/junit-dataprovider) | TestNG-like data provider/runner for JUnit. | 249 | 25d |
 | [junit-pioneer](https://junit-pioneer.org/) | JUnit 5 extension pack, pushing the frontiers on Jupiter. | - | - |
@@ -1011,6 +1046,11 @@
 | [Selfie](https://github.com/diffplug/selfie) | Snapshot testing (inline and on disk). | 87 | 1mo |
 | [Stebz](https://github.com/stebz/stebz) | Multi-approach framework for test steps managing. | 17 | 1d |
 | [Testcontainers](https://github.com/testcontainers/testcontainers-java) | Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. | 8.6k | 23d |
+
+<!-- SECTION:Testing/Mocking -->
+
+| Name | Description | Stars | Updated |
+| :--- | :---------- | :---: | :-----: |
 | [JMockit](http://jmockit.github.io) | Integration testing, API mocking and faking, and code coverage. | - | - |
 | [Mockito](https://github.com/mockito/mockito) | Mocking framework that lets you write tests with a clean and simple API. | 15.4k | 2d |
 | [MockServer](https://www.mock-server.com) | Allows mocking of systems integrated with HTTPS. | - | - |

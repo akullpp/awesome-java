@@ -219,63 +219,63 @@ NAME:Airline
 URL:https://rvesse.github.io/airline/
 DESC:Annotation-based framework for parsing Git-like command-line arguments.
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Argument Parsing
 ---
 
 NAME:JCommander
 URL:http://jcommander.org
 DESC:Command-line argument-parsing framework with custom types and validation via implementing interfaces.
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Argument Parsing
 ---
 
 NAME:jbock
 URL:https://github.com/jbock-java/jbock
 DESC:Reflectionless command line parser.
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Argument Parsing
 ---
 
 NAME:JLine
 URL:https://github.com/jline/jline3
 DESC:Includes features from modern shells like completion or history.
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Argument Parsing
 ---
 
 NAME:picocli
 URL:https://picocli.info
 DESC:ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Argument Parsing
 ---
 
 NAME:Jansi
 URL:https://github.com/fusesource/jansi
 DESC:ANSI escape codes to format console output.
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Text-Based User Interfaces
 ---
 
 NAME:Jexer
 URL:https://gitlab.com/AutumnMeowMeow/jexer
 DESC:Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Text-Based User Interfaces
 ---
 
 NAME:Text-IO
 URL:https://github.com/beryx/text-io
 DESC:Aids the creation of full console-based applications.
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Text-Based User Interfaces
 ---
 
 NAME:Lanterna
 URL:https://github.com/mabe02/lanterna
 DESC:Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
 SKIP:1
-SECTION:CLI
+SECTION:CLI/Text-Based User Interfaces
 ---
 
 NAME:AWS SDK for Java
@@ -3332,7 +3332,7 @@ SECTION:ORM
 
 NAME:Pathetic
 URL:https://github.com/bsommerfeld/pathetic
-DESC:A highly configurable 3D A* pathfinding library that uses specific optimizations for high performance.
+DESC:A highly configurable 3D A\* pathfinding library that uses specific optimizations for high performance.
 SKIP:1
 SECTION:Pathfinding
 ---
@@ -3446,406 +3446,406 @@ NAME:BCEL
 URL:http://commons.apache.org/proper/commons-bcel/
 DESC:Byte Code Engineering Library - analyze, create, and manipulate Java class files.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:BeanUtils
 URL:http://commons.apache.org/proper/commons-beanutils/
 DESC:Easy-to-use wrappers around the Java reflection and introspection APIs.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:BeanUtils2
 URL:http://commons.apache.org/sandbox/commons-beanutils2/
 DESC:Redesign of Commons BeanUtils.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:BSF
 URL:http://commons.apache.org/proper/commons-bsf/
 DESC:Bean Scripting Framework - interface to scripting languages, including JSR-223.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Chain
 URL:http://commons.apache.org/proper/commons-chain/
 DESC:Chain of Responsibility pattern implementation.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:ClassScan
 URL:http://commons.apache.org/sandbox/commons-classscan/
 DESC:Find Class interfaces, methods, fields, and annotations without loading.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:CLI
 URL:http://commons.apache.org/proper/commons-cli/
 DESC:Command-line arguments parser.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:CLI2
 URL:http://commons.apache.org/sandbox/commons-cli2/
 DESC:Redesign of Commons CLI.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Codec
 URL:http://commons.apache.org/proper/commons-codec/
 DESC:General encoding/decoding algorithms, e.g. phonetic, base64 or URL.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Collections
 URL:http://commons.apache.org/proper/commons-collections/
 DESC:Extends or augments the Java Collections Framework.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Compress
 URL:http://commons.apache.org/proper/commons-compress/
 DESC:Defines an API for working with tar, zip and bzip2 files.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Configuration
 URL:http://commons.apache.org/proper/commons-configuration/
 DESC:Reading of configuration/preferences files in various formats.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Convert
 URL:http://commons.apache.org/sandbox/commons-convert/
 DESC:Commons-Convert aims to provide a single library dedicated to the task of converting an object of one type to another.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:CSV
 URL:http://commons.apache.org/proper/commons-csv/
 DESC:Component for reading and writing comma separated value files.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Daemon
 URL:http://commons.apache.org/proper/commons-daemon/
 DESC:Alternative invocation mechanism for unix-daemon-like java code.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:DBCP
 URL:http://commons.apache.org/proper/commons-dbcp/
 DESC:Database connection pooling services.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:DbUtils
 URL:http://commons.apache.org/proper/commons-dbutils/
 DESC:JDBC helper library.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Digester
 URL:http://commons.apache.org/proper/commons-digester/
 DESC:XML-to-Java-object mapping utility.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Email
 URL:http://commons.apache.org/proper/commons-email/
 DESC:Library for sending e-mail from Java.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Exec
 URL:http://commons.apache.org/proper/commons-exec/
 DESC:API for dealing with external process execution and environment management in Java.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:FileUpload
 URL:http://commons.apache.org/proper/commons-fileupload/
 DESC:File upload capability for your servlets and web applications.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Finder
 URL:http://commons.apache.org/sandbox/commons-finder/
 DESC:Java library inspired by the UNIX find command.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Flatfile
 URL:http://commons.apache.org/sandbox/commons-flatfile/
 DESC:Java library for working with flat data structures.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Functor
 URL:http://commons.apache.org/proper/commons-functor/
 DESC:Function that can be manipulated as an object, or an object representing a single, generic function.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Graph
 URL:http://commons.apache.org/sandbox/commons-graph/
 DESC:General purpose graph APIs and algorithms.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:I18n
 URL:http://commons.apache.org/sandbox/commons-i18n/
 DESC:Adds the feature of localized message bundles that consist of one or many localized texts that belong together.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Id
 URL:http://commons.apache.org/sandbox/commons-id/
 DESC:Id is a component used to generate identifiers.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Imaging
 URL:http://commons.apache.org/proper/commons-imaging/
 DESC:Image library.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:IO
 URL:http://commons.apache.org/proper/commons-io/
 DESC:Collection of I/O utilities.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Javaflow
 URL:http://commons.apache.org/sandbox/commons-javaflow/
 DESC:Continuation implementation to capture the state of the application.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:JCI
 URL:http://commons.apache.org/proper/commons-jci/
 DESC:Java Compiler Interface.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:JCS
 URL:http://commons.apache.org/proper/commons-jcs/
 DESC:Java Caching System.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Jelly
 URL:http://commons.apache.org/proper/commons-jelly/
 DESC:XML based scripting and processing engine.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Jexl
 URL:http://commons.apache.org/proper/commons-jexl/
 DESC:Expression language which extends the Expression Language of the JSTL.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:JNet
 URL:http://commons.apache.org/sandbox/commons-jnet/
 DESC:JNet allows to use dynamically register url stream handlers through the java.net API.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:JXPath
 URL:http://commons.apache.org/proper/commons-jxpath/
 DESC:Utilities for manipulating Java Beans using the XPath syntax.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Lang
 URL:http://commons.apache.org/proper/commons-lang/
 DESC:Provides extra functionality for classes in java.lang.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Logging
 URL:https://commons.apache.org/proper/commons-logging/
 DESC:Wrapper around a variety of logging API implementations.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Math
 URL:http://commons.apache.org/proper/commons-math/
 DESC:Lightweight, self-contained mathematics and statistics components.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Monitoring
 URL:http://commons.apache.org/sandbox/commons-monitoring/
 DESC:Monitoring aims to provide a simple but extensible monitoring solution for Java applications.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Nabla
 URL:http://commons.apache.org/sandbox/commons-nabla/
 DESC:Nabla provides automatic differentiation classes that can generate derivative of any function implemented in the Java language.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Net
 URL:http://commons.apache.org/proper/commons-net/
 DESC:Collection of network utilities and protocol implementations.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:OGNL
 URL:http://commons.apache.org/proper/commons-ognl/
 DESC:Object-graph navigation language.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:OpenPGP
 URL:http://commons.apache.org/sandbox/commons-openpgp/
 DESC:Interface to signing and verifying data using OpenPGP.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Performance
 URL:http://commons.apache.org/sandbox/commons-performance/
 DESC:Small framework for microbenchmark clients, with implementations for Commons DBCP and Pool.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Pipeline
 URL:http://commons.apache.org/sandbox/commons-pipeline/
 DESC:Provides a set of pipeline utilities designed around work queues that run in parallel to sequentially process data objects.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Pool
 URL:http://commons.apache.org/proper/commons-pool/
 DESC:Generic object pooling component.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Proxy
 URL:http://commons.apache.org/proper/commons-proxy/
 DESC:Library for creating dynamic proxies.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:RDF
 URL:https://commons.apache.org/proper/commons-rdf/
 DESC:Common implementation of RDF 1.1 that could be implemented by systems on the JVM.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:RNG
 URL:https://commons.apache.org/proper/commons-rng/
 DESC:Commons Rng provides implementations of pseudo-random numbers generators.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:SCXML
 URL:http://commons.apache.org/proper/commons-scxml/
 DESC:Implementation of the State Chart XML specification aimed at creating and maintaining a Java SCXML engine.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Validator
 URL:http://commons.apache.org/proper/commons-validator/
 DESC:Framework to define validators and validation rules in an xml file.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:VFS
 URL:http://commons.apache.org/proper/commons-vfs/
 DESC:Virtual File System component for treating files, FTP, SMB, ZIP and such like as a single logical file system.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:Weaver
 URL:http://commons.apache.org/proper/commons-weaver/
 DESC:Provides an easy way to enhance (weave) compiled bytecode.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Apache Commons
 ---
 
 NAME:CUBA Platform
 URL:https://www.cuba-platform.com/
 DESC:High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Other
 ---
 
 NAME:Light-4J
 URL:https://github.com/networknt/light-4j/
 DESC:Fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2/).
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Other
 ---
 
 NAME:Orienteer
 URL:https://github.com/OrienteerBAP/Orienteer/
 DESC:Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Other
 ---
 
 NAME:Spring
 URL:https://spring.io/projects/
 DESC:Provides many packages for dependency injection, aspect-oriented programming, security, etc.
 SKIP:1
-SECTION:Platform
+SECTION:Platform/Other
 ---
 
 NAME:ch.vorburger.exec
@@ -4454,420 +4454,420 @@ NAME:Awaitility
 URL:https://github.com/awaitility/awaitility
 DESC:DSL for synchronizing asynchronous operations.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Asynchronous
 ---
 
 NAME:ConcurrentUnit
 URL:https://github.com/jhalterman/concurrentunit
 DESC:Toolkit for testing multi-threaded and asynchronous applications.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Asynchronous
 ---
 
 NAME:GreenMail
 URL:https://greenmail-mail-test.github.io/greenmail/
 DESC:In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. (GPL-2.0-only)
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Asynchronous
 ---
 
 NAME:Hoverfly Java
 URL:https://github.com/SpectoLabs/hoverfly-java
 DESC:Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Asynchronous
 ---
 
 NAME:Karate
 URL:https://github.com/intuit/karate
 DESC:DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Asynchronous
 ---
 
 NAME:REST Assured
 URL:https://github.com/rest-assured/rest-assured
 DESC:DSL for easy testing of REST/HTTP services.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Asynchronous
 ---
 
 NAME:WebTau
 URL:https://github.com/testingisdocumenting/webtau
 DESC:Test across REST-API, Graph QL, Browser, Database, CLI and Business Logic with consistent set of matchers and concepts.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Asynchronous
 ---
 
 NAME:Cucumber
 URL:https://github.com/cucumber/cucumber-jvm
 DESC:Provides a way to describe features in a plain language which customers can understand.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/BDD
 ---
 
 NAME:Cukes-REST
 URL:https://github.com/ctco/cukes
 DESC:Collection of Gherkin steps for REST-service testing using Cucumber.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/BDD
 ---
 
 NAME:J8Spec
 URL:https://github.com/j8spec/j8spec
 DESC:Follows a Jasmine-like syntax.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/BDD
 ---
 
 NAME:JBehave
 URL:https://jbehave.org
 DESC:Extensively configurable framework that describes stories.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/BDD
 ---
 
 NAME:JGiven
 URL:http://jgiven.org
 DESC:Provides a fluent API which allows for simpler composition.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/BDD
 ---
 
 NAME:Lamdba Behave
 URL:https://github.com/RichardWarburton/lambda-behave
 DESC:Aims to provide a fluent API to write tests in long and descriptive sentences that read like plain English.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/BDD
 ---
 
 NAME:Serenity BDD
 URL:https://github.com/serenity-bdd/serenity-core
 DESC:Automated Acceptance testing and reporting library that works with Cucumber, JBehave and JUnit to make it easier to write high quality executable specifications.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/BDD
 ---
 
 NAME:AutoParams
 URL:https://github.com/AutoParams/AutoParams
 DESC:Supports generating test data or combining scenarios for parameterized tests.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:Beanmother
 URL:https://github.com/keepcosmos/beanmother
 DESC:Sets up beans from YAML fixtures.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:Datafaker
 URL:https://github.com/datafaker-net/datafaker
 DESC:Modern fake data generator forked from Java Faker.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:Fixture Factory
 URL:https://github.com/six2six/fixture-factory
 DESC:Generates fake objects from a template.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:jFairy
 URL:https://github.com/Devskiller/jfairy
 DESC:Fake data generator.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:Instancio
 URL:https://github.com/instancio/instancio
 DESC:Automates data setup in unit tests by generating fully-populated, reproducible objects. Includes JUnit 5 extension.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:Randomized Testing
 URL:https://github.com/randomizedtesting/randomizedtesting
 DESC:JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:Java Faker
 URL:https://github.com/DiUS/java-faker
 DESC:Port of Ruby's fake data generator.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:Mockneat
 URL:https://github.com/nomemory/mockneat
 DESC:Another fake data generator.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:JMock
 URL:https://github.com/xcancloud/JMock
 DESC:JMock is a high-performance data generation and simulation component library implemented in Java.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Fixtures
 ---
 
 NAME:Apache JMeter
 URL:http://jmeter.apache.org
 DESC:Functional testing and performance measurements.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:JMeter DSL.java
 URL:https://abstracta.github.io/jmeter-java-dsl/
 DESC:Load tests with JMeter as simple as a JUnit test.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:Arquillian
 URL:http://arquillian.org
 DESC:Integration and functional testing platform for Java EE containers.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:cdi-test
 URL:https://github.com/guhilling/cdi-test
 DESC:JUnit extension for easy and efficient testing of CDI components.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:Citrus
 URL:https://citrusframework.org
 DESC:Integration testing framework that focuses on both client- and server-side messaging.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:Gatling
 URL:https://gatling.io
 DESC:Load testing tool designed for ease of use, maintainability and high performance.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:JUnit
 URL:https://junit.org/junit5/
 DESC:Common testing framework.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:jqwik
 URL:https://jqwik.net
 DESC:Engine for property-based testing built on JUnit 5.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:Pact JVM
 URL:https://github.com/DiUS/pact-jvm
 DESC:Consumer-driven contract testing.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:PIT
 URL:http://pitest.org
 DESC:Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:weld-testing
 URL:https://github.com/weld/weld-testing
 DESC:Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:selenium
 URL:https://github.com/SeleniumHQ/selenium
 DESC:Browser automation framework and ecosystem.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Frameworks
 ---
 
 NAME:AssertJ
 URL:https://joel-costigliola.github.io/assertj/
 DESC:Fluent assertions that improve readability.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Matchers
 ---
 
 NAME:Hamcrest
 URL:http://hamcrest.org/JavaHamcrest/
 DESC:Matchers that can be combined to create flexible expressions of intent.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Matchers
 ---
 
 NAME:JSONAssert
 URL:http://jsonassert.skyscreamer.org
 DESC:Simplifies testing JSON strings.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Matchers
 ---
 
 NAME:JsonUnit
 URL:https://github.com/lukas-krecan/JsonUnit
 DESC:Library that simplifies JSON comparison in tests.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Matchers
 ---
 
 NAME:Truth
 URL:https://truth.dev
 DESC:Google's fluent assertion and proposition framework.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Matchers
 ---
 
 NAME:XMLUnit
 URL:https://github.com/xmlunit/xmlunit
 DESC:Simplifies testing for XML output.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Matchers
 ---
 
 NAME:ConsoleCaptor
 URL:https://github.com/Hakky54/console-captor
 DESC:Captures console output for unit testing purposes.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:junit-dataprovider
 URL:https://github.com/TNG/junit-dataprovider
 DESC:TestNG-like data provider/runner for JUnit.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:junit-pioneer
 URL:https://junit-pioneer.org/
 DESC:JUnit 5 extension pack, pushing the frontiers on Jupiter.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:LogCaptor
 URL:https://github.com/Hakky54/log-captor
 DESC:Captures log entries for unit testing purposes.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:log-capture
 URL:https://github.com/dm-drogeriemarkt/log-capture
 DESC:Captures log entries and provides assertions for unit and integration testing.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:Mutability Detector
 URL:https://github.com/MutabilityDetector/MutabilityDetector
 DESC:Reports whether instances of a given class are immutable.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:pojo-tester
 URL:https://www.pojo.pl
 DESC:Automatically performs tests on basic POJO methods. (LGPL-3.0-only)
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:raml-tester
 URL:https://github.com/nidi3/raml-tester
 DESC:Tests if a request/response matches a given RAML definition.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:Selfie
 URL:https://github.com/diffplug/selfie
 DESC:Snapshot testing (inline and on disk).
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:Stebz
 URL:https://github.com/stebz/stebz
 DESC:Multi-approach framework for test steps managing.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:Testcontainers
 URL:https://github.com/testcontainers/testcontainers-java
 DESC:Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:JMockit
 URL:http://jmockit.github.io
 DESC:Integration testing, API mocking and faking, and code coverage.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Mocking
 ---
 
 NAME:Mockito
 URL:https://github.com/mockito/mockito
 DESC:Mocking framework that lets you write tests with a clean and simple API.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Mocking
 ---
 
 NAME:MockServer
 URL:https://www.mock-server.com
 DESC:Allows mocking of systems integrated with HTTPS.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Mocking
 ---
 
 NAME:Moco
 URL:https://github.com/dreamhead/moco
 DESC:Concise web services for stubs and mocks.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Mocking
 ---
 
 NAME:PowerMock
 URL:https://github.com/powermock/powermock
 DESC:Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Mocking
 ---
 
 NAME:WireMock
 URL:http://wiremock.org
 DESC:Stubs and mocks web services.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Mocking
 ---
 
 NAME:EasyMock
 URL:https://github.com/easymock/easymock
 DESC:EasyMock is a Java library that provides an easy way to use Mock Objects in unit testing.
 SKIP:1
-SECTION:Testing
+SECTION:Testing/Mocking
 ---
 
 NAME:Arthas

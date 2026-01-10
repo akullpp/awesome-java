@@ -68,9 +68,28 @@ String assembleReadme(String originalContent, String tablesContent) {
     // Check if we're leaving the Projects section
     if (inProjectSection &&
         line.startsWith(Constants.SECTION) &&
-        !line.equals(Constants.PROJECTS_SECTION)
+        !line.equals(Constants.PROJECTS_SECTION) &&
+        !line.startsWith(Constants.SUBSECTION)
     ) {
       inProjectSection = false;
+      // Normalize trailing whitespace
+      var current = result.toString();
+      // Count trailing newlines
+      var trailingCount = 0;
+      var temp = current;
+      while (temp.endsWith("\n")) {
+        trailingCount++;
+        temp = temp.substring(0, temp.length() - 1);
+      }
+      result.setLength(0);
+      result.append(temp);
+      // Add exactly one blank line
+      if (trailingCount < 2) {
+        result.append("\n".repeat(2 - trailingCount));
+      }
+      // Output the section header that caused us to leave Projects section
+      result.append(line).append("\n\n");
+      continue;
     }
     if (!inProjectSection) {
       result.append(line).append("\n");
@@ -81,9 +100,34 @@ String assembleReadme(String originalContent, String tablesContent) {
       result.append(line).append("\n\n");
       continue;
     }
-    // Handle headers
+    // Handle headers (italic descriptions)
     if (line.startsWith("_") && line.endsWith("_")) {
-      result.append(line).append("\n\n");
+      // Check if previous non-blank line was a level 4 heading
+      var prevNonBlankLine = findPreviousNonBlankLine(lines, i);
+      if (prevNonBlankLine != null && prevNonBlankLine.startsWith("####")) {
+        // Level 4 heading already has \n\n, so just add one newline after italic
+        result.append(line).append("\n");
+        // Check if we need to insert a table for this level 4 subsection
+        var level4Name = prevNonBlankLine.substring(4).trim();
+        var currentSubsection = findCurrentSubsection(lines, i);
+        if (currentSubsection != null) {
+          var combinedSection = currentSubsection + "/" + level4Name;
+          if (sectionToTableMap.containsKey(combinedSection)) {
+            // Add blank line before table (italic ends with \n, so add another \n)
+            result.append("\n");
+            // Insert table after the description
+            var tableContent = sectionToTableMap.get(combinedSection);
+            result.append(tableContent);
+            // Ensure exactly one blank line after table
+            var tableEndsWith = tableContent.endsWith("\n\n") ? 2 : (tableContent.endsWith("\n") ? 1 : 0);
+            if (tableEndsWith < 2) {
+              result.append("\n".repeat(2 - tableEndsWith));
+            }
+          }
+        }
+      } else {
+        result.append(line).append("\n\n");
+      }
       continue;
     }
     // Skip empty lines
@@ -92,18 +136,55 @@ String assembleReadme(String originalContent, String tablesContent) {
     }
     // Replace list items with markdown tables
     if (line.matches(Constants.ENTRY_PATTERN)) {
-      // Find the current subsection
+      // Find the current subsection and level 4 heading (if any)
       var currentSubsection = findCurrentSubsection(lines, i);
-      if (currentSubsection != null && sectionToTableMap.containsKey(currentSubsection)) {
-        var tableContent = sectionToTableMap.get(currentSubsection);
-        result.append(tableContent);
-        if (!tableContent.endsWith("\n")) {
-          result.append("\n");
+      var currentLevel4 = findCurrentLevel4Heading(lines, i);
+
+      // Try combined section name first (level3/level4), then fall back to just level3
+      String sectionKey = null;
+      if (currentSubsection != null && currentLevel4 != null) {
+        var combined = currentSubsection + "/" + currentLevel4;
+        if (sectionToTableMap.containsKey(combined)) {
+          sectionKey = combined;
         }
       }
-      // Skip ALL remaining list items in this section until we hit the next subsection or end delimiter
+      if (sectionKey == null && currentSubsection != null && sectionToTableMap.containsKey(currentSubsection)) {
+        sectionKey = currentSubsection;
+      }
+
+      if (sectionKey != null) {
+        // Check if previous non-blank line was a level 4 heading or italic description
+        var prevNonBlankLine = findPreviousNonBlankLine(lines, i);
+        var needsBlankBeforeTable = (prevNonBlankLine != null &&
+                                     (prevNonBlankLine.startsWith("####") ||
+                                      (prevNonBlankLine.startsWith("_") && prevNonBlankLine.endsWith("_"))));
+
+        var tableContent = sectionToTableMap.get(sectionKey);
+        var currentResult = result.toString();
+        // Add blank line before table if needed
+        if (needsBlankBeforeTable) {
+          // Ensure we have a blank line (two newlines) before the table
+          if (currentResult.endsWith("\n") && !currentResult.endsWith("\n\n")) {
+            // Ends with single newline, add another to make blank line
+            result.append("\n");
+          } else if (!currentResult.endsWith("\n")) {
+            // Doesn't end with newline, add two
+            result.append("\n\n");
+          }
+          // If it already ends with \n\n, we don't need to add anything
+        }
+        // Insert table with proper spacing
+        result.append(tableContent);
+        // Ensure exactly one blank line after table
+        var tableEndsWith = tableContent.endsWith("\n\n") ? 2 : (tableContent.endsWith("\n") ? 1 : 0);
+        if (tableEndsWith < 2) {
+          result.append("\n".repeat(2 - tableEndsWith));
+        }
+      }
+      // Skip ALL remaining list items in this section until we hit the next subsection, level 4 heading, or end delimiter
       while (i + 1 < lines.length &&
              !lines[i + 1].startsWith(Constants.SUBSECTION) &&
+             !lines[i + 1].startsWith("####") &&
              !lines[i + 1].contains(Constants.END_PROJECTS_SECTION_COMMENT)) {
         i++;
         if (lines[i].matches(Constants.ENTRY_PATTERN)) {
@@ -113,8 +194,20 @@ String assembleReadme(String originalContent, String tablesContent) {
         if (lines[i].startsWith(Constants.SECTION) &&
             !lines[i].startsWith(Constants.SUBSECTION)
         ) {
-          // We've hit the end of the Projects section
+          // We've hit the end of the Projects section - output this section header
           inProjectSection = false;
+          // Normalize trailing whitespace - ensure we have exactly one blank line before Resources
+          var current = result.toString();
+          // Remove all trailing newlines
+          while (current.endsWith("\n")) {
+            current = current.substring(0, current.length() - 1);
+          }
+          result.setLength(0);
+          result.append(current);
+          // Add exactly one blank line before Resources section
+          result.append("\n\n");
+          // Output the section header
+          result.append(lines[i]).append("\n");
           break;
         }
         if (lines[i].contains(Constants.END_PROJECTS_SECTION_COMMENT)) {
@@ -123,6 +216,11 @@ String assembleReadme(String originalContent, String tablesContent) {
           break;
         }
       }
+      continue;
+    }
+    // Handle level 4 headings (####)
+    if (line.startsWith("####")) {
+      result.append(line).append("\n\n");
       continue;
     }
     // Handle other content
@@ -196,7 +294,9 @@ Map<String, String> createSectionToTableMap(String[] tables) {
         skipComment = false;
         tableContent.append(line).append("\n");
       }
-      sectionToTableMap.put(sectionName, tableContent.toString().trim());
+      // Ensure table ends with exactly one newline
+      var content = tableContent.toString().trim();
+      sectionToTableMap.put(sectionName, content + "\n");
     }
   }
 
@@ -211,6 +311,36 @@ String findCurrentSubsection(String[] lines, int currentIndex) {
     var line = lines[i];
     if (line.startsWith(Constants.SUBSECTION)) {
       return line.substring(Constants.SUBSECTION.length());
+    }
+  }
+  return null;
+}
+
+/**
+ * Finds the previous non-blank line by looking backwards from the given line index.
+ */
+String findPreviousNonBlankLine(String[] lines, int currentIndex) {
+  for (int i = currentIndex - 1; i >= 0; i--) {
+    var line = lines[i];
+    if (!line.isBlank()) {
+      return line;
+    }
+  }
+  return null;
+}
+
+/**
+ * Finds the current level 4 heading by looking backwards from the given line index.
+ */
+String findCurrentLevel4Heading(String[] lines, int currentIndex) {
+  for (int i = currentIndex; i >= 0; i--) {
+    var line = lines[i];
+    if (line.startsWith("####")) {
+      return line.substring(4).trim();
+    }
+    // Stop if we hit a level 3 subsection
+    if (line.startsWith(Constants.SUBSECTION)) {
+      break;
     }
   }
   return null;

@@ -166,6 +166,7 @@ String createMarkdownTable(List<ProjectEntry> entries, Map<String, StatsMapping>
     table.append(stars).append(" | ");
     table.append(commit).append(" |\n");
   }
+  // Add single newline after table
   table.append("\n");
   return table.toString();
 }
