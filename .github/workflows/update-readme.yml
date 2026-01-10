@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - master
+      - test
     paths:
       - "CONTRIBUTE_README.md"
       - "scripts/**"
