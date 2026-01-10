@@ -1,4 +1,9 @@
 REPO:TNG/ArchUnit
+NAME:Foobar
+STARS:3.6k
+COMMIT:3d
+
+REPO:TNG/ArchUnit
 NAME:ArchUnit
 STARS:3.6k
 COMMIT:23h
