@@ -83,7 +83,7 @@ void runStep(int step, String input) throws IOException, InterruptedException {
       Constants.TMP_DIR + "/" + Constants.PARSED_PROJECTS_FILE
     );
     case 3 -> buildCommand(
-      "step_3_generate_badges.java",
+      "step_3_generate_stats.java",
       Constants.TMP_DIR + "/" + Constants.PARSED_PROJECTS_FILE,
       Constants.TMP_DIR + "/" + Constants.GITHUB_STATS_FILE
     );

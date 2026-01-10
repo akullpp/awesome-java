@@ -1,5 +1,3 @@
-import java.util.regex.Pattern;
-
 /**
  * Represents a parsed project entry from the markdown file.
  */
@@ -24,8 +22,7 @@ public record ProjectEntry(
     if (!isGitHubRepo()) {
       return null;
     }
-    var pattern = Pattern.compile("https://github\\.com/([^)/\\s]+/[^)\\s#]+)");
-    var matcher = pattern.matcher(url);
+    var matcher = Constants.GITHUB_REPO_PATTERN.matcher(url);
     return matcher.find() ? matcher.group(1) : null;
   }
 }

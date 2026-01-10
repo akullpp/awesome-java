@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-First and most importantly of all: Thank you for your interest in contributing to the Awesome Java list!
+First and most importantly: Thank you for your interest in contributing to the Awesome Java list!
 
 ## Automated Workflow
 
@@ -8,44 +8,46 @@ This repository uses an automated workflow to maintain the main `README.md` file
 
 ### For Contributors
 
-1. **Edit `CONTRIBUTE_README.md`** - Make all your changes to this file, not `README.md`
-2. **Submit a Pull Request** - Create a PR with your changes to `CONTRIBUTE_README.md`
-3. **GitHub Actions will automatically**:
-   - Convert the list format to HTML tables
-   - Add GitHub stars and last commit badges
+1. Edit `CONTRIBUTE_README.md`: Make all your changes in this file, **not** `README.md`
+2. Submit a Pull Request: Create a PR with your changes to `CONTRIBUTE_README.md`
+3. GitHub Actions will automatically:
+   - Convert the list format to markdown tables
+   - Add GitHub stars and last commit dates
    - Update `README.md` with the converted content
    - Commit and push the changes
 
 ### What NOT to do
 
-- **Don't edit `README.md` directly** - It will be overwritten by the automated workflow
-- **Don't edit the scripts** unless you're improving the conversion process
-- **Don't manually run the conversion scripts** - GitHub Actions handles this
+- Don't edit `README.md` directly, since it will be overwritten by the automated workflow
+- Don't edit the scripts, unless you're improving the conversion process
+- Don't manually run the conversion scripts, GitHub Actions handles this
 
 ## How to Contribute
 
 ### Adding a New Project
 
-1. **Find the appropriate section** in `CONTRIBUTE_README.md`
-2. **Add your entry** using this format:
+1. Find the appropriate section in `CONTRIBUTE_README.md`
+2. Add your entry using this format:
+
    ```markdown
    - [Project Name](https://github.com/user/repo) - Brief description of what the project does.
    ```
-3. **Follow the existing style**
-4. **Submit a Pull Request**
+
+3. Follow the existing style
+4. Submit a Pull Request
 
 ### Updating an Existing Project
 
-1. **Find the project** in `CONTRIBUTE_README.md`
-2. **Update the description** or URL as needed
-3. **Submit a Pull Request** with your changes
+1. Find the project in `CONTRIBUTE_README.md`
+2. Update the description or URL as needed
+3. Submit a Pull Request with your changes
 
 ### Adding a New Category
 
-1. **Add the category** to the Contents section
-2. **Create a new section** with the appropriate heading
-3. **Add projects** to the new section
-4. **Submit a Pull Request** with your changes
+1. Add the category to the Contents section
+2. Create a new section with the appropriate heading
+3. Add projects to the new section
+4. Submit a Pull Request with your changes
 
 ## Guidelines
 
@@ -75,31 +77,33 @@ This repository uses an automated workflow to maintain the main `README.md` file
 
 The automated workflow (`update-readme.yml`) runs when:
 
+- **Weekly schedule** - Every Monday at 00:00 UTC
 - **Push to master** - When `CONTRIBUTE_README.md` or scripts are updated
-- **Pull Request** - When `CONTRIBUTE_README.md` or scripts are modified
 - **Manual trigger** - Can be triggered manually from the Actions tab
+
+The workflow requires a GitHub Personal Access Token (PAT) stored as `GITHUB_TOKEN` in repository secrets to fetch repository statistics.
 
 ### File Structure
 
-```
-├── CONTRIBUTE_README.md    # Source file (edit this)
-├── README.md              # Generated file (don't edit)
+```text
+├── CONTRIBUTE_README.md            # Source file (edit this)
+├── README.md                       # Generated file (don't edit)
 ├── scripts/
 │   ├── run_workflow.java           # Main workflow orchestrator
 │   ├── step_1_validate_input.java  # Input validation
 │   ├── step_2_parse_projects.java  # Project parsing
-│   ├── step_3_generate_badges.java # Badge generation
-│   ├── step_4_generate_tables.java # HTML table generation
+│   ├── step_3_generate_badges.java # Stats generation
+│   ├── step_4_generate_tables.java # Markdown table generation
 │   ├── step_5_assemble_readme.java # Final assembly
 │   ├── step_6_validate_transformation.java # Data integrity validation
 │   ├── ProjectEntry.java           # Data model
 │   ├── FileUtils.java              # Utility functions
 │   ├── Constants.java              # Shared constants
 │   └── README.md                   # Script documentation
-├── .tmp/                          # Temporary files (auto-generated)
+├── .tmp/                           # Temporary files (auto-generated)
 │   ├── parsed-projects.txt
-│   ├── github-badges.txt
-│   └── generated-tables.html
+│   ├── github-stats.txt
+│   └── generated-tables.md
 └── .github/workflows/
     └── update-readme.yml           # GitHub Actions workflow
 ```
@@ -109,25 +113,30 @@ The automated workflow (`update-readme.yml`) runs when:
 The README generation follows a 6-step modular process:
 
 1. **Step 1 - Input Validation** (`step_1_validate_input.java`)
+
    - Validates that `CONTRIBUTE_README.md` exists and is readable
    - Provides file statistics
 
 2. **Step 2 - Project Parsing** (`step_2_parse_projects.java`)
+
    - Parses markdown content to extract project entries
    - Handles multi-line descriptions
    - Outputs: `parsed-projects.txt`
 
-3. **Step 3 - Badge Generation** (`step_3_generate_badges.java`)
-   - Generates GitHub badges for repositories
-   - Creates stars and last-commit badges
-   - Outputs: `github-badges.txt`
+3. **Step 3 - Stats Generation** (`step_3_generate_badges.java`)
+
+   - Fetches GitHub stars and last commit dates for repositories
+   - Creates text values for stars and last commit dates
+   - Outputs: `github-stats.txt`
 
 4. **Step 4 - Table Generation** (`step_4_generate_tables.java`)
-   - Combines parsed projects with badges
-   - Generates HTML tables with proper styling
-   - Outputs: `generated-tables.html`
+
+   - Combines parsed projects with stats
+   - Generates markdown tables with proper styling
+   - Outputs: `generated-tables.md`
 
 5. **Step 5 - Final Assembly** (`step_5_assemble_readme.java`)
+
    - Combines original content with generated tables
    - Produces the final `README.md`
 
@@ -139,28 +148,33 @@ The README generation follows a 6-step modular process:
 ### Running the Workflow
 
 **Complete Workflow:**
+
 ```bash
 java --enable-preview --source 25 scripts/run_workflow.java
 ```
 
 **Individual Steps:**
+
 ```bash
 java --enable-preview --source 25 scripts/run_workflow.java [step_number]
 ```
 
 **Direct Step Execution:**
+
 ```bash
 java --enable-preview --source 25 scripts/step_1_validate_input.java
 java --enable-preview --source 25 scripts/step_2_parse_projects.java
-# ... etc
+# ...
 ```
 
-## 🐛 Troubleshooting
+**Note:** Step 3 requires the `GITHUB_TOKEN` environment variable to be set with a valid GitHub Personal Access Token.
+
+## Troubleshooting
 
 ### Common Issues
 
 1. **Workflow fails** - Check the Actions tab for error details
-2. **Badges not showing** - Ensure the repository URL is correct
+2. **Stats not showing** - Ensure the repository URL is correct and accessible
 3. **Formatting issues** - Check that your markdown is valid
 4. **Validation fails** - Step 6 validates data integrity:
    - Missing entries: Projects in original but not in final README
@@ -174,7 +188,7 @@ java --enable-preview --source 25 scripts/step_2_parse_projects.java
 - **Check existing issues** - Your question might already be answered
 - **Review the workflow logs** - In the Actions tab
 
-## 📄 License
+## License
 
 By contributing to this project, you agree that your contributions will be licensed under the same license as the project.
 

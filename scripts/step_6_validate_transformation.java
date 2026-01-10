@@ -45,7 +45,7 @@ void main(String[] args) throws IOException {
  * Extracts project entries from the original markdown format.
  */
 List<ProjectEntry> extractProjectEntries(String content) {
-  var lines = content.split("\n");
+  var lines = content.lines().toArray(String[]::new);
   var projectEntries = new ArrayList<ProjectEntry>();
   var inProjectSection = false;
   var currentSection = "";
@@ -97,7 +97,7 @@ List<ProjectEntry> extractProjectEntries(String content) {
  */
 List<ProjectEntry> extractProjectEntriesFromTables(String content) {
   var entries = new ArrayList<ProjectEntry>();
-  var lines = content.split("\n");
+  var lines = content.lines().toArray(String[]::new);
   var inProjectSection = false;
   var currentSection = "";
   var inTable = false;
@@ -167,7 +167,7 @@ ProjectEntry extractEntryFromMarkdownTableRow(String line, String section) {
 
   // Extract name and URL from [Name](URL) format in first cell
   var nameUrlPart = parts[1].trim();
-  var nameUrlMatch = Pattern.compile("\\[([^\\]]+)\\]\\(([^)]+)\\)").matcher(nameUrlPart);
+  var nameUrlMatch = Constants.MARKDOWN_LINK_PATTERN.matcher(nameUrlPart);
   if (!nameUrlMatch.find()) {
     return null;
   }

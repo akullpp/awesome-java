@@ -46,7 +46,7 @@ List<ProjectEntry> readParsedEntries(Path inputPath) throws IOException {
     String name = null, url = null, description = null, sectionName = null;
     int linesToSkip = 0;
 
-    for (var line : section.split("\n")) {
+    for (var line : section.lines().toArray(String[]::new)) {
       if (line.startsWith(Constants.NAME_PREFIX)) {
         name = line.substring(Constants.NAME_PREFIX.length());
       } else if (line.startsWith(Constants.URL_PREFIX)) {
@@ -85,7 +85,7 @@ Map<String, StatsMapping> readStatsMappings(Path statsPath) throws IOException {
     }
     String repo = null, name = null, starsText = null, lastCommitText = null;
 
-    for (var line : section.split("\n")) {
+    for (var line : section.lines().toArray(String[]::new)) {
       if (line.trim().isEmpty()) {
         continue;
       }
@@ -149,7 +149,6 @@ String createMarkdownTable(List<ProjectEntry> entries, Map<String, StatsMapping>
   var sectionName = entries.get(0).section();
   var table = new StringBuilder();
   table.append(Constants.SECTION_COMMENT_PREFIX).append(sectionName).append(" -->\n\n");
-  // Don't add section header here - it's already in the original file
   table.append("| Name | Description | Stars | Updated |\n");
   table.append("| :--- | :---------- | :---: | :-----: |\n");
 

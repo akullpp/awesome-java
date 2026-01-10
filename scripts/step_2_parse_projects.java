@@ -36,7 +36,7 @@ void main(String[] args) throws IOException {
  * Parses project entries from markdown content.
  */
 List<ProjectEntry> parseProjectEntries(String content) {
-  var lines = content.split("\n");
+  var lines = content.lines().toArray(String[]::new);
   var projectEntries = new ArrayList<ProjectEntry>();
   var inProjectSection = false;
   var currentSection = "";

@@ -12,9 +12,13 @@ public final class Constants {
   public static final String SUBSECTION = "### ";
   public static final String PROJECTS_SECTION = "## Projects";
 
-  // File patterns and markers
-  public static final String ENTRY_PATTERN = "^\\s*-\\s*\\[.*";
+  // Regex patterns
   public static final Pattern PROJECT_PATTERN = Pattern.compile("^\\s*-\\s*\\[([^\\]]+)\\]\\(([^)]+)\\)\\s*-\\s*(.+)");
+  public static final Pattern GITHUB_REPO_PATTERN = Pattern.compile("https://github\\.com/([^)/\\s]+/[^)\\s#]+)");
+  public static final Pattern MARKDOWN_LINK_PATTERN = Pattern.compile("\\[([^\\]]+)\\]\\(([^)]+)\\)");
+  public static final Pattern STARS_PATTERN = Pattern.compile("\"stargazers_count\"\\s*:\\s*(\\d+)");
+  public static final Pattern PUSHED_AT_PATTERN = Pattern.compile("\"pushed_at\"\\s*:\\s*\"([^\"]+)\"");
+  public static final String ENTRY_PATTERN = "^\\s*-\\s*\\[.*";
   public static final String INDENTED_LINE_PATTERN = "^\\s+.*";
 
   // File extensions and names

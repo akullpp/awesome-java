@@ -45,7 +45,7 @@ public class FileUtils {
    * Gets file statistics.
    */
   public static String getFileStats(Path filePath) throws IOException {
-    var lines = Files.readAllLines(filePath).size();
+    var lines = Files.lines(filePath).count();
     var size = Files.size(filePath);
     return "Lines: %d, Size: %d bytes".formatted(lines, size);
   }

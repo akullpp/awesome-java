@@ -28,14 +28,14 @@ void main(String[] args) throws IOException {
   System.out.println("SUCCESS: Successfully assembled final README!");
   System.out.println("Statistics:");
   System.out.printf("  - %s%n", FileUtils.getFileStats(outputPath));
-  System.out.printf("  - Badges: %d%n", countBadges(finalContent));
+  System.out.printf("  - Stats entries: %d%n", countStats(finalContent));
 }
 
 /**
  * Replaces project sections with markdown tables.
  */
 String assembleReadme(String originalContent, String tablesContent) {
-  var lines = originalContent.split("\n");
+  var lines = originalContent.lines().toArray(String[]::new);
   var result = new StringBuilder();
   var inProjectSection = false;
 
@@ -136,12 +136,16 @@ String assembleReadme(String originalContent, String tablesContent) {
 }
 
 /**
- * Counts the number of badges in the content.
+ * Counts the number of stats entries in the content.
  */
-long countBadges(String content) {
+long countStats(String content) {
+  // Count table rows (excluding header and separator rows)
   return content.lines()
-      .filter(line -> line.contains("|") && (line.contains("Stars") || line.contains("Updated")))
-      .count() / 2; // Approximate count based on table rows
+      .filter(line -> line.startsWith("|") &&
+                     !line.contains("| Name |") &&
+                     !line.contains("| :--- |") &&
+                     line.contains("|"))
+      .count();
 }
 
 /**
@@ -156,7 +160,7 @@ Map<String, String> createSectionToTableMap(String[] tables) {
     }
 
     // Extract section name from the comment (format: SectionName --> or <!-- SECTION:SectionName -->)
-    var lines = table.split("\n");
+    var lines = table.lines().toArray(String[]::new);
     String sectionName = null;
 
     for (var line : lines) {
