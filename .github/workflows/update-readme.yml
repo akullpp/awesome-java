@@ -56,7 +56,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md
+          git add -f README.md
           # Always commit the stats cache so it persists for next run
           git add .tmp/github-stats.txt || true
           if git diff --staged --quiet; then
