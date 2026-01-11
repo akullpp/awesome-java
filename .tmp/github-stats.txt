@@ -313,7 +313,7 @@ LICENSE:-
 REPO:INRIA/spoon
 NAME:Spoon
 STARS:1.9k
-COMMIT:4h
+COMMIT:5h
 LICENSE:-
 
 REPO:spotbugs/spotbugs
@@ -358,6 +358,12 @@ STARS:-
 COMMIT:-
 LICENSE:-
 
+REPO:
+NAME:Bootify
+STARS:-
+COMMIT:-
+LICENSE:-
+
 REPO:Marcel091004/EasyEntityToDTO
 NAME:EasyEntityToDTO
 STARS:6
@@ -396,6 +402,12 @@ LICENSE:Apache-2.0
 
 REPO:
 NAME:Joda-Beans
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:JPA Buddy
 STARS:-
 COMMIT:-
 LICENSE:-
@@ -631,7 +643,7 @@ LICENSE:-
 REPO:protocolbuffers/protobuf
 NAME:Protobuf
 STARS:70.3k
-COMMIT:7m
+COMMIT:42m
 LICENSE:-
 
 REPO:RoaringBitmap/RoaringBitmap
@@ -1144,6 +1156,12 @@ STARS:649
 COMMIT:3mo
 LICENSE:MIT
 
+REPO:
+NAME:Boxfuse
+STARS:-
+COMMIT:-
+LICENSE:-
+
 REPO:puniverse/capsule
 NAME:Capsule
 STARS:1.2k
@@ -1152,6 +1170,12 @@ LICENSE:EPL-1.0
 
 REPO:
 NAME:Central Repository
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:Cloudsmith
 STARS:-
 COMMIT:-
 LICENSE:-
@@ -1185,6 +1209,12 @@ NAME:jlink.online
 STARS:50
 COMMIT:1y
 LICENSE:Apache-2.0
+
+REPO:
+NAME:Nexus
+STARS:-
+COMMIT:-
+LICENSE:-
 
 REPO:libgdx/packr
 NAME:packr
@@ -1420,6 +1450,12 @@ STARS:-
 COMMIT:-
 LICENSE:-
 
+REPO:Esri/arcgis-maps-sdk-java-samples/
+NAME:ArcGIS Maps SDK for Java
+STARS:N/A
+COMMIT:N/A
+LICENSE:-
+
 REPO:davidmoten/geo
 NAME:Geo
 STARS:431
@@ -1477,7 +1513,7 @@ LICENSE:-
 REPO:reportmill/SnapKit
 NAME:SnapKit
 STARS:310
-COMMIT:12h
+COMMIT:13h
 LICENSE:-
 
 REPO:
@@ -1614,6 +1650,12 @@ LICENSE:Apache-2.0
 
 REPO:
 NAME:Eclipse
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:IntelliJ IDEA
 STARS:-
 COMMIT:-
 LICENSE:-
@@ -1903,7 +1945,7 @@ LICENSE:-
 REPO:oracle/graal
 NAME:Graal
 STARS:21.4k
-COMMIT:11h
+COMMIT:12h
 LICENSE:-
 
 REPO:
@@ -2052,6 +2094,12 @@ LICENSE:-
 
 REPO:
 NAME:DJL
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:H2O
 STARS:-
 COMMIT:-
 LICENSE:-
@@ -2536,6 +2584,12 @@ STARS:573
 COMMIT:1y
 LICENSE:Apache-2.0
 
+REPO:DataDog/dd-trace-java
+NAME:Datadog
+STARS:684
+COMMIT:3h
+LICENSE:Apache-2.0
+
 REPO:dropwizard/metrics
 NAME:Dropwizard Metrics
 STARS:7.9k
@@ -2568,6 +2622,12 @@ LICENSE:-
 
 REPO:
 NAME:inspectIT
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:Instrumental
 STARS:-
 COMMIT:-
 LICENSE:-
@@ -2630,6 +2690,18 @@ REPO:prometheus/client_java
 NAME:Prometheus
 STARS:2.3k
 COMMIT:10h
+LICENSE:Apache-2.0
+
+REPO:getsentry/sentry-java
+NAME:Sentry
+STARS:1.3k
+COMMIT:1d
+LICENSE:MIT
+
+REPO:sematext/sematext-agent-java
+NAME:SPM
+STARS:24
+COMMIT:2d
 LICENSE:Apache-2.0
 
 REPO:stagemonitor/stagemonitor
@@ -2860,6 +2932,42 @@ STARS:454
 COMMIT:3mo
 LICENSE:MIT
 
+REPO:
+NAME:AWS Elastic Beanstalk
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:AWS Lambda
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:Google Cloud
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:Heroku
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:Microsoft Azure
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:OpenShift
+STARS:-
+COMMIT:-
+LICENSE:-
+
 REPO:bsommerfeld/pathetic
 NAME:Pathetic
 STARS:236
@@ -2903,6 +3011,12 @@ COMMIT:1d
 LICENSE:-
 
 REPO:
+NAME:iText
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
 NAME:JasperReports
 STARS:-
 COMMIT:-
@@ -2925,6 +3039,18 @@ NAME:Tabula
 STARS:2.0k
 COMMIT:9mo
 LICENSE:MIT
+
+REPO:
+NAME:fastThread
+STARS:-
+COMMIT:-
+LICENSE:-
+
+REPO:
+NAME:GCeasy
+STARS:-
+COMMIT:-
+LICENSE:-
 
 REPO:jvm-profiling-tools/honest-profiler
 NAME:honest-profiler
