@@ -141,21 +141,49 @@ Map<String, StatsMapping> readStatsMappings(Path statsPath) throws IOException {
 List<StatsMapping> generateStatsMappings(List<ProjectEntry> entries, Map<String, StatsMapping> existingMappings) throws IOException, InterruptedException {
   var mappings = new ArrayList<StatsMapping>();
 
-  // Check for GitHub Personal Access Token from environment variable
-  var githubToken = System.getenv("PAT");
-
-  if (githubToken == null || githubToken.isBlank()) {
-    System.err.println("ERROR: PAT environment variable is required!");
-    System.err.println("  Without a PAT, the rate limit is only 60 requests/hour (not enough for all repositories)");
-    System.err.println("  Please set PAT environment variable:");
-    System.err.println("    export PAT=your_token_here");
-    System.exit(1);
-  }
-
-  System.out.println("Using GitHub PAT");
-  var client = HttpClient.newHttpClient();
   var total = entries.stream().filter(ProjectEntry::isGitHubRepo).count();
   var processed = 0;
+  var needsApiCall = false;
+
+  // First pass: check if we need any API calls
+  for (var entry : entries) {
+    if (!entry.isGitHubRepo()) {
+      continue;
+    }
+
+    var repo = entry.getGitHubRepo();
+    if (repo == null) {
+      continue;
+    }
+
+    var existing = existingMappings.get(entry.name());
+    if (existing == null || !existing.repo().equals(repo) ||
+        existing.starsText().equals(Constants.NO_STATS) ||
+        existing.lastCommitText().equals(Constants.NO_STATS) ||
+        existing.starsText().equals(Constants.INVALID_REPO) ||
+        existing.lastCommitText().equals(Constants.INVALID_REPO)) {
+      needsApiCall = true;
+      break;
+    }
+  }
+
+  // Only require PAT and create HttpClient if we need to fetch data
+  String githubToken = null;
+  HttpClient client = null;
+  if (needsApiCall) {
+    githubToken = System.getenv("PAT");
+    if (githubToken == null || githubToken.isBlank()) {
+      System.err.println("ERROR: PAT environment variable is required!");
+      System.err.println("  Without a PAT, the rate limit is only 60 requests/hour (not enough for all repositories)");
+      System.err.println("  Please set PAT environment variable:");
+      System.err.println("    export PAT=your_token_here");
+      System.exit(1);
+    }
+    System.out.println("Using GitHub PAT");
+    client = HttpClient.newHttpClient();
+  } else {
+    System.out.println("All data available in cache, skipping API calls");
+  }
 
   for (var entry : entries) {
     if (!entry.isGitHubRepo()) {
@@ -183,15 +211,13 @@ List<StatsMapping> generateStatsMappings(List<ProjectEntry> entries, Map<String,
 
     processed++;
 
-    // Check if we already have complete data for this repository (including license)
+    // Check if we already have complete data for this repository
     var existing = existingMappings.get(entry.name());
     if (existing != null && existing.repo().equals(repo) &&
         !existing.starsText().equals(Constants.NO_STATS) &&
         !existing.lastCommitText().equals(Constants.NO_STATS) &&
         !existing.starsText().equals(Constants.INVALID_REPO) &&
-        !existing.lastCommitText().equals(Constants.INVALID_REPO) &&
-        existing.licenseText() != null &&
-        !existing.licenseText().equals(Constants.NO_STATS)) {
+        !existing.lastCommitText().equals(Constants.INVALID_REPO)) {
       mappings.add(existing);
       if (processed % 50 == 0) {
         System.out.printf("Processing %d/%d repositories... (using cached data)%n", processed, total);

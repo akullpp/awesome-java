@@ -48,6 +48,8 @@ String assembleReadme(String originalContent, String tablesContent) {
 
   // Create a mapping of sections to their tables
   var sectionToTableMap = createSectionToTableMap(tables);
+  // Track which sections have already had their tables inserted
+  var insertedSections = new java.util.HashSet<String>();
 
   for (int i = 0; i < lines.length; i++) {
     var line = lines[i];
@@ -112,7 +114,7 @@ String assembleReadme(String originalContent, String tablesContent) {
         var currentSubsection = findCurrentSubsection(lines, i);
         if (currentSubsection != null) {
           var combinedSection = currentSubsection + "/" + level4Name;
-          if (sectionToTableMap.containsKey(combinedSection)) {
+          if (sectionToTableMap.containsKey(combinedSection) && !insertedSections.contains(combinedSection)) {
             // Add blank line before table (italic ends with \n, so add another \n)
             result.append("\n");
             // Insert table after the description
@@ -123,6 +125,8 @@ String assembleReadme(String originalContent, String tablesContent) {
             if (tableEndsWith < 2) {
               result.append("\n".repeat(2 - tableEndsWith));
             }
+            // Mark this section as inserted
+            insertedSections.add(combinedSection);
           }
         }
       } else {
@@ -152,7 +156,7 @@ String assembleReadme(String originalContent, String tablesContent) {
         sectionKey = currentSubsection;
       }
 
-      if (sectionKey != null) {
+      if (sectionKey != null && !insertedSections.contains(sectionKey)) {
         // Check if previous non-blank line was a level 4 heading or italic description
         var prevNonBlankLine = findPreviousNonBlankLine(lines, i);
         var needsBlankBeforeTable = (prevNonBlankLine != null &&
@@ -180,6 +184,8 @@ String assembleReadme(String originalContent, String tablesContent) {
         if (tableEndsWith < 2) {
           result.append("\n".repeat(2 - tableEndsWith));
         }
+        // Mark this section as inserted
+        insertedSections.add(sectionKey);
       }
       // Skip ALL remaining list items in this section until we hit the next subsection, level 4 heading, or end delimiter
       while (i + 1 < lines.length &&

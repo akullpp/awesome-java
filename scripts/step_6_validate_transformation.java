@@ -100,6 +100,7 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
   var lines = content.lines().toArray(String[]::new);
   var inProjectSection = false;
   var currentSection = "";
+  var currentLevel4Section = "";
   var inTable = false;
   var tableSection = "";
 
@@ -122,16 +123,25 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
       continue;
     }
 
-    // Track subsection changes
+    // Track subsection changes (level 3 headings) - reset level 4 section
     if (line.startsWith(Constants.SUBSECTION)) {
       currentSection = line.substring(Constants.SUBSECTION.length());
+      currentLevel4Section = ""; // Reset level 4 when we hit a new level 3
+      continue;
+    }
+    // Track level 4 headings
+    if (line.startsWith("####")) {
+      currentLevel4Section = line.substring(4).trim(); // Remove "#### "
       continue;
     }
 
     // Track table boundaries - look for Markdown table headers
     if (line.startsWith("|") && line.contains("| Name |")) {
       inTable = true;
-      tableSection = currentSection;
+      // Combine level 3 and level 4 sections like step 2 does
+      tableSection = currentLevel4Section.isEmpty()
+          ? currentSection
+          : currentSection + "/" + currentLevel4Section;
       continue;
     }
     if (inTable && line.startsWith("|") && line.contains("| :--- |")) {
@@ -157,12 +167,17 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
 
 /**
  * Extracts a project entry from a Markdown table row.
- * Table format: | Name | Description | Stars | Updated |
+ * Table format: | Name | Description | Stars | Updated | [License]
+ * Supports both 4-column (without License) and 5-column (with License) formats
  */
 ProjectEntry extractEntryFromMarkdownTableRow(String line, String section) {
   // Split by | and clean up
   var parts = line.split("\\|");
-  if (parts.length < 6) {
+  // Need at least 5 parts for 4 columns without trailing | (empty, Name, Description, Stars, Updated)
+  // or 6 parts for 4 columns with trailing | (empty, Name, Description, Stars, Updated, empty)
+  // or 6 parts for 5 columns without trailing | (empty, Name, Description, Stars, Updated, License)
+  // or 7 parts for 5 columns with trailing | (empty, Name, Description, Stars, Updated, License, empty)
+  if (parts.length < 5) {
     return null;
   }
 
@@ -263,7 +278,19 @@ ValidationResult validateTransformation(List<ProjectEntry> original, List<Projec
       missingEntries.add(originalEntry);
     } else {
       var transformedEntry = transformedMap.get(key);
-      if (!originalEntry.section().equals(transformedEntry.section())) {
+      // Extract base section (before first "/") for comparison
+      var originalSection = originalEntry.section();
+      var transformedSection = transformedEntry.section();
+      var originalBase = originalSection.contains("/")
+          ? originalSection.substring(0, originalSection.indexOf("/"))
+          : originalSection;
+      var transformedBase = transformedSection.contains("/")
+          ? transformedSection.substring(0, transformedSection.indexOf("/"))
+          : transformedSection;
+      // Sections match if they're equal or have the same base section
+      var sectionsMatch = originalSection.equals(transformedSection) ||
+          originalBase.equals(transformedBase);
+      if (!sectionsMatch) {
         wrongSectionEntries.add(new SectionMismatch(
           originalEntry,
           transformedEntry
