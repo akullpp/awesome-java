@@ -152,15 +152,14 @@ String createMarkdownTable(List<ProjectEntry> entries, Map<String, StatsMapping>
   var sectionName = entries.get(0).section();
   var table = new StringBuilder();
   table.append(Constants.SECTION_COMMENT_PREFIX).append(sectionName).append(" -->\n\n");
-  table.append("| Name | Description | Stars | Updated | License |\n");
-  table.append("| :--- | :---------- | :---: | :-----: | :-----: |\n");
+  table.append("| Name | Description | Stars | Updated |\n");
+  table.append("| :--- | :---------- | :---: | :-----: |\n");
 
   for (var entry : entries) {
     var desc = entry.description().isEmpty() ? Constants.NO_DESCRIPTION : entry.description();
     var stats = statsMappings.get(entry.name());
     var stars = stats != null ? stats.starsText() : Constants.NO_STATS;
     var commit = stats != null ? stats.lastCommitText() : Constants.NO_STATS;
-    var license = stats != null && stats.licenseText() != null ? stats.licenseText() : Constants.NO_STATS;
 
     // Escape pipe characters in description for markdown
     desc = desc.replace("|", "\\|");
@@ -168,8 +167,7 @@ String createMarkdownTable(List<ProjectEntry> entries, Map<String, StatsMapping>
     table.append("| [").append(entry.name()).append("](").append(entry.url()).append(") | ");
     table.append(desc).append(" | ");
     table.append(stars).append(" | ");
-    table.append(commit).append(" | ");
-    table.append(license).append(" |\n");
+    table.append(commit).append(" |\n");
   }
   // Add single newline after table
   table.append("\n");

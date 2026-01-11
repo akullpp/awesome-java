@@ -142,13 +142,13 @@ List<StatsMapping> generateStatsMappings(List<ProjectEntry> entries, Map<String,
   var mappings = new ArrayList<StatsMapping>();
 
   // Check for GitHub Personal Access Token from environment variable
-  var githubToken = System.getenv("GITHUB_TOKEN");
+  var githubToken = System.getenv("PAT");
 
   if (githubToken == null || githubToken.isBlank()) {
-    System.err.println("ERROR: GITHUB_TOKEN environment variable is required!");
+    System.err.println("ERROR: PAT environment variable is required!");
     System.err.println("  Without a PAT, the rate limit is only 60 requests/hour (not enough for all repositories)");
-    System.err.println("  Please set GITHUB_TOKEN environment variable:");
-    System.err.println("    export GITHUB_TOKEN=your_token_here");
+    System.err.println("  Please set PAT environment variable:");
+    System.err.println("    export PAT=your_token_here");
     System.exit(1);
   }
 

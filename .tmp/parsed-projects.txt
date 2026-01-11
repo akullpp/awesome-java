@@ -133,14 +133,14 @@ SECTION:Bytecode Manipulation
 
 NAME:bytecode-viewer
 URL:https://github.com/Konloch/bytecode-viewer
-DESC:All-in-one reverse engineering suite for JAR and APK files. (GPL-3.0-only)
+DESC:All-in-one reverse engineering suite for JAR and APK files.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:Byteman
 URL:https://byteman.jboss.org
-DESC:Rule-based runtime bytecode injection for testing and fault injection. (LGPL-2.1-or-later)
+DESC:Rule-based runtime bytecode injection for testing and fault injection.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
@@ -273,7 +273,7 @@ SECTION:CLI/Text-Based User Interfaces
 
 NAME:Lanterna
 URL:https://github.com/mabe02/lanterna
-DESC:Curses-like TUI with cross-platform terminal abstraction. (LGPL-3.0-only)
+DESC:Curses-like TUI with cross-platform terminal abstraction.
 SKIP:1
 SECTION:CLI/Text-Based User Interfaces
 ---
@@ -294,7 +294,7 @@ SECTION:Cloud
 
 NAME:Checkstyle
 URL:https://github.com/checkstyle/checkstyle
-DESC:Enforces coding standards with 150+ configurable checks. (LGPL-2.1-or-later)
+DESC:Enforces coding standards with 150+ configurable checks.
 SKIP:1
 SECTION:Code Analysis
 ---
@@ -322,7 +322,7 @@ SECTION:Code Analysis
 
 NAME:jQAssistant
 URL:https://jqassistant.org
-DESC:Query codebase structure with Cypher on a Neo4j graph. (GPL-3.0-only)
+DESC:Query codebase structure with Cypher on a Neo4j graph.
 SKIP:1
 SECTION:Code Analysis
 ---
@@ -357,7 +357,7 @@ SECTION:Code Analysis
 
 NAME:SonarJava
 URL:https://github.com/SonarSource/sonar-java
-DESC:600+ rules for SonarQube with security hotspot detection. (LGPL-3.0-only)
+DESC:600+ rules for SonarQube with security hotspot detection.
 SKIP:1
 SECTION:Code Analysis
 ---
@@ -371,7 +371,7 @@ SECTION:Code Analysis
 
 NAME:Spotbugs
 URL:https://github.com/spotbugs/spotbugs
-DESC:FindBugs successor; bytecode analysis for 400+ bug patterns. (LGPL-2.1-only)
+DESC:FindBugs successor; bytecode analysis for 400+ bug patterns.
 SKIP:1
 SECTION:Code Analysis
 ---
@@ -385,7 +385,7 @@ SECTION:Code Coverage
 
 NAME:Cobertura
 URL:https://cobertura.github.io/cobertura/
-DESC:Bytecode instrumentation with branch coverage and complexity metrics. (GPL-2.0-only)
+DESC:Bytecode instrumentation with branch coverage and complexity metrics.
 SKIP:1
 SECTION:Code Coverage
 ---
@@ -414,6 +414,13 @@ SECTION:Code Generators
 NAME:Avaje Http Server
 URL:https://avaje.io/http/
 DESC:Compile-time HTTP server generation for Javalin/Helidon; no reflection.
+SKIP:1
+SECTION:Code Generators
+---
+
+NAME:Bootify
+URL:https://bootify.io
+DESC:Browser-based Spring Boot scaffolding with JPA entities and REST APIs.
 SKIP:1
 SECTION:Code Generators
 ---
@@ -463,6 +470,13 @@ SECTION:Code Generators
 NAME:Joda-Beans
 URL:https://www.joda.org/joda-beans/
 DESC:Adds queryable, serializable properties to POJOs via code generation.
+SKIP:1
+SECTION:Code Generators
+---
+
+NAME:JPA Buddy
+URL:https://www.jpa-buddy.com
+DESC:IntelliJ plugin for visual JPA entity design with Liquibase/Flyway diff generation.
 SKIP:1
 SECTION:Code Generators
 ---
@@ -630,7 +644,7 @@ SECTION:Constraint Satisfaction Problem Solver
 
 NAME:JaCoP
 URL:https://github.com/radsz/jacop
-DESC:Constraint solver with MiniZinc/FlatZinc support for modeling. (AGPL-3.0)
+DESC:Constraint solver with MiniZinc/FlatZinc support for modeling.
 SKIP:1
 SECTION:Constraint Satisfaction Problem Solver
 ---
@@ -819,7 +833,7 @@ SECTION:Database
 
 NAME:eXist
 URL:https://github.com/eXist-db/exist
-DESC:Native XML database with XQuery and full-text search. (LGPL-2.1-only)
+DESC:Native XML database with XQuery and full-text search.
 SKIP:1
 SECTION:Database
 ---
@@ -1064,7 +1078,7 @@ SECTION:Date and Time
 
 NAME:Time4J
 URL:https://github.com/MenoData/Time4J
-DESC:Comprehensive date/time with calendars, i18n, and formatting. (LGPL-2.1-only)
+DESC:Comprehensive date/time with calendars, i18n, and formatting.
 SKIP:1
 SECTION:Date and Time
 ---
@@ -1127,7 +1141,7 @@ SECTION:Dependency Injection
 
 NAME:JayWire
 URL:https://github.com/vanillasource/jaywire
-DESC:Minimal DI with no annotations required. (LGPL-3.0-only)
+DESC:Minimal DI with no annotations required.
 SKIP:1
 SECTION:Dependency Injection
 ---
@@ -1141,7 +1155,7 @@ SECTION:Development
 
 NAME:DCEVM
 URL:https://dcevm.github.io
-DESC:HotSwap on steroids: redefine classes, add methods/fields at runtime. (GPL-2.0-only)
+DESC:HotSwap on steroids: redefine classes, add methods/fields at runtime.
 SKIP:1
 SECTION:Development
 ---
@@ -1155,7 +1169,7 @@ SECTION:Development
 
 NAME:HotswapAgent
 URL:https://github.com/HotswapProjects/HotswapAgent
-DESC:Hot reload classes, Spring beans, and resources without restart. (GPL-2.0-only)
+DESC:Hot reload classes, Spring beans, and resources without restart.
 SKIP:1
 SECTION:Development
 ---
@@ -1239,7 +1253,7 @@ SECTION:Distributed Applications
 
 NAME:Dropwizard Circuit Breaker
 URL:https://github.com/mtakaki/dropwizard-circuitbreaker
-DESC:Annotation-based circuit breakers for Dropwizard. (GPL-2.0-only)
+DESC:Annotation-based circuit breakers for Dropwizard.
 SKIP:1
 SECTION:Distributed Applications
 ---
@@ -1316,7 +1330,7 @@ SECTION:Distributed Transactions
 
 NAME:Narayana
 URL:https://narayana.io
-DESC:Red Hat's JTA/JTS transaction manager with saga support. (LGPL-2.1-only)
+DESC:Red Hat's JTA/JTS transaction manager with saga support.
 SKIP:1
 SECTION:Distributed Transactions
 ---
@@ -1335,6 +1349,13 @@ SKIP:1
 SECTION:Distribution
 ---
 
+NAME:Boxfuse
+URL:https://boxfuse.com
+DESC:Immutable AWS deployments with minimal VM images.
+SKIP:1
+SECTION:Distribution
+---
+
 NAME:Capsule
 URL:https://github.com/puniverse/capsule
 DESC:Single-file deployment with embedded JVM and dependency resolution.
@@ -1345,6 +1366,13 @@ SECTION:Distribution
 NAME:Central Repository
 URL:https://search.maven.org
 DESC:Maven Central: the default artifact repository for the Java ecosystem.
+SKIP:1
+SECTION:Distribution
+---
+
+NAME:Cloudsmith
+URL:https://cloudsmith.io
+DESC:Cloud artifact hosting with Maven/Gradle support and free tier.
 SKIP:1
 SECTION:Distribution
 ---
@@ -1380,6 +1408,13 @@ SECTION:Distribution
 NAME:jlink.online
 URL:https://github.com/AdoptOpenJDK/jlink.online
 DESC:HTTP API for custom JRE generation via jlink.
+SKIP:1
+SECTION:Distribution
+---
+
+NAME:Nexus
+URL:https://www.sonatype.com
+DESC:Repository manager with proxying, caching, and security scanning.
 SKIP:1
 SECTION:Distribution
 ---
@@ -1484,7 +1519,7 @@ SECTION:Formal Verification
 
 NAME:Checker Framework
 URL:https://checkerframework.org
-DESC:Pluggable type systems for nullness, tainting, and more. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Pluggable type systems for nullness, tainting, and more.
 SKIP:1
 SECTION:Formal Verification
 ---
@@ -1505,21 +1540,21 @@ SECTION:Formal Verification
 
 NAME:JMLOK 2.0
 URL:https://massoni.computacao.ufcg.edu.br/home/jmlok
-DESC:Detects JML specification violations via random testing. (GPL-3.0-only)
+DESC:Detects JML specification violations via random testing.
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:KeY
 URL:https://www.key-project.org
-DESC:Deductive verification using JML and symbolic execution. (GPL-2.0-or-later)
+DESC:Deductive verification using JML and symbolic execution.
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:OpenJML
 URL:http://www.openjml.org
-DESC:JML verification via SMT solvers (Z3, CVC4). (GPL-2.0-only)
+DESC:JML verification via SMT solvers (Z3, CVC4).
 SKIP:1
 SECTION:Formal Verification
 ---
@@ -1533,7 +1568,7 @@ SECTION:Functional Programming
 
 NAME:derive4j
 URL:https://github.com/derive4j/derive4j
-DESC:Algebraic data types with pattern matching via annotation processing. (GPL-3.0-only)
+DESC:Algebraic data types with pattern matching via annotation processing.
 SKIP:1
 SECTION:Functional Programming
 ---
@@ -1657,6 +1692,13 @@ SKIP:1
 SECTION:Geospatial
 ---
 
+NAME:ArcGIS Maps SDK for Java
+URL:https://github.com/Esri/arcgis-maps-sdk-java-samples/
+DESC:Esri's JavaFX SDK for mapping and spatial analysis.
+SKIP:1
+SECTION:Geospatial
+---
+
 NAME:Geo
 URL:https://github.com/davidmoten/geo
 DESC:GeoHash encoding/decoding with spatial indexing.
@@ -1666,7 +1708,7 @@ SECTION:Geospatial
 
 NAME:GeoTools
 URL:https://geotools.org
-DESC:Comprehensive GIS toolkit for OGC standards. (LGPL-2.1-only)
+DESC:Comprehensive GIS toolkit for OGC standards.
 SKIP:1
 SECTION:Geospatial
 ---
@@ -1680,7 +1722,7 @@ SECTION:Geospatial
 
 NAME:H2GIS
 URL:http://www.h2gis.org
-DESC:Spatial SQL extension for H2 with OGC compliance. (LGPL-3.0-only)
+DESC:Spatial SQL extension for H2 with OGC compliance.
 SKIP:1
 SECTION:Geospatial
 ---
@@ -1694,7 +1736,7 @@ SECTION:Geospatial
 
 NAME:Mapsforge
 URL:https://github.com/mapsforge/mapsforge
-DESC:Offline map rendering from OpenStreetMap vector data. (LGPL-3.0-only)
+DESC:Offline map rendering from OpenStreetMap vector data.
 SKIP:1
 SECTION:Geospatial
 ---
@@ -1884,6 +1926,13 @@ SECTION:Hypermedia Types
 NAME:Eclipse
 URL:https://www.eclipse.org
 DESC:Extensible IDE with vast plugin ecosystem and multi-language support.
+SKIP:1
+SECTION:IDE
+---
+
+NAME:IntelliJ IDEA
+URL:https://www.jetbrains.com/idea/
+DESC:Smart IDE with deep refactoring, inspections, and framework support.
 SKIP:1
 SECTION:IDE
 ---
@@ -2205,7 +2254,7 @@ SECTION:JVM and JDK
 
 NAME:Corretto
 URL:https://aws.amazon.com/corretto/
-DESC:Amazon's LTS OpenJDK with AWS optimizations. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Amazon's LTS OpenJDK with AWS optimizations.
 SKIP:1
 SECTION:JVM and JDK
 ---
@@ -2219,14 +2268,14 @@ SECTION:JVM and JDK
 
 NAME:Graal
 URL:https://github.com/oracle/graal
-DESC:Polyglot VM with native image compilation (GraalVM). (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Polyglot VM with native image compilation (GraalVM).
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Liberica JDK
 URL:https://bell-sw.com
-DESC:JCK-certified OpenJDK with JavaFX bundled option. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:JCK-certified OpenJDK with JavaFX bundled option.
 SKIP:1
 SECTION:JVM and JDK
 ---
@@ -2240,35 +2289,35 @@ SECTION:JVM and JDK
 
 NAME:Open JDK
 URL:https://openjdk.java.net
-DESC:Reference implementation and development home. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Reference implementation and development home.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:ParparVM
 URL:https://github.com/codenameone/CodenameOne/tree/master/vm
-DESC:Non-blocking GC VM for iOS mobile development. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Non-blocking GC VM for iOS mobile development.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:RedHat Open JDK
 URL:https://developers.redhat.com/products/openjdk/overview
-DESC:Red Hat's enterprise-supported OpenJDK. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Red Hat's enterprise-supported OpenJDK.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:SAP Machine
 URL:https://sap.github.io/SapMachine/
-DESC:SAP's JCK-verified OpenJDK for enterprise. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:SAP's JCK-verified OpenJDK for enterprise.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Zulu
 URL:https://www.azul.com/products/zulu-community/
-DESC:Azul's TCK-certified OpenJDK with commercial support option. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Azul's TCK-certified OpenJDK with commercial support option.
 SKIP:1
 SECTION:JVM and JDK
 ---
@@ -2296,7 +2345,7 @@ SECTION:Logging
 
 NAME:Graylog
 URL:https://www.graylog.org
-DESC:Centralized log management with search and dashboards. (GPL-3.0-only)
+DESC:Centralized log management with search and dashboards.
 SKIP:1
 SECTION:Logging
 ---
@@ -2399,6 +2448,13 @@ SKIP:1
 SECTION:Machine Learning
 ---
 
+NAME:H2O
+URL:https://www.h2o.ai
+DESC:AutoML platform with in-memory distributed training.
+SKIP:1
+SECTION:Machine Learning
+---
+
 NAME:Intelligent java
 URL:https://github.com/Barqawiz/IntelliJava
 DESC:Unified API for OpenAI, Cohere, and other AI services.
@@ -2408,7 +2464,7 @@ SECTION:Machine Learning
 
 NAME:JSAT
 URL:https://github.com/EdwardRaff/JSAT
-DESC:Pure Java ML library with 100+ algorithms. (GPL-3.0-only)
+DESC:Pure Java ML library with 100+ algorithms.
 SKIP:1
 SECTION:Machine Learning
 ---
@@ -2464,7 +2520,7 @@ SECTION:Machine Learning
 
 NAME:Weka
 URL:https://www.cs.waikato.ac.nz/ml/weka/
-DESC:GUI-based ML toolkit with 100+ algorithms. (GPL-3.0-only)
+DESC:GUI-based ML toolkit with 100+ algorithms.
 SKIP:1
 SECTION:Machine Learning
 ---
@@ -2695,7 +2751,7 @@ SECTION:Miscellaneous
 
 NAME:FizzBuzz Enterprise Edition
 URL:https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition
-DESC:Satirical over-engineered FizzBuzz demonstrating pattern overuse. (No explicit license)
+DESC:Satirical over-engineered FizzBuzz demonstrating pattern overuse.
 SKIP:1
 SECTION:Miscellaneous
 ---
@@ -2730,7 +2786,7 @@ SECTION:Miscellaneous
 
 NAME:JBot
 URL:https://github.com/rampatra/jbot
-DESC:Slack and Facebook Messenger bot framework. (GPL-3.0-only)
+DESC:Slack and Facebook Messenger bot framework.
 SKIP:1
 SECTION:Miscellaneous
 ---
@@ -2870,7 +2926,7 @@ SECTION:Miscellaneous
 
 NAME:Smooks
 URL:https://github.com/smooks/smooks
-DESC:Event-driven data transformation and routing framework. (Apache-2.0 OR LGPL-3.0-or-later)
+DESC:Event-driven data transformation and routing framework.
 SKIP:1
 SECTION:Miscellaneous
 ---
@@ -2926,7 +2982,7 @@ SECTION:Miscellaneous
 
 NAME:Codename One
 URL:https://www.codenameone.com
-DESC:Write once, deploy native iOS/Android/web from Java. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Write once, deploy native iOS/Android/web from Java.
 SKIP:1
 SECTION:Mobile Development
 ---
@@ -2955,6 +3011,13 @@ SECTION:Monitoring
 NAME:Automon
 URL:https://github.com/stevensouza/automon
 DESC:AOP-based monitoring integration with JAMon/Metrics.
+SKIP:1
+SECTION:Monitoring
+---
+
+NAME:Datadog
+URL:https://github.com/DataDog/dd-trace-java
+DESC:APM agent with distributed tracing and profiling.
 SKIP:1
 SECTION:Monitoring
 ---
@@ -2997,6 +3060,13 @@ SECTION:Monitoring
 NAME:inspectIT
 URL:https://www.inspectit.rocks
 DESC:Bytecode-level APM with OpenTracing and EUM correlation.
+SKIP:1
+SECTION:Monitoring
+---
+
+NAME:Instrumental
+URL:https://instrumentalapp.com
+DESC:Real-time metrics with alerting and dashboards.
 SKIP:1
 SECTION:Monitoring
 ---
@@ -3071,6 +3141,20 @@ SKIP:1
 SECTION:Monitoring
 ---
 
+NAME:Sentry
+URL:https://github.com/getsentry/sentry-java
+DESC:Error tracking with stack traces and performance monitoring.
+SKIP:1
+SECTION:Monitoring
+---
+
+NAME:SPM
+URL:https://github.com/sematext/sematext-agent-java
+DESC:Transaction tracing and JVM metrics.
+SKIP:1
+SECTION:Monitoring
+---
+
 NAME:Stagemonitor
 URL:https://github.com/stagemonitor/stagemonitor
 DESC:Elasticsearch-integrated APM with Kibana dashboards.
@@ -3129,14 +3213,14 @@ SECTION:Native
 
 NAME:CogCompNLP
 URL:https://github.com/CogComp/cogcomp-nlp
-DESC:NLP pipeline with coreference, SRL, and relation extraction. (Research and Academic Use License)
+DESC:NLP pipeline with coreference, SRL, and relation extraction.
 SKIP:1
 SECTION:Natural Language Processing
 ---
 
 NAME:CoreNLP
 URL:https://nlp.stanford.edu/software/corenlp.shtml
-DESC:Stanford's NLP toolkit: NER, parsing, sentiment, and coreference. (GPL-3.0-or-later)
+DESC:Stanford's NLP toolkit: NER, parsing, sentiment, and coreference.
 SKIP:1
 SECTION:Natural Language Processing
 ---
@@ -3248,14 +3332,14 @@ SECTION:Networking
 
 NAME:Undertow
 URL:http://undertow.io
-DESC:High-performance web server with HTTP/2 and WebSocket. (LGPL-2.1-only)
+DESC:High-performance web server with HTTP/2 and WebSocket.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:urnlib
 URL:https://github.com/slub/urnlib
-DESC:URN parsing and validation per RFC 2141/8141. (GPL-3.0-only)
+DESC:URN parsing and validation per RFC 2141/8141.
 SKIP:1
 SECTION:Networking
 ---
@@ -3297,7 +3381,7 @@ SECTION:ORM
 
 NAME:Hibernate
 URL:http://hibernate.org/orm/
-DESC:Feature-rich JPA implementation with caching and search. (LGPL-2.1-only)
+DESC:Feature-rich JPA implementation with caching and search.
 SKIP:1
 SECTION:ORM
 ---
@@ -3337,6 +3421,48 @@ SKIP:1
 SECTION:ORM
 ---
 
+NAME:AWS Elastic Beanstalk
+URL:https://aws.amazon.com/elasticbeanstalk/
+DESC:Managed Tomcat/Jetty deployment with auto-scaling.
+SKIP:1
+SECTION:PaaS
+---
+
+NAME:AWS Lambda
+URL:https://aws.amazon.com/lambda/
+DESC:Serverless Java with SnapStart for cold starts.
+SKIP:1
+SECTION:PaaS
+---
+
+NAME:Google Cloud
+URL:https://cloud.google.com
+DESC:App Engine, Cloud Run, and GKE for Java workloads.
+SKIP:1
+SECTION:PaaS
+---
+
+NAME:Heroku
+URL:https://www.heroku.com
+DESC:Git-push deployment with buildpacks and add-ons.
+SKIP:1
+SECTION:PaaS
+---
+
+NAME:Microsoft Azure
+URL:https://azure.microsoft.com/en-us/
+DESC:App Service and Functions with Spring integration.
+SKIP:1
+SECTION:PaaS
+---
+
+NAME:OpenShift
+URL:https://www.openshift.com
+DESC:Enterprise Kubernetes with Java S2I builds.
+SKIP:1
+SECTION:PaaS
+---
+
 NAME:Pathetic
 URL:https://github.com/bsommerfeld/pathetic
 DESC:High-performance 3D A\* pathfinding with configurable heuristics.
@@ -3360,14 +3486,14 @@ SECTION:PDF
 
 NAME:Dynamic Jasper
 URL:https://intive-fdv.github.io/DynamicJasper/
-DESC:Programmatic JasperReports without XML. (LGPL-3.0-only)
+DESC:Programmatic JasperReports without XML.
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:DynamicReports
 URL:https://github.com/dynamicreports/dynamicreports
-DESC:Fluent API for JasperReports with charts. (LGPL-3.0-only)
+DESC:Fluent API for JasperReports with charts.
 SKIP:1
 SECTION:PDF
 ---
@@ -3381,14 +3507,21 @@ SECTION:PDF
 
 NAME:flyingsaucer
 URL:https://github.com/flyingsaucerproject/flyingsaucer
-DESC:XHTML/CSS to PDF renderer. (LGPL-2.1-or-later)
+DESC:XHTML/CSS to PDF renderer.
+SKIP:1
+SECTION:PDF
+---
+
+NAME:iText
+URL:https://itextpdf.com/en
+DESC:Full-featured PDF library with forms and digital signatures.
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:JasperReports
 URL:https://community.jaspersoft.com/project/jasperreports-library
-DESC:Enterprise reporting with charts, barcodes, and subreports. (LGPL-3.0-only)
+DESC:Enterprise reporting with charts, barcodes, and subreports.
 SKIP:1
 SECTION:PDF
 ---
@@ -3402,7 +3535,7 @@ SECTION:PDF
 
 NAME:OpenPDF
 URL:https://github.com/LibrePDF/OpenPDF
-DESC:LGPL iText fork with active maintenance. (LGPL-3.0-only & MPL-2.0)
+DESC:LGPL iText fork with active maintenance.
 SKIP:1
 SECTION:PDF
 ---
@@ -3412,6 +3545,20 @@ URL:https://github.com/tabulapdf/tabula-java
 DESC:Extract tabular data from PDFs into CSV/JSON.
 SKIP:1
 SECTION:PDF
+---
+
+NAME:fastThread
+URL:https://fastthread.io
+DESC:Online thread dump analyzer with deadlock detection.
+SKIP:1
+SECTION:Performance analysis
+---
+
+NAME:GCeasy
+URL:https://gceasy.io
+DESC:GC log analyzer with tuning recommendations.
+SKIP:1
+SECTION:Performance analysis
 ---
 
 NAME:honest-profiler
@@ -3437,7 +3584,7 @@ SECTION:Performance analysis
 
 NAME:JMH
 URL:http://openjdk.java.net/projects/code-tools/jmh/
-DESC:OpenJDK's microbenchmark harness with warmup and statistics. (GPL-2.0 only WITH Classpath-exception-2.0)
+DESC:OpenJDK's microbenchmark harness with warmup and statistics.
 SKIP:1
 SECTION:Performance analysis
 ---
@@ -4025,7 +4172,7 @@ SECTION:Science
 
 NAME:DataMelt
 URL:https://datamelt.org/
-DESC:Scientific computing environment with Python/Jython. (GPL-3.0-or-later)
+DESC:Scientific computing environment with Python/Jython.
 SKIP:1
 SECTION:Science
 ---
@@ -4046,7 +4193,7 @@ SECTION:Science
 
 NAME:JFreeChart
 URL:http://www.jfree.org/jfreechart/
-DESC:Comprehensive 2D charting for Swing/JavaFX. (LGPL-2.1-only)
+DESC:Comprehensive 2D charting for Swing/JavaFX.
 SKIP:1
 SECTION:Science
 ---
@@ -4095,7 +4242,7 @@ SECTION:Science
 
 NAME:Orson-Charts
 URL:https://github.com/jfree/orson-charts
-DESC:Interactive 3D charts with PDF/SVG export. (GPL-3.0-only)
+DESC:Interactive 3D charts with PDF/SVG export.
 SKIP:1
 SECTION:Science
 ---
@@ -4172,7 +4319,7 @@ SECTION:Security
 
 NAME:Cryptomator
 URL:https://cryptomator.org
-DESC:Client-side encryption for cloud storage with WebDAV. (GPL-3.0-only)
+DESC:Client-side encryption for cloud storage with WebDAV.
 SKIP:1
 SECTION:Security
 ---
@@ -4375,7 +4522,7 @@ SECTION:Server
 
 NAME:WildFly
 URL:https://www.wildfly.org
-DESC:Full Jakarta EE server with modular architecture. (LGPL-2.1-only)
+DESC:Full Jakarta EE server with modular architecture.
 SKIP:1
 SECTION:Server
 ---
@@ -4473,7 +4620,7 @@ SECTION:Testing/Asynchronous
 
 NAME:GreenMail
 URL:https://greenmail-mail-test.github.io/greenmail/
-DESC:Embedded SMTP/POP3/IMAP server for email testing. (GPL-2.0-only)
+DESC:Embedded SMTP/POP3/IMAP server for email testing.
 SKIP:1
 SECTION:Testing/Asynchronous
 ---
@@ -4795,7 +4942,7 @@ SECTION:Testing/Testing Miscellaneous
 
 NAME:pojo-tester
 URL:https://www.pojo.pl
-DESC:Auto-test equals, hashCode, toString, getters/setters. (LGPL-3.0-only)
+DESC:Auto-test equals, hashCode, toString, getters/setters.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
@@ -4907,7 +5054,7 @@ SECTION:Utility
 
 NAME:CRaSH
 URL:http://www.crashub.org
-DESC:SSH shell into running JVMs for inspection. (LGPL-2.1-or-later)
+DESC:SSH shell into running JVMs for inspection.
 SKIP:1
 SECTION:Utility
 ---
@@ -4942,7 +5089,7 @@ SECTION:Utility
 
 NAME:Gephi
 URL:https://github.com/gephi/gephi
-DESC:Network graph visualization and analysis tool. (GPL-3.0-only)
+DESC:Network graph visualization and analysis tool.
 SKIP:1
 SECTION:Utility
 ---
@@ -4956,7 +5103,7 @@ SECTION:Utility
 
 NAME:JADE
 URL:https://jade.tilab.com
-DESC:Multi-agent system framework with FIPA compliance. (LGPL-2.0-only)
+DESC:Multi-agent system framework with FIPA compliance.
 SKIP:1
 SECTION:Utility
 ---

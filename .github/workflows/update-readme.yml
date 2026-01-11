@@ -48,7 +48,7 @@ jobs:
 
       - name: Run README generation workflow
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT: ${{ secrets.PAT }}
         run: |
           java --enable-preview --source 25 scripts/run_workflow.java
 
@@ -58,7 +58,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -f README.md
           # Always commit the stats cache so it persists for next run
-          git add .tmp/github-stats.txt || true
+          git add -f .tmp/github-stats.txt || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

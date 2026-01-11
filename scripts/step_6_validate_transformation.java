@@ -157,7 +157,7 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
 
 /**
  * Extracts a project entry from a Markdown table row.
- * Table format: | Name | Description | Stars | Updated | License |
+ * Table format: | Name | Description | Stars | Updated |
  */
 ProjectEntry extractEntryFromMarkdownTableRow(String line, String section) {
   // Split by | and clean up

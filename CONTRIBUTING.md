@@ -81,7 +81,7 @@ The automated workflow (`update-readme.yml`) runs when:
 - **Push to master** - When `CONTRIBUTE_README.md` or scripts are updated
 - **Manual trigger** - Can be triggered manually from the Actions tab
 
-The workflow requires a GitHub Personal Access Token (PAT) stored as `GITHUB_TOKEN` in repository secrets to fetch repository statistics.
+The workflow requires a GitHub Personal Access Token (PAT) stored as `PAT` in repository secrets to fetch repository statistics.
 
 ### File Structure
 
@@ -167,7 +167,7 @@ java --enable-preview --source 25 scripts/step_2_parse_projects.java
 # ...
 ```
 
-**Note:** Step 3 requires the `GITHUB_TOKEN` environment variable to be set with a valid GitHub Personal Access Token.
+**Note:** Step 3 requires the `PAT` environment variable to be set with a valid GitHub Personal Access Token.
 
 ## Troubleshooting
 
