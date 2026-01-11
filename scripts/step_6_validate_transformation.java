@@ -249,12 +249,90 @@ ProjectEntry parseProjectEntry(String[] lines, int startIndex, String section) {
 }
 
 /**
+ * Normalizes URL for comparison (removes trailing slashes, converts to lowercase).
+ */
+String normalizeUrl(String url) {
+  if (url == null || url.isBlank()) {
+    return "";
+  }
+  return url.toLowerCase().replaceAll("/+$", "");
+}
+
+/**
+ * Detects duplicate entries by name and/or URL.
+ */
+List<DuplicateEntry> detectDuplicates(List<ProjectEntry> entries) {
+  var duplicates = new ArrayList<DuplicateEntry>();
+
+  // Group by name (case-insensitive)
+  var byName = entries.stream()
+    .collect(Collectors.groupingBy(e -> e.name().toLowerCase()));
+
+  // Group by URL (normalized)
+  var byUrl = entries.stream()
+    .collect(Collectors.groupingBy(e -> normalizeUrl(e.url())));
+
+  // Track which duplicates we've already reported
+  var reportedNames = new HashSet<String>();
+
+  // Find duplicates by name
+  for (var entry : byName.entrySet()) {
+    if (entry.getValue().size() > 1) {
+      var nameKey = entry.getKey();
+      reportedNames.add(nameKey);
+      var sections = entry.getValue().stream()
+        .map(ProjectEntry::section)
+        .distinct()
+        .sorted()
+        .toList();
+      duplicates.add(new DuplicateEntry(
+        entry.getValue().get(0).name(),
+        entry.getValue().get(0).url(),
+        sections
+      ));
+    }
+  }
+
+  // Find duplicates by URL (but not already reported by name)
+  for (var entry : byUrl.entrySet()) {
+    if (entry.getValue().size() > 1) {
+      var firstEntry = entry.getValue().get(0);
+      var nameKey = firstEntry.name().toLowerCase();
+      // Only report if not already reported as a name duplicate
+      if (!reportedNames.contains(nameKey)) {
+        var sections = entry.getValue().stream()
+          .map(ProjectEntry::section)
+          .distinct()
+          .sorted()
+          .toList();
+        duplicates.add(new DuplicateEntry(
+          firstEntry.name(),
+          firstEntry.url(),
+          sections
+        ));
+      }
+    }
+  }
+
+  return duplicates;
+}
+
+/**
  * Validates that all original entries are present in the transformed version.
  */
 ValidationResult validateTransformation(List<ProjectEntry> original, List<ProjectEntry> transformed) {
   var missingEntries = new ArrayList<ProjectEntry>();
   var wrongSectionEntries = new ArrayList<SectionMismatch>();
   var extraEntries = new ArrayList<ProjectEntry>();
+  var duplicateEntries = new ArrayList<DuplicateEntry>();
+
+  // Check for duplicates in original
+  var originalDuplicates = detectDuplicates(original);
+  duplicateEntries.addAll(originalDuplicates);
+
+  // Check for duplicates in transformed
+  var transformedDuplicates = detectDuplicates(transformed);
+  duplicateEntries.addAll(transformedDuplicates);
 
   // Create maps for easier lookup
   var originalMap = original.stream()
@@ -309,7 +387,8 @@ ValidationResult validateTransformation(List<ProjectEntry> original, List<Projec
   return new ValidationResult(
     missingEntries,
     wrongSectionEntries,
-    extraEntries
+    extraEntries,
+    duplicateEntries
   );
 }
 
@@ -323,7 +402,8 @@ void printValidationResults(ValidationResult result) {
 
   if (result.missingEntries().isEmpty() &&
       result.wrongSectionEntries().isEmpty() &&
-      result.extraEntries().isEmpty()) {
+      result.extraEntries().isEmpty() &&
+      result.duplicateEntries().isEmpty()) {
     System.out.println("All validations passed!");
     return;
   }
@@ -354,6 +434,15 @@ void printValidationResults(ValidationResult result) {
     }
     System.out.println();
   }
+
+  if (!result.duplicateEntries().isEmpty()) {
+    System.out.printf("DUPLICATE ENTRIES (%d):%n", result.duplicateEntries().size());
+    for (var duplicate : result.duplicateEntries()) {
+      System.out.printf("  - %s (URL: %s)%n", duplicate.name(), duplicate.url());
+      System.out.printf("    Found in sections: %s%n", String.join(", ", duplicate.sections()));
+    }
+    System.out.println();
+  }
 }
 
 /**
@@ -362,10 +451,13 @@ void printValidationResults(ValidationResult result) {
 record ValidationResult(
   List<ProjectEntry> missingEntries,
   List<SectionMismatch> wrongSectionEntries,
-  List<ProjectEntry> extraEntries
+  List<ProjectEntry> extraEntries,
+  List<DuplicateEntry> duplicateEntries
 ) {
   boolean isValid() {
-    return missingEntries.isEmpty() && wrongSectionEntries.isEmpty();
+    return missingEntries.isEmpty() &&
+           wrongSectionEntries.isEmpty() &&
+           duplicateEntries.isEmpty();
   }
 }
 
@@ -375,4 +467,13 @@ record ValidationResult(
 record SectionMismatch(
   ProjectEntry original,
   ProjectEntry transformed
+) {}
+
+/**
+ * Represents duplicate entries (same name or URL).
+ */
+record DuplicateEntry(
+  String name,
+  String url,
+  List<String> sections  // Sections where this duplicate appears
 ) {}
