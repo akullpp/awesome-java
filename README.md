@@ -2,7 +2,9 @@
 
 A curated list of awesome Java frameworks, libraries and software.
 
-[Please find a different kind of layout here](https://github.com/akullpp/awesome-java/tree/test). We are evaluating to make this the default, you can provide feedback here in [#1171](https://github.com/akullpp/awesome-java/issues/1171).
+[Please find a different kind of layout here](https://github.com/akullpp/awesome-java/tree/test).
+
+We are evaluating to make this the default, you can provide feedback here in [#1171](https://github.com/akullpp/awesome-java/issues/1171).
 
 ## Contents
 
