@@ -528,6 +528,7 @@ _Libraries to create modern graphical user interfaces._
 - [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main) - Successor of Swing.
 - [Scene Builder](https://gluonhq.com/products/scene-builder/) - Visual layout tool for JavaFX applications.
 - [SnapKit](https://github.com/reportmill/SnapKit) - Modern Java UI library for both desktop and web.
+- [Sierra](https://github.com/HTTP-RPC/Sierra) - Lightwieght declarative DSL for rapid development of Swing applications.
 - [SWT](https://www.eclipse.org/swt/) - Graphical widget toolkit.
 
 ### High Performance
