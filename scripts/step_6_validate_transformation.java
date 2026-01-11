@@ -157,11 +157,12 @@ List<ProjectEntry> extractProjectEntriesFromTables(String content) {
 
 /**
  * Extracts a project entry from a Markdown table row.
+ * Table format: | Name | Description | Stars | Updated | License |
  */
 ProjectEntry extractEntryFromMarkdownTableRow(String line, String section) {
   // Split by | and clean up
   var parts = line.split("\\|");
-  if (parts.length < 5) {
+  if (parts.length < 6) {
     return null;
   }
 

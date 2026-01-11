@@ -1,1134 +1,1140 @@
 <!-- SECTION:Architecture -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ArchUnit](https://github.com/TNG/ArchUnit) | Test library for specifying and asserting architecture rules. | 3.6k | 23h |
-| [jMolecules](https://github.com/xmolecules/jmolecules) | Annotations and interfaces to express design and architecture concepts in code. | 1.5k | 1mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ArchUnit](https://github.com/TNG/ArchUnit) | Unit test architecture rules with a fluent Java API; catches violations at build time. | 3.6k | 3d | Apache-2.0 |
+| [jMolecules](https://github.com/xmolecules/jmolecules) | Express DDD, hexagonal, and layered architecture concepts directly in code with type-safe annotations. | 1.5k | 1mo | Apache-2.0 |
 
 <!-- SECTION:Artificial Intelligence -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [LangChain4j](https://github.com/langchain4j/langchain4j) | Simplifies integration of LLMs with unified APIs and a comprehensive toolbox. | 10.3k | 14h |
-| [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk) | Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns. | 3.0k | 23d |
-| [simple-openai](https://github.com/sashirestela/simple-openai) | Library to use the OpenAI API (and compatible ones) in the simplest possible way. | 370 | 3mo |
-| [Spring AI](https://spring.io/projects/spring-ai) | Application framework for AI engineering for Spring. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [LangChain4j](https://github.com/langchain4j/langchain4j) | Unified API for 15+ LLM providers with RAG, function calling, and AI services out of the box. | 10.3k | 18h | Apache-2.0 |
+| [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk) | Model Context Protocol implementation enabling standardized AI model interactions with sync/async support. | 3.1k | 1d | MIT |
+| [simple-openai](https://github.com/sashirestela/simple-openai) | Lightweight, zero-dependency OpenAI API client with streaming support. | 368 | 3mo | MIT |
+| [Spring AI](https://spring.io/projects/spring-ai) | Spring-native AI framework with portable APIs across AI providers and vector stores. | - | - | - |
 
 <!-- SECTION:Bean Mapping -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [dOOv](https://github.com/doov-io/doov) | Provides fluent API for typesafe domain model validation and mapping. It uses annotations, code generation and a type safe DSL to make bean validation and mapping fast and easy. | - | - |
-| [JMapper](https://github.com/jmapper-framework/jmapper-core) | Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration. | 241 | 2y |
-| [MapStruct](https://github.com/mapstruct/mapstruct) | Code generator that simplifies mappings between different bean types, based on a convention-over-configuration approach. | 7.6k | 6d |
-| [ModelMapper](https://github.com/modelmapper/modelmapper) | Intelligent object mapping library that automatically maps objects to each other. | 2.3k | 1mo |
-| [Orika](https://github.com/orika-mapper/orika) | JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another. | 1.3k | 1y |
-| [reMap](https://github.com/remondis-it/remap) | Lambda and method handle-based mapping which requires code and not annotations if objects have different names. | 126 | 5mo |
-| [Selma](https://github.com/xebia-france/selma) | Annotation processor-based bean mapper. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [dOOv](https://github.com/doov-io/doov) | Fluent, typesafe DSL for domain validation and mapping with code generation. | - | - | - |
+| [JMapper](https://github.com/jmapper-framework/jmapper-core) | Bytecode-powered mapper achieving near-native performance; supports annotations, API, or XML config. | 242 | 2y | Apache-2.0 |
+| [MapStruct](https://github.com/mapstruct/mapstruct) | Compile-time code generator producing type-safe, reflection-free mappers with zero runtime overhead. | 7.6k | 9d | - |
+| [ModelMapper](https://github.com/modelmapper/modelmapper) | Convention-based mapper that auto-matches properties, reducing boilerplate. | 2.3k | 2mo | Apache-2.0 |
+| [Orika](https://github.com/orika-mapper/orika) | Bytecode-generated mappers with automatic type conversion and deep copying. | 1.3k | 1y | Apache-2.0 |
+| [reMap](https://github.com/remondis-it/remap) | Lambda-based mapping with compile-time safety; no annotations required. | 126 | 2mo | Apache-2.0 |
+| [Selma](https://github.com/xebia-france/selma) | Annotation processor generating optimized mappers at compile time. | - | - | - |
 
 <!-- SECTION:Build -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Maven](https://maven.apache.org) | Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain. | - | - |
-| [Bazel](https://bazel.build) | Tool from Google that builds code quickly and reliably. | - | - |
-| [Buck2](https://github.com/facebook/buck2) | Encourages the creation of small, reusable modules consisting of code and resources. | 4.2k | 54m |
-| [Gradle](https://gradle.org) | Incremental builds programmed via Groovy instead of declaring XML. Works well with Maven's dependency management. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Maven](https://maven.apache.org) | Industry-standard declarative build tool with convention-over-configuration and vast plugin ecosystem. | - | - | - |
+| [Bazel](https://bazel.build) | Google's build system with aggressive caching, remote execution, and reproducible builds at scale. | - | - | - |
+| [Buck2](https://github.com/facebook/buck2) | Meta's fast build system with fine-grained parallelism and remote execution support. | 4.2k | 7h | Apache-2.0 |
+| [Gradle](https://gradle.org) | Flexible build automation with incremental builds, build caching, and Kotlin/Groovy DSL. | - | - | - |
 
 <!-- SECTION:Bytecode Manipulation -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ASM](https://asm.ow2.io) | All-purpose, low-level bytecode manipulation and analysis. | - | - |
-| [Byte Buddy](https://bytebuddy.net) | Further simplifies bytecode generation with a fluent API. | - | - |
-| [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) | Java 8 Jar & Android APK reverse engineering suite. (GPL-3.0-only) | 15.4k | 1d |
-| [Byteman](https://byteman.jboss.org) | Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting. (LGPL-2.1-or-later) | - | - |
-| [cglib](https://github.com/cglib/cglib) | Bytecode generation library. | 4.9k | 1y |
-| [Javassist](https://github.com/jboss-javassist/javassist) | Tries to simplify bytecode editing. | 4.2k | 1y |
-| [Maker](https://github.com/cojen/maker) | Provides low level bytecode generation. | 65 | 13d |
-| [Mixin](https://github.com/SpongePowered/Mixin) | Manipulate bytecode at runtime using real Java code. | 1.7k | 1y |
-| [Perses](https://github.com/nicolasmanic/perses) | Dynamically injects failure/latency at the bytecode level according to principles of chaos engineering. | - | - |
-| [Recaf](https://www.coley.software/Recaf/) | JVM reverse engineering toolkit, essentially an IDE for Java bytecode. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ASM](https://asm.ow2.io) | Low-level, high-performance bytecode manipulation; the foundation for most other tools. | - | - | - |
+| [Byte Buddy](https://bytebuddy.net) | Fluent API for runtime code generation without needing bytecode knowledge. | - | - | - |
+| [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) | All-in-one reverse engineering suite for JAR and APK files. (GPL-3.0-only) | 15.4k | 3d | GPL-3.0 |
+| [Byteman](https://byteman.jboss.org) | Rule-based runtime bytecode injection for testing and fault injection. (LGPL-2.1-or-later) | - | - | - |
+| [cglib](https://github.com/cglib/cglib) | High-level bytecode generation for proxies and interceptors. | 4.9k | 1y | Apache-2.0 |
+| [Javassist](https://github.com/jboss-javassist/javassist) | Edit bytecode using Java source syntax, no low-level knowledge required. | 4.2k | 1y | - |
+| [Maker](https://github.com/cojen/maker) | Lightweight, low-level bytecode generation with minimal dependencies. | 65 | 1d | Apache-2.0 |
+| [Mixin](https://github.com/SpongePowered/Mixin) | Runtime class transformation using annotated Java code; popular in Minecraft modding. | 1.7k | 1y | MIT |
+| [Perses](https://github.com/nicolasmanic/perses) | Chaos engineering via bytecode-level fault injection. | - | - | - |
+| [Recaf](https://www.coley.software/Recaf/) | Modern bytecode editor IDE with decompilation, search, and hex editing. | - | - | - |
 
 <!-- SECTION:Caching -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [cache2k](https://cache2k.org) | In-memory high performance caching library. | - | - |
-| [Caffeine](https://github.com/ben-manes/caffeine) | High-performance, near-optimal caching library. | 17.4k | 2d |
-| [Ehcache](http://www.ehcache.org) | Distributed general-purpose cache. | - | - |
-| [Infinispan](https://infinispan.org) | Highly concurrent key/value datastore used for caching. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [cache2k](https://cache2k.org) | In-memory cache with sub-microsecond access times and advanced expiry policies. | - | - | - |
+| [Caffeine](https://github.com/ben-manes/caffeine) | Near-optimal hit rates via Window TinyLFU algorithm; Java's fastest cache. | 17.4k | 1d | Apache-2.0 |
+| [Ehcache](http://www.ehcache.org) | Mature, JCache-compliant cache with tiered storage (heap/off-heap/disk). | - | - | - |
+| [Infinispan](https://infinispan.org) | Distributed, clustered cache with transactions and query support. | - | - | - |
 
 <!-- SECTION:CLI/Argument Parsing -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Airline](https://rvesse.github.io/airline/) | Annotation-based framework for parsing Git-like command-line arguments. | - | - |
-| [JCommander](http://jcommander.org) | Command-line argument-parsing framework with custom types and validation via implementing interfaces. | - | - |
-| [jbock](https://github.com/jbock-java/jbock) | Reflectionless command line parser. | 88 | 2d |
-| [JLine](https://github.com/jline/jline3) | Includes features from modern shells like completion or history. | 1.7k | 22d |
-| [picocli](https://picocli.info) | ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Airline](https://rvesse.github.io/airline/) | Git-style CLI parser with annotation-based commands and subcommands. | - | - | - |
+| [JCommander](http://jcommander.org) | Annotation-driven parser with custom type converters and validation. | - | - | - |
+| [jbock](https://github.com/jbock-java/jbock) | Compile-time CLI parser with zero reflection and zero dependencies. | 89 | 4d | MIT |
+| [JLine](https://github.com/jline/jline3) | Rich terminal handling with tab-completion, history, and syntax highlighting. | 1.7k | 4d | - |
+| [picocli](https://picocli.info) | Zero-dependency CLI framework with ANSI colors, autocompletion, and GraalVM native support. | - | - | - |
 
 <!-- SECTION:CLI/Text-Based User Interfaces -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Jansi](https://github.com/fusesource/jansi) | ANSI escape codes to format console output. | 1.2k | 8mo |
-| [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) | Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision). | - | - |
-| [Text-IO](https://github.com/beryx/text-io) | Aids the creation of full console-based applications. | 351 | 5y |
-| [Lanterna](https://github.com/mabe02/lanterna) | Easy console text-GUI library, similar to curses. (LGPL-3.0-only) | 2.5k | 5mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Jansi](https://github.com/fusesource/jansi) | Cross-platform ANSI escape code support for colored console output. | 1.2k | 8mo | Apache-2.0 |
+| [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) | Full-featured TUI with windows, menus, and sixel graphics; Turbo Vision-style. | - | - | - |
+| [Text-IO](https://github.com/beryx/text-io) | Simple API for interactive console applications with input validation. | 351 | 2y | Apache-2.0 |
+| [Lanterna](https://github.com/mabe02/lanterna) | Curses-like TUI with cross-platform terminal abstraction. (LGPL-3.0-only) | 2.5k | 5mo | LGPL-3.0 |
 
 <!-- SECTION:Cloud -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [AWS SDK for Java](https://github.com/aws/aws-sdk-java) | Provides Java APIs for interacting with Amazon Web Services. | 4.2k | 2d |
-| [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java) | Client libraries for accessing Google Cloud services from Java applications. | 2.0k | 16d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [AWS SDK for Java](https://github.com/aws/aws-sdk-java) | Official SDK covering 200+ AWS services with async support and pagination. | 4.2k | 4d | Apache-2.0 |
+| [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java) | Idiomatic Java clients for GCP services with automatic retries and streaming. | 2.0k | 8h | Apache-2.0 |
 
 <!-- SECTION:Code Analysis -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Checkstyle](https://github.com/checkstyle/checkstyle) | Static analysis of coding conventions and standards. (LGPL-2.1-or-later) | 8.8k | 2h |
-| [Error Prone](https://github.com/google/error-prone) | Catches common programming mistakes as compile-time errors. | 7.1k | 8h |
-| [Error Prone Support](https://github.com/PicnicSupermarket/error-prone-support) | Error Prone extensions: extra bug checkers and a large battery of Refaster templates. | 232 | 1d |
-| [Infer](https://github.com/facebook/infer) | Modern static analysis tool for verifying the correctness of code. | 15.5k | 1d |
-| [jQAssistant](https://jqassistant.org) | Static code analysis with Neo4J-based query language. (GPL-3.0-only) | - | - |
-| [NullAway](https://github.com/uber/NullAway) | Eliminates NullPointerExceptions with low build-time overhead. | 4.0k | 10h |
-| [PMD](https://github.com/pmd/pmd) | Source code analysis for finding bad coding practices. | 5.3k | 18h |
-| [p3c](https://github.com/alibaba/p3c) | Provides Alibaba's coding guidelines for PMD, IDEA and Eclipse. | 30.8k | 3y |
-| [RefactorFirst](https://github.com/jimbethancourt/RefactorFirst) | Identifies and prioritizes God Classes and Highly Coupled classes. | - | - |
-| [SonarJava](https://github.com/SonarSource/sonar-java) | Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only) | 1.2k | 14h |
-| [Spoon](https://github.com/INRIA/spoon) | Library for analyzing and transforming Java source code. | 1.9k | 1d |
-| [Spotbugs](https://github.com/spotbugs/spotbugs) | Static analysis of bytecode to find potential bugs. (LGPL-2.1-only) | 3.8k | 3d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Checkstyle](https://github.com/checkstyle/checkstyle) | Enforces coding standards with 150+ configurable checks. (LGPL-2.1-or-later) | 8.8k | now | LGPL-2.1 |
+| [Error Prone](https://github.com/google/error-prone) | Google's compiler plugin catching bugs at compile time with auto-fixes. | 7.1k | 1d | Apache-2.0 |
+| [Error Prone Support](https://github.com/PicnicSupermarket/error-prone-support) | 100+ additional Error Prone checks and Refaster refactoring templates. | 232 | 9h | MIT |
+| [Infer](https://github.com/facebook/infer) | Meta's static analyzer detecting null dereferences, resource leaks, and concurrency issues. | 15.5k | 4h | MIT |
+| [jQAssistant](https://jqassistant.org) | Query codebase structure with Cypher on a Neo4j graph. (GPL-3.0-only) | - | - | - |
+| [NullAway](https://github.com/uber/NullAway) | Fast null-safety checker with minimal annotation overhead; Uber-proven. | 4.0k | 15h | MIT |
+| [PMD](https://github.com/pmd/pmd) | Extensible static analyzer detecting code smells and copy-paste issues. | 5.3k | 3d | - |
+| [p3c](https://github.com/alibaba/p3c) | Alibaba's Java coding guidelines as PMD rules and IDE plugins. | 30.8k | 1y | Apache-2.0 |
+| [RefactorFirst](https://github.com/jimbethancourt/RefactorFirst) | Prioritizes refactoring targets by God Class and coupling metrics. | - | - | - |
+| [SonarJava](https://github.com/SonarSource/sonar-java) | 600+ rules for SonarQube with security hotspot detection. (LGPL-3.0-only) | 1.2k | 1d | - |
+| [Spoon](https://github.com/INRIA/spoon) | Full Java AST API for analysis, transformation, and code generation. | 1.9k | 4h | - |
+| [Spotbugs](https://github.com/spotbugs/spotbugs) | FindBugs successor; bytecode analysis for 400+ bug patterns. (LGPL-2.1-only) | 3.8k | 9h | LGPL-2.1 |
 
 <!-- SECTION:Code Coverage -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Clover](https://www.atlassian.com/software/clover) | Relies on source-code instrumentation instead of bytecode instrumentation. | - | - |
-| [Cobertura](https://cobertura.github.io/cobertura/) | Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics. (GPL-2.0-only) | - | - |
-| [JaCoCo](https://www.eclemma.org/jacoco/) | Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Clover](https://www.atlassian.com/software/clover) | Source-level instrumentation with detailed per-test coverage and historical trends. | - | - | - |
+| [Cobertura](https://cobertura.github.io/cobertura/) | Bytecode instrumentation with branch coverage and complexity metrics. (GPL-2.0-only) | - | - | - |
+| [JaCoCo](https://www.eclemma.org/jacoco/) | Lightweight agent with line/branch/instruction coverage and IDE/CI integration. | - | - | - |
 
 <!-- SECTION:Code Generators -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ADT4J](https://github.com/sviperll/adt4j) | JSR-269 code generator for algebraic data types. | 147 | 7y |
-| [Auto](https://github.com/google/auto) | Generates factory, service, and value classes. | 10.5k | 11h |
-| [Avaje Http Server](https://avaje.io/http/) | Generates Lightweight JAX-RS style http servers using Javalin or Helidon (Nima) SE. | - | - |
-| [EasyEntityToDTO](https://github.com/Marcel091004/EasyEntityToDTO) | Annotation processor for automatic DTO and Mapper generation with zero boilerplate. | 6 | 7mo |
-| [FreeBuilder](https://github.com/inferred/FreeBuilder) | Automatically generates the Builder pattern. | 833 | 1y |
-| [Geci](https://github.com/verhas/javageci) | Discovers files that need generated code, updates automatically and writes to the source with a convenient API. | 135 | 3y |
-| [Immutables](https://immutables.github.io) | Annotation processors to generate simple, safe and consistent value objects. | - | - |
-| [JavaPoet](https://github.com/square/javapoet) | API to generate source files. | 10.9k | 1y |
-| [JHipster](https://github.com/jhipster/generator-jhipster) | Yeoman source code generator for Spring Boot and AngularJS. | 22.3k | 3h |
-| [Joda-Beans](https://www.joda.org/joda-beans/) | Small framework that adds queryable properties to Java, enhancing JavaBeans. | - | - |
-| [JSpecify Package-Info Generator](https://github.com/bcaillard/jspecify-packageinfo-generator) | Maven plugin that automatically generates package-info.java files with JSpecify annotations (@NullMarked and @NullUnmarked), helping you manage nullness boundaries in your Java projects without manual boilerplate. | 1 | 1mo |
-| [Lombok](https://projectlombok.org) | Code generator that aims to reduce verbosity. | - | - |
-| [Record-Builder](https://github.com/Randgalt/record-builder) | Companion builder class, withers and templates for Java records. | 900 | 1mo |
-| [Telosys](https://www.telosys.org/) | Simple and light code generator available as an Eclipse Plugin and also as a CLI. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ADT4J](https://github.com/sviperll/adt4j) | Generates algebraic data types (sealed hierarchies) with pattern matching. | 147 | 7y | BSD-3-Clause |
+| [Auto](https://github.com/google/auto) | Google's annotation processors for AutoValue, AutoFactory, and AutoService. | 10.5k | 2d | Apache-2.0 |
+| [Avaje Http Server](https://avaje.io/http/) | Compile-time HTTP server generation for Javalin/Helidon; no reflection. | - | - | - |
+| [EasyEntityToDTO](https://github.com/Marcel091004/EasyEntityToDTO) | Annotation processor generating DTOs and mappers automatically. | 6 | 7mo | MIT |
+| [FreeBuilder](https://github.com/inferred/FreeBuilder) | Generates Builder pattern with validation and partial builds. | 833 | 1y | Apache-2.0 |
+| [Geci](https://github.com/verhas/javageci) | Test-time code generator that updates source files in-place. | 135 | 3y | Apache-2.0 |
+| [Immutables](https://immutables.github.io) | Generates immutable value objects with builders, JSON support, and interning. | - | - | - |
+| [JavaPoet](https://github.com/square/javapoet) | Fluent API for generating `.java` source files programmatically. | 10.9k | 1y | Apache-2.0 |
+| [JHipster](https://github.com/jhipster/generator-jhipster) | Full-stack app generator for Spring Boot + Angular/React/Vue. | 22.3k | 1h | Apache-2.0 |
+| [Joda-Beans](https://www.joda.org/joda-beans/) | Adds queryable, serializable properties to POJOs via code generation. | - | - | - |
+| [JSpecify Package-Info Generator](https://github.com/bcaillard/jspecify-packageinfo-generator) | Maven plugin auto-generating `package-info.java` with nullness annotations. | 1 | 1mo | Apache-2.0 |
+| [Lombok](https://projectlombok.org) | Eliminates boilerplate with annotations for getters, builders, and more. | - | - | - |
+| [Record-Builder](https://github.com/Randgalt/record-builder) | Generates builders and withers for Java records. | 900 | 1mo | Apache-2.0 |
+| [Telosys](https://www.telosys.org/) | Template-driven code generator for any language via CLI or Eclipse. | - | - | - |
 
 <!-- SECTION:Compiler-compiler -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ANTLR](https://www.antlr.org) | Complex full-featured framework for top-down parsing. | - | - |
-| [JavaCC](https://javacc.github.io/javacc/) | Parser generator that generates top-down parsers. Allows lexical state switching and permits extended BNF specifications. | - | - |
-| [JFlex](https://jflex.de) | Lexical analyzer generator. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ANTLR](https://www.antlr.org) | Powerful LL(\*) parser generator with IDE support and multiple target languages. | - | - | - |
+| [JavaCC](https://javacc.github.io/javacc/) | LL(k) parser generator with lookahead, lexical states, and tree building. | - | - | - |
+| [JFlex](https://jflex.de) | Fast lexer generator with full Unicode support and JLex compatibility. | - | - | - |
 
 <!-- SECTION:Computer Vision -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [BoofCV](https://boofcv.org) | Library for image processing, camera calibration, tracking, SFM, MVS, 3D vision, QR Code and much more. | - | - |
-| [ImageJ](https://imagej.net/ImageJ) | Medical image processing application with an API. | - | - |
-| [JavaCV](https://github.com/bytedeco/javacv) | Java interface to OpenCV, FFmpeg, and much more. | 8.3k | 10d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [BoofCV](https://boofcv.org) | Real-time computer vision with 3D reconstruction, fiducial detection, and feature tracking. | - | - | - |
+| [ImageJ](https://imagej.net/ImageJ) | Extensible image analysis platform with 500+ plugins for scientific imaging. | - | - | - |
+| [JavaCV](https://github.com/bytedeco/javacv) | Java bindings for OpenCV, FFmpeg, TensorFlow, and more via JavaCPP. | 8.3k | 13d | - |
 
 <!-- SECTION:Configuration -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [avaje config](https://avaje.io/config/) | Loads yaml and properties files, supports dynamic configuration, plugins, file-watching and config event listeners. | - | - |
-| [centraldogma](https://github.com/line/centraldogma) | Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2. | 654 | 5h |
-| [config](https://github.com/lightbend/config) | Configuration library supporting Java properties, JSON or its human optimized superset HOCON. | 6.3k | 3mo |
-| [Configurate](https://github.com/SpongePowered/Configurate) | Configuration library with support for various configuration formats and transformations. | 449 | 3mo |
-| [Curator Framework](https://curator.apache.org/) | High-level API for Apache ZooKeeper. | - | - |
-| [dotenv](https://github.com/shyiko/dotenv) | Twelve-factor configuration library which uses environment-specific files. | 50 | 7y |
-| [Externalized Properties](https://github.com/joel-jeremy/externalized-properties) | Lightweight yet powerful configuration library which supports resolution of properties from external sources and an extensible post-processing/conversion mechanism. | 32 | 3mo |
-| [Gestalt](https://github.com/gestalt-config/gestalt) | Gestalt offers a comprehensive solution to the challenges of configuration management. It allows you to source configuration data from multiple inputs, merge them intelligently, and present them in a structured, type-safe manner. | 94 | 1mo |
-| [ini4j](http://ini4j.sourceforge.net) | Provides an API for handling Windows' INI files. | - | - |
-| [KAConf](https://github.com/mariomac/kaconf) | Annotation-based configuration system for Java and Kotlin. | 61 | 3y |
-| [microconfig](https://microconfig.io) | Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed. | - | - |
-| [owner](https://github.com/lviggiano/owner) | Reduces boilerplate of properties. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [avaje config](https://avaje.io/config/) | Lightweight config with YAML/properties, file watching, and dynamic reload. | - | - | - |
+| [centraldogma](https://github.com/line/centraldogma) | Git-backed, versioned configuration service with change notifications. | 654 | 2d | Apache-2.0 |
+| [config](https://github.com/lightbend/config) | HOCON/JSON/properties with substitutions, includes, and environment overrides. | 6.3k | 4mo | - |
+| [Configurate](https://github.com/SpongePowered/Configurate) | Multi-format config (YAML, JSON, HOCON, XML) with type-safe object mapping. | 449 | 21h | Apache-2.0 |
+| [Curator Framework](https://curator.apache.org/) | Simplified ZooKeeper client with recipes for locks, leaders, and caches. | - | - | - |
+| [dotenv](https://github.com/shyiko/dotenv) | Twelve-factor app config from `.env` files with environment overrides. | 50 | 7y | - |
+| [Externalized Properties](https://github.com/joel-jeremy/externalized-properties) | Interface-based config with pluggable sources and automatic type conversion. | 32 | 29d | Apache-2.0 |
+| [Gestalt](https://github.com/gestalt-config/gestalt) | Multi-source config merging with type-safe binding and validation. | 94 | 14h | Apache-2.0 |
+| [ini4j](http://ini4j.sourceforge.net) | Windows INI file parser with section and multi-value support. | - | - | - |
+| [KAConf](https://github.com/mariomac/kaconf) | Annotation-based config injection for Java and Kotlin. | 61 | 3y | Apache-2.0 |
+| [microconfig](https://microconfig.io) | Microservice config management with inheritance and environment profiles. | - | - | - |
+| [owner](https://github.com/lviggiano/owner) | Type-safe properties via interfaces with automatic conversion. | - | - | - |
 
 <!-- SECTION:Constraint Satisfaction Problem Solver -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Choco](https://choco-solver.org) | Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques. | - | - |
-| [JaCoP](https://github.com/radsz/jacop) | Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models. (AGPL-3.0) | 231 | 2y |
-| [OptaPlanner](https://www.optaplanner.org) | Business planning and resource scheduling optimization solver. | - | - |
-| [Timefold](https://timefold.ai/docs) | Flexible solver with Spring/Quarkus support and quickstarts for the Vehicle Routing Problem, Maintenance Scheduling, Employee Shift Scheduling and much more. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Choco](https://choco-solver.org) | Powerful CP solver with global constraints and search strategies. | - | - | - |
+| [JaCoP](https://github.com/radsz/jacop) | Constraint solver with MiniZinc/FlatZinc support for modeling. (AGPL-3.0) | 231 | 2y | - |
+| [OptaPlanner](https://www.optaplanner.org) | AI constraint solver for planning problems like scheduling and routing. | - | - | - |
+| [Timefold](https://timefold.ai/docs) | OptaPlanner fork with Spring/Quarkus integration and production-ready quickstarts. | - | - | - |
 
 <!-- SECTION:CSV -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [FastCSV](https://github.com/osiegmar/FastCSV) | Performance-optimized, dependency-free and RFC 4180 compliant. | 656 | 19d |
-| [jackson-dataformat-csv](https://github.com/FasterXML/jackson-dataformat-csv) | Jackson extension for reading and writing CSV. | 194 | 8y |
-| [opencsv](http://opencsv.sourceforge.net) | Simple CSV parser. | - | - |
-| [Super CSV](https://super-csv.github.io/super-csv/) | Powerful CSV parser with support for Dozer, Joda-Time and Java 8. | - | - |
-| [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) | One of the fastest and most feature-complete parsers. Also comes with parsers for TSV and fixed-width records. | 931 | 4y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [FastCSV](https://github.com/osiegmar/FastCSV) | Ultra-fast, zero-dependency, RFC 4180-compliant CSV parser. | 657 | 21d | MIT |
+| [jackson-dataformat-csv](https://github.com/FasterXML/jackson-dataformat-csv) | CSV via Jackson's streaming API with schema support. | 194 | 8y | - |
+| [opencsv](http://opencsv.sourceforge.net) | Simple parser with bean binding and custom separators. | - | - | - |
+| [Super CSV](https://super-csv.github.io/super-csv/) | Cell processors for validation, conversion, and constraint checking. | - | - | - |
+| [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) | Fastest parser with CSV/TSV/fixed-width support and streaming. | 931 | 1y | - |
 
 <!-- SECTION:Data Structures -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Avro](https://avro.apache.org) | Data interchange format with dynamic typing, untagged data, and absence of manually assigned IDs. | - | - |
-| [Apache Orc](https://orc.apache.org) | Fast and efficient columnar storage format for Hadoop-based workloads. | - | - |
-| [Apache Parquet](https://parquet.apache.org) | Columnar storage format based on assembly algorithms from Google's paper on Dremel. | - | - |
-| [Apache Thrift](https://thrift.apache.org) | Data interchange format that originated at Facebook. | - | - |
-| [Big Queue](https://github.com/bulldog2011/bigqueue) | Fast and persistent queue based on memory-mapped files. | 567 | 9y |
-| [HyperMinHash-java](https://github.com/LiveRamp/HyperMinHash-java) | Probabilistic data structure for computing union, intersection, and set cardinality in loglog space. | N/A | N/A |
-| [Persistent Collection](https://github.com/hrldcpr/pcollections) | Persistent and immutable analogue of the Java Collections Framework. | 784 | 5mo |
-| [Protobuf](https://github.com/protocolbuffers/protobuf) | Google's data interchange format. | 70.2k | 2h |
-| [RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) | Fast and efficient compressed bitmap. | 3.8k | 23d |
-| [SBE](https://github.com/real-logic/simple-binary-encoding) | Simple Binary Encoding, one of the fastest message formats around. | - | - |
-| [Tape](https://github.com/square/tape) | Lightning-fast, transactional, file-based FIFO. | 2.5k | 7y |
-| [Wire](https://github.com/square/wire) | Clean, lightweight protocol buffers. | 4.4k | 2d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Avro](https://avro.apache.org) | Schema-evolution-friendly serialization with compact binary format. | - | - | - |
+| [Apache Orc](https://orc.apache.org) | Columnar storage with predicate pushdown and ACID support for Hive. | - | - | - |
+| [Apache Parquet](https://parquet.apache.org) | Columnar format with efficient compression and encoding for analytics. | - | - | - |
+| [Apache Thrift](https://thrift.apache.org) | Cross-language RPC framework with compact binary protocol. | - | - | - |
+| [Big Queue](https://github.com/bulldog2011/bigqueue) | Memory-mapped persistent queue handling 100M+ items. | 568 | 3y | Apache-2.0 |
+| [HyperMinHash-java](https://github.com/LiveRamp/HyperMinHash-java) | Probabilistic set operations in O(log log n) space. | N/A | N/A | - |
+| [Persistent Collection](https://github.com/hrldcpr/pcollections) | Immutable collections with efficient structural sharing. | 784 | 5mo | - |
+| [Protobuf](https://github.com/protocolbuffers/protobuf) | Google's language-neutral, schema-driven binary serialization. | 70.3k | 7m | - |
+| [RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) | Compressed bitmaps faster than traditional implementations by orders of magnitude. | 3.8k | 25d | Apache-2.0 |
+| [SBE](https://github.com/real-logic/simple-binary-encoding) | Zero-copy, zero-allocation messaging for ultra-low latency. | - | - | - |
+| [Tape](https://github.com/square/tape) | Crash-safe, file-based FIFO queue for Android and Java. | 2.5k | 2y | Apache-2.0 |
+| [Wire](https://github.com/square/wire) | Lightweight Protocol Buffers with Kotlin and Java codegen. | 4.4k | 2d | Apache-2.0 |
 
 <!-- SECTION:Database -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Calcite](https://calcite.apache.org) | Dynamic data management framework. It contains many of the pieces that comprise a typical database management system. | - | - |
-| [Apache Drill](https://drill.apache.org) | Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration. | - | - |
-| [Apache Phoenix](https://phoenix.apache.org) | High-performance relational database layer over HBase for low-latency applications. | - | - |
-| [ArangoDB](https://github.com/arangodb/arangodb-java-driver) | ArangoDB Java driver. | 205 | 2d |
-| [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) | Efficient, in-memory (opt. persisted to disk), off-heap key-value store. | 2.9k | 16d |
-| [Debezium](https://debezium.io/) | Low latency data streaming platform for change data capture. | - | - |
-| [druid](https://druid.apache.org) | High-performance, column-oriented, distributed data store. | - | - |
-| [eXist](https://github.com/eXist-db/exist) | NoSQL document database and application platform. (LGPL-2.1-only) | 457 | 1d |
-| [FlexyPool](https://github.com/vladmihalcea/flexy-pool) | Brings metrics and failover strategies to the most common connection pooling solutions. | 1.2k | 1mo |
-| [Flyway](https://flywaydb.org) | Simple database migration tool. | - | - |
-| [H2](https://h2database.com) | Small SQL database notable for its in-memory functionality. | - | - |
-| [HikariCP](https://github.com/brettwooldridge/HikariCP) | High-performance JDBC connection pool. | 20.9k | 2mo |
-| [HSQLDB](https://hsqldb.org/) | HyperSQL 100% Java database. | - | - |
-| [JDBI](http://jdbi.org) | Convenient abstraction of JDBC. | - | - |
-| [Jedis](https://github.com/xetorthio/jedis) | Small client for interaction with Redis, with methods for commands. | - | - |
-| [Jest](https://github.com/searchbox-io/Jest) | Client for the Elasticsearch REST API. | 2.1k | 4y |
-| [jetcd](https://github.com/justinsb/jetcd) | Client library for etcd. | 140 | 11y |
-| [Jinq](https://github.com/my2iu/Jinq) | Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ). | 663 | 7mo |
-| [jOOQ](https://www.jooq.org) | Generates typesafe code based on SQL schema. | - | - |
-| [Leaf](https://github.com/Meituan-Dianping/Leaf) | Distributed ID generate service. | 6.7k | 5y |
-| [Lettuce](https://lettuce.io/) | Lettuce is a scalable Redis client for building non-blocking Reactive applications. | - | - |
-| [Liquibase](http://www.liquibase.org) | Database-independent library for tracking, managing and applying database schema changes. | - | - |
-| [MapDB](http://www.mapdb.org) | Embedded database engine that provides concurrent collections backed on disk or in off-heap memory. | - | - |
-| [MariaDB4j](https://github.com/vorburger/MariaDB4j) | Launcher for MariaDB that requires no installation or external dependencies. | 15 | 5d |
-| [Modality](https://github.com/arkanovicz/modality) | Lightweight ORM with database reverse engineering features. | 15 | 1mo |
-| [OpenDJ](https://github.com/OpenIdentityPlatform/OpenDJ) | LDAPv3 compliant directory service, developed for the Java platform, providing a high performance, highly available, and secure store for the identities. | 422 | 27d |
-| [Querydsl](http://www.querydsl.com) | Typesafe unified queries. | - | - |
-| [QueryStream](https://github.com/querystream/querystream) | Build JPA Criteria queries using a Stream-like API. | 20 | 8mo |
-| [QuestDB](https://github.com/questdb/questdb) | High-performance SQL database for time series. Supports InfluxDB line protocol, PostgreSQL wire protocol, and REST. | 16.5k | 10h |
-| [Realm](https://github.com/realm/realm-java) | Mobile database to run directly inside phones, tablets or wearables. | 11.5k | 3mo |
-| [Redisson](https://github.com/redisson/redisson) | Allows for distributed and scalable data structures on top of a Redis server. | 24.2k | 2d |
-| [requery](https://github.com/requery/requery) | Modern, lightweight but powerful object mapping and SQL generator. Easily map to or create databases, or perform queries and updates from any Java-using platform. | 3.1k | 5y |
-| [Speedment](https://github.com/speedment/speedment) | Database access library that utilizes Java 8's Stream API for querying. | 2.1k | 2y |
-| [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions) | Allows you to use MongoDB query language to query your relational database. | 101 | 19d |
-| [Trino](https://trino.io) | Distributed SQL query engine for big data. | - | - |
-| [Vibur DBCP](https://www.vibur.org) | JDBC connection pool library with advanced performance monitoring capabilities. | - | - |
-| [Xodus](https://github.com/JetBrains/xodus) | Highly concurrent transactional schema-less and ACID-compliant embedded database. | 1.3k | 3mo |
-| [CosId](https://github.com/Ahoo-Wang/CosId) | Universal, flexible, high-performance distributed ID generator. | 599 | 1d |
-| [Apache ShardingSphere](https://github.com/apache/shardingsphere) | Distributed SQL transaction & query engine that allows for data sharding, scaling, encryption, and more on any database. | 20.6k | 1h |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Calcite](https://calcite.apache.org) | SQL parser, optimizer, and query federation framework for building databases. | - | - | - |
+| [Apache Drill](https://drill.apache.org) | Schema-free SQL for JSON, Parquet, and NoSQL with distributed execution. | - | - | - |
+| [Apache Phoenix](https://phoenix.apache.org) | SQL skin over HBase with secondary indexes and transactions. | - | - | - |
+| [ArangoDB](https://github.com/arangodb/arangodb-java-driver) | Multi-model (document/graph/key-value) database driver with async support. | 205 | 1d | Apache-2.0 |
+| [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) | Off-heap, persisted ConcurrentMap with microsecond latency. | 2.9k | 1d | Apache-2.0 |
+| [Debezium](https://debezium.io/) | CDC platform streaming database changes to Kafka in real-time. | - | - | - |
+| [druid](https://druid.apache.org) | Real-time OLAP database with sub-second queries at scale. | - | - | - |
+| [eXist](https://github.com/eXist-db/exist) | Native XML database with XQuery and full-text search. (LGPL-2.1-only) | 457 | 1d | LGPL-2.1 |
+| [FlexyPool](https://github.com/vladmihalcea/flexy-pool) | Connection pool monitoring with auto-scaling and failover. | 1.2k | 1mo | Apache-2.0 |
+| [Flyway](https://flywaydb.org) | Version-controlled SQL migrations with rollback support. | - | - | - |
+| [H2](https://h2database.com) | Embeddable SQL database with in-memory mode; great for testing. | - | - | - |
+| [HikariCP](https://github.com/brettwooldridge/HikariCP) | Fastest JDBC connection pool with minimal overhead. | 20.9k | 2mo | Apache-2.0 |
+| [HSQLDB](https://hsqldb.org/) | Pure Java SQL database with in-memory and file-based modes. | - | - | - |
+| [JDBI](http://jdbi.org) | Fluent, annotation-free SQL API built on JDBC. | - | - | - |
+| [Jedis](https://github.com/xetorthio/jedis) | Battle-tested Redis client with connection pooling and pipelining. | - | - | - |
+| [Jest](https://github.com/searchbox-io/Jest) | Elasticsearch REST client with async support and bulk operations. | 2.1k | 2y | Apache-2.0 |
+| [jetcd](https://github.com/justinsb/jetcd) | Official etcd v3 client with watch and lease support. | 140 | 2y | Apache-2.0 |
+| [Jinq](https://github.com/my2iu/Jinq) | LINQ-style queries via lambda symbolic execution on JPA/jOOQ. | 663 | 7mo | - |
+| [jOOQ](https://www.jooq.org) | Typesafe SQL DSL generated from your schema; catches errors at compile time. | - | - | - |
+| [Leaf](https://github.com/Meituan-Dianping/Leaf) | Meituan's distributed ID generator with segment and snowflake modes. | 6.7k | 2y | Apache-2.0 |
+| [Lettuce](https://lettuce.io/) | Reactive, non-blocking Redis client with cluster and Sentinel support. | - | - | - |
+| [Liquibase](http://www.liquibase.org) | Database-agnostic migrations with rollback and diff capabilities. | - | - | - |
+| [MapDB](http://www.mapdb.org) | Concurrent maps/sets backed by disk or off-heap memory with transactions. | - | - | - |
+| [MariaDB4j](https://github.com/vorburger/MariaDB4j) | Embedded MariaDB for integration testing; no install required. | 15 | 7d | Apache-2.0 |
+| [Modality](https://github.com/arkanovicz/modality) | Lightweight ORM with schema introspection and code generation. | 15 | 1mo | Apache-2.0 |
+| [OpenDJ](https://github.com/OpenIdentityPlatform/OpenDJ) | High-performance LDAPv3 directory service with replication. | 422 | 1mo | - |
+| [Querydsl](http://www.querydsl.com) | Unified typesafe queries for JPA, SQL, MongoDB, and more. | - | - | - |
+| [QueryStream](https://github.com/querystream/querystream) | Stream API for building JPA Criteria queries fluently. | 20 | 8mo | Apache-2.0 |
+| [QuestDB](https://github.com/questdb/questdb) | Time-series database with millions of inserts/sec and SQL support. | 16.5k | 8m | Apache-2.0 |
+| [Realm](https://github.com/realm/realm-java) | Mobile-first database with live objects and offline-first sync. | 11.5k | 3mo | Apache-2.0 |
+| [Redisson](https://github.com/redisson/redisson) | Redis-backed distributed collections, locks, and services. | 24.2k | 5d | Apache-2.0 |
+| [requery](https://github.com/requery/requery) | Modern ORM with compile-time query validation and RxJava support. | 3.1k | 3y | Apache-2.0 |
+| [Speedment](https://github.com/speedment/speedment) | Stream-based database queries generated from schema. | 2.1k | 2y | Apache-2.0 |
+| [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions) | MongoDB-style queries for relational databases via Spring Data. | 101 | 21d | Apache-2.0 |
+| [Trino](https://trino.io) | Federated SQL engine querying data lakes and databases at petabyte scale. | - | - | - |
+| [Vibur DBCP](https://www.vibur.org) | JDBC pool with statement caching and slow query logging. | - | - | - |
+| [Xodus](https://github.com/JetBrains/xodus) | JetBrains' embedded transactional database; powers YouTrack. | 1.3k | 1mo | Apache-2.0 |
+| [CosId](https://github.com/Ahoo-Wang/CosId) | High-performance distributed ID generator with multiple algorithms. | 599 | 7h | Apache-2.0 |
+| [Apache ShardingSphere](https://github.com/apache/shardingsphere) | Database middleware for sharding, encryption, and distributed transactions. | 20.6k | 1h | Apache-2.0 |
 
 <!-- SECTION:Date and Time -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [iCal4j](https://github.com/ical4j/ical4j) | Parse and build iCalendar [RFC 5545](https://tools.ietf.org/html/rfc5545) data models. | 821 | 9d |
-| [Jollyday](https://github.com/svendiedrichsen/jollyday) | Determines the holidays for a given year, country/name and eventually state/region. | 192 | 3y |
-| [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra) | Additional date-time classes that complement those in JDK 8. | 420 | 4mo |
-| [Time4J](https://github.com/MenoData/Time4J) | Advanced date and time library. (LGPL-2.1-only) | 470 | 1y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [iCal4j](https://github.com/ical4j/ical4j) | RFC 5545 iCalendar parser with recurrence rule support. | 821 | 11d | BSD-3-Clause |
+| [Jollyday](https://github.com/svendiedrichsen/jollyday) | Holiday calculations for 70+ countries with regional variations. | 192 | 1y | - |
+| [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra) | Extra date/time types: Interval, YearQuarter, and more for java.time. | 420 | 4mo | BSD-3-Clause |
+| [Time4J](https://github.com/MenoData/Time4J) | Comprehensive date/time with calendars, i18n, and formatting. (LGPL-2.1-only) | 470 | 1y | LGPL-2.1 |
+
+<!-- SECTION:Decentralization -->
+
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [java-tron](https://github.com/tronprotocol/java-tron) | Full node implementation of the TRON blockchain protocol. | 4.0k | 11d | LGPL-3.0 |
 
 <!-- SECTION:Dependency Injection -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache DeltaSpike](https://deltaspike.apache.org) | CDI extension framework. | - | - |
-| [Avaje Inject](https://avaje.io/inject/) | Microservice-focused compile-time injection framework without reflection. | - | - |
-| [Dagger](https://dagger.dev/) | Compile-time injection framework without reflection. | - | - |
-| [Feather](https://github.com/zsoltherpai/feather) | Ultra-lightweight, JSR-330-compliant dependency injection library. | 362 | 8y |
-| [Governator](https://github.com/Netflix/governator) | Extensions and utilities that enhance Google Guice. | 826 | 22d |
-| [Guice](https://github.com/google/guice) | Lightweight and opinionated framework that completes Dagger. | 12.7k | 1mo |
-| [HK2](https://eclipse-ee4j.github.io/glassfish-hk2/) | Lightweight and dynamic dependency injection framework. | - | - |
-| [JayWire](https://github.com/vanillasource/jaywire) | Lightweight dependency injection framework. (LGPL-3.0-only) | 60 | 5y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache DeltaSpike](https://deltaspike.apache.org) | Portable CDI extensions for configuration, security, and data. | - | - | - |
+| [Avaje Inject](https://avaje.io/inject/) | Compile-time DI with no reflection; optimized for microservices. | - | - | - |
+| [Dagger](https://dagger.dev/) | Google's compile-time DI with zero reflection overhead. | - | - | - |
+| [Feather](https://github.com/zsoltherpai/feather) | Ultra-lightweight JSR-330 DI in ~16KB. | 362 | 7y | - |
+| [Governator](https://github.com/Netflix/governator) | Netflix's Guice extensions with lifecycle management and warmup. | 826 | 24d | Apache-2.0 |
+| [Guice](https://github.com/google/guice) | Google's lightweight DI with runtime binding and AOP support. | 12.7k | 1mo | Apache-2.0 |
+| [HK2](https://eclipse-ee4j.github.io/glassfish-hk2/) | JSR-330 DI with dynamic service discovery; powers Jersey/GlassFish. | - | - | - |
+| [JayWire](https://github.com/vanillasource/jaywire) | Minimal DI with no annotations required. (LGPL-3.0-only) | 60 | 2y | - |
 
 <!-- SECTION:Development -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [AspectJ](https://www.eclipse.org/aspectj/) | Seamless aspect-oriented programming extension. | - | - |
-| [DCEVM](https://dcevm.github.io) | JVM modification that allows unlimited redefinition of loaded classes at runtime. (GPL-2.0-only) | - | - |
-| [Faux Pas](https://github.com/zalando/faux-pas) | Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions. | 140 | 6mo |
-| [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) | Unlimited runtime class and resource redefinition. (GPL-2.0-only) | 2.5k | 19d |
-| [JavaParser](https://github.com/javaparser/javaparser) | Parse, modify and generate Java code. | 6.0k | 6h |
-| [JavaSymbolSolver](https://github.com/javaparser/javasymbolsolver) | Symbol solver. | 296 | 7y |
-| [Manifold](https://github.com/manifold-systems/manifold) | Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods. | 2.7k | 7d |
-| [NoException](https://noexception.machinezoo.com) | Allows checked exceptions in functional interfaces and converts exceptions to Optional return. | - | - |
-| [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow) | Ignores checked exceptions without bytecode manipulation. Can also be used inside Java 8 stream operations. | 79 | 6y |
-| [Tail](https://nrktkt.github.io/tail/) | Enable infinite recursion using tail call optimization. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [AspectJ](https://www.eclipse.org/aspectj/) | Full-featured AOP with compile-time and load-time weaving. | - | - | - |
+| [DCEVM](https://dcevm.github.io) | HotSwap on steroids: redefine classes, add methods/fields at runtime. (GPL-2.0-only) | - | - | - |
+| [Faux Pas](https://github.com/zalando/faux-pas) | Checked exception handling in lambdas and streams elegantly. | 140 | 6mo | MIT |
+| [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) | Hot reload classes, Spring beans, and resources without restart. (GPL-2.0-only) | 2.5k | 22d | GPL-2.0 |
+| [JavaParser](https://github.com/javaparser/javaparser) | Parse, analyze, transform, and generate Java source code. | 6.0k | 16h | - |
+| [JavaSymbolSolver](https://github.com/javaparser/javasymbolsolver) | Resolve symbols and types in JavaParser ASTs. | 296 | 7y | Apache-2.0 |
+| [Manifold](https://github.com/manifold-systems/manifold) | Compiler plugins for JSON types, extension methods, and string templates. | 2.7k | 9d | Apache-2.0 |
+| [NoException](https://noexception.machinezoo.com) | Functional exception handling with sneaky throws and Optional conversion. | - | - | - |
+| [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow) | Throw checked exceptions from lambdas without wrapping. | 79 | 6y | MIT |
+| [Tail](https://nrktkt.github.io/tail/) | Tail call optimization via trampolining for stack-safe recursion. | - | - | - |
 
 <!-- SECTION:Distributed Applications -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Geode](https://geode.apache.org) | In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery. | - | - |
-| [Apache Storm](https://storm.apache.org) | Realtime computation system. | - | - |
-| [Apache ZooKeeper](https://zookeeper.apache.org) | Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems. | - | - |
-| [Atomix](https://atomix.io) | Fault-tolerant distributed coordination framework. | - | - |
-| [Axon](https://axoniq.io) | Framework for creating CQRS applications. | - | - |
-| [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) | Circuit breaker design pattern for Dropwizard. (GPL-2.0-only) | 45 | 6y |
-| [Failsafe](https://github.com/jhalterman/failsafe) | Simple failure handling with retries and circuit breakers. | - | - |
-| [Hazelcast](https://github.com/hazelcast/hazelcast) | Highly scalable in-memory datagrid with a free open-source version. | 6.5k | 2h |
-| [JGroups](http://www.jgroups.org) | Toolkit for reliable messaging and cluster creation. | - | - |
-| [Quasar](http://docs.paralleluniverse.co/quasar/) | Lightweight threads and actors for the JVM. | - | - |
-| [resilience4j](https://github.com/resilience4j/resilience4j) | Functional fault tolerance library. | 10.5k | 6d |
-| [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG) | High-performance reverse proxy server with specialized session management and credential replay functionality. | 86 | 22d |
-| [ScaleCube Services](https://github.com/scalecube/scalecube-services) | Embeddable Cluster-Membership library based on SWIM and gossip protocol. | 636 | 10h |
-| [Zuul](https://github.com/Netflix/zuul) | Gateway service that provides dynamic routing, monitoring, resiliency, security, and more. | 14.0k | 2d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Geode](https://geode.apache.org) | In-memory data grid with continuous queries and WAN replication. | - | - | - |
+| [Apache Storm](https://storm.apache.org) | Real-time stream processing with guaranteed processing and fault tolerance. | - | - | - |
+| [Apache ZooKeeper](https://zookeeper.apache.org) | Distributed coordination for config, locks, and leader election. | - | - | - |
+| [Atomix](https://atomix.io) | Raft-based distributed primitives: maps, locks, leader election. | - | - | - |
+| [Axon](https://axoniq.io) | CQRS/Event Sourcing framework with saga and event store support. | - | - | - |
+| [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) | Annotation-based circuit breakers for Dropwizard. (GPL-2.0-only) | 45 | 6mo | GPL-2.0 |
+| [Failsafe](https://github.com/jhalterman/failsafe) | Lightweight fault tolerance with retries, circuit breakers, and fallbacks. | - | - | - |
+| [Hazelcast](https://github.com/hazelcast/hazelcast) | In-memory data grid with distributed maps, queues, and compute. | 6.6k | 2d | - |
+| [JGroups](http://www.jgroups.org) | Reliable multicast and cluster membership toolkit. | - | - | - |
+| [Quasar](http://docs.paralleluniverse.co/quasar/) | Fibers (lightweight threads) and actors for the JVM. | - | - | - |
+| [resilience4j](https://github.com/resilience4j/resilience4j) | Functional fault tolerance: circuit breakers, rate limiters, bulkheads. | 10.5k | 8d | Apache-2.0 |
+| [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG) | Identity gateway with SSO, credential replay, and request filtering. | 86 | 25d | - |
+| [ScaleCube Services](https://github.com/scalecube/scalecube-services) | Reactive microservices with SWIM gossip and service discovery. | 636 | 2d | Apache-2.0 |
+| [Zuul](https://github.com/Netflix/zuul) | Netflix's edge gateway for routing, filtering, and load balancing. | 14.0k | 19h | Apache-2.0 |
 
 <!-- SECTION:Distributed Transactions -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Atomikos](https://www.atomikos.com) | Provides transactions for REST, SOA and microservices with support for JTA and XA. | - | - |
-| [Bitronix](https://github.com/bitronix/btm) | Simple but complete implementation of the JTA 1.1 API. | - | - |
-| [Narayana](https://narayana.io) | Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards. (LGPL-2.1-only) | - | - |
-| [Seata](https://github.com/seata/seata) | Delivers high performance and easy to use distributed transaction services under a microservices architecture. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Atomikos](https://www.atomikos.com) | JTA/XA transaction manager for microservices and REST. | - | - | - |
+| [Bitronix](https://github.com/bitronix/btm) | Embeddable JTA 1.1 transaction manager with connection pooling. | - | - | - |
+| [Narayana](https://narayana.io) | Red Hat's JTA/JTS transaction manager with saga support. (LGPL-2.1-only) | - | - | - |
+| [Seata](https://github.com/seata/seata) | Alibaba's distributed transaction solution with AT/TCC/SAGA modes. | - | - | - |
 
 <!-- SECTION:Distribution -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Artipie](https://github.com/artipie/artipie) | Binary artifact management toolkit which hosts them on the file system or S3. | 649 | 10mo |
-| [Capsule](https://github.com/puniverse/capsule) | Simple and powerful packaging and deployment. A fat JAR on steroids, or a "Docker for Java" that supports JVM-optimized containers. | 1.2k | 9y |
-| [Central Repository](https://search.maven.org) | Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven, and available in all other build tools. | - | - |
-| [Getdown](https://github.com/threerings/getdown) | System for deploying Java applications to end-user computers and keeping them up to date. Developed as an alternative to Java Web Start. | 526 | 1y |
-| [IzPack](http://izpack.org) | Setup authoring tool for cross-platform deployments. | - | - |
-| [JavaPackager](https://github.com/fvarrui/JavaPackager) | Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them. | - | - |
-| [jDeploy](https://www.jdeploy.com) | Deploy desktop apps as native Mac, Windows or Linux bundles. | - | - |
-| [jlink.online](https://github.com/AdoptOpenJDK/jlink.online) | Builds optimized runtimes over HTTP. | 50 | 1y |
-| [packr](https://github.com/libgdx/packr) | Packs JARs, assets and the JVM for native distribution on Windows, Linux and macOS. | 2.6k | 1y |
-| [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) | Maven plugin for making self-executing JARs. | 133 | 2y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Artipie](https://github.com/artipie/artipie) | Self-hosted artifact repository supporting Maven, Docker, npm on S3/filesystem. | 649 | 3mo | MIT |
+| [Capsule](https://github.com/puniverse/capsule) | Single-file deployment with embedded JVM and dependency resolution. | 1.2k | 3y | EPL-1.0 |
+| [Central Repository](https://search.maven.org) | Maven Central: the default artifact repository for the Java ecosystem. | - | - | - |
+| [Getdown](https://github.com/threerings/getdown) | Java Web Start replacement with auto-updates and delta patching. | 525 | 1y | - |
+| [IzPack](http://izpack.org) | Cross-platform installer builder with XML configuration. | - | - | - |
+| [JavaPackager](https://github.com/fvarrui/JavaPackager) | Maven/Gradle plugin creating native executables and installers. | - | - | - |
+| [jDeploy](https://www.jdeploy.com) | Deploy Java desktop apps via npm with native bundles. | - | - | - |
+| [jlink.online](https://github.com/AdoptOpenJDK/jlink.online) | HTTP API for custom JRE generation via jlink. | 50 | 1y | Apache-2.0 |
+| [packr](https://github.com/libgdx/packr) | Bundle JRE with your app for native Windows/Mac/Linux distribution. | 2.6k | 1y | Apache-2.0 |
+| [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) | Creates JARs executable via `./app.jar` on Unix. | 133 | 2y | Apache-2.0 |
 
 <!-- SECTION:Document Processing -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache POI](https://poi.apache.org) | Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT). | - | - |
-| [documents4j](https://documents4j.com/#/) | API for document format conversion using third-party converters such as MS Word. | - | - |
-| [docx4j](https://www.docx4java.org/trac/docx4j) | Create and manipulate Microsoft Open XML files. | - | - |
-| [fastexcel](https://github.com/dhatim/fastexcel) | High performance library to read and write large Excel (XLSX) worksheets. | 855 | 22d |
-| [zerocell](https://github.com/creditdatamw/zerocell) | Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead. | 81 | 1y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache POI](https://poi.apache.org) | Full Office document support: Excel, Word, PowerPoint (OLE2 & OOXML). | - | - | - |
+| [documents4j](https://documents4j.com/#/) | Document conversion API using MS Office or LibreOffice backends. | - | - | - |
+| [docx4j](https://www.docx4java.org/trac/docx4j) | JAXB-based DOCX/PPTX/XLSX manipulation with mail merge. | - | - | - |
+| [fastexcel](https://github.com/dhatim/fastexcel) | Streaming Excel read/write handling millions of rows with low memory. | 855 | 4d | - |
+| [zerocell](https://github.com/creditdatamw/zerocell) | Annotation-driven Excel to POJO mapping with minimal overhead. | 81 | 1y | Apache-2.0 |
 
 <!-- SECTION:Financial -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot) | Trading bot framework. | 650 | 1y |
-| [Parity](https://github.com/paritytrading/parity) | Platform for trading venues. | 501 | 3y |
-| [Philadelphia](https://github.com/paritytrading/philadelphia) | Low-latency financial information exchange. | 339 | 12d |
-| [Square](https://github.com/square/connect-java-sdk) | Integration with the Square API. | 40 | 6y |
-| [Stripe](https://github.com/stripe/stripe-java) | Integration with the Stripe API. | 942 | 1d |
-| [ta4j](https://github.com/ta4j/ta4j) | Library for technical analysis. | 2.3k | 1d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot) | Trading bot framework with exchange integration and backtesting. | 650 | 10mo | GPL-3.0 |
+| [Parity](https://github.com/paritytrading/parity) | Open-source stock exchange with matching engine and market data. | 501 | 3y | Apache-2.0 |
+| [Philadelphia](https://github.com/paritytrading/philadelphia) | Low-latency FIX protocol implementation. | 339 | 14d | Apache-2.0 |
+| [Square](https://github.com/square/connect-java-sdk) | Official Square payments API client. | 40 | 4y | Apache-2.0 |
+| [Stripe](https://github.com/stripe/stripe-java) | Official Stripe API client for payments and subscriptions. | 944 | 2d | MIT |
+| [ta4j](https://github.com/ta4j/ta4j) | Technical analysis library with 130+ indicators and backtesting. | 2.3k | 2d | - |
 
 <!-- SECTION:Formal Verification -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [CATG](https://github.com/ksen007/janala2) | Concolic unit testing engine. Automatically generates unit tests using formal methods. | N/A | N/A |
-| [Checker Framework](https://checkerframework.org) | Pluggable type systems. Includes nullness types, physical units, immutability types and more. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
-| [Daikon](https://plse.cs.washington.edu/daikon/) | Detects likely program invariants and generates JML specs based on those invariants. | - | - |
-| [Java Path Finder (JPF)](https://github.com/javapathfinder/jpf-core) | JVM formal verification tool containing a model checker and more. Created by NASA. | 593 | 22d |
-| [JMLOK 2.0](https://massoni.computacao.ufcg.edu.br/home/jmlok) | Detects inconsistencies between code and JML specification through feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected. (GPL-3.0-only) | - | - |
-| [KeY](https://www.key-project.org) | Formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification. (GPL-2.0-or-later) | - | - |
-| [OpenJML](http://www.openjml.org) | Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers. (GPL-2.0-only) | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [CATG](https://github.com/ksen007/janala2) | Concolic testing: auto-generates tests via symbolic execution. | N/A | N/A | - |
+| [Checker Framework](https://checkerframework.org) | Pluggable type systems for nullness, tainting, and more. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - | - |
+| [Daikon](https://plse.cs.washington.edu/daikon/) | Dynamic invariant detection; infers likely specifications from runs. | - | - | - |
+| [Java Path Finder (JPF)](https://github.com/javapathfinder/jpf-core) | NASA's model checker for finding concurrency bugs and deadlocks. | 593 | 25d | - |
+| [JMLOK 2.0](https://massoni.computacao.ufcg.edu.br/home/jmlok) | Detects JML specification violations via random testing. (GPL-3.0-only) | - | - | - |
+| [KeY](https://www.key-project.org) | Deductive verification using JML and symbolic execution. (GPL-2.0-or-later) | - | - | - |
+| [OpenJML](http://www.openjml.org) | JML verification via SMT solvers (Z3, CVC4). (GPL-2.0-only) | - | - | - |
 
 <!-- SECTION:Functional Programming -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Cyclops](https://github.com/aol/cyclops) | Monad and stream utilities, comprehensions, pattern matching, functional extensions for all JDK collections, future streams, trampolines and much more. | 1.3k | 3y |
-| [derive4j](https://github.com/derive4j/derive4j) | Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching and morphisms. (GPL-3.0-only) | 577 | 4y |
-| [Fugue](https://bitbucket.org/atlassian/fugue) | Functional extensions to Guava. | - | - |
-| [Functional Java](http://www.functionaljava.org) | Implements numerous basic and advanced programming abstractions that assist composition-oriented development. | - | - |
-| [jOOλ](https://github.com/jOOQ/jOOL) | Extension to Java 8 that aims to fix gaps in lambda by providing numerous missing types and a rich set of sequential Stream API additions. | 2.1k | 1y |
-| [Packrat](https://github.com/jhspetersson/packrat) | Gatherers library for Java Stream API. Gatherers can enhance streams with custom intermediate operations. | 24 | 3d |
-| [protonpack](https://github.com/poetix/protonpack) | Collection of stream utilities. | 485 | 1y |
-| [StreamEx](https://github.com/amaembo/streamex) | Enhances Java 8 Streams. | 2.3k | 4mo |
-| [Vavr](https://www.vavr.io) | Functional component library that provides persistent data types and functional control structures. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Cyclops](https://github.com/aol/cyclops) | Monads, pattern matching, and persistent collections for functional Java. | 1.3k | 2y | Apache-2.0 |
+| [derive4j](https://github.com/derive4j/derive4j) | Algebraic data types with pattern matching via annotation processing. (GPL-3.0-only) | 577 | 3y | - |
+| [Fugue](https://bitbucket.org/atlassian/fugue) | Atlassian's functional extensions: Option, Either, and more. | - | - | - |
+| [Functional Java](http://www.functionaljava.org) | Immutable collections, monads, and functional data structures. | - | - | - |
+| [jOOλ](https://github.com/jOOQ/jOOL) | Tuples, Seq, and unchecked functional interfaces for streams. | 2.1k | 1y | Apache-2.0 |
+| [Packrat](https://github.com/jhspetersson/packrat) | Custom Gatherers for Java Stream intermediate operations. | 24 | 6d | Apache-2.0 |
+| [protonpack](https://github.com/poetix/protonpack) | Stream utilities: zip, unfold, takeWhile, and windowing. | 485 | 1y | MIT |
+| [StreamEx](https://github.com/amaembo/streamex) | Enhanced streams with parallel support and additional collectors. | 2.3k | 4mo | Apache-2.0 |
+| [Vavr](https://www.vavr.io) | Scala-inspired FP: immutable collections, Try, Either, pattern matching. | - | - | - |
 
 <!-- SECTION:Game Development -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [FXGL](https://almasb.github.io/FXGL/) | JavaFX Game Development Framework. | - | - |
-| [JBox2D](http://www.jbox2d.org/) | Port of the renowned C++ 2D physics engine. | - | - |
-| [jMonkeyEngine](https://jmonkeyengine.org) | Game engine for modern 3D development. | - | - |
-| [libGDX](https://libgdx.com) | All-round cross-platform, high-level framework. | - | - |
-| [Litiengine](https://litiengine.com/) | AWT-based, lightweight 2D game engine. | - | - |
-| [LWJGL](https://www.lwjgl.org) | Robust framework that abstracts libraries like OpenGL/CL/AL. | - | - |
-| [Mini2Dx](https://mini2dx.org) | Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games. | - | - |
-| [Void2D](https://github.com/xzripper/Void2D) | High-level 2D game engine with built-in physics based on Swing. | N/A | N/A |
-| [vulkan4j](https://github.com/chuigda/vulkan4j) | Vulkan, OpenGL ES2 and GLFW Memory Allocator bindings. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [FXGL](https://almasb.github.io/FXGL/) | JavaFX game engine with ECS, physics, and UI out of the box. | - | - | - |
+| [JBox2D](http://www.jbox2d.org/) | Box2D physics engine port for 2D rigid body simulation. | - | - | - |
+| [jMonkeyEngine](https://jmonkeyengine.org) | Full-featured 3D engine with PBR, physics, and networking. | - | - | - |
+| [libGDX](https://libgdx.com) | Cross-platform 2D/3D framework deploying to desktop, Android, iOS, web. | - | - | - |
+| [Litiengine](https://litiengine.com/) | Pure Java 2D engine with no native dependencies. | - | - | - |
+| [LWJGL](https://www.lwjgl.org) | Low-level bindings to OpenGL, Vulkan, OpenAL, and more. | - | - | - |
+| [Mini2Dx](https://mini2dx.org) | Beginner-friendly 2D framework with tiled map and UI support. | - | - | - |
+| [Void2D](https://github.com/xzripper/Void2D) | Swing-based 2D engine with physics for simple games. | N/A | N/A | - |
+| [vulkan4j](https://github.com/chuigda/vulkan4j) | Vulkan and OpenGL ES2 bindings via Panama FFM. | - | - | - |
 
 <!-- SECTION:Geospatial -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache SIS](https://sis.apache.org) | Library for developing geospatial applications. | - | - |
-| [Geo](https://github.com/davidmoten/geo) | GeoHash utilities in Java. | 431 | 16d |
-| [GeoTools](https://geotools.org) | Library that provides tools for geospatial data. (LGPL-2.1-only) | - | - |
-| [GraphHopper](https://github.com/graphhopper/graphhopper) | Road-routing engine. Used as a Java library or standalone web service. | 6.2k | 2d |
-| [H2GIS](http://www.h2gis.org) | Spatial extension of the H2 database. (LGPL-3.0-only) | - | - |
-| [Jgeohash](https://astrapi69.github.io/jgeohash/) | Library for using the GeoHash algorithm. | - | - |
-| [Mapsforge](https://github.com/mapsforge/mapsforge) | Map rendering based on OpenStreetMap data. (LGPL-3.0-only) | 1.3k | 1d |
-| [Spatial4j](https://github.com/locationtech/spatial4j) | General-purpose spatial/geospatial library. | 955 | 7mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache SIS](https://sis.apache.org) | OGC/ISO standards-based geospatial metadata and referencing. | - | - | - |
+| [Geo](https://github.com/davidmoten/geo) | GeoHash encoding/decoding with spatial indexing. | 431 | 3d | Apache-2.0 |
+| [GeoTools](https://geotools.org) | Comprehensive GIS toolkit for OGC standards. (LGPL-2.1-only) | - | - | - |
+| [GraphHopper](https://github.com/graphhopper/graphhopper) | Fast routing engine with turn costs and isochrones. | 6.2k | 1d | Apache-2.0 |
+| [H2GIS](http://www.h2gis.org) | Spatial SQL extension for H2 with OGC compliance. (LGPL-3.0-only) | - | - | - |
+| [Jgeohash](https://astrapi69.github.io/jgeohash/) | GeoHash algorithm with neighbor calculation and bounding boxes. | - | - | - |
+| [Mapsforge](https://github.com/mapsforge/mapsforge) | Offline map rendering from OpenStreetMap vector data. (LGPL-3.0-only) | 1.3k | 4d | LGPL-3.0 |
+| [Spatial4j](https://github.com/locationtech/spatial4j) | Geospatial shapes and distance calculations for search engines. | 954 | 7mo | - |
 
 <!-- SECTION:GUI -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main) | Successor of Swing. | - | - |
-| [Scene Builder](https://gluonhq.com/products/scene-builder/) | Visual layout tool for JavaFX applications. | - | - |
-| [SnapKit](https://github.com/reportmill/SnapKit) | Modern Java UI library for both desktop and web. | 310 | 16h |
-| [SWT](https://www.eclipse.org/swt/) | Graphical widget toolkit. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main) | Rich client platform with CSS styling, FXML, and hardware acceleration. | - | - | - |
+| [Scene Builder](https://gluonhq.com/products/scene-builder/) | Drag-and-drop FXML UI designer for JavaFX. | - | - | - |
+| [SnapKit](https://github.com/reportmill/SnapKit) | Cross-platform UI (desktop/web) with declarative layout. | 310 | 12h | - |
+| [SWT](https://www.eclipse.org/swt/) | Eclipse's native widget toolkit for OS-native look and feel. | - | - | - |
 
 <!-- SECTION:High Performance -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Agrona](https://github.com/real-logic/Agrona) | Data structures and utility methods that are common in high-performance applications. | - | - |
-| [Disruptor](https://lmax-exchange.github.io/disruptor/) | Inter-thread messaging library. | - | - |
-| [Eclipse Collections](https://github.com/eclipse/eclipse-collections) | Collections framework inspired by Smalltalk. | - | - |
-| [fastutil](http://fastutil.di.unimi.it) | Fast and compact type-specific collections. | - | - |
-| [HPPC](https://labs.carrotsearch.com/hppc.html) | Primitive collections. | - | - |
-| [JCTools](https://github.com/JCTools/JCTools) | Concurrency tools currently missing from the JDK. | 3.8k | 1y |
-| [Koloboke](https://github.com/leventov/Koloboke) | Carefully designed extension of the Java Collections Framework with primitive specializations and more. | 1.0k | 9y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Agrona](https://github.com/real-logic/Agrona) | Off-heap buffers, ring buffers, and lock-free data structures. | - | - | - |
+| [Disruptor](https://lmax-exchange.github.io/disruptor/) | Lock-free ring buffer achieving 25M+ msgs/sec between threads. | - | - | - |
+| [Eclipse Collections](https://github.com/eclipse/eclipse-collections) | Memory-efficient collections with primitives and immutables. | - | - | - |
+| [fastutil](http://fastutil.di.unimi.it) | Primitive collections 2-3x faster than java.util. | - | - | - |
+| [HPPC](https://labs.carrotsearch.com/hppc.html) | High-performance primitive collections with minimal memory. | - | - | - |
+| [JCTools](https://github.com/JCTools/JCTools) | Non-blocking queues: SPSC, MPSC, MPMC for concurrent apps. | 3.8k | 1y | Apache-2.0 |
+| [Koloboke](https://github.com/leventov/Koloboke) | Fastest hash maps/sets with primitive specialization. | 1.0k | 8y | - |
 
 <!-- SECTION:HTTP Clients -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache HttpComponents](https://hc.apache.org/) | Toolset of low-level Java components focused on HTTP and associated protocols. | - | - |
-| [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) | Asynchronous HTTP and WebSocket client library. | 6.4k | 7d |
-| [Avaje Http Client](https://avaje.io/http-client) | Wrapper on JDK 11's HttpClient that adds Feign-like interface among other enhancements. | - | - |
-| [Feign](https://github.com/OpenFeign/feign) | HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket. | 9.8k | 1h |
-| [Google HTTP Client](https://github.com/googleapis/google-http-java-client) | Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf. | 1.4k | 19d |
-| [methanol](https://github.com/mizosoft/methanol) | HTTP client extensions library. | 286 | 17d |
-| [Retrofit](https://square.github.io/retrofit/) | Typesafe REST client. | - | - |
-| [Ribbon](https://github.com/Netflix/ribbon) | Client-side IPC library that is battle-tested in the cloud. | 4.6k | 22d |
-| [Riptide](https://github.com/zalando/riptide) | Client-side response routing for Spring's RestTemplate. | 327 | 4mo |
-| [unirest-java](https://github.com/Kong/unirest-java) | Simplified, lightweight HTTP client library. | 2.7k | 1mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache HttpComponents](https://hc.apache.org/) | Full-featured HTTP client with connection pooling and async support. | - | - | - |
+| [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) | Non-blocking HTTP/WebSocket client on Netty. | 6.4k | 10d | - |
+| [Avaje Http Client](https://avaje.io/http-client) | JDK HttpClient wrapper with declarative interfaces and JSON binding. | - | - | - |
+| [Feign](https://github.com/OpenFeign/feign) | Declarative REST client via annotated interfaces. | 9.8k | 2d | Apache-2.0 |
+| [Google HTTP Client](https://github.com/googleapis/google-http-java-client) | Pluggable transport with JSON parsing and OAuth support. | 1.4k | 21d | Apache-2.0 |
+| [methanol](https://github.com/mizosoft/methanol) | JDK HttpClient extensions: caching, compression, multipart. | 286 | 19d | MIT |
+| [Retrofit](https://square.github.io/retrofit/) | Type-safe REST client with pluggable converters and call adapters. | - | - | - |
+| [Ribbon](https://github.com/Netflix/ribbon) | Netflix's client-side load balancer with retry policies. | 4.6k | 24d | Apache-2.0 |
+| [Riptide](https://github.com/zalando/riptide) | Response routing DSL for RestTemplate with problem+json support. | 329 | 19h | MIT |
+| [unirest-java](https://github.com/Kong/unirest-java) | Fluent HTTP client with JSON, async, and file upload support. | 2.7k | 1mo | MIT |
 
 <!-- SECTION:Hypermedia Types -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [hate](https://github.com/blackdoor/hate) | Builds hypermedia-friendly objects according to HAL specification. | 25 | 2y |
-| [JSON-LD](https://github.com/jsonld-java/jsonld-java) | JSON-LD implementation. | 386 | 2y |
-| [Siren4J](https://github.com/eserating-chwy/siren4j) | Library for the Siren specification. | 28 | 8y |
-| [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas) | Standalone and Spring support for building hypermedia-based APIs using HAL, HAL FORMS, Collection+JSON, ALPS and UBER. | 1.1k | 27d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [hate](https://github.com/blackdoor/hate) | HAL+JSON builder with link templating support. | 25 | 2y | MIT |
+| [JSON-LD](https://github.com/jsonld-java/jsonld-java) | W3C JSON-LD processor with expansion, compaction, and framing. | 386 | 2y | BSD-3-Clause |
+| [Siren4J](https://github.com/eserating-chwy/siren4j) | Siren hypermedia builder with actions and embedded entities. | 28 | 1y | MIT |
+| [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas) | Multi-format hypermedia (HAL, HAL-FORMS, Collection+JSON) for Spring. | 1.1k | 25d | Apache-2.0 |
 
 <!-- SECTION:IDE -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Eclipse](https://www.eclipse.org) | Established open-source project with support for lots of plugins and languages. | - | - |
-| [jGRASP](https://www.jgrasp.org) | Created to provide software visualizations that work in conjunction with the debugger such as Control Structure Diagrams, UML class diagrams and Object Viewer. | - | - |
-| [NetBeans](https://netbeans.apache.org) | Provides integration for several Java SE and EE features, from database access to HTML5. | - | - |
-| [SnapCode](https://reportmill.com/SnapCode/) | Modern IDE for Java running in the browser, focused on education. | - | - |
-| [Visual Studio Code](https://code.visualstudio.com/docs/languages/java) | Provides Java support for lightweight projects with a simple, modern workflow by using extensions from the internal marketplace. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Eclipse](https://www.eclipse.org) | Extensible IDE with vast plugin ecosystem and multi-language support. | - | - | - |
+| [jGRASP](https://www.jgrasp.org) | Educational IDE with control structure and UML visualizations. | - | - | - |
+| [NetBeans](https://netbeans.apache.org) | Apache IDE with Java SE/EE, Maven, and Git integration. | - | - | - |
+| [SnapCode](https://reportmill.com/SnapCode/) | Browser-based Java IDE for learning with live preview. | - | - | - |
+| [Visual Studio Code](https://code.visualstudio.com/docs/languages/java) | Lightweight editor with Java extensions for debugging and Maven. | - | - | - |
 
 <!-- SECTION:Imagery -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Barcode-Lib4J](https://github.com/vws-java/Barcode-Lib4J) | Generates QR Code, DataMatrix, and other 1D/2D barcodes as vector (PDF, EPS, SVG) and raster (PNG, BMP, JPG) images with DPI awareness, high precision, and CMYK color model support. | 9 | 15d |
-| [Imgscalr](https://github.com/rkalla/imgscalr) | Simple, efficient and hardware-accelerated image-scaling library implemented in pure Java 2D. | 1.2k | 2y |
-| [Tess4J](https://github.com/nguyenq/tess4j) | JNA wrapper for Tesseract OCR API. | 1.7k | 11d |
-| [Thumbnailator](https://github.com/coobird/thumbnailator) | High-quality thumbnail generation library. | 5.4k | 5d |
-| [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) | Collection of plugins that extend the number of supported image file formats. | 2.1k | 21h |
-| [ZXing](https://github.com/zxing/zxing) | Multi-format 1D/2D barcode image processing library. | 33.8k | 1mo |
-| [image-comparison](https://github.com/romankh3/image-comparison) | Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison. | 385 | 7mo |
-| [vips-ffm](https://github.com/lopcode/vips-ffm) | Comprehensive bindings for libvips, using Java's "Foreign Function & Memory" API. | 98 | 8d |
-| [scrimage](https://sksamuel.github.io/scrimage) | Immutable, functional, and performant JVM library for manipulation of images. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Barcode-Lib4J](https://github.com/vws-java/Barcode-Lib4J) | Vector/raster barcode generation with CMYK and high-DPI support. | 9 | 17d | Apache-2.0 |
+| [Imgscalr](https://github.com/rkalla/imgscalr) | Hardware-accelerated image scaling with quality presets. | 1.2k | 2y | Apache-2.0 |
+| [Tess4J](https://github.com/nguyenq/tess4j) | Tesseract OCR wrapper for text extraction from images. | 1.7k | 13d | Apache-2.0 |
+| [Thumbnailator](https://github.com/coobird/thumbnailator) | Fluent API for high-quality thumbnail generation. | 5.4k | 1d | MIT |
+| [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) | ImageIO plugins for TIFF, PSD, WebP, and more formats. | 2.1k | 3d | BSD-3-Clause |
+| [ZXing](https://github.com/zxing/zxing) | Multi-format barcode scanning and generation library. | 33.8k | 1mo | Apache-2.0 |
+| [image-comparison](https://github.com/romankh3/image-comparison) | Visual diff tool highlighting image differences with rectangles. | 385 | 7mo | Apache-2.0 |
+| [vips-ffm](https://github.com/lopcode/vips-ffm) | Blazing-fast libvips bindings via Panama FFM. | 98 | 10d | Apache-2.0 |
+| [scrimage](https://sksamuel.github.io/scrimage) | Immutable image operations: resize, crop, filters, and formats. | - | - | - |
 
 <!-- SECTION:Introspection -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ClassGraph](https://github.com/classgraph/classgraph) | ClassGraph (formerly FastClasspathScanner) is an uber-fast, ultra-lightweight, parallelized classpath scanner and module scanner for Java, Scala, Kotlin and other JVM languages. | 3.0k | 2mo |
-| [jOOR](https://github.com/jOOQ/jOOR) | jOOR stands for jOOR Object Oriented Reflection. It is a simple wrapper for the java.lang.reflect package. | 2.8k | 1y |
-| [Mirror](http://projetos.vidageek.net/mirror/mirror/) | Mirror was created to bring light to a simple problem, usually named ReflectionUtil, which is on almost all projects that rely on reflection to do advanced tasks. | - | - |
-| [Objenesis](http://objenesis.org) | Allows dynamic instantiation without default constructor, e.g. constructors which have required arguments, side effects or throw exceptions. | - | - |
-| [ReflectASM](https://github.com/EsotericSoftware/reflectasm) | ReflectASM is a very small Java library that provides high performance reflection by using code generation. | 1.5k | 7mo |
-| [Reflections](https://github.com/ronmamo/reflections) | Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project. | 4.8k | 2y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ClassGraph](https://github.com/classgraph/classgraph) | Ultra-fast classpath scanner with parallel processing and module support. | 3.0k | 3mo | MIT |
+| [jOOR](https://github.com/jOOQ/jOOR) | Fluent reflection API simplifying method invocation and field access. | 2.8k | 1y | Apache-2.0 |
+| [Mirror](http://projetos.vidageek.net/mirror/mirror/) | Simplified reflection for common tasks with a clean API. | - | - | - |
+| [Objenesis](http://objenesis.org) | Instantiate objects bypassing constructors; used by serializers. | - | - | - |
+| [ReflectASM](https://github.com/EsotericSoftware/reflectasm) | Code-generated reflection achieving near-native performance. | 1.5k | 7mo | BSD-3-Clause |
+| [Reflections](https://github.com/ronmamo/reflections) | Runtime metadata scanning for annotations, subtypes, and resources. | 4.8k | 1y | WTFPL |
 
 <!-- SECTION:Job Scheduling -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [JobRunr](https://github.com/jobrunr/jobrunr) | Job scheduling library which utilizes lambdas for fire-and-forget, delayed and recurring jobs. Guarantees execution by single scheduler instance using optimistic locking. Has features for persistence, minimal dependencies and is embeddable. | 2.8k | 2d |
-| [Quartz](https://github.com/quartz-scheduler/quartz) | Feature-rich, open source job scheduling library that can be integrated within virtually any Java application. | 6.7k | 1mo |
-| [Sundial](https://github.com/knowm/Sundial) | Lightweight framework to simply define jobs, define triggers and start the scheduler. | 276 | 1y |
-| [Wisp](https://github.com/Coreoz/Wisp) | Simple library with minimal footprint and straightforward API. | 141 | 7mo |
-| [db-scheduler](https://github.com/kagkarlsson/db-scheduler) | Persistent and cluster-friendly scheduler. | 1.5k | 1d |
-| [easy-batch](https://github.com/j-easy/easy-batch) | Set up batch jobs with simple processing pipelines. Records are read in sequence from a data source, processed in pipeline and written in batches to a data sink. | 629 | 4y |
-| [shedlock](https://github.com/lukas-krecan/ShedLock) | Makes sure that your scheduled tasks are executed at most once at the same time. If a task is being executed on one node, it acquires a lock which prevents execution of the same task from another node or thread. | 4.1k | 9h |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [JobRunr](https://github.com/jobrunr/jobrunr) | Distributed job scheduler with lambda-based jobs and dashboard. | 2.8k | 1d | - |
+| [Quartz](https://github.com/quartz-scheduler/quartz) | Enterprise scheduler with cron expressions and clustering support. | 6.7k | 3d | Apache-2.0 |
+| [Sundial](https://github.com/knowm/Sundial) | Lightweight Quartz wrapper with simplified configuration. | 276 | 1y | Apache-2.0 |
+| [Wisp](https://github.com/Coreoz/Wisp) | Minimal scheduler (~10KB) with cron and fixed-delay scheduling. | 141 | 7mo | Apache-2.0 |
+| [db-scheduler](https://github.com/kagkarlsson/db-scheduler) | Persistent scheduler with cluster coordination via database locks. | 1.5k | 3d | Apache-2.0 |
+| [easy-batch](https://github.com/j-easy/easy-batch) | Batch processing with readers, processors, and writers pipeline. | 629 | 2y | MIT |
+| [shedlock](https://github.com/lukas-krecan/ShedLock) | Distributed lock ensuring single execution across cluster nodes. | 4.1k | 16h | Apache-2.0 |
 
 <!-- SECTION:JSON -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Avaje Jsonb](https://avaje.io/jsonb/) | Reflection-free Json binding via source code generation with Jackson-like annotations. | - | - |
-| [DSL-JSON](https://github.com/ngs-doo/dsl-json) | JSON library with advanced compile time databinding. | 1.1k | 1y |
-| [Genson](http://genson.io) | Powerful and easy-to-use Java-to-JSON conversion library. | - | - |
-| [Gson](https://github.com/google/gson) | Serializes objects to JSON and vice versa. Good performance with on-the-fly usage. | 24.3k | 6d |
-| [HikariJSON](https://github.com/brettwooldridge/HikariJSON) | High-performance JSON parser, 2x faster than Jackson. | 465 | 8y |
-| [jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8) | Set of Jackson modules for Java 8 datatypes and features. | 417 | 8d |
-| [Jackson-datatype-money](https://github.com/zalando/jackson-datatype-money) | Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types. | 264 | 6mo |
-| [Jackson](https://github.com/FasterXML/jackson) | Similar to GSON, but offers performance gains if you need to instantiate the library more often. | 9.6k | 5d |
-| [JSON-io](https://github.com/jdereg/json-io) | Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer. | 343 | 2d |
-| [jsoniter](http://jsoniter.com) | Fast and flexible library with iterator and lazy parsing API. | - | - |
-| [LoganSquare](https://github.com/bluelinelabs/LoganSquare) | JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library. | 3.2k | 9y |
-| [Moshi](https://github.com/square/moshi) | Modern JSON library, less opinionated and uses built-in types like List and Map. | 10.1k | 3d |
-| [Yasson](https://github.com/eclipse-ee4j/yasson) | Binding layer between classes and JSON documents similar to JAXB. | 215 | 5mo |
-| [fastjson](https://github.com/alibaba/fastjson) | Very fast processor with no additional dependencies and full data binding. | 25.7k | 2y |
-| [Jolt](https://github.com/bazaarvoice/jolt) | JSON to JSON transformation tool. | 1.7k | 2y |
-| [JsonPath](https://github.com/json-path/JsonPath) | Extract data from JSON using XPATH-like syntax. | 9.4k | 2mo |
-| [JsonSurfer](https://github.com/jsurfer/JsonSurfer) | Streaming JsonPath processor dedicated to processing big and complicated JSON data. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Avaje Jsonb](https://avaje.io/jsonb/) | Compile-time JSON binding with no reflection; Jackson-compatible annotations. | - | - | - |
+| [DSL-JSON](https://github.com/ngs-doo/dsl-json) | Fastest JSON library via compile-time generated readers/writers. | 1.1k | 1y | BSD-3-Clause |
+| [Genson](http://genson.io) | Feature-rich JSON with streaming, polymorphism, and JAX-RS support. | - | - | - |
+| [Gson](https://github.com/google/gson) | Google's simple JSON library with no-config serialization. | 24.3k | 8d | Apache-2.0 |
+| [HikariJSON](https://github.com/brettwooldridge/HikariJSON) | Ultra-fast JSON parser; 2x faster than Jackson. | 465 | 2y | Apache-2.0 |
+| [jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8) | Jackson support for Optional, JSR-310 dates, and parameter names. | 417 | 10d | Apache-2.0 |
+| [Jackson-datatype-money](https://github.com/zalando/jackson-datatype-money) | Jackson serializer/deserializer for JavaMoney types. | 264 | 6mo | MIT |
+| [Jackson](https://github.com/FasterXML/jackson) | Industry-standard JSON with streaming, data-binding, and modules. | 9.6k | 8d | - |
+| [JSON-io](https://github.com/jdereg/json-io) | Deep object graph serialization with cycle handling. | 343 | 4d | Apache-2.0 |
+| [jsoniter](http://jsoniter.com) | Iterator-style API for streaming and lazy JSON parsing. | - | - | - |
+| [LoganSquare](https://github.com/bluelinelabs/LoganSquare) | Compile-time JSON for Android; faster than Gson and Jackson. | 3.2k | 4y | Apache-2.0 |
+| [Moshi](https://github.com/square/moshi) | Square's modern JSON with Kotlin support and adapters. | 10.1k | 5d | Apache-2.0 |
+| [Yasson](https://github.com/eclipse-ee4j/yasson) | Jakarta JSON Binding (JSON-B) reference implementation. | 215 | 6mo | - |
+| [fastjson](https://github.com/alibaba/fastjson) | Alibaba's high-performance JSON with JSONPath support. | 25.7k | 1y | Apache-2.0 |
+| [Jolt](https://github.com/bazaarvoice/jolt) | JSON-to-JSON transformation via shift, default, and sort specs. | 1.7k | 6mo | Apache-2.0 |
+| [JsonPath](https://github.com/json-path/JsonPath) | XPath-like queries for extracting JSON data. | 9.4k | 2mo | Apache-2.0 |
+| [JsonSurfer](https://github.com/jsurfer/JsonSurfer) | Streaming JsonPath for processing large JSON without loading all. | - | - | - |
 
 <!-- SECTION:JVM and JDK -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Which JDK](https://whichjdk.com/) | Overview of common JVMs with pros and cons. | - | - |
-| [Adopt Open JDK](https://adoptopenjdk.net) | Community-driven OpenJDK builds, including both HotSpot and OpenJ9. | - | - |
-| [Corretto](https://aws.amazon.com/corretto/) | No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
-| [Dragonwell8](https://github.com/alibaba/dragonwell8) | Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications. | - | - |
-| [Graal](https://github.com/oracle/graal) | Polyglot embeddable JVM. (GPL-2.0-only WITH Classpath-exception-2.0) | 21.4k | 14h |
-| [Liberica JDK](https://bell-sw.com) | Built from OpenJDK, thoroughly tested and passed the JCK. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
-| [OpenJ9](https://github.com/eclipse/openj9) | High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project. | - | - |
-| [Open JDK](https://openjdk.java.net) | Open JDK community home. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
-| [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) | VM with non-blocking, concurrent GC for iOS. (GPL-2.0-only WITH Classpath-exception-2.0) | N/A | N/A |
-| [RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview) | RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
-| [SAP Machine](https://sap.github.io/SapMachine/) | SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
-| [Zulu](https://www.azul.com/products/zulu-community/) | OpenJDK builds for Windows, Linux, and macOS. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
-| [Microsoft JDK](https://github.com/microsoft/openjdk) | Microsoft Build of OpenJDK, Free, Open Source, Freshly Brewed! | 339 | 2mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Which JDK](https://whichjdk.com/) | Decision guide for choosing a JDK distribution. | - | - | - |
+| [Adopt Open JDK](https://adoptopenjdk.net) | Community OpenJDK with HotSpot and OpenJ9 variants. | - | - | - |
+| [Corretto](https://aws.amazon.com/corretto/) | Amazon's LTS OpenJDK with AWS optimizations. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - | - |
+| [Dragonwell8](https://github.com/alibaba/dragonwell8) | Alibaba's OpenJDK optimized for long-running services. | - | - | - |
+| [Graal](https://github.com/oracle/graal) | Polyglot VM with native image compilation (GraalVM). (GPL-2.0-only WITH Classpath-exception-2.0) | 21.4k | 11h | - |
+| [Liberica JDK](https://bell-sw.com) | JCK-certified OpenJDK with JavaFX bundled option. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - | - |
+| [OpenJ9](https://github.com/eclipse/openj9) | Eclipse JVM with low memory footprint and fast startup. | - | - | - |
+| [Open JDK](https://openjdk.java.net) | Reference implementation and development home. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - | - |
+| [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) | Non-blocking GC VM for iOS mobile development. (GPL-2.0-only WITH Classpath-exception-2.0) | N/A | N/A | - |
+| [RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview) | Red Hat's enterprise-supported OpenJDK. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - | - |
+| [SAP Machine](https://sap.github.io/SapMachine/) | SAP's JCK-verified OpenJDK for enterprise. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - | - |
+| [Zulu](https://www.azul.com/products/zulu-community/) | Azul's TCK-certified OpenJDK with commercial support option. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - | - |
+| [Microsoft JDK](https://github.com/microsoft/openjdk) | Microsoft's OpenJDK build with Azure optimizations. | 340 | 2mo | MIT |
 
 <!-- SECTION:Logging -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Log4j 2](https://logging.apache.org/log4j/) | Complete rewrite with a powerful plugin and configuration architecture. | - | - |
-| [Echopraxia](https://github.com/tersesystems/echopraxia) | API designed around structured logging, rich context, and conditional logging. There are Logback and Log4J2 implementations, but Echopraxia's API is completely dependency-free, meaning it can be implemented with any logging API. | 58 | 1y |
-| [Graylog](https://www.graylog.org) | Open-source aggregator suited for extended role and permission management. (GPL-3.0-only) | - | - |
-| [Kibana](https://www.elastic.co/kibana) | Analyzes and visualizes log files. Some features require payment. | - | - |
-| [Logback](http://logback.qos.ch) | Robust logging library with interesting configuration options via Groovy. | - | - |
-| [Logbook](https://github.com/zalando/logbook) | Extensible, open-source library for HTTP request and response logging. | 2.0k | 8d |
-| [Logstash](https://www.elastic.co/logstash) | Tool for managing log files. | - | - |
-| [p6spy](https://github.com/p6spy/p6spy) | Enables logging for all JDBC transactions without changes to the code. | 2.2k | 3y |
-| [SLF4J](http://www.slf4j.org) | Abstraction layer/simple logging facade. | - | - |
-| [tinylog](https://tinylog.org/v2/) | Lightweight logging framework with static logger class. | - | - |
-| [OpenTracing Toolbox](https://github.com/zalando/opentracing-toolbox) | Collection of libraries that build on top of OpenTracing and provide extensions and plugins to existing instrumentations. | 180 | 6mo |
-| [Flogger](https://google.github.io/flogger/) | Flogger is a fluent logging API for Java. It supports a wide variety of features, and has many benefits over existing logging APIs. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Log4j 2](https://logging.apache.org/log4j/) | Async logging with lazy evaluation and plugin architecture. | - | - | - |
+| [Echopraxia](https://github.com/tersesystems/echopraxia) | Structured logging API with conditions and JSON context. | 58 | 10mo | - |
+| [Graylog](https://www.graylog.org) | Centralized log management with search and dashboards. (GPL-3.0-only) | - | - | - |
+| [Kibana](https://www.elastic.co/kibana) | Elasticsearch visualization for log analysis and monitoring. | - | - | - |
+| [Logback](http://logback.qos.ch) | SLF4J native implementation with Groovy config and filters. | - | - | - |
+| [Logbook](https://github.com/zalando/logbook) | HTTP request/response logging with filtering and correlation. | 2.0k | 17h | MIT |
+| [Logstash](https://www.elastic.co/logstash) | Log pipeline for parsing, transforming, and forwarding. | - | - | - |
+| [p6spy](https://github.com/p6spy/p6spy) | JDBC proxy logging all SQL with timing; no code changes. | 2.2k | 3y | Apache-2.0 |
+| [SLF4J](http://www.slf4j.org) | Universal logging facade; bind to any implementation. | - | - | - |
+| [tinylog](https://tinylog.org/v2/) | Minimalist logger with static API and 100KB footprint. | - | - | - |
+| [OpenTracing Toolbox](https://github.com/zalando/opentracing-toolbox) | OpenTracing extensions for Spring and Servlet tracing. | 180 | 6mo | MIT |
+| [Flogger](https://google.github.io/flogger/) | Google's fluent logging API with lazy argument evaluation. | - | - | - |
 
 <!-- SECTION:Machine Learning -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Flink](https://flink.apache.org) | Fast, reliable, large-scale data processing engine. | - | - |
-| [Apache Mahout](https://mahout.apache.org) | Scalable algorithms focused on collaborative filtering, clustering and classification. | - | - |
-| [DatumBox](http://www.datumbox.com) | Provides several algorithms and pre-trained models for natural language processing. | - | - |
-| [Deeplearning4j](https://deeplearning4j.org) | Distributed and multi-threaded deep learning library. | - | - |
-| [DJL](https://djl.ai) | High-level and engine-agnostic framework for deep learning. | - | - |
-| [Intelligent java](https://github.com/Barqawiz/IntelliJava) | Seamlessly integrate with remote deep learning and language models programmatically. | - | - |
-| [JSAT](https://github.com/EdwardRaff/JSAT) | Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only) | 800 | 3y |
-| [m2cgen](https://github.com/BayesWitnesses/m2cgen) | CLI tool to transpile models into native code. | 2.9k | 3y |
-| [Neureka](https://github.com/Gleethos/neureka) | A lightweight, platform independent, OpenCL accelerated nd-array/tensor library. | 86 | 1y |
-| [oj! Algorithms](https://www.ojalgo.org/) | High-performance mathematics, linear algebra and optimisation needed for data science, machine learning and scientific computing. | - | - |
-| [Oryx 2](https://github.com/OryxProject/oryx) | Framework for building real-time, large-scale machine learning applications. Includes end-to-end applications for collaborative filtering, classification, regression, and clustering. | 1.8k | 4y |
-| [Siddhi](https://github.com/siddhi-io/siddhi) | Cloud native streaming and complex event processing engine. | 1.6k | 5mo |
-| [Smile](https://github.com/haifengl/smile) | Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library. | 6.3k | 8h |
-| [Tribuo](https://tribuo.org/) | Provides tools for classification, regression, clustering, model development and interfaces with other libraries such as scikit-learn, pytorch and TensorFlow. | - | - |
-| [Weka](https://www.cs.waikato.ac.nz/ml/weka/) | Collection of algorithms for data mining tasks ranging from pre-processing to visualization. (GPL-3.0-only) | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Flink](https://flink.apache.org) | Stream/batch processing with exactly-once semantics and ML pipelines. | - | - | - |
+| [Apache Mahout](https://mahout.apache.org) | Distributed ML for clustering, classification, and recommendations. | - | - | - |
+| [DatumBox](http://www.datumbox.com) | Pre-trained NLP models for sentiment, topic, and spam detection. | - | - | - |
+| [Deeplearning4j](https://deeplearning4j.org) | Distributed deep learning with Spark and GPU support. | - | - | - |
+| [DJL](https://djl.ai) | Deep learning abstraction for PyTorch, TensorFlow, and MXNet. | - | - | - |
+| [Intelligent java](https://github.com/Barqawiz/IntelliJava) | Unified API for OpenAI, Cohere, and other AI services. | - | - | - |
+| [JSAT](https://github.com/EdwardRaff/JSAT) | Pure Java ML library with 100+ algorithms. (GPL-3.0-only) | 800 | 3y | GPL-3.0 |
+| [m2cgen](https://github.com/BayesWitnesses/m2cgen) | Export trained models to Java/C/Python code. | 2.9k | 1y | MIT |
+| [Neureka](https://github.com/Gleethos/neureka) | OpenCL-accelerated tensor library for neural networks. | 86 | 1y | MIT |
+| [oj! Algorithms](https://www.ojalgo.org/) | High-performance linear algebra and optimization solvers. | - | - | - |
+| [Oryx 2](https://github.com/OryxProject/oryx) | Real-time ML on Spark with serving layer and model updates. | 1.8k | 4y | Apache-2.0 |
+| [Siddhi](https://github.com/siddhi-io/siddhi) | Complex event processing for streaming analytics. | 1.6k | 5mo | Apache-2.0 |
+| [Smile](https://github.com/haifengl/smile) | Comprehensive ML library with Scala API and visualization. | 6.3k | 1d | - |
+| [Tribuo](https://tribuo.org/) | Oracle's ML library with reproducibility and ONNX export. | - | - | - |
+| [Weka](https://www.cs.waikato.ac.nz/ml/weka/) | GUI-based ML toolkit with 100+ algorithms. (GPL-3.0-only) | - | - | - |
 
 <!-- SECTION:Messaging -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Aeron](https://github.com/real-logic/Aeron) | Efficient, reliable, unicast and multicast message transport. | - | - |
-| [Apache ActiveMQ](https://activemq.apache.org) | Message broker that implements JMS and converts synchronous to asynchronous communication. | - | - |
-| [Apache Camel](https://camel.apache.org) | Glues together different transport APIs via Enterprise Integration Patterns. | - | - |
-| [Apache Kafka](https://kafka.apache.org) | High-throughput distributed messaging system. | - | - |
-| [Apache Pulsar](https://pulsar.apache.org) | Distributed pub/sub-messaging system. | - | - |
-| [Apache RocketMQ](https://rocketmq.apache.org) | Fast, reliable, and scalable distributed messaging platform. | - | - |
-| [Apache Qpid](https://qpid.apache.org) | Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms. | - | - |
-| [AutoMQ](https://github.com/AutoMQ/automq-for-kafka) | AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective. | - | - |
-| [Deezpatch](https://github.com/joel-jeremy/deezpatch) | Simple, lightweight, and performant dispatch library for decoupling messages (requests and events) and message handlers. | 64 | 3mo |
-| [EventBus](https://github.com/greenrobot/EventBus) | Simple publish/subscribe event bus. | 24.8k | 3y |
-| [Hermes](http://hermes.allegro.tech) | Fast and reliable message broker built on top of Kafka. | - | - |
-| [JeroMQ](https://github.com/zeromq/jeromq) | Implementation of ZeroMQ. | 2.4k | 10mo |
-| [Nakadi](https://github.com/zalando/nakadi) | Provides a RESTful API on top of Kafka. | 968 | 1y |
-| [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client) | RabbitMQ client. | 1.3k | 48m |
-| [Smack](https://github.com/igniterealtime/Smack) | Cross-platform XMPP client library. | 2.4k | 1mo |
-| [NATS client](https://github.com/nats-io/nats.java) | NATS client. | 640 | 16h |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Aeron](https://github.com/real-logic/Aeron) | Ultra-low-latency messaging with UDP multicast and IPC. | - | - | - |
+| [Apache ActiveMQ](https://activemq.apache.org) | JMS broker with persistence, clustering, and REST API. | - | - | - |
+| [Apache Camel](https://camel.apache.org) | 300+ connectors with Enterprise Integration Patterns routing. | - | - | - |
+| [Apache Kafka](https://kafka.apache.org) | Distributed event streaming with exactly-once semantics. | - | - | - |
+| [Apache Pulsar](https://pulsar.apache.org) | Multi-tenant messaging with tiered storage and geo-replication. | - | - | - |
+| [Apache RocketMQ](https://rocketmq.apache.org) | Alibaba's distributed messaging with transactions and scheduling. | - | - | - |
+| [Apache Qpid](https://qpid.apache.org) | AMQP 1.0 broker and client libraries. | - | - | - |
+| [AutoMQ](https://github.com/AutoMQ/automq-for-kafka) | Cloud-native Kafka with S3 storage and auto-scaling. | - | - | - |
+| [Deezpatch](https://github.com/joel-jeremy/deezpatch) | In-process message dispatcher with compile-time handler resolution. | 64 | 1mo | Apache-2.0 |
+| [EventBus](https://github.com/greenrobot/EventBus) | Android-optimized publish/subscribe event bus. | 24.8k | 1y | Apache-2.0 |
+| [Hermes](http://hermes.allegro.tech) | Kafka REST proxy with schema validation and rate limiting. | - | - | - |
+| [JeroMQ](https://github.com/zeromq/jeromq) | Pure Java ZeroMQ with pub/sub, push/pull patterns. | 2.4k | 1mo | MPL-2.0 |
+| [Nakadi](https://github.com/zalando/nakadi) | Event bus REST API with schema registry on Kafka. | 968 | 1y | MIT |
+| [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client) | Official AMQP client with connection recovery. | 1.3k | 1d | - |
+| [Smack](https://github.com/igniterealtime/Smack) | XMPP client for IM, presence, and extensions. | 2.4k | 1mo | Apache-2.0 |
+| [NATS client](https://github.com/nats-io/nats.java) | Lightweight messaging client for NATS with JetStream. | 640 | 1d | Apache-2.0 |
 
 <!-- SECTION:Microservice -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ActiveRPC](https://rpc.activej.io) | Lightweight and fast library for complex high-load distributed applications and Memcached-like solutions. | - | - |
-| [Armeria](https://github.com/line/armeria) | Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC. | 5.1k | 23h |
-| [consul-api](https://github.com/Ecwid/consul-api) | Client for the Consul API: a distributed, highly available and datacenter-aware registry/discovery service. | 423 | 3y |
-| [Eureka](https://github.com/Netflix/eureka) | REST-based service registry for resilient load balancing and failover. | 12.7k | 21d |
-| [Helidon](https://helidon.io) | Two-style approach for writing microservices: Functional-reactive and as an implementation of MicroProfile. | - | - |
-| [JDA](https://github.com/DV8FromTheWorld/JDA) | Wrapping of the Discord REST API and its WebSocket events. | - | - |
-| [KeenType](https://github.com/DaveJarvis/KeenType) | Modernized version of a Java-based implementation of the New Typesetting System, which was heavily based on Donald E. Knuth's original TeX. | N/A | N/A |
-| [kubernetes-client](https://github.com/fabric8io/kubernetes-client) | Client provides access to the full Kubernetes & OpenShift REST APIs via a fluent DSL. | 3.6k | 15d |
-| [Micronaut](https://micronaut.io) | Modern full-stack framework with focus on modularity, minimal memory footprint and startup time. | - | - |
-| [Nacos](https://nacos.io) | Dynamic service discovery, configuration and service management platform for building cloud native applications. | - | - |
-| [OpenAI-Java](https://github.com/TheoKanning/openai-java) | Java libraries for using OpenAI's GPT-3 API. | 4.8k | 1y |
-| [Quarkus](https://quarkus.io) | Kubernetes stack tailored for the HotSpot and Graal VM. | - | - |
-| [Sentinel](https://github.com/alibaba/Sentinel) | Flow control component enabling reliability, resilience and monitoring for microservices. | 23.0k | 16d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ActiveRPC](https://rpc.activej.io) | Zero-allocation RPC with 15M+ requests/sec throughput. | - | - | - |
+| [Armeria](https://github.com/line/armeria) | Async microservice framework with gRPC, Thrift, and REST on Netty. | 5.1k | 1d | Apache-2.0 |
+| [consul-api](https://github.com/Ecwid/consul-api) | Consul client for service discovery, health checks, and KV store. | 423 | 2y | Apache-2.0 |
+| [Eureka](https://github.com/Netflix/eureka) | Netflix's service registry with self-preservation and replication. | 12.7k | 23d | Apache-2.0 |
+| [Helidon](https://helidon.io) | Oracle's microservice framework: SE (functional) or MP (MicroProfile). | - | - | - |
+| [JDA](https://github.com/DV8FromTheWorld/JDA) | Discord API wrapper with event handling and slash commands. | - | - | - |
+| [KeenType](https://github.com/DaveJarvis/KeenType) | Modern TeX implementation for document typesetting. | N/A | N/A | - |
+| [kubernetes-client](https://github.com/fabric8io/kubernetes-client) | Fluent Kubernetes/OpenShift API client with CRD support. | 3.6k | 21h | Apache-2.0 |
+| [Micronaut](https://micronaut.io) | Compile-time DI framework with instant startup and low memory. | - | - | - |
+| [Nacos](https://nacos.io) | Alibaba's service discovery and config management platform. | - | - | - |
+| [OpenAI-Java](https://github.com/TheoKanning/openai-java) | OpenAI API client for GPT, DALL-E, and Whisper. | 4.8k | 1y | MIT |
+| [Quarkus](https://quarkus.io) | Supersonic Java with native compilation and live reload. | - | - | - |
+| [Sentinel](https://github.com/alibaba/Sentinel) | Flow control, circuit breaking, and real-time monitoring. | 23.0k | 8d | Apache-2.0 |
 
 <!-- SECTION:Miscellaneous -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [CQEngine](https://github.com/npgall/cqengine) | Ultra-fast, SQL-like queries on Java collections. | 1.8k | 3y |
-| [Design Patterns](https://github.com/iluwatar/java-design-patterns) | Implementation and explanation of the most common design patterns. | 93.6k | 7mo |
-| [FF4J](https://github.com/ff4j/ff4j) | Feature Flags for Java. | 1.4k | 18d |
-| [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes. (No explicit license) | 23.1k | 6y |
-| [IP2Location.io Java SDK](https://github.com/ip2location/ip2location-io-java) | Wrapper for the IP2Location.io Geolocation API and the IP2WHOIS domain WHOIS API. | 7 | 8d |
-| [ISBN core](https://github.com/ladutsko/isbn-core) | A small library that contains a representation object of ISBN-10 and ISBN-13 and tools to parse, validate and format one. | 3 | 11d |
-| [J2ObjC](https://github.com/google/j2objc) | Java-to-Objective-C translator for porting Android libraries to iOS. | 6.0k | 14h |
-| [JBake](https://jbake.org) | Static website generator. | - | - |
-| [JBot](https://github.com/rampatra/jbot) | Framework for building chatbots. (GPL-3.0-only) | 1.2k | 3mo |
-| [JCuda](http://jcuda.org) | JCuda offers Java bindings for CUDA and CUDA-related libraries. | - | - |
-| [JEmoji](https://github.com/felldo/JEmoji) | An auto-generated emoji library that provides type-safe direct access to emojis and alias support for Discord, Slack, GitHub and many more features. | 102 | 22d |
-| [Jimfs](https://github.com/google/jimfs) | In-memory file system. | 2.5k | 6d |
-| [Joda-Money](https://www.joda.org/joda-money/) | Basic currency and money classes and algorithms not provided by the JDK. | - | - |
-| [jOOX](https://github.com/jooq/joox) | Simple wrapper for the org.w3c.dom package, to allow for fluent XML document creation and manipulation with an API inspired by jQuery. | 505 | 1y |
-| [JPad](http://jpad.io) | Snippet runner. | - | - |
-| [jsweet](https://github.com/cincheo/jsweet) | Source transpiler to TypeScript/JavaScript. | 1.5k | 2y |
-| [Maven Wrapper](https://github.com/takari/maven-wrapper) | Analogue of Gradle Wrapper for Maven, allows building projects without installing maven. | 1.6k | 4y |
-| [Membrane Service Proxy](https://github.com/membrane/service-proxy) | Open-source, reverse-proxy framework. | - | - |
-| [MinimalFTP](https://github.com/Guichaguri/MinimalFTP) | Lightweight, small and customizable FTP server. | 186 | 6mo |
-| [LittleProxy](https://github.com/adamfisk/LittleProxy) | High performance HTTP proxy atop Netty's event-based networking library. | 2.1k | 8y |
-| [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) | Popular Java 8 guide. | 16.8k | 2y |
-| [Modernizer](https://github.com/gaul/modernizer-maven-plugin) | Detect uses of legacy Java APIs. | 383 | 6d |
-| [OctoLinker](https://github.com/OctoLinker/OctoLinker) | Browser extension which allows to navigate through code on GitHub more efficiently. | 5.3k | 2y |
-| [OpenRefine](http://openrefine.org) | Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases. | - | - |
-| [PipelinR](https://github.com/sizovs/pipelinr) | Small utility library for using handlers and commands with pipelines. | 476 | 4mo |
-| [Polyglot for Maven](https://github.com/takari/polyglot-maven) | Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML. | 915 | 6mo |
-| [RR4J](https://github.com/Kartikvk1996/RR4J) | RR4J is a tool that records java bytecode execution and later allows developers to replay locally. | 25 | 3y |
-| [Simple Java Mail](https://github.com/bbottema/simple-java-mail) | Mailing with a clean and fluent API. | 1.3k | 8mo |
-| [Smooks](https://github.com/smooks/smooks) | Framework for fragment-based message processing. (Apache-2.0 OR LGPL-3.0-or-later) | 414 | 10mo |
-| [Svix](https://github.com/svix/svix-webhooks/tree/main/java) | Library for the Svix API to send webhooks and verify signatures. | N/A | N/A |
-| [Togglz](https://www.togglz.org) | Implementation of the Feature Toggles pattern. | - | - |
-| [TypeTools](https://github.com/jhalterman/typetools) | Tools for resolving generic types. | 628 | 2y |
-| [webcam-capture](https://github.com/sarxos/webcam-capture) | Library for using built-in and external webcams directly in Java. | 2.3k | 2mo |
-| [XMLBeam](https://github.com/SvenEwald/xmlbeam) | Processes XML by using annotations or XPath within code. | 76 | 5mo |
-| [yGuard](https://github.com/yWorks/yGuard) | Obfuscation via renaming and shrinking. | 450 | 6mo |
-| [JBang](https://github.com/maxandersen/jbang/) | JBang makes it easy to use Java for scripting. It lets you use a single file for code and dependency management and allows you to run it directly. | N/A | N/A |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [CQEngine](https://github.com/npgall/cqengine) | In-memory indexed collections with SQL-like queries in microseconds. | 1.8k | 2y | Apache-2.0 |
+| [Design Patterns](https://github.com/iluwatar/java-design-patterns) | 100+ design patterns with Java examples and explanations. | 93.6k | 2mo | - |
+| [FF4J](https://github.com/ff4j/ff4j) | Feature flags with web console, audit, and Spring integration. | 1.4k | 20d | Apache-2.0 |
+| [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | Satirical over-engineered FizzBuzz demonstrating pattern overuse. (No explicit license) | 23.1k | 1y | - |
+| [IP2Location.io Java SDK](https://github.com/ip2location/ip2location-io-java) | IP geolocation and WHOIS lookup API client. | 7 | 10d | MIT |
+| [ISBN core](https://github.com/ladutsko/isbn-core) | ISBN-10/13 parsing, validation, and formatting. | 3 | 14d | MIT |
+| [J2ObjC](https://github.com/google/j2objc) | Google's Java to Objective-C transpiler for iOS code sharing. | 6.0k | 1d | Apache-2.0 |
+| [JBake](https://jbake.org) | Static site generator with Freemarker, Groovy, and Markdown. | - | - | - |
+| [JBot](https://github.com/rampatra/jbot) | Slack and Facebook Messenger bot framework. (GPL-3.0-only) | 1.2k | 3mo | GPL-3.0 |
+| [JCuda](http://jcuda.org) | Java bindings for CUDA GPU computing. | - | - | - |
+| [JEmoji](https://github.com/felldo/JEmoji) | Type-safe emoji library with Discord/Slack alias support. | 102 | 4d | Apache-2.0 |
+| [Jimfs](https://github.com/google/jimfs) | In-memory file system for testing with full NIO.2 support. | 2.5k | 8d | Apache-2.0 |
+| [Joda-Money](https://www.joda.org/joda-money/) | Money and currency handling with BigDecimal precision. | - | - | - |
+| [jOOX](https://github.com/jooq/joox) | jQuery-style fluent API for XML DOM manipulation. | 505 | 1y | Apache-2.0 |
+| [JPad](http://jpad.io) | Code snippet runner with instant results. | - | - | - |
+| [jsweet](https://github.com/cincheo/jsweet) | Java to TypeScript/JavaScript transpiler. | 1.5k | 2y | - |
+| [Maven Wrapper](https://github.com/takari/maven-wrapper) | Ensure consistent Maven version without local installation. | 1.6k | 4y | Apache-2.0 |
+| [Membrane Service Proxy](https://github.com/membrane/service-proxy) | API gateway with OAuth2, rate limiting, and transformation. | - | - | - |
+| [MinimalFTP](https://github.com/Guichaguri/MinimalFTP) | Embeddable FTP server in ~50KB. | 186 | 6mo | Apache-2.0 |
+| [LittleProxy](https://github.com/adamfisk/LittleProxy) | Netty-based HTTP proxy with MITM support. | 2.1k | 1y | Apache-2.0 |
+| [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) | Comprehensive Java 8 tutorial with streams and lambdas. | 16.8k | 2y | MIT |
+| [Modernizer](https://github.com/gaul/modernizer-maven-plugin) | Detect legacy API usage (Guava → Java 8, etc.). | 383 | 8d | Apache-2.0 |
+| [OctoLinker](https://github.com/OctoLinker/OctoLinker) | GitHub browser extension linking imports to source files. | 5.3k | 2y | MIT |
+| [OpenRefine](http://openrefine.org) | Data cleaning and transformation tool with reconciliation. | - | - | - |
+| [PipelinR](https://github.com/sizovs/pipelinr) | Mediator pattern for command/query handlers. | 476 | 4mo | MIT |
+| [Polyglot for Maven](https://github.com/takari/polyglot-maven) | Write POMs in Groovy, Kotlin, Scala, or YAML. | 915 | 1mo | EPL-1.0 |
+| [RR4J](https://github.com/Kartikvk1996/RR4J) | Record and replay Java execution for debugging. | 25 | 3y | GPL-3.0 |
+| [Simple Java Mail](https://github.com/bbottema/simple-java-mail) | Fluent email API with SMTP, attachments, and embedding. | 1.3k | 7mo | Apache-2.0 |
+| [Smooks](https://github.com/smooks/smooks) | Event-driven data transformation and routing framework. (Apache-2.0 OR LGPL-3.0-or-later) | 415 | 1mo | - |
+| [Svix](https://github.com/svix/svix-webhooks/tree/main/java) | Webhook delivery platform with retries and signature verification. | N/A | N/A | - |
+| [Togglz](https://www.togglz.org) | Feature toggles with admin console and Spring Boot starter. | - | - | - |
+| [TypeTools](https://github.com/jhalterman/typetools) | Runtime generic type resolution for type-safe APIs. | 628 | 2y | Apache-2.0 |
+| [webcam-capture](https://github.com/sarxos/webcam-capture) | Cross-platform webcam access with motion detection. | 2.3k | 2mo | MIT |
+| [XMLBeam](https://github.com/SvenEwald/xmlbeam) | XPath-based XML projection onto Java interfaces. | 76 | 5mo | Apache-2.0 |
+| [yGuard](https://github.com/yWorks/yGuard) | Bytecode obfuscator with name mangling and shrinking. | 449 | 6mo | MIT |
+| [JBang](https://github.com/maxandersen/jbang/) | Run Java as scripts with inline dependency declarations. | N/A | N/A | - |
 
 <!-- SECTION:Mobile Development -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Codename One](https://www.codenameone.com) | Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - |
-| [MobileUI](https://mobileui.dev) | Cross-platform framework for developing mobile apps with native UI in Java and Kotlin. | - | - |
-| [Multi-OS Engine](https://multi-os-engine.org) | Open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Codename One](https://www.codenameone.com) | Write once, deploy native iOS/Android/web from Java. (GPL-2.0-only WITH Classpath-exception-2.0) | - | - | - |
+| [MobileUI](https://mobileui.dev) | Native mobile UI from Java/Kotlin with platform widgets. | - | - | - |
+| [Multi-OS Engine](https://multi-os-engine.org) | Shared Java codebase with native iOS/Android UI bindings. | - | - | - |
 
 <!-- SECTION:Monitoring -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apitally](https://github.com/apitally/apitally-java) | Simple, privacy-focused API monitoring, analytics and request logging for Spring Boot apps. | 5 | 3d |
-| [Automon](https://github.com/stevensouza/automon) | Combines the power of AOP with monitoring and/or logging tools. | 573 | 1y |
-| [Dropwizard Metrics](https://github.com/dropwizard/metrics) | Expose metrics via JMX or HTTP and send them to a database. | 7.9k | 16d |
-| [Failsafe Actuator](https://github.com/zalando/failsafe-actuator) | Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment. | 54 | 4y |
-| [Glowroot](https://glowroot.org) | Open-source Java APM. | - | - |
-| [HertzBeat](https://github.com/dromara/hertzbeat) | Real-time monitoring system with custom-monitor and agentless. | - | - |
-| [hippo4j](https://github.com/opengoofy/hippo4j/blob/develop/README-EN.md) | Dynamic and observable thread pool framework. | N/A | N/A |
-| [inspectIT](https://www.inspectit.rocks) | Captures detailed run-time information via hooks that can be changed on the fly. It supports tracing over multiple systems via the OpenTracing API and can correlate the data with end user monitoring. | - | - |
-| [Jaeger client](https://github.com/jaegertracing/jaeger-client-java) | Jaeger client. | 490 | 3y |
-| [JavaMelody](https://github.com/javamelody/javamelody) | Performance monitoring and profiling. | 3.0k | 9d |
-| [jmxtrans](https://github.com/jmxtrans/jmxtrans) | Connect to multiple JVMs and query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVM attributes. Supports different output writes, including Graphite, Ganglia, and StatsD. | 1.7k | 4y |
-| [Jolokia](https://jolokia.org) | JMX over REST. | - | - |
-| [Micrometer](https://github.com/micrometer-metrics/micrometer) | Vendor-neutral metrics/observability facade for the most popular metrics/observability libraries. | 4.8k | 7h |
-| [Micrometer Tracing](https://github.com/micrometer-metrics/tracing) | Vendor-neutral distributed tracing facade for the most popular tracer libraries. | 287 | 6h |
-| [nudge4j](https://github.com/lorenzoongithub/nudge4j) | Remote developer console from the browser for Java 8 via bytecode injection. | 164 | 5y |
-| [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-java) | Instrument, generate, collect, and export telemetry data to help you analyze your software’s performance and behavior. | 2.3k | 14h |
-| [Pinpoint](https://github.com/naver/pinpoint) | Open-source APM tool. | - | - |
-| [Prometheus](https://github.com/prometheus/client_java) | Provides a multi-dimensional data model, DSL, autonomous server nodes and much more. | 2.3k | 6h |
-| [Stagemonitor](https://github.com/stagemonitor/stagemonitor) | Open-source performance monitoring and transaction tracing for JVM apps. | 1.7k | 2y |
-| [Sysmon](https://github.com/palantir/Sysmon) | Lightweight platform monitoring tool for Java VMs. | 156 | 9y |
-| [zipkin](https://zipkin.io) | Distributed tracing system which gathers timing data needed to troubleshoot latency problems in microservice architectures. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apitally](https://github.com/apitally/apitally-java) | Privacy-focused API analytics with request logging. | 5 | 13h | MIT |
+| [Automon](https://github.com/stevensouza/automon) | AOP-based monitoring integration with JAMon/Metrics. | 573 | 1y | Apache-2.0 |
+| [Dropwizard Metrics](https://github.com/dropwizard/metrics) | Application metrics with JMX, Graphite, and Prometheus export. | 7.9k | 13d | Apache-2.0 |
+| [Failsafe Actuator](https://github.com/zalando/failsafe-actuator) | Spring Boot Actuator endpoints for Failsafe circuit breakers. | 54 | 3y | MIT |
+| [Glowroot](https://glowroot.org) | Lightweight APM with transaction tracing and historical analysis. | - | - | - |
+| [HertzBeat](https://github.com/dromara/hertzbeat) | Agentless monitoring for servers, databases, and APIs. | - | - | - |
+| [hippo4j](https://github.com/opengoofy/hippo4j/blob/develop/README-EN.md) | Dynamic thread pool tuning with web console. | N/A | N/A | - |
+| [inspectIT](https://www.inspectit.rocks) | Bytecode-level APM with OpenTracing and EUM correlation. | - | - | - |
+| [Jaeger client](https://github.com/jaegertracing/jaeger-client-java) | Distributed tracing client for Jaeger backend. | 490 | 3y | - |
+| [JavaMelody](https://github.com/javamelody/javamelody) | Embedded monitoring with charts, SQL analysis, and profiling. | 3.0k | 11d | Apache-2.0 |
+| [jmxtrans](https://github.com/jmxtrans/jmxtrans) | JMX metric collection to Graphite, InfluxDB, or Ganglia. | 1.7k | 3y | MIT |
+| [Jolokia](https://jolokia.org) | JMX over HTTP/JSON for remote monitoring. | - | - | - |
+| [Micrometer](https://github.com/micrometer-metrics/micrometer) | Metrics facade for Prometheus, Datadog, CloudWatch, etc. | 4.8k | 13h | Apache-2.0 |
+| [Micrometer Tracing](https://github.com/micrometer-metrics/tracing) | Tracing facade for Zipkin, Wavefront, and OTLP. | 288 | 21h | Apache-2.0 |
+| [nudge4j](https://github.com/lorenzoongithub/nudge4j) | Browser REPL for live JVM inspection. | 164 | 5y | MIT |
+| [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-java) | CNCF standard for traces, metrics, and logs. | 2.3k | 9h | Apache-2.0 |
+| [Pinpoint](https://github.com/naver/pinpoint) | Large-scale APM with call tree visualization. | - | - | - |
+| [Prometheus](https://github.com/prometheus/client_java) | Official Prometheus client with gauges, counters, and histograms. | 2.3k | 10h | Apache-2.0 |
+| [Stagemonitor](https://github.com/stagemonitor/stagemonitor) | Elasticsearch-integrated APM with Kibana dashboards. | 1.7k | 2y | Apache-2.0 |
+| [Sysmon](https://github.com/palantir/Sysmon) | JVM resource monitoring (CPU, memory, GC). | 156 | 9y | Apache-2.0 |
+| [zipkin](https://zipkin.io) | Distributed tracing system for latency analysis. | - | - | - |
 
 <!-- SECTION:Native -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Aparapi](https://github.com/Syncleus/aparapi) | Converts bytecode to OpenCL which allows execution on GPUs. | 482 | 4y |
-| [JavaCPP](https://github.com/bytedeco/javacpp) | Provides efficient and easy access to native C++. | 4.7k | 29d |
-| [JNA](https://github.com/java-native-access/jna) | Work with native libraries without writing JNI. Also provides interfaces to common system libraries. | 8.9k | 29d |
-| [JNR](https://github.com/jnr/jnr-ffi) | Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama). | 1.3k | 2mo |
-| [native-lib-loader](https://github.com/scijava/native-lib-loader) | Native library loader for extracting and loading native libraries from Java. | 215 | 1y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Aparapi](https://github.com/Syncleus/aparapi) | Execute Java on GPUs via automatic OpenCL conversion. | 482 | 3y | Apache-2.0 |
+| [JavaCPP](https://github.com/bytedeco/javacpp) | Native C/C++ binding generator with presets for OpenCV, FFmpeg. | 4.7k | 1mo | - |
+| [JNA](https://github.com/java-native-access/jna) | Dynamic native access without JNI boilerplate. | 8.9k | 9d | - |
+| [JNR](https://github.com/jnr/jnr-ffi) | Faster JNA alternative; foundation for Project Panama. | 1.3k | 2mo | - |
+| [native-lib-loader](https://github.com/scijava/native-lib-loader) | Extract and load bundled native libraries from JARs. | 215 | 1y | - |
 
 <!-- SECTION:Natural Language Processing -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [CogCompNLP](https://github.com/CogComp/cogcomp-nlp) | Provides common annotators for plain text input. (Research and Academic Use License) | 480 | 3y |
-| [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) | Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. (GPL-3.0-or-later) | - | - |
-| [DKPro](https://dkpro.github.io) | Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc. | - | - |
-| [Hypherator](https://github.com/ejossev/hypherator-java) | Java hyphenation library with iterator-like interface. Can be used out-of-the box - dictionaries for multiple languages are bundled in. | 3 | 6mo |
-| [LingPipe](http://alias-i.com/lingpipe/) | Toolkit for tasks ranging from POS tagging to sentiment analysis. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [CogCompNLP](https://github.com/CogComp/cogcomp-nlp) | NLP pipeline with coreference, SRL, and relation extraction. (Research and Academic Use License) | 480 | 2y | - |
+| [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) | Stanford's NLP toolkit: NER, parsing, sentiment, and coreference. (GPL-3.0-or-later) | - | - | - |
+| [DKPro](https://dkpro.github.io) | UIMA-based NLP components for tokenization, POS, and parsing. | - | - | - |
+| [Hypherator](https://github.com/ejossev/hypherator-java) | Text hyphenation with bundled dictionaries for 30+ languages. | 3 | 6mo | MIT |
+| [LingPipe](http://alias-i.com/lingpipe/) | Entity extraction, clustering, and classification toolkit. | - | - | - |
 
 <!-- SECTION:Networking -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Commons-networking](https://github.com/CiscoSE/commons-networking) | Client for server-sent events (SSE). | 20 | 3y |
-| [Comsat](https://github.com/puniverse/comsat) | Integrates standard Java web-related APIs with Quasar fibers and actors. | 595 | 9y |
-| [Dubbo](https://github.com/apache/dubbo) | High-performance RPC framework. | 41.7k | 1d |
-| [Grizzly](https://javaee.github.io/grizzly/) | NIO framework. Used as a network layer in Glassfish. | - | - |
-| [gRPC-java](https://github.com/grpc/grpc-java) | RPC framework based on protobuf and HTTP/2. | 11.9k | 1d |
-| [KryoNet](https://github.com/EsotericSoftware/kryonet) | Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo. | 1.8k | 5y |
-| [MINA](https://mina.apache.org) | Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO. | - | - |
-| [Netty](https://netty.io) | Framework for building high-performance network applications. | - | - |
-| [Drift](https://github.com/airlift/drift) | Easy-to-use, annotation-based library for creating Thrift clients and serializable types. | 248 | 3mo |
-| [ServiceTalk](https://github.com/apple/servicetalk) | Framework built on Netty with APIs tailored to specific protocols and support for multiple programming paradigms. | 1.0k | 9h |
-| [sshj](https://github.com/hierynomus/sshj) | Programmatically use SSH, SCP or SFTP. | 2.6k | 7mo |
-| [TLS Channel](https://github.com/marianobarrios/tls-channel) | Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS. | 207 | 1d |
-| [Undertow](http://undertow.io) | Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly. (LGPL-2.1-only) | - | - |
-| [urnlib](https://github.com/slub/urnlib) | Represent, parse and encode URNs, as in RFC 2141. (GPL-3.0-only) | 34 | 9d |
-| [Fluency](https://github.com/komamitsu/fluency) | High throughput data ingestion logger to Fluentd and Fluent Bit. | 163 | 3d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Commons-networking](https://github.com/CiscoSE/commons-networking) | Server-Sent Events (SSE) client implementation. | 20 | 3y | Apache-2.0 |
+| [Comsat](https://github.com/puniverse/comsat) | Fiber-aware web APIs (Servlet, JAX-RS) with Quasar. | 595 | 8y | - |
+| [Dubbo](https://github.com/apache/dubbo) | Alibaba's RPC framework with service discovery and load balancing. | 41.7k | 1d | Apache-2.0 |
+| [Grizzly](https://javaee.github.io/grizzly/) | NIO framework powering GlassFish with HTTP/2. | - | - | - |
+| [gRPC-java](https://github.com/grpc/grpc-java) | Google's HTTP/2 RPC with streaming and deadlines. | 11.9k | 21h | Apache-2.0 |
+| [KryoNet](https://github.com/EsotericSoftware/kryonet) | Fast TCP/UDP networking with Kryo serialization. | 1.8k | 4y | BSD-3-Clause |
+| [MINA](https://mina.apache.org) | Event-driven async network framework from Apache. | - | - | - |
+| [Netty](https://netty.io) | Industry-standard async networking with epoll/kqueue support. | - | - | - |
+| [Drift](https://github.com/airlift/drift) | Annotation-based Thrift client/server generation. | 248 | 4mo | Apache-2.0 |
+| [ServiceTalk](https://github.com/apple/servicetalk) | Apple's reactive networking with HTTP/1.1, HTTP/2, and gRPC. | 1.0k | 10h | Apache-2.0 |
+| [sshj](https://github.com/hierynomus/sshj) | SSH2 client for SFTP, SCP, and remote execution. | 2.6k | 8mo | Apache-2.0 |
+| [TLS Channel](https://github.com/marianobarrios/tls-channel) | Blocking/non-blocking TLS via simple ByteChannel API. | 207 | 3d | MIT |
+| [Undertow](http://undertow.io) | High-performance web server with HTTP/2 and WebSocket. (LGPL-2.1-only) | - | - | - |
+| [urnlib](https://github.com/slub/urnlib) | URN parsing and validation per RFC 2141/8141. (GPL-3.0-only) | 34 | 11d | GPL-3.0 |
+| [Fluency](https://github.com/komamitsu/fluency) | Async, buffered logger to Fluentd with failover. | 163 | 5d | Apache-2.0 |
 
 <!-- SECTION:ORM -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Cayenne](https://cayenne.apache.org) | Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation. | - | - |
-| [Doma](https://github.com/domaframework/doma) | Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL. | 494 | 1d |
-| [Ebean](https://ebean.io) | Provides simple and fast data access. | - | - |
-| [EclipseLink](https://www.eclipse.org/eclipselink/) | Supports a number of persistence standards: JPA, JAXB, JCA and SDO. | - | - |
-| [Hibernate](http://hibernate.org/orm/) | Robust and widely used, with an active community. (LGPL-2.1-only) | - | - |
-| [MyBatis](https://github.com/mybatis/mybatis-3) | Couples objects with stored procedures or SQL statements. | 20.3k | 6d |
-| [MyBatis-Plus](https://github.com/baomidou/mybatis-plus) | A powerful enhanced toolkit of MyBatis for simplifying development. | 17.3k | 8d |
-| [ObjectiveSql](https://github.com/braisdom/ObjectiveSql) | ActiveRecord ORM for rapid development and convention over configuration. | 1.3k | 1y |
-| [Permazen](https://github.com/permazen/permazen) | Language-natural persistence layer. | 422 | 3mo |
-| [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) | Simple database and CSV mapper. | 454 | 1y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Cayenne](https://cayenne.apache.org) | Modeler-based ORM with lazy loading and caching. | - | - | - |
+| [Doma](https://github.com/domaframework/doma) | Compile-time SQL validation with two-way SQL templates. | 494 | 3d | Apache-2.0 |
+| [Ebean](https://ebean.io) | Simple ORM with query beans, JSON, and soft-delete support. | - | - | - |
+| [EclipseLink](https://www.eclipse.org/eclipselink/) | JPA reference implementation with MOXy and multi-tenancy. | - | - | - |
+| [Hibernate](http://hibernate.org/orm/) | Feature-rich JPA implementation with caching and search. (LGPL-2.1-only) | - | - | - |
+| [MyBatis](https://github.com/mybatis/mybatis-3) | SQL mapping framework with XML or annotation config. | 20.3k | 12h | Apache-2.0 |
+| [MyBatis-Plus](https://github.com/baomidou/mybatis-plus) | MyBatis enhancements: CRUD, pagination, code generation. | 17.3k | 3d | Apache-2.0 |
+| [ObjectiveSql](https://github.com/braisdom/ObjectiveSql) | ActiveRecord-style ORM with method chaining queries. | 1.3k | 1y | Apache-2.0 |
+| [Permazen](https://github.com/permazen/permazen) | Schema-independent persistence with change tracking. | 422 | 3mo | Apache-2.0 |
+| [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) | Zero-allocation result set to POJO mapping. | 454 | 3mo | MIT |
 
 <!-- SECTION:Pathfinding -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Pathetic](https://github.com/bsommerfeld/pathetic) | A highly configurable 3D A\* pathfinding library that uses specific optimizations for high performance. | 236 | 1h |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Pathetic](https://github.com/bsommerfeld/pathetic) | High-performance 3D A\* pathfinding with configurable heuristics. | 236 | 1d | MIT |
 
 <!-- SECTION:PDF -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache FOP](https://xmlgraphics.apache.org/fop/) | Creates PDFs from XSL-FO. | - | - |
-| [Apache PDFBox](https://pdfbox.apache.org) | Toolbox for creating and manipulating PDFs. | - | - |
-| [Dynamic Jasper](https://intive-fdv.github.io/DynamicJasper/) | Abstraction layer to JasperReports. (LGPL-3.0-only) | - | - |
-| [DynamicReports](https://github.com/dynamicreports/dynamicreports) | Simplifies JasperReports. (LGPL-3.0-only) | 240 | 4mo |
-| [Eclipse BIRT](https://www.eclipse.org/birt) | Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor. | - | - |
-| [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) | XML/XHTML and CSS 2.1 renderer. (LGPL-2.1-or-later) | 2.2k | 5h |
-| [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) | Complex reporting engine. (LGPL-3.0-only) | - | - |
-| [Open HTML to PDF](https://github.com/danfickle/openhtmltopdf) | Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox. | 2.1k | 3y |
-| [OpenPDF](https://github.com/LibrePDF/OpenPDF) | Open-source iText fork. (LGPL-3.0-only & MPL-2.0) | 4.1k | 4mo |
-| [Tabula](https://github.com/tabulapdf/tabula-java) | Extracts tables from PDF files. | 2.0k | 9mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache FOP](https://xmlgraphics.apache.org/fop/) | XSL-FO to PDF with SVG and image support. | - | - | - |
+| [Apache PDFBox](https://pdfbox.apache.org) | Create, modify, extract, and sign PDFs. | - | - | - |
+| [Dynamic Jasper](https://intive-fdv.github.io/DynamicJasper/) | Programmatic JasperReports without XML. (LGPL-3.0-only) | - | - | - |
+| [DynamicReports](https://github.com/dynamicreports/dynamicreports) | Fluent API for JasperReports with charts. (LGPL-3.0-only) | 240 | 24d | LGPL-3.0 |
+| [Eclipse BIRT](https://www.eclipse.org/birt) | Visual report designer with PDF, Excel, and HTML output. | - | - | - |
+| [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) | XHTML/CSS to PDF renderer. (LGPL-2.1-or-later) | 2.2k | 1d | - |
+| [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) | Enterprise reporting with charts, barcodes, and subreports. (LGPL-3.0-only) | - | - | - |
+| [Open HTML to PDF](https://github.com/danfickle/openhtmltopdf) | HTML5/CSS3 to PDF/A with accessibility support. | 2.1k | 1y | - |
+| [OpenPDF](https://github.com/LibrePDF/OpenPDF) | LGPL iText fork with active maintenance. (LGPL-3.0-only & MPL-2.0) | 4.1k | 2mo | - |
+| [Tabula](https://github.com/tabulapdf/tabula-java) | Extract tabular data from PDFs into CSV/JSON. | 2.0k | 9mo | MIT |
 
 <!-- SECTION:Performance analysis -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [honest-profiler](https://github.com/jvm-profiling-tools/honest-profiler) | Low-overhead, bias-free sampling profiler. | 1.3k | 3y |
-| [jHiccup](https://github.com/giltene/jHiccup) | Logs and records platform JVM stalls. | 697 | 4y |
-| [JITWatch](https://github.com/AdoptOpenJDK/jitwatch) | Analyze the JIT compiler optimisations made by the HotSpot JVM. | 3.3k | 10d |
-| [JMH](http://openjdk.java.net/projects/code-tools/jmh/) | Harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM. (GPL-2.0 only WITH Classpath-exception-2.0) | - | - |
-| [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) | Utilities for latency measurement and reporting. | 465 | 1y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [honest-profiler](https://github.com/jvm-profiling-tools/honest-profiler) | AsyncGetCallTrace-based profiler avoiding safepoint bias. | 1.3k | 2y | MIT |
+| [jHiccup](https://github.com/giltene/jHiccup) | Measure JVM pauses and OS scheduling hiccups. | 696 | 1y | - |
+| [JITWatch](https://github.com/AdoptOpenJDK/jitwatch) | Visualize HotSpot JIT compilations and inlining decisions. | 3.3k | 13d | - |
+| [JMH](http://openjdk.java.net/projects/code-tools/jmh/) | OpenJDK's microbenchmark harness with warmup and statistics. (GPL-2.0 only WITH Classpath-exception-2.0) | - | - | - |
+| [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) | HDR histogram-based latency recording with pause correction. | 465 | 1y | - |
 
 <!-- SECTION:Platform/Apache Commons -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [BCEL](http://commons.apache.org/proper/commons-bcel/) | Byte Code Engineering Library - analyze, create, and manipulate Java class files. | - | - |
-| [BeanUtils](http://commons.apache.org/proper/commons-beanutils/) | Easy-to-use wrappers around the Java reflection and introspection APIs. | - | - |
-| [BeanUtils2](http://commons.apache.org/sandbox/commons-beanutils2/) | Redesign of Commons BeanUtils. | - | - |
-| [BSF](http://commons.apache.org/proper/commons-bsf/) | Bean Scripting Framework - interface to scripting languages, including JSR-223. | - | - |
-| [Chain](http://commons.apache.org/proper/commons-chain/) | Chain of Responsibility pattern implementation. | - | - |
-| [ClassScan](http://commons.apache.org/sandbox/commons-classscan/) | Find Class interfaces, methods, fields, and annotations without loading. | - | - |
-| [CLI](http://commons.apache.org/proper/commons-cli/) | Command-line arguments parser. | - | - |
-| [CLI2](http://commons.apache.org/sandbox/commons-cli2/) | Redesign of Commons CLI. | - | - |
-| [Codec](http://commons.apache.org/proper/commons-codec/) | General encoding/decoding algorithms, e.g. phonetic, base64 or URL. | - | - |
-| [Collections](http://commons.apache.org/proper/commons-collections/) | Extends or augments the Java Collections Framework. | - | - |
-| [Compress](http://commons.apache.org/proper/commons-compress/) | Defines an API for working with tar, zip and bzip2 files. | - | - |
-| [Configuration](http://commons.apache.org/proper/commons-configuration/) | Reading of configuration/preferences files in various formats. | - | - |
-| [Convert](http://commons.apache.org/sandbox/commons-convert/) | Commons-Convert aims to provide a single library dedicated to the task of converting an object of one type to another. | - | - |
-| [CSV](http://commons.apache.org/proper/commons-csv/) | Component for reading and writing comma separated value files. | - | - |
-| [Daemon](http://commons.apache.org/proper/commons-daemon/) | Alternative invocation mechanism for unix-daemon-like java code. | - | - |
-| [DBCP](http://commons.apache.org/proper/commons-dbcp/) | Database connection pooling services. | - | - |
-| [DbUtils](http://commons.apache.org/proper/commons-dbutils/) | JDBC helper library. | - | - |
-| [Digester](http://commons.apache.org/proper/commons-digester/) | XML-to-Java-object mapping utility. | - | - |
-| [Email](http://commons.apache.org/proper/commons-email/) | Library for sending e-mail from Java. | - | - |
-| [Exec](http://commons.apache.org/proper/commons-exec/) | API for dealing with external process execution and environment management in Java. | - | - |
-| [FileUpload](http://commons.apache.org/proper/commons-fileupload/) | File upload capability for your servlets and web applications. | - | - |
-| [Finder](http://commons.apache.org/sandbox/commons-finder/) | Java library inspired by the UNIX find command. | - | - |
-| [Flatfile](http://commons.apache.org/sandbox/commons-flatfile/) | Java library for working with flat data structures. | - | - |
-| [Functor](http://commons.apache.org/proper/commons-functor/) | Function that can be manipulated as an object, or an object representing a single, generic function. | - | - |
-| [Graph](http://commons.apache.org/sandbox/commons-graph/) | General purpose graph APIs and algorithms. | - | - |
-| [I18n](http://commons.apache.org/sandbox/commons-i18n/) | Adds the feature of localized message bundles that consist of one or many localized texts that belong together. | - | - |
-| [Id](http://commons.apache.org/sandbox/commons-id/) | Id is a component used to generate identifiers. | - | - |
-| [Imaging](http://commons.apache.org/proper/commons-imaging/) | Image library. | - | - |
-| [IO](http://commons.apache.org/proper/commons-io/) | Collection of I/O utilities. | - | - |
-| [Javaflow](http://commons.apache.org/sandbox/commons-javaflow/) | Continuation implementation to capture the state of the application. | - | - |
-| [JCI](http://commons.apache.org/proper/commons-jci/) | Java Compiler Interface. | - | - |
-| [JCS](http://commons.apache.org/proper/commons-jcs/) | Java Caching System. | - | - |
-| [Jelly](http://commons.apache.org/proper/commons-jelly/) | XML based scripting and processing engine. | - | - |
-| [Jexl](http://commons.apache.org/proper/commons-jexl/) | Expression language which extends the Expression Language of the JSTL. | - | - |
-| [JNet](http://commons.apache.org/sandbox/commons-jnet/) | JNet allows to use dynamically register url stream handlers through the java.net API. | - | - |
-| [JXPath](http://commons.apache.org/proper/commons-jxpath/) | Utilities for manipulating Java Beans using the XPath syntax. | - | - |
-| [Lang](http://commons.apache.org/proper/commons-lang/) | Provides extra functionality for classes in java.lang. | - | - |
-| [Logging](https://commons.apache.org/proper/commons-logging/) | Wrapper around a variety of logging API implementations. | - | - |
-| [Math](http://commons.apache.org/proper/commons-math/) | Lightweight, self-contained mathematics and statistics components. | - | - |
-| [Monitoring](http://commons.apache.org/sandbox/commons-monitoring/) | Monitoring aims to provide a simple but extensible monitoring solution for Java applications. | - | - |
-| [Nabla](http://commons.apache.org/sandbox/commons-nabla/) | Nabla provides automatic differentiation classes that can generate derivative of any function implemented in the Java language. | - | - |
-| [Net](http://commons.apache.org/proper/commons-net/) | Collection of network utilities and protocol implementations. | - | - |
-| [OGNL](http://commons.apache.org/proper/commons-ognl/) | Object-graph navigation language. | - | - |
-| [OpenPGP](http://commons.apache.org/sandbox/commons-openpgp/) | Interface to signing and verifying data using OpenPGP. | - | - |
-| [Performance](http://commons.apache.org/sandbox/commons-performance/) | Small framework for microbenchmark clients, with implementations for Commons DBCP and Pool. | - | - |
-| [Pipeline](http://commons.apache.org/sandbox/commons-pipeline/) | Provides a set of pipeline utilities designed around work queues that run in parallel to sequentially process data objects. | - | - |
-| [Pool](http://commons.apache.org/proper/commons-pool/) | Generic object pooling component. | - | - |
-| [Proxy](http://commons.apache.org/proper/commons-proxy/) | Library for creating dynamic proxies. | - | - |
-| [RDF](https://commons.apache.org/proper/commons-rdf/) | Common implementation of RDF 1.1 that could be implemented by systems on the JVM. | - | - |
-| [RNG](https://commons.apache.org/proper/commons-rng/) | Commons Rng provides implementations of pseudo-random numbers generators. | - | - |
-| [SCXML](http://commons.apache.org/proper/commons-scxml/) | Implementation of the State Chart XML specification aimed at creating and maintaining a Java SCXML engine. | - | - |
-| [Validator](http://commons.apache.org/proper/commons-validator/) | Framework to define validators and validation rules in an xml file. | - | - |
-| [VFS](http://commons.apache.org/proper/commons-vfs/) | Virtual File System component for treating files, FTP, SMB, ZIP and such like as a single logical file system. | - | - |
-| [Weaver](http://commons.apache.org/proper/commons-weaver/) | Provides an easy way to enhance (weave) compiled bytecode. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [BCEL](http://commons.apache.org/proper/commons-bcel/) | Byte Code Engineering Library - analyze, create, and manipulate Java class files. | - | - | - |
+| [BeanUtils](http://commons.apache.org/proper/commons-beanutils/) | Easy-to-use wrappers around the Java reflection and introspection APIs. | - | - | - |
+| [BeanUtils2](http://commons.apache.org/sandbox/commons-beanutils2/) | Redesign of Commons BeanUtils. | - | - | - |
+| [BSF](http://commons.apache.org/proper/commons-bsf/) | Bean Scripting Framework - interface to scripting languages, including JSR-223. | - | - | - |
+| [Chain](http://commons.apache.org/proper/commons-chain/) | Chain of Responsibility pattern implementation. | - | - | - |
+| [ClassScan](http://commons.apache.org/sandbox/commons-classscan/) | Find Class interfaces, methods, fields, and annotations without loading. | - | - | - |
+| [CLI](http://commons.apache.org/proper/commons-cli/) | Command-line arguments parser. | - | - | - |
+| [CLI2](http://commons.apache.org/sandbox/commons-cli2/) | Redesign of Commons CLI. | - | - | - |
+| [Codec](http://commons.apache.org/proper/commons-codec/) | General encoding/decoding algorithms, e.g. phonetic, base64 or URL. | - | - | - |
+| [Collections](http://commons.apache.org/proper/commons-collections/) | Extends or augments the Java Collections Framework. | - | - | - |
+| [Compress](http://commons.apache.org/proper/commons-compress/) | Defines an API for working with tar, zip and bzip2 files. | - | - | - |
+| [Configuration](http://commons.apache.org/proper/commons-configuration/) | Reading of configuration/preferences files in various formats. | - | - | - |
+| [Convert](http://commons.apache.org/sandbox/commons-convert/) | Commons-Convert aims to provide a single library dedicated to the task of converting an object of one type to another. | - | - | - |
+| [CSV](http://commons.apache.org/proper/commons-csv/) | Component for reading and writing comma separated value files. | - | - | - |
+| [Daemon](http://commons.apache.org/proper/commons-daemon/) | Alternative invocation mechanism for unix-daemon-like java code. | - | - | - |
+| [DBCP](http://commons.apache.org/proper/commons-dbcp/) | Database connection pooling services. | - | - | - |
+| [DbUtils](http://commons.apache.org/proper/commons-dbutils/) | JDBC helper library. | - | - | - |
+| [Digester](http://commons.apache.org/proper/commons-digester/) | XML-to-Java-object mapping utility. | - | - | - |
+| [Email](http://commons.apache.org/proper/commons-email/) | Library for sending e-mail from Java. | - | - | - |
+| [Exec](http://commons.apache.org/proper/commons-exec/) | API for dealing with external process execution and environment management in Java. | - | - | - |
+| [FileUpload](http://commons.apache.org/proper/commons-fileupload/) | File upload capability for your servlets and web applications. | - | - | - |
+| [Finder](http://commons.apache.org/sandbox/commons-finder/) | Java library inspired by the UNIX find command. | - | - | - |
+| [Flatfile](http://commons.apache.org/sandbox/commons-flatfile/) | Java library for working with flat data structures. | - | - | - |
+| [Functor](http://commons.apache.org/proper/commons-functor/) | Function that can be manipulated as an object, or an object representing a single, generic function. | - | - | - |
+| [Graph](http://commons.apache.org/sandbox/commons-graph/) | General purpose graph APIs and algorithms. | - | - | - |
+| [I18n](http://commons.apache.org/sandbox/commons-i18n/) | Adds the feature of localized message bundles that consist of one or many localized texts that belong together. | - | - | - |
+| [Id](http://commons.apache.org/sandbox/commons-id/) | Id is a component used to generate identifiers. | - | - | - |
+| [Imaging](http://commons.apache.org/proper/commons-imaging/) | Image library. | - | - | - |
+| [IO](http://commons.apache.org/proper/commons-io/) | Collection of I/O utilities. | - | - | - |
+| [Javaflow](http://commons.apache.org/sandbox/commons-javaflow/) | Continuation implementation to capture the state of the application. | - | - | - |
+| [JCI](http://commons.apache.org/proper/commons-jci/) | Java Compiler Interface. | - | - | - |
+| [JCS](http://commons.apache.org/proper/commons-jcs/) | Java Caching System. | - | - | - |
+| [Jelly](http://commons.apache.org/proper/commons-jelly/) | XML based scripting and processing engine. | - | - | - |
+| [Jexl](http://commons.apache.org/proper/commons-jexl/) | Expression language which extends the Expression Language of the JSTL. | - | - | - |
+| [JNet](http://commons.apache.org/sandbox/commons-jnet/) | JNet allows to use dynamically register url stream handlers through the java.net API. | - | - | - |
+| [JXPath](http://commons.apache.org/proper/commons-jxpath/) | Utilities for manipulating Java Beans using the XPath syntax. | - | - | - |
+| [Lang](http://commons.apache.org/proper/commons-lang/) | Provides extra functionality for classes in java.lang. | - | - | - |
+| [Logging](https://commons.apache.org/proper/commons-logging/) | Wrapper around a variety of logging API implementations. | - | - | - |
+| [Math](http://commons.apache.org/proper/commons-math/) | Lightweight, self-contained mathematics and statistics components. | - | - | - |
+| [Monitoring](http://commons.apache.org/sandbox/commons-monitoring/) | Monitoring aims to provide a simple but extensible monitoring solution for Java applications. | - | - | - |
+| [Nabla](http://commons.apache.org/sandbox/commons-nabla/) | Nabla provides automatic differentiation classes that can generate derivative of any function implemented in the Java language. | - | - | - |
+| [Net](http://commons.apache.org/proper/commons-net/) | Collection of network utilities and protocol implementations. | - | - | - |
+| [OGNL](http://commons.apache.org/proper/commons-ognl/) | Object-graph navigation language. | - | - | - |
+| [OpenPGP](http://commons.apache.org/sandbox/commons-openpgp/) | Interface to signing and verifying data using OpenPGP. | - | - | - |
+| [Performance](http://commons.apache.org/sandbox/commons-performance/) | Small framework for microbenchmark clients, with implementations for Commons DBCP and Pool. | - | - | - |
+| [Pipeline](http://commons.apache.org/sandbox/commons-pipeline/) | Provides a set of pipeline utilities designed around work queues that run in parallel to sequentially process data objects. | - | - | - |
+| [Pool](http://commons.apache.org/proper/commons-pool/) | Generic object pooling component. | - | - | - |
+| [Proxy](http://commons.apache.org/proper/commons-proxy/) | Library for creating dynamic proxies. | - | - | - |
+| [RDF](https://commons.apache.org/proper/commons-rdf/) | Common implementation of RDF 1.1 that could be implemented by systems on the JVM. | - | - | - |
+| [RNG](https://commons.apache.org/proper/commons-rng/) | Commons Rng provides implementations of pseudo-random numbers generators. | - | - | - |
+| [SCXML](http://commons.apache.org/proper/commons-scxml/) | Implementation of the State Chart XML specification aimed at creating and maintaining a Java SCXML engine. | - | - | - |
+| [Validator](http://commons.apache.org/proper/commons-validator/) | Framework to define validators and validation rules in an xml file. | - | - | - |
+| [VFS](http://commons.apache.org/proper/commons-vfs/) | Virtual File System component for treating files, FTP, SMB, ZIP and such like as a single logical file system. | - | - | - |
+| [Weaver](http://commons.apache.org/proper/commons-weaver/) | Provides an easy way to enhance (weave) compiled bytecode. | - | - | - |
 
 <!-- SECTION:Platform/Other -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [CUBA Platform](https://www.cuba-platform.com/) | High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin. | - | - |
-| [Light-4J](https://github.com/networknt/light-4j/) | Fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2/). | N/A | N/A |
-| [Orienteer](https://github.com/OrienteerBAP/Orienteer/) | Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications. | N/A | N/A |
-| [Spring](https://spring.io/projects/) | Provides many packages for dependency injection, aspect-oriented programming, security, etc. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [CUBA Platform](https://www.cuba-platform.com/) | High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin. | - | - | - |
+| [Light-4J](https://github.com/networknt/light-4j/) | Fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2/). | N/A | N/A | - |
+| [Orienteer](https://github.com/OrienteerBAP/Orienteer/) | Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications. | N/A | N/A | - |
+| [Spring](https://spring.io/projects/) | Provides many packages for dependency injection, aspect-oriented programming, security, etc. | - | - | - |
 
 <!-- SECTION:Processes -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ch.vorburger.exec](https://github.com/vorburger/ch.vorburger.exec) | Convenient API around Apache Commons Exec. | 38 | 2d |
-| [zt-exec](https://github.com/zeroturnaround/zt-exec) | Provides a unified API to Apache Commons Exec and ProcessBuilder. | 910 | 1y |
-| [zt-process-killer](https://github.com/zeroturnaround/zt-process-killer) | Stops processes started from Java or the system processes via PID. | 136 | 2y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ch.vorburger.exec](https://github.com/vorburger/ch.vorburger.exec) | Convenient API around Apache Commons Exec. | 38 | 1d | Apache-2.0 |
+| [zt-exec](https://github.com/zeroturnaround/zt-exec) | Provides a unified API to Apache Commons Exec and ProcessBuilder. | 910 | 6mo | Apache-2.0 |
+| [zt-process-killer](https://github.com/zeroturnaround/zt-process-killer) | Stops processes started from Java or the system processes via PID. | 136 | 2y | Apache-2.0 |
 
 <!-- SECTION:Reactive libraries -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Akka](https://akka.io) | Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications. | - | - |
-| [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm) | Provides a standard for asynchronous stream processing with non-blocking backpressure. | 4.9k | 2y |
-| [Reactor](https://github.com/reactor/reactor) | A framework for building non-blocking applications on the JVM, providing support for reactive programming. | 3.7k | 29d |
-| [RxJava](https://github.com/ReactiveX/RxJava) | Allows for composing asynchronous and event-based programs using observable sequences. | 48.5k | 21d |
-| [vert.x](https://vertx.io) | Polyglot event-driven application framework. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Akka](https://akka.io) | Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications. | - | - | - |
+| [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm) | Provides a standard for asynchronous stream processing with non-blocking backpressure. | 4.9k | 1y | MIT-0 |
+| [Reactor](https://github.com/reactor/reactor) | A framework for building non-blocking applications on the JVM, providing support for reactive programming. | 3.7k | 1mo | Apache-2.0 |
+| [RxJava](https://github.com/ReactiveX/RxJava) | Allows for composing asynchronous and event-based programs using observable sequences. | 48.5k | 12d | Apache-2.0 |
+| [vert.x](https://vertx.io) | Polyglot event-driven application framework. | - | - | - |
 
 <!-- SECTION:REST Frameworks -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Dropwizard](https://github.com/dropwizard/dropwizard) | Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics. | 8.6k | 43m |
-| [Elide](https://elide.io) | Opinionated framework for JSON- or GraphQL-APIs based on a JPA data model. | - | - |
-| [Jersey](https://jersey.github.io) | JAX-RS reference implementation. | - | - |
-| [Microserver](https://github.com/aol/micro-server) | Convenient, extensible microservices plugin system for Spring & Spring Boot. With more than 30 plugins and growing, it supports both micro-monolith and pure microservices styles. | 934 | 5y |
-| [Rapidoid](https://www.rapidoid.org) | Simple, secure and extremely fast framework consisting of an embedded HTTP server, GUI components and dependency injection. | - | - |
-| [rest.li](https://github.com/linkedin/rest.li) | Framework for building robust, scalable RESTful architectures using typesafe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling. | 2.5k | 2mo |
-| [RESTEasy](https://resteasy.github.io) | Fully certified and portable implementation of the JAX-RS specification. | - | - |
-| [RestExpress](https://github.com/RestExpress/RestExpress) | Thin wrapper on the JBoss Netty HTTP stack that provides scaling and performance. | 940 | 1y |
-| [Restlet Framework](https://github.com/restlet/restlet-framework-java) | Pioneering framework with powerful routing and filtering capabilities, and a unified client and server API. | 661 | 1mo |
-| [Spark](http://sparkjava.com) | Sinatra inspired framework. | - | - |
-| [Crnk](http://www.crnk.io) | Implementation of the JSON API specification to build resource-oriented REST endpoints with sorting, filtering, paging, linking, object graphs, type-safety, bulk updates, integrations and more. | - | - |
-| [springdoc-openapi](https://github.com/springdoc/springdoc-openapi) | Automates the generation of API documentation using Spring Boot projects. | 3.7k | 6d |
-| [Swagger](https://swagger.io) | Standard, language-agnostic interface to REST APIs. | - | - |
-| [openapi-generator](https://github.com/OpenAPITools/openapi-generator) | Allows generation of API client libraries, SDKs, server stubs, documentation and configuration automatically given an OpenAPI Spec. | 25.6k | 22m |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Dropwizard](https://github.com/dropwizard/dropwizard) | Production-ready REST with Jetty, Jersey, and Metrics. | 8.6k | 19h | Apache-2.0 |
+| [Elide](https://elide.io) | JSON API/GraphQL from JPA models with security. | - | - | - |
+| [Jersey](https://jersey.github.io) | JAX-RS reference implementation with DI support. | - | - | - |
+| [Microserver](https://github.com/aol/micro-server) | Spring Boot microservices with 30+ plugins. | 934 | 2y | Apache-2.0 |
+| [Rapidoid](https://www.rapidoid.org) | Ultra-fast HTTP server with embedded DI. | - | - | - |
+| [rest.li](https://github.com/linkedin/rest.li) | LinkedIn's REST framework with typed schemas. | 2.5k | 1d | - |
+| [RESTEasy](https://resteasy.github.io) | Red Hat's JAX-RS implementation with async. | - | - | - |
+| [RestExpress](https://github.com/RestExpress/RestExpress) | Netty-based REST for high throughput. | 940 | 1y | Apache-2.0 |
+| [Restlet Framework](https://github.com/restlet/restlet-framework-java) | Unified REST client/server with content negotiation. | 661 | 1mo | - |
+| [Spark](http://sparkjava.com) | Minimalist Sinatra-style REST in Java. | - | - | - |
+| [Crnk](http://www.crnk.io) | JSON API implementation with filtering and paging. | - | - | - |
+| [springdoc-openapi](https://github.com/springdoc/springdoc-openapi) | OpenAPI 3 docs from Spring Boot annotations. | 3.7k | 8d | Apache-2.0 |
+| [Swagger](https://swagger.io) | API design, documentation, and code generation. | - | - | - |
+| [openapi-generator](https://github.com/OpenAPITools/openapi-generator) | Generate clients/servers from OpenAPI specs. | 25.6k | 14h | Apache-2.0 |
 
 <!-- SECTION:Science -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [BioJava](https://biojava.org/) | Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics. | - | - |
-| [Chart-FX](https://github.com/GSI-CS-CO/chart-fx) | Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets. | - | - |
-| [DataMelt](https://datamelt.org/) | Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later) | - | - |
-| [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) | Modular, light and easy graph framework for theoretic algorithms. | 127 | 2y |
-| [GraphStream](http://graphstream-project.org) | Library for modeling and analyzing dynamic graphs. | - | - |
-| [JFreeChart](http://www.jfree.org/jfreechart/) | 2D chart library for Swing, JavaFX and server-side applications. (LGPL-2.1-only) | - | - |
-| [JGraphT](https://github.com/jgrapht/jgrapht) | Graph library that provides mathematical graph-theory objects and algorithms. | 2.7k | 11h |
-| [JGraphX](https://github.com/jgraph/jgraphx) | Library for visualizing (mainly Swing) and interacting with node-edge graphs. | 687 | 5y |
-| [LogicNG](https://github.com/logic-ng/LogicNG) | Library for creating, manipulating and solving Boolean and Pseudo-Boolean formulas. | 149 | 1y |
-| [Mines Java Toolkit](https://github.com/MinesJTK/jtk) | Library for geophysical scientific computation, visualization and digital signal analysis. | 82 | 5y |
-| [Morpheus](https://github.com/zavtech/morpheus-core) | Provides a versatile two-dimensional memory efficient tabular data structure called a DataFrame to enable efficient in-memory analytics for scientific computing on the JVM. | 244 | 7y |
-| [Orekit](https://www.orekit.org/) | A low level space flight dynamics library providing basic elements (orbits, dates, attitude, frames...) and various algorithms (conversions, propagations, pointing...) to handle them. | - | - |
-| [Orson-Charts](https://github.com/jfree/orson-charts) | Generates a wide variety of 3D charts that can be displayed with Swing and JavaFX or exported to PDF, SVG, PNG and JPEG. (GPL-3.0-only) | 120 | 6mo |
-| [Tablesaw](https://github.com/jtablesaw/tablesaw) | Includes a data-frame, an embedded column store, and hundreds of methods to transform, summarize, or filter data. | 3.7k | 6mo |
-| [XChart](https://github.com/knowm/XChart) | Light-weight library for plotting data. Many customizable chart types are available. | 1.6k | 3mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [BioJava](https://biojava.org/) | Bioinformatics library for sequences, structures, and alignments. | - | - | - |
+| [Chart-FX](https://github.com/GSI-CS-CO/chart-fx) | Real-time scientific charting at 25Hz with millions of points. | - | - | - |
+| [DataMelt](https://datamelt.org/) | Scientific computing environment with Python/Jython. (GPL-3.0-or-later) | - | - | - |
+| [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) | Graph theory algorithms for research. | 127 | 2y | MIT |
+| [GraphStream](http://graphstream-project.org) | Dynamic graph modeling with visualization. | - | - | - |
+| [JFreeChart](http://www.jfree.org/jfreechart/) | Comprehensive 2D charting for Swing/JavaFX. (LGPL-2.1-only) | - | - | - |
+| [JGraphT](https://github.com/jgrapht/jgrapht) | Graph algorithms: shortest path, flow, matching. | 2.7k | 15h | EPL-2.0 |
+| [JGraphX](https://github.com/jgraph/jgraphx) | Interactive graph visualization (powers draw.io). | 687 | 5y | - |
+| [LogicNG](https://github.com/logic-ng/LogicNG) | Boolean formula manipulation and SAT solving. | 149 | 5mo | Apache-2.0 |
+| [Mines Java Toolkit](https://github.com/MinesJTK/jtk) | Geophysics: seismic processing and visualization. | 82 | 4y | Apache-2.0 |
+| [Morpheus](https://github.com/zavtech/morpheus-core) | DataFrame library for tabular data analysis. | 242 | 2y | Apache-2.0 |
+| [Orekit](https://www.orekit.org/) | Space flight dynamics: orbit propagation and attitude. | - | - | - |
+| [Orson-Charts](https://github.com/jfree/orson-charts) | Interactive 3D charts with PDF/SVG export. (GPL-3.0-only) | 120 | 7mo | GPL-3.0 |
+| [Tablesaw](https://github.com/jtablesaw/tablesaw) | In-memory DataFrame with filtering and aggregation. | 3.7k | 6mo | Apache-2.0 |
+| [XChart](https://github.com/knowm/XChart) | Simple charting with minimal dependencies. | 1.6k | 2mo | Apache-2.0 |
 
 <!-- SECTION:Search -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Lucene](https://lucene.apache.org) | High-performance, full-featured, cross-platform, text search engine library. | - | - |
-| [Apache Solr](https://lucene.apache.org/solr/) | Enterprise search engine optimized for high-volume traffic. | - | - |
-| [Elasticsearch](https://www.elastic.co) | Distributed, multitenant-capable, full-text search engine with a RESTful web interface and schema-free JSON documents. | - | - |
-| [Indexer4j](https://github.com/haeungun/indexer4j) | Simple and light full text indexing and searching library. | 56 | 6y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Lucene](https://lucene.apache.org) | Foundation of most Java search; fast inverted indexes. | - | - | - |
+| [Apache Solr](https://lucene.apache.org/solr/) | Enterprise search with faceting and clustering. | - | - | - |
+| [Elasticsearch](https://www.elastic.co) | Distributed search and analytics with REST API. | - | - | - |
+| [Indexer4j](https://github.com/haeungun/indexer4j) | Lightweight in-memory full-text search. | 56 | 6y | Apache-2.0 |
 
 <!-- SECTION:Security -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Shiro](https://shiro.apache.org) | Performs authentication, authorization, cryptography and session management. | - | - |
-| [Ayza](https://github.com/Hakky54/ayza) | High-level SSL configuration builder for configuring HTTP clients and servers with SSL/TLS. | 564 | 5d |
-| [Bouncy Castle](https://www.bouncycastle.org/java.html) | All-purpose cryptographic library and JCA provider offering a wide range of functions, from basic helpers to PGP/SMIME operations. | - | - |
-| [DependencyCheck](https://github.com/jeremylong/DependencyCheck) | Detects publicly disclosed vulnerabilities contained within a project's dependencies. | 40 | 10mo |
-| [Cryptomator](https://cryptomator.org) | Multiplatform, transparent, client-side encryption of files in the cloud. (GPL-3.0-only) | - | - |
-| [Hdiv](https://github.com/hdiv/hdiv) | Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks. | 219 | 4y |
-| [jjwt](https://github.com/jwtk/jjwt) | JSON web token for Java and Android. | 11.0k | 2mo |
-| [jwt-java](https://github.com/BastiaanJansen/jwt-java) | Easily create and parse JSON Web Tokens and create customized JWT validators using a fluent API. | 14 | 5mo |
-| [Jwks RSA](https://github.com/auth0/jwks-rsa-java) | JSON Web Key Set parser. | 204 | 3mo |
-| [Kalium](https://github.com/abstractj/kalium) | Binding for the Networking and Cryptography (NaCl) library. | 218 | 7y |
-| [Keycloak](https://www.keycloak.org) | Integrated SSO and IDM for browser apps and RESTful web services. | - | - |
-| [Keywhiz](https://github.com/square/keywhiz) | System for distributing and managing secrets. | 2.6k | 2y |
-| [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) | Advanced password strength estimation. | 308 | 4mo |
-| [OACC](http://oaccframework.org) | Provides permission-based authorization services. | - | - |
-| [OpenAM](https://github.com/OpenIdentityPlatform/OpenAM) | Access management solution that includes authentication, SSO, authorization, federation, entitlements and web services security. | 860 | 22d |
-| [OTP-Java](https://github.com/BastiaanJansen/OTP-Java) | One-time password generator library according to RFC 4226 (HOTP) and RFC 6238 (TOTP). | 232 | 1y |
-| [pac4j](https://github.com/pac4j/pac4j) | Security engine. | 2.5k | 2h |
-| [Passay](http://www.passay.org/) | Enforce password policy by validating candidate passwords against a configurable rule set. | - | - |
-| [Password4j](https://github.com/Password4j/password4j) | User-friendly cryptographic library that supports Argon2, Bcrypt, Scrypt, PBKDF2 and various other cryptographic hash functions. | 398 | 4mo |
-| [SecurityBuilder](https://github.com/tersesystems/securitybuilder) | Fluent Builder API for JCA and JSSE classes and especially X.509 certificates. | 47 | 4y |
-| [Themis](https://github.com/cossacklabs/themis) | Multi-platform high-level cryptographic library provides easy-to-use encryption for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications. | 1.9k | 1y |
-| [Tink](https://github.com/google/tink) | Provides a simple and misuse-proof API for common cryptographic tasks. | - | - |
-| [Topaz](https://www.topaz.sh) | Fine-grained authorization for applications with support for RBAC, ABAC, and ReBAC. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Shiro](https://shiro.apache.org) | Framework-agnostic security with auth, crypto, and sessions. | - | - | - |
+| [Ayza](https://github.com/Hakky54/ayza) | Fluent SSL/TLS configuration for HTTP clients and servers. | 565 | 8d | Apache-2.0 |
+| [Bouncy Castle](https://www.bouncycastle.org/java.html) | Comprehensive crypto library with FIPS-certified provider. | - | - | - |
+| [DependencyCheck](https://github.com/jeremylong/DependencyCheck) | OWASP tool detecting vulnerable dependencies via NVD. | 40 | 3mo | Apache-2.0 |
+| [Cryptomator](https://cryptomator.org) | Client-side encryption for cloud storage with WebDAV. (GPL-3.0-only) | - | - | - |
+| [Hdiv](https://github.com/hdiv/hdiv) | Runtime protection against OWASP Top 10 attacks. | 219 | 1y | - |
+| [jjwt](https://github.com/jwtk/jjwt) | JWT creation and verification with JWS/JWE support. | 11.0k | 2mo | Apache-2.0 |
+| [jwt-java](https://github.com/BastiaanJansen/jwt-java) | Fluent JWT API with custom claim validation. | 14 | 5mo | MIT |
+| [Jwks RSA](https://github.com/auth0/jwks-rsa-java) | JWKS endpoint client with key caching. | 204 | 1mo | MIT |
+| [Kalium](https://github.com/abstractj/kalium) | NaCl/libsodium bindings for modern crypto primitives. | 218 | 2y | Apache-2.0 |
+| [Keycloak](https://www.keycloak.org) | Open-source IAM with OIDC, SAML, and social login. | - | - | - |
+| [Keywhiz](https://github.com/square/keywhiz) | Square's secret management with ACLs and audit logs. | 2.6k | 2y | Apache-2.0 |
+| [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) | Password strength estimator using pattern matching. | 308 | 4mo | MIT |
+| [OACC](http://oaccframework.org) | Fine-grained permission-based access control framework. | - | - | - |
+| [OpenAM](https://github.com/OpenIdentityPlatform/OpenAM) | Enterprise access management with SSO and federation. | 860 | 9d | - |
+| [OTP-Java](https://github.com/BastiaanJansen/OTP-Java) | TOTP/HOTP one-time password generation per RFC specs. | 231 | 1y | MIT |
+| [pac4j](https://github.com/pac4j/pac4j) | Multi-protocol security engine for OAuth, SAML, CAS. | 2.5k | 6h | Apache-2.0 |
+| [Passay](http://www.passay.org/) | Password policy enforcement with configurable rules. | - | - | - |
+| [Password4j](https://github.com/Password4j/password4j) | Password hashing with Argon2, BCrypt, SCrypt, and PBKDF2. | 399 | 4mo | Apache-2.0 |
+| [SecurityBuilder](https://github.com/tersesystems/securitybuilder) | Fluent builders for X.509, keystores, and TLS contexts. | 47 | 4y | Apache-2.0 |
+| [Themis](https://github.com/cossacklabs/themis) | High-level crypto for secure messaging and storage. | 1.9k | 19h | Apache-2.0 |
+| [Tink](https://github.com/google/tink) | Google's misuse-resistant crypto API with key management. | - | - | - |
+| [Topaz](https://www.topaz.sh) | Authorization service with RBAC, ABAC, and relationship-based AC. | - | - | - |
 
 <!-- SECTION:Serialization -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [FlatBuffers](https://github.com/google/flatbuffers) | Memory-efficient serialization library that can access serialized data without unpacking and parsing it. | 25.3k | 17d |
-| [FST](https://github.com/RuedigerMoeller/fast-serialization) | JDK-compatible, high-performance object graph serialization. | 1.6k | 4y |
-| [Fury](https://github.com/alipay/fury) | Blazing fast object graph serialization framework powered by JIT and zero-copy. | - | - |
-| [Kryo](https://github.com/EsotericSoftware/kryo) | Fast and efficient object graph serialization framework. | 6.5k | 23d |
-| [MessagePack](https://github.com/msgpack/msgpack-java) | Efficient binary serialization format. | 1.5k | 2d |
-| [PHP Serializer](https://github.com/marcospassos/java-php-serializer) | Serializing objects in the PHP serialization format. | 19 | 7y |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [FlatBuffers](https://github.com/google/flatbuffers) | Zero-copy access to serialized data without parsing. | 25.4k | 19d | Apache-2.0 |
+| [FST](https://github.com/RuedigerMoeller/fast-serialization) | 10x faster than JDK serialization with drop-in replacement. | 1.6k | 2y | Apache-2.0 |
+| [Fury](https://github.com/alipay/fury) | JIT-accelerated serialization with cross-language support. | - | - | - |
+| [Kryo](https://github.com/EsotericSoftware/kryo) | Fast, compact object graph serialization for games and caching. | 6.5k | 19d | BSD-3-Clause |
+| [MessagePack](https://github.com/msgpack/msgpack-java) | Compact binary format smaller than JSON. | 1.5k | 4d | Apache-2.0 |
+| [PHP Serializer](https://github.com/marcospassos/java-php-serializer) | Serialize Java objects to PHP format for interop. | 19 | 7y | MIT |
 
 <!-- SECTION:Server -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Tomcat](https://tomcat.apache.org) | Robust, all-round server for Servlet and JSP. | - | - |
-| [Apache TomEE](https://tomee.apache.org) | Tomcat plus Java EE. | - | - |
-| [Jetty](https://www.eclipse.org/jetty/) | Provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations. | - | - |
-| [nanohttpd](https://github.com/NanoHttpd/nanohttpd) | Tiny, easily embeddable HTTP server. | 7.2k | 6y |
-| [WildFly](https://www.wildfly.org) | Formerly known as JBoss and developed by Red Hat with extensive Java EE support. (LGPL-2.1-only) | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Tomcat](https://tomcat.apache.org) | Reference Servlet container with virtual hosts and clustering. | - | - | - |
+| [Apache TomEE](https://tomee.apache.org) | Tomcat with Jakarta EE (CDI, JPA, JAX-RS) baked in. | - | - | - |
+| [Jetty](https://www.eclipse.org/jetty/) | Lightweight, embeddable server with HTTP/2 and WebSocket. | - | - | - |
+| [nanohttpd](https://github.com/NanoHttpd/nanohttpd) | Tiny embeddable HTTP server in one Java file. | 7.2k | 2y | BSD-3-Clause |
+| [WildFly](https://www.wildfly.org) | Full Jakarta EE server with modular architecture. (LGPL-2.1-only) | - | - | - |
 
 <!-- SECTION:Template Engine -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Freemarker](https://freemarker.apache.org) | Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data. | - | - |
-| [Handlebars.java](https://jknack.github.io/handlebars.java/) | Logicless and semantic Mustache templates. | - | - |
-| [Jade4J](https://github.com/neuland/jade4j) | Implementation of Pug (formerly known as Jade). | 706 | 4y |
-| [Jamal](https://github.com/verhas/jamal) | Extendable template engine embedded into Maven/JavaDoc, supporting multiple extensions (Groovy, Ruby, JavaScript, JShell, PlantUml) with support for snippet handling. | 65 | 8mo |
-| [jstachio](https://github.com/jstachio/jstachio) | Typesafe Mustache templating engine. | 315 | 8mo |
-| [jte](https://github.com/casid/jte) | Compiles to classes, and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint. | 1.1k | 2d |
-| [Jtwig](https://github.com/jtwig/jtwig) | Modular, configurable and fully tested template engine. | 300 | 8y |
-| [Pebble](https://pebbletemplates.io) | Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization. | - | - |
-| [Rocker](https://github.com/fizzed/rocker) | Optimized, memory efficient and speedy template engine producing statically typed, plain objects. | 781 | 2mo |
-| [StringTemplate](https://github.com/antlr/stringtemplate4) | Template engine for generating source code, web pages, emails, or any other formatted text output. | 1.0k | 7mo |
-| [Thymeleaf](https://www.thymeleaf.org) | Aims to be a substitute for JSP and works for XML files. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Freemarker](https://freemarker.apache.org) | Powerful templating with macros, includes, and auto-escaping. | - | - | - |
+| [Handlebars.java](https://jknack.github.io/handlebars.java/) | Logic-less Mustache templates with helpers. | - | - | - |
+| [Jade4J](https://github.com/neuland/jade4j) | Pug/Jade template engine for concise HTML. | 706 | 3y | MIT |
+| [Jamal](https://github.com/verhas/jamal) | Macro processor for Maven/Javadoc with Groovy and JShell. | 65 | 8mo | Apache-2.0 |
+| [jstachio](https://github.com/jstachio/jstachio) | Compile-time Mustache with type-safe binding. | 315 | 9mo | BSD-3-Clause |
+| [jte](https://github.com/casid/jte) | Fast, compiled templates with IntelliJ plugin support. | 1.1k | 4d | Apache-2.0 |
+| [Jtwig](https://github.com/jtwig/jtwig) | Twig-inspired engine with inheritance and macros. | 300 | 7y | - |
+| [Pebble](https://pebbletemplates.io) | Twig-like templates with inheritance, i18n, and autoescaping. | - | - | - |
+| [Rocker](https://github.com/fizzed/rocker) | Type-safe templates compiling to optimized Java code. | 781 | 2mo | - |
+| [StringTemplate](https://github.com/antlr/stringtemplate4) | ANTLR's template engine for code generation. | 1.0k | 8mo | - |
+| [Thymeleaf](https://www.thymeleaf.org) | Natural templates that work as HTML prototypes. | - | - | - |
 
 <!-- SECTION:Testing/Asynchronous -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Awaitility](https://github.com/awaitility/awaitility) | DSL for synchronizing asynchronous operations. | 4.0k | 10mo |
-| [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) | Toolkit for testing multi-threaded and asynchronous applications. | 427 | 2y |
-| [GreenMail](https://greenmail-mail-test.github.io/greenmail/) | In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. (GPL-2.0-only) | - | - |
-| [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) | Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services. | 174 | 18d |
-| [Karate](https://github.com/intuit/karate) | DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy. | - | - |
-| [REST Assured](https://github.com/rest-assured/rest-assured) | DSL for easy testing of REST/HTTP services. | 7.1k | 26d |
-| [WebTau](https://github.com/testingisdocumenting/webtau) | Test across REST-API, Graph QL, Browser, Database, CLI and Business Logic with consistent set of matchers and concepts. | 379 | 3mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Awaitility](https://github.com/awaitility/awaitility) | Fluent DSL for polling until async conditions are met. | 4.0k | 10mo | Apache-2.0 |
+| [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) | Test multi-threaded code with assertions from any thread. | 427 | 1y | Apache-2.0 |
+| [GreenMail](https://greenmail-mail-test.github.io/greenmail/) | Embedded SMTP/POP3/IMAP server for email testing. (GPL-2.0-only) | - | - | - |
+| [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) | HTTP service virtualization with record/playback. | 174 | 21d | Apache-2.0 |
+| [Karate](https://github.com/intuit/karate) | BDD API testing with mocks, perf tests, and JSON/XML assertions. | - | - | - |
+| [REST Assured](https://github.com/rest-assured/rest-assured) | Fluent API for testing REST services with JSON/XML validation. | 7.1k | 22d | Apache-2.0 |
+| [WebTau](https://github.com/testingisdocumenting/webtau) | Unified testing: REST, GraphQL, browser, CLI, and database. | 379 | 10d | Apache-2.0 |
 
 <!-- SECTION:Testing/BDD -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Cucumber](https://github.com/cucumber/cucumber-jvm) | Provides a way to describe features in a plain language which customers can understand. | 2.8k | 1d |
-| [Cukes-REST](https://github.com/ctco/cukes) | Collection of Gherkin steps for REST-service testing using Cucumber. | 110 | 3y |
-| [J8Spec](https://github.com/j8spec/j8spec) | Follows a Jasmine-like syntax. | 48 | 3y |
-| [JBehave](https://jbehave.org) | Extensively configurable framework that describes stories. | - | - |
-| [JGiven](http://jgiven.org) | Provides a fluent API which allows for simpler composition. | - | - |
-| [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) | Aims to provide a fluent API to write tests in long and descriptive sentences that read like plain English. | 253 | 5y |
-| [Serenity BDD](https://github.com/serenity-bdd/serenity-core) | Automated Acceptance testing and reporting library that works with Cucumber, JBehave and JUnit to make it easier to write high quality executable specifications. | 744 | 12h |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Cucumber](https://github.com/cucumber/cucumber-jvm) | Gherkin specs with step definitions in Java. | 2.8k | 3d | MIT |
+| [Cukes-REST](https://github.com/ctco/cukes) | Cucumber steps for REST API testing. | 110 | 7mo | Apache-2.0 |
+| [J8Spec](https://github.com/j8spec/j8spec) | Jasmine/RSpec-style specs with lambda syntax. | 48 | 3y | MIT |
+| [JBehave](https://jbehave.org) | Story-driven BDD with narrative format. | - | - | - |
+| [JGiven](http://jgiven.org) | Fluent BDD with readable HTML reports. | - | - | - |
+| [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) | Expressive specs using lambdas and natural language. | 253 | 3y | MIT |
+| [Serenity BDD](https://github.com/serenity-bdd/serenity-core) | Living documentation with Cucumber/JUnit integration. | 744 | 2d | - |
 
 <!-- SECTION:Testing/Fixtures -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [AutoParams](https://github.com/AutoParams/AutoParams) | Supports generating test data or combining scenarios for parameterized tests. | 368 | 5mo |
-| [Beanmother](https://github.com/keepcosmos/beanmother) | Sets up beans from YAML fixtures. | 121 | 3y |
-| [Datafaker](https://github.com/datafaker-net/datafaker) | Modern fake data generator forked from Java Faker. | 1.7k | 5h |
-| [Fixture Factory](https://github.com/six2six/fixture-factory) | Generates fake objects from a template. | 446 | 3y |
-| [jFairy](https://github.com/Devskiller/jfairy) | Fake data generator. | - | - |
-| [Instancio](https://github.com/instancio/instancio) | Automates data setup in unit tests by generating fully-populated, reproducible objects. Includes JUnit 5 extension. | 1.1k | 6m |
-| [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) | JUnit test runner and plugins for running JUnit tests with pseudo-randomness. | 180 | 10mo |
-| [Java Faker](https://github.com/DiUS/java-faker) | Port of Ruby's fake data generator. | 4.9k | 3y |
-| [Mockneat](https://github.com/nomemory/mockneat) | Another fake data generator. | 536 | 3y |
-| [JMock](https://github.com/xcancloud/JMock) | JMock is a high-performance data generation and simulation component library implemented in Java. | 422 | 2mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [AutoParams](https://github.com/AutoParams/AutoParams) | JUnit 5 extension for automatic test parameter generation. | 368 | 3mo | MIT |
+| [Beanmother](https://github.com/keepcosmos/beanmother) | YAML-based fixture factory for test objects. | 121 | 3y | Apache-2.0 |
+| [Datafaker](https://github.com/datafaker-net/datafaker) | Modern faker with 200+ data providers and locales. | 1.7k | 30m | Apache-2.0 |
+| [Fixture Factory](https://github.com/six2six/fixture-factory) | Template-based test object builder. | 446 | 2y | Apache-2.0 |
+| [jFairy](https://github.com/Devskiller/jfairy) | Realistic fake data (names, addresses, companies). | - | - | - |
+| [Instancio](https://github.com/instancio/instancio) | Generate fully-populated objects with reproducible seeds. | 1.1k | 3h | Apache-2.0 |
+| [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) | Repeatable randomized tests with seed control. | 180 | 10mo | Apache-2.0 |
+| [Java Faker](https://github.com/DiUS/java-faker) | Ruby Faker port with extensive data types. | 4.9k | 1y | - |
+| [Mockneat](https://github.com/nomemory/mockneat) | Fluent fake data API with constrained generators. | 536 | 2y | Apache-2.0 |
+| [JMock](https://github.com/xcancloud/JMock) | High-performance mock data generation library. | 422 | 2mo | Apache-2.0 |
 
 <!-- SECTION:Testing/Frameworks -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache JMeter](http://jmeter.apache.org) | Functional testing and performance measurements. | - | - |
-| [JMeter DSL.java](https://abstracta.github.io/jmeter-java-dsl/) | Load tests with JMeter as simple as a JUnit test. | - | - |
-| [Arquillian](http://arquillian.org) | Integration and functional testing platform for Java EE containers. | - | - |
-| [cdi-test](https://github.com/guhilling/cdi-test) | JUnit extension for easy and efficient testing of CDI components. | 27 | 1d |
-| [Citrus](https://citrusframework.org) | Integration testing framework that focuses on both client- and server-side messaging. | - | - |
-| [Gatling](https://gatling.io) | Load testing tool designed for ease of use, maintainability and high performance. | - | - |
-| [JUnit](https://junit.org/junit5/) | Common testing framework. | - | - |
-| [jqwik](https://jqwik.net) | Engine for property-based testing built on JUnit 5. | - | - |
-| [Pact JVM](https://github.com/DiUS/pact-jvm) | Consumer-driven contract testing. | - | - |
-| [PIT](http://pitest.org) | Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites. | - | - |
-| [weld-testing](https://github.com/weld/weld-testing) | Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5. | 112 | 2d |
-| [selenium](https://github.com/SeleniumHQ/selenium) | Browser automation framework and ecosystem. | 33.9k | 1h |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache JMeter](http://jmeter.apache.org) | Load testing with GUI and distributed execution. | - | - | - |
+| [JMeter DSL.java](https://abstracta.github.io/jmeter-java-dsl/) | Programmatic JMeter tests with fluent Java API. | - | - | - |
+| [Arquillian](http://arquillian.org) | Integration testing with container lifecycle management. | - | - | - |
+| [cdi-test](https://github.com/guhilling/cdi-test) | Lightweight CDI testing without full container. | 27 | 3d | Apache-2.0 |
+| [Citrus](https://citrusframework.org) | Integration testing for HTTP, JMS, SOAP, and Kafka. | - | - | - |
+| [Gatling](https://gatling.io) | Scala-based load testing with detailed HTML reports. | - | - | - |
+| [JUnit](https://junit.org/junit5/) | The standard Java testing framework with extensions. | - | - | - |
+| [jqwik](https://jqwik.net) | Property-based testing with shrinking on JUnit 5. | - | - | - |
+| [Pact JVM](https://github.com/DiUS/pact-jvm) | Contract testing for microservices compatibility. | - | - | - |
+| [PIT](http://pitest.org) | Mutation testing measuring test suite quality. | - | - | - |
+| [weld-testing](https://github.com/weld/weld-testing) | CDI test extensions for JUnit 4/5 and Spock. | 112 | 5d | Apache-2.0 |
+| [selenium](https://github.com/SeleniumHQ/selenium) | Browser automation for web application testing. | 33.9k | 8h | Apache-2.0 |
 
 <!-- SECTION:Testing/Matchers -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [AssertJ](https://joel-costigliola.github.io/assertj/) | Fluent assertions that improve readability. | - | - |
-| [Hamcrest](http://hamcrest.org/JavaHamcrest/) | Matchers that can be combined to create flexible expressions of intent. | - | - |
-| [JSONAssert](http://jsonassert.skyscreamer.org) | Simplifies testing JSON strings. | - | - |
-| [JsonUnit](https://github.com/lukas-krecan/JsonUnit) | Library that simplifies JSON comparison in tests. | 975 | 13h |
-| [Truth](https://truth.dev) | Google's fluent assertion and proposition framework. | - | - |
-| [XMLUnit](https://github.com/xmlunit/xmlunit) | Simplifies testing for XML output. | 314 | 2mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [AssertJ](https://joel-costigliola.github.io/assertj/) | Fluent assertions with IDE auto-completion. | - | - | - |
+| [Hamcrest](http://hamcrest.org/JavaHamcrest/) | Composable matchers for expressive assertions. | - | - | - |
+| [JSONAssert](http://jsonassert.skyscreamer.org) | JSON comparison with strict/lenient modes. | - | - | - |
+| [JsonUnit](https://github.com/lukas-krecan/JsonUnit) | JSON assertions with path ignoring and regex. | 975 | 1d | Apache-2.0 |
+| [Truth](https://truth.dev) | Google's extensible assertion framework. | - | - | - |
+| [XMLUnit](https://github.com/xmlunit/xmlunit) | XML comparison with diff and XPath assertions. | 314 | 2mo | Apache-2.0 |
 
 <!-- SECTION:Testing/Testing Miscellaneous -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ConsoleCaptor](https://github.com/Hakky54/console-captor) | Captures console output for unit testing purposes. | 33 | 16d |
-| [junit-dataprovider](https://github.com/TNG/junit-dataprovider) | TestNG-like data provider/runner for JUnit. | 249 | 25d |
-| [junit-pioneer](https://junit-pioneer.org/) | JUnit 5 extension pack, pushing the frontiers on Jupiter. | - | - |
-| [LogCaptor](https://github.com/Hakky54/log-captor) | Captures log entries for unit testing purposes. | 421 | 16d |
-| [log-capture](https://github.com/dm-drogeriemarkt/log-capture) | Captures log entries and provides assertions for unit and integration testing. | 15 | 1mo |
-| [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) | Reports whether instances of a given class are immutable. | 241 | 2mo |
-| [pojo-tester](https://www.pojo.pl) | Automatically performs tests on basic POJO methods. (LGPL-3.0-only) | - | - |
-| [raml-tester](https://github.com/nidi3/raml-tester) | Tests if a request/response matches a given RAML definition. | 73 | 7y |
-| [Selfie](https://github.com/diffplug/selfie) | Snapshot testing (inline and on disk). | 87 | 1mo |
-| [Stebz](https://github.com/stebz/stebz) | Multi-approach framework for test steps managing. | 17 | 1d |
-| [Testcontainers](https://github.com/testcontainers/testcontainers-java) | Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. | 8.6k | 23d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ConsoleCaptor](https://github.com/Hakky54/console-captor) | Capture stdout/stderr for assertion. | 33 | 18d | Apache-2.0 |
+| [junit-dataprovider](https://github.com/TNG/junit-dataprovider) | TestNG-style parameterized tests for JUnit. | 249 | 3d | Apache-2.0 |
+| [junit-pioneer](https://junit-pioneer.org/) | JUnit 5 extensions: environment variables, temp dirs, etc. | - | - | - |
+| [LogCaptor](https://github.com/Hakky54/log-captor) | Capture and assert log messages in tests. | 421 | 18d | Apache-2.0 |
+| [log-capture](https://github.com/dm-drogeriemarkt/log-capture) | AssertJ-style log assertions with MDC support. | 15 | 1mo | MIT |
+| [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) | Verify class immutability at test time. | 241 | 3mo | Apache-2.0 |
+| [pojo-tester](https://www.pojo.pl) | Auto-test equals, hashCode, toString, getters/setters. (LGPL-3.0-only) | - | - | - |
+| [raml-tester](https://github.com/nidi3/raml-tester) | Validate API requests/responses against RAML specs. | 73 | 6y | Apache-2.0 |
+| [Selfie](https://github.com/diffplug/selfie) | Snapshot testing with inline or file-based snapshots. | 88 | 14h | Apache-2.0 |
+| [Stebz](https://github.com/stebz/stebz) | Step-based test organization framework. | 17 | 3d | MIT |
+| [Testcontainers](https://github.com/testcontainers/testcontainers-java) | Disposable Docker containers for DBs, browsers, and services. | 8.6k | 8d | MIT |
 
 <!-- SECTION:Testing/Mocking -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [JMockit](http://jmockit.github.io) | Integration testing, API mocking and faking, and code coverage. | - | - |
-| [Mockito](https://github.com/mockito/mockito) | Mocking framework that lets you write tests with a clean and simple API. | 15.4k | 2d |
-| [MockServer](https://www.mock-server.com) | Allows mocking of systems integrated with HTTPS. | - | - |
-| [Moco](https://github.com/dreamhead/moco) | Concise web services for stubs and mocks. | 4.4k | 1y |
-| [PowerMock](https://github.com/powermock/powermock) | Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers. | 4.2k | 3y |
-| [WireMock](http://wiremock.org) | Stubs and mocks web services. | - | - |
-| [EasyMock](https://github.com/easymock/easymock) | EasyMock is a Java library that provides an easy way to use Mock Objects in unit testing. | 831 | 2d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [JMockit](http://jmockit.github.io) | Full mocking with expectations, verifications, and coverage. | - | - | - |
+| [Mockito](https://github.com/mockito/mockito) | Clean, readable mocking with spy and argument capture. | 15.4k | 4d | MIT |
+| [MockServer](https://www.mock-server.com) | HTTP/HTTPS mock server with expectation matching. | - | - | - |
+| [Moco](https://github.com/dreamhead/moco) | Standalone mock server with simple JSON config. | 4.4k | 1y | MIT |
+| [PowerMock](https://github.com/powermock/powermock) | Mock statics, constructors, and final classes. | 4.2k | 2y | Apache-2.0 |
+| [WireMock](http://wiremock.org) | HTTP service simulator with record/playback and fault injection. | - | - | - |
+| [EasyMock](https://github.com/easymock/easymock) | Record/replay mocking with nice/strict modes. | 831 | 4d | - |
 
 <!-- SECTION:Utility -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Arthas](https://github.com/alibaba/arthas) | Allows to troubleshoot production issues for applications without modifying code or restarting servers. | 37.0k | 2d |
-| [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) | Rate limiting library based on token-bucket algorithm. | - | - |
-| [cactoos](https://github.com/yegor256/cactoos) | Collection of object-oriented primitives. | 763 | 19h |
-| [Chocotea](https://github.com/cleopatra27/chocotea) | Generates postman collection, environment and integration tests from java code. | 48 | 2y |
-| [CRaSH](http://www.crashub.org) | Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others. (LGPL-2.1-or-later) | - | - |
-| [Dex](https://github.com/PatMartin/Dex) | Java/JavaFX tool capable of powerful ETL and data visualization. | 1.3k | 6y |
-| [dregex](https://github.com/marianobarrios/dregex) | Regular expression engine that uses deterministic finite automata. It supports some Perl-style features and yet retains linear matching time, and also offers set operations. | 48 | 23h |
-| [Embulk](https://github.com/embulk/embulk) | Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services. | 1.8k | 1mo |
-| [fswatch](https://github.com/vorburger/ch.vorburger.fswatch) | Micro library to watch for directory file system changes, simplifying java.nio.file.WatchService. | 31 | 5d |
-| [Gephi](https://github.com/gephi/gephi) | Cross-platform for visualizing and manipulating large graph networks. (GPL-3.0-only) | 6.3k | 2d |
-| [Guava](https://github.com/google/guava) | Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and more. | 51.4k | 1d |
-| [JADE](https://jade.tilab.com) | Framework and environment for building and debugging multi-agent systems. (LGPL-2.0-only) | - | - |
-| [Javadoc Publisher](https://github.com/MathieuSoysal/Javadoc-publisher.yml) | Generate Javadoc from your maven/gradle project and deploy it automatically on GitHub Page. | 55 | 1mo |
-| [Java Diff Utils](https://java-diff-utils.github.io/java-diff-utils/) | Utilities for text or data comparison and patching. | - | - |
-| [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) | Library that helps with constructing difficult regular expressions. | 2.6k | 1mo |
-| [JGit](https://www.eclipse.org/jgit/) | Lightweight, pure Java library implementing the Git version control system. | - | - |
-| [JKScope](https://github.com/evpl/jkscope) | Java scope functions inspired by Kotlin. | 21 | 11mo |
-| [minio-java](https://github.com/minio/minio-java) | Provides simple APIs to access any Amazon S3-compatible object storage server. | 1.3k | 22d |
-| [Protégé](https://protege.stanford.edu) | Provides an ontology editor and a framework to build knowledge-based systems. | - | - |
-| [Semver4j](https://github.com/semver4j/semver4j) | Lightweight library that helps you handling semantic versioning with different modes. | 106 | 23h |
-| [Underscore-java](https://github.com/javadev/underscore-java) | Port of Underscore.js functions. | 547 | 29d |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Arthas](https://github.com/alibaba/arthas) | Production diagnostics: class decompile, trace, and profiling live. | 37.0k | 26m | Apache-2.0 |
+| [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) | Token bucket rate limiter with distributed support. | - | - | - |
+| [cactoos](https://github.com/yegor256/cactoos) | Object-oriented primitives avoiding nulls and statics. | 763 | 1d | MIT |
+| [Chocotea](https://github.com/cleopatra27/chocotea) | Generate Postman collections from annotated Java code. | 48 | 2y | Apache-2.0 |
+| [CRaSH](http://www.crashub.org) | SSH shell into running JVMs for inspection. (LGPL-2.1-or-later) | - | - | - |
+| [Dex](https://github.com/PatMartin/Dex) | Data visualization and ETL with JavaFX. | 1.3k | 6y | Apache-2.0 |
+| [dregex](https://github.com/marianobarrios/dregex) | DFA-based regex with set operations and linear time. | 48 | 3d | BSD-2-Clause |
+| [Embulk](https://github.com/embulk/embulk) | Bulk data loader for DBs, S3, and file formats. | 1.8k | 1mo | Apache-2.0 |
+| [fswatch](https://github.com/vorburger/ch.vorburger.fswatch) | Simplified file system watching wrapper. | 31 | 7d | Apache-2.0 |
+| [Gephi](https://github.com/gephi/gephi) | Network graph visualization and analysis tool. (GPL-3.0-only) | 6.3k | 13h | GPL-3.0 |
+| [Guava](https://github.com/google/guava) | Google's core libraries: collections, caching, I/O, and more. | 51.4k | 11h | Apache-2.0 |
+| [JADE](https://jade.tilab.com) | Multi-agent system framework with FIPA compliance. (LGPL-2.0-only) | - | - | - |
+| [Javadoc Publisher](https://github.com/MathieuSoysal/Javadoc-publisher.yml) | GitHub Action for auto-publishing Javadoc. | 55 | 1mo | Apache-2.0 |
+| [Java Diff Utils](https://java-diff-utils.github.io/java-diff-utils/) | Unified diff, patch, and merge utilities. | - | - | - |
+| [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) | Readable regex builder with fluent API. | 2.6k | 9d | MIT |
+| [JGit](https://www.eclipse.org/jgit/) | Pure Java Git implementation used by Eclipse. | - | - | - |
+| [JKScope](https://github.com/evpl/jkscope) | Kotlin-style scope functions (let, also, run) for Java. | 21 | 11mo | Apache-2.0 |
+| [minio-java](https://github.com/minio/minio-java) | S3-compatible object storage client. | 1.3k | 25d | Apache-2.0 |
+| [Protégé](https://protege.stanford.edu) | Ontology editor for OWL and knowledge graphs. | - | - | - |
+| [Semver4j](https://github.com/semver4j/semver4j) | Semantic versioning parsing and comparison. | 106 | 1d | MIT |
+| [Underscore-java](https://github.com/javadev/underscore-java) | Functional utilities: map, filter, reduce, and more. | 547 | 1mo | MIT |
 
 <!-- SECTION:Version Managers -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [jabba](https://github.com/shyiko/jabba) | Java Version Manager inspired by nvm. Supports macOS, Linux and Windows. | 3.3k | 4y |
-| [jenv](https://github.com/jenv/jenv) | Java Version Manager inspired by rbenv. Can configure globally or per project. Tested on Debian and macOS. | 6.5k | 14d |
-| [SDKMan](https://github.com/sdkman/sdkman-cli) | Java Version Manager inspired by RVM and rbenv. Supports UNIX-based platforms and Windows. | 6.6k | 10h |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [jabba](https://github.com/shyiko/jabba) | Cross-platform JDK manager with remote install support. | 3.3k | 1y | - |
+| [jenv](https://github.com/jenv/jenv) | Project-level Java version switching via shell. | 6.5k | 16d | MIT |
+| [SDKMan](https://github.com/sdkman/sdkman-cli) | Manage JDKs and tools (Maven, Gradle) with one CLI. | 6.6k | 2d | Apache-2.0 |
 
 <!-- SECTION:Web Crawling -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Apache Nutch](https://nutch.apache.org) | Highly extensible, highly scalable web crawler for production environments. | - | - |
-| [Crawler4j](https://github.com/yasserg/crawler4j) | Simple and lightweight web crawler. | 4.6k | 5y |
-| [jsoup](https://jsoup.org) | Scrapes, parses, manipulates and cleans HTML. | - | - |
-| [StormCrawler](http://stormcrawler.net) | SDK for building low-latency and scalable web crawlers. | - | - |
-| [webmagic](https://github.com/code4craft/webmagic) | Scalable crawler with downloading, url management, content extraction and persistent. | 11.7k | 6mo |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Apache Nutch](https://nutch.apache.org) | Hadoop-based crawler with Solr/Elasticsearch integration. | - | - | - |
+| [Crawler4j](https://github.com/yasserg/crawler4j) | Multi-threaded crawler with depth and politeness control. | 4.6k | 4y | Apache-2.0 |
+| [jsoup](https://jsoup.org) | HTML parsing with CSS selectors and DOM manipulation. | - | - | - |
+| [StormCrawler](http://stormcrawler.net) | Real-time crawler on Apache Storm for scale. | - | - | - |
+| [webmagic](https://github.com/code4craft/webmagic) | Modular crawler with XPath/CSS extraction and pipelines. | 11.7k | 20d | Apache-2.0 |
 
 <!-- SECTION:Web Frameworks -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [ActiveJ](https://activej.io) | Lightweight asynchronous framework built from the ground up for developing high-performance web applications. | - | - |
-| [Apache Tapestry](https://tapestry.apache.org) | Component-oriented framework for creating dynamic, robust, highly scalable web applications. | - | - |
-| [Apache Wicket](https://wicket.apache.org) | Component-based web application framework similar to Tapestry, with a stateful GUI. | - | - |
-| [Blade](https://github.com/lets-blade/blade) | Lightweight, modular framework that aims to be elegant and simple. | 5.9k | 11mo |
-| [Bootique](https://bootique.io) | Minimally opinionated framework for runnable apps. | - | - |
-| [Firefly](http://www.fireflysource.com) | Asynchronous framework for rapid development of high-performance web application. | - | - |
-| [Javalin](https://javalin.io/) | Microframework for web applications. | - | - |
-| [Jooby](http://www.jooby.org) | Scalable, fast and modular micro-framework that offers multiple programming models. | - | - |
-| [Ninja](http://www.ninjaframework.org) | Full-stack web framework. | - | - |
-| [Pippo](http://www.pippo.ro) | Small, highly modularized, Sinatra-like framework. | - | - |
-| [Play](https://www.playframework.com) | Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala. | - | - |
-| [PrimeFaces](https://www.primefaces.org) | JSF framework with both free and commercial/support versions and frontend components. | - | - |
-| [Ratpack](https://ratpack.io) | Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications. | - | - |
-| [Takes](https://github.com/yegor256/takes) | Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability. | 868 | 6d |
-| [Vaadin](https://vaadin.com) | Full-stack open-source Java framework that simplifies web app development. Build complex, interactive applications with Java alone, and enhance with TypeScript and React components, without needing deep JavaScript, CSS, or HTML expertise. | - | - |
-| [WebForms Core](https://github.com/webforms-core) | A technology for managing HTML tags from the server. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [ActiveJ](https://activej.io) | Async-first framework with 1M+ req/sec on single core. | - | - | - |
+| [Apache Tapestry](https://tapestry.apache.org) | Component-based framework with live reload. | - | - | - |
+| [Apache Wicket](https://wicket.apache.org) | Stateful component model with type-safe Java. | - | - | - |
+| [Blade](https://github.com/lets-blade/blade) | Lightweight MVC framework with Netty backend. | 5.9k | 25d | Apache-2.0 |
+| [Bootique](https://bootique.io) | Modular app framework with config and metrics. | - | - | - |
+| [Firefly](http://www.fireflysource.com) | Async framework with HTTP/2 and WebSocket. | - | - | - |
+| [Javalin](https://javalin.io/) | Simple REST API framework on Jetty. | - | - | - |
+| [Jooby](http://www.jooby.org) | Modular framework with Netty, Jetty, or Undertow. | - | - | - |
+| [Ninja](http://www.ninjaframework.org) | Full-stack with ORM, templates, and testing. | - | - | - |
+| [Pippo](http://www.pippo.ro) | Micro-framework with routing, templates, and i18n. | - | - | - |
+| [Play](https://www.playframework.com) | Reactive framework with hot reload for Scala/Java. | - | - | - |
+| [PrimeFaces](https://www.primefaces.org) | JSF components with 100+ UI widgets. | - | - | - |
+| [Ratpack](https://ratpack.io) | Non-blocking HTTP with RxJava and Groovy DSL. | - | - | - |
+| [Takes](https://github.com/yegor256/takes) | Truly OOP web framework without annotations. | 868 | 7h | MIT |
+| [Vaadin](https://vaadin.com) | Build web UIs in Java with optional React components. | - | - | - |
+| [WebForms Core](https://github.com/webforms-core) | Server-side HTML tag management. | - | - | - |
 
 <!-- SECTION:Workflow Orchestration Engines -->
 
-| Name | Description | Stars | Updated |
-| :--- | :---------- | :---: | :-----: |
-| [Cadence](https://cadenceworkflow.io) | Stateful code platform from Uber. | - | - |
-| [flowable](https://github.com/flowable/flowable-engine) | Compact and efficient workflow and business process management platform. | 9.0k | 1d |
-| [Temporal](https://temporal.io) | Microservice orchestration platform, forked from Cadence but gRPC based. | - | - |
+| Name | Description | Stars | Updated | License |
+| :--- | :---------- | :---: | :-----: | :-----: |
+| [Cadence](https://cadenceworkflow.io) | Uber's durable execution platform for long-running workflows. | - | - | - |
+| [flowable](https://github.com/flowable/flowable-engine) | BPMN 2.0, CMMN, and DMN engine with REST API. | 9.0k | 1d | Apache-2.0 |
+| [Temporal](https://temporal.io) | Durable execution with gRPC; Cadence successor with cloud offering. | - | - | - |
 

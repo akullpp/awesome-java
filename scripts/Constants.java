@@ -18,6 +18,7 @@ public final class Constants {
   public static final Pattern MARKDOWN_LINK_PATTERN = Pattern.compile("\\[([^\\]]+)\\]\\(([^)]+)\\)");
   public static final Pattern STARS_PATTERN = Pattern.compile("\"stargazers_count\"\\s*:\\s*(\\d+)");
   public static final Pattern PUSHED_AT_PATTERN = Pattern.compile("\"pushed_at\"\\s*:\\s*\"([^\"]+)\"");
+  public static final Pattern LICENSE_PATTERN = Pattern.compile("\"license\"\\s*:\\s*(?:null|\\{[^}]*\"spdx_id\"\\s*:\\s*\"([^\"]+)\"[^}]*\\})", Pattern.DOTALL);
   public static final String ENTRY_PATTERN = "^\\s*-\\s*\\[.*";
   public static final String INDENTED_LINE_PATTERN = "^\\s+.*";
 
@@ -44,6 +45,7 @@ public final class Constants {
   public static final String REPO_PREFIX = "REPO:";
   public static final String STARS_PREFIX = "STARS:";
   public static final String COMMIT_PREFIX = "COMMIT:";
+  public static final String LICENSE_PREFIX = "LICENSE:";
 
   // Default values
   public static final String NO_DESCRIPTION = "No description available";

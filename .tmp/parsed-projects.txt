@@ -1,3443 +1,3450 @@
 NAME:ArchUnit
 URL:https://github.com/TNG/ArchUnit
-DESC:Test library for specifying and asserting architecture rules.
+DESC:Unit test architecture rules with a fluent Java API; catches violations at build time.
 SKIP:1
 SECTION:Architecture
 ---
 
 NAME:jMolecules
 URL:https://github.com/xmolecules/jmolecules
-DESC:Annotations and interfaces to express design and architecture concepts in code.
+DESC:Express DDD, hexagonal, and layered architecture concepts directly in code with type-safe annotations.
 SKIP:1
 SECTION:Architecture
 ---
 
 NAME:LangChain4j
 URL:https://github.com/langchain4j/langchain4j
-DESC:Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.
+DESC:Unified API for 15+ LLM providers with RAG, function calling, and AI services out of the box.
 SKIP:1
 SECTION:Artificial Intelligence
 ---
 
 NAME:MCP Java SDK
 URL:https://github.com/modelcontextprotocol/java-sdk
-DESC:Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns.
+DESC:Model Context Protocol implementation enabling standardized AI model interactions with sync/async support.
 SKIP:1
 SECTION:Artificial Intelligence
 ---
 
 NAME:simple-openai
 URL:https://github.com/sashirestela/simple-openai
-DESC:Library to use the OpenAI API (and compatible ones) in the simplest possible way.
+DESC:Lightweight, zero-dependency OpenAI API client with streaming support.
 SKIP:1
 SECTION:Artificial Intelligence
 ---
 
 NAME:Spring AI
 URL:https://spring.io/projects/spring-ai
-DESC:Application framework for AI engineering for Spring.
+DESC:Spring-native AI framework with portable APIs across AI providers and vector stores.
 SKIP:1
 SECTION:Artificial Intelligence
 ---
 
 NAME:dOOv
 URL:https://github.com/doov-io/doov
-DESC:Provides fluent API for typesafe domain model validation and mapping. It uses annotations, code generation and a type safe DSL to make bean validation and mapping fast and easy.
+DESC:Fluent, typesafe DSL for domain validation and mapping with code generation.
 SKIP:1
 SECTION:Bean Mapping
 ---
 
 NAME:JMapper
 URL:https://github.com/jmapper-framework/jmapper-core
-DESC:Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration.
+DESC:Bytecode-powered mapper achieving near-native performance; supports annotations, API, or XML config.
 SKIP:1
 SECTION:Bean Mapping
 ---
 
 NAME:MapStruct
 URL:https://github.com/mapstruct/mapstruct
-DESC:Code generator that simplifies mappings between different bean types, based on a convention-over-configuration approach.
+DESC:Compile-time code generator producing type-safe, reflection-free mappers with zero runtime overhead.
 SKIP:1
 SECTION:Bean Mapping
 ---
 
 NAME:ModelMapper
 URL:https://github.com/modelmapper/modelmapper
-DESC:Intelligent object mapping library that automatically maps objects to each other.
+DESC:Convention-based mapper that auto-matches properties, reducing boilerplate.
 SKIP:1
 SECTION:Bean Mapping
 ---
 
 NAME:Orika
 URL:https://github.com/orika-mapper/orika
-DESC:JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.
+DESC:Bytecode-generated mappers with automatic type conversion and deep copying.
 SKIP:1
 SECTION:Bean Mapping
 ---
 
 NAME:reMap
 URL:https://github.com/remondis-it/remap
-DESC:Lambda and method handle-based mapping which requires code and not annotations if objects have different names.
+DESC:Lambda-based mapping with compile-time safety; no annotations required.
 SKIP:1
 SECTION:Bean Mapping
 ---
 
 NAME:Selma
 URL:https://github.com/xebia-france/selma
-DESC:Annotation processor-based bean mapper.
+DESC:Annotation processor generating optimized mappers at compile time.
 SKIP:1
 SECTION:Bean Mapping
 ---
 
 NAME:Apache Maven
 URL:https://maven.apache.org
-DESC:Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain.
+DESC:Industry-standard declarative build tool with convention-over-configuration and vast plugin ecosystem.
 SKIP:1
 SECTION:Build
 ---
 
 NAME:Bazel
 URL:https://bazel.build
-DESC:Tool from Google that builds code quickly and reliably.
+DESC:Google's build system with aggressive caching, remote execution, and reproducible builds at scale.
 SKIP:1
 SECTION:Build
 ---
 
 NAME:Buck2
 URL:https://github.com/facebook/buck2
-DESC:Encourages the creation of small, reusable modules consisting of code and resources.
+DESC:Meta's fast build system with fine-grained parallelism and remote execution support.
 SKIP:1
 SECTION:Build
 ---
 
 NAME:Gradle
 URL:https://gradle.org
-DESC:Incremental builds programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+DESC:Flexible build automation with incremental builds, build caching, and Kotlin/Groovy DSL.
 SKIP:1
 SECTION:Build
 ---
 
 NAME:ASM
 URL:https://asm.ow2.io
-DESC:All-purpose, low-level bytecode manipulation and analysis.
+DESC:Low-level, high-performance bytecode manipulation; the foundation for most other tools.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:Byte Buddy
 URL:https://bytebuddy.net
-DESC:Further simplifies bytecode generation with a fluent API.
+DESC:Fluent API for runtime code generation without needing bytecode knowledge.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:bytecode-viewer
 URL:https://github.com/Konloch/bytecode-viewer
-DESC:Java 8 Jar & Android APK reverse engineering suite. (GPL-3.0-only)
+DESC:All-in-one reverse engineering suite for JAR and APK files. (GPL-3.0-only)
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:Byteman
 URL:https://byteman.jboss.org
-DESC:Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting. (LGPL-2.1-or-later)
+DESC:Rule-based runtime bytecode injection for testing and fault injection. (LGPL-2.1-or-later)
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:cglib
 URL:https://github.com/cglib/cglib
-DESC:Bytecode generation library.
+DESC:High-level bytecode generation for proxies and interceptors.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:Javassist
 URL:https://github.com/jboss-javassist/javassist
-DESC:Tries to simplify bytecode editing.
+DESC:Edit bytecode using Java source syntax, no low-level knowledge required.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:Maker
 URL:https://github.com/cojen/maker
-DESC:Provides low level bytecode generation.
+DESC:Lightweight, low-level bytecode generation with minimal dependencies.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:Mixin
 URL:https://github.com/SpongePowered/Mixin
-DESC:Manipulate bytecode at runtime using real Java code.
+DESC:Runtime class transformation using annotated Java code; popular in Minecraft modding.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:Perses
 URL:https://github.com/nicolasmanic/perses
-DESC:Dynamically injects failure/latency at the bytecode level according to principles of chaos engineering.
+DESC:Chaos engineering via bytecode-level fault injection.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:Recaf
 URL:https://www.coley.software/Recaf/
-DESC:JVM reverse engineering toolkit, essentially an IDE for Java bytecode.
+DESC:Modern bytecode editor IDE with decompilation, search, and hex editing.
 SKIP:1
 SECTION:Bytecode Manipulation
 ---
 
 NAME:cache2k
 URL:https://cache2k.org
-DESC:In-memory high performance caching library.
+DESC:In-memory cache with sub-microsecond access times and advanced expiry policies.
 SKIP:1
 SECTION:Caching
 ---
 
 NAME:Caffeine
 URL:https://github.com/ben-manes/caffeine
-DESC:High-performance, near-optimal caching library.
+DESC:Near-optimal hit rates via Window TinyLFU algorithm; Java's fastest cache.
 SKIP:1
 SECTION:Caching
 ---
 
 NAME:Ehcache
 URL:http://www.ehcache.org
-DESC:Distributed general-purpose cache.
+DESC:Mature, JCache-compliant cache with tiered storage (heap/off-heap/disk).
 SKIP:1
 SECTION:Caching
 ---
 
 NAME:Infinispan
 URL:https://infinispan.org
-DESC:Highly concurrent key/value datastore used for caching.
+DESC:Distributed, clustered cache with transactions and query support.
 SKIP:1
 SECTION:Caching
 ---
 
 NAME:Airline
 URL:https://rvesse.github.io/airline/
-DESC:Annotation-based framework for parsing Git-like command-line arguments.
+DESC:Git-style CLI parser with annotation-based commands and subcommands.
 SKIP:1
 SECTION:CLI/Argument Parsing
 ---
 
 NAME:JCommander
 URL:http://jcommander.org
-DESC:Command-line argument-parsing framework with custom types and validation via implementing interfaces.
+DESC:Annotation-driven parser with custom type converters and validation.
 SKIP:1
 SECTION:CLI/Argument Parsing
 ---
 
 NAME:jbock
 URL:https://github.com/jbock-java/jbock
-DESC:Reflectionless command line parser.
+DESC:Compile-time CLI parser with zero reflection and zero dependencies.
 SKIP:1
 SECTION:CLI/Argument Parsing
 ---
 
 NAME:JLine
 URL:https://github.com/jline/jline3
-DESC:Includes features from modern shells like completion or history.
+DESC:Rich terminal handling with tab-completion, history, and syntax highlighting.
 SKIP:1
 SECTION:CLI/Argument Parsing
 ---
 
 NAME:picocli
 URL:https://picocli.info
-DESC:ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.
+DESC:Zero-dependency CLI framework with ANSI colors, autocompletion, and GraalVM native support.
 SKIP:1
 SECTION:CLI/Argument Parsing
 ---
 
 NAME:Jansi
 URL:https://github.com/fusesource/jansi
-DESC:ANSI escape codes to format console output.
+DESC:Cross-platform ANSI escape code support for colored console output.
 SKIP:1
 SECTION:CLI/Text-Based User Interfaces
 ---
 
 NAME:Jexer
 URL:https://gitlab.com/AutumnMeowMeow/jexer
-DESC:Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
+DESC:Full-featured TUI with windows, menus, and sixel graphics; Turbo Vision-style.
 SKIP:1
 SECTION:CLI/Text-Based User Interfaces
 ---
 
 NAME:Text-IO
 URL:https://github.com/beryx/text-io
-DESC:Aids the creation of full console-based applications.
+DESC:Simple API for interactive console applications with input validation.
 SKIP:1
 SECTION:CLI/Text-Based User Interfaces
 ---
 
 NAME:Lanterna
 URL:https://github.com/mabe02/lanterna
-DESC:Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
+DESC:Curses-like TUI with cross-platform terminal abstraction. (LGPL-3.0-only)
 SKIP:1
 SECTION:CLI/Text-Based User Interfaces
 ---
 
 NAME:AWS SDK for Java
 URL:https://github.com/aws/aws-sdk-java
-DESC:Provides Java APIs for interacting with Amazon Web Services.
+DESC:Official SDK covering 200+ AWS services with async support and pagination.
 SKIP:1
 SECTION:Cloud
 ---
 
 NAME:Google Cloud Client Libraries
 URL:https://github.com/googleapis/google-cloud-java
-DESC:Client libraries for accessing Google Cloud services from Java applications.
+DESC:Idiomatic Java clients for GCP services with automatic retries and streaming.
 SKIP:1
 SECTION:Cloud
 ---
 
 NAME:Checkstyle
 URL:https://github.com/checkstyle/checkstyle
-DESC:Static analysis of coding conventions and standards. (LGPL-2.1-or-later)
+DESC:Enforces coding standards with 150+ configurable checks. (LGPL-2.1-or-later)
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:Error Prone
 URL:https://github.com/google/error-prone
-DESC:Catches common programming mistakes as compile-time errors.
+DESC:Google's compiler plugin catching bugs at compile time with auto-fixes.
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:Error Prone Support
 URL:https://github.com/PicnicSupermarket/error-prone-support
-DESC:Error Prone extensions: extra bug checkers and a large battery of Refaster templates.
+DESC:100+ additional Error Prone checks and Refaster refactoring templates.
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:Infer
 URL:https://github.com/facebook/infer
-DESC:Modern static analysis tool for verifying the correctness of code.
+DESC:Meta's static analyzer detecting null dereferences, resource leaks, and concurrency issues.
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:jQAssistant
 URL:https://jqassistant.org
-DESC:Static code analysis with Neo4J-based query language. (GPL-3.0-only)
+DESC:Query codebase structure with Cypher on a Neo4j graph. (GPL-3.0-only)
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:NullAway
 URL:https://github.com/uber/NullAway
-DESC:Eliminates NullPointerExceptions with low build-time overhead.
+DESC:Fast null-safety checker with minimal annotation overhead; Uber-proven.
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:PMD
 URL:https://github.com/pmd/pmd
-DESC:Source code analysis for finding bad coding practices.
+DESC:Extensible static analyzer detecting code smells and copy-paste issues.
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:p3c
 URL:https://github.com/alibaba/p3c
-DESC:Provides Alibaba's coding guidelines for PMD, IDEA and Eclipse.
+DESC:Alibaba's Java coding guidelines as PMD rules and IDE plugins.
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:RefactorFirst
 URL:https://github.com/jimbethancourt/RefactorFirst
-DESC:Identifies and prioritizes God Classes and Highly Coupled classes.
+DESC:Prioritizes refactoring targets by God Class and coupling metrics.
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:SonarJava
 URL:https://github.com/SonarSource/sonar-java
-DESC:Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
+DESC:600+ rules for SonarQube with security hotspot detection. (LGPL-3.0-only)
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:Spoon
 URL:https://github.com/INRIA/spoon
-DESC:Library for analyzing and transforming Java source code.
+DESC:Full Java AST API for analysis, transformation, and code generation.
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:Spotbugs
 URL:https://github.com/spotbugs/spotbugs
-DESC:Static analysis of bytecode to find potential bugs. (LGPL-2.1-only)
+DESC:FindBugs successor; bytecode analysis for 400+ bug patterns. (LGPL-2.1-only)
 SKIP:1
 SECTION:Code Analysis
 ---
 
 NAME:Clover
 URL:https://www.atlassian.com/software/clover
-DESC:Relies on source-code instrumentation instead of bytecode instrumentation.
+DESC:Source-level instrumentation with detailed per-test coverage and historical trends.
 SKIP:1
 SECTION:Code Coverage
 ---
 
 NAME:Cobertura
 URL:https://cobertura.github.io/cobertura/
-DESC:Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics. (GPL-2.0-only)
+DESC:Bytecode instrumentation with branch coverage and complexity metrics. (GPL-2.0-only)
 SKIP:1
 SECTION:Code Coverage
 ---
 
 NAME:JaCoCo
 URL:https://www.eclemma.org/jacoco/
-DESC:Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation.
+DESC:Lightweight agent with line/branch/instruction coverage and IDE/CI integration.
 SKIP:1
 SECTION:Code Coverage
 ---
 
 NAME:ADT4J
 URL:https://github.com/sviperll/adt4j
-DESC:JSR-269 code generator for algebraic data types.
+DESC:Generates algebraic data types (sealed hierarchies) with pattern matching.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:Auto
 URL:https://github.com/google/auto
-DESC:Generates factory, service, and value classes.
+DESC:Google's annotation processors for AutoValue, AutoFactory, and AutoService.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:Avaje Http Server
 URL:https://avaje.io/http/
-DESC:Generates Lightweight JAX-RS style http servers using Javalin or Helidon (Nima) SE.
+DESC:Compile-time HTTP server generation for Javalin/Helidon; no reflection.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:EasyEntityToDTO
 URL:https://github.com/Marcel091004/EasyEntityToDTO
-DESC:Annotation processor for automatic DTO and Mapper generation with zero boilerplate.
+DESC:Annotation processor generating DTOs and mappers automatically.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:FreeBuilder
 URL:https://github.com/inferred/FreeBuilder
-DESC:Automatically generates the Builder pattern.
+DESC:Generates Builder pattern with validation and partial builds.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:Geci
 URL:https://github.com/verhas/javageci
-DESC:Discovers files that need generated code, updates automatically and writes to the source with a convenient API.
+DESC:Test-time code generator that updates source files in-place.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:Immutables
 URL:https://immutables.github.io
-DESC:Annotation processors to generate simple, safe and consistent value objects.
+DESC:Generates immutable value objects with builders, JSON support, and interning.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:JavaPoet
 URL:https://github.com/square/javapoet
-DESC:API to generate source files.
+DESC:Fluent API for generating `.java` source files programmatically.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:JHipster
 URL:https://github.com/jhipster/generator-jhipster
-DESC:Yeoman source code generator for Spring Boot and AngularJS.
+DESC:Full-stack app generator for Spring Boot + Angular/React/Vue.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:Joda-Beans
 URL:https://www.joda.org/joda-beans/
-DESC:Small framework that adds queryable properties to Java, enhancing JavaBeans.
+DESC:Adds queryable, serializable properties to POJOs via code generation.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:JSpecify Package-Info Generator
 URL:https://github.com/bcaillard/jspecify-packageinfo-generator
-DESC:Maven plugin that automatically generates package-info.java files with JSpecify annotations (@NullMarked and @NullUnmarked), helping you manage nullness boundaries in your Java projects without manual boilerplate.
+DESC:Maven plugin auto-generating `package-info.java` with nullness annotations.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:Lombok
 URL:https://projectlombok.org
-DESC:Code generator that aims to reduce verbosity.
+DESC:Eliminates boilerplate with annotations for getters, builders, and more.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:Record-Builder
 URL:https://github.com/Randgalt/record-builder
-DESC:Companion builder class, withers and templates for Java records.
+DESC:Generates builders and withers for Java records.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:Telosys
 URL:https://www.telosys.org/
-DESC:Simple and light code generator available as an Eclipse Plugin and also as a CLI.
+DESC:Template-driven code generator for any language via CLI or Eclipse.
 SKIP:1
 SECTION:Code Generators
 ---
 
 NAME:ANTLR
 URL:https://www.antlr.org
-DESC:Complex full-featured framework for top-down parsing.
+DESC:Powerful LL(\*) parser generator with IDE support and multiple target languages.
 SKIP:1
 SECTION:Compiler-compiler
 ---
 
 NAME:JavaCC
 URL:https://javacc.github.io/javacc/
-DESC:Parser generator that generates top-down parsers. Allows lexical state switching and permits extended BNF specifications.
+DESC:LL(k) parser generator with lookahead, lexical states, and tree building.
 SKIP:1
 SECTION:Compiler-compiler
 ---
 
 NAME:JFlex
 URL:https://jflex.de
-DESC:Lexical analyzer generator.
+DESC:Fast lexer generator with full Unicode support and JLex compatibility.
 SKIP:1
 SECTION:Compiler-compiler
 ---
 
 NAME:BoofCV
 URL:https://boofcv.org
-DESC:Library for image processing, camera calibration, tracking, SFM, MVS, 3D vision, QR Code and much more.
+DESC:Real-time computer vision with 3D reconstruction, fiducial detection, and feature tracking.
 SKIP:1
 SECTION:Computer Vision
 ---
 
 NAME:ImageJ
 URL:https://imagej.net/ImageJ
-DESC:Medical image processing application with an API.
+DESC:Extensible image analysis platform with 500+ plugins for scientific imaging.
 SKIP:1
 SECTION:Computer Vision
 ---
 
 NAME:JavaCV
 URL:https://github.com/bytedeco/javacv
-DESC:Java interface to OpenCV, FFmpeg, and much more.
+DESC:Java bindings for OpenCV, FFmpeg, TensorFlow, and more via JavaCPP.
 SKIP:1
 SECTION:Computer Vision
 ---
 
 NAME:avaje config
 URL:https://avaje.io/config/
-DESC:Loads yaml and properties files, supports dynamic configuration, plugins, file-watching and config event listeners.
+DESC:Lightweight config with YAML/properties, file watching, and dynamic reload.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:centraldogma
 URL:https://github.com/line/centraldogma
-DESC:Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2.
+DESC:Git-backed, versioned configuration service with change notifications.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:config
 URL:https://github.com/lightbend/config
-DESC:Configuration library supporting Java properties, JSON or its human optimized superset HOCON.
+DESC:HOCON/JSON/properties with substitutions, includes, and environment overrides.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:Configurate
 URL:https://github.com/SpongePowered/Configurate
-DESC:Configuration library with support for various configuration formats and transformations.
+DESC:Multi-format config (YAML, JSON, HOCON, XML) with type-safe object mapping.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:Curator Framework
 URL:https://curator.apache.org/
-DESC:High-level API for Apache ZooKeeper.
+DESC:Simplified ZooKeeper client with recipes for locks, leaders, and caches.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:dotenv
 URL:https://github.com/shyiko/dotenv
-DESC:Twelve-factor configuration library which uses environment-specific files.
+DESC:Twelve-factor app config from `.env` files with environment overrides.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:Externalized Properties
 URL:https://github.com/joel-jeremy/externalized-properties
-DESC:Lightweight yet powerful configuration library which supports resolution of properties from external sources and an extensible post-processing/conversion mechanism.
+DESC:Interface-based config with pluggable sources and automatic type conversion.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:Gestalt
 URL:https://github.com/gestalt-config/gestalt
-DESC:Gestalt offers a comprehensive solution to the challenges of configuration management. It allows you to source configuration data from multiple inputs, merge them intelligently, and present them in a structured, type-safe manner.
+DESC:Multi-source config merging with type-safe binding and validation.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:ini4j
 URL:http://ini4j.sourceforge.net
-DESC:Provides an API for handling Windows' INI files.
+DESC:Windows INI file parser with section and multi-value support.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:KAConf
 URL:https://github.com/mariomac/kaconf
-DESC:Annotation-based configuration system for Java and Kotlin.
+DESC:Annotation-based config injection for Java and Kotlin.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:microconfig
 URL:https://microconfig.io
-DESC:Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed.
+DESC:Microservice config management with inheritance and environment profiles.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:owner
 URL:https://github.com/lviggiano/owner
-DESC:Reduces boilerplate of properties.
+DESC:Type-safe properties via interfaces with automatic conversion.
 SKIP:1
 SECTION:Configuration
 ---
 
 NAME:Choco
 URL:https://choco-solver.org
-DESC:Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
+DESC:Powerful CP solver with global constraints and search strategies.
 SKIP:1
 SECTION:Constraint Satisfaction Problem Solver
 ---
 
 NAME:JaCoP
 URL:https://github.com/radsz/jacop
-DESC:Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models. (AGPL-3.0)
+DESC:Constraint solver with MiniZinc/FlatZinc support for modeling. (AGPL-3.0)
 SKIP:1
 SECTION:Constraint Satisfaction Problem Solver
 ---
 
 NAME:OptaPlanner
 URL:https://www.optaplanner.org
-DESC:Business planning and resource scheduling optimization solver.
+DESC:AI constraint solver for planning problems like scheduling and routing.
 SKIP:1
 SECTION:Constraint Satisfaction Problem Solver
 ---
 
 NAME:Timefold
 URL:https://timefold.ai/docs
-DESC:Flexible solver with Spring/Quarkus support and quickstarts for the Vehicle Routing Problem, Maintenance Scheduling, Employee Shift Scheduling and much more.
+DESC:OptaPlanner fork with Spring/Quarkus integration and production-ready quickstarts.
 SKIP:1
 SECTION:Constraint Satisfaction Problem Solver
 ---
 
 NAME:FastCSV
 URL:https://github.com/osiegmar/FastCSV
-DESC:Performance-optimized, dependency-free and RFC 4180 compliant.
+DESC:Ultra-fast, zero-dependency, RFC 4180-compliant CSV parser.
 SKIP:1
 SECTION:CSV
 ---
 
 NAME:jackson-dataformat-csv
 URL:https://github.com/FasterXML/jackson-dataformat-csv
-DESC:Jackson extension for reading and writing CSV.
+DESC:CSV via Jackson's streaming API with schema support.
 SKIP:1
 SECTION:CSV
 ---
 
 NAME:opencsv
 URL:http://opencsv.sourceforge.net
-DESC:Simple CSV parser.
+DESC:Simple parser with bean binding and custom separators.
 SKIP:1
 SECTION:CSV
 ---
 
 NAME:Super CSV
 URL:https://super-csv.github.io/super-csv/
-DESC:Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
+DESC:Cell processors for validation, conversion, and constraint checking.
 SKIP:1
 SECTION:CSV
 ---
 
 NAME:uniVocity-parsers
 URL:https://github.com/uniVocity/univocity-parsers
-DESC:One of the fastest and most feature-complete parsers. Also comes with parsers for TSV and fixed-width records.
+DESC:Fastest parser with CSV/TSV/fixed-width support and streaming.
 SKIP:1
 SECTION:CSV
 ---
 
 NAME:Apache Avro
 URL:https://avro.apache.org
-DESC:Data interchange format with dynamic typing, untagged data, and absence of manually assigned IDs.
+DESC:Schema-evolution-friendly serialization with compact binary format.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Apache Orc
 URL:https://orc.apache.org
-DESC:Fast and efficient columnar storage format for Hadoop-based workloads.
+DESC:Columnar storage with predicate pushdown and ACID support for Hive.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Apache Parquet
 URL:https://parquet.apache.org
-DESC:Columnar storage format based on assembly algorithms from Google's paper on Dremel.
+DESC:Columnar format with efficient compression and encoding for analytics.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Apache Thrift
 URL:https://thrift.apache.org
-DESC:Data interchange format that originated at Facebook.
+DESC:Cross-language RPC framework with compact binary protocol.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Big Queue
 URL:https://github.com/bulldog2011/bigqueue
-DESC:Fast and persistent queue based on memory-mapped files.
+DESC:Memory-mapped persistent queue handling 100M+ items.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:HyperMinHash-java
 URL:https://github.com/LiveRamp/HyperMinHash-java
-DESC:Probabilistic data structure for computing union, intersection, and set cardinality in loglog space.
+DESC:Probabilistic set operations in O(log log n) space.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Persistent Collection
 URL:https://github.com/hrldcpr/pcollections
-DESC:Persistent and immutable analogue of the Java Collections Framework.
+DESC:Immutable collections with efficient structural sharing.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Protobuf
 URL:https://github.com/protocolbuffers/protobuf
-DESC:Google's data interchange format.
+DESC:Google's language-neutral, schema-driven binary serialization.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:RoaringBitmap
 URL:https://github.com/RoaringBitmap/RoaringBitmap
-DESC:Fast and efficient compressed bitmap.
+DESC:Compressed bitmaps faster than traditional implementations by orders of magnitude.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:SBE
 URL:https://github.com/real-logic/simple-binary-encoding
-DESC:Simple Binary Encoding, one of the fastest message formats around.
+DESC:Zero-copy, zero-allocation messaging for ultra-low latency.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Tape
 URL:https://github.com/square/tape
-DESC:Lightning-fast, transactional, file-based FIFO.
+DESC:Crash-safe, file-based FIFO queue for Android and Java.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Wire
 URL:https://github.com/square/wire
-DESC:Clean, lightweight protocol buffers.
+DESC:Lightweight Protocol Buffers with Kotlin and Java codegen.
 SKIP:1
 SECTION:Data Structures
 ---
 
 NAME:Apache Calcite
 URL:https://calcite.apache.org
-DESC:Dynamic data management framework. It contains many of the pieces that comprise a typical database management system.
+DESC:SQL parser, optimizer, and query federation framework for building databases.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Apache Drill
 URL:https://drill.apache.org
-DESC:Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration.
+DESC:Schema-free SQL for JSON, Parquet, and NoSQL with distributed execution.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Apache Phoenix
 URL:https://phoenix.apache.org
-DESC:High-performance relational database layer over HBase for low-latency applications.
+DESC:SQL skin over HBase with secondary indexes and transactions.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:ArangoDB
 URL:https://github.com/arangodb/arangodb-java-driver
-DESC:ArangoDB Java driver.
+DESC:Multi-model (document/graph/key-value) database driver with async support.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Chronicle Map
 URL:https://github.com/OpenHFT/Chronicle-Map
-DESC:Efficient, in-memory (opt. persisted to disk), off-heap key-value store.
+DESC:Off-heap, persisted ConcurrentMap with microsecond latency.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Debezium
 URL:https://debezium.io/
-DESC:Low latency data streaming platform for change data capture.
+DESC:CDC platform streaming database changes to Kafka in real-time.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:druid
 URL:https://druid.apache.org
-DESC:High-performance, column-oriented, distributed data store.
+DESC:Real-time OLAP database with sub-second queries at scale.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:eXist
 URL:https://github.com/eXist-db/exist
-DESC:NoSQL document database and application platform. (LGPL-2.1-only)
+DESC:Native XML database with XQuery and full-text search. (LGPL-2.1-only)
 SKIP:1
 SECTION:Database
 ---
 
 NAME:FlexyPool
 URL:https://github.com/vladmihalcea/flexy-pool
-DESC:Brings metrics and failover strategies to the most common connection pooling solutions.
+DESC:Connection pool monitoring with auto-scaling and failover.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Flyway
 URL:https://flywaydb.org
-DESC:Simple database migration tool.
+DESC:Version-controlled SQL migrations with rollback support.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:H2
 URL:https://h2database.com
-DESC:Small SQL database notable for its in-memory functionality.
+DESC:Embeddable SQL database with in-memory mode; great for testing.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:HikariCP
 URL:https://github.com/brettwooldridge/HikariCP
-DESC:High-performance JDBC connection pool.
+DESC:Fastest JDBC connection pool with minimal overhead.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:HSQLDB
 URL:https://hsqldb.org/
-DESC:HyperSQL 100% Java database.
+DESC:Pure Java SQL database with in-memory and file-based modes.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:JDBI
 URL:http://jdbi.org
-DESC:Convenient abstraction of JDBC.
+DESC:Fluent, annotation-free SQL API built on JDBC.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Jedis
 URL:https://github.com/xetorthio/jedis
-DESC:Small client for interaction with Redis, with methods for commands.
+DESC:Battle-tested Redis client with connection pooling and pipelining.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Jest
 URL:https://github.com/searchbox-io/Jest
-DESC:Client for the Elasticsearch REST API.
+DESC:Elasticsearch REST client with async support and bulk operations.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:jetcd
 URL:https://github.com/justinsb/jetcd
-DESC:Client library for etcd.
+DESC:Official etcd v3 client with watch and lease support.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Jinq
 URL:https://github.com/my2iu/Jinq
-DESC:Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).
+DESC:LINQ-style queries via lambda symbolic execution on JPA/jOOQ.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:jOOQ
 URL:https://www.jooq.org
-DESC:Generates typesafe code based on SQL schema.
+DESC:Typesafe SQL DSL generated from your schema; catches errors at compile time.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Leaf
 URL:https://github.com/Meituan-Dianping/Leaf
-DESC:Distributed ID generate service.
+DESC:Meituan's distributed ID generator with segment and snowflake modes.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Lettuce
 URL:https://lettuce.io/
-DESC:Lettuce is a scalable Redis client for building non-blocking Reactive applications.
+DESC:Reactive, non-blocking Redis client with cluster and Sentinel support.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Liquibase
 URL:http://www.liquibase.org
-DESC:Database-independent library for tracking, managing and applying database schema changes.
+DESC:Database-agnostic migrations with rollback and diff capabilities.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:MapDB
 URL:http://www.mapdb.org
-DESC:Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
+DESC:Concurrent maps/sets backed by disk or off-heap memory with transactions.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:MariaDB4j
 URL:https://github.com/vorburger/MariaDB4j
-DESC:Launcher for MariaDB that requires no installation or external dependencies.
+DESC:Embedded MariaDB for integration testing; no install required.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Modality
 URL:https://github.com/arkanovicz/modality
-DESC:Lightweight ORM with database reverse engineering features.
+DESC:Lightweight ORM with schema introspection and code generation.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:OpenDJ
 URL:https://github.com/OpenIdentityPlatform/OpenDJ
-DESC:LDAPv3 compliant directory service, developed for the Java platform, providing a high performance, highly available, and secure store for the identities.
+DESC:High-performance LDAPv3 directory service with replication.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Querydsl
 URL:http://www.querydsl.com
-DESC:Typesafe unified queries.
+DESC:Unified typesafe queries for JPA, SQL, MongoDB, and more.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:QueryStream
 URL:https://github.com/querystream/querystream
-DESC:Build JPA Criteria queries using a Stream-like API.
+DESC:Stream API for building JPA Criteria queries fluently.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:QuestDB
 URL:https://github.com/questdb/questdb
-DESC:High-performance SQL database for time series. Supports InfluxDB line protocol, PostgreSQL wire protocol, and REST.
+DESC:Time-series database with millions of inserts/sec and SQL support.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Realm
 URL:https://github.com/realm/realm-java
-DESC:Mobile database to run directly inside phones, tablets or wearables.
+DESC:Mobile-first database with live objects and offline-first sync.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Redisson
 URL:https://github.com/redisson/redisson
-DESC:Allows for distributed and scalable data structures on top of a Redis server.
+DESC:Redis-backed distributed collections, locks, and services.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:requery
 URL:https://github.com/requery/requery
-DESC:Modern, lightweight but powerful object mapping and SQL generator. Easily map to or create databases, or perform queries and updates from any Java-using platform.
+DESC:Modern ORM with compile-time query validation and RxJava support.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Speedment
 URL:https://github.com/speedment/speedment
-DESC:Database access library that utilizes Java 8's Stream API for querying.
+DESC:Stream-based database queries generated from schema.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Spring Data JPA MongoDB Expressions
 URL:https://github.com/mhewedy/spring-data-jpa-mongodb-expressions
-DESC:Allows you to use MongoDB query language to query your relational database.
+DESC:MongoDB-style queries for relational databases via Spring Data.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Trino
 URL:https://trino.io
-DESC:Distributed SQL query engine for big data.
+DESC:Federated SQL engine querying data lakes and databases at petabyte scale.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Vibur DBCP
 URL:https://www.vibur.org
-DESC:JDBC connection pool library with advanced performance monitoring capabilities.
+DESC:JDBC pool with statement caching and slow query logging.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Xodus
 URL:https://github.com/JetBrains/xodus
-DESC:Highly concurrent transactional schema-less and ACID-compliant embedded database.
+DESC:JetBrains' embedded transactional database; powers YouTrack.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:CosId
 URL:https://github.com/Ahoo-Wang/CosId
-DESC:Universal, flexible, high-performance distributed ID generator.
+DESC:High-performance distributed ID generator with multiple algorithms.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:Apache ShardingSphere
 URL:https://github.com/apache/shardingsphere
-DESC:Distributed SQL transaction & query engine that allows for data sharding, scaling, encryption, and more on any database.
+DESC:Database middleware for sharding, encryption, and distributed transactions.
 SKIP:1
 SECTION:Database
 ---
 
 NAME:iCal4j
 URL:https://github.com/ical4j/ical4j
-DESC:Parse and build iCalendar [RFC 5545](https://tools.ietf.org/html/rfc5545) data models.
+DESC:RFC 5545 iCalendar parser with recurrence rule support.
 SKIP:1
 SECTION:Date and Time
 ---
 
 NAME:Jollyday
 URL:https://github.com/svendiedrichsen/jollyday
-DESC:Determines the holidays for a given year, country/name and eventually state/region.
+DESC:Holiday calculations for 70+ countries with regional variations.
 SKIP:1
 SECTION:Date and Time
 ---
 
 NAME:ThreeTen-Extra
 URL:https://github.com/ThreeTen/threeten-extra
-DESC:Additional date-time classes that complement those in JDK 8.
+DESC:Extra date/time types: Interval, YearQuarter, and more for java.time.
 SKIP:1
 SECTION:Date and Time
 ---
 
 NAME:Time4J
 URL:https://github.com/MenoData/Time4J
-DESC:Advanced date and time library. (LGPL-2.1-only)
+DESC:Comprehensive date/time with calendars, i18n, and formatting. (LGPL-2.1-only)
 SKIP:1
 SECTION:Date and Time
 ---
 
+NAME:java-tron
+URL:https://github.com/tronprotocol/java-tron
+DESC:Full node implementation of the TRON blockchain protocol.
+SKIP:1
+SECTION:Decentralization
+---
+
 NAME:Apache DeltaSpike
 URL:https://deltaspike.apache.org
-DESC:CDI extension framework.
+DESC:Portable CDI extensions for configuration, security, and data.
 SKIP:1
 SECTION:Dependency Injection
 ---
 
 NAME:Avaje Inject
 URL:https://avaje.io/inject/
-DESC:Microservice-focused compile-time injection framework without reflection.
+DESC:Compile-time DI with no reflection; optimized for microservices.
 SKIP:1
 SECTION:Dependency Injection
 ---
 
 NAME:Dagger
 URL:https://dagger.dev/
-DESC:Compile-time injection framework without reflection.
+DESC:Google's compile-time DI with zero reflection overhead.
 SKIP:1
 SECTION:Dependency Injection
 ---
 
 NAME:Feather
 URL:https://github.com/zsoltherpai/feather
-DESC:Ultra-lightweight, JSR-330-compliant dependency injection library.
+DESC:Ultra-lightweight JSR-330 DI in ~16KB.
 SKIP:1
 SECTION:Dependency Injection
 ---
 
 NAME:Governator
 URL:https://github.com/Netflix/governator
-DESC:Extensions and utilities that enhance Google Guice.
+DESC:Netflix's Guice extensions with lifecycle management and warmup.
 SKIP:1
 SECTION:Dependency Injection
 ---
 
 NAME:Guice
 URL:https://github.com/google/guice
-DESC:Lightweight and opinionated framework that completes Dagger.
+DESC:Google's lightweight DI with runtime binding and AOP support.
 SKIP:1
 SECTION:Dependency Injection
 ---
 
 NAME:HK2
 URL:https://eclipse-ee4j.github.io/glassfish-hk2/
-DESC:Lightweight and dynamic dependency injection framework.
+DESC:JSR-330 DI with dynamic service discovery; powers Jersey/GlassFish.
 SKIP:1
 SECTION:Dependency Injection
 ---
 
 NAME:JayWire
 URL:https://github.com/vanillasource/jaywire
-DESC:Lightweight dependency injection framework. (LGPL-3.0-only)
+DESC:Minimal DI with no annotations required. (LGPL-3.0-only)
 SKIP:1
 SECTION:Dependency Injection
 ---
 
 NAME:AspectJ
 URL:https://www.eclipse.org/aspectj/
-DESC:Seamless aspect-oriented programming extension.
+DESC:Full-featured AOP with compile-time and load-time weaving.
 SKIP:1
 SECTION:Development
 ---
 
 NAME:DCEVM
 URL:https://dcevm.github.io
-DESC:JVM modification that allows unlimited redefinition of loaded classes at runtime. (GPL-2.0-only)
+DESC:HotSwap on steroids: redefine classes, add methods/fields at runtime. (GPL-2.0-only)
 SKIP:1
 SECTION:Development
 ---
 
 NAME:Faux Pas
 URL:https://github.com/zalando/faux-pas
-DESC:Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions.
+DESC:Checked exception handling in lambdas and streams elegantly.
 SKIP:1
 SECTION:Development
 ---
 
 NAME:HotswapAgent
 URL:https://github.com/HotswapProjects/HotswapAgent
-DESC:Unlimited runtime class and resource redefinition. (GPL-2.0-only)
+DESC:Hot reload classes, Spring beans, and resources without restart. (GPL-2.0-only)
 SKIP:1
 SECTION:Development
 ---
 
 NAME:JavaParser
 URL:https://github.com/javaparser/javaparser
-DESC:Parse, modify and generate Java code.
+DESC:Parse, analyze, transform, and generate Java source code.
 SKIP:1
 SECTION:Development
 ---
 
 NAME:JavaSymbolSolver
 URL:https://github.com/javaparser/javasymbolsolver
-DESC:Symbol solver.
+DESC:Resolve symbols and types in JavaParser ASTs.
 SKIP:1
 SECTION:Development
 ---
 
 NAME:Manifold
 URL:https://github.com/manifold-systems/manifold
-DESC:Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.
+DESC:Compiler plugins for JSON types, extension methods, and string templates.
 SKIP:1
 SECTION:Development
 ---
 
 NAME:NoException
 URL:https://noexception.machinezoo.com
-DESC:Allows checked exceptions in functional interfaces and converts exceptions to Optional return.
+DESC:Functional exception handling with sneaky throws and Optional conversion.
 SKIP:1
 SECTION:Development
 ---
 
 NAME:SneakyThrow
 URL:https://github.com/rainerhahnekamp/sneakythrow
-DESC:Ignores checked exceptions without bytecode manipulation. Can also be used inside Java 8 stream operations.
+DESC:Throw checked exceptions from lambdas without wrapping.
 SKIP:1
 SECTION:Development
 ---
 
 NAME:Tail
 URL:https://nrktkt.github.io/tail/
-DESC:Enable infinite recursion using tail call optimization.
+DESC:Tail call optimization via trampolining for stack-safe recursion.
 SKIP:1
 SECTION:Development
 ---
 
 NAME:Apache Geode
 URL:https://geode.apache.org
-DESC:In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.
+DESC:In-memory data grid with continuous queries and WAN replication.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Apache Storm
 URL:https://storm.apache.org
-DESC:Realtime computation system.
+DESC:Real-time stream processing with guaranteed processing and fault tolerance.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Apache ZooKeeper
 URL:https://zookeeper.apache.org
-DESC:Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
+DESC:Distributed coordination for config, locks, and leader election.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Atomix
 URL:https://atomix.io
-DESC:Fault-tolerant distributed coordination framework.
+DESC:Raft-based distributed primitives: maps, locks, leader election.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Axon
 URL:https://axoniq.io
-DESC:Framework for creating CQRS applications.
+DESC:CQRS/Event Sourcing framework with saga and event store support.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Dropwizard Circuit Breaker
 URL:https://github.com/mtakaki/dropwizard-circuitbreaker
-DESC:Circuit breaker design pattern for Dropwizard. (GPL-2.0-only)
+DESC:Annotation-based circuit breakers for Dropwizard. (GPL-2.0-only)
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Failsafe
 URL:https://github.com/jhalterman/failsafe
-DESC:Simple failure handling with retries and circuit breakers.
+DESC:Lightweight fault tolerance with retries, circuit breakers, and fallbacks.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Hazelcast
 URL:https://github.com/hazelcast/hazelcast
-DESC:Highly scalable in-memory datagrid with a free open-source version.
+DESC:In-memory data grid with distributed maps, queues, and compute.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:JGroups
 URL:http://www.jgroups.org
-DESC:Toolkit for reliable messaging and cluster creation.
+DESC:Reliable multicast and cluster membership toolkit.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Quasar
 URL:http://docs.paralleluniverse.co/quasar/
-DESC:Lightweight threads and actors for the JVM.
+DESC:Fibers (lightweight threads) and actors for the JVM.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:resilience4j
 URL:https://github.com/resilience4j/resilience4j
-DESC:Functional fault tolerance library.
+DESC:Functional fault tolerance: circuit breakers, rate limiters, bulkheads.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:OpenIG
 URL:https://github.com/OpenIdentityPlatform/OpenIG
-DESC:High-performance reverse proxy server with specialized session management and credential replay functionality.
+DESC:Identity gateway with SSO, credential replay, and request filtering.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:ScaleCube Services
 URL:https://github.com/scalecube/scalecube-services
-DESC:Embeddable Cluster-Membership library based on SWIM and gossip protocol.
+DESC:Reactive microservices with SWIM gossip and service discovery.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Zuul
 URL:https://github.com/Netflix/zuul
-DESC:Gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
+DESC:Netflix's edge gateway for routing, filtering, and load balancing.
 SKIP:1
 SECTION:Distributed Applications
 ---
 
 NAME:Atomikos
 URL:https://www.atomikos.com
-DESC:Provides transactions for REST, SOA and microservices with support for JTA and XA.
+DESC:JTA/XA transaction manager for microservices and REST.
 SKIP:1
 SECTION:Distributed Transactions
 ---
 
 NAME:Bitronix
 URL:https://github.com/bitronix/btm
-DESC:Simple but complete implementation of the JTA 1.1 API.
+DESC:Embeddable JTA 1.1 transaction manager with connection pooling.
 SKIP:1
 SECTION:Distributed Transactions
 ---
 
 NAME:Narayana
 URL:https://narayana.io
-DESC:Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards. (LGPL-2.1-only)
+DESC:Red Hat's JTA/JTS transaction manager with saga support. (LGPL-2.1-only)
 SKIP:1
 SECTION:Distributed Transactions
 ---
 
 NAME:Seata
 URL:https://github.com/seata/seata
-DESC:Delivers high performance and easy to use distributed transaction services under a microservices architecture.
+DESC:Alibaba's distributed transaction solution with AT/TCC/SAGA modes.
 SKIP:1
 SECTION:Distributed Transactions
 ---
 
 NAME:Artipie
 URL:https://github.com/artipie/artipie
-DESC:Binary artifact management toolkit which hosts them on the file system or S3.
+DESC:Self-hosted artifact repository supporting Maven, Docker, npm on S3/filesystem.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:Capsule
 URL:https://github.com/puniverse/capsule
-DESC:Simple and powerful packaging and deployment. A fat JAR on steroids, or a "Docker for Java" that supports JVM-optimized containers.
+DESC:Single-file deployment with embedded JVM and dependency resolution.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:Central Repository
 URL:https://search.maven.org
-DESC:Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven, and available in all other build tools.
+DESC:Maven Central: the default artifact repository for the Java ecosystem.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:Getdown
 URL:https://github.com/threerings/getdown
-DESC:System for deploying Java applications to end-user computers and keeping them up to date. Developed as an alternative to Java Web Start.
+DESC:Java Web Start replacement with auto-updates and delta patching.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:IzPack
 URL:http://izpack.org
-DESC:Setup authoring tool for cross-platform deployments.
+DESC:Cross-platform installer builder with XML configuration.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:JavaPackager
 URL:https://github.com/fvarrui/JavaPackager
-DESC:Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them.
+DESC:Maven/Gradle plugin creating native executables and installers.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:jDeploy
 URL:https://www.jdeploy.com
-DESC:Deploy desktop apps as native Mac, Windows or Linux bundles.
+DESC:Deploy Java desktop apps via npm with native bundles.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:jlink.online
 URL:https://github.com/AdoptOpenJDK/jlink.online
-DESC:Builds optimized runtimes over HTTP.
+DESC:HTTP API for custom JRE generation via jlink.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:packr
 URL:https://github.com/libgdx/packr
-DESC:Packs JARs, assets and the JVM for native distribution on Windows, Linux and macOS.
+DESC:Bundle JRE with your app for native Windows/Mac/Linux distribution.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:really-executable-jars-maven-plugin
 URL:https://github.com/brianm/really-executable-jars-maven-plugin
-DESC:Maven plugin for making self-executing JARs.
+DESC:Creates JARs executable via `./app.jar` on Unix.
 SKIP:1
 SECTION:Distribution
 ---
 
 NAME:Apache POI
 URL:https://poi.apache.org
-DESC:Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
+DESC:Full Office document support: Excel, Word, PowerPoint (OLE2 & OOXML).
 SKIP:1
 SECTION:Document Processing
 ---
 
 NAME:documents4j
 URL:https://documents4j.com/#/
-DESC:API for document format conversion using third-party converters such as MS Word.
+DESC:Document conversion API using MS Office or LibreOffice backends.
 SKIP:1
 SECTION:Document Processing
 ---
 
 NAME:docx4j
 URL:https://www.docx4java.org/trac/docx4j
-DESC:Create and manipulate Microsoft Open XML files.
+DESC:JAXB-based DOCX/PPTX/XLSX manipulation with mail merge.
 SKIP:1
 SECTION:Document Processing
 ---
 
 NAME:fastexcel
 URL:https://github.com/dhatim/fastexcel
-DESC:High performance library to read and write large Excel (XLSX) worksheets.
+DESC:Streaming Excel read/write handling millions of rows with low memory.
 SKIP:1
 SECTION:Document Processing
 ---
 
 NAME:zerocell
 URL:https://github.com/creditdatamw/zerocell
-DESC:Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
+DESC:Annotation-driven Excel to POJO mapping with minimal overhead.
 SKIP:1
 SECTION:Document Processing
 ---
 
 NAME:Cassandre
 URL:https://github.com/cassandre-tech/cassandre-trading-bot
-DESC:Trading bot framework.
+DESC:Trading bot framework with exchange integration and backtesting.
 SKIP:1
 SECTION:Financial
 ---
 
 NAME:Parity
 URL:https://github.com/paritytrading/parity
-DESC:Platform for trading venues.
+DESC:Open-source stock exchange with matching engine and market data.
 SKIP:1
 SECTION:Financial
 ---
 
 NAME:Philadelphia
 URL:https://github.com/paritytrading/philadelphia
-DESC:Low-latency financial information exchange.
+DESC:Low-latency FIX protocol implementation.
 SKIP:1
 SECTION:Financial
 ---
 
 NAME:Square
 URL:https://github.com/square/connect-java-sdk
-DESC:Integration with the Square API.
+DESC:Official Square payments API client.
 SKIP:1
 SECTION:Financial
 ---
 
 NAME:Stripe
 URL:https://github.com/stripe/stripe-java
-DESC:Integration with the Stripe API.
+DESC:Official Stripe API client for payments and subscriptions.
 SKIP:1
 SECTION:Financial
 ---
 
 NAME:ta4j
 URL:https://github.com/ta4j/ta4j
-DESC:Library for technical analysis.
+DESC:Technical analysis library with 130+ indicators and backtesting.
 SKIP:1
 SECTION:Financial
 ---
 
 NAME:CATG
 URL:https://github.com/ksen007/janala2
-DESC:Concolic unit testing engine. Automatically generates unit tests using formal methods.
+DESC:Concolic testing: auto-generates tests via symbolic execution.
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:Checker Framework
 URL:https://checkerframework.org
-DESC:Pluggable type systems. Includes nullness types, physical units, immutability types and more. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Pluggable type systems for nullness, tainting, and more. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:Daikon
 URL:https://plse.cs.washington.edu/daikon/
-DESC:Detects likely program invariants and generates JML specs based on those invariants.
+DESC:Dynamic invariant detection; infers likely specifications from runs.
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:Java Path Finder (JPF)
 URL:https://github.com/javapathfinder/jpf-core
-DESC:JVM formal verification tool containing a model checker and more. Created by NASA.
+DESC:NASA's model checker for finding concurrency bugs and deadlocks.
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:JMLOK 2.0
 URL:https://massoni.computacao.ufcg.edu.br/home/jmlok
-DESC:Detects inconsistencies between code and JML specification through feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected. (GPL-3.0-only)
+DESC:Detects JML specification violations via random testing. (GPL-3.0-only)
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:KeY
 URL:https://www.key-project.org
-DESC:Formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification. (GPL-2.0-or-later)
+DESC:Deductive verification using JML and symbolic execution. (GPL-2.0-or-later)
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:OpenJML
 URL:http://www.openjml.org
-DESC:Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers. (GPL-2.0-only)
+DESC:JML verification via SMT solvers (Z3, CVC4). (GPL-2.0-only)
 SKIP:1
 SECTION:Formal Verification
 ---
 
 NAME:Cyclops
 URL:https://github.com/aol/cyclops
-DESC:Monad and stream utilities, comprehensions, pattern matching, functional extensions for all JDK collections, future streams, trampolines and much more.
+DESC:Monads, pattern matching, and persistent collections for functional Java.
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:derive4j
 URL:https://github.com/derive4j/derive4j
-DESC:Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching and morphisms. (GPL-3.0-only)
+DESC:Algebraic data types with pattern matching via annotation processing. (GPL-3.0-only)
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:Fugue
 URL:https://bitbucket.org/atlassian/fugue
-DESC:Functional extensions to Guava.
+DESC:Atlassian's functional extensions: Option, Either, and more.
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:Functional Java
 URL:http://www.functionaljava.org
-DESC:Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
+DESC:Immutable collections, monads, and functional data structures.
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:jOOλ
 URL:https://github.com/jOOQ/jOOL
-DESC:Extension to Java 8 that aims to fix gaps in lambda by providing numerous missing types and a rich set of sequential Stream API additions.
+DESC:Tuples, Seq, and unchecked functional interfaces for streams.
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:Packrat
 URL:https://github.com/jhspetersson/packrat
-DESC:Gatherers library for Java Stream API. Gatherers can enhance streams with custom intermediate operations.
+DESC:Custom Gatherers for Java Stream intermediate operations.
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:protonpack
 URL:https://github.com/poetix/protonpack
-DESC:Collection of stream utilities.
+DESC:Stream utilities: zip, unfold, takeWhile, and windowing.
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:StreamEx
 URL:https://github.com/amaembo/streamex
-DESC:Enhances Java 8 Streams.
+DESC:Enhanced streams with parallel support and additional collectors.
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:Vavr
 URL:https://www.vavr.io
-DESC:Functional component library that provides persistent data types and functional control structures.
+DESC:Scala-inspired FP: immutable collections, Try, Either, pattern matching.
 SKIP:1
 SECTION:Functional Programming
 ---
 
 NAME:FXGL
 URL:https://almasb.github.io/FXGL/
-DESC:JavaFX Game Development Framework.
+DESC:JavaFX game engine with ECS, physics, and UI out of the box.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:JBox2D
 URL:http://www.jbox2d.org/
-DESC:Port of the renowned C++ 2D physics engine.
+DESC:Box2D physics engine port for 2D rigid body simulation.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:jMonkeyEngine
 URL:https://jmonkeyengine.org
-DESC:Game engine for modern 3D development.
+DESC:Full-featured 3D engine with PBR, physics, and networking.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:libGDX
 URL:https://libgdx.com
-DESC:All-round cross-platform, high-level framework.
+DESC:Cross-platform 2D/3D framework deploying to desktop, Android, iOS, web.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:Litiengine
 URL:https://litiengine.com/
-DESC:AWT-based, lightweight 2D game engine.
+DESC:Pure Java 2D engine with no native dependencies.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:LWJGL
 URL:https://www.lwjgl.org
-DESC:Robust framework that abstracts libraries like OpenGL/CL/AL.
+DESC:Low-level bindings to OpenGL, Vulkan, OpenAL, and more.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:Mini2Dx
 URL:https://mini2dx.org
-DESC:Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.
+DESC:Beginner-friendly 2D framework with tiled map and UI support.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:Void2D
 URL:https://github.com/xzripper/Void2D
-DESC:High-level 2D game engine with built-in physics based on Swing.
+DESC:Swing-based 2D engine with physics for simple games.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:vulkan4j
 URL:https://github.com/chuigda/vulkan4j
-DESC:Vulkan, OpenGL ES2 and GLFW Memory Allocator bindings.
+DESC:Vulkan and OpenGL ES2 bindings via Panama FFM.
 SKIP:1
 SECTION:Game Development
 ---
 
 NAME:Apache SIS
 URL:https://sis.apache.org
-DESC:Library for developing geospatial applications.
+DESC:OGC/ISO standards-based geospatial metadata and referencing.
 SKIP:1
 SECTION:Geospatial
 ---
 
 NAME:Geo
 URL:https://github.com/davidmoten/geo
-DESC:GeoHash utilities in Java.
+DESC:GeoHash encoding/decoding with spatial indexing.
 SKIP:1
 SECTION:Geospatial
 ---
 
 NAME:GeoTools
 URL:https://geotools.org
-DESC:Library that provides tools for geospatial data. (LGPL-2.1-only)
+DESC:Comprehensive GIS toolkit for OGC standards. (LGPL-2.1-only)
 SKIP:1
 SECTION:Geospatial
 ---
 
 NAME:GraphHopper
 URL:https://github.com/graphhopper/graphhopper
-DESC:Road-routing engine. Used as a Java library or standalone web service.
+DESC:Fast routing engine with turn costs and isochrones.
 SKIP:1
 SECTION:Geospatial
 ---
 
 NAME:H2GIS
 URL:http://www.h2gis.org
-DESC:Spatial extension of the H2 database. (LGPL-3.0-only)
+DESC:Spatial SQL extension for H2 with OGC compliance. (LGPL-3.0-only)
 SKIP:1
 SECTION:Geospatial
 ---
 
 NAME:Jgeohash
 URL:https://astrapi69.github.io/jgeohash/
-DESC:Library for using the GeoHash algorithm.
+DESC:GeoHash algorithm with neighbor calculation and bounding boxes.
 SKIP:1
 SECTION:Geospatial
 ---
 
 NAME:Mapsforge
 URL:https://github.com/mapsforge/mapsforge
-DESC:Map rendering based on OpenStreetMap data. (LGPL-3.0-only)
+DESC:Offline map rendering from OpenStreetMap vector data. (LGPL-3.0-only)
 SKIP:1
 SECTION:Geospatial
 ---
 
 NAME:Spatial4j
 URL:https://github.com/locationtech/spatial4j
-DESC:General-purpose spatial/geospatial library.
+DESC:Geospatial shapes and distance calculations for search engines.
 SKIP:1
 SECTION:Geospatial
 ---
 
 NAME:JavaFX
 URL:https://wiki.openjdk.java.net/display/OpenJFX/Main
-DESC:Successor of Swing.
+DESC:Rich client platform with CSS styling, FXML, and hardware acceleration.
 SKIP:1
 SECTION:GUI
 ---
 
 NAME:Scene Builder
 URL:https://gluonhq.com/products/scene-builder/
-DESC:Visual layout tool for JavaFX applications.
+DESC:Drag-and-drop FXML UI designer for JavaFX.
 SKIP:1
 SECTION:GUI
 ---
 
 NAME:SnapKit
 URL:https://github.com/reportmill/SnapKit
-DESC:Modern Java UI library for both desktop and web.
+DESC:Cross-platform UI (desktop/web) with declarative layout.
 SKIP:1
 SECTION:GUI
 ---
 
 NAME:SWT
 URL:https://www.eclipse.org/swt/
-DESC:Graphical widget toolkit.
+DESC:Eclipse's native widget toolkit for OS-native look and feel.
 SKIP:1
 SECTION:GUI
 ---
 
 NAME:Agrona
 URL:https://github.com/real-logic/Agrona
-DESC:Data structures and utility methods that are common in high-performance applications.
+DESC:Off-heap buffers, ring buffers, and lock-free data structures.
 SKIP:1
 SECTION:High Performance
 ---
 
 NAME:Disruptor
 URL:https://lmax-exchange.github.io/disruptor/
-DESC:Inter-thread messaging library.
+DESC:Lock-free ring buffer achieving 25M+ msgs/sec between threads.
 SKIP:1
 SECTION:High Performance
 ---
 
 NAME:Eclipse Collections
 URL:https://github.com/eclipse/eclipse-collections
-DESC:Collections framework inspired by Smalltalk.
+DESC:Memory-efficient collections with primitives and immutables.
 SKIP:1
 SECTION:High Performance
 ---
 
 NAME:fastutil
 URL:http://fastutil.di.unimi.it
-DESC:Fast and compact type-specific collections.
+DESC:Primitive collections 2-3x faster than java.util.
 SKIP:1
 SECTION:High Performance
 ---
 
 NAME:HPPC
 URL:https://labs.carrotsearch.com/hppc.html
-DESC:Primitive collections.
+DESC:High-performance primitive collections with minimal memory.
 SKIP:1
 SECTION:High Performance
 ---
 
 NAME:JCTools
 URL:https://github.com/JCTools/JCTools
-DESC:Concurrency tools currently missing from the JDK.
+DESC:Non-blocking queues: SPSC, MPSC, MPMC for concurrent apps.
 SKIP:1
 SECTION:High Performance
 ---
 
 NAME:Koloboke
 URL:https://github.com/leventov/Koloboke
-DESC:Carefully designed extension of the Java Collections Framework with primitive specializations and more.
+DESC:Fastest hash maps/sets with primitive specialization.
 SKIP:1
 SECTION:High Performance
 ---
 
 NAME:Apache HttpComponents
 URL:https://hc.apache.org/
-DESC:Toolset of low-level Java components focused on HTTP and associated protocols.
+DESC:Full-featured HTTP client with connection pooling and async support.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:Async Http Client
 URL:https://github.com/AsyncHttpClient/async-http-client
-DESC:Asynchronous HTTP and WebSocket client library.
+DESC:Non-blocking HTTP/WebSocket client on Netty.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:Avaje Http Client
 URL:https://avaje.io/http-client
-DESC:Wrapper on JDK 11's HttpClient that adds Feign-like interface among other enhancements.
+DESC:JDK HttpClient wrapper with declarative interfaces and JSON binding.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:Feign
 URL:https://github.com/OpenFeign/feign
-DESC:HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
+DESC:Declarative REST client via annotated interfaces.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:Google HTTP Client
 URL:https://github.com/googleapis/google-http-java-client
-DESC:Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.
+DESC:Pluggable transport with JSON parsing and OAuth support.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:methanol
 URL:https://github.com/mizosoft/methanol
-DESC:HTTP client extensions library.
+DESC:JDK HttpClient extensions: caching, compression, multipart.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:Retrofit
 URL:https://square.github.io/retrofit/
-DESC:Typesafe REST client.
+DESC:Type-safe REST client with pluggable converters and call adapters.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:Ribbon
 URL:https://github.com/Netflix/ribbon
-DESC:Client-side IPC library that is battle-tested in the cloud.
+DESC:Netflix's client-side load balancer with retry policies.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:Riptide
 URL:https://github.com/zalando/riptide
-DESC:Client-side response routing for Spring's RestTemplate.
+DESC:Response routing DSL for RestTemplate with problem+json support.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:unirest-java
 URL:https://github.com/Kong/unirest-java
-DESC:Simplified, lightweight HTTP client library.
+DESC:Fluent HTTP client with JSON, async, and file upload support.
 SKIP:1
 SECTION:HTTP Clients
 ---
 
 NAME:hate
 URL:https://github.com/blackdoor/hate
-DESC:Builds hypermedia-friendly objects according to HAL specification.
+DESC:HAL+JSON builder with link templating support.
 SKIP:1
 SECTION:Hypermedia Types
 ---
 
 NAME:JSON-LD
 URL:https://github.com/jsonld-java/jsonld-java
-DESC:JSON-LD implementation.
+DESC:W3C JSON-LD processor with expansion, compaction, and framing.
 SKIP:1
 SECTION:Hypermedia Types
 ---
 
 NAME:Siren4J
 URL:https://github.com/eserating-chwy/siren4j
-DESC:Library for the Siren specification.
+DESC:Siren hypermedia builder with actions and embedded entities.
 SKIP:1
 SECTION:Hypermedia Types
 ---
 
 NAME:Spring HATEOAS
 URL:https://github.com/spring-projects/spring-hateoas
-DESC:Standalone and Spring support for building hypermedia-based APIs using HAL, HAL FORMS, Collection+JSON, ALPS and UBER.
+DESC:Multi-format hypermedia (HAL, HAL-FORMS, Collection+JSON) for Spring.
 SKIP:1
 SECTION:Hypermedia Types
 ---
 
 NAME:Eclipse
 URL:https://www.eclipse.org
-DESC:Established open-source project with support for lots of plugins and languages.
+DESC:Extensible IDE with vast plugin ecosystem and multi-language support.
 SKIP:1
 SECTION:IDE
 ---
 
 NAME:jGRASP
 URL:https://www.jgrasp.org
-DESC:Created to provide software visualizations that work in conjunction with the debugger such as Control Structure Diagrams, UML class diagrams and Object Viewer.
+DESC:Educational IDE with control structure and UML visualizations.
 SKIP:1
 SECTION:IDE
 ---
 
 NAME:NetBeans
 URL:https://netbeans.apache.org
-DESC:Provides integration for several Java SE and EE features, from database access to HTML5.
+DESC:Apache IDE with Java SE/EE, Maven, and Git integration.
 SKIP:1
 SECTION:IDE
 ---
 
 NAME:SnapCode
 URL:https://reportmill.com/SnapCode/
-DESC:Modern IDE for Java running in the browser, focused on education.
+DESC:Browser-based Java IDE for learning with live preview.
 SKIP:1
 SECTION:IDE
 ---
 
 NAME:Visual Studio Code
 URL:https://code.visualstudio.com/docs/languages/java
-DESC:Provides Java support for lightweight projects with a simple, modern workflow by using extensions from the internal marketplace.
+DESC:Lightweight editor with Java extensions for debugging and Maven.
 SKIP:1
 SECTION:IDE
 ---
 
 NAME:Barcode-Lib4J
 URL:https://github.com/vws-java/Barcode-Lib4J
-DESC:Generates QR Code, DataMatrix, and other 1D/2D barcodes as vector (PDF, EPS, SVG) and raster (PNG, BMP, JPG) images with DPI awareness, high precision, and CMYK color model support.
+DESC:Vector/raster barcode generation with CMYK and high-DPI support.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:Imgscalr
 URL:https://github.com/rkalla/imgscalr
-DESC:Simple, efficient and hardware-accelerated image-scaling library implemented in pure Java 2D.
+DESC:Hardware-accelerated image scaling with quality presets.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:Tess4J
 URL:https://github.com/nguyenq/tess4j
-DESC:JNA wrapper for Tesseract OCR API.
+DESC:Tesseract OCR wrapper for text extraction from images.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:Thumbnailator
 URL:https://github.com/coobird/thumbnailator
-DESC:High-quality thumbnail generation library.
+DESC:Fluent API for high-quality thumbnail generation.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:TwelveMonkeys
 URL:https://github.com/haraldk/TwelveMonkeys
-DESC:Collection of plugins that extend the number of supported image file formats.
+DESC:ImageIO plugins for TIFF, PSD, WebP, and more formats.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:ZXing
 URL:https://github.com/zxing/zxing
-DESC:Multi-format 1D/2D barcode image processing library.
+DESC:Multi-format barcode scanning and generation library.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:image-comparison
 URL:https://github.com/romankh3/image-comparison
-DESC:Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison.
+DESC:Visual diff tool highlighting image differences with rectangles.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:vips-ffm
 URL:https://github.com/lopcode/vips-ffm
-DESC:Comprehensive bindings for libvips, using Java's "Foreign Function & Memory" API.
+DESC:Blazing-fast libvips bindings via Panama FFM.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:scrimage
 URL:https://sksamuel.github.io/scrimage
-DESC:Immutable, functional, and performant JVM library for manipulation of images.
+DESC:Immutable image operations: resize, crop, filters, and formats.
 SKIP:1
 SECTION:Imagery
 ---
 
 NAME:ClassGraph
 URL:https://github.com/classgraph/classgraph
-DESC:ClassGraph (formerly FastClasspathScanner) is an uber-fast, ultra-lightweight, parallelized classpath scanner and module scanner for Java, Scala, Kotlin and other JVM languages.
+DESC:Ultra-fast classpath scanner with parallel processing and module support.
 SKIP:1
 SECTION:Introspection
 ---
 
 NAME:jOOR
 URL:https://github.com/jOOQ/jOOR
-DESC:jOOR stands for jOOR Object Oriented Reflection. It is a simple wrapper for the java.lang.reflect package.
+DESC:Fluent reflection API simplifying method invocation and field access.
 SKIP:1
 SECTION:Introspection
 ---
 
 NAME:Mirror
 URL:http://projetos.vidageek.net/mirror/mirror/
-DESC:Mirror was created to bring light to a simple problem, usually named ReflectionUtil, which is on almost all projects that rely on reflection to do advanced tasks.
+DESC:Simplified reflection for common tasks with a clean API.
 SKIP:1
 SECTION:Introspection
 ---
 
 NAME:Objenesis
 URL:http://objenesis.org
-DESC:Allows dynamic instantiation without default constructor, e.g. constructors which have required arguments, side effects or throw exceptions.
+DESC:Instantiate objects bypassing constructors; used by serializers.
 SKIP:1
 SECTION:Introspection
 ---
 
 NAME:ReflectASM
 URL:https://github.com/EsotericSoftware/reflectasm
-DESC:ReflectASM is a very small Java library that provides high performance reflection by using code generation.
+DESC:Code-generated reflection achieving near-native performance.
 SKIP:1
 SECTION:Introspection
 ---
 
 NAME:Reflections
 URL:https://github.com/ronmamo/reflections
-DESC:Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.
+DESC:Runtime metadata scanning for annotations, subtypes, and resources.
 SKIP:1
 SECTION:Introspection
 ---
 
 NAME:JobRunr
 URL:https://github.com/jobrunr/jobrunr
-DESC:Job scheduling library which utilizes lambdas for fire-and-forget, delayed and recurring jobs. Guarantees execution by single scheduler instance using optimistic locking. Has features for persistence, minimal dependencies and is embeddable.
+DESC:Distributed job scheduler with lambda-based jobs and dashboard.
 SKIP:1
 SECTION:Job Scheduling
 ---
 
 NAME:Quartz
 URL:https://github.com/quartz-scheduler/quartz
-DESC:Feature-rich, open source job scheduling library that can be integrated within virtually any Java application.
+DESC:Enterprise scheduler with cron expressions and clustering support.
 SKIP:1
 SECTION:Job Scheduling
 ---
 
 NAME:Sundial
 URL:https://github.com/knowm/Sundial
-DESC:Lightweight framework to simply define jobs, define triggers and start the scheduler.
+DESC:Lightweight Quartz wrapper with simplified configuration.
 SKIP:1
 SECTION:Job Scheduling
 ---
 
 NAME:Wisp
 URL:https://github.com/Coreoz/Wisp
-DESC:Simple library with minimal footprint and straightforward API.
+DESC:Minimal scheduler (~10KB) with cron and fixed-delay scheduling.
 SKIP:1
 SECTION:Job Scheduling
 ---
 
 NAME:db-scheduler
 URL:https://github.com/kagkarlsson/db-scheduler
-DESC:Persistent and cluster-friendly scheduler.
+DESC:Persistent scheduler with cluster coordination via database locks.
 SKIP:1
 SECTION:Job Scheduling
 ---
 
 NAME:easy-batch
 URL:https://github.com/j-easy/easy-batch
-DESC:Set up batch jobs with simple processing pipelines. Records are read in sequence from a data source, processed in pipeline and written in batches to a data sink.
+DESC:Batch processing with readers, processors, and writers pipeline.
 SKIP:1
 SECTION:Job Scheduling
 ---
 
 NAME:shedlock
 URL:https://github.com/lukas-krecan/ShedLock
-DESC:Makes sure that your scheduled tasks are executed at most once at the same time. If a task is being executed on one node, it acquires a lock which prevents execution of the same task from another node or thread.
+DESC:Distributed lock ensuring single execution across cluster nodes.
 SKIP:1
 SECTION:Job Scheduling
 ---
 
 NAME:Avaje Jsonb
 URL:https://avaje.io/jsonb/
-DESC:Reflection-free Json binding via source code generation with Jackson-like annotations.
+DESC:Compile-time JSON binding with no reflection; Jackson-compatible annotations.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:DSL-JSON
 URL:https://github.com/ngs-doo/dsl-json
-DESC:JSON library with advanced compile time databinding.
+DESC:Fastest JSON library via compile-time generated readers/writers.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:Genson
 URL:http://genson.io
-DESC:Powerful and easy-to-use Java-to-JSON conversion library.
+DESC:Feature-rich JSON with streaming, polymorphism, and JAX-RS support.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:Gson
 URL:https://github.com/google/gson
-DESC:Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
+DESC:Google's simple JSON library with no-config serialization.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:HikariJSON
 URL:https://github.com/brettwooldridge/HikariJSON
-DESC:High-performance JSON parser, 2x faster than Jackson.
+DESC:Ultra-fast JSON parser; 2x faster than Jackson.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:jackson-modules-java8
 URL:https://github.com/FasterXML/jackson-modules-java8
-DESC:Set of Jackson modules for Java 8 datatypes and features.
+DESC:Jackson support for Optional, JSR-310 dates, and parameter names.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:Jackson-datatype-money
 URL:https://github.com/zalando/jackson-datatype-money
-DESC:Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types.
+DESC:Jackson serializer/deserializer for JavaMoney types.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:Jackson
 URL:https://github.com/FasterXML/jackson
-DESC:Similar to GSON, but offers performance gains if you need to instantiate the library more often.
+DESC:Industry-standard JSON with streaming, data-binding, and modules.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:JSON-io
 URL:https://github.com/jdereg/json-io
-DESC:Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.
+DESC:Deep object graph serialization with cycle handling.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:jsoniter
 URL:http://jsoniter.com
-DESC:Fast and flexible library with iterator and lazy parsing API.
+DESC:Iterator-style API for streaming and lazy JSON parsing.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:LoganSquare
 URL:https://github.com/bluelinelabs/LoganSquare
-DESC:JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON & Jackson's library.
+DESC:Compile-time JSON for Android; faster than Gson and Jackson.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:Moshi
 URL:https://github.com/square/moshi
-DESC:Modern JSON library, less opinionated and uses built-in types like List and Map.
+DESC:Square's modern JSON with Kotlin support and adapters.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:Yasson
 URL:https://github.com/eclipse-ee4j/yasson
-DESC:Binding layer between classes and JSON documents similar to JAXB.
+DESC:Jakarta JSON Binding (JSON-B) reference implementation.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:fastjson
 URL:https://github.com/alibaba/fastjson
-DESC:Very fast processor with no additional dependencies and full data binding.
+DESC:Alibaba's high-performance JSON with JSONPath support.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:Jolt
 URL:https://github.com/bazaarvoice/jolt
-DESC:JSON to JSON transformation tool.
+DESC:JSON-to-JSON transformation via shift, default, and sort specs.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:JsonPath
 URL:https://github.com/json-path/JsonPath
-DESC:Extract data from JSON using XPATH-like syntax.
+DESC:XPath-like queries for extracting JSON data.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:JsonSurfer
 URL:https://github.com/jsurfer/JsonSurfer
-DESC:Streaming JsonPath processor dedicated to processing big and complicated JSON data.
+DESC:Streaming JsonPath for processing large JSON without loading all.
 SKIP:1
 SECTION:JSON
 ---
 
 NAME:Which JDK
 URL:https://whichjdk.com/
-DESC:Overview of common JVMs with pros and cons.
+DESC:Decision guide for choosing a JDK distribution.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Adopt Open JDK
 URL:https://adoptopenjdk.net
-DESC:Community-driven OpenJDK builds, including both HotSpot and OpenJ9.
+DESC:Community OpenJDK with HotSpot and OpenJ9 variants.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Corretto
 URL:https://aws.amazon.com/corretto/
-DESC:No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Amazon's LTS OpenJDK with AWS optimizations. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Dragonwell8
 URL:https://github.com/alibaba/dragonwell8
-DESC:Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications.
+DESC:Alibaba's OpenJDK optimized for long-running services.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Graal
 URL:https://github.com/oracle/graal
-DESC:Polyglot embeddable JVM. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Polyglot VM with native image compilation (GraalVM). (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Liberica JDK
 URL:https://bell-sw.com
-DESC:Built from OpenJDK, thoroughly tested and passed the JCK. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:JCK-certified OpenJDK with JavaFX bundled option. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:OpenJ9
 URL:https://github.com/eclipse/openj9
-DESC:High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project.
+DESC:Eclipse JVM with low memory footprint and fast startup.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Open JDK
 URL:https://openjdk.java.net
-DESC:Open JDK community home. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Reference implementation and development home. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:ParparVM
 URL:https://github.com/codenameone/CodenameOne/tree/master/vm
-DESC:VM with non-blocking, concurrent GC for iOS. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Non-blocking GC VM for iOS mobile development. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:RedHat Open JDK
 URL:https://developers.redhat.com/products/openjdk/overview
-DESC:RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Red Hat's enterprise-supported OpenJDK. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:SAP Machine
 URL:https://sap.github.io/SapMachine/
-DESC:SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:SAP's JCK-verified OpenJDK for enterprise. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Zulu
 URL:https://www.azul.com/products/zulu-community/
-DESC:OpenJDK builds for Windows, Linux, and macOS. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Azul's TCK-certified OpenJDK with commercial support option. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Microsoft JDK
 URL:https://github.com/microsoft/openjdk
-DESC:Microsoft Build of OpenJDK, Free, Open Source, Freshly Brewed!
+DESC:Microsoft's OpenJDK build with Azure optimizations.
 SKIP:1
 SECTION:JVM and JDK
 ---
 
 NAME:Apache Log4j 2
 URL:https://logging.apache.org/log4j/
-DESC:Complete rewrite with a powerful plugin and configuration architecture.
+DESC:Async logging with lazy evaluation and plugin architecture.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:Echopraxia
 URL:https://github.com/tersesystems/echopraxia
-DESC:API designed around structured logging, rich context, and conditional logging. There are Logback and Log4J2 implementations, but Echopraxia's API is completely dependency-free, meaning it can be implemented with any logging API.
+DESC:Structured logging API with conditions and JSON context.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:Graylog
 URL:https://www.graylog.org
-DESC:Open-source aggregator suited for extended role and permission management. (GPL-3.0-only)
+DESC:Centralized log management with search and dashboards. (GPL-3.0-only)
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:Kibana
 URL:https://www.elastic.co/kibana
-DESC:Analyzes and visualizes log files. Some features require payment.
+DESC:Elasticsearch visualization for log analysis and monitoring.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:Logback
 URL:http://logback.qos.ch
-DESC:Robust logging library with interesting configuration options via Groovy.
+DESC:SLF4J native implementation with Groovy config and filters.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:Logbook
 URL:https://github.com/zalando/logbook
-DESC:Extensible, open-source library for HTTP request and response logging.
+DESC:HTTP request/response logging with filtering and correlation.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:Logstash
 URL:https://www.elastic.co/logstash
-DESC:Tool for managing log files.
+DESC:Log pipeline for parsing, transforming, and forwarding.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:p6spy
 URL:https://github.com/p6spy/p6spy
-DESC:Enables logging for all JDBC transactions without changes to the code.
+DESC:JDBC proxy logging all SQL with timing; no code changes.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:SLF4J
 URL:http://www.slf4j.org
-DESC:Abstraction layer/simple logging facade.
+DESC:Universal logging facade; bind to any implementation.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:tinylog
 URL:https://tinylog.org/v2/
-DESC:Lightweight logging framework with static logger class.
+DESC:Minimalist logger with static API and 100KB footprint.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:OpenTracing Toolbox
 URL:https://github.com/zalando/opentracing-toolbox
-DESC:Collection of libraries that build on top of OpenTracing and provide extensions and plugins to existing instrumentations.
+DESC:OpenTracing extensions for Spring and Servlet tracing.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:Flogger
 URL:https://google.github.io/flogger/
-DESC:Flogger is a fluent logging API for Java. It supports a wide variety of features, and has many benefits over existing logging APIs.
+DESC:Google's fluent logging API with lazy argument evaluation.
 SKIP:1
 SECTION:Logging
 ---
 
 NAME:Apache Flink
 URL:https://flink.apache.org
-DESC:Fast, reliable, large-scale data processing engine.
+DESC:Stream/batch processing with exactly-once semantics and ML pipelines.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Apache Mahout
 URL:https://mahout.apache.org
-DESC:Scalable algorithms focused on collaborative filtering, clustering and classification.
+DESC:Distributed ML for clustering, classification, and recommendations.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:DatumBox
 URL:http://www.datumbox.com
-DESC:Provides several algorithms and pre-trained models for natural language processing.
+DESC:Pre-trained NLP models for sentiment, topic, and spam detection.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Deeplearning4j
 URL:https://deeplearning4j.org
-DESC:Distributed and multi-threaded deep learning library.
+DESC:Distributed deep learning with Spark and GPU support.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:DJL
 URL:https://djl.ai
-DESC:High-level and engine-agnostic framework for deep learning.
+DESC:Deep learning abstraction for PyTorch, TensorFlow, and MXNet.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Intelligent java
 URL:https://github.com/Barqawiz/IntelliJava
-DESC:Seamlessly integrate with remote deep learning and language models programmatically.
+DESC:Unified API for OpenAI, Cohere, and other AI services.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:JSAT
 URL:https://github.com/EdwardRaff/JSAT
-DESC:Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only)
+DESC:Pure Java ML library with 100+ algorithms. (GPL-3.0-only)
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:m2cgen
 URL:https://github.com/BayesWitnesses/m2cgen
-DESC:CLI tool to transpile models into native code.
+DESC:Export trained models to Java/C/Python code.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Neureka
 URL:https://github.com/Gleethos/neureka
-DESC:A lightweight, platform independent, OpenCL accelerated nd-array/tensor library.
+DESC:OpenCL-accelerated tensor library for neural networks.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:oj! Algorithms
 URL:https://www.ojalgo.org/
-DESC:High-performance mathematics, linear algebra and optimisation needed for data science, machine learning and scientific computing.
+DESC:High-performance linear algebra and optimization solvers.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Oryx 2
 URL:https://github.com/OryxProject/oryx
-DESC:Framework for building real-time, large-scale machine learning applications. Includes end-to-end applications for collaborative filtering, classification, regression, and clustering.
+DESC:Real-time ML on Spark with serving layer and model updates.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Siddhi
 URL:https://github.com/siddhi-io/siddhi
-DESC:Cloud native streaming and complex event processing engine.
+DESC:Complex event processing for streaming analytics.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Smile
 URL:https://github.com/haifengl/smile
-DESC:Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.
+DESC:Comprehensive ML library with Scala API and visualization.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Tribuo
 URL:https://tribuo.org/
-DESC:Provides tools for classification, regression, clustering, model development and interfaces with other libraries such as scikit-learn, pytorch and TensorFlow.
+DESC:Oracle's ML library with reproducibility and ONNX export.
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Weka
 URL:https://www.cs.waikato.ac.nz/ml/weka/
-DESC:Collection of algorithms for data mining tasks ranging from pre-processing to visualization. (GPL-3.0-only)
+DESC:GUI-based ML toolkit with 100+ algorithms. (GPL-3.0-only)
 SKIP:1
 SECTION:Machine Learning
 ---
 
 NAME:Aeron
 URL:https://github.com/real-logic/Aeron
-DESC:Efficient, reliable, unicast and multicast message transport.
+DESC:Ultra-low-latency messaging with UDP multicast and IPC.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Apache ActiveMQ
 URL:https://activemq.apache.org
-DESC:Message broker that implements JMS and converts synchronous to asynchronous communication.
+DESC:JMS broker with persistence, clustering, and REST API.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Apache Camel
 URL:https://camel.apache.org
-DESC:Glues together different transport APIs via Enterprise Integration Patterns.
+DESC:300+ connectors with Enterprise Integration Patterns routing.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Apache Kafka
 URL:https://kafka.apache.org
-DESC:High-throughput distributed messaging system.
+DESC:Distributed event streaming with exactly-once semantics.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Apache Pulsar
 URL:https://pulsar.apache.org
-DESC:Distributed pub/sub-messaging system.
+DESC:Multi-tenant messaging with tiered storage and geo-replication.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Apache RocketMQ
 URL:https://rocketmq.apache.org
-DESC:Fast, reliable, and scalable distributed messaging platform.
+DESC:Alibaba's distributed messaging with transactions and scheduling.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Apache Qpid
 URL:https://qpid.apache.org
-DESC:Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms.
+DESC:AMQP 1.0 broker and client libraries.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:AutoMQ
 URL:https://github.com/AutoMQ/automq-for-kafka
-DESC:AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective.
+DESC:Cloud-native Kafka with S3 storage and auto-scaling.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Deezpatch
 URL:https://github.com/joel-jeremy/deezpatch
-DESC:Simple, lightweight, and performant dispatch library for decoupling messages (requests and events) and message handlers.
+DESC:In-process message dispatcher with compile-time handler resolution.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:EventBus
 URL:https://github.com/greenrobot/EventBus
-DESC:Simple publish/subscribe event bus.
+DESC:Android-optimized publish/subscribe event bus.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Hermes
 URL:http://hermes.allegro.tech
-DESC:Fast and reliable message broker built on top of Kafka.
+DESC:Kafka REST proxy with schema validation and rate limiting.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:JeroMQ
 URL:https://github.com/zeromq/jeromq
-DESC:Implementation of ZeroMQ.
+DESC:Pure Java ZeroMQ with pub/sub, push/pull patterns.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Nakadi
 URL:https://github.com/zalando/nakadi
-DESC:Provides a RESTful API on top of Kafka.
+DESC:Event bus REST API with schema registry on Kafka.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:RabbitMQ Java client
 URL:https://github.com/rabbitmq/rabbitmq-java-client
-DESC:RabbitMQ client.
+DESC:Official AMQP client with connection recovery.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:Smack
 URL:https://github.com/igniterealtime/Smack
-DESC:Cross-platform XMPP client library.
+DESC:XMPP client for IM, presence, and extensions.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:NATS client
 URL:https://github.com/nats-io/nats.java
-DESC:NATS client.
+DESC:Lightweight messaging client for NATS with JetStream.
 SKIP:1
 SECTION:Messaging
 ---
 
 NAME:ActiveRPC
 URL:https://rpc.activej.io
-DESC:Lightweight and fast library for complex high-load distributed applications and Memcached-like solutions.
+DESC:Zero-allocation RPC with 15M+ requests/sec throughput.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:Armeria
 URL:https://github.com/line/armeria
-DESC:Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC.
+DESC:Async microservice framework with gRPC, Thrift, and REST on Netty.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:consul-api
 URL:https://github.com/Ecwid/consul-api
-DESC:Client for the Consul API: a distributed, highly available and datacenter-aware registry/discovery service.
+DESC:Consul client for service discovery, health checks, and KV store.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:Eureka
 URL:https://github.com/Netflix/eureka
-DESC:REST-based service registry for resilient load balancing and failover.
+DESC:Netflix's service registry with self-preservation and replication.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:Helidon
 URL:https://helidon.io
-DESC:Two-style approach for writing microservices: Functional-reactive and as an implementation of MicroProfile.
+DESC:Oracle's microservice framework: SE (functional) or MP (MicroProfile).
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:JDA
 URL:https://github.com/DV8FromTheWorld/JDA
-DESC:Wrapping of the Discord REST API and its WebSocket events.
+DESC:Discord API wrapper with event handling and slash commands.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:KeenType
 URL:https://github.com/DaveJarvis/KeenType
-DESC:Modernized version of a Java-based implementation of the New Typesetting System, which was heavily based on Donald E. Knuth's original TeX.
+DESC:Modern TeX implementation for document typesetting.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:kubernetes-client
 URL:https://github.com/fabric8io/kubernetes-client
-DESC:Client provides access to the full Kubernetes & OpenShift REST APIs via a fluent DSL.
+DESC:Fluent Kubernetes/OpenShift API client with CRD support.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:Micronaut
 URL:https://micronaut.io
-DESC:Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
+DESC:Compile-time DI framework with instant startup and low memory.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:Nacos
 URL:https://nacos.io
-DESC:Dynamic service discovery, configuration and service management platform for building cloud native applications.
+DESC:Alibaba's service discovery and config management platform.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:OpenAI-Java
 URL:https://github.com/TheoKanning/openai-java
-DESC:Java libraries for using OpenAI's GPT-3 API.
+DESC:OpenAI API client for GPT, DALL-E, and Whisper.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:Quarkus
 URL:https://quarkus.io
-DESC:Kubernetes stack tailored for the HotSpot and Graal VM.
+DESC:Supersonic Java with native compilation and live reload.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:Sentinel
 URL:https://github.com/alibaba/Sentinel
-DESC:Flow control component enabling reliability, resilience and monitoring for microservices.
+DESC:Flow control, circuit breaking, and real-time monitoring.
 SKIP:1
 SECTION:Microservice
 ---
 
 NAME:CQEngine
 URL:https://github.com/npgall/cqengine
-DESC:Ultra-fast, SQL-like queries on Java collections.
+DESC:In-memory indexed collections with SQL-like queries in microseconds.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Design Patterns
 URL:https://github.com/iluwatar/java-design-patterns
-DESC:Implementation and explanation of the most common design patterns.
+DESC:100+ design patterns with Java examples and explanations.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:FF4J
 URL:https://github.com/ff4j/ff4j
-DESC:Feature Flags for Java.
+DESC:Feature flags with web console, audit, and Spring integration.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:FizzBuzz Enterprise Edition
 URL:https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition
-DESC:No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes. (No explicit license)
+DESC:Satirical over-engineered FizzBuzz demonstrating pattern overuse. (No explicit license)
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:IP2Location.io Java SDK
 URL:https://github.com/ip2location/ip2location-io-java
-DESC:Wrapper for the IP2Location.io Geolocation API and the IP2WHOIS domain WHOIS API.
+DESC:IP geolocation and WHOIS lookup API client.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:ISBN core
 URL:https://github.com/ladutsko/isbn-core
-DESC:A small library that contains a representation object of ISBN-10 and ISBN-13 and tools to parse, validate and format one.
+DESC:ISBN-10/13 parsing, validation, and formatting.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:J2ObjC
 URL:https://github.com/google/j2objc
-DESC:Java-to-Objective-C translator for porting Android libraries to iOS.
+DESC:Google's Java to Objective-C transpiler for iOS code sharing.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:JBake
 URL:https://jbake.org
-DESC:Static website generator.
+DESC:Static site generator with Freemarker, Groovy, and Markdown.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:JBot
 URL:https://github.com/rampatra/jbot
-DESC:Framework for building chatbots. (GPL-3.0-only)
+DESC:Slack and Facebook Messenger bot framework. (GPL-3.0-only)
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:JCuda
 URL:http://jcuda.org
-DESC:JCuda offers Java bindings for CUDA and CUDA-related libraries.
+DESC:Java bindings for CUDA GPU computing.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:JEmoji
 URL:https://github.com/felldo/JEmoji
-DESC:An auto-generated emoji library that provides type-safe direct access to emojis and alias support for Discord, Slack, GitHub and many more features.
+DESC:Type-safe emoji library with Discord/Slack alias support.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Jimfs
 URL:https://github.com/google/jimfs
-DESC:In-memory file system.
+DESC:In-memory file system for testing with full NIO.2 support.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Joda-Money
 URL:https://www.joda.org/joda-money/
-DESC:Basic currency and money classes and algorithms not provided by the JDK.
+DESC:Money and currency handling with BigDecimal precision.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:jOOX
 URL:https://github.com/jooq/joox
-DESC:Simple wrapper for the org.w3c.dom package, to allow for fluent XML document creation and manipulation with an API inspired by jQuery.
+DESC:jQuery-style fluent API for XML DOM manipulation.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:JPad
 URL:http://jpad.io
-DESC:Snippet runner.
+DESC:Code snippet runner with instant results.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:jsweet
 URL:https://github.com/cincheo/jsweet
-DESC:Source transpiler to TypeScript/JavaScript.
+DESC:Java to TypeScript/JavaScript transpiler.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Maven Wrapper
 URL:https://github.com/takari/maven-wrapper
-DESC:Analogue of Gradle Wrapper for Maven, allows building projects without installing maven.
+DESC:Ensure consistent Maven version without local installation.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Membrane Service Proxy
 URL:https://github.com/membrane/service-proxy
-DESC:Open-source, reverse-proxy framework.
+DESC:API gateway with OAuth2, rate limiting, and transformation.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:MinimalFTP
 URL:https://github.com/Guichaguri/MinimalFTP
-DESC:Lightweight, small and customizable FTP server.
+DESC:Embeddable FTP server in ~50KB.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:LittleProxy
 URL:https://github.com/adamfisk/LittleProxy
-DESC:High performance HTTP proxy atop Netty's event-based networking library.
+DESC:Netty-based HTTP proxy with MITM support.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Modern Java - A Guide to Java 8
 URL:https://github.com/winterbe/java8-tutorial
-DESC:Popular Java 8 guide.
+DESC:Comprehensive Java 8 tutorial with streams and lambdas.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Modernizer
 URL:https://github.com/gaul/modernizer-maven-plugin
-DESC:Detect uses of legacy Java APIs.
+DESC:Detect legacy API usage (Guava → Java 8, etc.).
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:OctoLinker
 URL:https://github.com/OctoLinker/OctoLinker
-DESC:Browser extension which allows to navigate through code on GitHub more efficiently.
+DESC:GitHub browser extension linking imports to source files.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:OpenRefine
 URL:http://openrefine.org
-DESC:Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+DESC:Data cleaning and transformation tool with reconciliation.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:PipelinR
 URL:https://github.com/sizovs/pipelinr
-DESC:Small utility library for using handlers and commands with pipelines.
+DESC:Mediator pattern for command/query handlers.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Polyglot for Maven
 URL:https://github.com/takari/polyglot-maven
-DESC:Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML.
+DESC:Write POMs in Groovy, Kotlin, Scala, or YAML.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:RR4J
 URL:https://github.com/Kartikvk1996/RR4J
-DESC:RR4J is a tool that records java bytecode execution and later allows developers to replay locally.
+DESC:Record and replay Java execution for debugging.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Simple Java Mail
 URL:https://github.com/bbottema/simple-java-mail
-DESC:Mailing with a clean and fluent API.
+DESC:Fluent email API with SMTP, attachments, and embedding.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Smooks
 URL:https://github.com/smooks/smooks
-DESC:Framework for fragment-based message processing. (Apache-2.0 OR LGPL-3.0-or-later)
+DESC:Event-driven data transformation and routing framework. (Apache-2.0 OR LGPL-3.0-or-later)
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Svix
 URL:https://github.com/svix/svix-webhooks/tree/main/java
-DESC:Library for the Svix API to send webhooks and verify signatures.
+DESC:Webhook delivery platform with retries and signature verification.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Togglz
 URL:https://www.togglz.org
-DESC:Implementation of the Feature Toggles pattern.
+DESC:Feature toggles with admin console and Spring Boot starter.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:TypeTools
 URL:https://github.com/jhalterman/typetools
-DESC:Tools for resolving generic types.
+DESC:Runtime generic type resolution for type-safe APIs.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:webcam-capture
 URL:https://github.com/sarxos/webcam-capture
-DESC:Library for using built-in and external webcams directly in Java.
+DESC:Cross-platform webcam access with motion detection.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:XMLBeam
 URL:https://github.com/SvenEwald/xmlbeam
-DESC:Processes XML by using annotations or XPath within code.
+DESC:XPath-based XML projection onto Java interfaces.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:yGuard
 URL:https://github.com/yWorks/yGuard
-DESC:Obfuscation via renaming and shrinking.
+DESC:Bytecode obfuscator with name mangling and shrinking.
 SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:JBang
 URL:https://github.com/maxandersen/jbang/
-DESC:JBang makes it easy to use Java for scripting. It lets you use a single file for code and dependency management and allows you to run it directly.
-SKIP:2
+DESC:Run Java as scripts with inline dependency declarations.
+SKIP:1
 SECTION:Miscellaneous
 ---
 
 NAME:Codename One
 URL:https://www.codenameone.com
-DESC:Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0)
+DESC:Write once, deploy native iOS/Android/web from Java. (GPL-2.0-only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:Mobile Development
 ---
 
 NAME:MobileUI
 URL:https://mobileui.dev
-DESC:Cross-platform framework for developing mobile apps with native UI in Java and Kotlin.
+DESC:Native mobile UI from Java/Kotlin with platform widgets.
 SKIP:1
 SECTION:Mobile Development
 ---
 
 NAME:Multi-OS Engine
 URL:https://multi-os-engine.org
-DESC:Open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.
+DESC:Shared Java codebase with native iOS/Android UI bindings.
 SKIP:1
 SECTION:Mobile Development
 ---
 
 NAME:Apitally
 URL:https://github.com/apitally/apitally-java
-DESC:Simple, privacy-focused API monitoring, analytics and request logging for Spring Boot apps.
+DESC:Privacy-focused API analytics with request logging.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Automon
 URL:https://github.com/stevensouza/automon
-DESC:Combines the power of AOP with monitoring and/or logging tools.
+DESC:AOP-based monitoring integration with JAMon/Metrics.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Dropwizard Metrics
 URL:https://github.com/dropwizard/metrics
-DESC:Expose metrics via JMX or HTTP and send them to a database.
+DESC:Application metrics with JMX, Graphite, and Prometheus export.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Failsafe Actuator
 URL:https://github.com/zalando/failsafe-actuator
-DESC:Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.
+DESC:Spring Boot Actuator endpoints for Failsafe circuit breakers.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Glowroot
 URL:https://glowroot.org
-DESC:Open-source Java APM.
+DESC:Lightweight APM with transaction tracing and historical analysis.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:HertzBeat
 URL:https://github.com/dromara/hertzbeat
-DESC:Real-time monitoring system with custom-monitor and agentless.
+DESC:Agentless monitoring for servers, databases, and APIs.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:hippo4j
 URL:https://github.com/opengoofy/hippo4j/blob/develop/README-EN.md
-DESC:Dynamic and observable thread pool framework.
+DESC:Dynamic thread pool tuning with web console.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:inspectIT
 URL:https://www.inspectit.rocks
-DESC:Captures detailed run-time information via hooks that can be changed on the fly. It supports tracing over multiple systems via the OpenTracing API and can correlate the data with end user monitoring.
+DESC:Bytecode-level APM with OpenTracing and EUM correlation.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Jaeger client
 URL:https://github.com/jaegertracing/jaeger-client-java
-DESC:Jaeger client.
+DESC:Distributed tracing client for Jaeger backend.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:JavaMelody
 URL:https://github.com/javamelody/javamelody
-DESC:Performance monitoring and profiling.
+DESC:Embedded monitoring with charts, SQL analysis, and profiling.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:jmxtrans
 URL:https://github.com/jmxtrans/jmxtrans
-DESC:Connect to multiple JVMs and query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVM attributes. Supports different output writes, including Graphite, Ganglia, and StatsD.
+DESC:JMX metric collection to Graphite, InfluxDB, or Ganglia.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Jolokia
 URL:https://jolokia.org
-DESC:JMX over REST.
+DESC:JMX over HTTP/JSON for remote monitoring.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Micrometer
 URL:https://github.com/micrometer-metrics/micrometer
-DESC:Vendor-neutral metrics/observability facade for the most popular metrics/observability libraries.
+DESC:Metrics facade for Prometheus, Datadog, CloudWatch, etc.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Micrometer Tracing
 URL:https://github.com/micrometer-metrics/tracing
-DESC:Vendor-neutral distributed tracing facade for the most popular tracer libraries.
+DESC:Tracing facade for Zipkin, Wavefront, and OTLP.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:nudge4j
 URL:https://github.com/lorenzoongithub/nudge4j
-DESC:Remote developer console from the browser for Java 8 via bytecode injection.
+DESC:Browser REPL for live JVM inspection.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:OpenTelemetry
 URL:https://github.com/open-telemetry/opentelemetry-java
-DESC:Instrument, generate, collect, and export telemetry data to help you analyze your software’s performance and behavior.
+DESC:CNCF standard for traces, metrics, and logs.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Pinpoint
 URL:https://github.com/naver/pinpoint
-DESC:Open-source APM tool.
+DESC:Large-scale APM with call tree visualization.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Prometheus
 URL:https://github.com/prometheus/client_java
-DESC:Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
+DESC:Official Prometheus client with gauges, counters, and histograms.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Stagemonitor
 URL:https://github.com/stagemonitor/stagemonitor
-DESC:Open-source performance monitoring and transaction tracing for JVM apps.
+DESC:Elasticsearch-integrated APM with Kibana dashboards.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Sysmon
 URL:https://github.com/palantir/Sysmon
-DESC:Lightweight platform monitoring tool for Java VMs.
+DESC:JVM resource monitoring (CPU, memory, GC).
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:zipkin
 URL:https://zipkin.io
-DESC:Distributed tracing system which gathers timing data needed to troubleshoot latency problems in microservice architectures.
+DESC:Distributed tracing system for latency analysis.
 SKIP:1
 SECTION:Monitoring
 ---
 
 NAME:Aparapi
 URL:https://github.com/Syncleus/aparapi
-DESC:Converts bytecode to OpenCL which allows execution on GPUs.
+DESC:Execute Java on GPUs via automatic OpenCL conversion.
 SKIP:1
 SECTION:Native
 ---
 
 NAME:JavaCPP
 URL:https://github.com/bytedeco/javacpp
-DESC:Provides efficient and easy access to native C++.
+DESC:Native C/C++ binding generator with presets for OpenCV, FFmpeg.
 SKIP:1
 SECTION:Native
 ---
 
 NAME:JNA
 URL:https://github.com/java-native-access/jna
-DESC:Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
+DESC:Dynamic native access without JNI boilerplate.
 SKIP:1
 SECTION:Native
 ---
 
 NAME:JNR
 URL:https://github.com/jnr/jnr-ffi
-DESC:Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama).
+DESC:Faster JNA alternative; foundation for Project Panama.
 SKIP:1
 SECTION:Native
 ---
 
 NAME:native-lib-loader
 URL:https://github.com/scijava/native-lib-loader
-DESC:Native library loader for extracting and loading native libraries from Java.
+DESC:Extract and load bundled native libraries from JARs.
 SKIP:1
 SECTION:Native
 ---
 
 NAME:CogCompNLP
 URL:https://github.com/CogComp/cogcomp-nlp
-DESC:Provides common annotators for plain text input. (Research and Academic Use License)
+DESC:NLP pipeline with coreference, SRL, and relation extraction. (Research and Academic Use License)
 SKIP:1
 SECTION:Natural Language Processing
 ---
 
 NAME:CoreNLP
 URL:https://nlp.stanford.edu/software/corenlp.shtml
-DESC:Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. (GPL-3.0-or-later)
+DESC:Stanford's NLP toolkit: NER, parsing, sentiment, and coreference. (GPL-3.0-or-later)
 SKIP:1
 SECTION:Natural Language Processing
 ---
 
 NAME:DKPro
 URL:https://dkpro.github.io
-DESC:Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
+DESC:UIMA-based NLP components for tokenization, POS, and parsing.
 SKIP:1
 SECTION:Natural Language Processing
 ---
 
 NAME:Hypherator
 URL:https://github.com/ejossev/hypherator-java
-DESC:Java hyphenation library with iterator-like interface. Can be used out-of-the box - dictionaries for multiple languages are bundled in.
+DESC:Text hyphenation with bundled dictionaries for 30+ languages.
 SKIP:1
 SECTION:Natural Language Processing
 ---
 
 NAME:LingPipe
 URL:http://alias-i.com/lingpipe/
-DESC:Toolkit for tasks ranging from POS tagging to sentiment analysis.
+DESC:Entity extraction, clustering, and classification toolkit.
 SKIP:1
 SECTION:Natural Language Processing
 ---
 
 NAME:Commons-networking
 URL:https://github.com/CiscoSE/commons-networking
-DESC:Client for server-sent events (SSE).
+DESC:Server-Sent Events (SSE) client implementation.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:Comsat
 URL:https://github.com/puniverse/comsat
-DESC:Integrates standard Java web-related APIs with Quasar fibers and actors.
+DESC:Fiber-aware web APIs (Servlet, JAX-RS) with Quasar.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:Dubbo
 URL:https://github.com/apache/dubbo
-DESC:High-performance RPC framework.
+DESC:Alibaba's RPC framework with service discovery and load balancing.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:Grizzly
 URL:https://javaee.github.io/grizzly/
-DESC:NIO framework. Used as a network layer in Glassfish.
+DESC:NIO framework powering GlassFish with HTTP/2.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:gRPC-java
 URL:https://github.com/grpc/grpc-java
-DESC:RPC framework based on protobuf and HTTP/2.
+DESC:Google's HTTP/2 RPC with streaming and deadlines.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:KryoNet
 URL:https://github.com/EsotericSoftware/kryonet
-DESC:Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo.
+DESC:Fast TCP/UDP networking with Kryo serialization.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:MINA
 URL:https://mina.apache.org
-DESC:Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
+DESC:Event-driven async network framework from Apache.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:Netty
 URL:https://netty.io
-DESC:Framework for building high-performance network applications.
+DESC:Industry-standard async networking with epoll/kqueue support.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:Drift
 URL:https://github.com/airlift/drift
-DESC:Easy-to-use, annotation-based library for creating Thrift clients and serializable types.
+DESC:Annotation-based Thrift client/server generation.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:ServiceTalk
 URL:https://github.com/apple/servicetalk
-DESC:Framework built on Netty with APIs tailored to specific protocols and support for multiple programming paradigms.
+DESC:Apple's reactive networking with HTTP/1.1, HTTP/2, and gRPC.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:sshj
 URL:https://github.com/hierynomus/sshj
-DESC:Programmatically use SSH, SCP or SFTP.
+DESC:SSH2 client for SFTP, SCP, and remote execution.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:TLS Channel
 URL:https://github.com/marianobarrios/tls-channel
-DESC:Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.
+DESC:Blocking/non-blocking TLS via simple ByteChannel API.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:Undertow
 URL:http://undertow.io
-DESC:Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly. (LGPL-2.1-only)
+DESC:High-performance web server with HTTP/2 and WebSocket. (LGPL-2.1-only)
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:urnlib
 URL:https://github.com/slub/urnlib
-DESC:Represent, parse and encode URNs, as in RFC 2141. (GPL-3.0-only)
+DESC:URN parsing and validation per RFC 2141/8141. (GPL-3.0-only)
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:Fluency
 URL:https://github.com/komamitsu/fluency
-DESC:High throughput data ingestion logger to Fluentd and Fluent Bit.
+DESC:Async, buffered logger to Fluentd with failover.
 SKIP:1
 SECTION:Networking
 ---
 
 NAME:Apache Cayenne
 URL:https://cayenne.apache.org
-DESC:Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation.
+DESC:Modeler-based ORM with lazy loading and caching.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:Doma
 URL:https://github.com/domaframework/doma
-DESC:Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL.
+DESC:Compile-time SQL validation with two-way SQL templates.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:Ebean
 URL:https://ebean.io
-DESC:Provides simple and fast data access.
+DESC:Simple ORM with query beans, JSON, and soft-delete support.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:EclipseLink
 URL:https://www.eclipse.org/eclipselink/
-DESC:Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
+DESC:JPA reference implementation with MOXy and multi-tenancy.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:Hibernate
 URL:http://hibernate.org/orm/
-DESC:Robust and widely used, with an active community. (LGPL-2.1-only)
+DESC:Feature-rich JPA implementation with caching and search. (LGPL-2.1-only)
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:MyBatis
 URL:https://github.com/mybatis/mybatis-3
-DESC:Couples objects with stored procedures or SQL statements.
+DESC:SQL mapping framework with XML or annotation config.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:MyBatis-Plus
 URL:https://github.com/baomidou/mybatis-plus
-DESC:A powerful enhanced toolkit of MyBatis for simplifying development.
+DESC:MyBatis enhancements: CRUD, pagination, code generation.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:ObjectiveSql
 URL:https://github.com/braisdom/ObjectiveSql
-DESC:ActiveRecord ORM for rapid development and convention over configuration.
+DESC:ActiveRecord-style ORM with method chaining queries.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:Permazen
 URL:https://github.com/permazen/permazen
-DESC:Language-natural persistence layer.
+DESC:Schema-independent persistence with change tracking.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:SimpleFlatMapper
 URL:https://github.com/arnaudroger/SimpleFlatMapper
-DESC:Simple database and CSV mapper.
+DESC:Zero-allocation result set to POJO mapping.
 SKIP:1
 SECTION:ORM
 ---
 
 NAME:Pathetic
 URL:https://github.com/bsommerfeld/pathetic
-DESC:A highly configurable 3D A\* pathfinding library that uses specific optimizations for high performance.
+DESC:High-performance 3D A\* pathfinding with configurable heuristics.
 SKIP:1
 SECTION:Pathfinding
 ---
 
 NAME:Apache FOP
 URL:https://xmlgraphics.apache.org/fop/
-DESC:Creates PDFs from XSL-FO.
+DESC:XSL-FO to PDF with SVG and image support.
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:Apache PDFBox
 URL:https://pdfbox.apache.org
-DESC:Toolbox for creating and manipulating PDFs.
+DESC:Create, modify, extract, and sign PDFs.
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:Dynamic Jasper
 URL:https://intive-fdv.github.io/DynamicJasper/
-DESC:Abstraction layer to JasperReports. (LGPL-3.0-only)
+DESC:Programmatic JasperReports without XML. (LGPL-3.0-only)
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:DynamicReports
 URL:https://github.com/dynamicreports/dynamicreports
-DESC:Simplifies JasperReports. (LGPL-3.0-only)
+DESC:Fluent API for JasperReports with charts. (LGPL-3.0-only)
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:Eclipse BIRT
 URL:https://www.eclipse.org/birt
-DESC:Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor.
+DESC:Visual report designer with PDF, Excel, and HTML output.
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:flyingsaucer
 URL:https://github.com/flyingsaucerproject/flyingsaucer
-DESC:XML/XHTML and CSS 2.1 renderer. (LGPL-2.1-or-later)
+DESC:XHTML/CSS to PDF renderer. (LGPL-2.1-or-later)
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:JasperReports
 URL:https://community.jaspersoft.com/project/jasperreports-library
-DESC:Complex reporting engine. (LGPL-3.0-only)
+DESC:Enterprise reporting with charts, barcodes, and subreports. (LGPL-3.0-only)
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:Open HTML to PDF
 URL:https://github.com/danfickle/openhtmltopdf
-DESC:Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.
+DESC:HTML5/CSS3 to PDF/A with accessibility support.
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:OpenPDF
 URL:https://github.com/LibrePDF/OpenPDF
-DESC:Open-source iText fork. (LGPL-3.0-only & MPL-2.0)
+DESC:LGPL iText fork with active maintenance. (LGPL-3.0-only & MPL-2.0)
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:Tabula
 URL:https://github.com/tabulapdf/tabula-java
-DESC:Extracts tables from PDF files.
+DESC:Extract tabular data from PDFs into CSV/JSON.
 SKIP:1
 SECTION:PDF
 ---
 
 NAME:honest-profiler
 URL:https://github.com/jvm-profiling-tools/honest-profiler
-DESC:Low-overhead, bias-free sampling profiler.
+DESC:AsyncGetCallTrace-based profiler avoiding safepoint bias.
 SKIP:1
 SECTION:Performance analysis
 ---
 
 NAME:jHiccup
 URL:https://github.com/giltene/jHiccup
-DESC:Logs and records platform JVM stalls.
+DESC:Measure JVM pauses and OS scheduling hiccups.
 SKIP:1
 SECTION:Performance analysis
 ---
 
 NAME:JITWatch
 URL:https://github.com/AdoptOpenJDK/jitwatch
-DESC:Analyze the JIT compiler optimisations made by the HotSpot JVM.
+DESC:Visualize HotSpot JIT compilations and inlining decisions.
 SKIP:1
 SECTION:Performance analysis
 ---
 
 NAME:JMH
 URL:http://openjdk.java.net/projects/code-tools/jmh/
-DESC:Harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM. (GPL-2.0 only WITH Classpath-exception-2.0)
+DESC:OpenJDK's microbenchmark harness with warmup and statistics. (GPL-2.0 only WITH Classpath-exception-2.0)
 SKIP:1
 SECTION:Performance analysis
 ---
 
 NAME:LatencyUtils
 URL:https://github.com/LatencyUtils/LatencyUtils
-DESC:Utilities for latency measurement and reporting.
+DESC:HDR histogram-based latency recording with pause correction.
 SKIP:1
 SECTION:Performance analysis
 ---
@@ -3906,1302 +3913,1302 @@ SECTION:Reactive libraries
 
 NAME:Dropwizard
 URL:https://github.com/dropwizard/dropwizard
-DESC:Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.
+DESC:Production-ready REST with Jetty, Jersey, and Metrics.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:Elide
 URL:https://elide.io
-DESC:Opinionated framework for JSON- or GraphQL-APIs based on a JPA data model.
+DESC:JSON API/GraphQL from JPA models with security.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:Jersey
 URL:https://jersey.github.io
-DESC:JAX-RS reference implementation.
+DESC:JAX-RS reference implementation with DI support.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:Microserver
 URL:https://github.com/aol/micro-server
-DESC:Convenient, extensible microservices plugin system for Spring & Spring Boot. With more than 30 plugins and growing, it supports both micro-monolith and pure microservices styles.
+DESC:Spring Boot microservices with 30+ plugins.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:Rapidoid
 URL:https://www.rapidoid.org
-DESC:Simple, secure and extremely fast framework consisting of an embedded HTTP server, GUI components and dependency injection.
+DESC:Ultra-fast HTTP server with embedded DI.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:rest.li
 URL:https://github.com/linkedin/rest.li
-DESC:Framework for building robust, scalable RESTful architectures using typesafe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.
+DESC:LinkedIn's REST framework with typed schemas.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:RESTEasy
 URL:https://resteasy.github.io
-DESC:Fully certified and portable implementation of the JAX-RS specification.
+DESC:Red Hat's JAX-RS implementation with async.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:RestExpress
 URL:https://github.com/RestExpress/RestExpress
-DESC:Thin wrapper on the JBoss Netty HTTP stack that provides scaling and performance.
+DESC:Netty-based REST for high throughput.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:Restlet Framework
 URL:https://github.com/restlet/restlet-framework-java
-DESC:Pioneering framework with powerful routing and filtering capabilities, and a unified client and server API.
+DESC:Unified REST client/server with content negotiation.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:Spark
 URL:http://sparkjava.com
-DESC:Sinatra inspired framework.
+DESC:Minimalist Sinatra-style REST in Java.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:Crnk
 URL:http://www.crnk.io
-DESC:Implementation of the JSON API specification to build resource-oriented REST endpoints with sorting, filtering, paging, linking, object graphs, type-safety, bulk updates, integrations and more.
+DESC:JSON API implementation with filtering and paging.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:springdoc-openapi
 URL:https://github.com/springdoc/springdoc-openapi
-DESC:Automates the generation of API documentation using Spring Boot projects.
+DESC:OpenAPI 3 docs from Spring Boot annotations.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:Swagger
 URL:https://swagger.io
-DESC:Standard, language-agnostic interface to REST APIs.
+DESC:API design, documentation, and code generation.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:openapi-generator
 URL:https://github.com/OpenAPITools/openapi-generator
-DESC:Allows generation of API client libraries, SDKs, server stubs, documentation and configuration automatically given an OpenAPI Spec.
+DESC:Generate clients/servers from OpenAPI specs.
 SKIP:1
 SECTION:REST Frameworks
 ---
 
 NAME:BioJava
 URL:https://biojava.org/
-DESC:Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics.
+DESC:Bioinformatics library for sequences, structures, and alignments.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:Chart-FX
 URL:https://github.com/GSI-CS-CO/chart-fx
-DESC:Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.
+DESC:Real-time scientific charting at 25Hz with millions of points.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:DataMelt
 URL:https://datamelt.org/
-DESC:Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later)
+DESC:Scientific computing environment with Python/Jython. (GPL-3.0-or-later)
 SKIP:1
 SECTION:Science
 ---
 
 NAME:Erdos
 URL:https://github.com/Erdos-Graph-Framework/Erdos
-DESC:Modular, light and easy graph framework for theoretic algorithms.
+DESC:Graph theory algorithms for research.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:GraphStream
 URL:http://graphstream-project.org
-DESC:Library for modeling and analyzing dynamic graphs.
+DESC:Dynamic graph modeling with visualization.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:JFreeChart
 URL:http://www.jfree.org/jfreechart/
-DESC:2D chart library for Swing, JavaFX and server-side applications. (LGPL-2.1-only)
+DESC:Comprehensive 2D charting for Swing/JavaFX. (LGPL-2.1-only)
 SKIP:1
 SECTION:Science
 ---
 
 NAME:JGraphT
 URL:https://github.com/jgrapht/jgrapht
-DESC:Graph library that provides mathematical graph-theory objects and algorithms.
+DESC:Graph algorithms: shortest path, flow, matching.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:JGraphX
 URL:https://github.com/jgraph/jgraphx
-DESC:Library for visualizing (mainly Swing) and interacting with node-edge graphs.
+DESC:Interactive graph visualization (powers draw.io).
 SKIP:1
 SECTION:Science
 ---
 
 NAME:LogicNG
 URL:https://github.com/logic-ng/LogicNG
-DESC:Library for creating, manipulating and solving Boolean and Pseudo-Boolean formulas.
+DESC:Boolean formula manipulation and SAT solving.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:Mines Java Toolkit
 URL:https://github.com/MinesJTK/jtk
-DESC:Library for geophysical scientific computation, visualization and digital signal analysis.
+DESC:Geophysics: seismic processing and visualization.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:Morpheus
 URL:https://github.com/zavtech/morpheus-core
-DESC:Provides a versatile two-dimensional memory efficient tabular data structure called a DataFrame to enable efficient in-memory analytics for scientific computing on the JVM.
+DESC:DataFrame library for tabular data analysis.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:Orekit
 URL:https://www.orekit.org/
-DESC:A low level space flight dynamics library providing basic elements (orbits, dates, attitude, frames...) and various algorithms (conversions, propagations, pointing...) to handle them.
+DESC:Space flight dynamics: orbit propagation and attitude.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:Orson-Charts
 URL:https://github.com/jfree/orson-charts
-DESC:Generates a wide variety of 3D charts that can be displayed with Swing and JavaFX or exported to PDF, SVG, PNG and JPEG. (GPL-3.0-only)
+DESC:Interactive 3D charts with PDF/SVG export. (GPL-3.0-only)
 SKIP:1
 SECTION:Science
 ---
 
 NAME:Tablesaw
 URL:https://github.com/jtablesaw/tablesaw
-DESC:Includes a data-frame, an embedded column store, and hundreds of methods to transform, summarize, or filter data.
+DESC:In-memory DataFrame with filtering and aggregation.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:XChart
 URL:https://github.com/knowm/XChart
-DESC:Light-weight library for plotting data. Many customizable chart types are available.
+DESC:Simple charting with minimal dependencies.
 SKIP:1
 SECTION:Science
 ---
 
 NAME:Apache Lucene
 URL:https://lucene.apache.org
-DESC:High-performance, full-featured, cross-platform, text search engine library.
+DESC:Foundation of most Java search; fast inverted indexes.
 SKIP:1
 SECTION:Search
 ---
 
 NAME:Apache Solr
 URL:https://lucene.apache.org/solr/
-DESC:Enterprise search engine optimized for high-volume traffic.
+DESC:Enterprise search with faceting and clustering.
 SKIP:1
 SECTION:Search
 ---
 
 NAME:Elasticsearch
 URL:https://www.elastic.co
-DESC:Distributed, multitenant-capable, full-text search engine with a RESTful web interface and schema-free JSON documents.
+DESC:Distributed search and analytics with REST API.
 SKIP:1
 SECTION:Search
 ---
 
 NAME:Indexer4j
 URL:https://github.com/haeungun/indexer4j
-DESC:Simple and light full text indexing and searching library.
+DESC:Lightweight in-memory full-text search.
 SKIP:1
 SECTION:Search
 ---
 
 NAME:Apache Shiro
 URL:https://shiro.apache.org
-DESC:Performs authentication, authorization, cryptography and session management.
+DESC:Framework-agnostic security with auth, crypto, and sessions.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Ayza
 URL:https://github.com/Hakky54/ayza
-DESC:High-level SSL configuration builder for configuring HTTP clients and servers with SSL/TLS.
+DESC:Fluent SSL/TLS configuration for HTTP clients and servers.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Bouncy Castle
 URL:https://www.bouncycastle.org/java.html
-DESC:All-purpose cryptographic library and JCA provider offering a wide range of functions, from basic helpers to PGP/SMIME operations.
+DESC:Comprehensive crypto library with FIPS-certified provider.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:DependencyCheck
 URL:https://github.com/jeremylong/DependencyCheck
-DESC:Detects publicly disclosed vulnerabilities contained within a project's dependencies.
+DESC:OWASP tool detecting vulnerable dependencies via NVD.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Cryptomator
 URL:https://cryptomator.org
-DESC:Multiplatform, transparent, client-side encryption of files in the cloud. (GPL-3.0-only)
+DESC:Client-side encryption for cloud storage with WebDAV. (GPL-3.0-only)
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Hdiv
 URL:https://github.com/hdiv/hdiv
-DESC:Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.
+DESC:Runtime protection against OWASP Top 10 attacks.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:jjwt
 URL:https://github.com/jwtk/jjwt
-DESC:JSON web token for Java and Android.
+DESC:JWT creation and verification with JWS/JWE support.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:jwt-java
 URL:https://github.com/BastiaanJansen/jwt-java
-DESC:Easily create and parse JSON Web Tokens and create customized JWT validators using a fluent API.
+DESC:Fluent JWT API with custom claim validation.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Jwks RSA
 URL:https://github.com/auth0/jwks-rsa-java
-DESC:JSON Web Key Set parser.
+DESC:JWKS endpoint client with key caching.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Kalium
 URL:https://github.com/abstractj/kalium
-DESC:Binding for the Networking and Cryptography (NaCl) library.
+DESC:NaCl/libsodium bindings for modern crypto primitives.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Keycloak
 URL:https://www.keycloak.org
-DESC:Integrated SSO and IDM for browser apps and RESTful web services.
+DESC:Open-source IAM with OIDC, SAML, and social login.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Keywhiz
 URL:https://github.com/square/keywhiz
-DESC:System for distributing and managing secrets.
+DESC:Square's secret management with ACLs and audit logs.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Nbvcxz
 URL:https://github.com/GoSimpleLLC/nbvcxz
-DESC:Advanced password strength estimation.
+DESC:Password strength estimator using pattern matching.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:OACC
 URL:http://oaccframework.org
-DESC:Provides permission-based authorization services.
+DESC:Fine-grained permission-based access control framework.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:OpenAM
 URL:https://github.com/OpenIdentityPlatform/OpenAM
-DESC:Access management solution that includes authentication, SSO, authorization, federation, entitlements and web services security.
+DESC:Enterprise access management with SSO and federation.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:OTP-Java
 URL:https://github.com/BastiaanJansen/OTP-Java
-DESC:One-time password generator library according to RFC 4226 (HOTP) and RFC 6238 (TOTP).
+DESC:TOTP/HOTP one-time password generation per RFC specs.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:pac4j
 URL:https://github.com/pac4j/pac4j
-DESC:Security engine.
+DESC:Multi-protocol security engine for OAuth, SAML, CAS.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Passay
 URL:http://www.passay.org/
-DESC:Enforce password policy by validating candidate passwords against a configurable rule set.
+DESC:Password policy enforcement with configurable rules.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Password4j
 URL:https://github.com/Password4j/password4j
-DESC:User-friendly cryptographic library that supports Argon2, Bcrypt, Scrypt, PBKDF2 and various other cryptographic hash functions.
+DESC:Password hashing with Argon2, BCrypt, SCrypt, and PBKDF2.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:SecurityBuilder
 URL:https://github.com/tersesystems/securitybuilder
-DESC:Fluent Builder API for JCA and JSSE classes and especially X.509 certificates.
+DESC:Fluent builders for X.509, keystores, and TLS contexts.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Themis
 URL:https://github.com/cossacklabs/themis
-DESC:Multi-platform high-level cryptographic library provides easy-to-use encryption for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications.
+DESC:High-level crypto for secure messaging and storage.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Tink
 URL:https://github.com/google/tink
-DESC:Provides a simple and misuse-proof API for common cryptographic tasks.
+DESC:Google's misuse-resistant crypto API with key management.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:Topaz
 URL:https://www.topaz.sh
-DESC:Fine-grained authorization for applications with support for RBAC, ABAC, and ReBAC.
+DESC:Authorization service with RBAC, ABAC, and relationship-based AC.
 SKIP:1
 SECTION:Security
 ---
 
 NAME:FlatBuffers
 URL:https://github.com/google/flatbuffers
-DESC:Memory-efficient serialization library that can access serialized data without unpacking and parsing it.
+DESC:Zero-copy access to serialized data without parsing.
 SKIP:1
 SECTION:Serialization
 ---
 
 NAME:FST
 URL:https://github.com/RuedigerMoeller/fast-serialization
-DESC:JDK-compatible, high-performance object graph serialization.
+DESC:10x faster than JDK serialization with drop-in replacement.
 SKIP:1
 SECTION:Serialization
 ---
 
 NAME:Fury
 URL:https://github.com/alipay/fury
-DESC:Blazing fast object graph serialization framework powered by JIT and zero-copy.
+DESC:JIT-accelerated serialization with cross-language support.
 SKIP:1
 SECTION:Serialization
 ---
 
 NAME:Kryo
 URL:https://github.com/EsotericSoftware/kryo
-DESC:Fast and efficient object graph serialization framework.
+DESC:Fast, compact object graph serialization for games and caching.
 SKIP:1
 SECTION:Serialization
 ---
 
 NAME:MessagePack
 URL:https://github.com/msgpack/msgpack-java
-DESC:Efficient binary serialization format.
+DESC:Compact binary format smaller than JSON.
 SKIP:1
 SECTION:Serialization
 ---
 
 NAME:PHP Serializer
 URL:https://github.com/marcospassos/java-php-serializer
-DESC:Serializing objects in the PHP serialization format.
+DESC:Serialize Java objects to PHP format for interop.
 SKIP:1
 SECTION:Serialization
 ---
 
 NAME:Apache Tomcat
 URL:https://tomcat.apache.org
-DESC:Robust, all-round server for Servlet and JSP.
+DESC:Reference Servlet container with virtual hosts and clustering.
 SKIP:1
 SECTION:Server
 ---
 
 NAME:Apache TomEE
 URL:https://tomee.apache.org
-DESC:Tomcat plus Java EE.
+DESC:Tomcat with Jakarta EE (CDI, JPA, JAX-RS) baked in.
 SKIP:1
 SECTION:Server
 ---
 
 NAME:Jetty
 URL:https://www.eclipse.org/jetty/
-DESC:Provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.
+DESC:Lightweight, embeddable server with HTTP/2 and WebSocket.
 SKIP:1
 SECTION:Server
 ---
 
 NAME:nanohttpd
 URL:https://github.com/NanoHttpd/nanohttpd
-DESC:Tiny, easily embeddable HTTP server.
+DESC:Tiny embeddable HTTP server in one Java file.
 SKIP:1
 SECTION:Server
 ---
 
 NAME:WildFly
 URL:https://www.wildfly.org
-DESC:Formerly known as JBoss and developed by Red Hat with extensive Java EE support. (LGPL-2.1-only)
+DESC:Full Jakarta EE server with modular architecture. (LGPL-2.1-only)
 SKIP:1
 SECTION:Server
 ---
 
 NAME:Freemarker
 URL:https://freemarker.apache.org
-DESC:Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.
+DESC:Powerful templating with macros, includes, and auto-escaping.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:Handlebars.java
 URL:https://jknack.github.io/handlebars.java/
-DESC:Logicless and semantic Mustache templates.
+DESC:Logic-less Mustache templates with helpers.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:Jade4J
 URL:https://github.com/neuland/jade4j
-DESC:Implementation of Pug (formerly known as Jade).
+DESC:Pug/Jade template engine for concise HTML.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:Jamal
 URL:https://github.com/verhas/jamal
-DESC:Extendable template engine embedded into Maven/JavaDoc, supporting multiple extensions (Groovy, Ruby, JavaScript, JShell, PlantUml) with support for snippet handling.
+DESC:Macro processor for Maven/Javadoc with Groovy and JShell.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:jstachio
 URL:https://github.com/jstachio/jstachio
-DESC:Typesafe Mustache templating engine.
+DESC:Compile-time Mustache with type-safe binding.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:jte
 URL:https://github.com/casid/jte
-DESC:Compiles to classes, and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.
+DESC:Fast, compiled templates with IntelliJ plugin support.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:Jtwig
 URL:https://github.com/jtwig/jtwig
-DESC:Modular, configurable and fully tested template engine.
+DESC:Twig-inspired engine with inheritance and macros.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:Pebble
 URL:https://pebbletemplates.io
-DESC:Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
+DESC:Twig-like templates with inheritance, i18n, and autoescaping.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:Rocker
 URL:https://github.com/fizzed/rocker
-DESC:Optimized, memory efficient and speedy template engine producing statically typed, plain objects.
+DESC:Type-safe templates compiling to optimized Java code.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:StringTemplate
 URL:https://github.com/antlr/stringtemplate4
-DESC:Template engine for generating source code, web pages, emails, or any other formatted text output.
+DESC:ANTLR's template engine for code generation.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:Thymeleaf
 URL:https://www.thymeleaf.org
-DESC:Aims to be a substitute for JSP and works for XML files.
+DESC:Natural templates that work as HTML prototypes.
 SKIP:1
 SECTION:Template Engine
 ---
 
 NAME:Awaitility
 URL:https://github.com/awaitility/awaitility
-DESC:DSL for synchronizing asynchronous operations.
+DESC:Fluent DSL for polling until async conditions are met.
 SKIP:1
 SECTION:Testing/Asynchronous
 ---
 
 NAME:ConcurrentUnit
 URL:https://github.com/jhalterman/concurrentunit
-DESC:Toolkit for testing multi-threaded and asynchronous applications.
+DESC:Test multi-threaded code with assertions from any thread.
 SKIP:1
 SECTION:Testing/Asynchronous
 ---
 
 NAME:GreenMail
 URL:https://greenmail-mail-test.github.io/greenmail/
-DESC:In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. (GPL-2.0-only)
+DESC:Embedded SMTP/POP3/IMAP server for email testing. (GPL-2.0-only)
 SKIP:1
 SECTION:Testing/Asynchronous
 ---
 
 NAME:Hoverfly Java
 URL:https://github.com/SpectoLabs/hoverfly-java
-DESC:Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.
+DESC:HTTP service virtualization with record/playback.
 SKIP:1
 SECTION:Testing/Asynchronous
 ---
 
 NAME:Karate
 URL:https://github.com/intuit/karate
-DESC:DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.
+DESC:BDD API testing with mocks, perf tests, and JSON/XML assertions.
 SKIP:1
 SECTION:Testing/Asynchronous
 ---
 
 NAME:REST Assured
 URL:https://github.com/rest-assured/rest-assured
-DESC:DSL for easy testing of REST/HTTP services.
+DESC:Fluent API for testing REST services with JSON/XML validation.
 SKIP:1
 SECTION:Testing/Asynchronous
 ---
 
 NAME:WebTau
 URL:https://github.com/testingisdocumenting/webtau
-DESC:Test across REST-API, Graph QL, Browser, Database, CLI and Business Logic with consistent set of matchers and concepts.
+DESC:Unified testing: REST, GraphQL, browser, CLI, and database.
 SKIP:1
 SECTION:Testing/Asynchronous
 ---
 
 NAME:Cucumber
 URL:https://github.com/cucumber/cucumber-jvm
-DESC:Provides a way to describe features in a plain language which customers can understand.
+DESC:Gherkin specs with step definitions in Java.
 SKIP:1
 SECTION:Testing/BDD
 ---
 
 NAME:Cukes-REST
 URL:https://github.com/ctco/cukes
-DESC:Collection of Gherkin steps for REST-service testing using Cucumber.
+DESC:Cucumber steps for REST API testing.
 SKIP:1
 SECTION:Testing/BDD
 ---
 
 NAME:J8Spec
 URL:https://github.com/j8spec/j8spec
-DESC:Follows a Jasmine-like syntax.
+DESC:Jasmine/RSpec-style specs with lambda syntax.
 SKIP:1
 SECTION:Testing/BDD
 ---
 
 NAME:JBehave
 URL:https://jbehave.org
-DESC:Extensively configurable framework that describes stories.
+DESC:Story-driven BDD with narrative format.
 SKIP:1
 SECTION:Testing/BDD
 ---
 
 NAME:JGiven
 URL:http://jgiven.org
-DESC:Provides a fluent API which allows for simpler composition.
+DESC:Fluent BDD with readable HTML reports.
 SKIP:1
 SECTION:Testing/BDD
 ---
 
 NAME:Lamdba Behave
 URL:https://github.com/RichardWarburton/lambda-behave
-DESC:Aims to provide a fluent API to write tests in long and descriptive sentences that read like plain English.
+DESC:Expressive specs using lambdas and natural language.
 SKIP:1
 SECTION:Testing/BDD
 ---
 
 NAME:Serenity BDD
 URL:https://github.com/serenity-bdd/serenity-core
-DESC:Automated Acceptance testing and reporting library that works with Cucumber, JBehave and JUnit to make it easier to write high quality executable specifications.
+DESC:Living documentation with Cucumber/JUnit integration.
 SKIP:1
 SECTION:Testing/BDD
 ---
 
 NAME:AutoParams
 URL:https://github.com/AutoParams/AutoParams
-DESC:Supports generating test data or combining scenarios for parameterized tests.
+DESC:JUnit 5 extension for automatic test parameter generation.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:Beanmother
 URL:https://github.com/keepcosmos/beanmother
-DESC:Sets up beans from YAML fixtures.
+DESC:YAML-based fixture factory for test objects.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:Datafaker
 URL:https://github.com/datafaker-net/datafaker
-DESC:Modern fake data generator forked from Java Faker.
+DESC:Modern faker with 200+ data providers and locales.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:Fixture Factory
 URL:https://github.com/six2six/fixture-factory
-DESC:Generates fake objects from a template.
+DESC:Template-based test object builder.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:jFairy
 URL:https://github.com/Devskiller/jfairy
-DESC:Fake data generator.
+DESC:Realistic fake data (names, addresses, companies).
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:Instancio
 URL:https://github.com/instancio/instancio
-DESC:Automates data setup in unit tests by generating fully-populated, reproducible objects. Includes JUnit 5 extension.
+DESC:Generate fully-populated objects with reproducible seeds.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:Randomized Testing
 URL:https://github.com/randomizedtesting/randomizedtesting
-DESC:JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
+DESC:Repeatable randomized tests with seed control.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:Java Faker
 URL:https://github.com/DiUS/java-faker
-DESC:Port of Ruby's fake data generator.
+DESC:Ruby Faker port with extensive data types.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:Mockneat
 URL:https://github.com/nomemory/mockneat
-DESC:Another fake data generator.
+DESC:Fluent fake data API with constrained generators.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:JMock
 URL:https://github.com/xcancloud/JMock
-DESC:JMock is a high-performance data generation and simulation component library implemented in Java.
+DESC:High-performance mock data generation library.
 SKIP:1
 SECTION:Testing/Fixtures
 ---
 
 NAME:Apache JMeter
 URL:http://jmeter.apache.org
-DESC:Functional testing and performance measurements.
+DESC:Load testing with GUI and distributed execution.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:JMeter DSL.java
 URL:https://abstracta.github.io/jmeter-java-dsl/
-DESC:Load tests with JMeter as simple as a JUnit test.
+DESC:Programmatic JMeter tests with fluent Java API.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:Arquillian
 URL:http://arquillian.org
-DESC:Integration and functional testing platform for Java EE containers.
+DESC:Integration testing with container lifecycle management.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:cdi-test
 URL:https://github.com/guhilling/cdi-test
-DESC:JUnit extension for easy and efficient testing of CDI components.
+DESC:Lightweight CDI testing without full container.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:Citrus
 URL:https://citrusframework.org
-DESC:Integration testing framework that focuses on both client- and server-side messaging.
+DESC:Integration testing for HTTP, JMS, SOAP, and Kafka.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:Gatling
 URL:https://gatling.io
-DESC:Load testing tool designed for ease of use, maintainability and high performance.
+DESC:Scala-based load testing with detailed HTML reports.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:JUnit
 URL:https://junit.org/junit5/
-DESC:Common testing framework.
+DESC:The standard Java testing framework with extensions.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:jqwik
 URL:https://jqwik.net
-DESC:Engine for property-based testing built on JUnit 5.
+DESC:Property-based testing with shrinking on JUnit 5.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:Pact JVM
 URL:https://github.com/DiUS/pact-jvm
-DESC:Consumer-driven contract testing.
+DESC:Contract testing for microservices compatibility.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:PIT
 URL:http://pitest.org
-DESC:Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
+DESC:Mutation testing measuring test suite quality.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:weld-testing
 URL:https://github.com/weld/weld-testing
-DESC:Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5.
+DESC:CDI test extensions for JUnit 4/5 and Spock.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:selenium
 URL:https://github.com/SeleniumHQ/selenium
-DESC:Browser automation framework and ecosystem.
+DESC:Browser automation for web application testing.
 SKIP:1
 SECTION:Testing/Frameworks
 ---
 
 NAME:AssertJ
 URL:https://joel-costigliola.github.io/assertj/
-DESC:Fluent assertions that improve readability.
+DESC:Fluent assertions with IDE auto-completion.
 SKIP:1
 SECTION:Testing/Matchers
 ---
 
 NAME:Hamcrest
 URL:http://hamcrest.org/JavaHamcrest/
-DESC:Matchers that can be combined to create flexible expressions of intent.
+DESC:Composable matchers for expressive assertions.
 SKIP:1
 SECTION:Testing/Matchers
 ---
 
 NAME:JSONAssert
 URL:http://jsonassert.skyscreamer.org
-DESC:Simplifies testing JSON strings.
+DESC:JSON comparison with strict/lenient modes.
 SKIP:1
 SECTION:Testing/Matchers
 ---
 
 NAME:JsonUnit
 URL:https://github.com/lukas-krecan/JsonUnit
-DESC:Library that simplifies JSON comparison in tests.
+DESC:JSON assertions with path ignoring and regex.
 SKIP:1
 SECTION:Testing/Matchers
 ---
 
 NAME:Truth
 URL:https://truth.dev
-DESC:Google's fluent assertion and proposition framework.
+DESC:Google's extensible assertion framework.
 SKIP:1
 SECTION:Testing/Matchers
 ---
 
 NAME:XMLUnit
 URL:https://github.com/xmlunit/xmlunit
-DESC:Simplifies testing for XML output.
+DESC:XML comparison with diff and XPath assertions.
 SKIP:1
 SECTION:Testing/Matchers
 ---
 
 NAME:ConsoleCaptor
 URL:https://github.com/Hakky54/console-captor
-DESC:Captures console output for unit testing purposes.
+DESC:Capture stdout/stderr for assertion.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:junit-dataprovider
 URL:https://github.com/TNG/junit-dataprovider
-DESC:TestNG-like data provider/runner for JUnit.
+DESC:TestNG-style parameterized tests for JUnit.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:junit-pioneer
 URL:https://junit-pioneer.org/
-DESC:JUnit 5 extension pack, pushing the frontiers on Jupiter.
+DESC:JUnit 5 extensions: environment variables, temp dirs, etc.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:LogCaptor
 URL:https://github.com/Hakky54/log-captor
-DESC:Captures log entries for unit testing purposes.
+DESC:Capture and assert log messages in tests.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:log-capture
 URL:https://github.com/dm-drogeriemarkt/log-capture
-DESC:Captures log entries and provides assertions for unit and integration testing.
+DESC:AssertJ-style log assertions with MDC support.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:Mutability Detector
 URL:https://github.com/MutabilityDetector/MutabilityDetector
-DESC:Reports whether instances of a given class are immutable.
+DESC:Verify class immutability at test time.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:pojo-tester
 URL:https://www.pojo.pl
-DESC:Automatically performs tests on basic POJO methods. (LGPL-3.0-only)
+DESC:Auto-test equals, hashCode, toString, getters/setters. (LGPL-3.0-only)
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:raml-tester
 URL:https://github.com/nidi3/raml-tester
-DESC:Tests if a request/response matches a given RAML definition.
+DESC:Validate API requests/responses against RAML specs.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:Selfie
 URL:https://github.com/diffplug/selfie
-DESC:Snapshot testing (inline and on disk).
+DESC:Snapshot testing with inline or file-based snapshots.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:Stebz
 URL:https://github.com/stebz/stebz
-DESC:Multi-approach framework for test steps managing.
+DESC:Step-based test organization framework.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:Testcontainers
 URL:https://github.com/testcontainers/testcontainers-java
-DESC:Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
+DESC:Disposable Docker containers for DBs, browsers, and services.
 SKIP:1
 SECTION:Testing/Testing Miscellaneous
 ---
 
 NAME:JMockit
 URL:http://jmockit.github.io
-DESC:Integration testing, API mocking and faking, and code coverage.
+DESC:Full mocking with expectations, verifications, and coverage.
 SKIP:1
 SECTION:Testing/Mocking
 ---
 
 NAME:Mockito
 URL:https://github.com/mockito/mockito
-DESC:Mocking framework that lets you write tests with a clean and simple API.
+DESC:Clean, readable mocking with spy and argument capture.
 SKIP:1
 SECTION:Testing/Mocking
 ---
 
 NAME:MockServer
 URL:https://www.mock-server.com
-DESC:Allows mocking of systems integrated with HTTPS.
+DESC:HTTP/HTTPS mock server with expectation matching.
 SKIP:1
 SECTION:Testing/Mocking
 ---
 
 NAME:Moco
 URL:https://github.com/dreamhead/moco
-DESC:Concise web services for stubs and mocks.
+DESC:Standalone mock server with simple JSON config.
 SKIP:1
 SECTION:Testing/Mocking
 ---
 
 NAME:PowerMock
 URL:https://github.com/powermock/powermock
-DESC:Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers.
+DESC:Mock statics, constructors, and final classes.
 SKIP:1
 SECTION:Testing/Mocking
 ---
 
 NAME:WireMock
 URL:http://wiremock.org
-DESC:Stubs and mocks web services.
+DESC:HTTP service simulator with record/playback and fault injection.
 SKIP:1
 SECTION:Testing/Mocking
 ---
 
 NAME:EasyMock
 URL:https://github.com/easymock/easymock
-DESC:EasyMock is a Java library that provides an easy way to use Mock Objects in unit testing.
+DESC:Record/replay mocking with nice/strict modes.
 SKIP:1
 SECTION:Testing/Mocking
 ---
 
 NAME:Arthas
 URL:https://github.com/alibaba/arthas
-DESC:Allows to troubleshoot production issues for applications without modifying code or restarting servers.
+DESC:Production diagnostics: class decompile, trace, and profiling live.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:bucket4j
 URL:https://github.com/vladimir-bukhtoyarov/bucket4j
-DESC:Rate limiting library based on token-bucket algorithm.
+DESC:Token bucket rate limiter with distributed support.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:cactoos
 URL:https://github.com/yegor256/cactoos
-DESC:Collection of object-oriented primitives.
+DESC:Object-oriented primitives avoiding nulls and statics.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Chocotea
 URL:https://github.com/cleopatra27/chocotea
-DESC:Generates postman collection, environment and integration tests from java code.
+DESC:Generate Postman collections from annotated Java code.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:CRaSH
 URL:http://www.crashub.org
-DESC:Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others. (LGPL-2.1-or-later)
+DESC:SSH shell into running JVMs for inspection. (LGPL-2.1-or-later)
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Dex
 URL:https://github.com/PatMartin/Dex
-DESC:Java/JavaFX tool capable of powerful ETL and data visualization.
+DESC:Data visualization and ETL with JavaFX.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:dregex
 URL:https://github.com/marianobarrios/dregex
-DESC:Regular expression engine that uses deterministic finite automata. It supports some Perl-style features and yet retains linear matching time, and also offers set operations.
+DESC:DFA-based regex with set operations and linear time.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Embulk
 URL:https://github.com/embulk/embulk
-DESC:Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
+DESC:Bulk data loader for DBs, S3, and file formats.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:fswatch
 URL:https://github.com/vorburger/ch.vorburger.fswatch
-DESC:Micro library to watch for directory file system changes, simplifying java.nio.file.WatchService.
+DESC:Simplified file system watching wrapper.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Gephi
 URL:https://github.com/gephi/gephi
-DESC:Cross-platform for visualizing and manipulating large graph networks. (GPL-3.0-only)
+DESC:Network graph visualization and analysis tool. (GPL-3.0-only)
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Guava
 URL:https://github.com/google/guava
-DESC:Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and more.
+DESC:Google's core libraries: collections, caching, I/O, and more.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:JADE
 URL:https://jade.tilab.com
-DESC:Framework and environment for building and debugging multi-agent systems. (LGPL-2.0-only)
+DESC:Multi-agent system framework with FIPA compliance. (LGPL-2.0-only)
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Javadoc Publisher
 URL:https://github.com/MathieuSoysal/Javadoc-publisher.yml
-DESC:Generate Javadoc from your maven/gradle project and deploy it automatically on GitHub Page.
+DESC:GitHub Action for auto-publishing Javadoc.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Java Diff Utils
 URL:https://java-diff-utils.github.io/java-diff-utils/
-DESC:Utilities for text or data comparison and patching.
+DESC:Unified diff, patch, and merge utilities.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:JavaVerbalExpressions
 URL:https://github.com/VerbalExpressions/JavaVerbalExpressions
-DESC:Library that helps with constructing difficult regular expressions.
+DESC:Readable regex builder with fluent API.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:JGit
 URL:https://www.eclipse.org/jgit/
-DESC:Lightweight, pure Java library implementing the Git version control system.
+DESC:Pure Java Git implementation used by Eclipse.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:JKScope
 URL:https://github.com/evpl/jkscope
-DESC:Java scope functions inspired by Kotlin.
+DESC:Kotlin-style scope functions (let, also, run) for Java.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:minio-java
 URL:https://github.com/minio/minio-java
-DESC:Provides simple APIs to access any Amazon S3-compatible object storage server.
+DESC:S3-compatible object storage client.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Protégé
 URL:https://protege.stanford.edu
-DESC:Provides an ontology editor and a framework to build knowledge-based systems.
+DESC:Ontology editor for OWL and knowledge graphs.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Semver4j
 URL:https://github.com/semver4j/semver4j
-DESC:Lightweight library that helps you handling semantic versioning with different modes.
+DESC:Semantic versioning parsing and comparison.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:Underscore-java
 URL:https://github.com/javadev/underscore-java
-DESC:Port of Underscore.js functions.
+DESC:Functional utilities: map, filter, reduce, and more.
 SKIP:1
 SECTION:Utility
 ---
 
 NAME:jabba
 URL:https://github.com/shyiko/jabba
-DESC:Java Version Manager inspired by nvm. Supports macOS, Linux and Windows.
+DESC:Cross-platform JDK manager with remote install support.
 SKIP:1
 SECTION:Version Managers
 ---
 
 NAME:jenv
 URL:https://github.com/jenv/jenv
-DESC:Java Version Manager inspired by rbenv. Can configure globally or per project. Tested on Debian and macOS.
+DESC:Project-level Java version switching via shell.
 SKIP:1
 SECTION:Version Managers
 ---
 
 NAME:SDKMan
 URL:https://github.com/sdkman/sdkman-cli
-DESC:Java Version Manager inspired by RVM and rbenv. Supports UNIX-based platforms and Windows.
+DESC:Manage JDKs and tools (Maven, Gradle) with one CLI.
 SKIP:1
 SECTION:Version Managers
 ---
 
 NAME:Apache Nutch
 URL:https://nutch.apache.org
-DESC:Highly extensible, highly scalable web crawler for production environments.
+DESC:Hadoop-based crawler with Solr/Elasticsearch integration.
 SKIP:1
 SECTION:Web Crawling
 ---
 
 NAME:Crawler4j
 URL:https://github.com/yasserg/crawler4j
-DESC:Simple and lightweight web crawler.
+DESC:Multi-threaded crawler with depth and politeness control.
 SKIP:1
 SECTION:Web Crawling
 ---
 
 NAME:jsoup
 URL:https://jsoup.org
-DESC:Scrapes, parses, manipulates and cleans HTML.
+DESC:HTML parsing with CSS selectors and DOM manipulation.
 SKIP:1
 SECTION:Web Crawling
 ---
 
 NAME:StormCrawler
 URL:http://stormcrawler.net
-DESC:SDK for building low-latency and scalable web crawlers.
+DESC:Real-time crawler on Apache Storm for scale.
 SKIP:1
 SECTION:Web Crawling
 ---
 
 NAME:webmagic
 URL:https://github.com/code4craft/webmagic
-DESC:Scalable crawler with downloading, url management, content extraction and persistent.
+DESC:Modular crawler with XPath/CSS extraction and pipelines.
 SKIP:1
 SECTION:Web Crawling
 ---
 
 NAME:ActiveJ
 URL:https://activej.io
-DESC:Lightweight asynchronous framework built from the ground up for developing high-performance web applications.
+DESC:Async-first framework with 1M+ req/sec on single core.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Apache Tapestry
 URL:https://tapestry.apache.org
-DESC:Component-oriented framework for creating dynamic, robust, highly scalable web applications.
+DESC:Component-based framework with live reload.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Apache Wicket
 URL:https://wicket.apache.org
-DESC:Component-based web application framework similar to Tapestry, with a stateful GUI.
+DESC:Stateful component model with type-safe Java.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Blade
 URL:https://github.com/lets-blade/blade
-DESC:Lightweight, modular framework that aims to be elegant and simple.
+DESC:Lightweight MVC framework with Netty backend.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Bootique
 URL:https://bootique.io
-DESC:Minimally opinionated framework for runnable apps.
+DESC:Modular app framework with config and metrics.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Firefly
 URL:http://www.fireflysource.com
-DESC:Asynchronous framework for rapid development of high-performance web application.
+DESC:Async framework with HTTP/2 and WebSocket.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Javalin
 URL:https://javalin.io/
-DESC:Microframework for web applications.
+DESC:Simple REST API framework on Jetty.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Jooby
 URL:http://www.jooby.org
-DESC:Scalable, fast and modular micro-framework that offers multiple programming models.
+DESC:Modular framework with Netty, Jetty, or Undertow.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Ninja
 URL:http://www.ninjaframework.org
-DESC:Full-stack web framework.
+DESC:Full-stack with ORM, templates, and testing.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Pippo
 URL:http://www.pippo.ro
-DESC:Small, highly modularized, Sinatra-like framework.
+DESC:Micro-framework with routing, templates, and i18n.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Play
 URL:https://www.playframework.com
-DESC:Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala.
+DESC:Reactive framework with hot reload for Scala/Java.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:PrimeFaces
 URL:https://www.primefaces.org
-DESC:JSF framework with both free and commercial/support versions and frontend components.
+DESC:JSF components with 100+ UI widgets.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Ratpack
 URL:https://ratpack.io
-DESC:Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
+DESC:Non-blocking HTTP with RxJava and Groovy DSL.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Takes
 URL:https://github.com/yegor256/takes
-DESC:Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
+DESC:Truly OOP web framework without annotations.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Vaadin
 URL:https://vaadin.com
-DESC:Full-stack open-source Java framework that simplifies web app development. Build complex, interactive applications with Java alone, and enhance with TypeScript and React components, without needing deep JavaScript, CSS, or HTML expertise.
+DESC:Build web UIs in Java with optional React components.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:WebForms Core
 URL:https://github.com/webforms-core
-DESC:A technology for managing HTML tags from the server.
+DESC:Server-side HTML tag management.
 SKIP:1
 SECTION:Web Frameworks
 ---
 
 NAME:Cadence
 URL:https://cadenceworkflow.io
-DESC:Stateful code platform from Uber.
+DESC:Uber's durable execution platform for long-running workflows.
 SKIP:1
 SECTION:Workflow Orchestration Engines
 ---
 
 NAME:flowable
 URL:https://github.com/flowable/flowable-engine
-DESC:Compact and efficient workflow and business process management platform.
+DESC:BPMN 2.0, CMMN, and DMN engine with REST API.
 SKIP:1
 SECTION:Workflow Orchestration Engines
 ---
 
 NAME:Temporal
 URL:https://temporal.io
-DESC:Microservice orchestration platform, forked from Cadence but gRPC based.
+DESC:Durable execution with gRPC; Cadence successor with cloud offering.
 SKIP:1
 SECTION:Workflow Orchestration Engines
 ---

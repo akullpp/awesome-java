@@ -103,7 +103,7 @@ Map<String, StatsMapping> readStatsMappings(Path statsPath) throws IOException {
     if (section.isBlank()) {
       continue;
     }
-    String repo = null, name = null, starsText = null, lastCommitText = null;
+    String repo = null, name = null, starsText = null, lastCommitText = null, licenseText = null;
 
     for (var line : section.lines().toArray(String[]::new)) {
       if (line.trim().isEmpty()) {
@@ -117,6 +117,8 @@ Map<String, StatsMapping> readStatsMappings(Path statsPath) throws IOException {
         starsText = line.substring(Constants.STARS_PREFIX.length());
       } else if (line.startsWith(Constants.COMMIT_PREFIX)) {
         lastCommitText = line.substring(Constants.COMMIT_PREFIX.length());
+      } else if (line.startsWith(Constants.LICENSE_PREFIX)) {
+        licenseText = line.substring(Constants.LICENSE_PREFIX.length());
       }
     }
     if (repo != null && name != null) {
@@ -124,7 +126,8 @@ Map<String, StatsMapping> readStatsMappings(Path statsPath) throws IOException {
         name,
         repo,
         starsText != null ? starsText : Constants.NO_STATS,
-        lastCommitText != null ? lastCommitText : Constants.NO_STATS
+        lastCommitText != null ? lastCommitText : Constants.NO_STATS,
+        licenseText != null ? licenseText : Constants.NO_STATS
       ));
     }
   }
@@ -160,6 +163,7 @@ List<StatsMapping> generateStatsMappings(List<ProjectEntry> entries, Map<String,
         entry.name(),
         "",
         Constants.NO_STATS,
+        Constants.NO_STATS,
         Constants.NO_STATS
       ));
       continue;
@@ -171,6 +175,7 @@ List<StatsMapping> generateStatsMappings(List<ProjectEntry> entries, Map<String,
         entry.name(),
         "",
         Constants.NO_STATS,
+        Constants.NO_STATS,
         Constants.NO_STATS
       ));
       continue;
@@ -178,13 +183,15 @@ List<StatsMapping> generateStatsMappings(List<ProjectEntry> entries, Map<String,
 
     processed++;
 
-    // Check if we already have data for this repository
+    // Check if we already have complete data for this repository (including license)
     var existing = existingMappings.get(entry.name());
     if (existing != null && existing.repo().equals(repo) &&
         !existing.starsText().equals(Constants.NO_STATS) &&
         !existing.lastCommitText().equals(Constants.NO_STATS) &&
         !existing.starsText().equals(Constants.INVALID_REPO) &&
-        !existing.lastCommitText().equals(Constants.INVALID_REPO)) {
+        !existing.lastCommitText().equals(Constants.INVALID_REPO) &&
+        existing.licenseText() != null &&
+        !existing.licenseText().equals(Constants.NO_STATS)) {
       mappings.add(existing);
       if (processed % 50 == 0) {
         System.out.printf("Processing %d/%d repositories... (using cached data)%n", processed, total);
@@ -202,7 +209,8 @@ List<StatsMapping> generateStatsMappings(List<ProjectEntry> entries, Map<String,
       entry.name(),
       repo,
       stats.starsText(),
-      stats.lastCommitText()
+      stats.lastCommitText(),
+      stats.licenseText()
     ));
 
     // Rate limiting: Add a 0.5 second delay to avoid hitting the limit too quickly
@@ -228,9 +236,9 @@ HttpRequest buildGitHubRequest(String uri, String githubToken) {
 }
 
 /**
- * Fetches both stars and last commit date in a single API request.
+ * Fetches stars, last commit date, and license in a single API request.
  */
-record RepoStats(String starsText, String lastCommitText) {}
+record RepoStats(String starsText, String lastCommitText, String licenseText) {}
 
 RepoStats fetchRepoStats(HttpClient client, String repo, String githubToken, int requestNumber) {
   try {
@@ -242,6 +250,7 @@ RepoStats fetchRepoStats(HttpClient client, String repo, String githubToken, int
         var body = response.body();
         var starsMatcher = Constants.STARS_PATTERN.matcher(body);
         var pushedAtMatcher = Constants.PUSHED_AT_PATTERN.matcher(body);
+        var licenseMatcher = Constants.LICENSE_PATTERN.matcher(body);
 
         var starsText = starsMatcher.find()
           ? formatStars(Long.parseLong(starsMatcher.group(1)))
@@ -251,24 +260,28 @@ RepoStats fetchRepoStats(HttpClient client, String repo, String githubToken, int
           ? formatDate(pushedAtMatcher.group(1))
           : Constants.NO_STATS;
 
-        yield new RepoStats(starsText, lastCommitText);
+        var licenseText = licenseMatcher.find() && licenseMatcher.group(1) != null
+          ? formatLicense(licenseMatcher.group(1))
+          : Constants.NO_STATS;
+
+        yield new RepoStats(starsText, lastCommitText, licenseText);
       }
       case 404 -> {
         System.err.printf("ERROR: Repository %s not found%n", repo);
-        yield new RepoStats(Constants.INVALID_REPO, Constants.INVALID_REPO);
+        yield new RepoStats(Constants.INVALID_REPO, Constants.INVALID_REPO, Constants.NO_STATS);
       }
       case 403 -> {
         System.err.printf("ERROR: Access forbidden for %s%n", repo);
-        yield new RepoStats(Constants.NO_STATS, Constants.NO_STATS);
+        yield new RepoStats(Constants.NO_STATS, Constants.NO_STATS, Constants.NO_STATS);
       }
-      default -> new RepoStats(Constants.NO_STATS, Constants.NO_STATS);
+      default -> new RepoStats(Constants.NO_STATS, Constants.NO_STATS, Constants.NO_STATS);
     };
   } catch (InterruptedException e) {
     Thread.currentThread().interrupt();
-    return new RepoStats(Constants.NO_STATS, Constants.NO_STATS);
+    return new RepoStats(Constants.NO_STATS, Constants.NO_STATS, Constants.NO_STATS);
   } catch (Exception e) {
     System.err.printf("ERROR fetching stats for %s: %s%n", repo, e.getMessage());
-    return new RepoStats(Constants.NO_STATS, Constants.NO_STATS);
+    return new RepoStats(Constants.NO_STATS, Constants.NO_STATS, Constants.NO_STATS);
   }
 }
 
@@ -280,6 +293,16 @@ String formatStars(long stars) {
     return "%.1fk".formatted(stars / 1000.0);
   }
   return String.valueOf(stars);
+}
+
+/**
+ * Formats license SPDX ID for display.
+ */
+String formatLicense(String spdxId) {
+  if (spdxId == null || spdxId.isBlank() || spdxId.equals("NOASSERTION")) {
+    return Constants.NO_STATS;
+  }
+  return spdxId;
 }
 
 /**
@@ -330,11 +353,13 @@ void writeStatsMappings(Path outputPath, List<StatsMapping> mappings) throws IOE
           %s%s
           %s%s
           %s%s
+          %s%s
           """.formatted(
             Constants.REPO_PREFIX, m.repo(),
             Constants.NAME_PREFIX, m.name(),
             Constants.STARS_PREFIX, m.starsText(),
-            Constants.COMMIT_PREFIX, m.lastCommitText()
+            Constants.COMMIT_PREFIX, m.lastCommitText(),
+            Constants.LICENSE_PREFIX, m.licenseText()
           ).trim())
       .collect(Collectors.joining("\n\n"));
 
@@ -348,5 +373,6 @@ record StatsMapping(
   String name,
   String repo,
   String starsText,
-  String lastCommitText
+  String lastCommitText,
+  String licenseText
 ) {}
