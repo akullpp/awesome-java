@@ -1,0 +1,67 @@
+name: Update README
+
+on:
+  schedule:
+    # Run once a week on Monday at 00:00 UTC
+    - cron: "0 0 * * 1"
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches:
+      - master
+      - test
+    paths:
+      - "CONTRIBUTE_README.md"
+      - "scripts/**"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for git operations
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "25"
+
+      - name: Restore stats cache
+        run: |
+          mkdir -p .tmp
+          # On scheduled runs, refresh all stats by not restoring cache
+          # On manual/push runs, use cache to avoid unnecessary API calls
+          if [ "${{ github.event_name }}" == "schedule" ]; then
+            echo "Scheduled run detected - will fetch fresh data for all repositories"
+            # Don't restore cache, let script fetch everything fresh
+          else
+            # Try to restore stats cache from previous run
+            if git show HEAD:.tmp/github-stats.txt > .tmp/github-stats.txt 2>/dev/null; then
+              echo "Restored existing stats cache from previous commit"
+            else
+              echo "No existing stats cache found, will fetch all data"
+            fi
+          fi
+
+      - name: Run README generation workflow
+        env:
+          PAT: ${{ secrets.PAT }}
+        run: |
+          java --enable-preview --source 25 scripts/run_workflow.java
+
+      - name: Commit updated README and stats cache
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -f README.md
+          # Always commit the stats cache so it persists for next run
+          git add -f .tmp/github-stats.txt || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update README with latest GitHub stats [skip ci]"
+            git push
+          fi
