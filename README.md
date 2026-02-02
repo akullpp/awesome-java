@@ -318,6 +318,7 @@ _Efficient and specific data structures._
 
 _Everything that simplifies interactions with the database._
 
+- [Actionbase](https://github.com/kakao/actionbase) - Database for user interactions (likes, views, follows) with precomputed reads, built on HBase.
 - [Apache Calcite](https://calcite.apache.org) - Dynamic data management framework. It contains many of the pieces that comprise a typical database management system.
 - [Apache Drill](https://drill.apache.org) - Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration.
 - [Apache Phoenix](https://phoenix.apache.org) - High-performance relational database layer over HBase for low-latency applications.
