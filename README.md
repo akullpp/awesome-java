@@ -1279,7 +1279,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
 - [Vaadin](https://vaadin.com) - Full-stack open-source Java framework that simplifies web app development. Build complex, interactive applications with Java alone, and enhance with TypeScript and React components, without needing deep JavaScript, CSS, or HTML expertise.
 - [WebForms Core](https://github.com/webforms-core) - A technology for managing HTML tags from the server.
-- [Erupt](https://github.com/erupts/erupt) - Annotation-Driven Low-Code & JPA Visualization
+- [Erupt](https://github.com/erupts/erupt) - Annotation-Driven Low-Code & JPA Visualization.
 
 ### Workflow Orchestration Engines
 
