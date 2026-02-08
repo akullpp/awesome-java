@@ -1175,6 +1175,7 @@ _Provide environments to run tests for a specific use case._
 - [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 - [weld-testing](https://github.com/weld/weld-testing) - Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5.
 - [selenium](https://github.com/SeleniumHQ/selenium) - Browser automation framework and ecosystem.
+- [tinystruct](https://github.com/tinystruct/tinystruct) — A lightweight, pluggable framework for building Java applications with first-class CLI, HTTP, and modular extension support.
 
 #### Matchers
 
