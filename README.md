@@ -456,6 +456,7 @@ _Libraries that assist with processing office document formats._
 - [documents4j](https://documents4j.com/#/) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
 - [fastexcel](https://github.com/dhatim/fastexcel) - High performance library to read and write large Excel (XLSX) worksheets.
+- [Sheetz](https://github.com/chitralabs/sheetz) - Read and write Excel and CSV files with one line of code. Annotation-based mapping, streaming for million-row files, built-in validation.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
 
 ### Financial
