@@ -1240,6 +1240,7 @@ _Libraries which provide general utility functions._
 - [Protégé](https://protege.stanford.edu) - Provides an ontology editor and a framework to build knowledge-based systems.
 - [Semver4j](https://github.com/semver4j/semver4j) - Lightweight library that helps you handling semantic versioning with different modes.
 - [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
+- [Java Evolved](https://javaevolved.github.io/) - A collection of side-by-side code comparisons showing old Java patterns next to their clean, modern replacements 
 
 ### Version Managers
 
@@ -1408,7 +1409,7 @@ _Sites to read._
 - [Vanilla Java](https://vanilla-java.github.io)
 - [Voxxed](https://www.voxxed.com)
 - [Java Weekly](https://discu.eu/weekly/java/)
-
+  
 ## Contributing
 
 Contributions are very welcome!
