@@ -1233,6 +1233,7 @@ _Libraries which provide general utility functions._
 - [JADE](https://jade.tilab.com) - Framework and environment for building and debugging multi-agent systems. (LGPL-2.0-only)
 - [Javadoc Publisher](https://github.com/MathieuSoysal/Javadoc-publisher.yml) - Generate Javadoc from your maven/gradle project and deploy it automatically on GitHub Page.
 - [Java Diff Utils](https://java-diff-utils.github.io/java-diff-utils/) - Utilities for text or data comparison and patching.
+- [java-util](https://github.com/jdereg/java-util) - Zero-dependency collection of high-performance utilities including CompactMap, ConcurrentList, MultiKeyMap, TTLCache, deep object graph operations, and a universal type Converter.
 - [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - Library that helps with constructing difficult regular expressions.
 - [JGit](https://www.eclipse.org/jgit/) - Lightweight, pure Java library implementing the Git version control system.
 - [JKScope](https://github.com/evpl/jkscope) - Java scope functions inspired by Kotlin.
