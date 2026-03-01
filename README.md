@@ -1024,6 +1024,7 @@ _Frameworks specifically for creating RESTful services._
 
 _Libraries for scientific computing, analysis and visualization._
 
+- [ASTRAL](https://github.com/smirarab/ASTRAL) - Estimates the species tree from a set of unrooted gene trees under the multi-species coalescent model using a quartet-based approach.
 - [BioJava](https://biojava.org/) - Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics.
 - [Chart-FX](https://github.com/GSI-CS-CO/chart-fx) - Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.
 - [DataMelt](https://datamelt.org/) - Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later)
