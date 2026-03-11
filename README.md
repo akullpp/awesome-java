@@ -1184,6 +1184,7 @@ _Libraries that provide custom matchers._
 - [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
 - [JSONAssert](http://jsonassert.skyscreamer.org) - Simplifies testing JSON strings.
 - [JsonUnit](https://github.com/lukas-krecan/JsonUnit) - Library that simplifies JSON comparison in tests.
+- [Nyagram](https://github.com/kaleert/nyagram) - Modern, reactive, and type-safe framework for Telegram Bots based on Spring Boot 3 and Java 21.
 - [Truth](https://truth.dev) - Google's fluent assertion and proposition framework.
 - [XMLUnit](https://github.com/xmlunit/xmlunit) - Simplifies testing for XML output.
 
