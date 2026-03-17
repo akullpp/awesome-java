@@ -1236,6 +1236,7 @@ _Libraries which provide general utility functions._
 - [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - Library that helps with constructing difficult regular expressions.
 - [JGit](https://www.eclipse.org/jgit/) - Lightweight, pure Java library implementing the Git version control system.
 - [JKScope](https://github.com/evpl/jkscope) - Java scope functions inspired by Kotlin.
+- [java-refined](https://github.com/JunggiKim/java-refined) - Refinement types for Java 8+ with 204 type-safe wrappers covering numerics, strings, and collections. Zero runtime dependencies.
 - [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3-compatible object storage server.
 - [Protégé](https://protege.stanford.edu) - Provides an ontology editor and a framework to build knowledge-based systems.
 - [Semver4j](https://github.com/semver4j/semver4j) - Lightweight library that helps you handling semantic versioning with different modes.
