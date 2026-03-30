@@ -118,6 +118,7 @@ _Frameworks and libraries that help implementing and verifying design and archit
 
 _Frameworks that help you to leverage LLMs and AI._
 
+- [JamJet](https://github.com/jamjet-labs/jamjet) - Production-grade agent runtime with native Java SDK featuring agent strategies, graph-based workflow orchestration, multi-agent coordination, built-in eval harness, and native MCP and A2A protocol support. Rust core for performance with polyglot IR compilation.
 - [LangChain4j](https://github.com/langchain4j/langchain4j) - Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.
 - [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk) - Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns.
 - [simple-openai](https://github.com/sashirestela/simple-openai) - Library to use the OpenAI API (and compatible ones) in the simplest possible way.
