@@ -6,6 +6,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 We are evaluating to make this the default, you can provide feedback here in [#1171](https://github.com/akullpp/awesome-java/issues/1171).
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Java development workflow orchestration, automated code review, and multi-agent coordination. MIT licensed.
 ## Contents
 
 - [Awesome Java](#awesome-java-)
