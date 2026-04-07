@@ -1140,6 +1140,7 @@ _Testing for the software development process that emerged from TDD and was heav
 - [J8Spec](https://github.com/j8spec/j8spec) - Follows a Jasmine-like syntax.
 - [JBehave](https://jbehave.org) - Extensively configurable framework that describes stories.
 - [JGiven](http://jgiven.org) - Provides a fluent API which allows for simpler composition.
+- [Kensa](https://github.com/kensa-dev/kensa) - Code-first BDD for Java & Kotlin — write Given-When-Then tests in code, get rich interactive HTML reports and sequence diagrams.
 - [Lamdba Behave](https://github.com/RichardWarburton/lambda-behave) - Aims to provide a fluent API to write tests in long and descriptive sentences that read like plain English.
 - [Serenity BDD](https://github.com/serenity-bdd/serenity-core) - Automated Acceptance testing and reporting library that works with Cucumber, JBehave and JUnit to make it easier to write high quality executable specifications.
 
