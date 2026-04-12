@@ -1418,6 +1418,7 @@ _Sites to read._
 - [Java, SQL, and jOOQ](https://blog.jooq.org)
 - [Java.net](https://community.oracle.com/community/java)
 - [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
+- [TheCodeForge Java Tutorials](https://thecodeforge.io/java/)
 - [JavaWorld](https://www.javaworld.com)
 - [JAXenter](https://jaxenter.com)
 - [RebelLabs](https://zeroturnaround.com/rebellabs)
