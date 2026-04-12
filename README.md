@@ -500,7 +500,7 @@ _Libraries that facilitate functional programming._
 _Frameworks that support the development of games._
 
 - [FXGL](https://almasb.github.io/FXGL/) - JavaFX Game Development Framework.
-- [input4j](https://gurkenlabs.github.io/input4j/) - Lightweight, cross-platform Java library for gamepad and joystick input handling
+- [input4j](https://gurkenlabs.github.io/input4j/) - Lightweight, cross-platform library for gamepad and joystick input handling.
 - [JBox2D](http://www.jbox2d.org/) - Port of the renowned C++ 2D physics engine.
 - [jMonkeyEngine](https://jmonkeyengine.org) - Game engine for modern 3D development.
 - [libGDX](https://libgdx.com) - All-round cross-platform, high-level framework.
