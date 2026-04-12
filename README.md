@@ -1207,6 +1207,7 @@ _Other stuff related to testing._
 - [Selfie](https://github.com/diffplug/selfie) - Snapshot testing (inline and on disk).
 - [Stebz](https://github.com/stebz/stebz) - Multi-approach framework for test steps managing.
 - [Testcontainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
+- [Java Evolved](https://javaevolved.github.io/) - Side-by-side comparisons of legacy and modern Java patterns.
 
 #### Mocking
 
