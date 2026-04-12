@@ -1277,6 +1277,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [PrimeFaces](https://www.primefaces.org) - JSF framework with both free and commercial/support versions and frontend components.
 - [Ratpack](https://ratpack.io) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
+- [tinystruct](https://github.com/tinystruct/tinystruct) - Lightweight, pluggable framework for building Java applications with CLI, HTTP, and modular extension support.
 - [Vaadin](https://vaadin.com) - Full-stack open-source Java framework that simplifies web app development. Build complex, interactive applications with Java alone, and enhance with TypeScript and React components, without needing deep JavaScript, CSS, or HTML expertise.
 - [WebForms Core](https://github.com/webforms-core) - A technology for managing HTML tags from the server.
 - [Erupt](https://github.com/erupts/erupt) - Annotation-Driven Low-Code & JPA Visualization
