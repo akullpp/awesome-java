@@ -383,6 +383,7 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
 - [Apache DeltaSpike](https://deltaspike.apache.org) - CDI extension framework.
 - [Avaje Inject](https://avaje.io/inject/) - Microservice-focused compile-time injection framework without reflection.
 - [Dagger](https://dagger.dev/) - Compile-time injection framework without reflection.
+- [Dimension-DI](https://github.com/akardapolov/dimension-di) - JSR-330 runtime dependency injection using the JDK Class-File API.
 - [Feather](https://github.com/zsoltherpai/feather) - Ultra-lightweight, JSR-330-compliant dependency injection library.
 - [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
 - [Guice](https://github.com/google/guice) - Lightweight and opinionated framework that completes Dagger.
