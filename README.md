@@ -1175,7 +1175,6 @@ _Provide environments to run tests for a specific use case._
 - [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 - [weld-testing](https://github.com/weld/weld-testing) - Set of test framework extensions (JUnit 4, JUnit 5, Spock) to enhance the testing of CDI components via Weld. Supports Weld 5.
 - [selenium](https://github.com/SeleniumHQ/selenium) - Browser automation framework and ecosystem.
-- [tinystruct](https://github.com/tinystruct/tinystruct) — A lightweight, pluggable framework for building Java applications with first-class CLI, HTTP, and modular extension support.
 
 #### Matchers
 
@@ -1278,6 +1277,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [PrimeFaces](https://www.primefaces.org) - JSF framework with both free and commercial/support versions and frontend components.
 - [Ratpack](https://ratpack.io) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
+- [tinystruct](https://github.com/tinystruct/tinystruct) - Lightweight, pluggable framework for building Java applications with CLI, HTTP, and modular extension support.
 - [Vaadin](https://vaadin.com) - Full-stack open-source Java framework that simplifies web app development. Build complex, interactive applications with Java alone, and enhance with TypeScript and React components, without needing deep JavaScript, CSS, or HTML expertise.
 - [WebForms Core](https://github.com/webforms-core) - A technology for managing HTML tags from the server.
 - [Erupt](https://github.com/erupts/erupt) - Annotation-Driven Low-Code & JPA Visualization
