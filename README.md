@@ -456,7 +456,7 @@ _Tools that handle the distribution of applications in native formats._
 - [Nexus ![c]](https://www.sonatype.com) - Binary management with proxy and caching capabilities.
 - [packr](https://github.com/libgdx/packr) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and macOS.
 - [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) - Maven plugin for making self-executing JARs.
-- [Repsy](https://github.com/repsyio/repsy) - Lightweight self-hosted artifact repository supporting Maven, npm, PyPI, Docker, Cargo, and Go. Simple to deploy, easy to run.
+- [Repsy](https://github.com/repsyio/repsy) - Self-hosted artifact registry with support for Maven, npm, PyPI, Docker, Cargo, and Go.
 
 ### Document Processing
 
