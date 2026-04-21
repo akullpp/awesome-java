@@ -917,6 +917,7 @@ _Tools to help with PDF files._
 - [Open HTML to PDF](https://github.com/openhtmltopdf/openhtmltopdf) - Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.
 - [OpenPDF](https://github.com/LibrePDF/OpenPDF) - Open-source iText fork. (LGPL-3.0-only & MPL-2.0)
 - [Tabula](https://github.com/tabulapdf/tabula-java) - Extracts tables from PDF files.
+- [Compress PDF – NoCodeVista](https://nocodevista.com/tools/compress-pdf) - Free browser-based PDF compressor — reduce file size up to 90%, no uploads, 100% private.
 
 ### Performance analysis
 
