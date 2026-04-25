@@ -1129,6 +1129,7 @@ _Tools that substitute expressions in a template._
 - [jstachio](https://github.com/jstachio/jstachio) - Typesafe Mustache templating engine.
 - [jte](https://github.com/casid/jte) - Compiles to classes, and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.
 - [Jtwig](https://github.com/jtwig/jtwig) - Modular, configurable and fully tested template engine.
+- [NRG](https://github.com/nanolaba/readme-generator) - Markdown-focused template engine that generates multi-language README files from a single `.src.md` source via file imports, custom widgets and a built-in TOC; ships as CLI, Maven plugin and Java library.
 - [Pebble](https://pebbletemplates.io) - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.
 - [Rocker](https://github.com/fizzed/rocker) - Optimized, memory efficient and speedy template engine producing statically typed, plain objects.
 - [StringTemplate](https://github.com/antlr/stringtemplate4) - Template engine for generating source code, web pages, emails, or any other formatted text output.
