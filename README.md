@@ -510,15 +510,13 @@ _Libraries that facilitate functional programming._
 
 _Frameworks that support the development of games._
 
-- [FXGL](https://almasb.github.io/FXGL/) - JavaFX Game Development Framework.
-- [input4j](https://gurkenlabs.github.io/input4j/) - Lightweight, cross-platform library for gamepad and joystick input handling.
-- [JBox2D](http://www.jbox2d.org/) - Port of the renowned C++ 2D physics engine.
-- [jMonkeyEngine](https://jmonkeyengine.org) - Game engine for modern 3D development.
 - [libGDX](https://libgdx.com) - All-round cross-platform, high-level framework.
-- [Litiengine](https://litiengine.com/) - AWT-based, lightweight 2D game engine.
 - [LWJGL](https://www.lwjgl.org) - Robust framework that abstracts libraries like OpenGL/CL/AL.
+- [FXGL](https://almasb.github.io/FXGL/) - JavaFX Game Development Framework.
+- [JBox2D](http://www.jbox2d.org/) - Port of the renowned C++ 2D physics engine.
 - [Mini2Dx](https://mini2dx.org) - Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.
-- [Void2D](https://github.com/xzripper/Void2D) - High-level 2D game engine with built-in physics based on Swing.
+- [Litiengine](https://litiengine.com/) - AWT-based, lightweight 2D game engine.
+- [input4j](https://gurkenlabs.github.io/input4j/) - Lightweight, cross-platform library for gamepad and joystick input handling.
 - [vulkan4j](https://github.com/chuigda/vulkan4j) - Vulkan, OpenGL ES2 and GLFW Memory Allocator bindings.
 
 ### Geospatial
