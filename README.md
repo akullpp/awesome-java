@@ -544,6 +544,7 @@ _Libraries to create modern graphical user interfaces._
 - [SnapKit](https://github.com/reportmill/SnapKit) - Modern Java UI library for both desktop and web.
 - [Sierra](https://github.com/HTTP-RPC/Sierra) - Lightwieght declarative DSL for rapid development of Swing applications.
 - [SWT](https://www.eclipse.org/swt/) - Graphical widget toolkit.
+- [FlatLaf](https://github.com/JFormDesigner/FlatLaf) - Swing Look and Feel (with Darcula/IntelliJ themes support)
 
 ### High Performance
 
