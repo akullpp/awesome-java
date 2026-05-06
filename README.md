@@ -283,6 +283,7 @@ _Libraries that provide external configuration._
 - [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
 - [microconfig](https://microconfig.io) - Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed.
 - [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
+- [sealed-env](https://github.com/davidalmeidac/sealed-env) - Cross-stack (Java + Node.js) library for encrypted .env files at rest, with optional TOTP-bound unsealing for production deploys. Spring Boot Starter included. Public threat model.
 
 ### Constraint Satisfaction Problem Solver
 
