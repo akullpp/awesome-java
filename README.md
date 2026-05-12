@@ -7,6 +7,7 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
+    - [Code Formatting](#code-formatting)
     - [Compiler-compiler](#compiler-compiler)
     - [Configuration](#configuration)
     - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
@@ -89,6 +90,14 @@ A curated list of awesome Java frameworks, libraries and software. Inspired by o
 * [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
 * [PMD](http://pmd.sourceforge.net/) - Source code analysis of bad coding practices.
 * [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+
+## Code Formatting
+
+*Tools that format or restructure Java source code.*
+
+* [google-java-format](https://github.com/google/google-java-format) - Reformats Java source code to follow Google Java Style.
+* [JHarmonizer](https://github.com/lemon-ant/JHarmonizer) - Safely reorders Java source code with configurable rules and Palantir Java Format.
+* [Palantir Java Format](https://github.com/palantir/palantir-java-format) - Formatter based on google-java-format with wider lines and lambda-friendly output.
 
 ## Compiler-compiler
 
