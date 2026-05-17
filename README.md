@@ -32,6 +32,7 @@ We are evaluating to make this the default, you can provide feedback here in [#1
     - [Data Structures](#data-structures)
     - [Database](#database)
     - [Date and Time](#date-and-time)
+    - [Decompilation](#decompilation)
     - [Decentralization](#decentralization)
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
@@ -375,6 +376,44 @@ _Libraries related to handling date and time._
 - [Jollyday](https://github.com/focus-shift/jollyday) - Determines the holidays for a given year, country/name and eventually state/region.
 - [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra) - Additional date-time classes that complement those in JDK 8.
 - [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library. (LGPL-2.1-only)
+
+### Decompilation
+
+_Libraries and tools for decompiling JVM bytecode._
+
+#### Engines
+
+- [CFR](https://github.com/leibnitz27/cfr) - Java decompiler focused on modern language features.
+- [Fernflower](https://github.com/JetBrains/fernflower) - Java decompiler with broad JVM bytecode support.
+- [JADX](https://github.com/skylot/jadx) - Dex to Java decompiler with an integrated GUI.
+- [JD-Core](https://github.com/java-decompiler/jd-core) - Core Java decompiler library.
+- [Procyon](https://github.com/mstrobel/procyon) - Java decompiler and metadata toolkit.
+- [Vineflower](https://github.com/Vineflower/vineflower) - Modern maintained fork of Fernflower.
+
+#### GUI
+
+##### Mono-decompiler
+
+- [JD-GUI](https://github.com/java-decompiler/jd-gui) - Standalone GUI for browsing and decompiling Java class files.
+- [Luyten](https://github.com/deathmarine/Luyten) - Java decompiler GUI built on Procyon.
+
+##### Multi-decompiler
+
+- [JD-GUI-DUO](https://github.com/nbauma109/jd-gui-duo) - Desktop multi-decompiler GUI for browsing and decompiling JVM bytecode and archives.
+
+#### Eclipse plugins
+
+- [ECD](https://github.com/ecd-plugin/ecd) - Eclipse Enhanced Class Decompiler plug-in for class file debugging and source lookup.
+- [ECD++](https://github.com/nbauma109/ecd) - ECD++ - Fork of Enhanced Class Decompiler (incl. JADX and source attach plugin)
+- [JD-Eclipse](https://github.com/java-decompiler/jd-eclipse) - Eclipse plug-in for decompiling Java classes.
+
+#### API
+
+- [transformer-api](https://github.com/nbauma109/transformer-api) - Unified API that exposes multiple decompilers through one in-memory transformation interface.
+
+#### CLI
+
+- [jd-cli](https://github.com/intoolswetrust/jd-cli) - jd-cli is a simple command line wrapper around [nbauma109/jd-core](https://github.com/nbauma109/jd-core) (fork of the original [java-decompiler/jd-core](https://github.com/java-decompiler/jd-core)) Java Decompiler project.
 
 ### Decentralization
 
