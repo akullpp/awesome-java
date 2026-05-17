@@ -32,8 +32,8 @@ We are evaluating to make this the default, you can provide feedback here in [#1
     - [Data Structures](#data-structures)
     - [Database](#database)
     - [Date and Time](#date-and-time)
-    - [Decompilation](#decompilation)
     - [Decentralization](#decentralization)
+    - [Decompilation](#decompilation)
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
@@ -392,19 +392,19 @@ _Libraries and tools for decompiling JVM bytecode._
 
 #### GUI
 
-##### Mono-decompiler
+##### Mono-Decompiler
 
 - [JD-GUI](https://github.com/java-decompiler/jd-gui) - Standalone GUI for browsing and decompiling Java class files.
 - [Luyten](https://github.com/deathmarine/Luyten) - Java decompiler GUI built on Procyon.
 
-##### Multi-decompiler
+##### Multi-Decompiler
 
 - [JD-GUI-DUO](https://github.com/nbauma109/jd-gui-duo) - Desktop multi-decompiler GUI for browsing and decompiling JVM bytecode and archives.
 
-#### Eclipse plugins
+#### Eclipse Plugins
 
 - [ECD](https://github.com/ecd-plugin/ecd) - Eclipse Enhanced Class Decompiler plug-in for class file debugging and source lookup.
-- [ECD++](https://github.com/nbauma109/ecd) - ECD++ - Fork of Enhanced Class Decompiler (incl. JADX and source attach plugin)
+- [ECD++](https://github.com/nbauma109/ecd) - Fork of Enhanced Class Decompiler (incl. JADX and source attach plugin).
 - [JD-Eclipse](https://github.com/java-decompiler/jd-eclipse) - Eclipse plug-in for decompiling Java classes.
 
 #### API
