@@ -377,6 +377,12 @@ _Libraries related to handling date and time._
 - [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra) - Additional date-time classes that complement those in JDK 8.
 - [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library. (LGPL-2.1-only)
 
+### Decentralization
+
+_Libraries that handle decentralization tasks._
+
+- [java-tron](https://github.com/tronprotocol/java-tron) Implementation of the Tron Protocol, whic utilizes blockchains to develop decentralized applications.
+
 ### Decompilation
 
 _Libraries and tools for decompiling JVM bytecode._
@@ -414,12 +420,6 @@ _Libraries and tools for decompiling JVM bytecode._
 #### CLI
 
 - [jd-cli](https://github.com/intoolswetrust/jd-cli) - jd-cli is a simple command line wrapper around [nbauma109/jd-core](https://github.com/nbauma109/jd-core) (fork of the original [java-decompiler/jd-core](https://github.com/java-decompiler/jd-core)) Java Decompiler project.
-
-### Decentralization
-
-_Libraries that handle decentralization tasks._
-
-- [java-tron](https://github.com/tronprotocol/java-tron) Implementation of the Tron Protocol, whic utilizes blockchains to develop decentralized applications.
 
 ### Dependency Injection
 
