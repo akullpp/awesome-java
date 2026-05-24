@@ -858,7 +858,7 @@ _Libraries for building network servers._
 - [Dubbo](https://github.com/apache/dubbo) - High-performance RPC framework.
 - [Grizzly](https://javaee.github.io/grizzly/) - NIO framework. Used as a network layer in Glassfish.
 - [gRPC-java](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
-- [java-ngrok](https://github.com/alexdlaird/java-ngrok) - Java wrapper for ngrok; programmatic tunnels and webhook testing.
+- [java-ngrok](https://github.com/alexdlaird/java-ngrok) - Java wrapper for ngrok; programmatic tunnels for ingress, webhooks, and APIs.
 - [KryoNet](https://github.com/EsotericSoftware/kryonet) - Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo.
 - [MINA](https://mina.apache.org) - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.
 - [Netty](https://netty.io) - Framework for building high-performance network applications.
