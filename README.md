@@ -129,6 +129,7 @@ _Frameworks that help you to leverage LLMs and AI._
 _Frameworks that ease bean mapping._
 
 - [dOOv](https://github.com/doov-io/doov) - Provides fluent API for typesafe domain model validation and mapping. It uses annotations, code generation and a type safe DSL to make bean validation and mapping fast and easy.
+- [Immuto](https://github.com/karunarathnad/immuto) - Annotation processor that generates type-safe mapper implementations for Java Records using canonical constructors, with zero runtime reflection.
 - [JMapper](https://github.com/jmapper-framework/jmapper-core) - Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration.
 - [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator that simplifies mappings between different bean types, based on a convention-over-configuration approach.
 - [ModelMapper](https://github.com/modelmapper/modelmapper) - Intelligent object mapping library that automatically maps objects to each other.
