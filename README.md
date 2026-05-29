@@ -827,6 +827,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
 - [SPM ![c]](https://github.com/sematext/sematext-agent-java) - Performance monitor with distributing transaction tracing for JVM apps.
 - [Stagemonitor](https://github.com/stagemonitor/stagemonitor) - Open-source performance monitoring and transaction tracing for JVM apps.
 - [Sysmon](https://github.com/palantir/Sysmon) - Lightweight platform monitoring tool for Java VMs.
+- [traceAI](https://github.com/future-agi/traceAI) - OpenTelemetry-native distributed tracing for LLM and agent applications with Java auto-instrumentation for major providers and vector stores.
 - [zipkin](https://zipkin.io) - Distributed tracing system which gathers timing data needed to troubleshoot latency problems in microservice architectures.
 
 ### Native
