@@ -571,7 +571,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in the cloud.
 - [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
 - [unirest-java](https://github.com/Kong/unirest-java) - Simplified, lightweight HTTP client library.
-
+- [JQuickCurl](https://github.com/paohaijiao/jquick-curl) - A Java HTTP client framework that allows developers to use native cURL syntax directly. Copy from Postman, paste into XML configuration, done. (Apache 2.0, 1.1k ⭐)
 ### Hypermedia Types
 
 _Libraries that handle serialization to hypermedia types._
