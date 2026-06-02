@@ -104,7 +104,7 @@ We are evaluating to make this the default, you can provide feedback here in [#1
     - [People](#people)
       - [Socials](#socials)
     - [Websites](#websites)
-    - [Contributing](#contributing)
+  - [Contributing](#contributing)
 
 ## Projects
 
@@ -236,8 +236,6 @@ _Tools that format or restructure Java source code._
 - [google-java-format](https://github.com/google/google-java-format) - Reformats Java source code to follow Google Java Style.
 - [JHarmonizer](https://github.com/lemon-ant/JHarmonizer) - Safely reorders Java source code with configurable rules and Palantir Java Format.
 - [Palantir Java Format](https://github.com/palantir/palantir-java-format) - Formatter based on google-java-format with wider lines and lambda-friendly output.
-
-
 
 ### Code Generators
 
