@@ -123,6 +123,7 @@ _Frameworks that help you to leverage LLMs and AI._
 - [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk) - Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns.
 - [simple-openai](https://github.com/sashirestela/simple-openai) - Library to use the OpenAI API (and compatible ones) in the simplest possible way.
 - [Spring AI](https://spring.io/projects/spring-ai) - Application framework for AI engineering for Spring.
+- [TraceAI](https://github.com/future-agi/traceAI/tree/main/java) - OpenTelemetry-based AI observability SDK that traces LLM calls, embeddings, vector searches and agents, with integrations for LangChain4j, Spring AI and Microsoft Semantic Kernel.
 
 ### Bean Mapping
 
