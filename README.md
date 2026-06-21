@@ -40,6 +40,7 @@ We are evaluating to make this the default, you can provide feedback here in [#1
     - [Distribution](#distribution)
     - [Document Processing](#document-processing)
     - [Financial](#financial)
+    - [Flat File](#flat-file)
     - [Formal Verification](#formal-verification)
     - [Functional Programming](#functional-programming)
     - [Game Development](#game-development)
@@ -479,6 +480,14 @@ _Libraries related to the financial domain._
 - [Square](https://github.com/square/connect-java-sdk) - Integration with the Square API.
 - [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API.
 - [ta4j](https://github.com/ta4j/ta4j) - Library for technical analysis.
+
+### Flat File
+
+_Frameworks and libraries for reading and writing fixed-length and delimited flat files._
+
+- [BeanIO](https://github.com/beanio/beanio) - Maps flat files of fixed-length or delimited records to and from Java beans using XML or annotation configuration.
+- [fixedformat4j](https://github.com/jeyben/fixedformat4j) - Annotation-driven mapping of fixed-width flat files to and from POJOs and Java records.
+- [Flatpack](https://github.com/Appendium/flatpack) - Parses and writes delimited and fixed-length flat files with optional column-mapping definitions.
 
 ### Formal Verification
 
