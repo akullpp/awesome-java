@@ -479,7 +479,7 @@ _Libraries that assist with processing office document formats._
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
 - [fastexcel](https://github.com/dhatim/fastexcel) - High performance library to read and write large Excel (XLSX) worksheets.
 - [jackson-dataformat-spreadsheet](https://github.com/scndry/jackson-dataformat-spreadsheet) - Jackson dataformat module for reading and writing Excel (XLSX/XLS) as POJOs via `ObjectMapper`.
-- [Sheetz](https://github.com/chitralabs/sheetz) - Library for reading and writing Excel and CSV files with annotation-based mapping, streaming support, and built-in validation.
+- [Sheetz](https://github.com/chitralabs/sheetz) - Reads and writes Excel, CSV and ODS files with annotation mapping, streaming, styling and validation.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
 
 ### Financial
