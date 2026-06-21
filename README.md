@@ -578,12 +578,12 @@ _Libraries for working with geospatial data and algorithms._
 
 _Libraries to create modern graphical user interfaces._
 
+- [FlatLaf](https://github.com/JFormDesigner/FlatLaf) - Modern Swing Look and Feel with Darcula and IntelliJ themes.
 - [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main) - Successor of Swing.
 - [Scene Builder](https://gluonhq.com/products/scene-builder/) - Visual layout tool for JavaFX applications.
 - [SnapKit](https://github.com/reportmill/SnapKit) - Modern Java UI library for both desktop and web.
 - [Sierra](https://github.com/HTTP-RPC/Sierra) - Lightwieght declarative DSL for rapid development of Swing applications.
 - [SWT](https://www.eclipse.org/swt/) - Graphical widget toolkit.
-- [FlatLaf](https://github.com/JFormDesigner/FlatLaf) - Swing Look and Feel (with Darcula/IntelliJ themes support)
 
 ### High Performance
 
