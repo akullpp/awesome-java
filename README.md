@@ -371,6 +371,7 @@ _Everything that simplifies interactions with the database._
 - [Realm](https://github.com/realm/realm-java) - Mobile database to run directly inside phones, tablets or wearables.
 - [Redisson](https://github.com/redisson/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
 - [requery](https://github.com/requery/requery) - Modern, lightweight but powerful object mapping and SQL generator. Easily map to or create databases, or perform queries and updates from any Java-using platform.
+- [SchemaCrawler](https://www.schemacrawler.com) - Discovers, documents and diagrams relational database schemas from Java, build tools and the command line.
 - [Speedment](https://github.com/speedment/speedment) - Database access library that utilizes Java 8's Stream API for querying.
 - [Spring Data Dynamic Query](https://github.com/tdilber/spring-data-dynamic-query) - Unified dynamic query interface for Spring Data JPA, MongoDB, and Elasticsearch, enabling advanced JOIN(s), OR logic, scoped conditions, powerful projections and advanced features with zero boilerplate.
 - [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions) - Allows you to use MongoDB query language to query your relational database.
