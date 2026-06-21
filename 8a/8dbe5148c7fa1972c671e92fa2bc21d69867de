@@ -1,0 +1,20 @@
+README.md
+  s_0d24ec2e0ae099::t_abfa4320a8fad5 118
+  s_0d24ec2e0ae099::t_a5e8249eeb876c 26,44,124,136,236-243,252,335,482,496-504,883,938,1019,1218,1248
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8a8dbe5148c7fa1972c671e92fa2bc21d69867de",
+  "prompts": {},
+  "sessions": {
+    "s_0d24ec2e0ae099": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ee9c8-c88e-7ad2-a818-60b909a0ca1a",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Andreas Kull <akullpp@gmail.com>"
+    }
+  }
+}
