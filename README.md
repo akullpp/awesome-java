@@ -1237,6 +1237,7 @@ _Other stuff related to testing._
 - [Stebz](https://github.com/stebz/stebz) - Multi-approach framework for test steps managing.
 - [Testcontainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 - [Java Evolved](https://javaevolved.github.io/) - Side-by-side comparisons of legacy and modern Java patterns.
+- [test-watch-maven-plugin](https://github.com/albilu/test-watch-maven-plugin) - Maven plugin providing Vitest-inspired watch mode for tests with smart selection and parallel execution.
 
 #### Mocking
 
