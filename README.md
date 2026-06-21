@@ -325,7 +325,6 @@ _Efficient and specific data structures._
 - [Apache Parquet](https://parquet.apache.org) - Columnar storage format based on assembly algorithms from Google's paper on Dremel.
 - [Apache Thrift](https://thrift.apache.org) - Data interchange format that originated at Facebook.
 - [Big Queue](https://github.com/bulldog2011/bigqueue) - Fast and persistent queue based on memory-mapped files.
-- [HyperMinHash-java](https://github.com/LiveRamp/HyperMinHash-java) - Probabilistic data structure for computing union, intersection, and set cardinality in loglog space.
 - [Persistent Collection](https://github.com/hrldcpr/pcollections) - Persistent and immutable analogue of the Java Collections Framework.
 - [Protobuf](https://github.com/protocolbuffers/protobuf) - Google's data interchange format.
 - [RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) - Fast and efficient compressed bitmap.
@@ -542,7 +541,6 @@ _Frameworks that support the development of games._
 - [Litiengine](https://litiengine.com/) - AWT-based, lightweight 2D game engine.
 - [LWJGL](https://www.lwjgl.org) - Robust framework that abstracts libraries like OpenGL/CL/AL.
 - [Mini2Dx](https://mini2dx.org) - Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.
-- [Void2D](https://github.com/xzripper/Void2D) - High-level 2D game engine with built-in physics based on Swing.
 - [vulkan4j](https://github.com/chuigda/vulkan4j) - Vulkan, OpenGL ES2 and GLFW Memory Allocator bindings.
 
 ### Geospatial
@@ -762,7 +760,6 @@ _Tools for creating and managing microservices._
 - [Eureka](https://github.com/Netflix/eureka) - REST-based service registry for resilient load balancing and failover.
 - [Helidon](https://helidon.io) - Two-style approach for writing microservices: Functional-reactive and as an implementation of MicroProfile.
 - [JDA](https://github.com/DV8FromTheWorld/JDA) - Wrapping of the Discord REST API and its WebSocket events.
-- [KeenType](https://github.com/DaveJarvis/KeenType) - Modernized version of a Java-based implementation of the New Typesetting System, which was heavily based on Donald E. Knuth's original TeX.
 - [kubernetes-client](https://github.com/fabric8io/kubernetes-client) - Client provides access to the full Kubernetes & OpenShift REST APIs via a fluent DSL.
 - [Micronaut](https://micronaut.io) - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
 - [Nacos](https://nacos.io) - Dynamic service discovery, configuration and service management platform for building cloud native applications.
@@ -968,7 +965,6 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 - [BeanUtils](http://commons.apache.org/proper/commons-beanutils/) - Easy-to-use wrappers around the Java reflection and introspection APIs.
 - [BeanUtils2](http://commons.apache.org/sandbox/commons-beanutils2/) - Redesign of Commons BeanUtils.
 - [BSF](http://commons.apache.org/proper/commons-bsf/) - Bean Scripting Framework - interface to scripting languages, including JSR-223.
-- [Chain](http://commons.apache.org/proper/commons-chain/) - Chain of Responsibility pattern implementation.
 - [ClassScan](http://commons.apache.org/sandbox/commons-classscan/) - Find Class interfaces, methods, fields, and annotations without loading.
 - [CLI](http://commons.apache.org/proper/commons-cli/) - Command-line arguments parser.
 - [CLI2](http://commons.apache.org/sandbox/commons-cli2/) - Redesign of Commons CLI.
@@ -987,7 +983,6 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 - [FileUpload](http://commons.apache.org/proper/commons-fileupload/) - File upload capability for your servlets and web applications.
 - [Finder](http://commons.apache.org/sandbox/commons-finder/) - Java library inspired by the UNIX find command.
 - [Flatfile](http://commons.apache.org/sandbox/commons-flatfile/) - Java library for working with flat data structures.
-- [Functor](http://commons.apache.org/proper/commons-functor/) - Function that can be manipulated as an object, or an object representing a single, generic function.
 - [Graph](http://commons.apache.org/sandbox/commons-graph/) - General purpose graph APIs and algorithms.
 - [I18n](http://commons.apache.org/sandbox/commons-i18n/) - Adds the feature of localized message bundles that consist of one or many localized texts that belong together.
 - [Id](http://commons.apache.org/sandbox/commons-id/) - Id is a component used to generate identifiers.
@@ -1006,12 +1001,10 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 - [Monitoring](http://commons.apache.org/sandbox/commons-monitoring/) - Monitoring aims to provide a simple but extensible monitoring solution for Java applications.
 - [Nabla](http://commons.apache.org/sandbox/commons-nabla/) - Nabla provides automatic differentiation classes that can generate derivative of any function implemented in the Java language.
 - [Net](http://commons.apache.org/proper/commons-net/) - Collection of network utilities and protocol implementations.
-- [OGNL](http://commons.apache.org/proper/commons-ognl/) - Object-graph navigation language.
 - [OpenPGP](http://commons.apache.org/sandbox/commons-openpgp/) - Interface to signing and verifying data using OpenPGP.
 - [Performance](http://commons.apache.org/sandbox/commons-performance/) - Small framework for microbenchmark clients, with implementations for Commons DBCP and Pool.
 - [Pipeline](http://commons.apache.org/sandbox/commons-pipeline/) - Provides a set of pipeline utilities designed around work queues that run in parallel to sequentially process data objects.
 - [Pool](http://commons.apache.org/proper/commons-pool/) - Generic object pooling component.
-- [Proxy](http://commons.apache.org/proper/commons-proxy/) - Library for creating dynamic proxies.
 - [RDF](https://commons.apache.org/proper/commons-rdf/) - Common implementation of RDF 1.1 that could be implemented by systems on the JVM.
 - [RNG](https://commons.apache.org/proper/commons-rng/) - Commons Rng provides implementations of pseudo-random numbers generators.
 - [SCXML](http://commons.apache.org/proper/commons-scxml/) - Implementation of the State Chart XML specification aimed at creating and maintaining a Java SCXML engine.
@@ -1022,7 +1015,7 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 #### Other
 
 - [CUBA Platform](https://www.cuba-platform.com/) - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin.
-- [Light-4J](https://github.com/networknt/light-4j/) - Fast, lightweight and productive microservices framework with built-in [security](https://github.com/networknt/light-oauth2/).
+- [Light-4J](https://github.com/networknt/light-4j/) - Fast, lightweight and productive microservices framework with built-in security.
 - [Orienteer](https://github.com/OrienteerBAP/Orienteer/) - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.
 - [Spring](https://spring.io/projects/) - Provides many packages for dependency injection, aspect-oriented programming, security, etc.
 
