@@ -401,41 +401,14 @@ _Libraries that handle decentralization tasks._
 
 ### Decompilation
 
-_Libraries and tools for decompiling JVM bytecode._
-
-#### Engines
+_Libraries for decompiling JVM bytecode._
 
 - [CFR](https://github.com/leibnitz27/cfr) - Java decompiler focused on modern language features.
 - [Fernflower](https://github.com/JetBrains/fernflower) - Java decompiler with broad JVM bytecode support.
-- [JADX](https://github.com/skylot/jadx) - Dex to Java decompiler with an integrated GUI.
 - [JD-Core](https://github.com/java-decompiler/jd-core) - Core Java decompiler library.
 - [Procyon](https://github.com/mstrobel/procyon) - Java decompiler and metadata toolkit.
-- [Vineflower](https://github.com/Vineflower/vineflower) - Modern maintained fork of Fernflower.
-
-#### GUI
-
-##### Mono-Decompiler
-
-- [JD-GUI](https://github.com/java-decompiler/jd-gui) - Standalone GUI for browsing and decompiling Java class files.
-- [Luyten](https://github.com/deathmarine/Luyten) - Java decompiler GUI built on Procyon.
-
-##### Multi-Decompiler
-
-- [JD-GUI-DUO](https://github.com/nbauma109/jd-gui-duo) - Desktop multi-decompiler GUI for browsing and decompiling JVM bytecode and archives.
-
-#### Eclipse Plugins
-
-- [ECD](https://github.com/ecd-plugin/ecd) - Eclipse Enhanced Class Decompiler plug-in for class file debugging and source lookup.
-- [ECD++](https://github.com/nbauma109/ecd) - Fork of Enhanced Class Decompiler (incl. JADX and source attach plugin).
-- [JD-Eclipse](https://github.com/java-decompiler/jd-eclipse) - Eclipse plug-in for decompiling Java classes.
-
-#### API
-
 - [transformer-api](https://github.com/nbauma109/transformer-api) - Unified API that exposes multiple decompilers through one in-memory transformation interface.
-
-#### CLI
-
-- [jd-cli](https://github.com/intoolswetrust/jd-cli) - jd-cli is a simple command line wrapper around [nbauma109/jd-core](https://github.com/nbauma109/jd-core) (fork of the original [java-decompiler/jd-core](https://github.com/java-decompiler/jd-core)) Java Decompiler project.
+- [Vineflower](https://github.com/Vineflower/vineflower) - Modern maintained fork of Fernflower.
 
 ### Dependency Injection
 
