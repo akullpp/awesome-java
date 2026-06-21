@@ -481,6 +481,7 @@ _Libraries related to the financial domain._
 - [Square](https://github.com/square/connect-java-sdk) - Integration with the Square API.
 - [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API.
 - [ta4j](https://github.com/ta4j/ta4j) - Library for technical analysis.
+- [Wickra](https://github.com/wickra-lib/wickra) - Technical-analysis library with 514 streaming O(1)-per-tick indicators on a native Rust core, on Maven Central as org.wickra:wickra; more indicators and incremental updates than the pure-Java ta4j.
 
 ### Flat File
 
