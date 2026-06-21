@@ -34,6 +34,7 @@ We are evaluating to make this the default, you can provide feedback here in [#1
     - [Database](#database)
     - [Date and Time](#date-and-time)
     - [Decentralization](#decentralization)
+    - [Decompilation](#decompilation)
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
@@ -397,6 +398,17 @@ _Libraries related to handling date and time._
 _Libraries that handle decentralization tasks._
 
 - [java-tron](https://github.com/tronprotocol/java-tron) Implementation of the Tron Protocol, whic utilizes blockchains to develop decentralized applications.
+
+### Decompilation
+
+_Libraries for decompiling JVM bytecode._
+
+- [CFR](https://github.com/leibnitz27/cfr) - Java decompiler focused on modern language features.
+- [Fernflower](https://github.com/JetBrains/fernflower) - Java decompiler with broad JVM bytecode support.
+- [JD-Core](https://github.com/java-decompiler/jd-core) - Core Java decompiler library.
+- [Procyon](https://github.com/mstrobel/procyon) - Java decompiler and metadata toolkit.
+- [transformer-api](https://github.com/nbauma109/transformer-api) - Unified API that exposes multiple decompilers through one in-memory transformation interface.
+- [Vineflower](https://github.com/Vineflower/vineflower) - Modern maintained fork of Fernflower.
 
 ### Dependency Injection
 
