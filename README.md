@@ -23,6 +23,7 @@ We are evaluating to make this the default, you can provide feedback here in [#1
     - [Cloud](#cloud)
     - [Code Analysis](#code-analysis)
     - [Code Coverage](#code-coverage)
+    - [Code Formatting](#code-formatting)
     - [Code Generators](#code-generators)
     - [Compiler-compiler](#compiler-compiler)
     - [Computer Vision](#computer-vision)
@@ -229,6 +230,14 @@ _Frameworks and tools that enable code coverage metrics collection for test suit
 - [Cobertura](https://cobertura.github.io/cobertura/) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics. (GPL-2.0-only)
 - [Delta Coverage](https://github.com/gw-kit/delta-coverage-plugin) - Computes code coverage of new and modified code based on a provided diff, supporting JaCoCo and IntelliJ coverage engines.
 - [JaCoCo](https://www.eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation.
+
+### Code Formatting
+
+_Tools that format or restructure Java source code._
+
+- [google-java-format](https://github.com/google/google-java-format) - Reformats Java source code to follow Google Java Style.
+- [JHarmonizer](https://github.com/lemon-ant/JHarmonizer) - Safely reorders Java source code with configurable rules and Palantir Java Format.
+- [Palantir Java Format](https://github.com/palantir/palantir-java-format) - Formatter based on google-java-format with wider lines and lambda-friendly output.
 
 ### Code Generators
 
