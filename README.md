@@ -632,6 +632,7 @@ _Integrated development environments that try to simplify several aspects of dev
 
 - [Eclipse](https://www.eclipse.org) - Established open-source project with support for lots of plugins and languages.
 - [IntelliJ IDEA ![c]](https://www.jetbrains.com/idea/) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
+  - [Explyt ![c]](https://github.com/explyt/explyt) - AI agent plugin that uses IntelliJ IDEA project facts, debugger, refactorings, symbol navigation and static analysis to help develop Java and Kotlin code.
 - [jGRASP](https://www.jgrasp.org) - Created to provide software visualizations that work in conjunction with the debugger such as Control Structure Diagrams, UML class diagrams and Object Viewer.
 - [NetBeans](https://netbeans.apache.org) - Provides integration for several Java SE and EE features, from database access to HTML5.
 - [SnapCode](https://reportmill.com/SnapCode/) - Modern IDE for Java running in the browser, focused on education.
