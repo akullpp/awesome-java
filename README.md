@@ -496,8 +496,10 @@ _Libraries that assist with processing office document formats._
 - [documents4j](https://documents4j.com/#/) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
 - [fastexcel](https://github.com/dhatim/fastexcel) - High performance library to read and write large Excel (XLSX) worksheets.
+- [html-to-markdown](https://github.com/xberg-io/html-to-markdown) - Fast, CommonMark-compliant HTML to Markdown converter (Java binding over a Rust core).
 - [jackson-dataformat-spreadsheet](https://github.com/scndry/jackson-dataformat-spreadsheet) - Jackson dataformat module for reading and writing Excel (XLSX/XLS) as POJOs via `ObjectMapper`.
 - [Sheetz](https://github.com/chitralabs/sheetz) - Reads and writes Excel, CSV and ODS files with annotation mapping, streaming, styling and validation.
+- [xberg](https://github.com/xberg-io/xberg) - Document intelligence library (Java binding over a Rust core) that extracts text, tables, and metadata from PDFs, Office documents, images, and 97+ formats, with optional OCR.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
 
 ### Financial
@@ -739,6 +741,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 - [H2O ![c]](https://www.h2o.ai) - Analytics engine for statistics over big data.
 - [Intelligent java](https://github.com/Barqawiz/IntelliJava) - Seamlessly integrate with remote deep learning and language models programmatically.
 - [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only)
+- [liter-llm](https://github.com/xberg-io/liter-llm) - Universal LLM API client (Java binding over a Rust core) with one unified interface across 142+ providers and streaming.
 - [m2cgen](https://github.com/BayesWitnesses/m2cgen) - CLI tool to transpile models into native code.
 - [Neureka](https://github.com/Gleethos/neureka) - A lightweight, platform independent, OpenCL accelerated nd-array/tensor library.
 - [oj! Algorithms](https://www.ojalgo.org/) - High-performance mathematics, linear algebra and optimisation needed for data science, machine learning and scientific computing.
@@ -1322,6 +1325,7 @@ _Utilities that help create the development shell environment and switch between
 _Libraries that analyze the content of websites._
 
 - [Apache Nutch](https://nutch.apache.org) - Highly extensible, highly scalable web crawler for production environments.
+- [crawlberg](https://github.com/xberg-io/crawlberg) - High-performance web crawling and scraping engine (Java binding over a Rust core) with HTML-to-Markdown conversion and a headless-Chrome fallback.
 - [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
 - [jsoup](https://jsoup.org) - Scrapes, parses, manipulates and cleans HTML.
 - [StormCrawler](http://stormcrawler.net) - SDK for building low-latency and scalable web crawlers.
