@@ -385,6 +385,7 @@ _Everything that simplifies interactions with the database._
 - [Xodus](https://github.com/JetBrains/xodus) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
 - [CosId](https://github.com/Ahoo-Wang/CosId) - Universal, flexible, high-performance distributed ID generator.
 - [Apache ShardingSphere](https://github.com/apache/shardingsphere) - Distributed SQL transaction & query engine that allows for data sharding, scaling, encryption, and more on any database.
+- [Actual Schema Gradle Plugin](https://github.com/YRashid/actual-schema-gradle-plugin) - Gradle plugin that generates a PostgreSQL schema DDL from Liquibase migrations using Testcontainers.
 
 ### Date and Time
 
