@@ -125,6 +125,7 @@ _Frameworks that help you to leverage LLMs and AI._
 - [Dokimos](https://github.com/dokimos-dev/dokimos) - Evaluation framework for LLM and AI-agent applications that scores responses, validates tool calls and execution traces, and catches quality regressions in CI.
 - [JamJet](https://github.com/jamjet-labs/jamjet) - Agent runtime with a Java SDK for building AI agents, supporting graph-based workflow orchestration, multi-agent coordination, and MCP/A2A protocols.
 - [LangChain4j](https://github.com/langchain4j/langchain4j) - Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.
+- [liter-llm](https://github.com/xberg-io/liter-llm) - Provides a Java binding for a unified LLM API client across multiple providers.
 - [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk) - Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns.
 - [Regulus](https://github.com/neul-labs/regulus) - Google ADK plugin suite that adds runtime compliance profiles, audit envelopes and GRC adapters for regulated Java AI agents.
 - [simple-openai](https://github.com/sashirestela/simple-openai) - Library to use the OpenAI API (and compatible ones) in the simplest possible way.
@@ -342,6 +343,7 @@ _Efficient and specific data structures._
 
 _Everything that simplifies interactions with the database._
 
+- [Actual Schema Gradle Plugin](https://github.com/YRashid/actual-schema-gradle-plugin) - Generates PostgreSQL schema DDL from Liquibase migrations using Testcontainers.
 - [Apache Calcite](https://calcite.apache.org) - Dynamic data management framework. It contains many of the pieces that comprise a typical database management system.
 - [Apache Drill](https://drill.apache.org) - Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration.
 - [Apache Phoenix](https://phoenix.apache.org) - High-performance relational database layer over HBase for low-latency applications.
@@ -496,8 +498,10 @@ _Libraries that assist with processing office document formats._
 - [documents4j](https://documents4j.com/#/) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
 - [fastexcel](https://github.com/dhatim/fastexcel) - High performance library to read and write large Excel (XLSX) worksheets.
+- [html-to-markdown](https://github.com/xberg-io/html-to-markdown) - Converts HTML to CommonMark-compatible Markdown through a Java binding.
 - [jackson-dataformat-spreadsheet](https://github.com/scndry/jackson-dataformat-spreadsheet) - Jackson dataformat module for reading and writing Excel (XLSX/XLS) as POJOs via `ObjectMapper`.
 - [Sheetz](https://github.com/chitralabs/sheetz) - Reads and writes Excel, CSV and ODS files with annotation mapping, streaming, styling and validation.
+- [xberg](https://github.com/xberg-io/xberg) - Extracts text, tables and metadata from PDFs, Office documents, images and other formats through a Java binding.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
 
 ### Financial
@@ -1323,6 +1327,7 @@ _Utilities that help create the development shell environment and switch between
 _Libraries that analyze the content of websites._
 
 - [Apache Nutch](https://nutch.apache.org) - Highly extensible, highly scalable web crawler for production environments.
+- [crawlberg](https://github.com/xberg-io/crawlberg) - Crawls and scrapes websites through a Java binding with Markdown conversion and optional browser rendering.
 - [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
 - [jsoup](https://jsoup.org) - Scrapes, parses, manipulates and cleans HTML.
 - [StormCrawler](http://stormcrawler.net) - SDK for building low-latency and scalable web crawlers.
