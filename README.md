@@ -342,6 +342,7 @@ _Efficient and specific data structures._
 
 _Everything that simplifies interactions with the database._
 
+- [Actual Schema Gradle Plugin](https://github.com/YRashid/actual-schema-gradle-plugin) - Generates PostgreSQL schema DDL from Liquibase migrations using Testcontainers.
 - [Apache Calcite](https://calcite.apache.org) - Dynamic data management framework. It contains many of the pieces that comprise a typical database management system.
 - [Apache Drill](https://drill.apache.org) - Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration.
 - [Apache Phoenix](https://phoenix.apache.org) - High-performance relational database layer over HBase for low-latency applications.
