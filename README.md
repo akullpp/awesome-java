@@ -795,6 +795,7 @@ _Tools for creating and managing microservices._
 
 _Everything else._
 
+- [AISmessages](https://github.com/tbsalling/aismessages) - Decoder of NMEA-armoured AIS messages used in maritime navigation and safety systems, offering ITU 1371 compliance, high performance and zero runtime dependencies. (CC-BY-NC-SA-4.0)
 - [CQEngine](https://github.com/npgall/cqengine) - Ultra-fast, SQL-like queries on Java collections.
 - [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
