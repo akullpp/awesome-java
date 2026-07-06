@@ -981,6 +981,7 @@ _Tools for performance analysis, profiling and benchmarking._
 - [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 - [JVM Hotpath](https://github.com/sfkamath/jvm-hotpath) - Java agent for line-level execution frequency analysis to identify algorithmic bottlenecks.
 - [Argus](https://github.com/rlaope/Argus) - JVM diagnostics CLI for jcmd, JFR, async-profiler, heap analysis and machine-readable health verdicts.
+- [Hexana](https://hexana.lovable.app/?utm_source=awesome_jvm&utm_medium=referral&utm_campaign=landing_spread_q3) - IntelliJ plugin for JIT analysis: captures C2 and GraalVM JIT emission via a JVMTI agent (.jit files), visualizes compiled methods with inlining trees, and auto-attaches to JMH forks for benchmark-level inspection.
 
 ### Platform
 
