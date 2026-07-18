@@ -10,11 +10,13 @@ Unfortunately, not every library/tool/framework can be considered. This list aim
 
 (d) a niche product that fills a gap
 
+Suggested software must be focused on the Java ecosystem. Java should be a primary API, runtime, implementation target or substantial first-class integration. Incidental Java support in an otherwise language-agnostic project is not sufficient.
+
 Suggested software must also be developer-friendly, which means it meets the following criteria:
 
-(i) If an open source _application_, it is licensed under one of the open source licenses listed on https://opensource.org/licenses.
+(i) If source code is available, its license is clearly documented.
 
-(ii) If an open source _library_, it is licensed under one of the open source licenses listed on https://opensource.org/licenses, with the exception of GPL and AGPL (due to their viral nature).
+(ii) Any license is acceptable when it is clearly disclosed. Restrictive, noncommercial and source-available licenses must be named in the entry.
 
 (iii) If commercial, it has clear pricing and at least one free tier.
 
