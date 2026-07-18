@@ -372,7 +372,7 @@ _Everything that simplifies interactions with the database._
 - [Modality](https://github.com/arkanovicz/modality) - Lightweight ORM with database reverse engineering features.
 - [Open J Proxy](https://github.com/Open-J-Proxy/ojp) - Type 3 JDBC driver and Layer 7 proxy server for decoupling applications from relational database connection management.
 - [OpenDJ](https://github.com/OpenIdentityPlatform/OpenDJ) - LDAPv3 compliant directory service, developed for the Java platform, providing a high performance, highly available, and secure store for the identities.
-- [Querydsl](https://www.querydsl.com) - Typesafe unified queries.
+- [Querydsl](http://www.querydsl.com) - Typesafe unified queries.
 - [QueryStream](https://github.com/querystream/querystream) - Build JPA Criteria queries using a Stream-like API.
 - [QuestDB](https://github.com/questdb/questdb) - High-performance SQL database for time series. Supports InfluxDB line protocol, PostgreSQL wire protocol, and REST.
 - [Realm](https://github.com/realm/realm-java) - Mobile database to run directly inside phones, tablets or wearables.
@@ -455,7 +455,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
 - [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Circuit breaker design pattern for Dropwizard. (GPL-2.0-only)
 - [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 - [Hazelcast](https://github.com/hazelcast/hazelcast) - Highly scalable in-memory datagrid with a free open-source version.
-- [JGroups](https://www.jgroups.org) - Toolkit for reliable messaging and cluster creation.
+- [JGroups](http://www.jgroups.org) - Toolkit for reliable messaging and cluster creation.
 - [Quasar](https://docs.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 - [resilience4j](https://github.com/resilience4j/resilience4j) - Functional fault tolerance library.
 - [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG) - High-performance reverse proxy server with specialized session management and credential replay functionality.
@@ -543,7 +543,7 @@ _Libraries that facilitate functional programming._
 - [Cyclops](https://github.com/aol/cyclops) - Monad and stream utilities, comprehensions, pattern matching, functional extensions for all JDK collections, future streams, trampolines and much more.
 - [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching and morphisms. (GPL-3.0-only)
 - [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
-- [Functional Java](https://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
+- [Functional Java](https://github.com/functionaljava/functionaljava) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
 - [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 that aims to fix gaps in lambda by providing numerous missing types and a rich set of sequential Stream API additions.
 - [Packrat](https://github.com/jhspetersson/packrat) - Gatherers library for Java Stream API. Gatherers can enhance streams with custom intermediate operations.
 - [Parallel Collectors](https://github.com/pivovarit/parallel-collectors) - Stream API Collectors for parallel processing with custom thread pools, designed for I/O-heavy workloads.
@@ -574,7 +574,7 @@ _Libraries for working with geospatial data and algorithms._
 - [Geo](https://github.com/davidmoten/geo) - GeoHash utilities in Java.
 - [GeoTools](https://geotools.org) - Library that provides tools for geospatial data. (LGPL-2.1-only)
 - [GraphHopper](https://github.com/graphhopper/graphhopper) - Road-routing engine. Used as a Java library or standalone web service.
-- [H2GIS](https://www.h2gis.org) - Spatial extension of the H2 database. (LGPL-3.0-only)
+- [H2GIS](https://h2gis.org/) - Spatial extension of the H2 database. (LGPL-3.0-only)
 - [Jgeohash](https://astrapi69.github.io/jgeohash/) - Library for using the GeoHash algorithm.
 - [Mapsforge](https://github.com/mapsforge/mapsforge) - Map rendering based on OpenStreetMap data. (LGPL-3.0-only)
 - [Spatial4j](https://github.com/locationtech/spatial4j) - General-purpose spatial/geospatial library.
@@ -657,7 +657,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
 
 - [ClassGraph](https://github.com/classgraph/classgraph) - ClassGraph (formerly FastClasspathScanner) is an uber-fast, ultra-lightweight, parallelized classpath scanner and module scanner for Java, Scala, Kotlin and other JVM languages.
 - [jOOR](https://github.com/jOOQ/jOOR) - jOOR stands for jOOR Object Oriented Reflection. It is a simple wrapper for the java.lang.reflect package.
-- [Mirror](https://projetos.vidageek.net/mirror/mirror/) - Mirror was created to bring light to a simple problem, usually named ReflectionUtil, which is on almost all projects that rely on reflection to do advanced tasks.
+- [Mirror](http://projetos.vidageek.net/mirror/mirror/) - Mirror was created to bring light to a simple problem, usually named ReflectionUtil, which is on almost all projects that rely on reflection to do advanced tasks.
 - [Objenesis](https://objenesis.org) - Allows dynamic instantiation without default constructor, e.g. constructors which have required arguments, side effects or throw exceptions.
 - [ReflectASM](https://github.com/EsotericSoftware/reflectasm) - ReflectASM is a very small Java library that provides high performance reflection by using code generation.
 - [Reflections](https://github.com/ronmamo/reflections) - Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.
@@ -680,7 +680,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
 
 - [Avaje Jsonb](https://avaje.io/jsonb/) - Reflection-free Json binding via source code generation with Jackson-like annotations.
 - [DSL-JSON](https://github.com/ngs-doo/dsl-json) - JSON library with advanced compile time databinding.
-- [Genson](https://genson.io) - Powerful and easy-to-use Java-to-JSON conversion library.
+- [Genson](http://genson.io) - Powerful and easy-to-use Java-to-JSON conversion library.
 - [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
 - [HikariJSON](https://github.com/brettwooldridge/HikariJSON) - High-performance JSON parser, 2x faster than Jackson.
 - [jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8) - Set of Jackson modules for Java 8 datatypes and features.
@@ -805,7 +805,7 @@ _Everything else._
 - [JBake](https://jbake.org) - Static website generator.
 - [JBang](https://www.jbang.dev/) - JBang makes it easy to use Java for scripting. It lets you use a single file for code and dependency management and allows you to run it directly.
 - [JBot](https://github.com/rampatra/jbot) - Framework for building chatbots. (GPL-3.0-only)
-- [JCuda](https://jcuda.org) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
+- [JCuda](https://javagl.de/jcuda.org/) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
 - [JEmoji](https://github.com/felldo/JEmoji) - An auto-generated emoji library that provides type-safe direct access to emojis and alias support for Discord, Slack, GitHub and many more features.
 - [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 - [JObfuscator![c]](https://www.pelock.com/products/jobfuscator) - Source code obfuscator.
@@ -1079,7 +1079,7 @@ _Frameworks specifically for creating RESTful services._
 - [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBoss Netty HTTP stack that provides scaling and performance.
 - [Restlet Framework](https://github.com/restlet/restlet-framework-java) - Pioneering framework with powerful routing and filtering capabilities, and a unified client and server API.
 - [Spark](https://sparkjava.com) - Sinatra inspired framework.
-- [Crnk](https://www.crnk.io) - Implementation of the JSON API specification to build resource-oriented REST endpoints with sorting, filtering, paging, linking, object graphs, type-safety, bulk updates, integrations and more.
+- [Crnk](https://github.com/crnk-project/crnk-framework) - Implementation of the JSON API specification to build resource-oriented REST endpoints with sorting, filtering, paging, linking, object graphs, type-safety, bulk updates, integrations and more.
 - [springdoc-openapi](https://github.com/springdoc/springdoc-openapi) - Automates the generation of API documentation using Spring Boot projects.
 - [Swagger](https://swagger.io) - Standard, language-agnostic interface to REST APIs.
 - [openapi-generator](https://github.com/OpenAPITools/openapi-generator) - Allows generation of API client libraries, SDKs, server stubs, documentation and configuration automatically given an OpenAPI Spec.
@@ -1132,7 +1132,7 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Keycloak](https://www.keycloak.org) - Integrated SSO and IDM for browser apps and RESTful web services.
 - [Keywhiz](https://github.com/square/keywhiz) - System for distributing and managing secrets.
 - [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) - Advanced password strength estimation.
-- [OACC](https://oaccframework.org) - Provides permission-based authorization services.
+- [OACC](http://oaccframework.org) - Provides permission-based authorization services.
 - [OpenAM](https://github.com/OpenIdentityPlatform/OpenAM) - Access management solution that includes authentication, SSO, authorization, federation, entitlements and web services security.
 - [OTP-Java](https://github.com/BastiaanJansen/OTP-Java) - One-time password generator library according to RFC 4226 (HOTP) and RFC 6238 (TOTP).
 - [pac4j](https://github.com/pac4j/pac4j) - Security engine.
@@ -1348,7 +1348,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [Javalin](https://javalin.io/) - Microframework for web applications.
 - [Jooby](https://www.jooby.org) - Scalable, fast and modular micro-framework that offers multiple programming models.
 - [Ninja](https://www.ninjaframework.org) - Full-stack web framework.
-- [Pippo](https://www.pippo.ro) - Small, highly modularized, Sinatra-like framework.
+- [Pippo](https://github.com/pippo-java/pippo) - Small, highly modularized, Sinatra-like framework.
 - [Play](https://www.playframework.com) - Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala.
 - [PrimeFaces](https://www.primefaces.org) - JSF framework with both free and commercial/support versions and frontend components.
 - [Ratpack](https://ratpack.io) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
@@ -1420,7 +1420,7 @@ _Something to look at or listen to while programming._
 - [Foojay Podcast](https://foojay.io/today/category/podcast/)
 - [Inside Java](https://inside.java/podcast) (Official)
 - [Java Off Heap](https://www.javaoffheap.com)
-- [The Java Posse](https://www.javaposse.com) - Discontinued as of 02/2015.
+- [The Java Posse](http://www.javaposse.com) - Discontinued as of 02/2015.
 
 ### People
 
