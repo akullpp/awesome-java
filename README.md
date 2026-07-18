@@ -1115,6 +1115,7 @@ _Engines that index documents for search and analysis._
 - [Apache Solr](https://lucene.apache.org/solr/) - Enterprise search engine optimized for high-volume traffic.
 - [Elasticsearch](https://www.elastic.co) - Distributed, multitenant-capable, full-text search engine with a RESTful web interface and schema-free JSON documents.
 - [Indexer4j](https://github.com/haeungun/indexer4j) - Simple and light full text indexing and searching library.
+- [Viglet Turing ES](https://github.com/openviglet/turing-ce) - Self-hosted enterprise search platform with faceted, semantic and hybrid search, RAG, AI agents and pluggable Solr, Elasticsearch or Lucene backends.
 
 ### Security
 
