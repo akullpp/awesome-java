@@ -81,6 +81,7 @@ We are evaluating to make this the default, you can provide feedback here in [#1
     - [Science](#science)
     - [Search](#search)
     - [Security](#security)
+    - [Security Analysis](#security-analysis)
     - [Serialization](#serialization)
     - [Server](#server)
     - [Template Engine](#template-engine)
@@ -1143,6 +1144,12 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Tink](https://github.com/google/tink) - Provides a simple and misuse-proof API for common cryptographic tasks.
 - [Topaz](https://www.topaz.sh) - Fine-grained authorization for applications with support for RBAC, ABAC, and ReBAC.
 - [MOSS](https://central.sonatype.com/artifact/com.mosscomputing/moss-sdk) - Cryptographic signing for AI agents using ML-DSA-44 post-quantum signatures, creating audit trails for attribution and compliance.
+
+### Security Analysis
+
+_Tools that scan source or bytecode to find security vulnerabilities._
+
+- [OpenTaint](https://github.com/seqra/opentaint) - An open-source taint-analysis engine that lets AI agents turn security-review findings into reusable taint rules and dependency summaries, so teams can stop repeating expensive analysis, scan continuously at high speed, reduce false positives, and find critical issues before attackers do.
 
 ### Serialization
 
