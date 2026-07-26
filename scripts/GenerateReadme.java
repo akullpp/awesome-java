@@ -31,6 +31,10 @@ final class GenerateReadme {
   private static final Pattern STARS = Pattern.compile("\"stargazers_count\"\\s*:\\s*(\\d+)");
   private static final Pattern PUSHED_AT = Pattern.compile("\"pushed_at\"\\s*:\\s*(?:\"([^\"]+)\"|null)");
   private static final Pattern ARCHIVED = Pattern.compile("\"archived\"\\s*:\\s*(true|false)");
+  private static final Pattern LICENSE = Pattern.compile(
+      "\"license\"\\s*:\\s*(?:null|\\{.*?\"spdx_id\"\\s*:\\s*(?:\"([^\"]+)\"|null))",
+      Pattern.DOTALL
+  );
   private static final Pattern GITHUB_METADATA =
       Pattern.compile("\\s*<!--\\s*github:\\s*([^>]+?)\\s*-->\\s*$");
   private static final Pattern REPOSITORY =
@@ -39,9 +43,6 @@ final class GenerateReadme {
       Comparator.comparing((String value) -> value.toLowerCase(Locale.ROOT))
           .thenComparing(Comparator.naturalOrder());
   private static final DateTimeFormatter DISPLAY_DATE = DateTimeFormatter.ofPattern("dd/MM/uuuu");
-  private static final String COMMERCIAL_BADGE =
-      "https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/"
-          + "d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg";
 
   public static void main(String[] args) throws Exception {
     if (args.length == 0) {
@@ -294,7 +295,7 @@ final class GenerateReadme {
       Map<String, Item> repositories
   ) {
     for (var item : items) {
-      var plainName = sortName(item.name());
+      var plainName = item.name();
       var normalizedName = plainName.toLowerCase(Locale.ROOT);
       var normalizedUrl = normalizeUrl(item.url());
       var duplicateName = names.putIfAbsent(normalizedName, item);
@@ -311,7 +312,7 @@ final class GenerateReadme {
             repository.toLowerCase(Locale.ROOT), item);
         if (duplicateRepository != null) {
           fail(item.lineNumber(), "GitHub repository is already used by "
-              + sortName(duplicateRepository.name()) + ": " + repository);
+              + duplicateRepository.name() + ": " + repository);
         }
       }
     }
@@ -340,14 +341,19 @@ final class GenerateReadme {
     var stars = STARS.matcher(response.body());
     var pushedAt = PUSHED_AT.matcher(response.body());
     var archived = ARCHIVED.matcher(response.body());
-    if (!stars.find() || !pushedAt.find() || !archived.find()) {
+    var license = LICENSE.matcher(response.body());
+    if (!stars.find() || !pushedAt.find() || !archived.find() || !license.find()) {
       throw new IOException("Incomplete GitHub response for " + repository);
     }
     var pushed = pushedAt.group(1) == null
         ? null
         : OffsetDateTime.parse(pushedAt.group(1)).withOffsetSameInstant(ZoneOffset.UTC).toLocalDate();
-    return new RepoStats(Long.parseLong(stars.group(1)), pushed,
-        Boolean.parseBoolean(archived.group(1)));
+    return new RepoStats(
+        Long.parseLong(stars.group(1)),
+        pushed,
+        Boolean.parseBoolean(archived.group(1)),
+        knownLicense(license.group(1))
+    );
   }
 
   private static StatsCache readCache(Path path) throws IOException {
@@ -362,7 +368,7 @@ final class GenerateReadme {
         refreshed = LocalDate.parse(line.substring("# refreshed=".length()));
       } else if (!line.isBlank() && !line.startsWith("#")) {
         var parts = line.split("\\t", -1);
-        if (parts.length != 4) {
+        if (parts.length != 5) {
           throw new IOException("Invalid statistics cache line: " + line);
         }
         if (!parts[3].equals("true") && !parts[3].equals("false")) {
@@ -371,7 +377,8 @@ final class GenerateReadme {
         stats.put(parts[0], new RepoStats(
             Long.parseLong(parts[1]),
             parts[2].isBlank() ? null : LocalDate.parse(parts[2]),
-            Boolean.parseBoolean(parts[3])
+            Boolean.parseBoolean(parts[3]),
+            parts[4].isBlank() ? null : parts[4]
         ));
       }
     }
@@ -387,6 +394,7 @@ final class GenerateReadme {
             .append(entry.getValue().stars()).append('\t')
             .append(entry.getValue().pushed() == null ? "" : entry.getValue().pushed())
             .append('\t').append(entry.getValue().archived())
+            .append('\t').append(entry.getValue().license() == null ? "" : entry.getValue().license())
             .append('\n'));
     writeAtomically(path, content.toString());
   }
@@ -402,8 +410,9 @@ final class GenerateReadme {
         .append(DISPLAY_DATE.format(cache.refreshed())).append("</sub>\n\n")
         .append("<sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · ")
         .append("🔴 no push for over 12 months</sub>\n\n")
-        .append("<sub>Entries spanning several repositories combine their stars and use the ")
-        .append("most recent push for activity.</sub>\n\n")
+        .append("<sub>License chips use GitHub SPDX metadata when available. Entries spanning ")
+        .append("several repositories combine their stars, use the most recent push for activity ")
+        .append("and show a license only when all repositories agree.</sub>\n\n")
         .append("Browse a category below, or use your browser's find command to locate a project.\n\n")
         .append("## Projects\n\n");
 
@@ -422,8 +431,7 @@ final class GenerateReadme {
         .append("[Contribution guidelines](CONTRIBUTING.md)\n")
         .append(">\n")
         .append("> Add one Markdown entry under the appropriate category and open one pull request. ")
-        .append("Ordering, counts and GitHub statistics are generated automatically.\n\n")
-        .append("[c]: ").append(COMMERCIAL_BADGE).append('\n');
+        .append("Ordering, counts and GitHub statistics are generated automatically.\n");
     return out.toString();
   }
 
@@ -441,7 +449,7 @@ final class GenerateReadme {
         .append('_').append(category.description).append("_\n\n");
 
     category.items.stream()
-        .sorted(Comparator.comparing(item -> sortName(item.name()), TEXT_ORDER))
+        .sorted(Comparator.comparing(Item::name, TEXT_ORDER))
         .forEach(item -> renderProject(out, item, cache, today));
 
     category.subcategories.values().stream()
@@ -454,7 +462,7 @@ final class GenerateReadme {
             out.append('_').append(sub.description).append("_\n\n");
           }
           sub.items.stream()
-              .sorted(Comparator.comparing(item -> sortName(item.name()), TEXT_ORDER))
+              .sorted(Comparator.comparing(Item::name, TEXT_ORDER))
               .forEach(item -> renderProject(out, item, cache, today));
         });
 
@@ -470,6 +478,9 @@ final class GenerateReadme {
     out.append("> **[").append(item.name()).append("](").append(item.url()).append(")**");
     aggregateStats(item, cache).ifPresent(stats -> {
       out.append(" <kbd>★ ").append(formatStars(stats.stars())).append("</kbd>");
+      if (stats.license() != null) {
+        out.append(" <kbd>").append(stats.license()).append("</kbd>");
+      }
       if (stats.pushed() != null) {
         out.append(' ').append(activityDot(stats.pushed(), today));
       }
@@ -485,7 +496,7 @@ final class GenerateReadme {
         .append('_').append(resource.description).append("_\n\n");
 
     resource.items.stream()
-        .sorted(Comparator.comparing(item -> sortName(item.name()), TEXT_ORDER))
+        .sorted(Comparator.comparing(Item::name, TEXT_ORDER))
         .forEach(item -> {
           out.append("> **[").append(item.name()).append("](").append(item.url()).append(")**");
           if (!item.description().isBlank()) {
@@ -503,6 +514,8 @@ final class GenerateReadme {
 
     long stars = 0;
     LocalDate pushed = null;
+    String license = null;
+    var oneLicense = true;
     for (var repository : item.repositories()) {
       var stats = cache.stats().get(repository);
       require(stats != null, item.lineNumber(),
@@ -511,8 +524,15 @@ final class GenerateReadme {
       if (stats.pushed() != null && (pushed == null || stats.pushed().isAfter(pushed))) {
         pushed = stats.pushed();
       }
+      if (stats.license() == null) {
+        oneLicense = false;
+      } else if (license == null) {
+        license = stats.license();
+      } else if (!license.equals(stats.license())) {
+        oneLicense = false;
+      }
     }
-    return Optional.of(new RepoStats(stars, pushed, false));
+    return Optional.of(new RepoStats(stars, pushed, false, oneLicense ? license : null));
   }
 
   private static void rejectArchivedProjects(Catalog source, StatsCache cache) {
@@ -535,17 +555,24 @@ final class GenerateReadme {
   ) {
     require(!rendered.contains("Last push"), 0, "Generated README contains a Last push label");
     require(!rendered.contains("| Name |"), 0, "Generated README contains a table");
+    require(!rendered.contains("![c]") && !rendered.contains("[c]:"),
+        0, "Generated README contains the retired commercial badge");
     require(!rendered.matches("(?s).*<kbd>\\d{2}/\\d{2}/\\d{4}</kbd>.*"), 0,
         "Generated README contains a per-project date");
 
     for (var item : source.projects()) {
       require(rendered.contains("**[" + item.name() + "](" + item.url() + ")**"), item.lineNumber(),
-          "Generated README is missing project: " + sortName(item.name()));
+          "Generated README is missing project: " + item.name());
+      aggregateStats(item, cache).filter(stats -> stats.license() != null).ifPresent(stats ->
+          require(rendered.contains("<kbd>★ " + formatStars(stats.stars()) + "</kbd> <kbd>"
+                  + stats.license() + "</kbd>"),
+              item.lineNumber(), "Generated README is missing license: " + item.name())
+      );
     }
     for (var resource : source.resources()) {
       for (var item : resource.items) {
         require(rendered.contains("**[" + item.name() + "](" + item.url() + ")**"), item.lineNumber(),
-            "Generated README is missing resource: " + sortName(item.name()));
+            "Generated README is missing resource: " + item.name());
       }
     }
 
@@ -656,8 +683,11 @@ final class GenerateReadme {
     return url.toLowerCase(Locale.ROOT).replaceAll("/+$", "");
   }
 
-  private static String sortName(String name) {
-    return name.replace("![c]", "").trim();
+  private static String knownLicense(String license) {
+    return license == null || license.isBlank()
+        || license.equals("NOASSERTION") || license.equals("OTHER")
+        ? null
+        : license;
   }
 
   private static boolean isDescription(String line) {
@@ -705,12 +735,6 @@ final class GenerateReadme {
         0, "Repository parsing");
     require(githubRepository("https://github.com/webforms-core").isEmpty(), 0,
         "Organization URL parsing");
-    var commercial = parseItem(
-        "- [Bootify ![c]](https://bootify.io) - Generates Spring Boot applications.",
-        1,
-        true
-    );
-    require(commercial.name().equals("Bootify ![c]"), 0, "Commercial marker parsing");
     var umbrella = parseItem(
         "- [Umbrella](https://example.com) - Several modules. "
             + "<!-- github: acme/one, acme/two -->",
@@ -720,20 +744,27 @@ final class GenerateReadme {
     require(umbrella.repositories().equals(List.of("acme/one", "acme/two")), 0,
         "Umbrella repository parsing");
     var aggregate = aggregateStats(umbrella, new StatsCache(today, Map.of(
-        "acme/one", new RepoStats(10, LocalDate.of(2026, 1, 1), false),
-        "acme/two", new RepoStats(20, LocalDate.of(2026, 7, 1), false)
+        "acme/one", new RepoStats(10, LocalDate.of(2026, 1, 1), false, "Apache-2.0"),
+        "acme/two", new RepoStats(20, LocalDate.of(2026, 7, 1), false, "Apache-2.0")
     ))).orElseThrow();
     require(aggregate.stars() == 30, 0, "Umbrella star aggregation");
     require(aggregate.pushed().equals(LocalDate.of(2026, 7, 1)), 0,
         "Umbrella activity aggregation");
+    require(aggregate.license().equals("Apache-2.0"), 0, "Umbrella license aggregation");
+    var mixedLicense = aggregateStats(umbrella, new StatsCache(today, Map.of(
+        "acme/one", new RepoStats(10, today, false, "Apache-2.0"),
+        "acme/two", new RepoStats(20, today, false, "MIT")
+    ))).orElseThrow();
+    require(mixedLicense.license() == null, 0, "Mixed umbrella licenses");
+    require(knownLicense("NOASSERTION") == null, 0, "Unknown license handling");
     var category = new Category("Test");
     category.description = "Test projects.";
     category.items.add(umbrella);
     var catalog = new Catalog("# Test", "Test.", List.of(category), List.of());
     expectFailure(
         () -> rejectArchivedProjects(catalog, new StatsCache(today, Map.of(
-            "acme/one", new RepoStats(10, today, false),
-            "acme/two", new RepoStats(20, today, true)
+            "acme/one", new RepoStats(10, today, false, "Apache-2.0"),
+            "acme/two", new RepoStats(20, today, true, "Apache-2.0")
         ))),
         "Archived GitHub repository"
     );
@@ -756,7 +787,8 @@ final class GenerateReadme {
     );
     var oldCache = Files.createTempFile("awesome-java-old-cache", ".tsv");
     try {
-      Files.writeString(oldCache, "# refreshed=2026-07-26\nacme/one\t10\t2026-07-25\n");
+      Files.writeString(oldCache,
+          "# refreshed=2026-07-26\nacme/one\t10\t2026-07-25\tfalse\n");
       expectFailure(() -> readCache(oldCache), "Invalid statistics cache line");
     } finally {
       Files.deleteIfExists(oldCache);
@@ -841,7 +873,7 @@ final class GenerateReadme {
     }
   }
 
-  private record RepoStats(long stars, LocalDate pushed, boolean archived) {}
+  private record RepoStats(long stars, LocalDate pushed, boolean archived, String license) {}
 
   private record StatsCache(LocalDate refreshed, Map<String, RepoStats> stats) {}
 }

@@ -152,14 +152,14 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 - [Auto](https://github.com/google/auto) - Generates factory, service, and value classes.
 - [Avaje Http Server](https://github.com/avaje/avaje-http) - Generates Lightweight JAX-RS style http servers using Javalin or Helidon (Nima) SE.
-- [Bootify ![c]](https://bootify.io) - Browser-based Spring Boot app generation with JPA model and REST API.
+- [Bootify](https://bootify.io) - Browser-based Spring Boot app generation with JPA model and REST API.
 - [CRUDGen](https://github.com/bariskokulu/CRUDGen) - Compile-time annotation processor generating CRUD layers, DTOs, JSON Patch, and custom HTTP endpoints for Spring Boot.
 - [EasyEntityToDTO](https://github.com/Marcel091004/EasyEntityToDTO) - Annotation processor for automatic DTO and Mapper generation with zero boilerplate.
 - [Geci](https://github.com/verhas/javageci) - Discovers files that need generated code, updates automatically and writes to the source with a convenient API.
 - [Immutables](https://github.com/immutables/immutables) - Annotation processors to generate simple, safe and consistent value objects.
 - [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator for Spring Boot and AngularJS.
 - [Joda-Beans](https://github.com/JodaOrg/joda-beans) - Small framework that adds queryable properties to Java, enhancing JavaBeans.
-- [JPA Buddy ![c]](https://www.jpa-buddy.com) - Plugin for IntelliJ IDEA. Provides visual tools for generating JPA entities, Spring Data JPA repositories, Liquibase changelogs and SQL scripts. Offers automatic Liquibase/Flyway script generation by comparing model to DB, and reverse engineering JPA entities from DB tables.
+- [JPA Buddy](https://www.jpa-buddy.com) - Plugin for IntelliJ IDEA. Provides visual tools for generating JPA entities, Spring Data JPA repositories, Liquibase changelogs and SQL scripts. Offers automatic Liquibase/Flyway script generation by comparing model to DB, and reverse engineering JPA entities from DB tables.
 - [JSpecify Package-Info Generator](https://github.com/bcaillard/jspecify-packageinfo-generator) - Maven plugin that automatically generates package-info.java files with JSpecify annotations (@NullMarked and @NullUnmarked), helping you manage nullness boundaries in your Java projects without manual boilerplate.
 - [Lombok](https://github.com/projectlombok/lombok) - Code generator that aims to reduce verbosity.
 - [Record-Builder](https://github.com/Randgalt/record-builder) - Companion builder class, withers and templates for Java records.
@@ -371,17 +371,17 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
 _Tools that handle the distribution of applications in native formats._
 
 - [Artipie](https://github.com/artipie/artipie) - Binary artifact management toolkit which hosts them on the file system or S3.
-- [Boxfuse ![c]](https://boxfuse.com) - Deployment of JVM applications to AWS using the principles of immutable infrastructure.
+- [Boxfuse](https://boxfuse.com) - Deployment of JVM applications to AWS using the principles of immutable infrastructure.
 - [Capsule](https://github.com/puniverse/capsule) - Simple and powerful packaging and deployment. A fat JAR on steroids, or a "Docker for Java" that supports JVM-optimized containers.
 - [Central Repository](https://search.maven.org) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven, and available in all other build tools.
-- [Cloudsmith ![c]](https://cloudsmith.io) - Fully managed package management SaaS with support for Maven/Gradle/SBT with a free tier.
+- [Cloudsmith](https://cloudsmith.io) - Fully managed package management SaaS with support for Maven/Gradle/SBT with a free tier.
 - [Getdown](https://github.com/threerings/getdown) - System for deploying Java applications to end-user computers and keeping them up to date. Developed as an alternative to Java Web Start.
 - [IzPack](https://github.com/izpack/izpack) - Setup authoring tool for cross-platform deployments.
 - [JavaPackager](https://github.com/fvarrui/JavaPackager) - Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them.
 - [jDeploy](https://github.com/shannah/jdeploy) - Deploy desktop apps as native Mac, Windows or Linux bundles.
 - [jlink.online](https://github.com/AdoptOpenJDK/jlink.online) - Builds optimized runtimes over HTTP.
 - [Nuts](https://github.com/thevpc/nuts) - Installs and runs Java applications from Maven repositories, reusing descriptors and provisioning required JDKs.
-- [Nexus ![c]](https://github.com/sonatype/nexus-public) - Binary management with proxy and caching capabilities.
+- [Nexus](https://github.com/sonatype/nexus-public) - Binary management with proxy and caching capabilities.
 - [packr](https://github.com/libgdx/packr) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and macOS.
 - [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin) - Maven plugin for making self-executing JARs.
 
@@ -463,7 +463,7 @@ _Frameworks that support the development of games._
 _Libraries for working with geospatial data and algorithms._
 
 - [Apache SIS](https://github.com/apache/sis) - Library for developing geospatial applications.
-- [ArcGIS Maps SDK for Java ![c]](https://github.com/Esri/arcgis-maps-sdk-java-samples/) - JavaFX library for adding mapping and GIS functionality to desktop apps.
+- [ArcGIS Maps SDK for Java](https://github.com/Esri/arcgis-maps-sdk-java-samples/) - JavaFX library for adding mapping and GIS functionality to desktop apps.
 - [Geo](https://github.com/davidmoten/geo) - GeoHash utilities in Java.
 - [GeoTools](https://github.com/geotools/geotools) - Library that provides tools for geospatial data. (LGPL-2.1-only)
 - [GraphHopper](https://github.com/graphhopper/graphhopper) - Road-routing engine. Used as a Java library or standalone web service.
@@ -525,7 +525,7 @@ _Libraries that handle serialization to hypermedia types._
 _Integrated development environments that try to simplify several aspects of development._
 
 - [Eclipse Java IDE](https://www.eclipse.org) - Extensible Java IDE assembled from the Eclipse Platform, JDT and PDE. <!-- github: eclipse-platform/eclipse.platform, eclipse-platform/eclipse.platform.ui, eclipse-jdt/eclipse.jdt.core, eclipse-jdt/eclipse.jdt.ui, eclipse-jdt/eclipse.jdt.debug, eclipse-pde/eclipse.pde -->
-- [IntelliJ IDEA ![c]](https://github.com/JetBrains/intellij-community) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
+- [IntelliJ IDEA](https://github.com/JetBrains/intellij-community) - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
 - [jGRASP](https://www.jgrasp.org) - Created to provide software visualizations that work in conjunction with the debugger such as Control Structure Diagrams, UML class diagrams and Object Viewer.
 - [NetBeans](https://github.com/apache/netbeans) - Provides integration for several Java SE and EE features, from database access to HTML5.
 - [SnapCode](https://github.com/reportmill/SnapCode) - Modern IDE for Java running in the browser, focused on education.
@@ -630,7 +630,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 - [DatumBox](https://github.com/datumbox/datumbox-framework) - Provides several algorithms and pre-trained models for natural language processing.
 - [Deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) - Distributed and multi-threaded deep learning library.
 - [DJL](https://github.com/deepjavalibrary/djl) - High-level and engine-agnostic framework for deep learning.
-- [H2O ![c]](https://github.com/h2oai/h2o-3) - Analytics engine for statistics over big data.
+- [H2O](https://github.com/h2oai/h2o-3) - Analytics engine for statistics over big data.
 - [Intelligent java](https://github.com/Barqawiz/IntelliJava) - Seamlessly integrate with remote deep learning and language models programmatically.
 - [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only)
 - [m2cgen](https://github.com/BayesWitnesses/m2cgen) - CLI tool to transpile models into native code.
@@ -684,7 +684,7 @@ _Everything else._
 - [AISmessages](https://github.com/tbsalling/aismessages) - Decodes NMEA-armoured AIS messages for maritime navigation and safety systems with ITU-R M.1371 support and no runtime dependencies. (CC-BY-NC-SA-4.0)
 - [CQEngine](https://github.com/npgall/cqengine) - Ultra-fast, SQL-like queries on Java collections.
 - [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
-- [Explyt ![c]](https://github.com/explyt/explyt) - AI coding agent for JetBrains IDEs that uses IDE indexes, refactorings, test runners, static analysis and debugging for Java and Kotlin projects.
+- [Explyt](https://github.com/explyt/explyt) - AI coding agent for JetBrains IDEs that uses IDE indexes, refactorings, test runners, static analysis and debugging for Java and Kotlin projects.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
 - [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) - No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes. (No explicit license)
 - [IP2Location.io Java SDK](https://github.com/ip2location/ip2location-io-java) - Wrapper for the IP2Location.io Geolocation API and the IP2WHOIS domain WHOIS API.
@@ -696,7 +696,7 @@ _Everything else._
 - [JCuda](https://github.com/jcuda/jcuda) - JCuda offers Java bindings for CUDA and CUDA-related libraries.
 - [JEmoji](https://github.com/felldo/JEmoji) - An auto-generated emoji library that provides type-safe direct access to emojis and alias support for Discord, Slack, GitHub and many more features.
 - [Jimfs](https://github.com/google/jimfs) - In-memory file system.
-- [JObfuscator![c]](https://www.pelock.com/products/jobfuscator) - Source code obfuscator.
+- [JObfuscator](https://www.pelock.com/products/jobfuscator) - Source code obfuscator.
 - [Joda-Money](https://github.com/JodaOrg/joda-money) - Basic currency and money classes and algorithms not provided by the JDK.
 - [jOOX](https://github.com/jooq/joox) - Simple wrapper for the org.w3c.dom package, to allow for fluent XML document creation and manipulation with an API inspired by jQuery.
 - [JPad](https://jpad.io) - Snippet runner.
@@ -739,7 +739,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
 - [Apitally](https://github.com/apitally/apitally-java) - Simple, privacy-focused API monitoring, analytics and request logging for Spring Boot apps.
 - [Automon](https://github.com/stevensouza/automon) - Combines the power of AOP with monitoring and/or logging tools.
 - [Boot Usage Spring Boot Starter](https://github.com/dhruv-15-03/boot-usage) - Spring Boot Actuator extension providing application startup and runtime metrics including JVM uptime, memory usage, and CPU load.
-- [Datadog ![c]](https://github.com/DataDog/dd-trace-java) - Modern monitoring & analytics.
+- [Datadog](https://github.com/DataDog/dd-trace-java) - Modern monitoring & analytics.
 - [Dropwizard Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and send them to a database.
 - [Glowroot](https://github.com/glowroot/glowroot) - Open-source Java APM.
 - [HertzBeat](https://github.com/dromara/hertzbeat) - Real-time monitoring system with custom-monitor and agentless.
@@ -754,8 +754,8 @@ _Tools that observe/monitor applications in production by providing telemetry._
 - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-java) - Instrument, generate, collect, and export telemetry data to help you analyze your software’s performance and behavior.
 - [Pinpoint](https://github.com/naver/pinpoint) - Open-source APM tool.
 - [Prometheus](https://github.com/prometheus/client_java) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
-- [Sentry ![c]](https://github.com/getsentry/sentry-java) - Integration with [Sentry](https://github.com/getsentry/sentry), an application error tracking and performance analysis platform.
-- [SPM ![c]](https://github.com/sematext/sematext-agent-java) - Performance monitor with distributing transaction tracing for JVM apps.
+- [Sentry](https://github.com/getsentry/sentry-java) - Integration with [Sentry](https://github.com/getsentry/sentry), an application error tracking and performance analysis platform.
+- [SPM](https://github.com/sematext/sematext-agent-java) - Performance monitor with distributing transaction tracing for JVM apps.
 - [zipkin](https://github.com/openzipkin/zipkin) - Distributed tracing system which gathers timing data needed to troubleshoot latency problems in microservice architectures.
 
 ### Native
@@ -819,12 +819,12 @@ _APIs that handle the persistence of objects._
 
 _Java platform as a service._
 
-- [AWS Elastic Beanstalk ![c]](https://aws.amazon.com/elasticbeanstalk/) - AWS-based, with support for Tomcat and Jetty.
-- [AWS Lambda ![c]](https://aws.amazon.com/lambda/) - Serverless computation.
-- [Google Cloud ![c]](https://cloud.google.com) - Google's cloud infrastructure.
-- [Heroku ![c]](https://www.heroku.com) - Abstract computing environments.
-- [Microsoft Azure ![c]](https://azure.microsoft.com/en-us/) - Microsoft's cloud infrastructure.
-- [OpenShift ![c]](https://www.openshift.com) - Provides additionally an on-premise solution.
+- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - AWS-based, with support for Tomcat and Jetty.
+- [AWS Lambda](https://aws.amazon.com/lambda/) - Serverless computation.
+- [Google Cloud](https://cloud.google.com) - Google's cloud infrastructure.
+- [Heroku](https://www.heroku.com) - Abstract computing environments.
+- [Microsoft Azure](https://azure.microsoft.com/en-us/) - Microsoft's cloud infrastructure.
+- [OpenShift](https://www.openshift.com) - Provides additionally an on-premise solution.
 
 ### Pathfinding
 
@@ -843,7 +843,7 @@ _Tools to help with PDF files._
 - [Eclipse BIRT](https://github.com/eclipse-birt/birt) - Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor.
 - [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer. (LGPL-2.1-or-later)
 - [GraphCompose](https://github.com/DemchaAV/GraphCompose) - Declarative engine for structured business PDFs with semantic layout, atomic pagination, theme tokens, and native vector charts.
-- [iText ![c]](https://github.com/itext/itext-java) - Creates PDF files programmatically.
+- [iText](https://github.com/itext/itext-java) - Creates PDF files programmatically.
 - [JasperReports](https://github.com/Jaspersoft/jasperreports) - Complex reporting engine. (LGPL-3.0-only)
 - [jquick-pdf](https://github.com/paohaijiao/jquick-pdf) - Generates PDFs from HTML-like templates and ECharts-style charts using iText 7, without a browser dependency.
 - [Open HTML to PDF](https://github.com/openhtmltopdf/openhtmltopdf) - Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.
@@ -854,8 +854,8 @@ _Tools to help with PDF files._
 
 _Tools for performance analysis, profiling and benchmarking._
 
-- [fastThread ![c]](https://fastthread.io) - Analyze and visualize thread dumps with a free cloud-based upload interface.
-- [GCeasy ![c]](https://gceasy.io) - Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.
+- [fastThread](https://fastthread.io) - Analyze and visualize thread dumps with a free cloud-based upload interface.
+- [GCeasy](https://gceasy.io) - Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.
 - [honest-profiler](https://github.com/jvm-profiling-tools/honest-profiler) - Low-overhead, bias-free sampling profiler.
 - [Heap Seance](https://github.com/SegfaultSorcerer/heap-seance) - Memory leak diagnostics that orchestrates jcmd, jmap, jstat, JFR, Eclipse MAT, and async-profiler into a structured investigation workflow with confidence-based verdicts.
 - [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
@@ -1111,7 +1111,7 @@ _Provide environments to run tests for a specific use case._
 - [Apache JMeter](https://github.com/apache/jmeter) - Functional testing and performance measurements.
 - [JMeter DSL.java](https://github.com/abstracta/jmeter-java-dsl) - Load tests with JMeter as simple as a JUnit test.
 - [Arquillian](https://github.com/arquillian/arquillian-core) - Integration and functional testing platform for Java EE containers.
-- [BitDive Java Agent ![c]](https://github.com/bitDive/java-producer) - Java agent that captures runtime traces, SQL queries and HTTP payloads for BitDive testing.
+- [BitDive Java Agent](https://github.com/bitDive/java-producer) - Java agent that captures runtime traces, SQL queries and HTTP payloads for BitDive testing.
 - [cdi-test](https://github.com/guhilling/cdi-test) - JUnit extension for easy and efficient testing of CDI components.
 - [Citrus](https://github.com/citrusframework/citrus) - Integration testing framework that focuses on both client- and server-side messaging.
 - [Gatling](https://github.com/gatling/gatling) - Load testing tool designed for ease of use, maintainability and high performance.
@@ -1362,5 +1362,3 @@ _Sites to read._
 - [RebelLabs](https://zeroturnaround.com/rebellabs)
 - [TheServerSide.com](https://www.theserverside.com)
 - [Vanilla Java](https://vanilla-java.github.io)
-
-[c]: https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg

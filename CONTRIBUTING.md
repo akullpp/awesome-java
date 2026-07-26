@@ -23,9 +23,9 @@ A project should:
 - disclose restrictive, noncommercial or source-available terms in the entry;
 - have clear pricing and a free tier when commercial.
 
-Add `![c]` after the project name for commercial products. Keep descriptions
-short, factual and distinctive from similar entries. Use `Miscellaneous` only
-when no focused category fits.
+Known GitHub SPDX licenses appear automatically; do not add license or
+commercial badges manually. Keep descriptions short, factual and distinctive
+from similar entries. Use `Miscellaneous` only when no focused category fits.
 
 Search existing entries and issues before submitting. Self-promotion is
 reviewed carefully but is welcome when the project meets the same criteria.
