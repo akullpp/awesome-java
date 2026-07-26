@@ -7,11 +7,13 @@ import java.nio.file.AtomicMoveNotSupportedException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -19,13 +21,20 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Set;
+import java.util.Optional;
 import java.util.TreeMap;
+import java.util.TreeSet;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
-class generate_readme {
+final class GenerateReadme {
   private static final Pattern STARS = Pattern.compile("\"stargazers_count\"\\s*:\\s*(\\d+)");
   private static final Pattern PUSHED_AT = Pattern.compile("\"pushed_at\"\\s*:\\s*(?:\"([^\"]+)\"|null)");
+  private static final Pattern ARCHIVED = Pattern.compile("\"archived\"\\s*:\\s*(true|false)");
+  private static final Pattern GITHUB_METADATA =
+      Pattern.compile("\\s*<!--\\s*github:\\s*([^>]+?)\\s*-->\\s*$");
+  private static final Pattern REPOSITORY =
+      Pattern.compile("[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+");
   private static final Comparator<String> TEXT_ORDER =
       Comparator.comparing((String value) -> value.toLowerCase(Locale.ROOT))
           .thenComparing(Comparator.naturalOrder());
@@ -59,9 +68,9 @@ class generate_readme {
   private static void usage() {
     System.err.println("""
         Usage:
-          java scripts/generate_readme.java check [source]
-          java scripts/generate_readme.java self-test
-          java scripts/generate_readme.java generate [source] [output] [cache] [--refresh-all] [--branch name]
+          java scripts/GenerateReadme.java check [source]
+          java scripts/GenerateReadme.java self-test
+          java scripts/GenerateReadme.java generate [source] [output] [cache] [--refresh-all] [--branch name]
         """);
   }
 
@@ -89,10 +98,8 @@ class generate_readme {
     validateSource(source);
 
     var repositories = source.projects().stream()
-        .map(Item::url)
-        .map(generate_readme::githubRepository)
-        .flatMap(java.util.Optional::stream)
-        .collect(java.util.stream.Collectors.toCollection(() -> new java.util.TreeSet<>(TEXT_ORDER)));
+        .flatMap(item -> item.repositories().stream())
+        .collect(Collectors.toCollection(() -> new TreeSet<>(TEXT_ORDER)));
 
     var cache = readCache(cachePath);
     var missing = repositories.stream().filter(repo -> !cache.stats().containsKey(repo)).toList();
@@ -101,11 +108,12 @@ class generate_readme {
     var today = LocalDate.now(ZoneOffset.UTC);
 
     if (!targets.isEmpty()) {
-      var token = System.getenv("PAT");
+      var token = System.getenv("GITHUB_TOKEN");
       if (token == null || token.isBlank()) {
-        throw new IllegalStateException("PAT is required to fetch GitHub statistics");
+        throw new IllegalStateException("GITHUB_TOKEN is required to fetch GitHub statistics");
       }
       var client = HttpClient.newBuilder()
+          .connectTimeout(Duration.ofSeconds(20))
           .followRedirects(HttpClient.Redirect.NORMAL)
           .build();
 
@@ -121,6 +129,7 @@ class generate_readme {
     stats.keySet().retainAll(repositories);
     var refreshed = refreshAll || cache.refreshed() == null ? today : cache.refreshed();
     var updatedCache = new StatsCache(refreshed, stats);
+    rejectArchivedProjects(source, updatedCache);
     var rendered = render(source, updatedCache, today, branch);
     validateRendered(source, updatedCache, rendered, today);
 
@@ -218,6 +227,23 @@ class generate_readme {
   }
 
   private static Item parseItem(String line, int lineNumber, boolean descriptionRequired) {
+    var metadata = GITHUB_METADATA.matcher(line);
+    var repositories = new ArrayList<String>();
+    if (metadata.find()) {
+      require(descriptionRequired, lineNumber, "GitHub metadata is only valid for projects");
+      for (var value : metadata.group(1).split(",")) {
+        var repository = value.trim();
+        require(REPOSITORY.matcher(repository).matches(), lineNumber,
+            "Invalid GitHub repository: " + repository);
+        require(!repositories.contains(repository), lineNumber,
+            "Duplicate GitHub repository: " + repository);
+        repositories.add(repository);
+      }
+      require(repositories.size() >= 2, lineNumber,
+          "GitHub metadata must contain at least two repositories");
+      line = line.substring(0, metadata.start());
+    }
+
     var linkClose = line.indexOf("](");
     var urlClose = linkClose < 0 ? -1 : line.indexOf(')', linkClose + 2);
     require(linkClose > 3 && urlClose > linkClose + 2, lineNumber, "Invalid entry syntax");
@@ -230,7 +256,11 @@ class generate_readme {
     require(!name.isEmpty(), lineNumber, "Missing entry name");
     require(!url.isEmpty(), lineNumber, "Missing entry URL");
     require(!descriptionRequired || !description.isEmpty(), lineNumber, "Missing project description");
-    return new Item(name, url, description, lineNumber);
+    var directRepository = githubRepository(url);
+    require(repositories.isEmpty() || directRepository.isEmpty(), lineNumber,
+        "GitHub metadata is not allowed on a direct repository link");
+    directRepository.ifPresent(repositories::add);
+    return new Item(name, url, description, lineNumber, List.copyOf(repositories));
   }
 
   private static void validateSource(Catalog source) {
@@ -240,13 +270,14 @@ class generate_readme {
     var anchors = new HashSet<String>();
     var names = new HashMap<String, Item>();
     var urls = new HashMap<String, Item>();
+    var repositories = new HashMap<String, Item>();
 
     for (var category : source.categories()) {
       require(!category.description.isBlank(), 0, "Missing category description: " + category.name);
       require(anchors.add(slug(category.name)), 0, "Duplicate anchor: " + slug(category.name));
-      validateItems(category.items, names, urls);
+      validateItems(category.items, names, urls, repositories);
       for (var nested : category.subcategories.values()) {
-        validateItems(nested.items, names, urls);
+        validateItems(nested.items, names, urls, repositories);
       }
     }
 
@@ -259,7 +290,8 @@ class generate_readme {
   private static void validateItems(
       List<Item> items,
       Map<String, Item> names,
-      Map<String, Item> urls
+      Map<String, Item> urls,
+      Map<String, Item> repositories
   ) {
     for (var item : items) {
       var plainName = sortName(item.name());
@@ -274,6 +306,14 @@ class generate_readme {
       var end = item.description().charAt(item.description().length() - 1);
       require(".!?)".indexOf(end) >= 0, item.lineNumber(),
           "Description must end with punctuation: " + plainName);
+      for (var repository : item.repositories()) {
+        var duplicateRepository = repositories.putIfAbsent(
+            repository.toLowerCase(Locale.ROOT), item);
+        if (duplicateRepository != null) {
+          fail(item.lineNumber(), "GitHub repository is already used by "
+              + sortName(duplicateRepository.name()) + ": " + repository);
+        }
+      }
     }
   }
 
@@ -287,7 +327,9 @@ class generate_readme {
         .uri(URI.create("https://api.github.com/repos/" + repository))
         .header("Accept", "application/vnd.github+json")
         .header("Authorization", "Bearer " + token)
-        .header("X-GitHub-Api-Version", "2022-11-28")
+        .header("User-Agent", "awesome-java-readme-generator")
+        .header("X-GitHub-Api-Version", "2026-03-10")
+        .timeout(Duration.ofSeconds(30))
         .GET()
         .build();
     var response = client.send(request, HttpResponse.BodyHandlers.ofString());
@@ -297,13 +339,15 @@ class generate_readme {
 
     var stars = STARS.matcher(response.body());
     var pushedAt = PUSHED_AT.matcher(response.body());
-    if (!stars.find() || !pushedAt.find()) {
+    var archived = ARCHIVED.matcher(response.body());
+    if (!stars.find() || !pushedAt.find() || !archived.find()) {
       throw new IOException("Incomplete GitHub response for " + repository);
     }
     var pushed = pushedAt.group(1) == null
         ? null
         : OffsetDateTime.parse(pushedAt.group(1)).withOffsetSameInstant(ZoneOffset.UTC).toLocalDate();
-    return new RepoStats(Long.parseLong(stars.group(1)), pushed);
+    return new RepoStats(Long.parseLong(stars.group(1)), pushed,
+        Boolean.parseBoolean(archived.group(1)));
   }
 
   private static StatsCache readCache(Path path) throws IOException {
@@ -318,12 +362,16 @@ class generate_readme {
         refreshed = LocalDate.parse(line.substring("# refreshed=".length()));
       } else if (!line.isBlank() && !line.startsWith("#")) {
         var parts = line.split("\\t", -1);
-        if (parts.length != 3) {
+        if (parts.length != 4) {
           throw new IOException("Invalid statistics cache line: " + line);
+        }
+        if (!parts[3].equals("true") && !parts[3].equals("false")) {
+          throw new IOException("Invalid archived value in statistics cache line: " + line);
         }
         stats.put(parts[0], new RepoStats(
             Long.parseLong(parts[1]),
-            parts[2].isBlank() ? null : LocalDate.parse(parts[2])
+            parts[2].isBlank() ? null : LocalDate.parse(parts[2]),
+            Boolean.parseBoolean(parts[3])
         ));
       }
     }
@@ -338,21 +386,24 @@ class generate_readme {
             .append(entry.getKey()).append('\t')
             .append(entry.getValue().stars()).append('\t')
             .append(entry.getValue().pushed() == null ? "" : entry.getValue().pushed())
+            .append('\t').append(entry.getValue().archived())
             .append('\n'));
     writeAtomically(path, content.toString());
   }
 
   private static String render(Catalog source, StatsCache cache, LocalDate today, String branch) {
     var out = new StringBuilder();
-    out.append("<!-- Generated from README_SOURCE.md by scripts/generate_readme.java. ")
+    out.append("<!-- Generated from README_SOURCE.md by scripts/GenerateReadme.java. ")
         .append("Do not edit README.md directly. -->\n\n")
         .append(source.title()).append("\n\n")
         .append(source.tagline()).append("\n\n")
         .append("<sub>").append(projectCount(source)).append(" projects · ")
-        .append(source.categories().size()).append(" categories · GitHub statistics refreshed ")
+        .append(source.categories().size()).append(" categories · ")
         .append(DISPLAY_DATE.format(cache.refreshed())).append("</sub>\n\n")
         .append("<sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · ")
         .append("🔴 no push for over 12 months</sub>\n\n")
+        .append("<sub>Entries spanning several repositories combine their stars and use the ")
+        .append("most recent push for activity.</sub>\n\n")
         .append("Browse a category below, or use your browser's find command to locate a project.\n\n")
         .append("## Projects\n\n");
 
@@ -367,7 +418,7 @@ class generate_readme {
 
     var editUrl = "https://github.com/akullpp/awesome-java/edit/" + branch + "/README_SOURCE.md";
     out.append("## Contributing\n\n")
-        .append("> **[Add a library](").append(editUrl).append(")** · ")
+        .append("> **[Suggest a project](").append(editUrl).append(")** · ")
         .append("[Contribution guidelines](CONTRIBUTING.md)\n")
         .append(">\n")
         .append("> Add one Markdown entry under the appropriate category and open one pull request. ")
@@ -417,7 +468,7 @@ class generate_readme {
       LocalDate today
   ) {
     out.append("> **[").append(item.name()).append("](").append(item.url()).append(")**");
-    githubRepository(item.url()).map(cache.stats()::get).ifPresent(stats -> {
+    aggregateStats(item, cache).ifPresent(stats -> {
       out.append(" <kbd>★ ").append(formatStars(stats.stars())).append("</kbd>");
       if (stats.pushed() != null) {
         out.append(' ').append(activityDot(stats.pushed(), today));
@@ -445,6 +496,37 @@ class generate_readme {
     out.append("</details>\n\n");
   }
 
+  private static Optional<RepoStats> aggregateStats(Item item, StatsCache cache) {
+    if (item.repositories().isEmpty()) {
+      return Optional.empty();
+    }
+
+    long stars = 0;
+    LocalDate pushed = null;
+    for (var repository : item.repositories()) {
+      var stats = cache.stats().get(repository);
+      require(stats != null, item.lineNumber(),
+          "Missing GitHub statistics for " + repository);
+      stars += stats.stars();
+      if (stats.pushed() != null && (pushed == null || stats.pushed().isAfter(pushed))) {
+        pushed = stats.pushed();
+      }
+    }
+    return Optional.of(new RepoStats(stars, pushed, false));
+  }
+
+  private static void rejectArchivedProjects(Catalog source, StatsCache cache) {
+    for (var item : source.projects()) {
+      for (var repository : item.repositories()) {
+        var stats = cache.stats().get(repository);
+        require(stats != null, item.lineNumber(),
+            "Missing GitHub statistics for " + repository);
+        require(!stats.archived(), item.lineNumber(),
+            "Archived GitHub repository: " + repository);
+      }
+    }
+  }
+
   private static void validateRendered(
       Catalog source,
       StatsCache cache,
@@ -467,7 +549,11 @@ class generate_readme {
       }
     }
 
-    var expectedDots = cache.stats().values().stream().filter(stats -> stats.pushed() != null).count();
+    var expectedDots = source.projects().stream()
+        .map(item -> aggregateStats(item, cache))
+        .flatMap(Optional::stream)
+        .filter(stats -> stats.pushed() != null)
+        .count();
     var actualDots = rendered.codePoints()
         .filter(codePoint -> codePoint == "🟢".codePointAt(0)
             || codePoint == "🟠".codePointAt(0)
@@ -494,17 +580,21 @@ class generate_readme {
       LocalDate today,
       Path output
   ) {
-    var green = cache.stats().values().stream()
+    var projectStats = source.projects().stream()
+        .map(item -> aggregateStats(item, cache))
+        .flatMap(Optional::stream)
+        .toList();
+    var green = projectStats.stream()
         .filter(stats -> stats.pushed() != null && activityDot(stats.pushed(), today).equals("🟢")).count();
-    var orange = cache.stats().values().stream()
+    var orange = projectStats.stream()
         .filter(stats -> stats.pushed() != null && activityDot(stats.pushed(), today).equals("🟠")).count();
-    var red = cache.stats().values().stream()
+    var red = projectStats.stream()
         .filter(stats -> stats.pushed() != null && activityDot(stats.pushed(), today).equals("🔴")).count();
     printSourceSummary(source);
     System.out.printf(
-        "Generated %s with %d repositories: 🟢 %d, 🟠 %d, 🔴 %d%n",
+        "Generated %s with %d scored projects: 🟢 %d, 🟠 %d, 🔴 %d%n",
         output,
-        cache.stats().size(),
+        projectStats.size(),
         green,
         orange,
         red
@@ -536,22 +626,22 @@ class generate_readme {
     return stars < 1_000 ? Long.toString(stars) : String.format(Locale.ROOT, "%.1fk", stars / 1_000.0);
   }
 
-  private static java.util.Optional<String> githubRepository(String url) {
+  private static Optional<String> githubRepository(String url) {
     try {
       var uri = URI.create(url);
       if (!"github.com".equalsIgnoreCase(uri.getHost())) {
-        return java.util.Optional.empty();
+        return Optional.empty();
       }
-      var parts = java.util.Arrays.stream(uri.getPath().split("/"))
+      var parts = Arrays.stream(uri.getPath().split("/"))
           .filter(part -> !part.isBlank())
           .toList();
       if (parts.size() < 2) {
-        return java.util.Optional.empty();
+        return Optional.empty();
       }
       var repository = parts.get(1).replaceFirst("\\.git$", "");
-      return java.util.Optional.of(parts.get(0) + "/" + repository);
+      return Optional.of(parts.get(0) + "/" + repository);
     } catch (IllegalArgumentException ignored) {
-      return java.util.Optional.empty();
+      return Optional.empty();
     }
   }
 
@@ -602,7 +692,7 @@ class generate_readme {
     }
   }
 
-  private static void selfTest() {
+  private static void selfTest() throws Exception {
     var today = LocalDate.of(2026, 7, 26);
     require(activityDot(LocalDate.of(2026, 4, 26), today).equals("🟢"), 0, "Green boundary");
     require(activityDot(LocalDate.of(2026, 4, 25), today).equals("🟠"), 0, "Orange start");
@@ -621,7 +711,73 @@ class generate_readme {
         true
     );
     require(commercial.name().equals("Bootify ![c]"), 0, "Commercial marker parsing");
+    var umbrella = parseItem(
+        "- [Umbrella](https://example.com) - Several modules. "
+            + "<!-- github: acme/one, acme/two -->",
+        2,
+        true
+    );
+    require(umbrella.repositories().equals(List.of("acme/one", "acme/two")), 0,
+        "Umbrella repository parsing");
+    var aggregate = aggregateStats(umbrella, new StatsCache(today, Map.of(
+        "acme/one", new RepoStats(10, LocalDate.of(2026, 1, 1), false),
+        "acme/two", new RepoStats(20, LocalDate.of(2026, 7, 1), false)
+    ))).orElseThrow();
+    require(aggregate.stars() == 30, 0, "Umbrella star aggregation");
+    require(aggregate.pushed().equals(LocalDate.of(2026, 7, 1)), 0,
+        "Umbrella activity aggregation");
+    var category = new Category("Test");
+    category.description = "Test projects.";
+    category.items.add(umbrella);
+    var catalog = new Catalog("# Test", "Test.", List.of(category), List.of());
+    expectFailure(
+        () -> rejectArchivedProjects(catalog, new StatsCache(today, Map.of(
+            "acme/one", new RepoStats(10, today, false),
+            "acme/two", new RepoStats(20, today, true)
+        ))),
+        "Archived GitHub repository"
+    );
+    expectFailure(
+        () -> parseItem(
+            "- [Bad](https://github.com/acme/one) - Direct link. "
+                + "<!-- github: acme/one, acme/two -->",
+            3,
+            true
+        ),
+        "direct repository link"
+    );
+    expectFailure(
+        () -> parseItem(
+            "- [Bad](https://example.com) - One repository. <!-- github: acme/one -->",
+            4,
+            true
+        ),
+        "at least two"
+    );
+    var oldCache = Files.createTempFile("awesome-java-old-cache", ".tsv");
+    try {
+      Files.writeString(oldCache, "# refreshed=2026-07-26\nacme/one\t10\t2026-07-25\n");
+      expectFailure(() -> readCache(oldCache), "Invalid statistics cache line");
+    } finally {
+      Files.deleteIfExists(oldCache);
+    }
     System.out.println("Self-test passed");
+  }
+
+  private static void expectFailure(CheckedRunnable action, String message) {
+    try {
+      action.run();
+    } catch (Exception exception) {
+      require(exception.getMessage().contains(message), 0,
+          "Unexpected failure: " + exception.getMessage());
+      return;
+    }
+    fail(0, "Expected failure containing: " + message);
+  }
+
+  @FunctionalInterface
+  private interface CheckedRunnable {
+    void run() throws Exception;
   }
 
   private enum Section {
@@ -630,7 +786,13 @@ class generate_readme {
     RESOURCES
   }
 
-  private record Item(String name, String url, String description, int lineNumber) {}
+  private record Item(
+      String name,
+      String url,
+      String description,
+      int lineNumber,
+      List<String> repositories
+  ) {}
 
   private static final class Category {
     private final String name;
@@ -679,7 +841,7 @@ class generate_readme {
     }
   }
 
-  private record RepoStats(long stars, LocalDate pushed) {}
+  private record RepoStats(long stars, LocalDate pushed, boolean archived) {}
 
   private record StatsCache(LocalDate refreshed, Map<String, RepoStats> stats) {}
 }

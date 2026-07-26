@@ -1,5 +1,6 @@
 - [ ] I changed `README_SOURCE.md`, not the generated `README.md`.
 - [ ] This pull request contains one suggestion.
 - [ ] Java is a primary API, runtime, target or first-class integration.
-- [ ] The description explains the distinguishing value and ends with a period.
+- [ ] I used the canonical GitHub repository when one exists.
+- [ ] The concise, neutral description explains the distinguishing value and ends with punctuation.
 - [ ] Commercial or restrictive licensing is disclosed where applicable.

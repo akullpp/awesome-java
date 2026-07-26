@@ -7,6 +7,7 @@ on:
       - "CONTRIBUTING.md"
       - ".github/pull_request_template.md"
       - ".github/workflows/update-readme.yml"
+      - ".tool-versions"
       - "scripts/**"
   push:
     branches:
@@ -15,6 +16,7 @@ on:
     paths:
       - "README_SOURCE.md"
       - ".github/workflows/update-readme.yml"
+      - ".tool-versions"
       - "scripts/**"
   schedule:
     - cron: "0 0 * * 1"
@@ -36,11 +38,11 @@ jobs:
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: "25"
+          java-version-file: ".tool-versions"
       - name: Validate source and generator
         run: |
-          java scripts/generate_readme.java self-test
-          java scripts/generate_readme.java check README_SOURCE.md
+          java scripts/GenerateReadme.java self-test
+          java scripts/GenerateReadme.java check README_SOURCE.md
 
   update:
     if: github.event_name != 'pull_request'
@@ -54,27 +56,27 @@ jobs:
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: "25"
+          java-version-file: ".tool-versions"
       - name: Restore statistics cache
         uses: actions/cache@v5
         with:
           path: .cache/github-stats.tsv
-          key: readme-stats-${{ github.ref_name }}-${{ github.run_id }}
+          key: readme-stats-v2-${{ github.ref_name }}-${{ github.run_id }}
           restore-keys: |
-            readme-stats-${{ github.ref_name }}-
+            readme-stats-v2-${{ github.ref_name }}-
       - name: Validate source and generator
         run: |
-          java scripts/generate_readme.java self-test
-          java scripts/generate_readme.java check README_SOURCE.md
+          java scripts/GenerateReadme.java self-test
+          java scripts/GenerateReadme.java check README_SOURCE.md
       - name: Generate README
         env:
-          PAT: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           args=()
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             args+=(--refresh-all)
           fi
-          java scripts/generate_readme.java generate README_SOURCE.md README.md .cache/github-stats.tsv "${args[@]}" --branch "$GITHUB_REF_NAME"
+          java scripts/GenerateReadme.java generate README_SOURCE.md README.md .cache/github-stats.tsv "${args[@]}" --branch "$GITHUB_REF_NAME"
       - name: Commit README
         run: |
           git config --local user.email "action@github.com"
