@@ -1,67 +1,88 @@
 name: Update README
 
 on:
-  schedule:
-    # Run once a week on Monday at 00:00 UTC
-    - cron: "0 0 * * 1"
-  workflow_dispatch: # Allow manual triggering
+  pull_request:
+    paths:
+      - "README_SOURCE.md"
+      - "CONTRIBUTING.md"
+      - ".github/pull_request_template.md"
+      - ".github/workflows/update-readme.yml"
+      - "scripts/**"
   push:
     branches:
       - master
       - test
     paths:
-      - "CONTRIBUTE_README.md"
+      - "README_SOURCE.md"
+      - ".github/workflows/update-readme.yml"
       - "scripts/**"
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-readme-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  update-readme:
+  validate:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v5
         with:
-          fetch-depth: 0 # Fetch all history for git operations
-
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: "temurin"
+          distribution: temurin
           java-version: "25"
-
-      - name: Restore stats cache
+      - name: Validate source and generator
         run: |
-          mkdir -p .tmp
-          # On scheduled runs, refresh all stats by not restoring cache
-          # On manual/push runs, use cache to avoid unnecessary API calls
-          if [ "${{ github.event_name }}" == "schedule" ]; then
-            echo "Scheduled run detected - will fetch fresh data for all repositories"
-            # Don't restore cache, let script fetch everything fresh
-          else
-            # Try to restore stats cache from previous run
-            if git show HEAD:.tmp/github-stats.txt > .tmp/github-stats.txt 2>/dev/null; then
-              echo "Restored existing stats cache from previous commit"
-            else
-              echo "No existing stats cache found, will fetch all data"
-            fi
-          fi
+          java scripts/generate_readme.java self-test
+          java scripts/generate_readme.java check README_SOURCE.md
 
-      - name: Run README generation workflow
+  update:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "25"
+      - name: Restore statistics cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/github-stats.tsv
+          key: readme-stats-${{ github.ref_name }}-${{ github.run_id }}
+          restore-keys: |
+            readme-stats-${{ github.ref_name }}-
+      - name: Validate source and generator
+        run: |
+          java scripts/generate_readme.java self-test
+          java scripts/generate_readme.java check README_SOURCE.md
+      - name: Generate README
         env:
           PAT: ${{ secrets.PAT }}
         run: |
-          java --enable-preview --source 25 scripts/run_workflow.java
-
-      - name: Commit updated README and stats cache
+          args=()
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            args+=(--refresh-all)
+          fi
+          java scripts/generate_readme.java generate README_SOURCE.md README.md .cache/github-stats.tsv "${args[@]}" --branch "$GITHUB_REF_NAME"
+      - name: Commit README
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f README.md
-          # Always commit the stats cache so it persists for next run
-          git add -f .tmp/github-stats.txt || true
+          git add README.md
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "README is already current"
           else
-            git commit -m "Update README with latest GitHub stats [skip ci]"
+            git commit -m "Update README with latest GitHub stats"
             git push
           fi

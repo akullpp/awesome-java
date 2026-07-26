@@ -1,0 +1,685 @@
+import java.io.IOException;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.nio.file.AtomicMoveNotSupportedException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
+import java.time.LocalDate;
+import java.time.OffsetDateTime;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.regex.Pattern;
+
+class generate_readme {
+  private static final Pattern STARS = Pattern.compile("\"stargazers_count\"\\s*:\\s*(\\d+)");
+  private static final Pattern PUSHED_AT = Pattern.compile("\"pushed_at\"\\s*:\\s*(?:\"([^\"]+)\"|null)");
+  private static final Comparator<String> TEXT_ORDER =
+      Comparator.comparing((String value) -> value.toLowerCase(Locale.ROOT))
+          .thenComparing(Comparator.naturalOrder());
+  private static final DateTimeFormatter DISPLAY_DATE = DateTimeFormatter.ofPattern("dd/MM/uuuu");
+  private static final String COMMERCIAL_BADGE =
+      "https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/"
+          + "d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg";
+
+  public static void main(String[] args) throws Exception {
+    if (args.length == 0) {
+      usage();
+      System.exit(2);
+    }
+
+    switch (args[0]) {
+      case "check" -> {
+        var sourcePath = Path.of(args.length > 1 ? args[1] : "README_SOURCE.md");
+        var source = parseSource(sourcePath);
+        validateSource(source);
+        printSourceSummary(source);
+      }
+      case "self-test" -> selfTest();
+      case "generate" -> generate(args);
+      default -> {
+        usage();
+        System.exit(2);
+      }
+    }
+  }
+
+  private static void usage() {
+    System.err.println("""
+        Usage:
+          java scripts/generate_readme.java check [source]
+          java scripts/generate_readme.java self-test
+          java scripts/generate_readme.java generate [source] [output] [cache] [--refresh-all] [--branch name]
+        """);
+  }
+
+  private static void generate(String[] args) throws Exception {
+    var sourcePath = Path.of(args.length > 1 ? args[1] : "README_SOURCE.md");
+    var outputPath = Path.of(args.length > 2 ? args[2] : "README.md");
+    var cachePath = Path.of(args.length > 3 ? args[3] : ".cache/github-stats.tsv");
+    var refreshAll = false;
+    var branch = System.getenv().getOrDefault("GITHUB_REF_NAME", "master");
+
+    for (var i = 4; i < args.length; i++) {
+      switch (args[i]) {
+        case "--refresh-all" -> refreshAll = true;
+        case "--branch" -> {
+          if (++i >= args.length) {
+            throw new IllegalArgumentException("--branch requires a value");
+          }
+          branch = args[i];
+        }
+        default -> throw new IllegalArgumentException("Unknown option: " + args[i]);
+      }
+    }
+
+    var source = parseSource(sourcePath);
+    validateSource(source);
+
+    var repositories = source.projects().stream()
+        .map(Item::url)
+        .map(generate_readme::githubRepository)
+        .flatMap(java.util.Optional::stream)
+        .collect(java.util.stream.Collectors.toCollection(() -> new java.util.TreeSet<>(TEXT_ORDER)));
+
+    var cache = readCache(cachePath);
+    var missing = repositories.stream().filter(repo -> !cache.stats().containsKey(repo)).toList();
+    var targets = refreshAll ? List.copyOf(repositories) : missing;
+    var stats = new HashMap<>(cache.stats());
+    var today = LocalDate.now(ZoneOffset.UTC);
+
+    if (!targets.isEmpty()) {
+      var token = System.getenv("PAT");
+      if (token == null || token.isBlank()) {
+        throw new IllegalStateException("PAT is required to fetch GitHub statistics");
+      }
+      var client = HttpClient.newBuilder()
+          .followRedirects(HttpClient.Redirect.NORMAL)
+          .build();
+
+      for (var i = 0; i < targets.size(); i++) {
+        var repository = targets.get(i);
+        stats.put(repository, fetchStats(client, repository, token));
+        if ((i + 1) % 25 == 0 || i + 1 == targets.size()) {
+          System.out.printf("Fetched %d/%d repositories%n", i + 1, targets.size());
+        }
+      }
+    }
+
+    stats.keySet().retainAll(repositories);
+    var refreshed = refreshAll || cache.refreshed() == null ? today : cache.refreshed();
+    var updatedCache = new StatsCache(refreshed, stats);
+    var rendered = render(source, updatedCache, today, branch);
+    validateRendered(source, updatedCache, rendered, today);
+
+    writeCache(cachePath, updatedCache);
+    writeAtomically(outputPath, rendered);
+    printGeneratedSummary(source, updatedCache, today, outputPath);
+  }
+
+  private static Catalog parseSource(Path path) throws IOException {
+    var lines = Files.readAllLines(path);
+    var title = lines.stream().filter(line -> line.startsWith("# ")).findFirst()
+        .orElseThrow(() -> new IllegalArgumentException("Missing title"));
+    var titleIndex = lines.indexOf(title);
+    var tagline = lines.subList(titleIndex + 1, lines.size()).stream()
+        .map(String::trim)
+        .filter(line -> !line.isEmpty() && !line.startsWith("<!--"))
+        .findFirst()
+        .orElseThrow(() -> new IllegalArgumentException("Missing tagline"));
+
+    var categories = new LinkedHashMap<String, Category>();
+    var resources = new LinkedHashMap<String, ResourceGroup>();
+    var section = Section.NONE;
+    Category category = null;
+    Subcategory subcategory = null;
+    ResourceGroup resource = null;
+
+    for (var lineNumber = 0; lineNumber < lines.size(); lineNumber++) {
+      var line = lines.get(lineNumber);
+      if (line.equals("## Projects")) {
+        section = Section.PROJECTS;
+        continue;
+      }
+      if (line.equals("## Resources")) {
+        section = Section.RESOURCES;
+        category = null;
+        subcategory = null;
+        continue;
+      }
+      if (line.startsWith("## ")) {
+        section = Section.NONE;
+        continue;
+      }
+
+      if (section == Section.PROJECTS) {
+        if (line.startsWith("### ")) {
+          var name = line.substring(4).trim();
+          category = new Category(name);
+          if (categories.putIfAbsent(name, category) != null) {
+            fail(lineNumber + 1, "Duplicate category: " + name);
+          }
+          subcategory = null;
+        } else if (line.startsWith("#### ")) {
+          require(category != null, lineNumber + 1, "Nested category without a parent");
+          var name = line.substring(5).trim();
+          subcategory = new Subcategory(name);
+          if (category.subcategories.putIfAbsent(name, subcategory) != null) {
+            fail(lineNumber + 1, "Duplicate nested category: " + name);
+          }
+        } else if (isDescription(line)) {
+          require(category != null, lineNumber + 1, "Description without a category");
+          if (subcategory == null) {
+            category.description = stripItalics(line);
+          } else {
+            subcategory.description = stripItalics(line);
+          }
+        } else if (line.startsWith("- [")) {
+          require(category != null, lineNumber + 1, "Project without a category");
+          var item = parseItem(line, lineNumber + 1, true);
+          if (subcategory == null) {
+            category.items.add(item);
+          } else {
+            subcategory.items.add(item);
+          }
+        }
+      } else if (section == Section.RESOURCES) {
+        if (line.startsWith("### ")) {
+          var name = line.substring(4).trim();
+          resource = new ResourceGroup(name);
+          if (resources.putIfAbsent(name, resource) != null) {
+            fail(lineNumber + 1, "Duplicate resource group: " + name);
+          }
+        } else if (line.startsWith("#### ")) {
+          require(resource != null, lineNumber + 1, "Nested resource heading without a group");
+        } else if (isDescription(line)) {
+          require(resource != null, lineNumber + 1, "Description without a resource group");
+          resource.description = stripItalics(line);
+        } else if (line.startsWith("- [")) {
+          require(resource != null, lineNumber + 1, "Resource without a group");
+          resource.items.add(parseItem(line, lineNumber + 1, false));
+        }
+      }
+    }
+
+    return new Catalog(title, tagline, List.copyOf(categories.values()), List.copyOf(resources.values()));
+  }
+
+  private static Item parseItem(String line, int lineNumber, boolean descriptionRequired) {
+    var linkClose = line.indexOf("](");
+    var urlClose = linkClose < 0 ? -1 : line.indexOf(')', linkClose + 2);
+    require(linkClose > 3 && urlClose > linkClose + 2, lineNumber, "Invalid entry syntax");
+
+    var name = line.substring(3, linkClose).trim();
+    var url = line.substring(linkClose + 2, urlClose).trim();
+    var remainder = line.substring(urlClose + 1);
+    var description = remainder.startsWith(" - ") ? remainder.substring(3).trim() : "";
+
+    require(!name.isEmpty(), lineNumber, "Missing entry name");
+    require(!url.isEmpty(), lineNumber, "Missing entry URL");
+    require(!descriptionRequired || !description.isEmpty(), lineNumber, "Missing project description");
+    return new Item(name, url, description, lineNumber);
+  }
+
+  private static void validateSource(Catalog source) {
+    require(!source.categories().isEmpty(), 0, "No project categories found");
+    require(!source.resources().isEmpty(), 0, "No resource groups found");
+
+    var anchors = new HashSet<String>();
+    var names = new HashMap<String, Item>();
+    var urls = new HashMap<String, Item>();
+
+    for (var category : source.categories()) {
+      require(!category.description.isBlank(), 0, "Missing category description: " + category.name);
+      require(anchors.add(slug(category.name)), 0, "Duplicate anchor: " + slug(category.name));
+      validateItems(category.items, names, urls);
+      for (var nested : category.subcategories.values()) {
+        validateItems(nested.items, names, urls);
+      }
+    }
+
+    for (var resource : source.resources()) {
+      require(!resource.description.isBlank(), 0, "Missing resource description: " + resource.name);
+      require(anchors.add(slug(resource.name)), 0, "Duplicate anchor: " + slug(resource.name));
+    }
+  }
+
+  private static void validateItems(
+      List<Item> items,
+      Map<String, Item> names,
+      Map<String, Item> urls
+  ) {
+    for (var item : items) {
+      var plainName = sortName(item.name());
+      var normalizedName = plainName.toLowerCase(Locale.ROOT);
+      var normalizedUrl = normalizeUrl(item.url());
+      var duplicateName = names.putIfAbsent(normalizedName, item);
+      var duplicateUrl = urls.putIfAbsent(normalizedUrl, item);
+      require(duplicateName == null, item.lineNumber(),
+          "Duplicate project name: " + plainName + " (first at line " + duplicateNameLine(duplicateName) + ")");
+      require(duplicateUrl == null, item.lineNumber(),
+          "Duplicate project URL: " + item.url() + " (first at line " + duplicateNameLine(duplicateUrl) + ")");
+      var end = item.description().charAt(item.description().length() - 1);
+      require(".!?)".indexOf(end) >= 0, item.lineNumber(),
+          "Description must end with punctuation: " + plainName);
+    }
+  }
+
+  private static int duplicateNameLine(Item item) {
+    return item == null ? 0 : item.lineNumber();
+  }
+
+  private static RepoStats fetchStats(HttpClient client, String repository, String token)
+      throws IOException, InterruptedException {
+    var request = HttpRequest.newBuilder()
+        .uri(URI.create("https://api.github.com/repos/" + repository))
+        .header("Accept", "application/vnd.github+json")
+        .header("Authorization", "Bearer " + token)
+        .header("X-GitHub-Api-Version", "2022-11-28")
+        .GET()
+        .build();
+    var response = client.send(request, HttpResponse.BodyHandlers.ofString());
+    if (response.statusCode() != 200) {
+      throw new IOException("GitHub API returned " + response.statusCode() + " for " + repository);
+    }
+
+    var stars = STARS.matcher(response.body());
+    var pushedAt = PUSHED_AT.matcher(response.body());
+    if (!stars.find() || !pushedAt.find()) {
+      throw new IOException("Incomplete GitHub response for " + repository);
+    }
+    var pushed = pushedAt.group(1) == null
+        ? null
+        : OffsetDateTime.parse(pushedAt.group(1)).withOffsetSameInstant(ZoneOffset.UTC).toLocalDate();
+    return new RepoStats(Long.parseLong(stars.group(1)), pushed);
+  }
+
+  private static StatsCache readCache(Path path) throws IOException {
+    if (!Files.exists(path)) {
+      return new StatsCache(null, new HashMap<>());
+    }
+
+    LocalDate refreshed = null;
+    var stats = new HashMap<String, RepoStats>();
+    for (var line : Files.readAllLines(path)) {
+      if (line.startsWith("# refreshed=")) {
+        refreshed = LocalDate.parse(line.substring("# refreshed=".length()));
+      } else if (!line.isBlank() && !line.startsWith("#")) {
+        var parts = line.split("\\t", -1);
+        if (parts.length != 3) {
+          throw new IOException("Invalid statistics cache line: " + line);
+        }
+        stats.put(parts[0], new RepoStats(
+            Long.parseLong(parts[1]),
+            parts[2].isBlank() ? null : LocalDate.parse(parts[2])
+        ));
+      }
+    }
+    return new StatsCache(refreshed, stats);
+  }
+
+  private static void writeCache(Path path, StatsCache cache) throws IOException {
+    var content = new StringBuilder("# refreshed=").append(cache.refreshed()).append('\n');
+    cache.stats().entrySet().stream()
+        .sorted(Map.Entry.comparingByKey(TEXT_ORDER))
+        .forEach(entry -> content
+            .append(entry.getKey()).append('\t')
+            .append(entry.getValue().stars()).append('\t')
+            .append(entry.getValue().pushed() == null ? "" : entry.getValue().pushed())
+            .append('\n'));
+    writeAtomically(path, content.toString());
+  }
+
+  private static String render(Catalog source, StatsCache cache, LocalDate today, String branch) {
+    var out = new StringBuilder();
+    out.append("<!-- Generated from README_SOURCE.md by scripts/generate_readme.java. ")
+        .append("Do not edit README.md directly. -->\n\n")
+        .append(source.title()).append("\n\n")
+        .append(source.tagline()).append("\n\n")
+        .append("<sub>").append(projectCount(source)).append(" projects · ")
+        .append(source.categories().size()).append(" categories · GitHub statistics refreshed ")
+        .append(DISPLAY_DATE.format(cache.refreshed())).append("</sub>\n\n")
+        .append("<sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · ")
+        .append("🔴 no push for over 12 months</sub>\n\n")
+        .append("Browse a category below, or use your browser's find command to locate a project.\n\n")
+        .append("## Projects\n\n");
+
+    source.categories().stream()
+        .sorted(Comparator.comparing(category -> category.name, TEXT_ORDER))
+        .forEach(category -> renderCategory(out, category, cache, today));
+
+    out.append("## Resources\n\n");
+    for (var resource : source.resources()) {
+      renderResource(out, resource);
+    }
+
+    var editUrl = "https://github.com/akullpp/awesome-java/edit/" + branch + "/README_SOURCE.md";
+    out.append("## Contributing\n\n")
+        .append("> **[Add a library](").append(editUrl).append(")** · ")
+        .append("[Contribution guidelines](CONTRIBUTING.md)\n")
+        .append(">\n")
+        .append("> Add one Markdown entry under the appropriate category and open one pull request. ")
+        .append("Ordering, counts and GitHub statistics are generated automatically.\n\n")
+        .append("[c]: ").append(COMMERCIAL_BADGE).append('\n');
+    return out.toString();
+  }
+
+  private static void renderCategory(
+      StringBuilder out,
+      Category category,
+      StatsCache cache,
+      LocalDate today
+  ) {
+    var count = category.items.size()
+        + category.subcategories.values().stream().mapToInt(sub -> sub.items.size()).sum();
+    out.append("<details id=\"").append(slug(category.name)).append("\">\n")
+        .append("<summary><strong>").append(category.name).append("</strong> <kbd>")
+        .append(count).append(count == 1 ? " project" : " projects").append("</kbd></summary>\n\n")
+        .append('_').append(category.description).append("_\n\n");
+
+    category.items.stream()
+        .sorted(Comparator.comparing(item -> sortName(item.name()), TEXT_ORDER))
+        .forEach(item -> renderProject(out, item, cache, today));
+
+    category.subcategories.values().stream()
+        .sorted(Comparator.comparing(sub -> sub.name, TEXT_ORDER))
+        .forEach(sub -> {
+          out.append("#### ").append(sub.name).append(" <kbd>")
+              .append(sub.items.size()).append(sub.items.size() == 1 ? " project" : " projects")
+              .append("</kbd>\n\n");
+          if (!sub.description.isBlank()) {
+            out.append('_').append(sub.description).append("_\n\n");
+          }
+          sub.items.stream()
+              .sorted(Comparator.comparing(item -> sortName(item.name()), TEXT_ORDER))
+              .forEach(item -> renderProject(out, item, cache, today));
+        });
+
+    out.append("</details>\n\n");
+  }
+
+  private static void renderProject(
+      StringBuilder out,
+      Item item,
+      StatsCache cache,
+      LocalDate today
+  ) {
+    out.append("> **[").append(item.name()).append("](").append(item.url()).append(")**");
+    githubRepository(item.url()).map(cache.stats()::get).ifPresent(stats -> {
+      out.append(" <kbd>★ ").append(formatStars(stats.stars())).append("</kbd>");
+      if (stats.pushed() != null) {
+        out.append(' ').append(activityDot(stats.pushed(), today));
+      }
+    });
+    out.append("<br>").append(item.description()).append("\n\n");
+  }
+
+  private static void renderResource(StringBuilder out, ResourceGroup resource) {
+    out.append("<details id=\"").append(slug(resource.name)).append("\">\n")
+        .append("<summary><strong>").append(resource.name).append("</strong> <kbd>")
+        .append(resource.items.size()).append(resource.items.size() == 1 ? " link" : " links")
+        .append("</kbd></summary>\n\n")
+        .append('_').append(resource.description).append("_\n\n");
+
+    resource.items.stream()
+        .sorted(Comparator.comparing(item -> sortName(item.name()), TEXT_ORDER))
+        .forEach(item -> {
+          out.append("> **[").append(item.name()).append("](").append(item.url()).append(")**");
+          if (!item.description().isBlank()) {
+            out.append("<br>").append(item.description());
+          }
+          out.append("\n\n");
+        });
+    out.append("</details>\n\n");
+  }
+
+  private static void validateRendered(
+      Catalog source,
+      StatsCache cache,
+      String rendered,
+      LocalDate today
+  ) {
+    require(!rendered.contains("Last push"), 0, "Generated README contains a Last push label");
+    require(!rendered.contains("| Name |"), 0, "Generated README contains a table");
+    require(!rendered.matches("(?s).*<kbd>\\d{2}/\\d{2}/\\d{4}</kbd>.*"), 0,
+        "Generated README contains a per-project date");
+
+    for (var item : source.projects()) {
+      require(rendered.contains("**[" + item.name() + "](" + item.url() + ")**"), item.lineNumber(),
+          "Generated README is missing project: " + sortName(item.name()));
+    }
+    for (var resource : source.resources()) {
+      for (var item : resource.items) {
+        require(rendered.contains("**[" + item.name() + "](" + item.url() + ")**"), item.lineNumber(),
+            "Generated README is missing resource: " + sortName(item.name()));
+      }
+    }
+
+    var expectedDots = cache.stats().values().stream().filter(stats -> stats.pushed() != null).count();
+    var actualDots = rendered.codePoints()
+        .filter(codePoint -> codePoint == "🟢".codePointAt(0)
+            || codePoint == "🟠".codePointAt(0)
+            || codePoint == "🔴".codePointAt(0))
+        .count();
+    require(actualDots == expectedDots + 3, 0,
+        "Expected " + expectedDots + " project dots plus the legend, found " + actualDots);
+  }
+
+  private static void printSourceSummary(Catalog source) {
+    System.out.printf(
+        "Valid source: %d projects, %d categories, %d nested groups, %d resources in %d groups%n",
+        projectCount(source),
+        source.categories().size(),
+        source.categories().stream().mapToInt(category -> category.subcategories.size()).sum(),
+        resourceCount(source),
+        source.resources().size()
+    );
+  }
+
+  private static void printGeneratedSummary(
+      Catalog source,
+      StatsCache cache,
+      LocalDate today,
+      Path output
+  ) {
+    var green = cache.stats().values().stream()
+        .filter(stats -> stats.pushed() != null && activityDot(stats.pushed(), today).equals("🟢")).count();
+    var orange = cache.stats().values().stream()
+        .filter(stats -> stats.pushed() != null && activityDot(stats.pushed(), today).equals("🟠")).count();
+    var red = cache.stats().values().stream()
+        .filter(stats -> stats.pushed() != null && activityDot(stats.pushed(), today).equals("🔴")).count();
+    printSourceSummary(source);
+    System.out.printf(
+        "Generated %s with %d repositories: 🟢 %d, 🟠 %d, 🔴 %d%n",
+        output,
+        cache.stats().size(),
+        green,
+        orange,
+        red
+    );
+  }
+
+  private static int projectCount(Catalog source) {
+    return source.categories().stream().mapToInt(category ->
+        category.items.size()
+            + category.subcategories.values().stream().mapToInt(sub -> sub.items.size()).sum()
+    ).sum();
+  }
+
+  private static int resourceCount(Catalog source) {
+    return source.resources().stream().mapToInt(resource -> resource.items.size()).sum();
+  }
+
+  private static String activityDot(LocalDate pushed, LocalDate today) {
+    if (!pushed.isBefore(today.minusMonths(3))) {
+      return "🟢";
+    }
+    if (!pushed.isBefore(today.minusMonths(12))) {
+      return "🟠";
+    }
+    return "🔴";
+  }
+
+  private static String formatStars(long stars) {
+    return stars < 1_000 ? Long.toString(stars) : String.format(Locale.ROOT, "%.1fk", stars / 1_000.0);
+  }
+
+  private static java.util.Optional<String> githubRepository(String url) {
+    try {
+      var uri = URI.create(url);
+      if (!"github.com".equalsIgnoreCase(uri.getHost())) {
+        return java.util.Optional.empty();
+      }
+      var parts = java.util.Arrays.stream(uri.getPath().split("/"))
+          .filter(part -> !part.isBlank())
+          .toList();
+      if (parts.size() < 2) {
+        return java.util.Optional.empty();
+      }
+      var repository = parts.get(1).replaceFirst("\\.git$", "");
+      return java.util.Optional.of(parts.get(0) + "/" + repository);
+    } catch (IllegalArgumentException ignored) {
+      return java.util.Optional.empty();
+    }
+  }
+
+  private static String slug(String value) {
+    return value.toLowerCase(Locale.ROOT)
+        .replaceAll("[^a-z0-9\\s-]", "")
+        .trim()
+        .replaceAll("[\\s-]+", "-");
+  }
+
+  private static String normalizeUrl(String url) {
+    return url.toLowerCase(Locale.ROOT).replaceAll("/+$", "");
+  }
+
+  private static String sortName(String name) {
+    return name.replace("![c]", "").trim();
+  }
+
+  private static boolean isDescription(String line) {
+    return line.length() >= 2 && line.startsWith("_") && line.endsWith("_");
+  }
+
+  private static String stripItalics(String line) {
+    return line.substring(1, line.length() - 1);
+  }
+
+  private static void require(boolean condition, int lineNumber, String message) {
+    if (!condition) {
+      fail(lineNumber, message);
+    }
+  }
+
+  private static void fail(int zeroBasedLineNumber, String message) {
+    var prefix = zeroBasedLineNumber > 0 ? "Line " + zeroBasedLineNumber + ": " : "";
+    throw new IllegalArgumentException(prefix + message);
+  }
+
+  private static void writeAtomically(Path path, String content) throws IOException {
+    var parent = path.toAbsolutePath().getParent();
+    Files.createDirectories(parent);
+    var temporary = parent.resolve(path.getFileName() + ".tmp");
+    Files.writeString(temporary, content);
+    try {
+      Files.move(temporary, path.toAbsolutePath(), StandardCopyOption.ATOMIC_MOVE,
+          StandardCopyOption.REPLACE_EXISTING);
+    } catch (AtomicMoveNotSupportedException ignored) {
+      Files.move(temporary, path.toAbsolutePath(), StandardCopyOption.REPLACE_EXISTING);
+    }
+  }
+
+  private static void selfTest() {
+    var today = LocalDate.of(2026, 7, 26);
+    require(activityDot(LocalDate.of(2026, 4, 26), today).equals("🟢"), 0, "Green boundary");
+    require(activityDot(LocalDate.of(2026, 4, 25), today).equals("🟠"), 0, "Orange start");
+    require(activityDot(LocalDate.of(2025, 7, 26), today).equals("🟠"), 0, "Orange boundary");
+    require(activityDot(LocalDate.of(2025, 7, 25), today).equals("🔴"), 0, "Red boundary");
+    require(formatStars(999).equals("999"), 0, "Small star formatting");
+    require(formatStars(1_000).equals("1.0k"), 0, "Thousand star formatting");
+    require(formatStars(12_749).equals("12.7k"), 0, "Large star formatting");
+    require(githubRepository("https://github.com/TNG/ArchUnit").orElseThrow().equals("TNG/ArchUnit"),
+        0, "Repository parsing");
+    require(githubRepository("https://github.com/webforms-core").isEmpty(), 0,
+        "Organization URL parsing");
+    var commercial = parseItem(
+        "- [Bootify ![c]](https://bootify.io) - Generates Spring Boot applications.",
+        1,
+        true
+    );
+    require(commercial.name().equals("Bootify ![c]"), 0, "Commercial marker parsing");
+    System.out.println("Self-test passed");
+  }
+
+  private enum Section {
+    NONE,
+    PROJECTS,
+    RESOURCES
+  }
+
+  private record Item(String name, String url, String description, int lineNumber) {}
+
+  private static final class Category {
+    private final String name;
+    private String description = "";
+    private final List<Item> items = new ArrayList<>();
+    private final Map<String, Subcategory> subcategories = new TreeMap<>(TEXT_ORDER);
+
+    private Category(String name) {
+      this.name = name;
+    }
+  }
+
+  private static final class Subcategory {
+    private final String name;
+    private String description = "";
+    private final List<Item> items = new ArrayList<>();
+
+    private Subcategory(String name) {
+      this.name = name;
+    }
+  }
+
+  private static final class ResourceGroup {
+    private final String name;
+    private String description = "";
+    private final List<Item> items = new ArrayList<>();
+
+    private ResourceGroup(String name) {
+      this.name = name;
+    }
+  }
+
+  private record Catalog(
+      String title,
+      String tagline,
+      List<Category> categories,
+      List<ResourceGroup> resources
+  ) {
+    private List<Item> projects() {
+      var projects = new ArrayList<Item>();
+      for (var category : categories) {
+        projects.addAll(category.items);
+        category.subcategories.values().forEach(subcategory -> projects.addAll(subcategory.items));
+      }
+      return projects;
+    }
+  }
+
+  private record RepoStats(long stars, LocalDate pushed) {}
+
+  private record StatsCache(LocalDate refreshed, Map<String, RepoStats> stats) {}
+}

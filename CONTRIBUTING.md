@@ -1,197 +1,66 @@
 # Contribution Guidelines
 
-First and most importantly: Thank you for your interest in contributing to the Awesome Java list!
+## Adding or Updating an Entry
 
-## Automated Workflow
+Edit [`README_SOURCE.md`](README_SOURCE.md), not the generated `README.md`.
 
-This repository uses an automated workflow to maintain the main `README.md` file. Here's how it works:
+Add one entry under the appropriate category:
 
-### For Contributors
-
-1. Edit `CONTRIBUTE_README.md`: Make all your changes in this file, **not** `README.md`
-2. Submit a Pull Request: Create a PR with your changes to `CONTRIBUTE_README.md`
-3. GitHub Actions will automatically:
-   - Convert the list format to markdown tables
-   - Add GitHub stars and last commit dates
-   - Update `README.md` with the converted content
-   - Commit and push the changes
-
-### What NOT to do
-
-- Don't edit `README.md` directly, since it will be overwritten by the automated workflow
-- Don't edit the scripts, unless you're improving the conversion process
-- Don't manually run the conversion scripts, GitHub Actions handles this
-
-## How to Contribute
-
-### Adding a New Project
-
-1. Find the appropriate section in `CONTRIBUTE_README.md`
-2. Add your entry using this format:
-
-   ```markdown
-   - [Project Name](https://github.com/user/repo) - Brief description of what the project does.
-   ```
-
-3. Follow the existing style
-4. Submit a Pull Request
-
-### Updating an Existing Project
-
-1. Find the project in `CONTRIBUTE_README.md`
-2. Update the description or URL as needed
-3. Submit a Pull Request with your changes
-
-### Adding a New Category
-
-1. Add the category to the Contents section
-2. Create a new section with the appropriate heading
-3. Add projects to the new section
-4. Submit a Pull Request with your changes
-
-## Guidelines
-
-### Project Requirements
-
-- **Must be Java-related** - The project should be primarily for Java development
-- **Must be actively maintained** - Recent commits and releases
-- **Must be useful** - Provide value to Java developers
-
-### Description Guidelines
-
-- **Be concise** - Keep descriptions on point
-- **Be descriptive** - Explain what the project does and why it's useful
-- **Be accurate** - Ensure the description matches the current project state
-- **Use proper grammar** - Write in clear, professional English
-
-### Format Guidelines
-
-- **Use consistent formatting** - Follow the existing style
-- **Maintain alphabetical order** - Within each section
-- **Use proper markdown** - Follow the established patterns
-- **Include relevant links** - Link to GitHub repositories when possible
-
-## Workflow Details
-
-### GitHub Actions Workflow
-
-The automated workflow (`update-readme.yml`) runs when:
-
-- **Weekly schedule** - Every Monday at 00:00 UTC
-- **Push to master** - When `CONTRIBUTE_README.md` or scripts are updated
-- **Manual trigger** - Can be triggered manually from the Actions tab
-
-The workflow requires a GitHub Personal Access Token (PAT) stored as `PAT` in repository secrets to fetch repository statistics.
-
-### File Structure
-
-```text
-├── CONTRIBUTE_README.md            # Source file (edit this)
-├── README.md                       # Generated file (don't edit)
-├── scripts/
-│   ├── run_workflow.java           # Main workflow orchestrator
-│   ├── step_1_validate_input.java  # Input validation
-│   ├── step_2_parse_projects.java  # Project parsing
-│   ├── step_3_generate_badges.java # Stats generation
-│   ├── step_4_generate_tables.java # Markdown table generation
-│   ├── step_5_assemble_readme.java # Final assembly
-│   ├── step_6_validate_transformation.java # Data integrity validation
-│   ├── ProjectEntry.java           # Data model
-│   ├── FileUtils.java              # Utility functions
-│   ├── Constants.java              # Shared constants
-│   └── README.md                   # Script documentation
-├── .tmp/                           # Temporary files (auto-generated)
-│   ├── parsed-projects.txt
-│   ├── github-stats.txt
-│   └── generated-tables.md
-└── .github/workflows/
-    └── update-readme.yml           # GitHub Actions workflow
+```markdown
+- [Project Name](https://example.com) - A concise description ending with a period.
 ```
 
-### Workflow Process
+Open one pull request per suggestion. The generated README handles alphabetical
+ordering, category counts, GitHub stars and repository activity automatically.
+Contributors do not need to run the generator.
 
-The README generation follows a 6-step modular process:
+Unfortunately, not every library/tool/framework can be considered. This list aims to provide a concise list of noteworthy modern software. This means that suggested software is:
 
-1. **Step 1 - Input Validation** (`step_1_validate_input.java`)
+(a) widely recommended, regardless of personal opinion
 
-   - Validates that `CONTRIBUTE_README.md` exists and is readable
-   - Provides file statistics
+(b) highly discussed in the community due to its innovative nature
 
-2. **Step 2 - Project Parsing** (`step_2_parse_projects.java`)
+(c) absolutely unique in its approach and function
 
-   - Parses markdown content to extract project entries
-   - Handles multi-line descriptions
-   - Outputs: `parsed-projects.txt`
+(d) a niche product that fills a gap
 
-3. **Step 3 - Stats Generation** (`step_3_generate_badges.java`)
+Suggested software must be focused on the Java ecosystem. Java should be a primary API, runtime, implementation target or substantial first-class integration. Incidental Java support in an otherwise language-agnostic project is not sufficient.
 
-   - Fetches GitHub stars and last commit dates for repositories
-   - Creates text values for stars and last commit dates
-   - Outputs: `github-stats.txt`
+Suggested software must also be developer-friendly, which means it meets the following criteria:
 
-4. **Step 4 - Table Generation** (`step_4_generate_tables.java`)
+(i) If source code is available, its license is clearly documented.
 
-   - Combines parsed projects with stats
-   - Generates markdown tables with proper styling
-   - Outputs: `generated-tables.md`
+(ii) Any license is acceptable when it is clearly disclosed. Restrictive, noncommercial and source-available licenses must be named in the entry.
 
-5. **Step 5 - Final Assembly** (`step_5_assemble_readme.java`)
+(iii) If commercial, it has clear pricing and at least one free tier.
 
-   - Combines original content with generated tables
-   - Produces the final `README.md`
+(iv) It has a documentation in the English language.
 
-6. **Step 6 - Validation** (`step_6_validate_transformation.java`)
-   - Validates that all entries from original are present in transformed README
-   - Ensures entries are in the correct sections
-   - Reports missing entries, wrong sections, and extra entries
+## Pull Requests
 
-### Running the Workflow
+There are four required criteria for a pull request:
 
-**Complete Workflow:**
+1. If an entry has a similar scope as other entries in the same category, the description must state the unique features that distinguishes it from the other entries.
 
-```bash
-java --enable-preview --source 25 scripts/run_workflow.java
-```
+2. If an entry does not meet conditions _(a)_ to _(d)_ there has to be an explanation either in the description or the pull request why it should be added to the list.
 
-**Individual Steps:**
+3. If an entry doesn't fit any of the pre-existing specialized sections, it should go under Miscellaneous.
 
-```bash
-java --enable-preview --source 25 scripts/run_workflow.java [step_number]
-```
+4. If two or more entries in Miscellaneous are in the same domain, then they can be moved to a new specialized section.
 
-**Direct Step Execution:**
+Self-promotion is frowned upon and viewed critically, but your suggestion will of course be approved if the criteria match.
 
-```bash
-java --enable-preview --source 25 scripts/step_1_validate_input.java
-java --enable-preview --source 25 scripts/step_2_parse_projects.java
-# ...
-```
+If your entry isn't accepted, please check the [Issues](https://github.com/akullpp/awesome-java/issues) for items marked with the "question" tag to see if it had been previously discussed. If nothing comes up, feel free to create a new issue, adding the "question" tag.
 
-**Note:** Step 3 requires the `PAT` environment variable to be set with a valid GitHub Personal Access Token.
+Furthermore, please ensure your pull request follows the following guidelines:
 
-## Troubleshooting
+- Please search previous suggestions before making a new one, as yours may be a duplicate.
+- Please make an individual pull request for each suggestion.
+- Use the following format for libraries: \[LIBRARY\]\(LINK\) - DESCRIPTION.
+- New categories or improvements to the existing categorization are welcome.
+- Keep descriptions short, simple and unbiased.
+- End all descriptions with a full stop/period.
+- Check your spelling and grammar.
+- Make sure your text editor is set to remove trailing whitespace.
 
-### Common Issues
-
-1. **Workflow fails** - Check the Actions tab for error details
-2. **Stats not showing** - Ensure the repository URL is correct and accessible
-3. **Formatting issues** - Check that your markdown is valid
-4. **Validation fails** - Step 6 validates data integrity:
-   - Missing entries: Projects in original but not in final README
-   - Wrong sections: Projects in different sections than expected
-   - Extra entries: Projects in final README but not in original
-5. **Section mapping issues** - Ensure projects are in the correct sections
-
-### Getting Help
-
-- **Open an issue** - For questions or problems
-- **Check existing issues** - Your question might already be answered
-- **Review the workflow logs** - In the Actions tab
-
-## License
-
-By contributing to this project, you agree that your contributions will be licensed under the same license as the project.
-
----
-
-**Remember**: Always edit `CONTRIBUTE_README.md`, never `README.md` directly!
+Thank you for your suggestions!

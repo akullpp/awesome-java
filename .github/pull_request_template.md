@@ -1,5 +1,5 @@
-<!--
-Never ever change the README.md directly!
-
-Add your contributions to the CONTRIBUTE_README.md!
--->
+- [ ] I changed `README_SOURCE.md`, not the generated `README.md`.
+- [ ] This pull request contains one suggestion.
+- [ ] Java is a primary API, runtime, target or first-class integration.
+- [ ] The description explains the distinguishing value and ends with a period.
+- [ ] Commercial or restrictive licensing is disclosed where applicable.
