@@ -56,7 +56,7 @@ jobs:
           distribution: temurin
           java-version: "25"
       - name: Restore statistics cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .cache/github-stats.tsv
           key: readme-stats-${{ github.ref_name }}-${{ github.run_id }}
