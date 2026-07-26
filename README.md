@@ -505,7 +505,7 @@ _Libraries that assist with processing office document formats._
 - [Sheetz](https://github.com/chitralabs/sheetz) - Reads and writes Excel, CSV and ODS files with annotation mapping, streaming, styling and validation.
 - [xberg](https://github.com/xberg-io/xberg) - Extracts text, tables and metadata from PDFs, Office documents, images and other formats through a Java binding.
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
-
+- [Jquick Excel](https://github.com/paohaijiao/jquick-excel) - A lightweight Java Excel framework that uses declarative XML configuration for import/export. Supports 20+ validation rules, 50+ formulas, and 10 chart types with a simple DSL
 ### Financial
 
 _Libraries related to the financial domain._
