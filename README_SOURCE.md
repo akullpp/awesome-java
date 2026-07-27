@@ -1030,7 +1030,7 @@ _Libraries that handle security, authentication, authorization or session manage
 
 _Tools that scan source or bytecode to find security vulnerabilities._
 
-- [OpenTaint](https://github.com/seqra/opentaint) - An open-source taint-analysis engine that lets AI agents turn security-review findings into reusable taint rules and dependency summaries. Because the engine reuses these rules instead of repeating that expensive work, later scans become fast, deterministic, precise, and thorough.
+- [OpenTaint](https://github.com/seqra/opentaint) - An open-source taint-analysis engine that lets AI agents turn security-review findings into reusable taint rules and dependency summaries. Because the engine reuses these rules during search instead of repeating the agents' expensive learning work, later scans become fast, deterministic, precise, and thorough.
 
 ### Serialization
 
