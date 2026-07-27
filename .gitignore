@@ -1,1 +1,6 @@
 .idea/
+.vscode/
+.tmp/
+.cache/
+.DS_Store
+*.class

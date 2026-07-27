@@ -1,10 +1,15 @@
-<!--
-Please read the CONTRIBUTING.md first. The most important parts regarding the actual entry:
+## Suggestion type
 
-- Write about it's unique selling point compared to other projects.
-- If it's a commercial project, then mark it as such, e.g. `[Title ![c]](URL)`.
-- Ensure that you provide concise and informative descriptions.
-- Do not use a description like "A library/project/tool/framework for JSON processing in Java" since all of this is implied.
-- Finish the description with a dot.
-- Try to order it alphabetically.
--->
+- [ ] Project
+- [ ] Resource
+
+## Checklist
+
+- [ ] I searched the list and existing issues for duplicates.
+- [ ] I changed `README_SOURCE.md`, not the generated `README.md`.
+- [ ] This pull request contains one suggestion.
+- [ ] The suggestion is relevant to Java or the JVM and fits its chosen category.
+- [ ] I used the canonical project or resource link.
+- [ ] The suggestion is current and maintained.
+- [ ] The concise, neutral description explains its distinguishing value and ends with punctuation.
+- [ ] Licensing is clear and any restrictive terms are disclosed where applicable.

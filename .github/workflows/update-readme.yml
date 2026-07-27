@@ -1,67 +1,110 @@
+# SPDX-License-Identifier: MIT
+
 name: Update README
 
 on:
-  schedule:
-    # Run once a week on Monday at 00:00 UTC
-    - cron: "0 0 * * 1"
-  workflow_dispatch: # Allow manual triggering
+  pull_request:
+    paths:
+      - "README_SOURCE.md"
+      - "README.md"
+      - "CONTRIBUTING.md"
+      - ".github/pull_request_template.md"
+      - ".github/workflows/update-readme.yml"
+      - "mise.toml"
+      - ".github/scripts/**"
   push:
     branches:
-      - master
+      - main
       - test
     paths:
-      - "CONTRIBUTE_README.md"
-      - "scripts/**"
+      - "README_SOURCE.md"
+      - ".github/workflows/update-readme.yml"
+      - "mise.toml"
+      - ".github/scripts/**"
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-readme-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  update-readme:
+  validate:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
         with:
-          fetch-depth: 0 # Fetch all history for git operations
-
-      - name: Set up Java
-        uses: actions/setup-java@v5
-        with:
-          distribution: "temurin"
-          java-version: "25"
-
-      - name: Restore stats cache
+          fetch-depth: 0
+      - name: Reject direct README changes
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          mkdir -p .tmp
-          # On scheduled runs, refresh all stats by not restoring cache
-          # On manual/push runs, use cache to avoid unnecessary API calls
-          if [ "${{ github.event_name }}" == "schedule" ]; then
-            echo "Scheduled run detected - will fetch fresh data for all repositories"
-            # Don't restore cache, let script fetch everything fresh
+          if ! git diff --quiet "$BASE_SHA" "$HEAD_SHA" -- README.md; then
+            echo "::error file=README.md::README.md is generated. Edit README_SOURCE.md instead."
+            exit 1
+          fi
+      - uses: jdx/mise-action@v3
+      - name: Validate source and generator
+        run: |
+          java .github/scripts/GenerateReadme.java self-test
+          java .github/scripts/GenerateReadme.java check README_SOURCE.md
+      - name: Validate added GitHub repositories
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          base_source="$RUNNER_TEMP/README_SOURCE.base.md"
+          if git cat-file -e "${BASE_SHA}:README_SOURCE.md"; then
+            git show "${BASE_SHA}:README_SOURCE.md" > "$base_source"
+            java .github/scripts/GenerateReadme.java check-added "$base_source" README_SOURCE.md
           else
-            # Try to restore stats cache from previous run
-            if git show HEAD:.tmp/github-stats.txt > .tmp/github-stats.txt 2>/dev/null; then
-              echo "Restored existing stats cache from previous commit"
-            else
-              echo "No existing stats cache found, will fetch all data"
-            fi
+            echo "::notice::Base branch has no README_SOURCE.md; skipping added repository validation."
           fi
 
-      - name: Run README generation workflow
+  update:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: jdx/mise-action@v3
+      - name: Restore statistics cache
+        uses: actions/cache@v5
+        with:
+          path: .cache/github-stats.tsv
+          key: readme-stats-v3-${{ github.ref_name }}-${{ github.run_id }}
+          restore-keys: |
+            readme-stats-v3-${{ github.ref_name }}-
+      - name: Validate source and generator
+        run: |
+          java .github/scripts/GenerateReadme.java self-test
+          java .github/scripts/GenerateReadme.java check README_SOURCE.md
+      - name: Generate README
         env:
-          PAT: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
-          java --enable-preview --source 25 scripts/run_workflow.java
-
-      - name: Commit updated README and stats cache
+          args=()
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            args+=(--refresh-all)
+          fi
+          java .github/scripts/GenerateReadme.java generate README_SOURCE.md README.md .cache/github-stats.tsv "${args[@]}" --branch "$GITHUB_REF_NAME"
+      - name: Commit README
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -f README.md
-          # Always commit the stats cache so it persists for next run
-          git add -f .tmp/github-stats.txt || true
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "README is already current"
           else
-            git commit -m "Update README with latest GitHub stats [skip ci]"
+            git commit -m "Update README with latest GitHub stats"
             git push
           fi
