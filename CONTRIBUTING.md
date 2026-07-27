@@ -1,51 +1,76 @@
 # Contribution Guidelines
 
-Unfortunately, not every library/tool/framework can be considered. This list aims to provide a concise list of noteworthy modern software. This means that suggested software is:
+## Suggest a Project
 
-(a) widely recommended, regardless of personal opinion
+Edit [`README_SOURCE.md`](README_SOURCE.md), add one line under the best category,
+and open one pull request:
 
-(b) highly discussed in the community due to its innovative nature
+```markdown
+- [Project Name](https://github.com/owner/repository) - A concise, neutral description ending with a period.
+```
 
-(c) absolutely unique in its approach and function
+Use the canonical GitHub repository when one exists. The generated `README.md`
+handles ordering, counts, stars and activity; contributors do not need to run
+the generator.
 
-(d) a niche product that fills a gap
+A project should:
 
-Suggested software must also be developer-friendly, which means it meets the following criteria:
+- make Java a primary API, runtime, implementation target or substantial
+  first-class integration;
+- be noteworthy because it is widely recommended, innovative, unique or fills
+  a useful niche;
+- provide English documentation and clear licensing;
+- have clear pricing and a free tier when commercial.
 
-(i) If an open source _application_, it is licensed under one of the open source licenses listed on https://opensource.org/licenses.
+Known GitHub SPDX licenses appear automatically; do not repeat them in
+descriptions or add license or commercial badges manually. If no chip is
+available, disclose restrictive, noncommercial or source-available terms in
+the entry. Keep descriptions short, factual and distinctive from similar
+entries. Use `Miscellaneous` only when no focused category fits.
 
-(ii) If an open source _library_, it is licensed under one of the open source licenses listed on https://opensource.org/licenses, with the exception of GPL and AGPL (due to their viral nature).
+Search existing entries and issues before submitting. Self-promotion is
+reviewed carefully but is welcome when the project meets the same criteria.
+Use one pull request per project.
 
-(iii) If commercial, it has clear pricing and at least one free tier.
+## Suggest a Resource
 
-(iv) It has a documentation in the English language.
+Add one resource under the best group in [`README_SOURCE.md`](README_SOURCE.md):
 
-## Pull Requests
+```markdown
+- [Resource Name](https://canonical.example)
+```
 
-There are two required criteria for a pull request:
+An optional description may follow the link:
 
-1. If an entry has a similar scope as other entries in the same category, the description must state the unique features that distinguishes it from the other entries.
+```markdown
+- [Resource Name](https://canonical.example) - A concise, neutral description ending with punctuation.
+```
 
-2. If an entry does not meet conditions _(a)_ to _(d)_ there has to be an explanation either in the description or the pull request why it should be added to the list.
+Resources include books, podcasts, people, communities, related lists and
+websites. They must be current, relevant to Java or the JVM, use a canonical
+HTTPS link, fit the chosen group and use English where prose is involved.
+Search for duplicates and submit one resource per pull request. Contributors
+do not need to run the generator.
 
-3. If an entry doesn't fit any of the pre-existing specialized sections, it should go under Miscellaneous.
+## Maintainer Notes
 
-4. If two or more entries in Miscellaneous are in the same domain, then they can be moved to a new specialized section.
+Most entries point directly to one GitHub repository. For an umbrella project
+whose Java offering genuinely spans several repositories, keep its public
+homepage and append maintainer-only metadata:
 
-Self-promotion is frowned upon and viewed critically, but your suggestion will of course be approved if the criteria match.
+```markdown
+- [Project](https://example.com) - Description. <!-- github: owner/one, owner/two -->
+```
 
-If your entry isn't accepted, please check the [Issues](https://github.com/akullpp/awesome-java/issues) for items marked with the "question" tag to see if it had been previously discussed. If nothing comes up, feel free to create a new issue, adding the "question" tag.
+Use at least two canonical repositories. A repository may belong to only one
+entry. The generator sums their stars, uses their most recent push for activity
+and shows a license only when every repository reports the same SPDX license.
+It rejects malformed metadata, duplicate repository use and archived
+repositories.
 
-Furthermore, please ensure your pull request follows the following guidelines:
+## License
 
-- Please search previous suggestions before making a new one, as yours may be a duplicate.
-- Please make an individual pull request for each suggestion.
-- Use the following format for libraries: \[LIBRARY\]\(LINK\) - DESCRIPTION.
-- Entries should be sorted in ascending alphabetical order, i.e. a to z.
-- New categories or improvements to the existing categorization are welcome.
-- Keep descriptions short, simple and unbiased.
-- End all descriptions with a full stop/period.
-- Check your spelling and grammar.
-- Make sure your text editor is set to remove trailing whitespace.
-
-Thank you for your suggestions!
+Catalog and documentation contributions are licensed under
+[CC BY-SA 4.0](LICENSE). Automation code and configuration are licensed under
+the [MIT License](LICENSE-CODE). By contributing, you agree that your changes
+are available under the applicable license.
