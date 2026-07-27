@@ -350,7 +350,7 @@ _Libraries that provide external configuration._
 
 > **[owner](https://github.com/lviggiano/owner)** <kbd>★ 939</kbd> <kbd>BSD-3-Clause</kbd> 🟢<br>Reduces boilerplate of properties.
 
-> **[sealed-env](https://github.com/davidalmeidac/sealed-env)** <kbd>★ 10</kbd> <kbd>MIT</kbd> 🟢<br>Encrypts environment files with a shared Node.js and Java/Spring Boot format plus optional TOTP unsealing.
+> **[sealed-env](https://github.com/davidalmeidac/sealed-env)** <kbd>★ 9</kbd> <kbd>MIT</kbd> 🟢<br>Encrypts environment files with a shared Node.js and Java/Spring Boot format plus optional TOTP unsealing.
 
 </details>
 
