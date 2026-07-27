@@ -14,7 +14,7 @@ on:
       - "scripts/**"
   push:
     branches:
-      - master
+      - main
       - test
     paths:
       - "README_SOURCE.md"
@@ -57,6 +57,18 @@ jobs:
         run: |
           java scripts/GenerateReadme.java self-test
           java scripts/GenerateReadme.java check README_SOURCE.md
+      - name: Validate added GitHub repositories
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          base_source="$RUNNER_TEMP/README_SOURCE.base.md"
+          if git cat-file -e "${BASE_SHA}:README_SOURCE.md"; then
+            git show "${BASE_SHA}:README_SOURCE.md" > "$base_source"
+            java scripts/GenerateReadme.java check-added "$base_source" README_SOURCE.md
+          else
+            echo "::notice::Base branch has no README_SOURCE.md; skipping added repository validation."
+          fi
 
   update:
     if: github.event_name != 'pull_request'

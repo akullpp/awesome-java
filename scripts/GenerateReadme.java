@@ -24,12 +24,14 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 final class GenerateReadme {
+  private static final int MAX_GITHUB_ATTEMPTS = 3;
   private static final Pattern STARS = Pattern.compile("\"stargazers_count\"\\s*:\\s*(\\d+)");
   private static final Pattern PUSHED_AT = Pattern.compile("\"pushed_at\"\\s*:\\s*(?:\"([^\"]+)\"|null)");
   private static final Pattern ARCHIVED = Pattern.compile("\"archived\"\\s*:\\s*(true|false)");
@@ -59,6 +61,7 @@ final class GenerateReadme {
         validateSource(source);
         printSourceSummary(source);
       }
+      case "check-added" -> checkAdded(args);
       case "self-test" -> selfTest();
       case "generate" -> generate(args);
       default -> {
@@ -72,9 +75,32 @@ final class GenerateReadme {
     System.err.println("""
         Usage:
           java scripts/GenerateReadme.java check [source]
+          java scripts/GenerateReadme.java check-added <base-source> [source]
           java scripts/GenerateReadme.java self-test
           java scripts/GenerateReadme.java generate [source] [output] [cache] [--refresh-all] [--branch name]
         """);
+  }
+
+  private static void checkAdded(String[] args) throws Exception {
+    if (args.length < 2 || args.length > 3) {
+      throw new IllegalArgumentException("check-added requires a base source and optional current source");
+    }
+    var base = parseSource(Path.of(args[1]));
+    var source = parseSource(Path.of(args.length == 3 ? args[2] : "README_SOURCE.md"));
+    validateSource(source);
+    var added = addedRepositories(base, source);
+    if (added.isEmpty()) {
+      System.out.println("No new GitHub repositories to validate");
+      return;
+    }
+
+    var client = githubClient();
+    var token = githubToken();
+    for (var repository : added) {
+      var stats = fetchStats(client, repository, token);
+      require(!stats.archived(), 0, "Archived GitHub repository: " + repository);
+    }
+    System.out.printf("Validated %d new GitHub repositories%n", added.size());
   }
 
   private static void generate(String[] args) throws Exception {
@@ -100,9 +126,7 @@ final class GenerateReadme {
     var source = parseSource(sourcePath);
     validateSource(source);
 
-    var repositories = source.projects().stream()
-        .flatMap(item -> item.repositories().stream())
-        .collect(Collectors.toCollection(() -> new TreeSet<>(TEXT_ORDER)));
+    var repositories = repositories(source);
 
     var cache = readCache(cachePath);
     var missing = repositories.stream().filter(repo -> !cache.stats().containsKey(repo)).toList();
@@ -111,14 +135,8 @@ final class GenerateReadme {
     var today = LocalDate.now(ZoneOffset.UTC);
 
     if (!targets.isEmpty()) {
-      var token = System.getenv("GITHUB_TOKEN");
-      if (token == null || token.isBlank()) {
-        throw new IllegalStateException("GITHUB_TOKEN is required to fetch GitHub statistics");
-      }
-      var client = HttpClient.newBuilder()
-          .connectTimeout(Duration.ofSeconds(20))
-          .followRedirects(HttpClient.Redirect.NORMAL)
-          .build();
+      var token = githubToken();
+      var client = githubClient();
 
       for (var i = 0; i < targets.size(); i++) {
         var repository = targets.get(i);
@@ -343,6 +361,33 @@ final class GenerateReadme {
     return item == null ? 0 : item.lineNumber();
   }
 
+  private static TreeSet<String> repositories(Catalog source) {
+    return source.projects().stream()
+        .flatMap(item -> item.repositories().stream())
+        .collect(Collectors.toCollection(() -> new TreeSet<>(String.CASE_INSENSITIVE_ORDER)));
+  }
+
+  private static List<String> addedRepositories(Catalog base, Catalog source) {
+    var added = repositories(source);
+    added.removeAll(repositories(base));
+    return List.copyOf(added);
+  }
+
+  private static HttpClient githubClient() {
+    return HttpClient.newBuilder()
+        .connectTimeout(Duration.ofSeconds(20))
+        .followRedirects(HttpClient.Redirect.NORMAL)
+        .build();
+  }
+
+  private static String githubToken() {
+    var token = System.getenv("GITHUB_TOKEN");
+    if (token == null || token.isBlank()) {
+      throw new IllegalStateException("GITHUB_TOKEN is required to fetch GitHub statistics");
+    }
+    return token;
+  }
+
   private static RepoStats fetchStats(HttpClient client, String repository, String token)
       throws IOException, InterruptedException {
     var request = HttpRequest.newBuilder()
@@ -354,11 +399,55 @@ final class GenerateReadme {
         .timeout(Duration.ofSeconds(30))
         .GET()
         .build();
-    var response = client.send(request, HttpResponse.BodyHandlers.ofString());
-    if (response.statusCode() != 200) {
-      throw new IOException("GitHub API returned " + response.statusCode() + " for " + repository);
+
+    for (var attempt = 1; attempt <= MAX_GITHUB_ATTEMPTS; attempt++) {
+      HttpResponse<String> response;
+      try {
+        response = client.send(request, HttpResponse.BodyHandlers.ofString());
+      } catch (IOException exception) {
+        if (attempt == MAX_GITHUB_ATTEMPTS) {
+          throw new IOException(
+              "GitHub API request failed for " + repository + " after "
+                  + MAX_GITHUB_ATTEMPTS + " attempts",
+              exception
+          );
+        }
+        waitBeforeRetry(repository, exception.getClass().getSimpleName(), attempt);
+        continue;
+      }
+
+      if (response.statusCode() == 200) {
+        try {
+          return parseStats(response.body());
+        } catch (IOException exception) {
+          throw new IOException("Incomplete GitHub response for " + repository, exception);
+        }
+      }
+      if (!isRetryableStatus(response.statusCode()) || attempt == MAX_GITHUB_ATTEMPTS) {
+        throw new IOException("GitHub API returned " + response.statusCode() + " for " + repository);
+      }
+      waitBeforeRetry(repository, "HTTP " + response.statusCode(), attempt);
     }
-    return parseStats(response.body());
+    throw new IllegalStateException("Unreachable GitHub retry state");
+  }
+
+  private static boolean isRetryableStatus(int status) {
+    return status == 429 || status >= 500 && status < 600;
+  }
+
+  private static void waitBeforeRetry(String repository, String reason, int attempt)
+      throws InterruptedException {
+    var delaySeconds = 1L << (attempt - 1);
+    System.out.printf(
+        "Retrying %s after %s in %d second%s (attempt %d/%d)%n",
+        repository,
+        reason,
+        delaySeconds,
+        delaySeconds == 1 ? "" : "s",
+        attempt + 1,
+        MAX_GITHUB_ATTEMPTS
+    );
+    Thread.sleep(Duration.ofSeconds(delaySeconds).toMillis());
   }
 
   private static RepoStats parseStats(String body) throws IOException {
@@ -821,6 +910,39 @@ final class GenerateReadme {
         0, "Repository parsing");
     require(githubRepository("https://github.com/webforms-core").isEmpty(), 0,
         "Organization URL parsing");
+    require(isRetryableStatus(429), 0, "Rate-limit retry");
+    require(isRetryableStatus(500) && isRetryableStatus(503), 0, "Server-error retry");
+    require(!isRetryableStatus(403) && !isRetryableStatus(404), 0,
+        "Permanent GitHub errors");
+    var baseCategory = new Category("Base");
+    baseCategory.items.add(parseItem(
+        "- [Existing](https://github.com/Acme/one) - Existing project.",
+        1,
+        true
+    ));
+    var changedCategory = new Category("Changed");
+    changedCategory.items.add(parseItem(
+        "- [Existing](https://github.com/acme/one) - Existing project.",
+        1,
+        true
+    ));
+    changedCategory.items.add(parseItem(
+        "- [Added](https://example.com) - Added project. "
+            + "<!-- github: acme/two, acme/three -->",
+        2,
+        true
+    ));
+    var baseRepositories = new Catalog("# Base", "Base.", List.of(baseCategory), List.of());
+    var changedRepositories =
+        new Catalog("# Changed", "Changed.", List.of(changedCategory), List.of());
+    require(
+        new HashSet<>(addedRepositories(baseRepositories, changedRepositories))
+            .equals(Set.of("acme/two", "acme/three")),
+        0,
+        "Added repository comparison"
+    );
+    require(addedRepositories(changedRepositories, baseRepositories).isEmpty(), 0,
+        "Removed repositories are ignored");
     var umbrella = parseItem(
         "- [Umbrella](https://example.com) - Several modules. "
             + "<!-- github: acme/one, acme/two -->",
