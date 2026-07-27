@@ -8,7 +8,9 @@ A curated list of noteworthy Java frameworks, libraries, tools and resources.
 
 <sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months</sub>
 
-<sub>License chips use GitHub SPDX metadata when available. Entries spanning several repositories combine their stars, use the most recent push for activity and show a license only when all repositories agree.</sub>
+<sub>License chips use GitHub SPDX metadata when available.</sub>
+
+<sub>Entries spanning several repositories combine their stars, use the most recent push for activity and show a license only when all repositories agree.</sub>
 
 Browse a category below, or use your browser's find command to locate a project.
 
@@ -348,7 +350,7 @@ _Libraries that provide external configuration._
 
 > **[owner](https://github.com/lviggiano/owner)** <kbd>★ 939</kbd> <kbd>BSD-3-Clause</kbd> 🟢<br>Reduces boilerplate of properties.
 
-> **[sealed-env](https://github.com/davidalmeidac/sealed-env)** <kbd>★ 9</kbd> <kbd>MIT</kbd> 🟢<br>Encrypts environment files with a shared Node.js and Java/Spring Boot format plus optional TOTP unsealing.
+> **[sealed-env](https://github.com/davidalmeidac/sealed-env)** <kbd>★ 10</kbd> <kbd>MIT</kbd> 🟢<br>Encrypts environment files with a shared Node.js and Java/Spring Boot format plus optional TOTP unsealing.
 
 </details>
 
