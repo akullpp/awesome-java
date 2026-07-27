@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -204,6 +206,8 @@ final class GenerateReadme {
           } else {
             subcategory.items.add(item);
           }
+        } else if (!line.isBlank()) {
+          fail(lineNumber + 1, "Unexpected project content");
         }
       } else if (section == Section.RESOURCES) {
         if (line.startsWith("### ")) {
@@ -213,13 +217,15 @@ final class GenerateReadme {
             fail(lineNumber + 1, "Duplicate resource group: " + name);
           }
         } else if (line.startsWith("#### ")) {
-          require(resource != null, lineNumber + 1, "Nested resource heading without a group");
+          fail(lineNumber + 1, "Nested resource headings are not supported");
         } else if (isDescription(line)) {
           require(resource != null, lineNumber + 1, "Description without a resource group");
           resource.description = stripItalics(line);
         } else if (line.startsWith("- [")) {
           require(resource != null, lineNumber + 1, "Resource without a group");
           resource.items.add(parseItem(line, lineNumber + 1, false));
+        } else if (!line.isBlank()) {
+          fail(lineNumber + 1, "Unexpected resource content");
         }
       }
     }
@@ -252,15 +258,20 @@ final class GenerateReadme {
     var name = line.substring(3, linkClose).trim();
     var url = line.substring(linkClose + 2, urlClose).trim();
     var remainder = line.substring(urlClose + 1);
+    require(remainder.isEmpty() || remainder.startsWith(" - "), lineNumber,
+        "Invalid text after entry link");
     var description = remainder.startsWith(" - ") ? remainder.substring(3).trim() : "";
 
     require(!name.isEmpty(), lineNumber, "Missing entry name");
     require(!url.isEmpty(), lineNumber, "Missing entry URL");
+    validateUrl(url, lineNumber);
     require(!descriptionRequired || !description.isEmpty(), lineNumber, "Missing project description");
     var directRepository = githubRepository(url);
     require(repositories.isEmpty() || directRepository.isEmpty(), lineNumber,
         "GitHub metadata is not allowed on a direct repository link");
-    directRepository.ifPresent(repositories::add);
+    if (descriptionRequired) {
+      directRepository.ifPresent(repositories::add);
+    }
     return new Item(name, url, description, lineNumber, List.copyOf(repositories));
   }
 
@@ -275,16 +286,21 @@ final class GenerateReadme {
 
     for (var category : source.categories()) {
       require(!category.description.isBlank(), 0, "Missing category description: " + category.name);
+      require(!category.items.isEmpty() || !category.subcategories.isEmpty(), 0,
+          "Empty project category: " + category.name);
       require(anchors.add(slug(category.name)), 0, "Duplicate anchor: " + slug(category.name));
-      validateItems(category.items, names, urls, repositories);
+      validateItems(category.items, names, urls, repositories, true);
       for (var nested : category.subcategories.values()) {
-        validateItems(nested.items, names, urls, repositories);
+        require(!nested.items.isEmpty(), 0, "Empty nested category: " + nested.name);
+        validateItems(nested.items, names, urls, repositories, true);
       }
     }
 
     for (var resource : source.resources()) {
       require(!resource.description.isBlank(), 0, "Missing resource description: " + resource.name);
+      require(!resource.items.isEmpty(), 0, "Empty resource group: " + resource.name);
       require(anchors.add(slug(resource.name)), 0, "Duplicate anchor: " + slug(resource.name));
+      validateItems(resource.items, names, urls, repositories, false);
     }
   }
 
@@ -292,7 +308,8 @@ final class GenerateReadme {
       List<Item> items,
       Map<String, Item> names,
       Map<String, Item> urls,
-      Map<String, Item> repositories
+      Map<String, Item> repositories,
+      boolean project
   ) {
     for (var item : items) {
       var plainName = item.name();
@@ -301,18 +318,22 @@ final class GenerateReadme {
       var duplicateName = names.putIfAbsent(normalizedName, item);
       var duplicateUrl = urls.putIfAbsent(normalizedUrl, item);
       require(duplicateName == null, item.lineNumber(),
-          "Duplicate project name: " + plainName + " (first at line " + duplicateNameLine(duplicateName) + ")");
+          "Duplicate entry name: " + plainName + " (first at line " + duplicateNameLine(duplicateName) + ")");
       require(duplicateUrl == null, item.lineNumber(),
-          "Duplicate project URL: " + item.url() + " (first at line " + duplicateNameLine(duplicateUrl) + ")");
-      var end = item.description().charAt(item.description().length() - 1);
-      require(".!?)".indexOf(end) >= 0, item.lineNumber(),
-          "Description must end with punctuation: " + plainName);
-      for (var repository : item.repositories()) {
-        var duplicateRepository = repositories.putIfAbsent(
-            repository.toLowerCase(Locale.ROOT), item);
-        if (duplicateRepository != null) {
-          fail(item.lineNumber(), "GitHub repository is already used by "
-              + duplicateRepository.name() + ": " + repository);
+          "Duplicate entry URL: " + item.url() + " (first at line " + duplicateNameLine(duplicateUrl) + ")");
+      if (!item.description().isBlank()) {
+        var end = item.description().charAt(item.description().length() - 1);
+        require(".!?)".indexOf(end) >= 0, item.lineNumber(),
+            "Description must end with punctuation: " + plainName);
+      }
+      if (project) {
+        for (var repository : item.repositories()) {
+          var duplicateRepository = repositories.putIfAbsent(
+              repository.toLowerCase(Locale.ROOT), item);
+          if (duplicateRepository != null) {
+            fail(item.lineNumber(), "GitHub repository is already used by "
+                + duplicateRepository.name() + ": " + repository);
+          }
         }
       }
     }
@@ -337,13 +358,16 @@ final class GenerateReadme {
     if (response.statusCode() != 200) {
       throw new IOException("GitHub API returned " + response.statusCode() + " for " + repository);
     }
+    return parseStats(response.body());
+  }
 
-    var stars = STARS.matcher(response.body());
-    var pushedAt = PUSHED_AT.matcher(response.body());
-    var archived = ARCHIVED.matcher(response.body());
-    var license = LICENSE.matcher(response.body());
+  private static RepoStats parseStats(String body) throws IOException {
+    var stars = STARS.matcher(body);
+    var pushedAt = PUSHED_AT.matcher(body);
+    var archived = ARCHIVED.matcher(body);
+    var license = LICENSE.matcher(body);
     if (!stars.find() || !pushedAt.find() || !archived.find() || !license.find()) {
-      throw new IOException("Incomplete GitHub response for " + repository);
+      throw new IOException("Incomplete GitHub response");
     }
     var pushed = pushedAt.group(1) == null
         ? null
@@ -362,9 +386,14 @@ final class GenerateReadme {
     }
 
     LocalDate refreshed = null;
+    var refreshedSeen = false;
     var stats = new HashMap<String, RepoStats>();
     for (var line : Files.readAllLines(path)) {
       if (line.startsWith("# refreshed=")) {
+        if (refreshedSeen) {
+          throw new IOException("Duplicate refreshed header in statistics cache");
+        }
+        refreshedSeen = true;
         refreshed = LocalDate.parse(line.substring("# refreshed=".length()));
       } else if (!line.isBlank() && !line.startsWith("#")) {
         var parts = line.split("\\t", -1);
@@ -374,12 +403,15 @@ final class GenerateReadme {
         if (!parts[3].equals("true") && !parts[3].equals("false")) {
           throw new IOException("Invalid archived value in statistics cache line: " + line);
         }
-        stats.put(parts[0], new RepoStats(
+        var previous = stats.putIfAbsent(parts[0], new RepoStats(
             Long.parseLong(parts[1]),
             parts[2].isBlank() ? null : LocalDate.parse(parts[2]),
             Boolean.parseBoolean(parts[3]),
             parts[4].isBlank() ? null : parts[4]
         ));
+        if (previous != null) {
+          throw new IOException("Duplicate repository in statistics cache: " + parts[0]);
+        }
       }
     }
     return new StatsCache(refreshed, stats);
@@ -407,6 +439,7 @@ final class GenerateReadme {
         .append(source.tagline()).append("\n\n")
         .append("<sub>").append(projectCount(source)).append(" projects · ")
         .append(source.categories().size()).append(" categories · ")
+        .append(resourceCount(source)).append(" resources · ")
         .append(DISPLAY_DATE.format(cache.refreshed())).append("</sub>\n\n")
         .append("<sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · ")
         .append("🔴 no push for over 12 months</sub>\n\n")
@@ -414,6 +447,15 @@ final class GenerateReadme {
         .append("several repositories combine their stars, use the most recent push for activity ")
         .append("and show a license only when all repositories agree.</sub>\n\n")
         .append("Browse a category below, or use your browser's find command to locate a project.\n\n")
+        .append("<details>\n")
+        .append("<summary><strong>Browse ").append(source.categories().size())
+        .append(" project categories and ").append(source.resources().size())
+        .append(" resource groups</strong></summary>\n\n")
+        .append("**Projects:** ");
+    appendNavigation(out, source.categories().stream().map(category -> category.name).sorted(TEXT_ORDER).toList());
+    out.append("\n\n**Resources:** ");
+    appendNavigation(out, source.resources().stream().map(resource -> resource.name).toList());
+    out.append("\n\n</details>\n\n")
         .append("## Projects\n\n");
 
     source.categories().stream()
@@ -427,12 +469,25 @@ final class GenerateReadme {
 
     var editUrl = "https://github.com/akullpp/awesome-java/edit/" + branch + "/README_SOURCE.md";
     out.append("## Contributing\n\n")
-        .append("> **[Suggest a project](").append(editUrl).append(")** · ")
+        .append("> **[Suggest a project or resource](").append(editUrl).append(")** · ")
         .append("[Contribution guidelines](CONTRIBUTING.md)\n")
         .append(">\n")
         .append("> Add one Markdown entry under the appropriate category and open one pull request. ")
-        .append("Ordering, counts and GitHub statistics are generated automatically.\n");
+        .append("Ordering, counts and GitHub statistics are generated automatically.\n\n")
+        .append("## License\n\n")
+        .append("Catalog and documentation: [CC BY-SA 4.0](LICENSE). ")
+        .append("Automation code and configuration: [MIT](LICENSE-CODE).\n");
     return out.toString();
+  }
+
+  private static void appendNavigation(StringBuilder out, List<String> names) {
+    for (var i = 0; i < names.size(); i++) {
+      if (i > 0) {
+        out.append(" · ");
+      }
+      var name = names.get(i);
+      out.append('[').append(name).append("](#").append(slug(name)).append(')');
+    }
   }
 
   private static void renderCategory(
@@ -559,6 +614,8 @@ final class GenerateReadme {
         0, "Generated README contains the retired commercial badge");
     require(!rendered.matches("(?s).*<kbd>\\d{2}/\\d{2}/\\d{4}</kbd>.*"), 0,
         "Generated README contains a per-project date");
+    require(countOccurrences(rendered, "](#") == source.categories().size() + source.resources().size(),
+        0, "Generated README contains an incomplete navigation index");
 
     for (var item : source.projects()) {
       require(rendered.contains("**[" + item.name() + "](" + item.url() + ")**"), item.lineNumber(),
@@ -575,6 +632,19 @@ final class GenerateReadme {
             "Generated README is missing resource: " + item.name());
       }
     }
+
+    var expectedLicenses = source.projects().stream()
+        .map(item -> aggregateStats(item, cache))
+        .flatMap(Optional::stream)
+        .filter(stats -> stats.license() != null)
+        .count();
+    var actualLicenses = rendered.lines()
+        .filter(line -> line.startsWith("> **[")
+            && line.contains("<kbd>★ ")
+            && line.contains("</kbd> <kbd>"))
+        .count();
+    require(actualLicenses == expectedLicenses, 0,
+        "Expected " + expectedLicenses + " license chips, found " + actualLicenses);
 
     var expectedDots = source.projects().stream()
         .map(item -> aggregateStats(item, cache))
@@ -672,6 +742,16 @@ final class GenerateReadme {
     }
   }
 
+  private static void validateUrl(String url, int lineNumber) {
+    try {
+      var uri = URI.create(url);
+      require("https".equalsIgnoreCase(uri.getScheme()) && uri.getHost() != null,
+          lineNumber, "Entry URL must be an absolute HTTPS URL: " + url);
+    } catch (IllegalArgumentException exception) {
+      fail(lineNumber, "Entry URL must be an absolute HTTPS URL: " + url);
+    }
+  }
+
   private static String slug(String value) {
     return value.toLowerCase(Locale.ROOT)
         .replaceAll("[^a-z0-9\\s-]", "")
@@ -681,6 +761,14 @@ final class GenerateReadme {
 
   private static String normalizeUrl(String url) {
     return url.toLowerCase(Locale.ROOT).replaceAll("/+$", "");
+  }
+
+  private static int countOccurrences(String value, String needle) {
+    var count = 0;
+    for (var index = value.indexOf(needle); index >= 0; index = value.indexOf(needle, index + 1)) {
+      count++;
+    }
+    return count;
   }
 
   private static String knownLicense(String license) {
@@ -757,10 +845,41 @@ final class GenerateReadme {
     ))).orElseThrow();
     require(mixedLicense.license() == null, 0, "Mixed umbrella licenses");
     require(knownLicense("NOASSERTION") == null, 0, "Unknown license handling");
+    var licensed = parseStats("""
+        {"stargazers_count":1,"pushed_at":"2026-07-01T00:00:00Z","archived":false,
+        "license":{"spdx_id":"MIT"}}
+        """);
+    require("MIT".equals(licensed.license()), 0, "Concrete license parsing");
+    var nullLicense = parseStats("""
+        {"stargazers_count":1,"pushed_at":null,"archived":false,"license":null}
+        """);
+    require(nullLicense.license() == null, 0, "Null license parsing");
+    var unknownLicense = parseStats("""
+        {"stargazers_count":1,"pushed_at":null,"archived":false,
+        "license":{"spdx_id":"NOASSERTION"}}
+        """);
+    require(unknownLicense.license() == null, 0, "Unknown API license parsing");
     var category = new Category("Test");
     category.description = "Test projects.";
     category.items.add(umbrella);
     var catalog = new Catalog("# Test", "Test.", List.of(category), List.of());
+    var resources = new ResourceGroup("Links");
+    resources.description = "Useful links.";
+    resources.items.add(parseItem("- [Link](https://example.com/link)", 2, false));
+    var rendered = render(
+        new Catalog("# Test", "Test.", List.of(category), List.of(resources)),
+        new StatsCache(today, Map.of(
+            "acme/one", new RepoStats(10, today, false, "Apache-2.0"),
+            "acme/two", new RepoStats(20, today, false, "Apache-2.0")
+        )),
+        today,
+        "test"
+    );
+    require(rendered.contains("[Test](#test)") && rendered.contains("[Links](#links)"),
+        0, "Navigation rendering");
+    require(rendered.contains("Suggest a project or resource"), 0, "Contribution CTA");
+    require(rendered.contains("CC BY-SA 4.0") && rendered.contains("[MIT](LICENSE-CODE)"),
+        0, "License footer");
     expectFailure(
         () -> rejectArchivedProjects(catalog, new StatsCache(today, Map.of(
             "acme/one", new RepoStats(10, today, false, "Apache-2.0"),
@@ -793,7 +912,111 @@ final class GenerateReadme {
     } finally {
       Files.deleteIfExists(oldCache);
     }
+    var duplicateCache = Files.createTempFile("awesome-java-duplicate-cache", ".tsv");
+    try {
+      Files.writeString(duplicateCache, """
+          # refreshed=2026-07-26
+          acme/one	10	2026-07-25	false	MIT
+          acme/one	11	2026-07-26	false	MIT
+          """);
+      expectFailure(() -> readCache(duplicateCache), "Duplicate repository");
+    } finally {
+      Files.deleteIfExists(duplicateCache);
+    }
+    expectFailure(() -> validateFixture("""
+        # Test
+
+        Test.
+
+        ## Projects
+
+        ### Projects
+
+        _Projects._
+
+        - Broken
+
+        ## Resources
+
+        ### Resources
+
+        _Resources._
+
+        - [Resource](https://example.com)
+        """), "Unexpected project content");
+    expectFailure(() -> validateFixture("""
+        # Test
+
+        Test.
+
+        ## Projects
+
+        ### Projects
+
+        _Projects._
+
+        - [Project](not-a-url) - Project.
+
+        ## Resources
+
+        ### Resources
+
+        _Resources._
+
+        - [Resource](https://example.com)
+        """), "absolute HTTPS URL");
+    expectFailure(() -> validateFixture("""
+        # Test
+
+        Test.
+
+        ## Projects
+
+        ### Projects
+
+        _Projects._
+
+        - [Project](https://example.com/project) - Project.
+
+        ## Resources
+
+        ### Resources
+
+        _Resources._
+
+        - [One](https://example.com/resource)
+        - [Two](https://example.com/resource)
+        """), "Duplicate entry URL");
+    expectFailure(() -> validateFixture("""
+        # Test
+
+        Test.
+
+        ## Projects
+
+        ### Projects
+
+        _Projects._
+
+        - [Project](https://example.com/project) - Project.
+
+        ## Resources
+
+        ### Resources
+
+        _Resources._
+        """), "Empty resource group");
     System.out.println("Self-test passed");
+  }
+
+  private static void validateFixture(String content) throws IOException {
+    var path = Files.createTempFile("awesome-java-source", ".md");
+    try {
+      Files.writeString(path, content);
+      validateSource(parseSource(path));
+    } finally {
+      Files.deleteIfExists(path);
+    }
   }
 
   private static void expectFailure(CheckedRunnable action, String message) {

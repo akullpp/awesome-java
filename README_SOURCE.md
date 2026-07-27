@@ -5,6 +5,8 @@ A curated list of noteworthy Java frameworks, libraries, tools and resources.
 <!--
 Edit this file, not README.md.
 Project format: - [Name](URL) - A concise, neutral description ending with punctuation.
+Resource format: - [Name](URL) with an optional " - Description ending with punctuation."
+Use absolute HTTPS canonical links and submit one project or resource per pull request.
 -->
 
 ## Projects
@@ -1298,12 +1300,10 @@ _Something to look at or listen to while programming._
 - [140 Second Ducklings](https://twitter.com/debugagent/status/1491075324805001219) - Short videos on Twitter explaining Java debugging in depth.
 - [A Bootiful Podcast](https://bootifulpodcast.fm)
 - [Foojay Podcast](https://foojay.io/today/category/podcast/)
-- [Inside Java](https://inside.java/podcast) (Official)
+- [Inside Java](https://inside.java/podcast) - Official podcast.
 - [Java Off Heap](https://www.javaoffheap.com)
 
 ### People
-
-#### Socials
 
 _Active accounts to follow. Descriptions from their socials._
 

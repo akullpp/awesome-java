@@ -31,6 +31,26 @@ Search existing entries and issues before submitting. Self-promotion is
 reviewed carefully but is welcome when the project meets the same criteria.
 Use one pull request per project.
 
+## Suggest a Resource
+
+Add one resource under the best group in [`README_SOURCE.md`](README_SOURCE.md):
+
+```markdown
+- [Resource Name](https://canonical.example)
+```
+
+An optional description may follow the link:
+
+```markdown
+- [Resource Name](https://canonical.example) - A concise, neutral description ending with punctuation.
+```
+
+Resources include books, podcasts, people, communities, related lists and
+websites. They must be current, relevant to Java or the JVM, use a canonical
+HTTPS link, fit the chosen group and use English where prose is involved.
+Search for duplicates and submit one resource per pull request. Contributors
+do not need to run the generator.
+
 ## Maintainer Notes
 
 Most entries point directly to one GitHub repository. For an umbrella project
@@ -43,5 +63,13 @@ homepage and append maintainer-only metadata:
 
 Use at least two canonical repositories. A repository may belong to only one
 entry. The generator sums their stars, uses their most recent push for activity
-and rejects malformed metadata, duplicate repository use and archived
+and shows a license only when every repository reports the same SPDX license.
+It rejects malformed metadata, duplicate repository use and archived
 repositories.
+
+## License
+
+Catalog and documentation contributions are licensed under
+[CC BY-SA 4.0](LICENSE). Automation code and configuration are licensed under
+the [MIT License](LICENSE-CODE). By contributing, you agree that your changes
+are available under the applicable license.
