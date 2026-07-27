@@ -1,27 +1,16 @@
-<!-- Generated from README_SOURCE.md by scripts/GenerateReadme.java. Do not edit README.md directly. -->
+<!-- Generated from README_SOURCE.md by .github/scripts/GenerateReadme.java. Do not edit README.md directly. -->
 
 # Awesome Java [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of noteworthy Java frameworks, libraries, tools and resources.
 
-<sub>812 projects · 75 categories · 80 resources · 27/07/2026</sub>
+<sub>812 projects · 75 categories · 80 resources</sub>
 
 <sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months</sub>
 
 <sub>License chips use GitHub SPDX metadata when available.</sub>
 
 <sub>Entries spanning several repositories combine their stars, use the most recent push for activity and show a license only when all repositories agree.</sub>
-
-Browse a category below, or use your browser's find command to locate a project.
-
-<details>
-<summary><strong>Browse</strong></summary>
-
-**Projects:** [Architecture](#architecture) · [Artificial Intelligence](#artificial-intelligence) · [Bean Mapping](#bean-mapping) · [Build](#build) · [Bytecode Manipulation](#bytecode-manipulation) · [Caching](#caching) · [CLI](#cli) · [Cloud](#cloud) · [Code Analysis](#code-analysis) · [Code Coverage](#code-coverage) · [Code Formatting](#code-formatting) · [Code Generators](#code-generators) · [Compiler-compiler](#compiler-compiler) · [Computer Vision](#computer-vision) · [Configuration](#configuration) · [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver) · [CSV](#csv) · [Data Structures](#data-structures) · [Database](#database) · [Date and Time](#date-and-time) · [Decentralization](#decentralization) · [Decompilation](#decompilation) · [Dependency Injection](#dependency-injection) · [Development](#development) · [Distributed Applications](#distributed-applications) · [Distributed Transactions](#distributed-transactions) · [Distribution](#distribution) · [Document Processing](#document-processing) · [Financial](#financial) · [Flat File](#flat-file) · [Formal Verification](#formal-verification) · [Functional Programming](#functional-programming) · [Game Development](#game-development) · [Geospatial](#geospatial) · [GUI](#gui) · [High Performance](#high-performance) · [HTTP Clients](#http-clients) · [Hypermedia Types](#hypermedia-types) · [IDE](#ide) · [Imagery](#imagery) · [Introspection](#introspection) · [Job Scheduling](#job-scheduling) · [JSON](#json) · [JVM and JDK](#jvm-and-jdk) · [Logging](#logging) · [Machine Learning](#machine-learning) · [Messaging](#messaging) · [Microservice](#microservice) · [Miscellaneous](#miscellaneous) · [Mobile Development](#mobile-development) · [Monitoring](#monitoring) · [Native](#native) · [Natural Language Processing](#natural-language-processing) · [Networking](#networking) · [ORM](#orm) · [PaaS](#paas) · [Pathfinding](#pathfinding) · [PDF](#pdf) · [Performance analysis](#performance-analysis) · [Platform](#platform) · [Processes](#processes) · [Reactive libraries](#reactive-libraries) · [REST Frameworks](#rest-frameworks) · [Science](#science) · [Search](#search) · [Security](#security) · [Serialization](#serialization) · [Server](#server) · [Template Engine](#template-engine) · [Testing](#testing) · [Utility](#utility) · [Version Managers](#version-managers) · [Web Crawling](#web-crawling) · [Web Frameworks](#web-frameworks) · [Workflow Orchestration Engines](#workflow-orchestration-engines)
-
-**Resources:** [Related Awesome Lists](#related-awesome-lists) · [Communities](#communities) · [Frontends](#frontends) · [Influential Books](#influential-books) · [Podcasts and Screencasts](#podcasts-and-screencasts) · [People](#people) · [Websites](#websites)
-
-</details>
 
 ## Projects
 

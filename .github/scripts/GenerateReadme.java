@@ -13,7 +13,6 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -46,7 +45,6 @@ final class GenerateReadme {
   private static final Comparator<String> TEXT_ORDER =
       Comparator.comparing((String value) -> value.toLowerCase(Locale.ROOT))
           .thenComparing(Comparator.naturalOrder());
-  private static final DateTimeFormatter DISPLAY_DATE = DateTimeFormatter.ofPattern("dd/MM/uuuu");
 
   public static void main(String[] args) throws Exception {
     if (args.length == 0) {
@@ -74,10 +72,10 @@ final class GenerateReadme {
   private static void usage() {
     System.err.println("""
         Usage:
-          java scripts/GenerateReadme.java check [source]
-          java scripts/GenerateReadme.java check-added <base-source> [source]
-          java scripts/GenerateReadme.java self-test
-          java scripts/GenerateReadme.java generate [source] [output] [cache] [--refresh-all] [--branch name]
+          java .github/scripts/GenerateReadme.java check [source]
+          java .github/scripts/GenerateReadme.java check-added <base-source> [source]
+          java .github/scripts/GenerateReadme.java self-test
+          java .github/scripts/GenerateReadme.java generate [source] [output] [cache] [--refresh-all] [--branch name]
         """);
   }
 
@@ -108,7 +106,7 @@ final class GenerateReadme {
     var outputPath = Path.of(args.length > 2 ? args[2] : "README.md");
     var cachePath = Path.of(args.length > 3 ? args[3] : ".cache/github-stats.tsv");
     var refreshAll = false;
-    var branch = System.getenv().getOrDefault("GITHUB_REF_NAME", "master");
+    var branch = System.getenv().getOrDefault("GITHUB_REF_NAME", "main");
 
     for (var i = 4; i < args.length; i++) {
       switch (args[i]) {
@@ -522,27 +520,18 @@ final class GenerateReadme {
 
   private static String render(Catalog source, StatsCache cache, LocalDate today, String branch) {
     var out = new StringBuilder();
-    out.append("<!-- Generated from README_SOURCE.md by scripts/GenerateReadme.java. ")
+    out.append("<!-- Generated from README_SOURCE.md by .github/scripts/GenerateReadme.java. ")
         .append("Do not edit README.md directly. -->\n\n")
         .append(source.title()).append("\n\n")
         .append(source.tagline()).append("\n\n")
         .append("<sub>").append(projectCount(source)).append(" projects · ")
         .append(source.categories().size()).append(" categories · ")
-        .append(resourceCount(source)).append(" resources · ")
-        .append(DISPLAY_DATE.format(cache.refreshed())).append("</sub>\n\n")
+        .append(resourceCount(source)).append(" resources</sub>\n\n")
         .append("<sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · ")
         .append("🔴 no push for over 12 months</sub>\n\n")
         .append("<sub>License chips use GitHub SPDX metadata when available.</sub>\n\n")
         .append("<sub>Entries spanning several repositories combine their stars, use the most recent push for activity ")
         .append("and show a license only when all repositories agree.</sub>\n\n")
-        .append("Browse a category below, or use your browser's find command to locate a project.\n\n")
-        .append("<details>\n")
-        .append("<summary><strong>Browse</strong></summary>\n\n")
-        .append("**Projects:** ");
-    appendNavigation(out, source.categories().stream().map(category -> category.name).sorted(TEXT_ORDER).toList());
-    out.append("\n\n**Resources:** ");
-    appendNavigation(out, source.resources().stream().map(resource -> resource.name).toList());
-    out.append("\n\n</details>\n\n")
         .append("## Projects\n\n");
 
     source.categories().stream()
@@ -565,16 +554,6 @@ final class GenerateReadme {
         .append("Catalog and documentation: [CC BY-SA 4.0](LICENSE).<br>\n")
         .append("Automation code and configuration: [MIT](LICENSE-CODE).\n");
     return out.toString();
-  }
-
-  private static void appendNavigation(StringBuilder out, List<String> names) {
-    for (var i = 0; i < names.size(); i++) {
-      if (i > 0) {
-        out.append(" · ");
-      }
-      var name = names.get(i);
-      out.append('[').append(name).append("](#").append(slug(name)).append(')');
-    }
   }
 
   private static void renderCategory(
@@ -701,9 +680,6 @@ final class GenerateReadme {
         0, "Generated README contains the retired commercial badge");
     require(!rendered.matches("(?s).*<kbd>\\d{2}/\\d{2}/\\d{4}</kbd>.*"), 0,
         "Generated README contains a per-project date");
-    require(countOccurrences(rendered, "](#") == source.categories().size() + source.resources().size(),
-        0, "Generated README contains an incomplete navigation index");
-
     for (var item : source.projects()) {
       require(rendered.contains("**[" + item.name() + "](" + item.url() + ")**"), item.lineNumber(),
           "Generated README is missing project: " + item.name());
@@ -850,14 +826,6 @@ final class GenerateReadme {
     return url.toLowerCase(Locale.ROOT).replaceAll("/+$", "");
   }
 
-  private static int countOccurrences(String value, String needle) {
-    var count = 0;
-    for (var index = value.indexOf(needle); index >= 0; index = value.indexOf(needle, index + 1)) {
-      count++;
-    }
-    return count;
-  }
-
   private static String knownLicense(String license) {
     return license == null || license.isBlank()
         || license.equals("NOASSERTION") || license.equals("OTHER")
@@ -995,8 +963,6 @@ final class GenerateReadme {
         today,
         "test"
     );
-    require(rendered.contains("[Test](#test)") && rendered.contains("[Links](#links)"),
-        0, "Navigation rendering");
     require(rendered.contains("Suggest a project or resource"), 0, "Contribution CTA");
     require(rendered.contains("CC BY-SA 4.0") && rendered.contains("[MIT](LICENSE-CODE)"),
         0, "License footer");
