@@ -448,9 +448,7 @@ final class GenerateReadme {
         .append("and show a license only when all repositories agree.</sub>\n\n")
         .append("Browse a category below, or use your browser's find command to locate a project.\n\n")
         .append("<details>\n")
-        .append("<summary><strong>Browse ").append(source.categories().size())
-        .append(" project categories and ").append(source.resources().size())
-        .append(" resource groups</strong></summary>\n\n")
+        .append("<summary><strong>Browse</strong></summary>\n\n")
         .append("**Projects:** ");
     appendNavigation(out, source.categories().stream().map(category -> category.name).sorted(TEXT_ORDER).toList());
     out.append("\n\n**Resources:** ");
@@ -472,10 +470,10 @@ final class GenerateReadme {
         .append("> **[Suggest a project or resource](").append(editUrl).append(")** · ")
         .append("[Contribution guidelines](CONTRIBUTING.md)\n")
         .append(">\n")
-        .append("> Add one Markdown entry under the appropriate category and open one pull request. ")
-        .append("Ordering, counts and GitHub statistics are generated automatically.\n\n")
+        .append("> Add one Markdown entry under the appropriate category and open one pull request.<br>\n")
+        .append("> Ordering, counts and GitHub statistics are generated automatically.\n\n")
         .append("## License\n\n")
-        .append("Catalog and documentation: [CC BY-SA 4.0](LICENSE). ")
+        .append("Catalog and documentation: [CC BY-SA 4.0](LICENSE).<br>\n")
         .append("Automation code and configuration: [MIT](LICENSE-CODE).\n");
     return out.toString();
   }

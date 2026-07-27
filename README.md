@@ -15,7 +15,7 @@ A curated list of noteworthy Java frameworks, libraries, tools and resources.
 Browse a category below, or use your browser's find command to locate a project.
 
 <details>
-<summary><strong>Browse 75 project categories and 7 resource groups</strong></summary>
+<summary><strong>Browse</strong></summary>
 
 **Projects:** [Architecture](#architecture) · [Artificial Intelligence](#artificial-intelligence) · [Bean Mapping](#bean-mapping) · [Build](#build) · [Bytecode Manipulation](#bytecode-manipulation) · [Caching](#caching) · [CLI](#cli) · [Cloud](#cloud) · [Code Analysis](#code-analysis) · [Code Coverage](#code-coverage) · [Code Formatting](#code-formatting) · [Code Generators](#code-generators) · [Compiler-compiler](#compiler-compiler) · [Computer Vision](#computer-vision) · [Configuration](#configuration) · [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver) · [CSV](#csv) · [Data Structures](#data-structures) · [Database](#database) · [Date and Time](#date-and-time) · [Decentralization](#decentralization) · [Decompilation](#decompilation) · [Dependency Injection](#dependency-injection) · [Development](#development) · [Distributed Applications](#distributed-applications) · [Distributed Transactions](#distributed-transactions) · [Distribution](#distribution) · [Document Processing](#document-processing) · [Financial](#financial) · [Flat File](#flat-file) · [Formal Verification](#formal-verification) · [Functional Programming](#functional-programming) · [Game Development](#game-development) · [Geospatial](#geospatial) · [GUI](#gui) · [High Performance](#high-performance) · [HTTP Clients](#http-clients) · [Hypermedia Types](#hypermedia-types) · [IDE](#ide) · [Imagery](#imagery) · [Introspection](#introspection) · [Job Scheduling](#job-scheduling) · [JSON](#json) · [JVM and JDK](#jvm-and-jdk) · [Logging](#logging) · [Machine Learning](#machine-learning) · [Messaging](#messaging) · [Microservice](#microservice) · [Miscellaneous](#miscellaneous) · [Mobile Development](#mobile-development) · [Monitoring](#monitoring) · [Native](#native) · [Natural Language Processing](#natural-language-processing) · [Networking](#networking) · [ORM](#orm) · [PaaS](#paas) · [Pathfinding](#pathfinding) · [PDF](#pdf) · [Performance analysis](#performance-analysis) · [Platform](#platform) · [Processes](#processes) · [Reactive libraries](#reactive-libraries) · [REST Frameworks](#rest-frameworks) · [Science](#science) · [Search](#search) · [Security](#security) · [Serialization](#serialization) · [Server](#server) · [Template Engine](#template-engine) · [Testing](#testing) · [Utility](#utility) · [Version Managers](#version-managers) · [Web Crawling](#web-crawling) · [Web Frameworks](#web-frameworks) · [Workflow Orchestration Engines](#workflow-orchestration-engines)
 
@@ -350,7 +350,7 @@ _Libraries that provide external configuration._
 
 > **[owner](https://github.com/lviggiano/owner)** <kbd>★ 939</kbd> <kbd>BSD-3-Clause</kbd> 🟢<br>Reduces boilerplate of properties.
 
-> **[sealed-env](https://github.com/davidalmeidac/sealed-env)** <kbd>★ 9</kbd> <kbd>MIT</kbd> 🟢<br>Encrypts environment files with a shared Node.js and Java/Spring Boot format plus optional TOTP unsealing.
+> **[sealed-env](https://github.com/davidalmeidac/sealed-env)** <kbd>★ 10</kbd> <kbd>MIT</kbd> 🟢<br>Encrypts environment files with a shared Node.js and Java/Spring Boot format plus optional TOTP unsealing.
 
 </details>
 
@@ -2429,8 +2429,10 @@ _Sites to read._
 
 > **[Suggest a project or resource](https://github.com/akullpp/awesome-java/edit/test/README_SOURCE.md)** · [Contribution guidelines](CONTRIBUTING.md)
 >
-> Add one Markdown entry under the appropriate category and open one pull request. Ordering, counts and GitHub statistics are generated automatically.
+> Add one Markdown entry under the appropriate category and open one pull request.<br>
+> Ordering, counts and GitHub statistics are generated automatically.
 
 ## License
 
-Catalog and documentation: [CC BY-SA 4.0](LICENSE). Automation code and configuration: [MIT](LICENSE-CODE).
+Catalog and documentation: [CC BY-SA 4.0](LICENSE).<br>
+Automation code and configuration: [MIT](LICENSE-CODE).
