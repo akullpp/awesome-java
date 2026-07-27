@@ -1056,7 +1056,7 @@ _Current implementations of the JVM/JDK._
 
 > **[RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview)**<br>RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0)
 
-> **[SAP Machine](https://github.com/SAP/SapMachine)** <kbd>★ 616</kbd> <kbd>GPL-2.0</kbd> 🟢<br>SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork.
+> **[SAP Machine](https://github.com/SAP/SapMachine)** <kbd>★ 617</kbd> <kbd>GPL-2.0</kbd> 🟢<br>SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork.
 
 > **[Which JDK](https://github.com/whichjdk/whichjdk.com)** <kbd>★ 160</kbd> 🟠<br>Overview of common JVMs with pros and cons.
 
