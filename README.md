@@ -4,7 +4,7 @@
 
 A curated list of noteworthy Java frameworks, libraries, tools and resources.
 
-<sub>812 projects · 75 categories · 80 resources · 26/07/2026</sub>
+<sub>812 projects · 75 categories · 80 resources · 27/07/2026</sub>
 
 <sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months</sub>
 
@@ -49,7 +49,7 @@ _Frameworks that help you to leverage LLMs and AI._
 
 > **[LangChain4j](https://github.com/langchain4j/langchain4j)** <kbd>★ 12.7k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.
 
-> **[liter-llm](https://github.com/xberg-io/liter-llm)** <kbd>★ 239</kbd> <kbd>MIT</kbd> 🟢<br>Provides a Java binding for a unified LLM API client across multiple providers.
+> **[liter-llm](https://github.com/xberg-io/liter-llm)** <kbd>★ 238</kbd> <kbd>MIT</kbd> 🟢<br>Provides a Java binding for a unified LLM API client across multiple providers.
 
 > **[MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk)** <kbd>★ 3.6k</kbd> <kbd>MIT</kbd> 🟢<br>Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns.
 
@@ -248,7 +248,7 @@ _Tools that format or restructure Java source code._
 
 > **[JHarmonizer](https://github.com/lemon-ant/JHarmonizer)** <kbd>★ 26</kbd> 🟢<br>Safely reorders Java source code with configurable rules and Palantir Java Format.
 
-> **[Palantir Java Format](https://github.com/palantir/palantir-java-format)** <kbd>★ 846</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Formatter based on google-java-format with wider lines and lambda-friendly output.
+> **[Palantir Java Format](https://github.com/palantir/palantir-java-format)** <kbd>★ 847</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Formatter based on google-java-format with wider lines and lambda-friendly output.
 
 > **[Spotless](https://github.com/diffplug/spotless)** <kbd>★ 5.6k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>A versatile code formatter for Gradle and Maven that enforces multiple styles (including Google and Palantir) across Java and other languages.
 
@@ -313,7 +313,7 @@ _Libraries which seek to gain high level information from images and videos._
 
 > **[BoofCV](https://github.com/lessthanoptimal/BoofCV)** <kbd>★ 1.2k</kbd> 🟢<br>Library for image processing, camera calibration, tracking, SFM, MVS, 3D vision, QR Code and much more.
 
-> **[ImageJ](https://github.com/imagej/ImageJ)** <kbd>★ 776</kbd> 🟢<br>Medical image processing application with an API.
+> **[ImageJ](https://github.com/imagej/ImageJ)** <kbd>★ 775</kbd> 🟢<br>Medical image processing application with an API.
 
 > **[JavaCV](https://github.com/bytedeco/javacv)** <kbd>★ 8.3k</kbd> 🟢<br>Java interface to OpenCV, FFmpeg, and much more.
 
@@ -332,7 +332,7 @@ _Libraries that provide external configuration._
 
 > **[config](https://github.com/lightbend/config)** <kbd>★ 6.3k</kbd> 🟢<br>Configuration library supporting Java properties, JSON or its human optimized superset HOCON.
 
-> **[Configurate](https://github.com/SpongePowered/Configurate)** <kbd>★ 467</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Configuration library with support for various configuration formats and transformations.
+> **[Configurate](https://github.com/SpongePowered/Configurate)** <kbd>★ 466</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Configuration library with support for various configuration formats and transformations.
 
 > **[Curator Framework](https://github.com/apache/curator)** <kbd>★ 3.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>High-level API for Apache ZooKeeper.
 
@@ -446,7 +446,7 @@ _Everything that simplifies interactions with the database._
 
 > **[FlexyPool](https://github.com/vladmihalcea/flexy-pool)** <kbd>★ 1.2k</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Brings metrics and failover strategies to the most common connection pooling solutions.
 
-> **[Flyway](https://github.com/flyway/flyway)** <kbd>★ 9.9k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Simple database migration tool.
+> **[Flyway](https://github.com/flyway/flyway)** <kbd>★ 10.0k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Simple database migration tool.
 
 > **[H2](https://github.com/h2database/h2database)** <kbd>★ 4.6k</kbd> 🟢<br>Small SQL database notable for its in-memory functionality.
 
@@ -703,7 +703,7 @@ _Libraries that assist with processing office document formats._
 
 > **[jackson-dataformat-spreadsheet](https://github.com/scndry/jackson-dataformat-spreadsheet)** <kbd>★ 23</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Jackson dataformat module for reading and writing Excel (XLSX/XLS) as POJOs via `ObjectMapper`.
 
-> **[Sheetz](https://github.com/chitralabs/sheetz)** <kbd>★ 61</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Reads and writes Excel, CSV and ODS files with annotation mapping, streaming, styling and validation.
+> **[Sheetz](https://github.com/chitralabs/sheetz)** <kbd>★ 62</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Reads and writes Excel, CSV and ODS files with annotation mapping, streaming, styling and validation.
 
 > **[xberg](https://github.com/xberg-io/xberg)** <kbd>★ 8.7k</kbd> <kbd>MIT</kbd> 🟢<br>Extracts text, tables and metadata from PDFs, Office documents, images and other formats through a Java binding.
 
@@ -750,7 +750,7 @@ _Formal-methods tools: proof assistants, model checking, symbolic execution, etc
 
 > **[Checker Framework](https://github.com/typetools/checker-framework)** <kbd>★ 1.1k</kbd> 🟢<br>Pluggable type systems. Includes nullness types, physical units, immutability types and more. (GPL-2.0-only WITH Classpath-exception-2.0)
 
-> **[Daikon](https://github.com/codespecs/daikon)** <kbd>★ 256</kbd> 🟢<br>Detects likely program invariants and generates JML specs based on those invariants.
+> **[Daikon](https://github.com/codespecs/daikon)** <kbd>★ 255</kbd> 🟢<br>Detects likely program invariants and generates JML specs based on those invariants.
 
 > **[Java Path Finder (JPF)](https://github.com/javapathfinder/jpf-core)** <kbd>★ 614</kbd> 🟢<br>JVM formal verification tool containing a model checker and more. Created by NASA.
 
@@ -804,7 +804,7 @@ _Frameworks that support the development of games._
 
 > **[libGDX](https://github.com/libgdx/libgdx)** <kbd>★ 25.3k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>All-round cross-platform, high-level framework.
 
-> **[Litiengine](https://github.com/gurkenlabs/litiengine)** <kbd>★ 834</kbd> <kbd>MIT</kbd> 🟢<br>AWT-based, lightweight 2D game engine.
+> **[Litiengine](https://github.com/gurkenlabs/litiengine)** <kbd>★ 833</kbd> <kbd>MIT</kbd> 🟢<br>AWT-based, lightweight 2D game engine.
 
 > **[LWJGL](https://github.com/LWJGL/lwjgl3)** <kbd>★ 5.4k</kbd> <kbd>BSD-3-Clause</kbd> 🟢<br>Robust framework that abstracts libraries like OpenGL/CL/AL.
 
@@ -1067,7 +1067,7 @@ _Current implementations of the JVM/JDK._
 
 > **[RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview)**<br>RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0)
 
-> **[SAP Machine](https://github.com/SAP/SapMachine)** <kbd>★ 616</kbd> <kbd>GPL-2.0</kbd> 🟢<br>SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0)
+> **[SAP Machine](https://github.com/SAP/SapMachine)** <kbd>★ 617</kbd> <kbd>GPL-2.0</kbd> 🟢<br>SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0)
 
 > **[Which JDK](https://github.com/whichjdk/whichjdk.com)** <kbd>★ 160</kbd> 🟠<br>Overview of common JVMs with pros and cons.
 
@@ -1294,7 +1294,7 @@ _Everything else._
 
 > **[XMLBeam](https://github.com/SvenEwald/xmlbeam)** <kbd>★ 76</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Processes XML by using annotations or XPath within code.
 
-> **[yGuard](https://github.com/yWorks/yGuard)** <kbd>★ 477</kbd> <kbd>MIT</kbd> 🟠<br>Obfuscation via renaming and shrinking.
+> **[yGuard](https://github.com/yWorks/yGuard)** <kbd>★ 478</kbd> <kbd>MIT</kbd> 🟠<br>Obfuscation via renaming and shrinking.
 
 </details>
 
@@ -1486,7 +1486,7 @@ _Java platform as a service._
 
 _Algorithms and libraries for finding routes in graphs and spatial environments._
 
-> **[Pathetic](https://github.com/bsommerfeld/pathetic)** <kbd>★ 373</kbd> <kbd>MIT</kbd> 🟢<br>A highly configurable 3D A\* pathfinding library that uses specific optimizations for high performance.
+> **[Pathetic](https://github.com/bsommerfeld/pathetic)** <kbd>★ 377</kbd> <kbd>MIT</kbd> 🟢<br>A highly configurable 3D A\* pathfinding library that uses specific optimizations for high performance.
 
 </details>
 
@@ -1503,7 +1503,7 @@ _Tools to help with PDF files._
 
 > **[DynamicReports](https://github.com/dynamicreports/dynamicreports)** <kbd>★ 244</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Simplifies JasperReports. (LGPL-3.0-only)
 
-> **[Eclipse BIRT](https://github.com/eclipse-birt/birt)** <kbd>★ 540</kbd> <kbd>EPL-2.0</kbd> 🟢<br>Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor.
+> **[Eclipse BIRT](https://github.com/eclipse-birt/birt)** <kbd>★ 539</kbd> <kbd>EPL-2.0</kbd> 🟢<br>Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor.
 
 > **[flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer)** <kbd>★ 2.2k</kbd> 🟢<br>XML/XHTML and CSS 2.1 renderer. (LGPL-2.1-or-later)
 
@@ -1747,7 +1747,7 @@ _Libraries for scientific computing, analysis and visualization._
 
 > **[Erdos](https://github.com/Erdos-Graph-Framework/Erdos)** <kbd>★ 128</kbd> <kbd>MIT</kbd> 🔴<br>Modular, light and easy graph framework for theoretic algorithms.
 
-> **[GraphStream](https://github.com/graphstream/gs-core)** <kbd>★ 425</kbd> 🔴<br>Library for modeling and analyzing dynamic graphs.
+> **[GraphStream](https://github.com/graphstream/gs-core)** <kbd>★ 426</kbd> 🔴<br>Library for modeling and analyzing dynamic graphs.
 
 > **[JFreeChart](https://github.com/jfree/jfreechart)** <kbd>★ 1.4k</kbd> <kbd>LGPL-2.1</kbd> 🟠<br>2D chart library for Swing, JavaFX and server-side applications. (LGPL-2.1-only)
 
@@ -1977,7 +1977,7 @@ _Provide environments to run tests for a specific use case._
 
 > **[Apache JMeter](https://github.com/apache/jmeter)** <kbd>★ 9.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Functional testing and performance measurements.
 
-> **[Arquillian](https://github.com/arquillian/arquillian-core)** <kbd>★ 388</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Integration and functional testing platform for Java EE containers.
+> **[Arquillian](https://github.com/arquillian/arquillian-core)** <kbd>★ 387</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Integration and functional testing platform for Java EE containers.
 
 > **[BitDive Java Agent](https://github.com/bitDive/java-producer)** <kbd>★ 87</kbd> 🟢<br>Java agent that captures runtime traces, SQL queries and HTTP payloads for BitDive testing.
 
@@ -2017,7 +2017,7 @@ _Libraries that provide custom matchers._
 
 > **[Truth](https://github.com/google/truth)** <kbd>★ 2.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Google's fluent assertion and proposition framework.
 
-> **[XMLUnit](https://github.com/xmlunit/xmlunit)** <kbd>★ 318</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Simplifies testing for XML output.
+> **[XMLUnit](https://github.com/xmlunit/xmlunit)** <kbd>★ 319</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Simplifies testing for XML output.
 
 #### Miscellaneous <kbd>14 projects</kbd>
 
@@ -2133,7 +2133,7 @@ _Libraries which provide general utility functions._
 
 _Utilities that help create the development shell environment and switch between different Java versions._
 
-> **[jabba](https://github.com/Jabba-Team/jabba)** <kbd>★ 305</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Java Version Manager inspired by nvm. Supports macOS, Linux and Windows.
+> **[jabba](https://github.com/Jabba-Team/jabba)** <kbd>★ 306</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Java Version Manager inspired by nvm. Supports macOS, Linux and Windows.
 
 > **[jenv](https://github.com/jenv/jenv)** <kbd>★ 6.6k</kbd> <kbd>MIT</kbd> 🟠<br>Java Version Manager inspired by rbenv. Can configure globally or per project. Tested on Debian and macOS.
 
@@ -2427,7 +2427,7 @@ _Sites to read._
 
 ## Contributing
 
-> **[Suggest a project or resource](https://github.com/akullpp/awesome-java/edit/test/README_SOURCE.md)** · [Contribution guidelines](CONTRIBUTING.md)
+> **[Suggest a project or resource](https://github.com/akullpp/awesome-java/edit/main/README_SOURCE.md)** · [Contribution guidelines](CONTRIBUTING.md)
 >
 > Add one Markdown entry under the appropriate category and open one pull request.<br>
 > Ordering, counts and GitHub statistics are generated automatically.
