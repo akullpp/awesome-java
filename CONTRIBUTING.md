@@ -19,13 +19,14 @@ A project should:
   first-class integration;
 - be noteworthy because it is widely recommended, innovative, unique or fills
   a useful niche;
-- provide English documentation and clearly disclose its license;
-- disclose restrictive, noncommercial or source-available terms in the entry;
+- provide English documentation and clear licensing;
 - have clear pricing and a free tier when commercial.
 
-Known GitHub SPDX licenses appear automatically; do not add license or
-commercial badges manually. Keep descriptions short, factual and distinctive
-from similar entries. Use `Miscellaneous` only when no focused category fits.
+Known GitHub SPDX licenses appear automatically; do not repeat them in
+descriptions or add license or commercial badges manually. If no chip is
+available, disclose restrictive, noncommercial or source-available terms in
+the entry. Keep descriptions short, factual and distinctive from similar
+entries. Use `Miscellaneous` only when no focused category fits.
 
 Search existing entries and issues before submitting. Self-promotion is
 reviewed carefully but is welcome when the project meets the same criteria.

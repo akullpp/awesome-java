@@ -101,7 +101,7 @@ _Libraries to manipulate bytecode programmatically._
 
 > **[Byte Buddy](https://github.com/raphw/byte-buddy)** <kbd>★ 6.9k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Further simplifies bytecode generation with a fluent API.
 
-> **[bytecode-viewer](https://github.com/Konloch/bytecode-viewer)** <kbd>★ 15.6k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Java 8 Jar & Android APK reverse engineering suite. (GPL-3.0-only)
+> **[bytecode-viewer](https://github.com/Konloch/bytecode-viewer)** <kbd>★ 15.6k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Java 8 Jar & Android APK reverse engineering suite.
 
 > **[Byteman](https://github.com/bytemanproject/byteman)** <kbd>★ 513</kbd> 🟢<br>Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting. (LGPL-2.1-or-later)
 
@@ -161,7 +161,7 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 
 > **[Jexer](https://gitlab.com/AutumnMeowMeow/jexer)**<br>Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 
-> **[Lanterna](https://github.com/mabe02/lanterna)** <kbd>★ 2.6k</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Easy console text-GUI library, similar to curses. (LGPL-3.0-only)
+> **[Lanterna](https://github.com/mabe02/lanterna)** <kbd>★ 2.6k</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Easy console text-GUI library, similar to curses.
 
 > **[Text-IO](https://github.com/beryx/text-io)** <kbd>★ 353</kbd> <kbd>Apache-2.0</kbd> 🔴<br>Aids the creation of full console-based applications.
 
@@ -183,7 +183,7 @@ _Libraries to integrate or use cloud-specific features._
 
 _Tools that provide metrics and quality measurements._
 
-> **[Checkstyle](https://github.com/checkstyle/checkstyle)** <kbd>★ 9.0k</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>Static analysis of coding conventions and standards. (LGPL-2.1-or-later)
+> **[Checkstyle](https://github.com/checkstyle/checkstyle)** <kbd>★ 9.0k</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>Static analysis of coding conventions and standards.
 
 > **[Error Prone](https://github.com/google/error-prone)** <kbd>★ 7.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Catches common programming mistakes as compile-time errors.
 
@@ -191,7 +191,7 @@ _Tools that provide metrics and quality measurements._
 
 > **[Infer](https://github.com/facebook/infer)** <kbd>★ 15.7k</kbd> <kbd>MIT</kbd> 🟢<br>Modern static analysis tool for verifying the correctness of code.
 
-> **[jQAssistant](https://github.com/jQAssistant/jqassistant)** <kbd>★ 284</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Static code analysis with Neo4J-based query language. (GPL-3.0-only)
+> **[jQAssistant](https://github.com/jQAssistant/jqassistant)** <kbd>★ 284</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Static code analysis with Neo4J-based query language.
 
 > **[JSpecify](https://github.com/jspecify/jspecify)** <kbd>★ 1.1k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Standardized nullness annotations designed to work uniformly across various Java IDEs, compilers, and static analysis tools.
 
@@ -207,7 +207,7 @@ _Tools that provide metrics and quality measurements._
 
 > **[Spoon](https://github.com/INRIA/spoon)** <kbd>★ 1.9k</kbd> 🟢<br>Library for analyzing and transforming Java source code.
 
-> **[Spotbugs](https://github.com/spotbugs/spotbugs)** <kbd>★ 3.9k</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>Static analysis of bytecode to find potential bugs. (LGPL-2.1-only)
+> **[Spotbugs](https://github.com/spotbugs/spotbugs)** <kbd>★ 3.9k</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>Static analysis of bytecode to find potential bugs.
 
 > **[ToolsHref](https://github.com/toolshref-tools/toolshref-tools)** <kbd>★ 0</kbd> 🟠<br>Online Java code analyzer and JSON-to-Mermaid visualization tool.
 
@@ -218,7 +218,7 @@ _Tools that provide metrics and quality measurements._
 
 _Frameworks and tools that enable code coverage metrics collection for test suites._
 
-> **[Cobertura](https://github.com/cobertura/cobertura)** <kbd>★ 1.1k</kbd> <kbd>GPL-2.0</kbd> 🔴<br>Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics. (GPL-2.0-only)
+> **[Cobertura](https://github.com/cobertura/cobertura)** <kbd>★ 1.1k</kbd> <kbd>GPL-2.0</kbd> 🔴<br>Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics.
 
 > **[Delta Coverage](https://github.com/gw-kit/delta-coverage-plugin)** <kbd>★ 40</kbd> <kbd>MIT</kbd> 🟢<br>Computes code coverage of new and modified code based on a provided diff, supporting JaCoCo and IntelliJ coverage engines.
 
@@ -431,7 +431,7 @@ _Everything that simplifies interactions with the database._
 
 > **[druid](https://github.com/apache/druid)** <kbd>★ 14.0k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>High-performance, column-oriented, distributed data store.
 
-> **[eXist](https://github.com/eXist-db/exist)** <kbd>★ 466</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>NoSQL document database and application platform. (LGPL-2.1-only)
+> **[eXist](https://github.com/eXist-db/exist)** <kbd>★ 466</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>NoSQL document database and application platform.
 
 > **[FlexyPool](https://github.com/vladmihalcea/flexy-pool)** <kbd>★ 1.2k</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Brings metrics and failover strategies to the most common connection pooling solutions.
 
@@ -508,7 +508,7 @@ _Libraries related to handling date and time._
 
 > **[ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra)** <kbd>★ 423</kbd> <kbd>BSD-3-Clause</kbd> 🟢<br>Additional date-time classes that complement those in JDK 8.
 
-> **[Time4J](https://github.com/MenoData/Time4J)** <kbd>★ 470</kbd> <kbd>LGPL-2.1</kbd> 🔴<br>Advanced date and time library. (LGPL-2.1-only)
+> **[Time4J](https://github.com/MenoData/Time4J)** <kbd>★ 470</kbd> <kbd>LGPL-2.1</kbd> 🔴<br>Advanced date and time library.
 
 </details>
 
@@ -576,7 +576,7 @@ _Augmentation of the development process at a fundamental level._
 
 > **[Faux Pas](https://github.com/zalando/faux-pas)** <kbd>★ 143</kbd> <kbd>MIT</kbd> 🔴<br>Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions.
 
-> **[HotswapAgent](https://github.com/HotswapProjects/HotswapAgent)** <kbd>★ 2.6k</kbd> <kbd>GPL-2.0</kbd> 🟠<br>Unlimited runtime class and resource redefinition. (GPL-2.0-only)
+> **[HotswapAgent](https://github.com/HotswapProjects/HotswapAgent)** <kbd>★ 2.6k</kbd> <kbd>GPL-2.0</kbd> 🟠<br>Unlimited runtime class and resource redefinition.
 
 > **[JavaParser](https://github.com/javaparser/javaparser)** <kbd>★ 6.1k</kbd> 🟢<br>Parse, modify and generate Java code.
 
@@ -605,7 +605,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
 
 > **[Axon](https://github.com/AxonIQ/AxonFramework)** <kbd>★ 3.6k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Framework for creating CQRS applications.
 
-> **[Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker)** <kbd>★ 46</kbd> <kbd>GPL-2.0</kbd> 🟠<br>Circuit breaker design pattern for Dropwizard. (GPL-2.0-only)
+> **[Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker)** <kbd>★ 46</kbd> <kbd>GPL-2.0</kbd> 🟠<br>Circuit breaker design pattern for Dropwizard.
 
 > **[Failsafe](https://github.com/jhalterman/failsafe)** <kbd>★ 4.3k</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Simple failure handling with retries and circuit breakers.
 
@@ -634,7 +634,7 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
 
 > **[Bitronix](https://github.com/bitronix/btm)** <kbd>★ 431</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Simple but complete implementation of the JTA 1.1 API.
 
-> **[Narayana](https://github.com/jbosstm/narayana)** <kbd>★ 265</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards. (LGPL-2.1-only)
+> **[Narayana](https://github.com/jbosstm/narayana)** <kbd>★ 265</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards.
 
 > **[Seata](https://github.com/seata/seata)** <kbd>★ 26.0k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Delivers high performance and easy to use distributed transaction services under a microservices architecture.
 
@@ -814,15 +814,15 @@ _Libraries for working with geospatial data and algorithms._
 
 > **[Geo](https://github.com/davidmoten/geo)** <kbd>★ 434</kbd> <kbd>Apache-2.0</kbd> 🟢<br>GeoHash utilities in Java.
 
-> **[GeoTools](https://github.com/geotools/geotools)** <kbd>★ 1.9k</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>Library that provides tools for geospatial data. (LGPL-2.1-only)
+> **[GeoTools](https://github.com/geotools/geotools)** <kbd>★ 1.9k</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>Library that provides tools for geospatial data.
 
 > **[GraphHopper](https://github.com/graphhopper/graphhopper)** <kbd>★ 6.6k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Road-routing engine. Used as a Java library or standalone web service.
 
-> **[H2GIS](https://github.com/orbisgis/h2gis)** <kbd>★ 220</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Spatial extension of the H2 database. (LGPL-3.0-only)
+> **[H2GIS](https://github.com/orbisgis/h2gis)** <kbd>★ 220</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Spatial extension of the H2 database.
 
 > **[Jgeohash](https://github.com/astrapi69/jgeohash)** <kbd>★ 68</kbd> <kbd>Apache-2.0</kbd> 🔴<br>Library for using the GeoHash algorithm.
 
-> **[Mapsforge](https://github.com/mapsforge/mapsforge)** <kbd>★ 1.4k</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Map rendering based on OpenStreetMap data. (LGPL-3.0-only)
+> **[Mapsforge](https://github.com/mapsforge/mapsforge)** <kbd>★ 1.4k</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Map rendering based on OpenStreetMap data.
 
 > **[Spatial4j](https://github.com/locationtech/spatial4j)** <kbd>★ 962</kbd> 🟢<br>General-purpose spatial/geospatial library.
 
@@ -1050,13 +1050,13 @@ _Current implementations of the JVM/JDK._
 
 > **[Microsoft JDK](https://github.com/microsoft/openjdk)** <kbd>★ 342</kbd> <kbd>MIT</kbd> 🟢<br>Microsoft Build of OpenJDK, Free, Open Source, Freshly Brewed!
 
-> **[Open JDK](https://github.com/openjdk/jdk)** <kbd>★ 23.2k</kbd> <kbd>GPL-2.0</kbd> 🟢<br>Open JDK community home. (GPL-2.0-only WITH Classpath-exception-2.0)
+> **[Open JDK](https://github.com/openjdk/jdk)** <kbd>★ 23.2k</kbd> <kbd>GPL-2.0</kbd> 🟢<br>Open JDK community home.
 
 > **[OpenJ9](https://github.com/eclipse/openj9)** <kbd>★ 3.5k</kbd> 🟢<br>High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project.
 
 > **[RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview)**<br>RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0)
 
-> **[SAP Machine](https://github.com/SAP/SapMachine)** <kbd>★ 617</kbd> <kbd>GPL-2.0</kbd> 🟢<br>SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0)
+> **[SAP Machine](https://github.com/SAP/SapMachine)** <kbd>★ 616</kbd> <kbd>GPL-2.0</kbd> 🟢<br>SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork.
 
 > **[Which JDK](https://github.com/whichjdk/whichjdk.com)** <kbd>★ 160</kbd> 🟠<br>Overview of common JVMs with pros and cons.
 
@@ -1112,7 +1112,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 
 > **[Intelligent java](https://github.com/Barqawiz/IntelliJava)** <kbd>★ 64</kbd> <kbd>Apache-2.0</kbd> 🔴<br>Seamlessly integrate with remote deep learning and language models programmatically.
 
-> **[JSAT](https://github.com/EdwardRaff/JSAT)** <kbd>★ 794</kbd> <kbd>GPL-3.0</kbd> 🔴<br>Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only)
+> **[JSAT](https://github.com/EdwardRaff/JSAT)** <kbd>★ 794</kbd> <kbd>GPL-3.0</kbd> 🔴<br>Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution.
 
 > **[m2cgen](https://github.com/BayesWitnesses/m2cgen)** <kbd>★ 3.0k</kbd> <kbd>MIT</kbd> 🔴<br>CLI tool to transpile models into native code.
 
@@ -1128,7 +1128,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 
 > **[Tribuo](https://github.com/oracle/tribuo)** <kbd>★ 1.4k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Provides tools for classification, regression, clustering, model development and interfaces with other libraries such as scikit-learn, pytorch and TensorFlow.
 
-> **[Weka](https://github.com/Waikato/weka)** <kbd>★ 34</kbd> <kbd>GPL-3.0</kbd> 🔴<br>Collection of algorithms for data mining tasks ranging from pre-processing to visualization. (GPL-3.0-only)
+> **[Weka](https://github.com/Waikato/weka)** <kbd>★ 34</kbd> <kbd>GPL-3.0</kbd> 🔴<br>Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 </details>
 
@@ -1223,7 +1223,7 @@ _Everything else._
 
 > **[JBang](https://github.com/jbangdev/jbang)** <kbd>★ 1.8k</kbd> <kbd>MIT</kbd> 🟢<br>JBang makes it easy to use Java for scripting. It lets you use a single file for code and dependency management and allows you to run it directly.
 
-> **[JBot](https://github.com/rampatra/jbot)** <kbd>★ 1.2k</kbd> <kbd>GPL-3.0</kbd> 🟠<br>Framework for building chatbots. (GPL-3.0-only)
+> **[JBot](https://github.com/rampatra/jbot)** <kbd>★ 1.2k</kbd> <kbd>GPL-3.0</kbd> 🟠<br>Framework for building chatbots.
 
 > **[JCuda](https://github.com/jcuda/jcuda)** <kbd>★ 266</kbd> <kbd>MIT</kbd> 🔴<br>JCuda offers Java bindings for CUDA and CUDA-related libraries.
 
@@ -1373,7 +1373,7 @@ _Libraries that specialize in processing text._
 
 > **[CogCompNLP](https://github.com/CogComp/cogcomp-nlp)** <kbd>★ 479</kbd> 🔴<br>Provides common annotators for plain text input. (Research and Academic Use License)
 
-> **[CoreNLP](https://github.com/stanfordnlp/CoreNLP)** <kbd>★ 10.1k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. (GPL-3.0-or-later)
+> **[CoreNLP](https://github.com/stanfordnlp/CoreNLP)** <kbd>★ 10.1k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis.
 
 > **[DKPro](https://github.com/dkpro/dkpro-core)** <kbd>★ 204</kbd> 🟢<br>Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
 
@@ -1416,9 +1416,9 @@ _Libraries for building network servers._
 
 > **[TLS Channel](https://github.com/marianobarrios/tls-channel)** <kbd>★ 209</kbd> <kbd>MIT</kbd> 🟠<br>Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.
 
-> **[Undertow](https://github.com/undertow-io/undertow)** <kbd>★ 3.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly. (LGPL-2.1-only)
+> **[Undertow](https://github.com/undertow-io/undertow)** <kbd>★ 3.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly.
 
-> **[urnlib](https://github.com/slub/urnlib)** <kbd>★ 36</kbd> <kbd>GPL-3.0</kbd> 🟠<br>Represent, parse and encode URNs, as in RFC 2141. (GPL-3.0-only)
+> **[urnlib](https://github.com/slub/urnlib)** <kbd>★ 36</kbd> <kbd>GPL-3.0</kbd> 🟠<br>Represent, parse and encode URNs, as in RFC 2141.
 
 </details>
 
@@ -1435,7 +1435,7 @@ _APIs that handle the persistence of objects._
 
 > **[EclipseLink](https://github.com/eclipse-ee4j/eclipselink)** <kbd>★ 242</kbd> 🟢<br>Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 
-> **[Hibernate](https://github.com/hibernate/hibernate-orm)** <kbd>★ 6.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Robust and widely used, with an active community. (LGPL-2.1-only)
+> **[Hibernate](https://github.com/hibernate/hibernate-orm)** <kbd>★ 6.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Robust and widely used, with an active community.
 
 > **[MyBatis](https://github.com/mybatis/mybatis-3)** <kbd>★ 20.4k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Couples objects with stored procedures or SQL statements.
 
@@ -1488,9 +1488,9 @@ _Tools to help with PDF files._
 
 > **[Apache PDFBox](https://github.com/apache/pdfbox)** <kbd>★ 3.1k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Toolbox for creating and manipulating PDFs.
 
-> **[Dynamic Jasper](https://github.com/intive-FDV/DynamicJasper)** <kbd>★ 258</kbd> <kbd>LGPL-3.0</kbd> 🔴<br>Abstraction layer to JasperReports. (LGPL-3.0-only)
+> **[Dynamic Jasper](https://github.com/intive-FDV/DynamicJasper)** <kbd>★ 258</kbd> <kbd>LGPL-3.0</kbd> 🔴<br>Abstraction layer to JasperReports.
 
-> **[DynamicReports](https://github.com/dynamicreports/dynamicreports)** <kbd>★ 244</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Simplifies JasperReports. (LGPL-3.0-only)
+> **[DynamicReports](https://github.com/dynamicreports/dynamicreports)** <kbd>★ 244</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Simplifies JasperReports.
 
 > **[Eclipse BIRT](https://github.com/eclipse-birt/birt)** <kbd>★ 539</kbd> <kbd>EPL-2.0</kbd> 🟢<br>Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor.
 
@@ -1500,7 +1500,7 @@ _Tools to help with PDF files._
 
 > **[iText](https://github.com/itext/itext-java)** <kbd>★ 2.3k</kbd> 🟢<br>Creates PDF files programmatically.
 
-> **[JasperReports](https://github.com/Jaspersoft/jasperreports)** <kbd>★ 1.4k</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Complex reporting engine. (LGPL-3.0-only)
+> **[JasperReports](https://github.com/Jaspersoft/jasperreports)** <kbd>★ 1.4k</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Complex reporting engine.
 
 > **[jquick-pdf](https://github.com/paohaijiao/jquick-pdf)** <kbd>★ 225</kbd> 🟢<br>Generates PDFs from HTML-like templates and ECharts-style charts using iText 7, without a browser dependency.
 
@@ -1531,7 +1531,7 @@ _Tools for performance analysis, profiling and benchmarking._
 
 > **[JITWatch](https://github.com/AdoptOpenJDK/jitwatch)** <kbd>★ 3.3k</kbd> 🟠<br>Analyze the JIT compiler optimisations made by the HotSpot JVM.
 
-> **[JMH](https://github.com/openjdk/jmh)** <kbd>★ 2.7k</kbd> <kbd>GPL-2.0</kbd> 🟢<br>Harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM. (GPL-2.0 only WITH Classpath-exception-2.0)
+> **[JMH](https://github.com/openjdk/jmh)** <kbd>★ 2.7k</kbd> <kbd>GPL-2.0</kbd> 🟢<br>Harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
 
 > **[JVM Hotpath](https://github.com/sfkamath/jvm-hotpath)** <kbd>★ 10</kbd> <kbd>MIT</kbd> 🟠<br>Java agent for line-level execution frequency analysis to identify algorithmic bottlenecks.
 
@@ -1738,7 +1738,7 @@ _Libraries for scientific computing, analysis and visualization._
 
 > **[GraphStream](https://github.com/graphstream/gs-core)** <kbd>★ 426</kbd> 🔴<br>Library for modeling and analyzing dynamic graphs.
 
-> **[JFreeChart](https://github.com/jfree/jfreechart)** <kbd>★ 1.4k</kbd> <kbd>LGPL-2.1</kbd> 🟠<br>2D chart library for Swing, JavaFX and server-side applications. (LGPL-2.1-only)
+> **[JFreeChart](https://github.com/jfree/jfreechart)** <kbd>★ 1.4k</kbd> <kbd>LGPL-2.1</kbd> 🟠<br>2D chart library for Swing, JavaFX and server-side applications.
 
 > **[JGraphT](https://github.com/jgrapht/jgrapht)** <kbd>★ 2.8k</kbd> <kbd>EPL-2.0</kbd> 🟢<br>Graph library that provides mathematical graph-theory objects and algorithms.
 
@@ -1752,7 +1752,7 @@ _Libraries for scientific computing, analysis and visualization._
 
 > **[Orekit](https://github.com/CS-SI/Orekit)** <kbd>★ 285</kbd> <kbd>Apache-2.0</kbd> 🟢<br>A low level space flight dynamics library providing basic elements (orbits, dates, attitude, frames...) and various algorithms (conversions, propagations, pointing...) to handle them.
 
-> **[Orson-Charts](https://github.com/jfree/orson-charts)** <kbd>★ 121</kbd> <kbd>GPL-3.0</kbd> 🔴<br>Generates a wide variety of 3D charts that can be displayed with Swing and JavaFX or exported to PDF, SVG, PNG and JPEG. (GPL-3.0-only)
+> **[Orson-Charts](https://github.com/jfree/orson-charts)** <kbd>★ 121</kbd> <kbd>GPL-3.0</kbd> 🔴<br>Generates a wide variety of 3D charts that can be displayed with Swing and JavaFX or exported to PDF, SVG, PNG and JPEG.
 
 > **[Tablesaw](https://github.com/jtablesaw/tablesaw)** <kbd>★ 3.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Includes a data-frame, an embedded column store, and hundreds of methods to transform, summarize, or filter data.
 
@@ -1790,7 +1790,7 @@ _Libraries that handle security, authentication, authorization or session manage
 
 > **[Certificate Ripper](https://github.com/Hakky54/certificate-ripper)** <kbd>★ 920</kbd> <kbd>Apache-2.0</kbd> 🟢<br>CLI tool and library for extracting and exporting server certificates from HTTPS endpoints.
 
-> **[Cryptomator](https://github.com/cryptomator/cryptomator)** <kbd>★ 15.8k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Multiplatform, transparent, client-side encryption of files in the cloud. (GPL-3.0-only)
+> **[Cryptomator](https://github.com/cryptomator/cryptomator)** <kbd>★ 15.8k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Multiplatform, transparent, client-side encryption of files in the cloud.
 
 > **[Hdiv](https://github.com/hdiv/hdiv)** <kbd>★ 219</kbd> 🔴<br>Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.
 
@@ -1860,7 +1860,7 @@ _Servers specifically used to deploy applications._
 
 > **[nanohttpd](https://github.com/NanoHttpd/nanohttpd)** <kbd>★ 7.2k</kbd> <kbd>BSD-3-Clause</kbd> 🔴<br>Tiny, easily embeddable HTTP server.
 
-> **[WildFly](https://github.com/wildfly/wildfly)** <kbd>★ 3.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Formerly known as JBoss and developed by Red Hat with extensive Java EE support. (LGPL-2.1-only)
+> **[WildFly](https://github.com/wildfly/wildfly)** <kbd>★ 3.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
 
 </details>
 
@@ -1906,7 +1906,7 @@ _Tools that simplify testing asynchronous services._
 
 > **[ConcurrentUnit](https://github.com/jhalterman/concurrentunit)** <kbd>★ 419</kbd> <kbd>Apache-2.0</kbd> 🔴<br>Toolkit for testing multi-threaded and asynchronous applications.
 
-> **[GreenMail](https://github.com/greenmail-mail-test/greenmail)** <kbd>★ 740</kbd> <kbd>Apache-2.0</kbd> 🟢<br>In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. (GPL-2.0-only)
+> **[GreenMail](https://github.com/greenmail-mail-test/greenmail)** <kbd>★ 740</kbd> <kbd>Apache-2.0</kbd> 🟢<br>In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 
 > **[Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java)** <kbd>★ 176</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.
 
@@ -2026,7 +2026,7 @@ _Other stuff related to testing._
 
 > **[Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector)** <kbd>★ 246</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Reports whether instances of a given class are immutable.
 
-> **[pojo-tester](https://github.com/sta-szek/pojo-tester)** <kbd>★ 52</kbd> <kbd>LGPL-3.0</kbd> 🔴<br>Automatically performs tests on basic POJO methods. (LGPL-3.0-only)
+> **[pojo-tester](https://github.com/sta-szek/pojo-tester)** <kbd>★ 52</kbd> <kbd>LGPL-3.0</kbd> 🔴<br>Automatically performs tests on basic POJO methods.
 
 > **[raml-tester](https://github.com/nidi3/raml-tester)** <kbd>★ 74</kbd> <kbd>Apache-2.0</kbd> 🔴<br>Tests if a request/response matches a given RAML definition.
 
@@ -2083,7 +2083,7 @@ _Libraries which provide general utility functions._
 
 > **[fswatch](https://github.com/vorburger/ch.vorburger.fswatch)** <kbd>★ 33</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Micro library to watch for directory file system changes, simplifying java.nio.file.WatchService.
 
-> **[Gephi](https://github.com/gephi/gephi)** <kbd>★ 6.6k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Cross-platform for visualizing and manipulating large graph networks. (GPL-3.0-only)
+> **[Gephi](https://github.com/gephi/gephi)** <kbd>★ 6.6k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Cross-platform for visualizing and manipulating large graph networks.
 
 > **[Guava](https://github.com/google/guava)** <kbd>★ 51.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and more.
 
