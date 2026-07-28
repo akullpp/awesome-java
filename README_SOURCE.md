@@ -148,6 +148,7 @@ _Tools that provide metrics and quality measurements._
 - [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports whether instances of a given class are immutable.
 - [NullAway](https://github.com/uber/NullAway) - Eliminates NullPointerExceptions with low build-time overhead.
 - [OpenRewrite](https://github.com/openrewrite/rewrite) - Automates large-scale source-code refactoring through reusable recipes.
+- [OpenTaint](https://github.com/seqra/opentaint) - Interprocedural taint analyzer for Java and Spring applications with reusable security rules and dependency models.
 - [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 - [RefactorFirst](https://github.com/jimbethancourt/RefactorFirst) - Identifies and prioritizes God Classes and Highly Coupled classes.
 - [SonarJava](https://github.com/SonarSource/sonar-java) - Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
@@ -1047,12 +1048,6 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Topaz](https://github.com/aserto-dev/topaz) - Fine-grained authorization for applications with support for RBAC, ABAC, and ReBAC.
 - [WebAuthn4J](https://github.com/webauthn4j/webauthn4j) - Server-side WebAuthn and passkey verification library.
 - [MOSS](https://github.com/mosscomputing/moss-java) - Cryptographic signing for AI agents using ML-DSA-44 post-quantum signatures, creating audit trails for attribution and compliance.
-
-### Security Analysis
-
-_Tools that scan source or bytecode to find security vulnerabilities._
-
-- [OpenTaint](https://github.com/seqra/opentaint) - An open-source taint-analysis engine that lets AI agents turn security-review findings into reusable taint rules and dependency summaries. Because the engine reuses these rules during search instead of repeating the agents' expensive learning work, later scans become fast, deterministic, precise, and thorough.
 
 ### Serialization
 
