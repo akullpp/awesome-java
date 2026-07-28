@@ -4,7 +4,7 @@
 
 A curated list of noteworthy Java frameworks, libraries, tools and resources.
 
-<sub>809 projects · 80 categories · 85 resources</sub>
+<sub>810 projects · 80 categories · 85 resources</sub>
 
 <sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months</sub>
 
@@ -226,7 +226,7 @@ _Libraries to integrate or use cloud-specific features._
 </details>
 
 <details id="code-analysis">
-<summary><strong>Code Analysis</strong> <kbd>15 projects</kbd></summary>
+<summary><strong>Code Analysis</strong> <kbd>16 projects</kbd></summary>
 
 _Tools that provide metrics and quality measurements._
 
@@ -247,6 +247,8 @@ _Tools that provide metrics and quality measurements._
 > **[NullAway](https://github.com/uber/NullAway)** <kbd>★ 4.1k</kbd> <kbd>MIT</kbd> 🟢<br>Eliminates NullPointerExceptions with low build-time overhead.
 
 > **[OpenRewrite](https://github.com/openrewrite/rewrite)** <kbd>★ 3.6k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Automates large-scale source-code refactoring through reusable recipes.
+
+> **[OpenTaint](https://github.com/seqra/opentaint)** <kbd>★ 121</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Interprocedural taint analyzer for Java and Spring applications with reusable security rules and dependency models.
 
 > **[PMD](https://github.com/pmd/pmd)** <kbd>★ 5.5k</kbd> 🟢<br>Source code analysis for finding bad coding practices.
 
