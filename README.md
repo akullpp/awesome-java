@@ -4,7 +4,7 @@
 
 A curated list of noteworthy Java frameworks, libraries, tools and resources.
 
-<sub>800 projects · 80 categories · 85 resources</sub>
+<sub>809 projects · 80 categories · 85 resources</sub>
 
 <sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months</sub>
 
@@ -15,7 +15,7 @@ A curated list of noteworthy Java frameworks, libraries, tools and resources.
 ## Projects
 
 <details id="architecture">
-<summary><strong>Architecture</strong> <kbd>3 projects</kbd></summary>
+<summary><strong>Architecture</strong> <kbd>4 projects</kbd></summary>
 
 _Frameworks and libraries that help implementing and verifying design and architecture concepts._
 
@@ -24,6 +24,8 @@ _Frameworks and libraries that help implementing and verifying design and archit
 > **[jMolecules](https://github.com/xmolecules/jmolecules)** <kbd>★ 1.5k</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Annotations and interfaces to express design and architecture concepts in code.
 
 > **[jQAssistant](https://github.com/jQAssistant/jqassistant)** <kbd>★ 284</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Static code analysis with Neo4J-based query language.
+
+> **[Taikai](https://github.com/enofex/taikai)** <kbd>★ 244</kbd> <kbd>MIT</kbd> 🟢<br>ArchUnit extension with predefined architecture rules for common Java technologies.
 
 </details>
 
@@ -86,7 +88,7 @@ _Libraries and frameworks for building chatbots and messaging-platform bots._
 
 > **[JBot](https://github.com/rampatra/jbot)** <kbd>★ 1.2k</kbd> <kbd>GPL-3.0</kbd> 🟠<br>Framework for building chatbots.
 
-> **[JDA](https://github.com/DV8FromTheWorld/JDA)** <kbd>★ 4.7k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Wrapping of the Discord REST API and its WebSocket events.
+> **[JDA](https://github.com/discord-jda/JDA)** <kbd>★ 4.7k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Wrapping of the Discord REST API and its WebSocket events.
 
 > **[Nyagram](https://github.com/kaleert/nyagram)** <kbd>★ 8</kbd> <kbd>MIT</kbd> 🟢<br>Reactive, type-safe framework for Telegram bots based on Spring Boot 3 and Java 21.
 
@@ -209,7 +211,7 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 
 _Libraries to integrate or use cloud-specific features._
 
-> **[AWS SDK for Java](https://github.com/aws/aws-sdk-java)** <kbd>★ 4.2k</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Provides Java APIs for interacting with Amazon Web Services.
+> **[AWS SDK for Java 2.x](https://github.com/aws/aws-sdk-java-v2)** <kbd>★ 2.6k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Official Java APIs for interacting with Amazon Web Services.
 
 > **[Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java)** <kbd>★ 2.1k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Client libraries for accessing Google Cloud services from Java applications.
 
@@ -386,7 +388,7 @@ _Libraries that provide external configuration._
 
 > **[NightConfig](https://github.com/TheElectronWill/night-config)** <kbd>★ 283</kbd> <kbd>LGPL-3.0</kbd> 🟢<br>Configuration library supporting TOML, YAML, HOCON, JSON and in-memory formats.
 
-> **[owner](https://github.com/lviggiano/owner)** <kbd>★ 939</kbd> <kbd>BSD-3-Clause</kbd> 🟢<br>Reduces boilerplate of properties.
+> **[owner](https://github.com/matteobaccan/owner)** <kbd>★ 939</kbd> <kbd>BSD-3-Clause</kbd> 🟢<br>Reduces boilerplate of properties.
 
 > **[sealed-env](https://github.com/davidalmeidac/sealed-env)** <kbd>★ 9</kbd> <kbd>MIT</kbd> 🟢<br>Encrypts environment files with a shared Node.js and Java/Spring Boot format plus optional TOTP unsealing.
 
@@ -698,7 +700,7 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
 
 > **[Narayana](https://github.com/jbosstm/narayana)** <kbd>★ 265</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards.
 
-> **[Seata](https://github.com/seata/seata)** <kbd>★ 26.0k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Delivers high performance and easy to use distributed transaction services under a microservices architecture.
+> **[Seata](https://github.com/apache/incubator-seata)** <kbd>★ 26.0k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Delivers high performance and easy to use distributed transaction services under a microservices architecture.
 
 </details>
 
@@ -719,7 +721,7 @@ _Tools that handle the distribution of applications in native formats._
 
 > **[IzPack](https://github.com/izpack/izpack)** <kbd>★ 352</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Setup authoring tool for cross-platform deployments.
 
-> **[JavaPackager](https://github.com/fvarrui/JavaPackager)** <kbd>★ 1.2k</kbd> <kbd>GPL-3.0</kbd> 🟠<br>Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them.
+> **[JavaPackager](https://github.com/javapackager/JavaPackager)** <kbd>★ 1.2k</kbd> <kbd>GPL-3.0</kbd> 🟠<br>Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them.
 
 > **[jDeploy](https://github.com/shannah/jdeploy)** <kbd>★ 414</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Deploy desktop apps as native Mac, Windows or Linux bundles.
 
@@ -755,26 +757,32 @@ _Libraries that assist with processing office document formats._
 </details>
 
 <details id="feature-flags">
-<summary><strong>Feature Flags</strong> <kbd>3 projects</kbd></summary>
+<summary><strong>Feature Flags</strong> <kbd>5 projects</kbd></summary>
 
 _Libraries and SDKs for evaluating and managing feature flags._
 
 > **[FF4J](https://github.com/ff4j/ff4j)** <kbd>★ 1.4k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Feature Flags for Java.
 
+> **[OpenFeature Java SDK](https://github.com/open-feature/java-sdk)** <kbd>★ 126</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Vendor-neutral API for evaluating feature flags in Java applications.
+
 > **[Rollgate Java SDK](https://github.com/rollgate/sdks/tree/main/packages/sdk-java)** <kbd>★ 3</kbd> <kbd>MIT</kbd> 🟢<br>Java SDK for evaluating Rollgate feature flags with real-time configuration updates.
 
 > **[Togglz](https://github.com/togglz/togglz)** <kbd>★ 1.0k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Implementation of the Feature Toggles pattern.
 
+> **[Unleash Java SDK](https://github.com/Unleash/unleash-java-sdk)** <kbd>★ 137</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Java client SDK for the Unleash feature management platform.
+
 </details>
 
 <details id="financial">
-<summary><strong>Financial</strong> <kbd>7 projects</kbd></summary>
+<summary><strong>Financial</strong> <kbd>8 projects</kbd></summary>
 
 _Libraries related to the financial domain._
 
 > **[Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot)** <kbd>★ 659</kbd> <kbd>GPL-3.0</kbd> 🔴<br>Trading bot framework.
 
 > **[Joda-Money](https://github.com/JodaOrg/joda-money)** <kbd>★ 679</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Basic currency and money classes and algorithms not provided by the JDK.
+
+> **[OpenGamma Strata](https://github.com/OpenGamma/Strata)** <kbd>★ 952</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Analytics and market risk library for financial products.
 
 > **[Philadelphia](https://github.com/paritytrading/philadelphia)** <kbd>★ 344</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Low-latency financial information exchange.
 
@@ -925,11 +933,11 @@ _Libraries to create modern graphical user interfaces._
 
 _Everything about high-performance computation, from collections to specific libraries._
 
-> **[Agrona](https://github.com/real-logic/Agrona)** <kbd>★ 3.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Data structures and utility methods that are common in high-performance applications.
+> **[Agrona](https://github.com/aeron-io/agrona)** <kbd>★ 3.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Data structures and utility methods that are common in high-performance applications.
 
 > **[Disruptor](https://github.com/LMAX-Exchange/disruptor)** <kbd>★ 18.4k</kbd> <kbd>Apache-2.0</kbd> 🔴<br>Inter-thread messaging library.
 
-> **[Eclipse Collections](https://github.com/eclipse/eclipse-collections)** <kbd>★ 2.6k</kbd> 🟢<br>Collections framework inspired by Smalltalk.
+> **[Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections)** <kbd>★ 2.6k</kbd> 🟢<br>Collections framework inspired by Smalltalk.
 
 > **[fastutil](https://github.com/vigna/fastutil)** <kbd>★ 2.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Fast and compact type-specific collections.
 
@@ -944,7 +952,7 @@ _Everything about high-performance computation, from collections to specific lib
 </details>
 
 <details id="http-clients">
-<summary><strong>HTTP Clients</strong> <kbd>10 projects</kbd></summary>
+<summary><strong>HTTP Clients</strong> <kbd>11 projects</kbd></summary>
 
 _Libraries that assist with creating HTTP requests and/or binding responses._
 
@@ -956,9 +964,11 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 
 > **[Google HTTP Client](https://github.com/googleapis/google-http-java-client)** <kbd>★ 1.4k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.
 
-> **[JQuickCurl](https://github.com/paohaijiao/jquick-curl)** <kbd>★ 1.1k</kbd> 🟢<br>Executes HTTP requests from cURL syntax through annotations, XML configuration and dynamic proxy clients.
+> **[JQuickCurl](https://github.com/paohaijiao-jquick/jquick-curl)** <kbd>★ 1.1k</kbd> 🟢<br>Executes HTTP requests from cURL syntax through annotations, XML configuration and dynamic proxy clients.
 
 > **[methanol](https://github.com/mizosoft/methanol)** <kbd>★ 298</kbd> <kbd>MIT</kbd> 🟠<br>HTTP client extensions library.
+
+> **[OkHttp](https://github.com/lysine-dev/okhttp)** <kbd>★ 47.0k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>HTTP client for the JVM, Android and GraalVM.
 
 > **[Retrofit](https://github.com/lysine-dev/retrofit)** <kbd>★ 43.9k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Typesafe REST client.
 
@@ -1094,11 +1104,11 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
 
 _Current implementations of the JVM/JDK._
 
-> **[Adopt Open JDK](https://adoptopenjdk.net)**<br>Community-driven OpenJDK builds, including both HotSpot and OpenJ9.
-
 > **[Corretto](https://aws.amazon.com/corretto/)**<br>No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon. (GPL-2.0-only WITH Classpath-exception-2.0)
 
 > **[Dragonwell8](https://github.com/alibaba/dragonwell8)** <kbd>★ 4.3k</kbd> <kbd>GPL-2.0</kbd> 🟢<br>Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications.
+
+> **[Eclipse Temurin](https://github.com/adoptium/temurin-build)** <kbd>★ 1.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>OpenJDK distribution from the Eclipse Adoptium project.
 
 > **[Graal](https://github.com/oracle/graal)** <kbd>★ 21.7k</kbd> 🟢<br>Polyglot embeddable JVM. (GPL-2.0-only WITH Classpath-exception-2.0)
 
@@ -1185,7 +1195,7 @@ _Tools that provide specific statistical algorithms for learning from data._
 
 _Tools that help send messages between clients to ensure protocol independency._
 
-> **[Aeron](https://github.com/real-logic/Aeron)** <kbd>★ 8.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Efficient, reliable, unicast and multicast message transport.
+> **[Aeron](https://github.com/aeron-io/aeron)** <kbd>★ 8.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Efficient, reliable, unicast and multicast message transport.
 
 > **[Apache ActiveMQ](https://github.com/apache/activemq)** <kbd>★ 2.4k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Message broker that implements JMS and converts synchronous to asynchronous communication.
 
@@ -1199,7 +1209,7 @@ _Tools that help send messages between clients to ensure protocol independency._
 
 > **[Apache RocketMQ](https://github.com/apache/rocketmq)** <kbd>★ 22.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Fast, reliable, and scalable distributed messaging platform.
 
-> **[AutoMQ](https://github.com/AutoMQ/automq-for-kafka)** <kbd>★ 10.3k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective.
+> **[AutoMQ](https://github.com/AutoMQ/automq)** <kbd>★ 10.3k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective.
 
 > **[CloudEvents Java SDK](https://github.com/cloudevents/sdk-java)** <kbd>★ 442</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Java SDK for creating, serializing and transporting CloudEvents.
 
@@ -1262,11 +1272,13 @@ _Everything else._
 </details>
 
 <details id="mobile-development">
-<summary><strong>Mobile Development</strong> <kbd>3 projects</kbd></summary>
+<summary><strong>Mobile Development</strong> <kbd>4 projects</kbd></summary>
 
 _Tools for creating or managing mobile applications._
 
 > **[Codename One](https://github.com/codenameone/CodenameOne)** <kbd>★ 1.9k</kbd> 🟢<br>Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0)
+
+> **[Gluon Substrate](https://github.com/gluonhq/substrate)** <kbd>★ 444</kbd> <kbd>GPL-2.0</kbd> 🟢<br>Builds native JavaFX applications for desktop, mobile and embedded targets.
 
 > **[MobileUI](https://github.com/MobileUI/mobileui)** <kbd>★ 13</kbd> <kbd>MIT</kbd> 🔴<br>Cross-platform framework for developing mobile apps with native UI in Java and Kotlin.
 
@@ -1343,9 +1355,11 @@ _For working with platform-specific native libraries._
 </details>
 
 <details id="natural-language-processing">
-<summary><strong>Natural Language Processing</strong> <kbd>4 projects</kbd></summary>
+<summary><strong>Natural Language Processing</strong> <kbd>5 projects</kbd></summary>
 
 _Libraries that specialize in processing text._
+
+> **[Apache OpenNLP](https://github.com/apache/opennlp)** <kbd>★ 1.6k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Toolkit for machine-learning-based natural language processing.
 
 > **[CoreNLP](https://github.com/stanfordnlp/CoreNLP)** <kbd>★ 10.1k</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis.
 
@@ -1455,7 +1469,7 @@ _Java platform as a service._
 </details>
 
 <details id="pdf">
-<summary><strong>PDF</strong> <kbd>14 projects</kbd></summary>
+<summary><strong>PDF</strong> <kbd>13 projects</kbd></summary>
 
 _Tools to help with PDF files._
 
@@ -1485,22 +1499,24 @@ _Tools to help with PDF files._
 
 > **[OpenPDF](https://github.com/LibrePDF/OpenPDF)** <kbd>★ 4.3k</kbd> 🟢<br>Open-source iText fork. (LGPL-3.0-only & MPL-2.0)
 
-> **[Tabula](https://github.com/tabulapdf/tabula-java)** <kbd>★ 2.0k</kbd> <kbd>MIT</kbd> 🔴<br>Extracts tables from PDF files.
-
 </details>
 
 <details id="performance-analysis">
-<summary><strong>Performance analysis</strong> <kbd>9 projects</kbd></summary>
+<summary><strong>Performance analysis</strong> <kbd>11 projects</kbd></summary>
 
 _Tools for performance analysis, profiling and benchmarking._
 
 > **[Argus](https://github.com/rlaope/Argus)** <kbd>★ 17</kbd> <kbd>MIT</kbd> 🟢<br>JVM diagnostics CLI for jcmd, JFR, async-profiler, heap analysis and machine-readable health verdicts.
+
+> **[async-profiler](https://github.com/async-profiler/async-profiler)** <kbd>★ 9.1k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Low-overhead sampling profiler for CPU, allocation and lock analysis on the JVM.
 
 > **[fastThread](https://fastthread.io)**<br>Analyze and visualize thread dumps with a free cloud-based upload interface.
 
 > **[GCeasy](https://gceasy.io)**<br>Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.
 
 > **[Heap Seance](https://github.com/SegfaultSorcerer/heap-seance)** <kbd>★ 4</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Memory leak diagnostics that orchestrates jcmd, jmap, jstat, JFR, Eclipse MAT, and async-profiler into a structured investigation workflow with confidence-based verdicts.
+
+> **[JDK Mission Control](https://github.com/openjdk/jmc)** <kbd>★ 985</kbd> 🟢<br>Profiling and diagnostics suite for JVM applications using Java Flight Recorder.
 
 > **[jHiccup](https://github.com/giltene/jHiccup)** <kbd>★ 704</kbd> 🟠<br>Logs and records platform JVM stalls.
 
@@ -1515,17 +1531,15 @@ _Tools for performance analysis, profiling and benchmarking._
 </details>
 
 <details id="platform">
-<summary><strong>Platform</strong> <kbd>53 projects</kbd></summary>
+<summary><strong>Platform</strong> <kbd>52 projects</kbd></summary>
 
 _Frameworks that are suites of multiple libraries encompassing several categories._
 
-#### Apache Commons <kbd>50 projects</kbd>
+#### Apache Commons <kbd>49 projects</kbd>
 
 > **[BCEL](https://github.com/apache/commons-bcel)** <kbd>★ 273</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Byte Code Engineering Library - analyze, create, and manipulate Java class files.
 
 > **[BeanUtils](https://github.com/apache/commons-beanutils)** <kbd>★ 321</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Easy-to-use wrappers around the Java reflection and introspection APIs.
-
-> **[BeanUtils2](https://commons.apache.org/sandbox/commons-beanutils2/)**<br>Redesign of Commons BeanUtils.
 
 > **[BSF](https://github.com/apache/commons-bsf)** <kbd>★ 32</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Bean Scripting Framework - interface to scripting languages, including JSR-223.
 
@@ -1651,7 +1665,7 @@ _Java proxy and gateway servers for routing and mediating traffic._
 
 > **[LittleProxy](https://github.com/LittleProxy/LittleProxy)** <kbd>★ 149</kbd> <kbd>Apache-2.0</kbd> 🟢<br>High performance HTTP proxy atop Netty's event-based networking library.
 
-> **[Membrane Service Proxy](https://github.com/membrane/service-proxy)** <kbd>★ 626</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Open-source, reverse-proxy framework.
+> **[Membrane Service Proxy](https://github.com/membrane/api-gateway)** <kbd>★ 626</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Open-source, reverse-proxy framework.
 
 > **[OpenIG](https://github.com/OpenIdentityPlatform/OpenIG)** <kbd>★ 90</kbd> 🟢<br>High-performance reverse proxy server with specialized session management and credential replay functionality.
 
@@ -1679,13 +1693,15 @@ _Libraries for developing reactive applications._
 </details>
 
 <details id="regular-expressions">
-<summary><strong>Regular Expressions</strong> <kbd>3 projects</kbd></summary>
+<summary><strong>Regular Expressions</strong> <kbd>4 projects</kbd></summary>
 
 _Libraries and engines for building and evaluating regular expressions._
 
 > **[dregex](https://github.com/marianobarrios/dregex)** <kbd>★ 55</kbd> <kbd>BSD-2-Clause</kbd> 🟠<br>Regular expression engine that uses deterministic finite automata. It supports some Perl-style features and yet retains linear matching time, and also offers set operations.
 
 > **[JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)** <kbd>★ 2.6k</kbd> <kbd>MIT</kbd> 🟢<br>Library that helps with constructing difficult regular expressions.
+
+> **[RE2/J](https://github.com/google/re2j)** <kbd>★ 1.3k</kbd> 🟢<br>Java port of RE2 providing linear-time regular expression matching.
 
 > **[Sift](https://github.com/Mirkoddd/Sift)** <kbd>★ 93</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Type-safe, AST-based Regex Builder focused on readability and ReDoS prevention.
 
@@ -1731,7 +1747,7 @@ _Libraries for scientific computing, analysis and visualization._
 
 > **[BioJava](https://github.com/biojava/biojava)** <kbd>★ 627</kbd> <kbd>LGPL-2.1</kbd> 🟢<br>Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics.
 
-> **[Chart-FX](https://github.com/GSI-CS-CO/chart-fx)** <kbd>★ 611</kbd> <kbd>LGPL-3.0</kbd> 🟠<br>Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.
+> **[Chart-FX](https://github.com/fair-acc/chart-fx)** <kbd>★ 611</kbd> <kbd>LGPL-3.0</kbd> 🟠<br>Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.
 
 > **[DataMelt](https://datamelt.org/)**<br>Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later)
 
@@ -1871,7 +1887,7 @@ _Libraries that handle serialization with high efficiency._
 
 > **[Protobuf](https://github.com/protocolbuffers/protobuf)** <kbd>★ 71.6k</kbd> 🟢<br>Google's data interchange format.
 
-> **[SBE](https://github.com/real-logic/simple-binary-encoding)** <kbd>★ 3.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Simple Binary Encoding, one of the fastest message formats around.
+> **[SBE](https://github.com/aeron-io/simple-binary-encoding)** <kbd>★ 3.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Simple Binary Encoding, one of the fastest message formats around.
 
 > **[Wire](https://github.com/square/wire)** <kbd>★ 4.4k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Clean, lightweight protocol buffers.
 
@@ -1971,7 +1987,7 @@ _Everything related to the creation and handling of random data._
 
 > **[Instancio](https://github.com/instancio/instancio)** <kbd>★ 1.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Automates data setup in unit tests by generating fully-populated, reproducible objects. Includes JUnit 5 extension.
 
-> **[jFairy](https://github.com/Devskiller/jfairy)** <kbd>★ 742</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Fake data generator.
+> **[jFairy](https://github.com/SkillPanel/jfairy)** <kbd>★ 742</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Fake data generator.
 
 > **[JMock](https://github.com/xcancloud/JMock)** <kbd>★ 212</kbd> <kbd>Apache-2.0</kbd> 🟢<br>JMock is a high-performance data generation and simulation component library implemented in Java.
 
@@ -2011,7 +2027,7 @@ _Tools for integration, service and contract testing._
 
 > **[Karate](https://github.com/karatelabs/karate)** <kbd>★ 8.9k</kbd> <kbd>MIT</kbd> 🟢<br>DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.
 
-> **[Pact JVM](https://github.com/DiUS/pact-jvm)** <kbd>★ 1.1k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Consumer-driven contract testing.
+> **[Pact JVM](https://github.com/pact-foundation/pact-jvm)** <kbd>★ 1.1k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Consumer-driven contract testing.
 
 > **[REST Assured](https://github.com/rest-assured/rest-assured)** <kbd>★ 7.1k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>DSL for easy testing of REST/HTTP services.
 
@@ -2092,7 +2108,7 @@ _Tools for load and performance testing._
 
 _Libraries which provide general utility functions._
 
-> **[bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j)** <kbd>★ 2.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Rate limiting library based on token-bucket algorithm.
+> **[bucket4j](https://github.com/bucket4j/bucket4j)** <kbd>★ 2.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Rate limiting library based on token-bucket algorithm.
 
 > **[cactoos](https://github.com/yegor256/cactoos)** <kbd>★ 777</kbd> <kbd>MIT</kbd> 🟢<br>Collection of object-oriented primitives.
 
@@ -2157,7 +2173,7 @@ _Libraries that analyze the content of websites._
 </details>
 
 <details id="web-frameworks">
-<summary><strong>Web Frameworks</strong> <kbd>17 projects</kbd></summary>
+<summary><strong>Web Frameworks</strong> <kbd>18 projects</kbd></summary>
 
 _Frameworks that handle the communication between the layers of a web application._
 
@@ -2186,6 +2202,8 @@ _Frameworks that handle the communication between the layers of a web applicatio
 > **[PrimeFaces](https://github.com/primefaces/primefaces)** <kbd>★ 1.9k</kbd> <kbd>MIT</kbd> 🟢<br>JSF framework with both free and commercial/support versions and frontend components.
 
 > **[Ratpack](https://github.com/ratpack/ratpack)** <kbd>★ 1.9k</kbd> 🟢<br>Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
+
+> **[Spring Boot](https://github.com/spring-projects/spring-boot)** <kbd>★ 81.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Framework for creating stand-alone, production-grade Spring applications.
 
 > **[Takes](https://github.com/yegor256/takes)** <kbd>★ 877</kbd> <kbd>MIT</kbd> 🟢<br>Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
 
