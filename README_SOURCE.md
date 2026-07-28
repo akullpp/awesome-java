@@ -148,6 +148,7 @@ _Tools that provide metrics and quality measurements._
 - [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) - Reports whether instances of a given class are immutable.
 - [NullAway](https://github.com/uber/NullAway) - Eliminates NullPointerExceptions with low build-time overhead.
 - [OpenRewrite](https://github.com/openrewrite/rewrite) - Automates large-scale source-code refactoring through reusable recipes.
+- [OpenTaint](https://github.com/seqra/opentaint) - Interprocedural taint analyzer for Java and Spring applications with reusable security rules and dependency models.
 - [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 - [RefactorFirst](https://github.com/jimbethancourt/RefactorFirst) - Identifies and prioritizes God Classes and Highly Coupled classes.
 - [SonarJava](https://github.com/SonarSource/sonar-java) - Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
