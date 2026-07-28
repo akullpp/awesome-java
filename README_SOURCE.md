@@ -18,6 +18,7 @@ _Frameworks and libraries that help implementing and verifying design and archit
 - [ArchUnit](https://github.com/TNG/ArchUnit) - Test library for specifying and asserting architecture rules.
 - [jMolecules](https://github.com/xmolecules/jmolecules) - Annotations and interfaces to express design and architecture concepts in code.
 - [jQAssistant](https://github.com/jQAssistant/jqassistant) - Static code analysis with Neo4J-based query language.
+- [Taikai](https://github.com/enofex/taikai) - ArchUnit extension with predefined architecture rules for common Java technologies.
 
 ### Artificial Intelligence
 
@@ -53,7 +54,7 @@ _Frameworks that ease bean mapping._
 _Libraries and frameworks for building chatbots and messaging-platform bots._
 
 - [JBot](https://github.com/rampatra/jbot) - Framework for building chatbots.
-- [JDA](https://github.com/DV8FromTheWorld/JDA) - Wrapping of the Discord REST API and its WebSocket events.
+- [JDA](https://github.com/discord-jda/JDA) - Wrapping of the Discord REST API and its WebSocket events.
 - [Nyagram](https://github.com/kaleert/nyagram) - Reactive, type-safe framework for Telegram bots based on Spring Boot 3 and Java 21.
 - [TelegramBots](https://github.com/rubenlagus/TelegramBots) - Java library for building bots with the Telegram Bot API.
 
@@ -127,7 +128,7 @@ _Libraries that provide TUI frameworks, or building blocks related functions._
 
 _Libraries to integrate or use cloud-specific features._
 
-- [AWS SDK for Java](https://github.com/aws/aws-sdk-java) - Provides Java APIs for interacting with Amazon Web Services.
+- [AWS SDK for Java 2.x](https://github.com/aws/aws-sdk-java-v2) - Official Java APIs for interacting with Amazon Web Services.
 - [Google Cloud Client Libraries](https://github.com/googleapis/google-cloud-java) - Client libraries for accessing Google Cloud services from Java applications.
 - [Java Operator SDK](https://github.com/operator-framework/java-operator-sdk) - SDK for implementing Kubernetes operators in Java.
 - [kubernetes-client](https://github.com/fabric8io/kubernetes-client) - Client provides access to the full Kubernetes & OpenShift REST APIs via a fluent DSL.
@@ -226,7 +227,7 @@ _Libraries that provide external configuration._
 - [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
 - [microconfig](https://github.com/microconfig/microconfig) - Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed.
 - [NightConfig](https://github.com/TheElectronWill/night-config) - Configuration library supporting TOML, YAML, HOCON, JSON and in-memory formats.
-- [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
+- [owner](https://github.com/matteobaccan/owner) - Reduces boilerplate of properties.
 - [sealed-env](https://github.com/davidalmeidac/sealed-env) - Encrypts environment files with a shared Node.js and Java/Spring Boot format plus optional TOTP unsealing.
 
 ### Constraint Satisfaction Problem Solver
@@ -400,7 +401,7 @@ _Distributed transactions provide a mechanism for ensuring consistency of data u
 - [Atomikos](https://github.com/atomikos/transactions-essentials) - Provides transactions for REST, SOA and microservices with support for JTA and XA.
 - [Bitronix](https://github.com/bitronix/btm) - Simple but complete implementation of the JTA 1.1 API.
 - [Narayana](https://github.com/jbosstm/narayana) - Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards.
-- [Seata](https://github.com/seata/seata) - Delivers high performance and easy to use distributed transaction services under a microservices architecture.
+- [Seata](https://github.com/apache/incubator-seata) - Delivers high performance and easy to use distributed transaction services under a microservices architecture.
 
 ### Distribution
 
@@ -412,7 +413,7 @@ _Tools that handle the distribution of applications in native formats._
 - [Cloudsmith](https://cloudsmith.io) - Fully managed package management SaaS with support for Maven/Gradle/SBT with a free tier.
 - [Getdown](https://github.com/threerings/getdown) - System for deploying Java applications to end-user computers and keeping them up to date. Developed as an alternative to Java Web Start.
 - [IzPack](https://github.com/izpack/izpack) - Setup authoring tool for cross-platform deployments.
-- [JavaPackager](https://github.com/fvarrui/JavaPackager) - Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them.
+- [JavaPackager](https://github.com/javapackager/JavaPackager) - Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, macOS or GNU/Linux executables, and generate installers for them.
 - [jDeploy](https://github.com/shannah/jdeploy) - Deploy desktop apps as native Mac, Windows or Linux bundles.
 - [jlink.online](https://github.com/AdoptOpenJDK/jlink.online) - Builds optimized runtimes over HTTP.
 - [Nuts](https://github.com/thevpc/nuts) - Installs and runs Java applications from Maven repositories, reusing descriptors and provisioning required JDKs.
@@ -436,8 +437,10 @@ _Libraries that assist with processing office document formats._
 _Libraries and SDKs for evaluating and managing feature flags._
 
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
+- [OpenFeature Java SDK](https://github.com/open-feature/java-sdk) - Vendor-neutral API for evaluating feature flags in Java applications.
 - [Rollgate Java SDK](https://github.com/rollgate/sdks/tree/main/packages/sdk-java) - Java SDK for evaluating Rollgate feature flags with real-time configuration updates.
 - [Togglz](https://github.com/togglz/togglz) - Implementation of the Feature Toggles pattern.
+- [Unleash Java SDK](https://github.com/Unleash/unleash-java-sdk) - Java client SDK for the Unleash feature management platform.
 
 ### Financial
 
@@ -445,6 +448,7 @@ _Libraries related to the financial domain._
 
 - [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot) - Trading bot framework.
 - [Joda-Money](https://github.com/JodaOrg/joda-money) - Basic currency and money classes and algorithms not provided by the JDK.
+- [OpenGamma Strata](https://github.com/OpenGamma/Strata) - Analytics and market risk library for financial products.
 - [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency financial information exchange.
 - [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API.
 - [ta4j](https://github.com/ta4j/ta4j) - Library for technical analysis.
@@ -530,9 +534,9 @@ _Libraries to create modern graphical user interfaces._
 
 _Everything about high-performance computation, from collections to specific libraries._
 
-- [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
+- [Agrona](https://github.com/aeron-io/agrona) - Data structures and utility methods that are common in high-performance applications.
 - [Disruptor](https://github.com/LMAX-Exchange/disruptor) - Inter-thread messaging library.
-- [Eclipse Collections](https://github.com/eclipse/eclipse-collections) - Collections framework inspired by Smalltalk.
+- [Eclipse Collections](https://github.com/eclipse-collections/eclipse-collections) - Collections framework inspired by Smalltalk.
 - [fastutil](https://github.com/vigna/fastutil) - Fast and compact type-specific collections.
 - [HPPC](https://github.com/carrotsearch/hppc) - Primitive collections.
 - [Hollow](https://github.com/Netflix/hollow) - High-performance in-memory datasets distributed from a single producer to many consumers.
@@ -548,11 +552,12 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 - [Feign](https://github.com/OpenFeign/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
 - [Google HTTP Client](https://github.com/googleapis/google-http-java-client) - Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.
 - [methanol](https://github.com/mizosoft/methanol) - HTTP client extensions library.
+- [OkHttp](https://github.com/lysine-dev/okhttp) - HTTP client for the JVM, Android and GraalVM.
 - [Retrofit](https://github.com/lysine-dev/retrofit) - Typesafe REST client.
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in the cloud.
 - [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
 - [unirest-java](https://github.com/Kong/unirest-java) - Simplified, lightweight HTTP client library.
-- [JQuickCurl](https://github.com/paohaijiao/jquick-curl) - Executes HTTP requests from cURL syntax through annotations, XML configuration and dynamic proxy clients.
+- [JQuickCurl](https://github.com/paohaijiao-jquick/jquick-curl) - Executes HTTP requests from cURL syntax through annotations, XML configuration and dynamic proxy clients.
 
 ### IDE
 
@@ -625,7 +630,7 @@ _Libraries for serializing and deserializing JSON to and from Java objects._
 
 _Current implementations of the JVM/JDK._
 
-- [Adopt Open JDK](https://adoptopenjdk.net) - Community-driven OpenJDK builds, including both HotSpot and OpenJ9.
+- [Eclipse Temurin](https://github.com/adoptium/temurin-build) - OpenJDK distribution from the Eclipse Adoptium project.
 - [Corretto](https://aws.amazon.com/corretto/) - No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [Dragonwell8](https://github.com/alibaba/dragonwell8) - Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications.
 - [Graal](https://github.com/oracle/graal) - Polyglot embeddable JVM. (GPL-2.0-only WITH Classpath-exception-2.0)
@@ -675,14 +680,14 @@ _Tools that provide specific statistical algorithms for learning from data._
 
 _Tools that help send messages between clients to ensure protocol independency._
 
-- [Aeron](https://github.com/real-logic/Aeron) - Efficient, reliable, unicast and multicast message transport.
+- [Aeron](https://github.com/aeron-io/aeron) - Efficient, reliable, unicast and multicast message transport.
 - [Apache ActiveMQ](https://github.com/apache/activemq) - Message broker that implements JMS and converts synchronous to asynchronous communication.
 - [Apache Camel](https://github.com/apache/camel) - Glues together different transport APIs via Enterprise Integration Patterns.
 - [Apache Kafka](https://github.com/apache/kafka) - High-throughput distributed messaging system.
 - [Apache Pulsar](https://github.com/apache/pulsar) - Distributed pub/sub-messaging system.
 - [Apache RocketMQ](https://github.com/apache/rocketmq) - Fast, reliable, and scalable distributed messaging platform.
 - [Apache Qpid for Java](https://qpid.apache.org) - Java messaging clients and brokers implementing AMQP. <!-- github: apache/qpid-jms, apache/qpid-broker-j, apache/qpid-proton-j, apache/qpid-protonj2 -->
-- [AutoMQ](https://github.com/AutoMQ/automq-for-kafka) - AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective.
+- [AutoMQ](https://github.com/AutoMQ/automq) - AutoMQ is a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective.
 - [CloudEvents Java SDK](https://github.com/cloudevents/sdk-java) - Java SDK for creating, serializing and transporting CloudEvents.
 - [Emissary](https://github.com/joel-jeremy/emissary) - Simple, lightweight, yet FAST messaging library for decoupling messages (requests and events) and message handlers.
 - [Hermes](https://github.com/allegro/hermes) - Fast and reliable message broker built on top of Kafka.
@@ -721,6 +726,7 @@ _Everything else._
 _Tools for creating or managing mobile applications._
 
 - [Codename One](https://github.com/codenameone/CodenameOne) - Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0)
+- [Gluon Substrate](https://github.com/gluonhq/substrate) - Builds native JavaFX applications for desktop, mobile and embedded targets.
 - [MobileUI](https://github.com/MobileUI/mobileui) - Cross-platform framework for developing mobile apps with native UI in Java and Kotlin.
 - [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine) - Open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.
 
@@ -765,6 +771,7 @@ _For working with platform-specific native libraries._
 
 _Libraries that specialize in processing text._
 
+- [Apache OpenNLP](https://github.com/apache/opennlp) - Toolkit for machine-learning-based natural language processing.
 - [CoreNLP](https://github.com/stanfordnlp/CoreNLP) - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis.
 - [DKPro](https://github.com/dkpro/dkpro-core) - Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
 - [Hypherator](https://github.com/ejossev/hypherator-java) - Java hyphenation library with iterator-like interface. Can be used out-of-the box - dictionaries for multiple languages are bundled in.
@@ -840,16 +847,16 @@ _Tools to help with PDF files._
 - [Open HTML to PDF](https://github.com/openhtmltopdf/openhtmltopdf) - Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.
 - [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf) - Parses PDFs into structured Markdown, JSON and HTML through a Java API and command line.
 - [OpenPDF](https://github.com/LibrePDF/OpenPDF) - Open-source iText fork. (LGPL-3.0-only & MPL-2.0)
-- [Tabula](https://github.com/tabulapdf/tabula-java) - Extracts tables from PDF files.
-
 ### Performance analysis
 
 _Tools for performance analysis, profiling and benchmarking._
 
+- [async-profiler](https://github.com/async-profiler/async-profiler) - Low-overhead sampling profiler for CPU, allocation and lock analysis on the JVM.
 - [fastThread](https://fastthread.io) - Analyze and visualize thread dumps with a free cloud-based upload interface.
 - [GCeasy](https://gceasy.io) - Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.
 - [Heap Seance](https://github.com/SegfaultSorcerer/heap-seance) - Memory leak diagnostics that orchestrates jcmd, jmap, jstat, JFR, Eclipse MAT, and async-profiler into a structured investigation workflow with confidence-based verdicts.
 - [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
+- [JDK Mission Control](https://github.com/openjdk/jmc) - Profiling and diagnostics suite for JVM applications using Java Flight Recorder.
 - [JITWatch](https://github.com/AdoptOpenJDK/jitwatch) - Analyze the JIT compiler optimisations made by the HotSpot JVM.
 - [JMH](https://github.com/openjdk/jmh) - Harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
 - [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
@@ -864,7 +871,6 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 
 - [BCEL](https://github.com/apache/commons-bcel) - Byte Code Engineering Library - analyze, create, and manipulate Java class files.
 - [BeanUtils](https://github.com/apache/commons-beanutils) - Easy-to-use wrappers around the Java reflection and introspection APIs.
-- [BeanUtils2](https://commons.apache.org/sandbox/commons-beanutils2/) - Redesign of Commons BeanUtils.
 - [BSF](https://github.com/apache/commons-bsf) - Bean Scripting Framework - interface to scripting languages, including JSR-223.
 - [ClassScan](https://commons.apache.org/sandbox/commons-classscan/) - Find Class interfaces, methods, fields, and annotations without loading.
 - [CLI](https://github.com/apache/commons-cli) - Command-line arguments parser.
@@ -932,7 +938,7 @@ _Libraries that help the management of operating system processes._
 _Java proxy and gateway servers for routing and mediating traffic._
 
 - [LittleProxy](https://github.com/LittleProxy/LittleProxy) - High performance HTTP proxy atop Netty's event-based networking library.
-- [Membrane Service Proxy](https://github.com/membrane/service-proxy) - Open-source, reverse-proxy framework.
+- [Membrane Service Proxy](https://github.com/membrane/api-gateway) - Open-source, reverse-proxy framework.
 - [OpenIG](https://github.com/OpenIdentityPlatform/OpenIG) - High-performance reverse proxy server with specialized session management and credential replay functionality.
 - [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway) - API gateway built on Spring Framework and Spring Boot.
 - [Zuul](https://github.com/Netflix/zuul) - Gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
@@ -953,6 +959,7 @@ _Libraries and engines for building and evaluating regular expressions._
 
 - [dregex](https://github.com/marianobarrios/dregex) - Regular expression engine that uses deterministic finite automata. It supports some Perl-style features and yet retains linear matching time, and also offers set operations.
 - [JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions) - Library that helps with constructing difficult regular expressions.
+- [RE2/J](https://github.com/google/re2j) - Java port of RE2 providing linear-time regular expression matching.
 - [Sift](https://github.com/Mirkoddd/Sift) - Type-safe, AST-based Regex Builder focused on readability and ReDoS prevention.
 
 ### REST Frameworks
@@ -978,7 +985,7 @@ _Frameworks specifically for creating RESTful services._
 _Libraries for scientific computing, analysis and visualization._
 
 - [BioJava](https://github.com/biojava/biojava) - Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics.
-- [Chart-FX](https://github.com/GSI-CS-CO/chart-fx) - Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.
+- [Chart-FX](https://github.com/fair-acc/chart-fx) - Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.
 - [DataMelt](https://datamelt.org/) - Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later)
 - [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) - Modular, light and easy graph framework for theoretic algorithms.
 - [Gephi](https://github.com/gephi/gephi) - Cross-platform for visualizing and manipulating large graph networks.
@@ -1054,7 +1061,7 @@ _Libraries that handle serialization with high efficiency._
 - [Kryo](https://github.com/EsotericSoftware/kryo) - Fast and efficient object graph serialization framework.
 - [MessagePack](https://github.com/msgpack/msgpack-java) - Efficient binary serialization format.
 - [Protobuf](https://github.com/protocolbuffers/protobuf) - Google's data interchange format.
-- [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
+- [SBE](https://github.com/aeron-io/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
 - [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
 - [XMLBeam](https://github.com/SvenEwald/xmlbeam) - Processes XML by using annotations or XPath within code.
 
@@ -1114,7 +1121,7 @@ _Everything related to the creation and handling of random data._
 
 - [AutoParams](https://github.com/AutoParams/AutoParams) - Supports generating test data or combining scenarios for parameterized tests.
 - [Datafaker](https://github.com/datafaker-net/datafaker) - Modern fake data generator forked from Java Faker.
-- [jFairy](https://github.com/Devskiller/jfairy) - Fake data generator.
+- [jFairy](https://github.com/SkillPanel/jfairy) - Fake data generator.
 - [Instancio](https://github.com/instancio/instancio) - Automates data setup in unit tests by generating fully-populated, reproducible objects. Includes JUnit 5 extension.
 - [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
 - [JMock](https://github.com/xcancloud/JMock) - JMock is a high-performance data generation and simulation component library implemented in Java.
@@ -1141,7 +1148,7 @@ _Tools for integration, service and contract testing._
 - [GreenMail](https://github.com/greenmail-mail-test/greenmail) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 - [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) - Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.
 - [Karate](https://github.com/karatelabs/karate) - DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.
-- [Pact JVM](https://github.com/DiUS/pact-jvm) - Consumer-driven contract testing.
+- [Pact JVM](https://github.com/pact-foundation/pact-jvm) - Consumer-driven contract testing.
 - [REST Assured](https://github.com/rest-assured/rest-assured) - DSL for easy testing of REST/HTTP services.
 - [Testcontainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 - [WebTau](https://github.com/testingisdocumenting/webtau) - Test across REST-API, Graph QL, Browser, Database, CLI and Business Logic with consistent set of matchers and concepts.
@@ -1195,7 +1202,7 @@ _Tools for load and performance testing._
 
 _Libraries which provide general utility functions._
 
-- [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j) - Rate limiting library based on token-bucket algorithm.
+- [bucket4j](https://github.com/bucket4j/bucket4j) - Rate limiting library based on token-bucket algorithm.
 - [cactoos](https://github.com/yegor256/cactoos) - Collection of object-oriented primitives.
 - [fswatch](https://github.com/vorburger/ch.vorburger.fswatch) - Micro library to watch for directory file system changes, simplifying java.nio.file.WatchService.
 - [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and more.
@@ -1246,6 +1253,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [Play](https://github.com/playframework/playframework) - Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala.
 - [PrimeFaces](https://github.com/primefaces/primefaces) - JSF framework with both free and commercial/support versions and frontend components.
 - [Ratpack](https://github.com/ratpack/ratpack) - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.
+- [Spring Boot](https://github.com/spring-projects/spring-boot) - Framework for creating stand-alone, production-grade Spring applications.
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
 - [tinystruct](https://github.com/tinystruct/tinystruct) - Lightweight, pluggable framework for building Java applications with CLI, HTTP, and modular extension support.
 - [Vaadin](https://vaadin.com) - Full-stack Java platform for building browser applications with server-side components. <!-- github: vaadin/platform, vaadin/flow, vaadin/flow-components, vaadin/spring -->
