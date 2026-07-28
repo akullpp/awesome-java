@@ -431,6 +431,7 @@ _Libraries that assist with processing office document formats._
 - [documents4j](https://github.com/documents4j/documents4j) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://github.com/plutext/docx4j) - Create and manipulate Microsoft Open XML files.
 - [html-to-markdown](https://github.com/xberg-io/html-to-markdown) - Converts HTML to CommonMark-compatible Markdown through a Java binding.
+- [JQuick Excel](https://github.com/paohaijiao/jquick-excel) - Configures Excel import, export, validation, formulas and charts through a declarative XML DSL.
 - [xberg](https://github.com/xberg-io/xberg) - Extracts text, tables and metadata from PDFs, Office documents, images and other formats through a Java binding.
 
 ### Feature Flags
