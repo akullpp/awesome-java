@@ -1025,6 +1025,7 @@ _Libraries that handle security, authentication, authorization or session manage
 
 - [Apache Shiro](https://github.com/apache/shiro) - Performs authentication, authorization, cryptography and session management.
 - [Ayza](https://github.com/Hakky54/ayza) - High-level SSL configuration builder for configuring HTTP clients and servers with SSL/TLS.
+- [Bastillion](https://github.com/bastillion-io/Bastillion) - Self-hosted SSH gateway with centralized SSH key management, web-based terminal, and session audit/replay; source-available under the Prosperity License.
 - [Bouncy Castle](https://github.com/bcgit/bc-java) - All-purpose cryptographic library and JCA provider offering a wide range of functions, from basic helpers to PGP/SMIME operations.
 - [Certificate Ripper](https://github.com/Hakky54/certificate-ripper) - CLI tool and library for extracting and exporting server certificates from HTTPS endpoints.
 - [Dependency-Track](https://github.com/DependencyTrack/dependency-track) - Software composition analysis platform for identifying supply-chain risk.
