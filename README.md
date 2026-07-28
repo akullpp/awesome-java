@@ -34,7 +34,7 @@ _Frameworks that help you to leverage LLMs and AI._
 
 > **[AgentScope Java](https://github.com/agentscope-ai/agentscope-java)** <kbd>★ 4.7k</kbd> 🟢<br>Framework for building distributed, long-running AI agents with tool execution, persistence and multi-agent orchestration.
 
-> **[Anahata ASI](https://github.com/anahata-os/anahata-asi)** <kbd>★ 22</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Java agent container with local LLM adapters, stateful tool execution, context management and IDE integration.
+> **[Anahata ASI](https://github.com/anahata-os/anahata-asi)** <kbd>★ 21</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Java agent container with local LLM adapters, stateful tool execution, context management and IDE integration.
 
 > **[Dokimos](https://github.com/dokimos-dev/dokimos)** <kbd>★ 47</kbd> <kbd>MIT</kbd> 🟢<br>Evaluation framework for LLM and AI-agent applications that scores responses, validates tool calls and execution traces, and catches quality regressions in CI.
 
@@ -327,7 +327,7 @@ _Libraries that provide external configuration._
 
 > **[avaje config](https://github.com/avaje/avaje-config)** <kbd>★ 107</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Loads yaml and properties files, supports dynamic configuration, plugins, file-watching and config event listeners.
 
-> **[centraldogma](https://github.com/line/centraldogma)** <kbd>★ 664</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2.
+> **[centraldogma](https://github.com/line/centraldogma)** <kbd>★ 663</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2.
 
 > **[ClearConfig](https://github.com/japgolly/clear-config-java)** <kbd>★ 9</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Type-safe, composable configuration library with a focus on runtime clarity.
 
@@ -727,9 +727,9 @@ _Libraries related to the financial domain._
 
 > **[Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot)** <kbd>★ 659</kbd> <kbd>GPL-3.0</kbd> 🔴<br>Trading bot framework.
 
-> **[Philadelphia](https://github.com/paritytrading/philadelphia)** <kbd>★ 345</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Low-latency financial information exchange.
+> **[Philadelphia](https://github.com/paritytrading/philadelphia)** <kbd>★ 344</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Low-latency financial information exchange.
 
-> **[Stripe](https://github.com/stripe/stripe-java)** <kbd>★ 994</kbd> <kbd>MIT</kbd> 🟢<br>Integration with the Stripe API.
+> **[Stripe](https://github.com/stripe/stripe-java)** <kbd>★ 993</kbd> <kbd>MIT</kbd> 🟢<br>Integration with the Stripe API.
 
 > **[ta4j](https://github.com/ta4j/ta4j)** <kbd>★ 2.5k</kbd> 🟢<br>Library for technical analysis.
 
@@ -1217,7 +1217,7 @@ _Everything else._
 
 > **[AISmessages](https://github.com/tbsalling/aismessages)** <kbd>★ 168</kbd> 🟢<br>Decodes NMEA-armoured AIS messages for maritime navigation and safety systems with ITU-R M.1371 support and no runtime dependencies. (CC-BY-NC-SA-4.0)
 
-> **[CQEngine Next](https://github.com/MSaifAsif/cqengine-next)** <kbd>★ 16</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Provides indexed, SQL-like queries over Java collections.
+> **[CQEngine Next](https://github.com/MSaifAsif/cqengine-next)** <kbd>★ 17</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Provides indexed, SQL-like queries over Java collections.
 
 > **[Design Patterns](https://github.com/iluwatar/java-design-patterns)** <kbd>★ 94.2k</kbd> 🟢<br>Implementation and explanation of the most common design patterns.
 
@@ -1485,7 +1485,7 @@ _Java platform as a service._
 
 _Algorithms and libraries for finding routes in graphs and spatial environments._
 
-> **[Pathetic](https://github.com/bsommerfeld/pathetic)** <kbd>★ 378</kbd> <kbd>MIT</kbd> 🟢<br>A highly configurable 3D A\* pathfinding library that uses specific optimizations for high performance.
+> **[Pathetic](https://github.com/bsommerfeld/pathetic)** <kbd>★ 377</kbd> <kbd>MIT</kbd> 🟢<br>A highly configurable 3D A\* pathfinding library that uses specific optimizations for high performance.
 
 </details>
 
@@ -1804,7 +1804,7 @@ _Libraries that handle security, authentication, authorization or session manage
 
 > **[jwt-java](https://github.com/BastiaanJansen/jwt-java)** <kbd>★ 14</kbd> <kbd>MIT</kbd> 🔴<br>Easily create and parse JSON Web Tokens and create customized JWT validators using a fluent API.
 
-> **[Keycloak](https://github.com/keycloak/keycloak)** <kbd>★ 35.9k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Integrated SSO and IDM for browser apps and RESTful web services.
+> **[Keycloak](https://github.com/keycloak/keycloak)** <kbd>★ 35.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Integrated SSO and IDM for browser apps and RESTful web services.
 
 > **[MOSS](https://github.com/mosscomputing/moss-java)** <kbd>★ 0</kbd> 🟢<br>Cryptographic signing for AI agents using ML-DSA-44 post-quantum signatures, creating audit trails for attribution and compliance.
 
@@ -2012,7 +2012,7 @@ _Other stuff related to testing._
 
 > **[Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector)** <kbd>★ 246</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Reports whether instances of a given class are immutable.
 
-> **[Selfie](https://github.com/diffplug/selfie)** <kbd>★ 101</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Snapshot testing (inline and on disk).
+> **[Selfie](https://github.com/diffplug/selfie)** <kbd>★ 100</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Snapshot testing (inline and on disk).
 
 > **[skipper-java](https://github.com/get-skipper/skipper-java)** <kbd>★ 4</kbd> <kbd>MIT</kbd> 🟠<br>Real-time test execution control via Google Spreadsheet, enabling instant toggle without code changes.
 
@@ -2121,7 +2121,7 @@ _Libraries that analyze the content of websites._
 
 > **[jsoup](https://github.com/jhy/jsoup)** <kbd>★ 11.4k</kbd> <kbd>MIT</kbd> 🟢<br>Scrapes, parses, manipulates and cleans HTML.
 
-> **[StormCrawler](https://github.com/apache/stormcrawler)** <kbd>★ 988</kbd> <kbd>Apache-2.0</kbd> 🟢<br>SDK for building low-latency and scalable web crawlers.
+> **[StormCrawler](https://github.com/apache/stormcrawler)** <kbd>★ 987</kbd> <kbd>Apache-2.0</kbd> 🟢<br>SDK for building low-latency and scalable web crawlers.
 
 > **[webmagic](https://github.com/code4craft/webmagic)** <kbd>★ 11.7k</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Scalable crawler with downloading, url management, content extraction and persistent.
 
