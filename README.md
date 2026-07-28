@@ -4,7 +4,7 @@
 
 A curated list of noteworthy Java frameworks, libraries, tools and resources.
 
-<sub>810 projects · 80 categories · 85 resources</sub>
+<sub>811 projects · 80 categories · 85 resources</sub>
 
 <sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months</sub>
 
@@ -740,7 +740,7 @@ _Tools that handle the distribution of applications in native formats._
 </details>
 
 <details id="document-processing">
-<summary><strong>Document Processing</strong> <kbd>6 projects</kbd></summary>
+<summary><strong>Document Processing</strong> <kbd>7 projects</kbd></summary>
 
 _Libraries that assist with processing office document formats._
 
@@ -753,6 +753,8 @@ _Libraries that assist with processing office document formats._
 > **[docx4j](https://github.com/plutext/docx4j)** <kbd>★ 2.4k</kbd> 🟢<br>Create and manipulate Microsoft Open XML files.
 
 > **[html-to-markdown](https://github.com/xberg-io/html-to-markdown)** <kbd>★ 814</kbd> <kbd>MIT</kbd> 🟢<br>Converts HTML to CommonMark-compatible Markdown through a Java binding.
+
+> **[JQuick Excel](https://github.com/paohaijiao/jquick-excel)** <kbd>★ 130</kbd> 🟢<br>Configures Excel import, export, validation, formulas and charts through a declarative XML DSL.
 
 > **[xberg](https://github.com/xberg-io/xberg)** <kbd>★ 8.7k</kbd> <kbd>MIT</kbd> 🟢<br>Extracts text, tables and metadata from PDFs, Office documents, images and other formats through a Java binding.
 
