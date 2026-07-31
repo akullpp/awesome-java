@@ -4,7 +4,7 @@
 
 A curated list of noteworthy Java frameworks, libraries, tools and resources.
 
-<sub>809 projects · 80 categories · 85 resources</sub>
+<sub>811 projects · 80 categories · 85 resources</sub>
 
 <sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months</sub>
 
@@ -226,7 +226,7 @@ _Libraries to integrate or use cloud-specific features._
 </details>
 
 <details id="code-analysis">
-<summary><strong>Code Analysis</strong> <kbd>15 projects</kbd></summary>
+<summary><strong>Code Analysis</strong> <kbd>16 projects</kbd></summary>
 
 _Tools that provide metrics and quality measurements._
 
@@ -247,6 +247,8 @@ _Tools that provide metrics and quality measurements._
 > **[NullAway](https://github.com/uber/NullAway)** <kbd>★ 4.1k</kbd> <kbd>MIT</kbd> 🟢<br>Eliminates NullPointerExceptions with low build-time overhead.
 
 > **[OpenRewrite](https://github.com/openrewrite/rewrite)** <kbd>★ 3.6k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Automates large-scale source-code refactoring through reusable recipes.
+
+> **[OpenTaint](https://github.com/seqra/opentaint)** <kbd>★ 121</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Interprocedural taint analyzer for Java and Spring applications with reusable security rules and dependency models.
 
 > **[PMD](https://github.com/pmd/pmd)** <kbd>★ 5.5k</kbd> 🟢<br>Source code analysis for finding bad coding practices.
 
@@ -738,7 +740,7 @@ _Tools that handle the distribution of applications in native formats._
 </details>
 
 <details id="document-processing">
-<summary><strong>Document Processing</strong> <kbd>6 projects</kbd></summary>
+<summary><strong>Document Processing</strong> <kbd>7 projects</kbd></summary>
 
 _Libraries that assist with processing office document formats._
 
@@ -751,6 +753,8 @@ _Libraries that assist with processing office document formats._
 > **[docx4j](https://github.com/plutext/docx4j)** <kbd>★ 2.4k</kbd> 🟢<br>Create and manipulate Microsoft Open XML files.
 
 > **[html-to-markdown](https://github.com/xberg-io/html-to-markdown)** <kbd>★ 814</kbd> <kbd>MIT</kbd> 🟢<br>Converts HTML to CommonMark-compatible Markdown through a Java binding.
+
+> **[JQuick Excel](https://github.com/paohaijiao/jquick-excel)** <kbd>★ 130</kbd> 🟢<br>Configures Excel import, export, validation, formulas and charts through a declarative XML DSL.
 
 > **[xberg](https://github.com/xberg-io/xberg)** <kbd>★ 8.7k</kbd> <kbd>MIT</kbd> 🟢<br>Extracts text, tables and metadata from PDFs, Office documents, images and other formats through a Java binding.
 
