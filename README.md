@@ -501,6 +501,8 @@ _Everything that simplifies interactions with the database._
 
 > **[Flyway](https://github.com/flyway/flyway)** <kbd>★ 10.0k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Simple database migration tool.
 
+> **[JQuick SQL](https://github.com/paohaijiao/jquick-sql)** <kbd>★ 288</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Embeddable, lightweight distributed SQL engine featuring heterogeneous federated query support for unified data access across disparate systems.
+
 > **[H2](https://github.com/h2database/h2database)** <kbd>★ 4.6k</kbd> 🟢<br>Small SQL database notable for its in-memory functionality.
 
 > **[HikariCP](https://github.com/brettwooldridge/HikariCP)** <kbd>★ 21.2k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>High-performance JDBC connection pool.
