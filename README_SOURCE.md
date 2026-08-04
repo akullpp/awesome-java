@@ -1134,6 +1134,7 @@ _Provide environments to run tests for a specific use case._
 
 - [BitDive Java Agent](https://github.com/bitDive/java-producer) - Java agent that captures runtime traces, SQL queries and HTTP payloads for BitDive testing.
 - [JUnit](https://github.com/junit-team/junit-framework) - Common testing framework.
+- [kubetest4j](https://github.com/skodjob/kubetest4j) - Declarative, annotation-based testing framework for Kubernetes and OpenShift with automatic resource lifecycle management.
 - [jqwik](https://github.com/jqwik-team/jqwik) - Engine for property-based testing built on JUnit 5.
 - [PIT](https://github.com/hcoles/pitest) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
 - [Robolectric](https://github.com/robolectric/robolectric) - Runs Android tests on the JVM without an emulator or device.
