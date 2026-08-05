@@ -331,6 +331,8 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 
 > **[Spring CRUD Generator](https://github.com/mzivkovicdev/spring-crud-generator)** <kbd>★ 38</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Maven plugin for generating Spring Boot CRUD applications from YAML/JSON specifications.
 
+> **[SpringBoot Generator ![c]](https://www.springboot-generator.com)** - Browser-based generator for Spring Boot CRUD REST APIs from a visual schema, producing the backend and an optional Angular or React frontend as separately deployable projects, with n-ary association entities.
+
 > **[Telosys](https://www.telosys.org/)** <kbd>★ 212</kbd> <kbd>LGPL-3.0</kbd> 🟠<br>Java code-generation toolkit with a CLI and model-driven template engine.
 
 </details>
