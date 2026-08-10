@@ -19,6 +19,7 @@ _Frameworks and libraries that help implementing and verifying design and archit
 - [jMolecules](https://github.com/xmolecules/jmolecules) - Annotations and interfaces to express design and architecture concepts in code.
 - [jQAssistant](https://github.com/jQAssistant/jqassistant) - Static code analysis with Neo4J-based query language.
 - [Taikai](https://github.com/enofex/taikai) - ArchUnit extension with predefined architecture rules for common Java technologies.
+- [WireDoctor](https://github.com/ddsha441981/wiredoctor) - Zero-intrusion Spring Boot runtime diagnostic for cyclic dependencies, slow beans, and ghost detection with interactive physics-based HTML dashboard and CI regression gates.
 
 ### Artificial Intelligence
 
