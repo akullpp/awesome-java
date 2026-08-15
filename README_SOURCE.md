@@ -727,7 +727,7 @@ _Everything else._
 
 _Tools for creating or managing mobile applications._
 
-- [Codename One](https://github.com/codenameone/CodenameOne) - Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0)
+- [Codename One](https://github.com/codenameone/CodenameOne) - Cross-platform Java framework for native mobile, desktop, web and watch apps.
 - [Gluon Substrate](https://github.com/gluonhq/substrate) - Builds native JavaFX applications for desktop, mobile and embedded targets.
 - [MobileUI](https://github.com/MobileUI/mobileui) - Cross-platform framework for developing mobile apps with native UI in Java and Kotlin.
 - [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine) - Open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.
