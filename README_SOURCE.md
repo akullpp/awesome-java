@@ -813,6 +813,7 @@ _APIs that handle the persistence of objects._
 - [Doma](https://github.com/domaframework/doma) - Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL.
 - [Ebean](https://github.com/ebean-orm/ebean) - Provides simple and fast data access.
 - [EclipseLink](https://github.com/eclipse-ee4j/eclipselink) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
+- [Ekbatan](https://github.com/ekbatan-io/ekbatan) - Modern Java persistence framework for event-driven systems, with an ergonomic outbox that commits state and events in one transaction.
 - [Hibernate](https://github.com/hibernate/hibernate-orm) - Robust and widely used, with an active community.
 - [MyBatis](https://github.com/mybatis/mybatis-3) - Couples objects with stored procedures or SQL statements.
 - [mybatis-dynamic](https://github.com/myacelw/mybatis-dynamic) - Code-first dynamic ORM for MyBatis with runtime schema modification.
