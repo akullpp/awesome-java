@@ -1218,6 +1218,7 @@ _Libraries which provide general utility functions._
 - [java-refined](https://github.com/JunggiKim/java-refined) - Zero-dependency refinement types for Java 8+ with type-safe wrappers covering numerics, strings, and collections.
 - [PipelinR](https://github.com/sizovs/pipelinr) - Small utility library for using handlers and commands with pipelines.
 - [Semver4j](https://github.com/semver4j/semver4j) - Lightweight library that helps you handling semantic versioning with different modes.
+- [spring-chain-of-responsibility](https://github.com/evmetatron/spring-chain-of-responsibility) - Autowires Spring Boot beans into a Chain of Responsibility via `@Order` and `@ChainNext`, no manual wiring.
 - [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
 - [Zip4j](https://github.com/srikanth-lingala/zip4j) - Reads, writes, encrypts and streams ZIP files.
 
