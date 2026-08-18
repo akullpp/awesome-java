@@ -1259,7 +1259,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [Takes](https://github.com/yegor256/takes) - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.
 - [tinystruct](https://github.com/tinystruct/tinystruct) - Lightweight, pluggable framework for building Java applications with CLI, HTTP, and modular extension support.
 - [Vaadin](https://vaadin.com) - Full-stack Java platform for building browser applications with server-side components. <!-- github: vaadin/platform, vaadin/flow, vaadin/flow-components, vaadin/spring -->
-- [webforJ](https://github.com/webforj/webforj) - Full-stack platform where the UI is composed and driven from Java on the server, with a component library built on web components, routing, data binding, Spring Boot integration, and publishing of routed views as interactive MCP Apps inside AI hosts.
+- [webforJ](https://github.com/webforj/webforj) - Full-stack platform that composes the UI in Java on the server using a library of web components.
 - [WebForms Core](https://github.com/webforms-core) - A technology for managing HTML tags from the server.
 - [Erupt](https://github.com/erupts/erupt) - Annotation-Driven Low-Code & JPA Visualization.
 
