@@ -289,6 +289,7 @@ _Everything that simplifies interactions with the database._
 - [eXist](https://github.com/eXist-db/exist) - NoSQL document database and application platform.
 - [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
 - [Flyway](https://github.com/flyway/flyway) - Simple database migration tool.
+- [JQuick SQL](https://github.com/paohaijiao/jquick-sql) - Embeddable, lightweight distributed SQL engine featuring heterogeneous federated query support for unified data access across disparate systems.
 - [H2](https://github.com/h2database/h2database) - Small SQL database notable for its in-memory functionality.
 - [HikariCP](https://github.com/brettwooldridge/HikariCP) - High-performance JDBC connection pool.
 - [HSQLDB](https://hsqldb.org/) - HyperSQL 100% Java database.
