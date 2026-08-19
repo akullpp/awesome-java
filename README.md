@@ -4,7 +4,7 @@
 
 A curated list of noteworthy Java frameworks, libraries, tools and resources.
 
-<sub>811 projects · 80 categories · 85 resources</sub>
+<sub>818 projects · 80 categories · 85 resources</sub>
 
 <sub>Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months</sub>
 
@@ -15,7 +15,7 @@ A curated list of noteworthy Java frameworks, libraries, tools and resources.
 ## Projects
 
 <details id="architecture">
-<summary><strong>Architecture</strong> <kbd>4 projects</kbd></summary>
+<summary><strong>Architecture</strong> <kbd>5 projects</kbd></summary>
 
 _Frameworks and libraries that help implementing and verifying design and architecture concepts._
 
@@ -26,6 +26,8 @@ _Frameworks and libraries that help implementing and verifying design and archit
 > **[jQAssistant](https://github.com/jQAssistant/jqassistant)** <kbd>★ 288</kbd> <kbd>GPL-3.0</kbd> 🟢<br>Static code analysis with Neo4J-based query language.
 
 > **[Taikai](https://github.com/enofex/taikai)** <kbd>★ 250</kbd> <kbd>MIT</kbd> 🟢<br>ArchUnit extension with predefined architecture rules for common Java technologies.
+
+> **[WireDoctor](https://github.com/ddsha441981/wiredoctor)** <kbd>★ 7</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Runtime diagnostic for Spring Boot apps that detects cyclic bean dependencies and slow beans, with CI regression gates.
 
 </details>
 
@@ -423,7 +425,7 @@ _Frameworks and libraries that simplify reading/writing CSV data._
 </details>
 
 <details id="data-processing">
-<summary><strong>Data Processing</strong> <kbd>8 projects</kbd></summary>
+<summary><strong>Data Processing</strong> <kbd>9 projects</kbd></summary>
 
 _Tools for batch, stream, table and data-transformation workloads._
 
@@ -436,6 +438,8 @@ _Tools for batch, stream, table and data-transformation workloads._
 > **[Embulk](https://github.com/embulk/embulk)** <kbd>★ 1.8k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
 
 > **[OpenRefine](https://github.com/OpenRefine/OpenRefine)** <kbd>★ 11.9k</kbd> <kbd>BSD-3-Clause</kbd> 🟢<br>Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+
+> **[Scriptella ETL](https://github.com/scriptella/scriptella-etl)** <kbd>★ 115</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Open-source Java-based ETL and script execution tool for transferring and transforming data between databases, files, and other sources.
 
 > **[Siddhi](https://github.com/siddhi-io/siddhi)** <kbd>★ 1.6k</kbd> <kbd>Apache-2.0</kbd> 🟠<br>Cloud native streaming and complex event processing engine.
 
@@ -463,7 +467,7 @@ _Efficient and specific data structures._
 </details>
 
 <details id="database">
-<summary><strong>Database</strong> <kbd>49 projects</kbd></summary>
+<summary><strong>Database</strong> <kbd>50 projects</kbd></summary>
 
 _Everything that simplifies interactions with the database._
 
@@ -518,6 +522,8 @@ _Everything that simplifies interactions with the database._
 > **[Jinq](https://github.com/my2iu/Jinq)** <kbd>★ 661</kbd> 🔴<br>Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).
 
 > **[jOOQ](https://github.com/jOOQ/jOOQ)** <kbd>★ 6.8k</kbd> 🟢<br>Generates typesafe code based on SQL schema.
+
+> **[JQuick SQL](https://github.com/paohaijiao/jquick-sql)** <kbd>★ 241</kbd> 🟢<br>Embeddable, lightweight distributed SQL engine featuring heterogeneous federated query support for unified data access across disparate systems.
 
 > **[Lettuce](https://github.com/redis/lettuce)** <kbd>★ 5.8k</kbd> <kbd>MIT</kbd> 🟢<br>Lettuce is a scalable Redis client for building non-blocking Reactive applications.
 
@@ -1280,7 +1286,7 @@ _Everything else._
 
 _Tools for creating or managing mobile applications._
 
-> **[Codename One](https://github.com/codenameone/CodenameOne)** <kbd>★ 1.9k</kbd> 🟢<br>Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0)
+> **[Codename One](https://github.com/codenameone/CodenameOne)** <kbd>★ 1.9k</kbd> 🟢<br>Cross-platform Java framework for native mobile, desktop, web and watch apps. (GPL-2.0-only WITH Classpath-exception-2.0)
 
 > **[Gluon Substrate](https://github.com/gluonhq/substrate)** <kbd>★ 444</kbd> <kbd>GPL-2.0</kbd> 🟢<br>Builds native JavaFX applications for desktop, mobile and embedded targets.
 
@@ -1425,7 +1431,7 @@ _Libraries for building network clients and servers._
 </details>
 
 <details id="orm">
-<summary><strong>ORM</strong> <kbd>11 projects</kbd></summary>
+<summary><strong>ORM</strong> <kbd>12 projects</kbd></summary>
 
 _APIs that handle the persistence of objects._
 
@@ -1436,6 +1442,8 @@ _APIs that handle the persistence of objects._
 > **[Ebean](https://github.com/ebean-orm/ebean)** <kbd>★ 1.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Provides simple and fast data access.
 
 > **[EclipseLink](https://github.com/eclipse-ee4j/eclipselink)** <kbd>★ 244</kbd> 🟢<br>Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
+
+> **[Ekbatan](https://github.com/ekbatan-io/ekbatan)** <kbd>★ 20</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Modern Java persistence framework for event-driven systems, with an ergonomic outbox that commits state and events in one transaction.
 
 > **[Hibernate](https://github.com/hibernate/hibernate-orm)** <kbd>★ 6.5k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Robust and widely used, with an active community.
 
@@ -1852,7 +1860,7 @@ _Libraries that handle security, authentication, authorization or session manage
 
 > **[Password4j](https://github.com/Password4j/password4j)** <kbd>★ 430</kbd> <kbd>Apache-2.0</kbd> 🟠<br>User-friendly cryptographic library that supports Argon2, Bcrypt, Scrypt, PBKDF2 and various other cryptographic hash functions.
 
-> **[ScribeJava](https://github.com/scribejava/scribejava)** <kbd>★ 5.5k</kbd> <kbd>MIT</kbd> 🟢<br>OAuth client library supporting OAuth 1.0a, OAuth 2.0 and numerous providers.
+> **[ScribeJava](https://github.com/scribejava/scribejava)** <kbd>★ 5.5k</kbd> <kbd>MIT</kbd> 🟠<br>OAuth client library supporting OAuth 1.0a, OAuth 2.0 and numerous providers.
 
 > **[SecurityBuilder](https://github.com/tersesystems/securitybuilder)** <kbd>★ 49</kbd> <kbd>Apache-2.0</kbd> 🔴<br>Fluent Builder API for JCA and JSSE classes and especially X.509 certificates.
 
@@ -1961,7 +1969,7 @@ _Tools that substitute expressions in a template._
 </details>
 
 <details id="testing">
-<summary><strong>Testing</strong> <kbd>54 projects</kbd></summary>
+<summary><strong>Testing</strong> <kbd>55 projects</kbd></summary>
 
 _Tools that test from model to the view._
 
@@ -2015,7 +2023,7 @@ _Provide environments to run tests for a specific use case._
 
 > **[Selenium Boot](https://github.com/seleniumboot/selenium-boot)** <kbd>★ 11</kbd> 🟢<br>Zero-boilerplate Selenium + TestNG framework with auto driver management, smart retry, self-healing locators, AI failure analysis, and a built-in HTML report.
 
-#### Integration <kbd>11 projects</kbd>
+#### Integration <kbd>12 projects</kbd>
 
 _Tools for integration, service and contract testing._
 
@@ -2030,6 +2038,8 @@ _Tools for integration, service and contract testing._
 > **[Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java)** <kbd>★ 176</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.
 
 > **[Karate](https://github.com/karatelabs/karate)** <kbd>★ 8.9k</kbd> <kbd>MIT</kbd> 🟢<br>DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.
+
+> **[kubetest4j](https://github.com/skodjob/kubetest4j)** <kbd>★ 23</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Declarative, annotation-based testing library for Kubernetes and OpenShift with automatic resource lifecycle management, multi-cluster support, and integrated log collection.
 
 > **[Pact JVM](https://github.com/pact-foundation/pact-jvm)** <kbd>★ 1.1k</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Consumer-driven contract testing.
 
@@ -2108,7 +2118,7 @@ _Tools for load and performance testing._
 </details>
 
 <details id="utility">
-<summary><strong>Utility</strong> <kbd>16 projects</kbd></summary>
+<summary><strong>Utility</strong> <kbd>17 projects</kbd></summary>
 
 _Libraries which provide general utility functions._
 
@@ -2139,6 +2149,8 @@ _Libraries which provide general utility functions._
 > **[PipelinR](https://github.com/sizovs/pipelinr)** <kbd>★ 493</kbd> <kbd>MIT</kbd> 🟠<br>Small utility library for using handlers and commands with pipelines.
 
 > **[Semver4j](https://github.com/semver4j/semver4j)** <kbd>★ 117</kbd> <kbd>MIT</kbd> 🟢<br>Lightweight library that helps you handling semantic versioning with different modes.
+
+> **[spring-chain-of-responsibility](https://github.com/evmetatron/spring-chain-of-responsibility)** <kbd>★ 3</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Autowires Spring Boot beans into a Chain of Responsibility via `@Order` and `@ChainNext`, no manual wiring.
 
 > **[Underscore-java](https://github.com/javadev/underscore-java)** <kbd>★ 550</kbd> <kbd>MIT</kbd> 🟢<br>Port of Underscore.js functions.
 
@@ -2177,7 +2189,7 @@ _Libraries that analyze the content of websites._
 </details>
 
 <details id="web-frameworks">
-<summary><strong>Web Frameworks</strong> <kbd>18 projects</kbd></summary>
+<summary><strong>Web Frameworks</strong> <kbd>19 projects</kbd></summary>
 
 _Frameworks that handle the communication between the layers of a web application._
 
@@ -2214,6 +2226,8 @@ _Frameworks that handle the communication between the layers of a web applicatio
 > **[tinystruct](https://github.com/tinystruct/tinystruct)** <kbd>★ 353</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Lightweight, pluggable framework for building Java applications with CLI, HTTP, and modular extension support.
 
 > **[Vaadin](https://vaadin.com)** <kbd>★ 1.7k</kbd> 🟢<br>Full-stack Java platform for building browser applications with server-side components.
+
+> **[webforJ](https://github.com/webforj/webforj)** <kbd>★ 66</kbd> <kbd>MIT</kbd> 🟢<br>Full-stack platform that composes the UI in Java on the server using a library of web components.
 
 > **[WebForms Core](https://github.com/webforms-core)**<br>A technology for managing HTML tags from the server.
 
