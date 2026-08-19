@@ -1151,6 +1151,7 @@ _Tools for integration, service and contract testing._
 - [GreenMail](https://github.com/greenmail-mail-test/greenmail) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
 - [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) - Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.
 - [Karate](https://github.com/karatelabs/karate) - DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.
+- [kubetest4j](https://github.com/skodjob/kubetest4j) - Declarative, annotation-based testing library for Kubernetes and OpenShift with automatic resource lifecycle management, multi-cluster support, and integrated log collection.
 - [Pact JVM](https://github.com/pact-foundation/pact-jvm) - Consumer-driven contract testing.
 - [REST Assured](https://github.com/rest-assured/rest-assured) - DSL for easy testing of REST/HTTP services.
 - [Testcontainers](https://github.com/testcontainers/testcontainers-java) - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
