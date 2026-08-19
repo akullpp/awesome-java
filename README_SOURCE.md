@@ -257,6 +257,7 @@ _Tools for batch, stream, table and data-transformation workloads._
 - [easy-batch](https://github.com/j-easy/easy-batch) - Set up batch jobs with simple processing pipelines. Records are read in sequence from a data source, processed in pipeline and written in batches to a data sink.
 - [Embulk](https://github.com/embulk/embulk) - Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
 - [OpenRefine](https://github.com/OpenRefine/OpenRefine) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+- [Scriptella ETL](https://github.com/scriptella/scriptella-etl) - Open-source Java-based ETL and script execution tool for transferring and transforming data between databases, files, and other sources.
 - [Siddhi](https://github.com/siddhi-io/siddhi) - Cloud native streaming and complex event processing engine.
 - [Smooks](https://github.com/smooks/smooks) - Framework for fragment-based message processing. (Apache-2.0 OR LGPL-3.0-or-later)
 - [Tablesaw](https://github.com/jtablesaw/tablesaw) - Includes a data-frame, an embedded column store, and hundreds of methods to transform, summarize, or filter data.
