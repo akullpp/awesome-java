@@ -500,6 +500,7 @@ _Frameworks that support the development of games._
 - [input4j](https://github.com/gurkenlabs/input4j) - Lightweight, cross-platform library for gamepad and joystick input handling.
 - [JBox2D](https://github.com/jbox2d/jbox2d) - Port of the renowned C++ 2D physics engine.
 - [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine) - Game engine for modern 3D development.
+- [LeTrain](https://github.com/antoniovazquezaraujo/LeTrain) - Open-source procedural train simulator using Java 17, LibGDX and Lanterna.
 - [libGDX](https://github.com/libgdx/libgdx) - All-round cross-platform, high-level framework.
 - [Litiengine](https://github.com/gurkenlabs/litiengine) - AWT-based, lightweight 2D game engine.
 - [LWJGL](https://github.com/LWJGL/lwjgl3) - Robust framework that abstracts libraries like OpenGL/CL/AL.
