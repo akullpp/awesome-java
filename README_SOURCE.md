@@ -824,6 +824,7 @@ _APIs that handle the persistence of objects._
 - [ObjectiveSql](https://github.com/braisdom/ObjectiveSql) - ActiveRecord ORM for rapid development and convention over configuration.
 - [Permazen](https://github.com/permazen/permazen) - Language-natural persistence layer.
 - [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) - Simple database and CSV mapper.
+- [Ujorm](https://github.com/pponec/ujorm) - Maps rows to JavaBeans or Java records with no third-party runtime dependencies, deliberately omitting lazy loading, 1:M collections and transaction management.
 
 ### PaaS
 
