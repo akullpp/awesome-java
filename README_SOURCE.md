@@ -1242,6 +1242,7 @@ _Libraries that analyze the content of websites._
 - [Apache Nutch](https://github.com/apache/nutch) - Highly extensible, highly scalable web crawler for production environments.
 - [crawlberg](https://github.com/xberg-io/crawlberg) - Crawls and scrapes websites through a Java binding with Markdown conversion and optional browser rendering.
 - [jsoup](https://github.com/jhy/jsoup) - Scrapes, parses, manipulates and cleans HTML.
+- [Norconex Crawler](https://github.com/Norconex/crawler) - Modular web and file-system crawler with official Docker images and a browser-based configurator.
 - [StormCrawler](https://github.com/apache/stormcrawler) - SDK for building low-latency and scalable web crawlers.
 - [webmagic](https://github.com/code4craft/webmagic) - Scalable crawler with downloading, url management, content extraction and persistent.
 
