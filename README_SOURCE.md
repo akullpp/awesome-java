@@ -393,6 +393,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
 - [Curator Framework](https://github.com/apache/curator) - High-level API for Apache ZooKeeper.
 - [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Circuit breaker design pattern for Dropwizard.
 - [Failsafe](https://github.com/failsafe-lib/failsafe) - Simple failure handling with retries and circuit breakers.
+- [Fuse](https://github.com/FrodyGr/Fuse) - Ultra lightweight zero-dependency Circuit Breaker for Java microservices based on lock-free CAS.
 - [Hazelcast](https://github.com/hazelcast/hazelcast) - Highly scalable in-memory datagrid with a free open-source version.
 - [JGroups](https://github.com/belaban/JGroups) - Toolkit for reliable messaging and cluster creation.
 - [resilience4j](https://github.com/resilience4j/resilience4j) - Functional fault tolerance library.
