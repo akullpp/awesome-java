@@ -106,6 +106,8 @@ _Libraries that provide caching facilities._
 
 _Libraries for everything related to the CLI._
 
+- [wet-glue](https://github.com/Noob-stupid/wet-glue) - Manages undecided code with two comment lines: mark a region, swap alternative implementations in, benchmark them and seal the winner as plain code.
+
 #### Argument Parsing
 
 _Libraries to assist with parsing command line arguments._
