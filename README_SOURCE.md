@@ -454,6 +454,7 @@ _Libraries related to the financial domain._
 - [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot) - Trading bot framework.
 - [Joda-Money](https://github.com/JodaOrg/joda-money) - Basic currency and money classes and algorithms not provided by the JDK.
 - [OpenGamma Strata](https://github.com/OpenGamma/Strata) - Analytics and market risk library for financial products.
+- [PesaFlow4J](https://github.com/JoseModi97/pesaflow4j) - Dependency-free SDK for the Kenya PesaFlow/eCitizen PaymentAPI, including M-Pesa STK push and webhook signature verification.
 - [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency financial information exchange.
 - [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API.
 - [ta4j](https://github.com/ta4j/ta4j) - Library for technical analysis.
