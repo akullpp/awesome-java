@@ -1428,8 +1428,6 @@ _Libraries for building network clients and servers._
 
 > **[urnlib](https://github.com/slub/urnlib)** <kbd>★ 36</kbd> <kbd>GPL-3.0</kbd> 🟠<br>Represent, parse and encode URNs, as in RFC 2141.
 
-> **[WebSocket4Java](https://github.com/tuyucheng777/WebSocket4Java)** <kbd>★ 1</kbd> <kbd>MIT</kbd> 🟢<br>High-performance WebSocket framework based on JDK NIO and virtual threads, with zero third-party dependencies at runtime.
-
 </details>
 
 <details id="orm">
