@@ -183,6 +183,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [Bootify](https://bootify.io) - Browser-based Spring Boot app generation with JPA model and REST API.
 - [Chocotea](https://github.com/cleopatra27/chocotea) - Generates postman collection, environment and integration tests from java code.
 - [CRUDGen](https://github.com/bariskokulu/CRUDGen) - Compile-time annotation processor generating CRUD layers, DTOs, JSON Patch, and custom HTTP endpoints for Spring Boot.
+- [DevOpsForge](https://devops-config-generator.vercel.app/springboot-docker-compose.html) - Browser-based visual Docker Compose and multi-stage Dockerfile generator for Spring Boot, PostgreSQL, and Caddy.
 - [EasyEntityToDTO](https://github.com/Marcel091004/EasyEntityToDTO) - Annotation processor for automatic DTO and Mapper generation with zero boilerplate.
 - [Geci](https://github.com/verhas/javageci) - Discovers files that need generated code, updates automatically and writes to the source with a convenient API.
 - [Immutables](https://github.com/immutables/immutables) - Annotation processors to generate simple, safe and consistent value objects.
