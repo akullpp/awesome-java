@@ -32,7 +32,7 @@ _Frameworks and libraries that help implementing and verifying design and archit
 </details>
 
 <details id="artificial-intelligence">
-<summary><strong>Artificial Intelligence</strong> <kbd>15 projects</kbd></summary>
+<summary><strong>Artificial Intelligence</strong> <kbd>16 projects</kbd></summary>
 
 _Frameworks for building applications with AI, agents and knowledge-based systems._
 
@@ -41,6 +41,8 @@ _Frameworks for building applications with AI, agents and knowledge-based system
 > **[AgentScope Java](https://github.com/agentscope-ai/agentscope-java)** <kbd>★ 5.2k</kbd> 🟢<br>Framework for building distributed, long-running AI agents with tool execution, persistence and multi-agent orchestration.
 
 > **[Anahata ASI](https://github.com/anahata-os/anahata-asi)** <kbd>★ 26</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Java agent container with local LLM adapters, stateful tool execution, context management and IDE integration.
+
+> **[ARA](https://github.com/xmor/ara)** <kbd>★ 3</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Java 21 framework for autonomous AI agents and multi-agent systems, with LLM integration, tool calling, deterministic I/O contracts, RAG, human-in-the-loop and execution strategies (ReAct, ReSpAct, ReflAct, Reflexion).
 
 > **[Dokimos](https://github.com/dokimos-dev/dokimos)** <kbd>★ 52</kbd> <kbd>MIT</kbd> 🟢<br>Evaluation framework for LLM and AI-agent applications that scores responses, validates tool calls and execution traces, and catches quality regressions in CI.
 
