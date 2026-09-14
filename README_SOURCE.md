@@ -868,6 +868,7 @@ _Tools for performance analysis, profiling and benchmarking._
 - [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 - [JVM Hotpath](https://github.com/sfkamath/jvm-hotpath) - Java agent for line-level execution frequency analysis to identify algorithmic bottlenecks.
 - [Argus](https://github.com/rlaope/Argus) - JVM diagnostics CLI for jcmd, JFR, async-profiler, heap analysis and machine-readable health verdicts.
+- [ThreadMine Anonymizer](https://github.com/maschiojv/threadmine-anonymizer) - CLI that masks application names in JVM thread dumps locally with keyed tokens before they are shared with an analyzer, and restores them in the resulting report.
 
 ### Platform
 
