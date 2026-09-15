@@ -15,9 +15,9 @@ Use absolute HTTPS canonical links and submit one project or resource per pull r
 
 _Tools for tracking API evolution and detecting breaking changes between library versions._
 
-* [japicmp](https://github.com/siom79/japicmp) - Compares two library JARs and reports source- and binary-incompatible changes.
-* [Revapi](https://github.com/revapi/revapi) - Extensible API analysis and change tracking with configurable source, binary and semantic compatibility checks.
-* [Roseau](https://github.com/alien-tools/roseau) - Detects source- and binary-breaking changes by comparing library versions from JAR files or source code.
+- [japicmp](https://github.com/siom79/japicmp) - Compares two library JARs and reports source- and binary-incompatible changes.
+- [Revapi](https://github.com/revapi/revapi) - Extensible API analysis and change tracking with configurable source, binary and semantic compatibility checks.
+- [Roseau](https://github.com/alien-tools/roseau) - Detects source- and binary-breaking changes by comparing library versions from JAR files or source code.
 
 ### Architecture
 
