@@ -1181,6 +1181,7 @@ _Other stuff related to testing._
 - [junit-pioneer](https://github.com/junit-pioneer/junit-pioneer) - JUnit 5 extension pack, pushing the frontiers on Jupiter.
 - [LogCaptor](https://github.com/Hakky54/log-captor) - Captures log entries for unit testing purposes.
 - [log-capture](https://github.com/dm-drogeriemarkt/log-capture) - Captures log entries and provides assertions for unit and integration testing.
+- [Qualflare TestNG](https://github.com/Qualflare/qualflare-testng) - TestNG listener that keeps every retry attempt and reports timeouts and configuration failures as distinct statuses.
 - [Selfie](https://github.com/diffplug/selfie) - Snapshot testing (inline and on disk).
 - [skipper-java](https://github.com/get-skipper/skipper-java) - Real-time test execution control via Google Spreadsheet, enabling instant toggle without code changes.
 - [Stebz](https://github.com/stebz/stebz) - Multi-approach framework for test steps managing.
