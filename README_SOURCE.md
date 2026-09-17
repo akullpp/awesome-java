@@ -441,6 +441,7 @@ _Libraries that assist with processing office document formats._
 
 _Libraries and SDKs for evaluating and managing feature flags._
 
+- [Featureflip Java SDK](https://github.com/canopy-labs/featureflip-java) - Java SDK for the Featureflip hosted platform, evaluating flags locally from a streamed rule set with an OpenFeature provider available.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
 - [OpenFeature Java SDK](https://github.com/open-feature/java-sdk) - Vendor-neutral API for evaluating feature flags in Java applications.
 - [Rollgate Java SDK](https://github.com/rollgate/sdks/tree/main/packages/sdk-java) - Java SDK for evaluating Rollgate feature flags with real-time configuration updates.
