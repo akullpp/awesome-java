@@ -807,7 +807,7 @@ _Libraries for building network clients and servers._
 - [Undertow](https://github.com/undertow-io/undertow) - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly.
 - [urnlib](https://github.com/slub/urnlib) - Represent, parse and encode URNs, as in RFC 2141.
 - [Fluency](https://github.com/komamitsu/fluency) - High throughput data ingestion logger to Fluentd and Fluent Bit.
-- [WebSocket4Java](https://github.com/tuyucheng777/WebSocket4Java) - High-performance WebSocket framework based on JDK NIO and virtual threads, with zero third-party dependencies at runtime.
+- [WebSocket4Java](https://github.com/tuyucheng777/WebSocket4Java) - WebSocket framework based on JDK NIO and virtual threads, with zero third-party dependencies at runtime.
 
 ### ORM
 
