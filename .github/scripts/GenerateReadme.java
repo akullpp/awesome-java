@@ -532,6 +532,19 @@ final class GenerateReadme {
         .append("<sub>License chips use GitHub SPDX metadata when available.</sub>\n\n")
         .append("<sub>Entries spanning several repositories combine their stars, use the most recent push for activity ")
         .append("and show a license only when all repositories agree.</sub>\n\n")
+        .append("<details>\n")
+        .append("<summary><strong>Contents</strong></summary>\n\n")
+        .append("<strong>Projects</strong>\n\n");
+
+    source.categories().stream()
+        .sorted(Comparator.comparing(category -> category.name, TEXT_ORDER))
+        .forEach(category -> out.append("- [").append(category.name).append("](#")
+            .append(slug(category.name)).append(")\n"));
+
+    out.append("\n<strong>Resources</strong>\n\n");
+    source.resources().forEach(resource -> out.append("- [").append(resource.name).append("](#")
+        .append(slug(resource.name)).append(")\n"));
+    out.append("\n</details>\n\n")
         .append("## Projects\n\n");
 
     source.categories().stream()
@@ -947,7 +960,7 @@ final class GenerateReadme {
         "license":{"spdx_id":"NOASSERTION"}}
         """);
     require(unknownLicense.license() == null, 0, "Unknown API license parsing");
-    var category = new Category("Test");
+    var category = new Category("API Compatibility");
     category.description = "Test projects.";
     category.items.add(umbrella);
     var catalog = new Catalog("# Test", "Test.", List.of(category), List.of());
@@ -962,6 +975,14 @@ final class GenerateReadme {
         )),
         today,
         "test"
+    );
+    require(
+        rendered.contains("- [API Compatibility](#api-compatibility)")
+            && rendered.contains("<details id=\"api-compatibility\">")
+            && rendered.contains("- [Links](#links)")
+            && rendered.contains("<details id=\"links\">"),
+        0,
+        "Contents links"
     );
     require(rendered.contains("Suggest a project or resource"), 0, "Contribution CTA");
     require(rendered.contains("CC BY-SA 4.0") && rendered.contains("[MIT](LICENSE-CODE)"),
