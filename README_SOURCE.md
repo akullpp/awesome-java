@@ -36,6 +36,7 @@ _Frameworks for building applications with AI, agents and knowledge-based system
 - [Anahata ASI](https://github.com/anahata-os/anahata-asi) - Java agent container with local LLM adapters, stateful tool execution, context management and IDE integration.
 - [AgentScope Java](https://github.com/agentscope-ai/agentscope-java) - Framework for building distributed, long-running AI agents with tool execution, persistence and multi-agent orchestration.
 - [A2A Java SDK](https://github.com/a2aproject/a2a-java) - Official Java SDK for the Agent2Agent protocol.
+- [ARA](https://github.com/xmor/ara) - Java framework for AI agents with tool calling, deterministic input and output contracts, and configurable execution strategies.
 - [Dokimos](https://github.com/dokimos-dev/dokimos) - Evaluation framework for LLM and AI-agent applications that scores responses, validates tool calls and execution traces, and catches quality regressions in CI.
 - [Google Gen AI Java SDK](https://github.com/googleapis/java-genai) - Official Java SDK for integrating Google generative AI models.
 - [JADE](https://jade.tilab.com) - Framework and environment for building and debugging multi-agent systems. (LGPL-2.0-only)
