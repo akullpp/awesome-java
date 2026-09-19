@@ -151,6 +151,7 @@ _Tools that provide metrics and quality measurements._
 - [OpenRewrite](https://github.com/openrewrite/rewrite) - Automates large-scale source-code refactoring through reusable recipes.
 - [OpenTaint](https://github.com/seqra/opentaint) - Interprocedural taint analyzer for Java and Spring applications with reusable security rules and dependency models.
 - [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
+- [RealDiff](https://github.com/issacnitin/RealDiff) - Compares runtime method arguments and return values across Git revisions by running existing Maven or Gradle tests.
 - [RefactorFirst](https://github.com/jimbethancourt/RefactorFirst) - Identifies and prioritizes God Classes and Highly Coupled classes.
 - [SonarJava](https://github.com/SonarSource/sonar-java) - Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
 - [Spoon](https://github.com/INRIA/spoon) - Library for analyzing and transforming Java source code.
