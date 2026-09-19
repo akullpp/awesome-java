@@ -465,6 +465,7 @@ _Libraries and SDKs for evaluating and managing feature flags._
 _Libraries related to the financial domain._
 
 - [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot) - Trading bot framework.
+- [iban-commons](https://github.com/SpeedBankingDe/iban-commons) - Zero-dependency IBAN and BIC toolkit with allocation-free validation plus parsing and formatting for 127 countries.
 - [Joda-Money](https://github.com/JodaOrg/joda-money) - Basic currency and money classes and algorithms not provided by the JDK.
 - [nablatensor](https://github.com/nablatensor-dev/nablatensor) - Adjoint automatic differentiation for quantitative finance; records a valuation once and replays the tape to get a price and every Greek from one reverse sweep, on CPU, SIMD or GPU.
 - [OpenGamma Strata](https://github.com/OpenGamma/Strata) - Analytics and market risk library for financial products.
