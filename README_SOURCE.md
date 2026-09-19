@@ -759,7 +759,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
 - [Prometheus](https://github.com/prometheus/client_java) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
 - [Sentry](https://github.com/getsentry/sentry-java) - Integration with [Sentry](https://github.com/getsentry/sentry), an application error tracking and performance analysis platform.
 - [SPM](https://github.com/sematext/sematext-agent-java) - Performance monitor with distributing transaction tracing for JVM apps.
-- [StatLite](https://github.com/PVRLabs/statlite) - Lightweight, self-hosted monitoring dashboard for Spring Boot applications and other services exposing the StatLite metrics schema, with SQLite storage and no Prometheus or Grafana required.
+- [StatLite](https://github.com/PVRLabs/statlite) - Self-hosted monitoring dashboard with direct Spring Boot Actuator/Micrometer and Quarkus integrations, SQLite storage, and no Prometheus or Grafana required.
 - [zipkin](https://github.com/openzipkin/zipkin) - Distributed tracing system which gathers timing data needed to troubleshoot latency problems in microservice architectures.
 
 ### Native
