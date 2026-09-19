@@ -1070,7 +1070,7 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Password4j](https://github.com/Password4j/password4j) - User-friendly cryptographic library that supports Argon2, Bcrypt, Scrypt, PBKDF2 and various other cryptographic hash functions.
 - [SecurityBuilder](https://github.com/tersesystems/securitybuilder) - Fluent Builder API for JCA and JSSE classes and especially X.509 certificates.
 - [ScribeJava](https://github.com/scribejava/scribejava) - OAuth client library supporting OAuth 1.0a, OAuth 2.0 and numerous providers.
-- [Spring Authorization Server](https://github.com/spring-projects/spring-authorization-server) - Implements OAuth 2.1 and OpenID Connect authorization server specifications for Spring.
+- [Spring Security](https://github.com/spring-projects/spring-security) - Authentication and access-control framework with OAuth 2.1 and OpenID Connect authorization server support.
 - [Themis](https://github.com/cossacklabs/themis) - Multi-platform high-level cryptographic library provides easy-to-use encryption for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications.
 - [Tink](https://github.com/tink-crypto/tink-java) - Provides a simple and misuse-proof API for common cryptographic tasks.
 - [Topaz](https://github.com/aserto-dev/topaz) - Fine-grained authorization for applications with support for RBAC, ABAC, and ReBAC.
