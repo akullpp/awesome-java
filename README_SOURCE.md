@@ -716,6 +716,7 @@ _Tools that help send messages between clients to ensure protocol independency._
 - [HiveMQ MQTT Client](https://github.com/hivemq/hivemq-mqtt-client) - Reactive and blocking Java client for MQTT 3.1.1 and MQTT 5.
 - [JeroMQ](https://github.com/zeromq/jeromq) - Implementation of ZeroMQ.
 - [RabbitMQ Java client](https://github.com/rabbitmq/rabbitmq-java-client) - RabbitMQ client.
+- [Railhook](https://github.com/vadymkykalo/railhook) - Webhook gateway that sends signed webhooks to subscribers with retries, per-endpoint ordering and replay, and receives provider webhooks with signature verification, deduplication and forwarding.
 - [Pushy](https://github.com/jchambers/pushy) - Java library for sending Apple Push Notification service messages.
 - [Simple Java Mail](https://github.com/bbottema/simple-java-mail) - Mailing with a clean and fluent API.
 - [Smack](https://github.com/igniterealtime/Smack) - Cross-platform XMPP client library.
