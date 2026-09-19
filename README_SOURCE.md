@@ -861,6 +861,7 @@ _Tools for performance analysis, profiling and benchmarking._
 
 - [async-profiler](https://github.com/async-profiler/async-profiler) - Low-overhead sampling profiler for CPU, allocation and lock analysis on the JVM.
 - [fastThread](https://fastthread.io) - Analyze and visualize thread dumps with a free cloud-based upload interface.
+- [ThreadMine](https://threadmine.dev/en) - Web-based analyzer for JVM thread dumps from HotSpot, OpenJ9, Zing and GraalVM that detects deadlocks, pool exhaustion and virtual thread pinning. Free tier with paid plans.
 - [GCeasy](https://gceasy.io) - Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.
 - [Heap Seance](https://github.com/SegfaultSorcerer/heap-seance) - Memory leak diagnostics that orchestrates jcmd, jmap, jstat, JFR, Eclipse MAT, and async-profiler into a structured investigation workflow with confidence-based verdicts.
 - [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
