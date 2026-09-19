@@ -151,6 +151,7 @@ _Tools that provide metrics and quality measurements._
 - [OpenRewrite](https://github.com/openrewrite/rewrite) - Automates large-scale source-code refactoring through reusable recipes.
 - [OpenTaint](https://github.com/seqra/opentaint) - Interprocedural taint analyzer for Java and Spring applications with reusable security rules and dependency models.
 - [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
+- [RealDiff](https://github.com/issacnitin/RealDiff) - Compares runtime method arguments and return values across Git revisions by running existing Maven or Gradle tests.
 - [RefactorFirst](https://github.com/jimbethancourt/RefactorFirst) - Identifies and prioritizes God Classes and Highly Coupled classes.
 - [SonarJava](https://github.com/SonarSource/sonar-java) - Static analyzer for SonarQube & SonarLint. (LGPL-3.0-only)
 - [Spoon](https://github.com/INRIA/spoon) - Library for analyzing and transforming Java source code.
@@ -195,6 +196,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [Lombok](https://github.com/projectlombok/lombok) - Code generator that aims to reduce verbosity.
 - [Record-Builder](https://github.com/Randgalt/record-builder) - Companion builder class, withers and templates for Java records.
 - [Spring CRUD Generator](https://github.com/mzivkovicdev/spring-crud-generator) - Maven plugin for generating Spring Boot CRUD applications from YAML/JSON specifications.
+- [SpringBoot Generator](https://www.springboot-generator.com) - Browser-based generator producing a Spring Boot CRUD REST API and an optional Angular or React frontend as separately deployable projects, including n-ary association entities. Commercial with a free tier.
 - [Telosys](https://www.telosys.org/) - Java code-generation toolkit with a CLI and model-driven template engine. <!-- github: telosys-tools-bricks/telosys-cli, telosys-tools-bricks/telosys-tools-generator -->
 
 ### Compiler-compiler
@@ -441,6 +443,7 @@ _Libraries that assist with processing office document formats._
 
 _Libraries and SDKs for evaluating and managing feature flags._
 
+- [Featureflip Java SDK](https://github.com/canopy-labs/featureflip-java) - Java SDK for the Featureflip hosted platform, evaluating flags locally from a streamed rule set with an OpenFeature provider available.
 - [FF4J](https://github.com/ff4j/ff4j) - Feature Flags for Java.
 - [OpenFeature Java SDK](https://github.com/open-feature/java-sdk) - Vendor-neutral API for evaluating feature flags in Java applications.
 - [Rollgate Java SDK](https://github.com/rollgate/sdks/tree/main/packages/sdk-java) - Java SDK for evaluating Rollgate feature flags with real-time configuration updates.
@@ -453,7 +456,9 @@ _Libraries related to the financial domain._
 
 - [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot) - Trading bot framework.
 - [Joda-Money](https://github.com/JodaOrg/joda-money) - Basic currency and money classes and algorithms not provided by the JDK.
+- [nablatensor](https://github.com/nablatensor-dev/nablatensor) - Adjoint automatic differentiation for quantitative finance; records a valuation once and replays the tape to get a price and every Greek from one reverse sweep, on CPU, SIMD or GPU.
 - [OpenGamma Strata](https://github.com/OpenGamma/Strata) - Analytics and market risk library for financial products.
+- [PesaFlow4J](https://github.com/JoseModi97/pesaflow4j) - Dependency-free SDK for the Kenya PesaFlow/eCitizen PaymentAPI, including M-Pesa STK push and webhook signature verification.
 - [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency financial information exchange.
 - [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API.
 - [ta4j](https://github.com/ta4j/ta4j) - Library for technical analysis.
@@ -824,6 +829,7 @@ _APIs that handle the persistence of objects._
 - [ObjectiveSql](https://github.com/braisdom/ObjectiveSql) - ActiveRecord ORM for rapid development and convention over configuration.
 - [Permazen](https://github.com/permazen/permazen) - Language-natural persistence layer.
 - [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper) - Simple database and CSV mapper.
+- [Ujorm](https://github.com/pponec/ujorm) - Maps rows to JavaBeans or Java records with no third-party runtime dependencies, deliberately omitting lazy loading, 1:M collections and transaction management.
 
 ### PaaS
 
@@ -859,6 +865,7 @@ _Tools for performance analysis, profiling and benchmarking._
 
 - [async-profiler](https://github.com/async-profiler/async-profiler) - Low-overhead sampling profiler for CPU, allocation and lock analysis on the JVM.
 - [fastThread](https://fastthread.io) - Analyze and visualize thread dumps with a free cloud-based upload interface.
+- [ThreadMine](https://threadmine.dev/en) - Web-based analyzer for JVM thread dumps from HotSpot, OpenJ9, Zing and GraalVM that detects deadlocks, pool exhaustion and virtual thread pinning. Free tier with paid plans.
 - [GCeasy](https://gceasy.io) - Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.
 - [Heap Seance](https://github.com/SegfaultSorcerer/heap-seance) - Memory leak diagnostics that orchestrates jcmd, jmap, jstat, JFR, Eclipse MAT, and async-profiler into a structured investigation workflow with confidence-based verdicts.
 - [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
@@ -868,6 +875,7 @@ _Tools for performance analysis, profiling and benchmarking._
 - [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
 - [JVM Hotpath](https://github.com/sfkamath/jvm-hotpath) - Java agent for line-level execution frequency analysis to identify algorithmic bottlenecks.
 - [Argus](https://github.com/rlaope/Argus) - JVM diagnostics CLI for jcmd, JFR, async-profiler, heap analysis and machine-readable health verdicts.
+- [ThreadMine Anonymizer](https://github.com/maschiojv/threadmine-anonymizer) - Local CLI that replaces an application's own package, class, method and thread names in JVM thread dumps with keyed tokens, keeps JDK and framework frames intact so the dump stays analyzable, and unmasks the analyzer's report afterwards.
 
 ### Platform
 
@@ -1029,6 +1037,7 @@ _Libraries that handle security, authentication, authorization or session manage
 
 - [Apache Shiro](https://github.com/apache/shiro) - Performs authentication, authorization, cryptography and session management.
 - [Ayza](https://github.com/Hakky54/ayza) - High-level SSL configuration builder for configuring HTTP clients and servers with SSL/TLS.
+- [Bashkit4j](https://github.com/tersePrompts/bashkit4j) - Sandboxed bash interpreter for running untrusted scripts in-process: in-memory filesystem, opt-in allowlisted host mounts, network denied by default.
 - [Bouncy Castle](https://github.com/bcgit/bc-java) - All-purpose cryptographic library and JCA provider offering a wide range of functions, from basic helpers to PGP/SMIME operations.
 - [Certificate Ripper](https://github.com/Hakky54/certificate-ripper) - CLI tool and library for extracting and exporting server certificates from HTTPS endpoints.
 - [Dependency-Track](https://github.com/DependencyTrack/dependency-track) - Software composition analysis platform for identifying supply-chain risk.
@@ -1181,6 +1190,7 @@ _Other stuff related to testing._
 - [junit-pioneer](https://github.com/junit-pioneer/junit-pioneer) - JUnit 5 extension pack, pushing the frontiers on Jupiter.
 - [LogCaptor](https://github.com/Hakky54/log-captor) - Captures log entries for unit testing purposes.
 - [log-capture](https://github.com/dm-drogeriemarkt/log-capture) - Captures log entries and provides assertions for unit and integration testing.
+- [Qualflare TestNG](https://github.com/Qualflare/qualflare-testng) - TestNG listener that keeps every retry attempt and reports timeouts and configuration failures as distinct statuses.
 - [Selfie](https://github.com/diffplug/selfie) - Snapshot testing (inline and on disk).
 - [skipper-java](https://github.com/get-skipper/skipper-java) - Real-time test execution control via Google Spreadsheet, enabling instant toggle without code changes.
 - [Stebz](https://github.com/stebz/stebz) - Multi-approach framework for test steps managing.
