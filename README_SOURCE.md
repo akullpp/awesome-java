@@ -196,6 +196,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [Lombok](https://github.com/projectlombok/lombok) - Code generator that aims to reduce verbosity.
 - [Record-Builder](https://github.com/Randgalt/record-builder) - Companion builder class, withers and templates for Java records.
 - [Spring CRUD Generator](https://github.com/mzivkovicdev/spring-crud-generator) - Maven plugin for generating Spring Boot CRUD applications from YAML/JSON specifications.
+- [SpringBoot Generator](https://www.springboot-generator.com) - Browser-based generator producing a Spring Boot CRUD REST API and an optional Angular or React frontend as separately deployable projects, including n-ary association entities. Commercial with a free tier.
 - [Telosys](https://www.telosys.org/) - Java code-generation toolkit with a CLI and model-driven template engine. <!-- github: telosys-tools-bricks/telosys-cli, telosys-tools-bricks/telosys-tools-generator -->
 
 ### Compiler-compiler
