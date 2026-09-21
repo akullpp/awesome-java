@@ -307,6 +307,7 @@ _Everything that simplifies interactions with the database._
 - [H2](https://github.com/h2database/h2database) - Small SQL database notable for its in-memory functionality.
 - [HikariCP](https://github.com/brettwooldridge/HikariCP) - High-performance JDBC connection pool.
 - [HSQLDB](https://hsqldb.org/) - HyperSQL 100% Java database.
+- [Jackcess](https://github.com/spannm/jackcess) - Pure Java library for reading from and writing to Microsoft Access databases, no ODBC/JDBC driver required.
 - [JanusGraph](https://github.com/JanusGraph/janusgraph) - Distributed graph database supporting pluggable storage and indexing backends.
 - [JDBI](https://github.com/jdbi/jdbi) - Convenient abstraction of JDBC.
 - [Jedis](https://github.com/redis/jedis) - Java client for Redis with synchronous, asynchronous and cluster APIs.
