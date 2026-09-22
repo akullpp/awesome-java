@@ -1154,6 +1154,7 @@ _Everything related to the creation and handling of random data._
 - [Instancio](https://github.com/instancio/instancio) - Automates data setup in unit tests by generating fully-populated, reproducible objects. Includes JUnit 5 extension.
 - [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.
 - [JMock](https://github.com/xcancloud/JMock) - JMock is a high-performance data generation and simulation component library implemented in Java.
+- [Mock Jutsu](https://github.com/altansayan/mock-jutsu-java) - Zero-dependency library generating checksum-valid financial and identity test data such as IBAN (MOD-97), Luhn-valid card numbers, national IDs, ISIN, and BIC/SWIFT, with a CLI, REST API, and JMeter plugin in addition to the SDK. Published on [Maven Central](https://central.sonatype.com/artifact/io.github.altansayan/mockjutsu).
 
 #### Frameworks
 
