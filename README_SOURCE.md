@@ -174,6 +174,7 @@ _Frameworks and tools that enable code coverage metrics collection for test suit
 - [OpenClover](https://github.com/openclover/clover) - Measures Java code coverage through source-code instrumentation, with build-tool and IDE integrations.
 - [Delta Coverage](https://github.com/gw-kit/delta-coverage-plugin) - Computes code coverage of new and modified code based on a provided diff, supporting JaCoCo and IntelliJ coverage engines.
 - [JaCoCo](https://github.com/jacoco/jacoco) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation.
+- [Supercov](https://github.com/supercorp-ai/supercov) - Measures line, branch, and MC/DC coverage of Java and Kotlin test runs and scores source files for code quality.
 
 ### Code Formatting
 
