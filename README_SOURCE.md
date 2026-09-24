@@ -335,6 +335,7 @@ _Everything that simplifies interactions with the database._
 - [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions) - Allows you to use MongoDB query language to query your relational database.
 - [StarRocks](https://github.com/StarRocks/starrocks) - Distributed SQL query engine for real-time analytics and data lakehouses.
 - [Trino](https://github.com/trinodb/trino) - Distributed SQL query engine for big data.
+- [UCanAccess](https://github.com/spannm/ucanaccess) - Pure Java JDBC driver for Microsoft Access databases, built on top of Jackcess.
 - [Vibur DBCP](https://github.com/vibur/vibur-dbcp) - JDBC connection pool library with advanced performance monitoring capabilities.
 - [Xodus](https://github.com/JetBrains/xodus) - Highly concurrent transactional schema-less and ACID-compliant embedded database.
 - [CosId](https://github.com/Ahoo-Wang/CosId) - Universal, flexible, high-performance distributed ID generator.
