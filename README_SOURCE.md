@@ -950,7 +950,7 @@ _Frameworks that are suites of multiple libraries encompassing several categorie
 
 #### Other
 
-- [Backbone Community](https://github.com/get-backbone/backbone-community) - Scaffold Quarkus domain microservices on an opinionated zero-trust SaaS platform foundation (auth, metrics, throttling, observability) with a path to AWS production. Community Licence (source-available, non-production).
+- [Backbone Community](https://github.com/get-backbone/backbone-community) - Full SaaS platform foundation for Quarkus: the zero-trust, observable plumbing that usually costs a platform team years to build, so you ship domain services in minutes instead. Community Licence (source-available, non-production); commercial tiers unlock AWS production.
 - [CUBA Platform](https://github.com/jmix-framework/jmix) - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin.
 - [Light-4J](https://github.com/networknt/light-4j/) - Fast, lightweight and productive microservices framework with built-in security.
 - [Spring Framework](https://github.com/spring-projects/spring-framework) - Comprehensive application framework for building Java applications.
