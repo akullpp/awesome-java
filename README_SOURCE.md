@@ -833,6 +833,7 @@ _Libraries for building network clients and servers._
 _APIs that handle the persistence of objects._
 
 - [Apache Cayenne](https://github.com/apache/cayenne) - Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation.
+- [APIJSON](https://github.com/APIJSON/APIJSON) - Real-Time no-code, powerful and secure ORM providing APIs and Docs without coding by Backend, and Frontend(Client) can customize response JSONs.
 - [Doma](https://github.com/domaframework/doma) - Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL.
 - [Ebean](https://github.com/ebean-orm/ebean) - Provides simple and fast data access.
 - [EclipseLink](https://github.com/eclipse-ee4j/eclipselink) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
