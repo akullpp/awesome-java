@@ -1511,8 +1511,6 @@ _Libraries that specialize in processing text._
 
 > **[Hypherator](https://github.com/ejossev/hypherator-java)** <kbd>★ 5</kbd> <kbd>MIT</kbd> 🔴<br>Java hyphenation library with iterator-like interface. Can be used out-of-the box - dictionaries for multiple languages are bundled in.
 
-> **[LingPipe](https://alias-i.com/lingpipe/)**<br>Toolkit for tasks ranging from POS tagging to sentiment analysis.
-
 </details>
 
 <details id="networking">
