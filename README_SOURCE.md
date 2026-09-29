@@ -331,6 +331,7 @@ _Everything that simplifies interactions with the database._
 - [Redisson](https://github.com/redisson/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
 - [requery](https://github.com/requery/requery) - Modern, lightweight but powerful object mapping and SQL generator. Easily map to or create databases, or perform queries and updates from any Java-using platform.
 - [SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler) - Discovers, documents and diagrams relational database schemas from Java, build tools and the command line.
+- [SchemaSynchronizer](https://github.com/eugenena/SchemaSynchronizer) - A tool for synchronization of DB schemas for Postgres, MariaDB, MySQL, SQL Server and Oracle.
 - [Spring Data Dynamic Query](https://github.com/tdilber/spring-data-dynamic-query) - Unified dynamic query interface for Spring Data JPA, MongoDB, and Elasticsearch, enabling advanced JOIN(s), OR logic, scoped conditions, powerful projections and advanced features with zero boilerplate.
 - [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions) - Allows you to use MongoDB query language to query your relational database.
 - [StarRocks](https://github.com/StarRocks/starrocks) - Distributed SQL query engine for real-time analytics and data lakehouses.
