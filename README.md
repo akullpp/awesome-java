@@ -2264,7 +2264,7 @@ _Tools for load and performance testing._
 </details>
 
 <details id="utility">
-<summary><strong>Utility</strong> <kbd>17 projects</kbd></summary>
+<summary><strong>Utility</strong> <kbd>18 projects</kbd></summary>
 
 _Libraries which provide general utility functions._
 
@@ -2297,6 +2297,8 @@ _Libraries which provide general utility functions._
 > **[Semver4j](https://github.com/semver4j/semver4j)** <kbd>★ 118</kbd> <kbd>MIT</kbd> 🟢<br>Lightweight library that helps you handling semantic versioning with different modes.
 
 > **[spring-chain-of-responsibility](https://github.com/evmetatron/spring-chain-of-responsibility)** <kbd>★ 3</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Autowires Spring Boot beans into a Chain of Responsibility via `@Order` and `@ChainNext`, no manual wiring.
+
+> **[SureTool](https://github.com/TASure/suretool)** <kbd>★ 0</kbd> <kbd>Apache-2.0</kbd> 🟢<br>Modular Java utility library for JDK 21+ covering strings, collections, dates, JSON, crypto, office, processes, math, compression, sockets and event-bus, with zero third-party runtime dependencies.
 
 > **[Underscore-java](https://github.com/javadev/underscore-java)** <kbd>★ 551</kbd> <kbd>MIT</kbd> 🟢<br>Port of Underscore.js functions.
 
