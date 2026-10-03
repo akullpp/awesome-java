@@ -239,7 +239,6 @@ _Libraries that provide external configuration._
 - [Externalized Properties](https://github.com/joel-jeremy/externalized-properties) - Simple, lightweight, yet powerful configuration library which supports resolution of properties from external sources such as files, databases, git repositories, and any custom sources, plus an extensible post-processing/conversion mechanism.
 - [Gestalt](https://github.com/gestalt-config/gestalt) - Gestalt offers a comprehensive solution to the challenges of configuration management. It allows you to source configuration data from multiple inputs, merge them intelligently, and present them in a structured, type-safe manner.
 - [ini4j](https://ini4j.sourceforge.net) - Provides an API for handling Windows' INI files.
-- [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
 - [microconfig](https://github.com/microconfig/microconfig) - Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed.
 - [NightConfig](https://github.com/TheElectronWill/night-config) - Configuration library supporting TOML, YAML, HOCON, JSON and in-memory formats.
 - [owner](https://github.com/matteobaccan/owner) - Reduces boilerplate of properties.
@@ -393,7 +392,6 @@ _Augmentation of the development process at a fundamental level._
 - [Manifold](https://github.com/manifold-systems/manifold) - Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.
 - [NoException](https://github.com/robertvazan/noexception) - Allows checked exceptions in functional interfaces and converts exceptions to Optional return.
 - [RR4J](https://github.com/Kartikvk1996/RR4J) - RR4J is a tool that records java bytecode execution and later allows developers to replay locally.
-- [SneakyThrow](https://github.com/rainerhahnekamp/sneakythrow) - Ignores checked exceptions without bytecode manipulation. Can also be used inside Java 8 stream operations.
 - [Tail](https://github.com/nrktkt/tail) - Enable infinite recursion using tail call optimization.
 
 ### Distributed Applications
