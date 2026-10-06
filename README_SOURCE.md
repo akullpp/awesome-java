@@ -299,6 +299,7 @@ _Everything that simplifies interactions with the database._
 - [ArangoDB](https://github.com/arangodb/arangodb-java-driver) - ArangoDB Java driver.
 - [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) - Efficient, in-memory (opt. persisted to disk), off-heap key-value store.
 - [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java) - Java clients and JDBC driver for ClickHouse.
+- [Cratis Chronicle](https://github.com/Cratis/Chronicle.Kotlin) - Event sourcing client for Cratis Chronicle on the JVM, usable from Java and Kotlin, with a Spring Boot starter.
 - [Debezium](https://github.com/debezium/debezium) - Low latency data streaming platform for change data capture.
 - [druid](https://github.com/apache/druid) - High-performance, column-oriented, distributed data store.
 - [eXist](https://github.com/eXist-db/exist) - NoSQL document database and application platform.
