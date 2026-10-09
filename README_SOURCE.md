@@ -626,6 +626,7 @@ _Libraries for scheduling background jobs._
 
 - [JobRunr](https://github.com/jobrunr/jobrunr) - Job scheduling library which utilizes lambdas for fire-and-forget, delayed and recurring jobs. Guarantees execution by single scheduler instance using optimistic locking. Has features for persistence, minimal dependencies and is embeddable.
 - [Quartz](https://github.com/quartz-scheduler/quartz) - Feature-rich, open source job scheduling library that can be integrated within virtually any Java application.
+- [Ratchet](https://github.com/ratchet-run/ratchet) - CDI-native persistent job scheduler for Jakarta EE, Quarkus and Spring Boot with retries, batches, workflows and SQL or MongoDB stores.
 - [Sundial](https://github.com/knowm/Sundial) - Lightweight framework to simply define jobs, define triggers and start the scheduler.
 - [Wisp](https://github.com/Coreoz/Wisp) - Simple library with minimal footprint and straightforward API.
 - [db-scheduler](https://github.com/kagkarlsson/db-scheduler) - Persistent and cluster-friendly scheduler.
