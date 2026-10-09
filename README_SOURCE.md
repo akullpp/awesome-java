@@ -251,6 +251,7 @@ _Libraries that help with implementing optimization and satisfiability problems.
 
 - [Choco](https://github.com/chocoteam/choco-solver) - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.
 - [JaCoP](https://github.com/radsz/jacop) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models. (AGPL-3.0)
+- [oj! Algorithms](https://github.com/optimatika/ojAlgo) - Pure Java LP, QP and MIP solvers built on fast linear algebra, with zero dependencies.
 - [Timefold](https://github.com/TimefoldAI/timefold-solver) - Flexible solver with Spring/Quarkus support and quickstarts for the Vehicle Routing Problem, Maintenance Scheduling, Employee Shift Scheduling and much more.
 
 ### CSV
@@ -693,7 +694,6 @@ _Tools that provide specific statistical algorithms for learning from data._
 - [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution.
 - [LIBSVM](https://github.com/cjlin1/libsvm) - Support vector machine library with Java bindings and command-line tools.
 - [Neureka](https://github.com/Gleethos/neureka) - A lightweight, platform independent, OpenCL accelerated nd-array/tensor library.
-- [oj! Algorithms](https://github.com/optimatika/ojAlgo) - High-performance mathematics, linear algebra and optimisation needed for data science, machine learning and scientific computing.
 - [sklearn-java](https://github.com/kVeyra/sklearn-java) - Implements scikit-learn-style machine learning algorithms in pure Java.
 - [Smile](https://github.com/haifengl/smile) - Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.
 - [Tribuo](https://github.com/oracle/tribuo) - Provides tools for classification, regression, clustering, model development and interfaces with other libraries such as scikit-learn, pytorch and TensorFlow.
