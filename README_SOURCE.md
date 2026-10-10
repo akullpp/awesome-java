@@ -49,6 +49,7 @@ _Frameworks for building applications with AI, agents and knowledge-based system
 - [simple-openai](https://github.com/sashirestela/simple-openai) - Library to use the OpenAI API (and compatible ones) in the simplest possible way.
 - [Spring AI](https://github.com/spring-projects/spring-ai) - Application framework for AI engineering for Spring.
 - [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba) - Agentic AI framework built on Spring AI with model, tool, RAG and workflow integrations.
+- [Spring AI Privacy Guardrails](https://github.com/ultramancode/spring-ai-privacy-guardrails) - AI privacy and security guardrails for Spring AI, with request-scoped PII tokenization, selective PII disclosure to tools, Spring Security tool authorization, and configurable content inspection.
 
 ### Bean Mapping
 
