@@ -43,6 +43,7 @@ _Frameworks for building applications with AI, agents and knowledge-based system
 - [JamJet](https://github.com/jamjet-labs/jamjet) - Agent runtime with a Java SDK for building AI agents, supporting graph-based workflow orchestration, multi-agent coordination, and MCP/A2A protocols.
 - [LangChain4j](https://github.com/langchain4j/langchain4j) - Simplifies integration of LLMs with unified APIs and a comprehensive toolbox.
 - [liter-llm](https://github.com/xberg-io/liter-llm) - Provides a Java binding for a unified LLM API client across multiple providers.
+- [llm4j](https://github.com/srijithunni7182/llm4j) - LLM-agnostic toolkit for building ReAct agents with tool calling, MCP client, RAG, semantic memory, cost-aware provider routing, and audit and PII-detection hooks.
 - [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk) - Enables applications to interact with AI models and tools through a standardized interface (i.e. Model Context Protocol), supporting both synchronous and asynchronous communication patterns.
 - [Protégé](https://github.com/protegeproject/protege) - Provides an ontology editor and a framework to build knowledge-based systems.
 - [Regulus](https://github.com/neul-labs/regulus) - Google ADK plugin suite that adds runtime compliance profiles, audit envelopes and GRC adapters for regulated Java AI agents.
