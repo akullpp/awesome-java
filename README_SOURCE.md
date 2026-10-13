@@ -800,6 +800,7 @@ _Libraries that specialize in processing text._
 - [DKPro](https://github.com/dkpro/dkpro-core) - Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.
 - [Hypherator](https://github.com/ejossev/hypherator-java) - Java hyphenation library with iterator-like interface. Can be used out-of-the box - dictionaries for multiple languages are bundled in.
 - [LingPipe](https://alias-i.com/lingpipe/) - Toolkit for tasks ranging from POS tagging to sentiment analysis.
+- [LinguaMesh](https://github.com/Archerkattri/LinguaMesh) - Modular Java text-tokenization API with selectable Chinese, Unicode, search-analysis, and Japanese-morphology providers.
 
 ### Networking
 
