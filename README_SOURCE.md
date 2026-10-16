@@ -1077,6 +1077,7 @@ _Libraries that handle security, authentication, authorization or session manage
 - [Topaz](https://github.com/aserto-dev/topaz) - Fine-grained authorization for applications with support for RBAC, ABAC, and ReBAC.
 - [WebAuthn4J](https://github.com/webauthn4j/webauthn4j) - Server-side WebAuthn and passkey verification library.
 - [MOSS](https://github.com/mosscomputing/moss-java) - Cryptographic signing for AI agents using ML-DSA-44 post-quantum signatures, creating audit trails for attribution and compliance.
+- [Guard Core JVM](https://github.com/Guard-Core/guard-core-jvm) - Application-layer API security engine with Spring Boot and Ktor adapters for IP filtering, rate limiting with automatic bans and attack pattern detection.
 
 ### Serialization
 
