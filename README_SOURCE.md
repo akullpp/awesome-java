@@ -576,6 +576,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 - [Google HTTP Client](https://github.com/googleapis/google-http-java-client) - Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.
 - [methanol](https://github.com/mizosoft/methanol) - HTTP client extensions library.
 - [OkHttp](https://github.com/lysine-dev/okhttp) - HTTP client for the JVM, Android and GraalVM.
+- [REST-in-peace](https://github.com/shrinivas93/REST-in-peace) - Declarative REST client using compile-time code generation for reflection-free calls, with built-in retry, caching and circuit breaking, and GraalVM native-image support.
 - [Retrofit](https://github.com/lysine-dev/retrofit) - Typesafe REST client.
 - [Ribbon](https://github.com/Netflix/ribbon) - Client-side IPC library that is battle-tested in the cloud.
 - [Riptide](https://github.com/zalando/riptide) - Client-side response routing for Spring's RestTemplate.
