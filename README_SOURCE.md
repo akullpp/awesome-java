@@ -1018,6 +1018,7 @@ _Libraries for scientific computing, analysis and visualization._
 - [DataMelt](https://datamelt.org/) - Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later)
 - [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) - Modular, light and easy graph framework for theoretic algorithms.
 - [Gephi](https://github.com/gephi/gephi) - Cross-platform for visualizing and manipulating large graph networks.
+- [JAX4J](https://github.com/nablatensor-dev/jax4j) - Tensor library for Java 25 with NumPy-style broadcasting, automatic differentiation, JIT compilation and optional GPU backends.
 - [JFreeChart](https://github.com/jfree/jfreechart) - 2D chart library for Swing, JavaFX and server-side applications.
 - [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
 - [jSciPy](https://github.com/hissain/jscipy) - jSciPy is a Java library designed for scientific computing, offering functionalities inspired by popular scientific computing libraries. It currently provides modules for signal processing, including Butterworth filters, peak finding algorithms, and an RK4 solver for ordinary differential equations.
