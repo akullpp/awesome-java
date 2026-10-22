@@ -764,6 +764,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
 - [Boot Usage Spring Boot Starter](https://github.com/dhruv-15-03/boot-usage) - Spring Boot Actuator extension providing application startup and runtime metrics including JVM uptime, memory usage, and CPU load.
 - [Datadog](https://github.com/DataDog/dd-trace-java) - Modern monitoring & analytics.
 - [Dropwizard Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and send them to a database.
+- [ForgeOps](https://github.com/Luke-Popwell/forge-ops-tracker-java) - Error reporting for Servlet and Spring MVC apps to the hosted ForgeOps service, with an optional strict privacy mode that sends no message text or raw paths.
 - [Glowroot](https://github.com/glowroot/glowroot) - Open-source Java APM.
 - [HertzBeat](https://github.com/dromara/hertzbeat) - Real-time monitoring system with custom-monitor and agentless.
 - [hippo4j](https://github.com/opengoofy/hippo4j/blob/develop/README-EN.md) - Dynamic and observable thread pool framework.
