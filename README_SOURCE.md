@@ -1198,6 +1198,7 @@ _Libraries that provide custom matchers._
 
 _Other stuff related to testing._
 
+- [Ace Reports](https://central.sonatype.com/namespace/io.github.acereports) - Self-contained HTML test reporting for JUnit 5, TestNG, and Cucumber, capturing API traffic, logs, failure screenshots, retries, and flaky tests. Source available under the PolyForm Perimeter License 1.0.1.
 - [Awaitility](https://github.com/awaitility/awaitility) - DSL for synchronizing asynchronous operations.
 - [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
 - [ConsoleCaptor](https://github.com/Hakky54/console-captor) - Captures console output for unit testing purposes.
