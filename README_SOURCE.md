@@ -770,6 +770,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
 - [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent that collects application performance, tracing and behavioral data.
 - [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
 - [Jolokia](https://github.com/jolokia/jolokia) - JMX over REST.
+- [LogBrew](https://github.com/LogBrewCo/sdk/tree/main/java/logbrew-java) - Error tracking, logs and traces for Java and Spring Boot apps, sent to a hosted service.
 - [Micrometer](https://github.com/micrometer-metrics/micrometer) - Vendor-neutral metrics/observability facade for the most popular metrics/observability libraries.
 - [Micrometer Tracing](https://github.com/micrometer-metrics/tracing) - Vendor-neutral distributed tracing facade for the most popular tracer libraries.
 - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-java) - Instrument, generate, collect, and export telemetry data to help you analyze your software’s performance and behavior.
