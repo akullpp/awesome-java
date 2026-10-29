@@ -834,6 +834,7 @@ _APIs that handle the persistence of objects._
 
 - [Apache Cayenne](https://github.com/apache/cayenne) - Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation.
 - [Doma](https://github.com/domaframework/doma) - Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL.
+- [Drivine4j](https://github.com/liberation-data/drivine4j) - Graph object mapper and Cypher client for Neo4j, Memgraph, FalkorDB and Amazon Neptune that compiles Cypher to SQL on Postgres, Oracle and SQLite.
 - [Ebean](https://github.com/ebean-orm/ebean) - Provides simple and fast data access.
 - [EclipseLink](https://github.com/eclipse-ee4j/eclipselink) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
 - [Ekbatan](https://github.com/ekbatan-io/ekbatan) - Modern Java persistence framework for event-driven systems, with an ergonomic outbox that commits state and events in one transaction.
