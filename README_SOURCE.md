@@ -1043,6 +1043,7 @@ _Engines that index documents for search and analysis._
 - [Apache Solr](https://github.com/apache/solr) - Enterprise search engine optimized for high-volume traffic.
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - Distributed, multitenant-capable, full-text search engine with a RESTful web interface and schema-free JSON documents.
 - [Elasticsearch Java Client](https://github.com/elastic/elasticsearch-java) - Official typed Java client for Elasticsearch.
+- [SemQuestTree](https://github.com/LEERYx/SemQuestTree) - Semantic retrieval without embeddings or a vector database: knowledge is a criteria tree, a decision model walks content down it, every hit has a readable decision path. Zero dependencies, multi-label by design.
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch) - Distributed search and analytics engine derived from Elasticsearch.
 - [Viglet Turing ES](https://github.com/openviglet/turing-ce) - Self-hosted enterprise search platform with faceted, semantic and hybrid search, RAG, AI agents and pluggable Solr, Elasticsearch or Lucene backends.
 
