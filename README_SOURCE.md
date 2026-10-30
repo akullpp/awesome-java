@@ -38,6 +38,7 @@ _Frameworks for building applications with AI, agents and knowledge-based system
 - [A2A Java SDK](https://github.com/a2aproject/a2a-java) - Official Java SDK for the Agent2Agent protocol.
 - [ARA](https://github.com/xmor/ara) - Java framework for AI agents with tool calling, deterministic input and output contracts, and configurable execution strategies.
 - [Dokimos](https://github.com/dokimos-dev/dokimos) - Evaluation framework for LLM and AI-agent applications that scores responses, validates tool calls and execution traces, and catches quality regressions in CI.
+- [DVARA](https://github.com/dvarahq/dvara) - OpenAI-compatible AI gateway and Spring Boot starters that apply policy, PII redaction, guardrails, rate limits and a tamper-evident audit log to model calls.
 - [Google Gen AI Java SDK](https://github.com/googleapis/java-genai) - Official Java SDK for integrating Google generative AI models.
 - [JADE](https://jade.tilab.com) - Framework and environment for building and debugging multi-agent systems. (LGPL-2.0-only)
 - [JamJet](https://github.com/jamjet-labs/jamjet) - Agent runtime with a Java SDK for building AI agents, supporting graph-based workflow orchestration, multi-agent coordination, and MCP/A2A protocols.
