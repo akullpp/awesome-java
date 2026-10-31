@@ -474,6 +474,7 @@ _Libraries related to the financial domain._
 - [PesaFlow4J](https://github.com/JoseModi97/pesaflow4j) - Dependency-free SDK for the Kenya PesaFlow/eCitizen PaymentAPI, including M-Pesa STK push and webhook signature verification.
 - [Philadelphia](https://github.com/paritytrading/philadelphia) - Low-latency financial information exchange.
 - [Stripe](https://github.com/stripe/stripe-java) - Integration with the Stripe API.
+- [TA-Lib](https://github.com/TA-Lib/ta-lib) - Pure-Java TA-Lib: 200+ technical analysis functions, including candlestick patterns, with batch and streaming APIs; on Maven Central as io.github.ta-lib:ta-lib.
 - [ta4j](https://github.com/ta4j/ta4j) - Library for technical analysis.
 - [XChange](https://github.com/knowm/XChange) - Consistent Java API for market data and trading across cryptocurrency exchanges.
 - [Wickra](https://github.com/wickra-lib/wickra) - Technical-analysis library with 514 streaming O(1)-per-tick indicators on a native Rust core, on Maven Central as org.wickra:wickra; more indicators and incremental updates than the pure-Java ta4j.
