@@ -874,6 +874,7 @@ _Tools to help with PDF files._
 - [Open HTML to PDF](https://github.com/openhtmltopdf/openhtmltopdf) - Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.
 - [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf) - Parses PDFs into structured Markdown, JSON and HTML through a Java API and command line.
 - [OpenPDF](https://github.com/LibrePDF/OpenPDF) - Open-source iText fork. (LGPL-3.0-only & MPL-2.0)
+- [PDFjet](https://github.com/edragoev1/pdfjet) - Creates PDFs with tables, charts, SVG, barcodes and PDF/A and PDF/UA output, with its fonts included.
 ### Performance analysis
 
 _Tools for performance analysis, profiling and benchmarking._
