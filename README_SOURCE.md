@@ -1249,6 +1249,7 @@ _Libraries which provide general utility functions._
 - [PipelinR](https://github.com/sizovs/pipelinr) - Small utility library for using handlers and commands with pipelines.
 - [Semver4j](https://github.com/semver4j/semver4j) - Lightweight library that helps you handling semantic versioning with different modes.
 - [spring-chain-of-responsibility](https://github.com/evmetatron/spring-chain-of-responsibility) - Autowires Spring Boot beans into a Chain of Responsibility via `@Order` and `@ChainNext`, no manual wiring.
+- [suretool](https://github.com/TASure/suretool) - Zero-dependency Java 25+ toolkit with modular JSON, HTTP, JDBC, template and concurrency utilities.
 - [Underscore-java](https://github.com/javadev/underscore-java) - Port of Underscore.js functions.
 - [Zip4j](https://github.com/srikanth-lingala/zip4j) - Reads, writes, encrypts and streams ZIP files.
 
