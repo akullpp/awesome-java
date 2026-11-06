@@ -267,6 +267,7 @@ _Tools for batch, stream, table and data-transformation workloads._
 
 - [Apache Flink](https://github.com/apache/flink) - Fast, reliable, large-scale data processing engine.
 - [Apache Storm](https://github.com/apache/storm) - Realtime computation system.
+- [CupOfTea](https://github.com/cupoftea-labs/cupoftea) - Lightweight modular DataFrame and data manipulation library with high-performance columnar storage.
 - [easy-batch](https://github.com/j-easy/easy-batch) - Set up batch jobs with simple processing pipelines. Records are read in sequence from a data source, processed in pipeline and written in batches to a data sink.
 - [Embulk](https://github.com/embulk/embulk) - Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
 - [OpenRefine](https://github.com/OpenRefine/OpenRefine) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
