@@ -143,8 +143,8 @@ _Libraries to integrate or use cloud-specific features._
 - [Java Operator SDK](https://github.com/operator-framework/java-operator-sdk) - SDK for implementing Kubernetes operators in Java.
 - [kubernetes-client](https://github.com/fabric8io/kubernetes-client) - Client provides access to the full Kubernetes & OpenShift REST APIs via a fluent DSL.
 - [Kubernetes Java Client](https://github.com/kubernetes-client/java) - Official Java client for the Kubernetes API.
-- [Mnemo JVM Warden](https://github.com/baokhang83/mnemo-jvm-warden) - Kubernetes controller and Java client for JVM-aware in-place memory resizing.
 - [minio-java](https://github.com/minio/minio-java) - Provides simple APIs to access any Amazon S3-compatible object storage server.
+- [Mnemo JVM Warden](https://github.com/baokhang83/mnemo-jvm-warden) - Kubernetes controller and Java client for JVM-aware in-place memory resizing.
 
 ### Code Analysis
 
