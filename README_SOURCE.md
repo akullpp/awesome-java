@@ -1161,6 +1161,7 @@ _Everything related to the creation and handling of random data._
 _Provide environments to run tests for a specific use case._
 
 - [BitDive Java Agent](https://github.com/bitDive/java-producer) - Java agent that captures runtime traces, SQL queries and HTTP payloads for BitDive testing.
+- [blastradius](https://github.com/baokhang83/blastradius) - Test impact analysis for Maven and Gradle that records per-test class dependencies with a Java agent and runs only the tests affected by a change.
 - [JUnit](https://github.com/junit-team/junit-framework) - Common testing framework.
 - [jqwik](https://github.com/jqwik-team/jqwik) - Engine for property-based testing built on JUnit 5.
 - [PIT](https://github.com/hcoles/pitest) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
