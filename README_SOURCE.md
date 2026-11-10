@@ -722,7 +722,7 @@ _Tools that help send messages between clients to ensure protocol independency._
 - [Smack](https://github.com/igniterealtime/Smack) - Cross-platform XMPP client library.
 - [Svix](https://github.com/svix/svix-webhooks/tree/main/java) - Library for the Svix API to send webhooks and verify signatures.
 - [NATS client](https://github.com/nats-io/nats.java) - NATS client.
-- [oncebox](https://github.com/dmitriy-iliyov/oncebox) - Transactional outbox and inbox for Spring Boot with Kafka or RabbitMQ delivery, deduplication and DLQ.
+- [oncebox](https://github.com/dmitriy-iliyov/oncebox) - Transactional outbox and inbox for Spring Boot with Kafka or RabbitMQ delivery, deduplication and dead letter queue.
 
 ### Microservice
 
