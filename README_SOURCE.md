@@ -1201,7 +1201,7 @@ _Other stuff related to testing._
 - [Awaitility](https://github.com/awaitility/awaitility) - DSL for synchronizing asynchronous operations.
 - [ConcurrentUnit](https://github.com/jhalterman/concurrentunit) - Toolkit for testing multi-threaded and asynchronous applications.
 - [ConsoleCaptor](https://github.com/Hakky54/console-captor) - Captures console output for unit testing purposes.
-- [dead-tests](https://github.com/dylanpulver/dead-tests) - Finds JUnit and kotlin.test methods that never run because `@Test` is missing, and asserts that `@Test(expected=...)` makes unreachable.
+- [dead-tests](https://github.com/dylanpulver/dead-tests) - Finds JUnit and kotlin.test methods that never run because `@Test` is missing, and assertions that never run because they follow the throwing call in a `@Test(expected=...)` test.
 - [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - TestNG-like data provider/runner for JUnit.
 - [junit-pioneer](https://github.com/junit-pioneer/junit-pioneer) - JUnit 5 extension pack, pushing the frontiers on Jupiter.
 - [LogCaptor](https://github.com/Hakky54/log-captor) - Captures log entries for unit testing purposes.
