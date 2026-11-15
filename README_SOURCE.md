@@ -891,6 +891,7 @@ _Tools for performance analysis, profiling and benchmarking._
 - [JVM Hotpath](https://github.com/sfkamath/jvm-hotpath) - Java agent for line-level execution frequency analysis to identify algorithmic bottlenecks.
 - [Argus](https://github.com/rlaope/Argus) - JVM diagnostics CLI for jcmd, JFR, async-profiler, heap analysis and machine-readable health verdicts.
 - [ThreadMine Anonymizer](https://github.com/maschiojv/threadmine-anonymizer) - Local CLI that replaces an application's own package, class, method and thread names in JVM thread dumps with keyed tokens, keeps JDK and framework frames intact so the dump stays analyzable, and unmasks the analyzer's report afterwards.
+- [profiler-md](https://github.com/TomerAberbach/profiler-md) - Converts performance profiles to human and LLM friendly Markdown.
 
 ### Platform
 
