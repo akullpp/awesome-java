@@ -1282,6 +1282,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [Bootique](https://github.com/bootique/bootique) - Minimally opinionated framework for runnable apps.
 - [Javalin](https://github.com/javalin/javalin) - Microframework for web applications.
 - [Jooby](https://github.com/jooby-project/jooby) - Scalable, fast and modular micro-framework that offers multiple programming models.
+- [Mateu](https://github.com/miguelperezcolom/mateu) - Model-driven UI framework that renders forms, CRUDs and app shells from annotated Java classes, on Spring Boot, Quarkus, Micronaut or Helidon.
 - [Ninja](https://github.com/ninjaframework/ninja) - Full-stack web framework.
 - [Pippo](https://github.com/pippo-java/pippo) - Small, highly modularized, Sinatra-like framework.
 - [Play](https://github.com/playframework/playframework) - Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala.
