@@ -779,6 +779,7 @@ _Tools that observe/monitor applications in production by providing telemetry._
 - [SPM](https://github.com/sematext/sematext-agent-java) - Performance monitor with distributing transaction tracing for JVM apps.
 - [StatLite](https://github.com/PVRLabs/statlite) - Self-hosted monitoring dashboard with direct Spring Boot Actuator/Micrometer and Quarkus integrations, SQLite storage, and no Prometheus or Grafana required.
 - [zipkin](https://github.com/openzipkin/zipkin) - Distributed tracing system which gathers timing data needed to troubleshoot latency problems in microservice architectures.
+- [SilenceWatch](https://github.com/liliang-dev/SilenceWatch) - Spring Boot starter that discovers @Scheduled methods and Quartz jobs and alerts when one stops running.
 
 ### Native
 
