@@ -390,6 +390,7 @@ _Augmentation of the development process at a fundamental level._
 - [Jctx](https://github.com/Shashwat-Gupta57/jctx) - Reads a Java project and generates a structured context file so AI tools can understand and help plan the codebase.
 - [JGit](https://github.com/eclipse-jgit/jgit) - Lightweight, pure Java library implementing the Git version control system.
 - [JavaParser](https://github.com/javaparser/javaparser) - Parse, modify and generate Java code.
+- [Loom](https://github.com/ClickHouse/loom) - MCP code index for Java symbols, call references and SQL embedded in Java source.
 - [Manifold](https://github.com/manifold-systems/manifold) - Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.
 - [NoException](https://github.com/robertvazan/noexception) - Allows checked exceptions in functional interfaces and converts exceptions to Optional return.
 - [RR4J](https://github.com/Kartikvk1996/RR4J) - RR4J is a tool that records java bytecode execution and later allows developers to replay locally.
