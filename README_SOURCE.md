@@ -1044,6 +1044,7 @@ _Engines that index documents for search and analysis._
 - [Elasticsearch](https://github.com/elastic/elasticsearch) - Distributed, multitenant-capable, full-text search engine with a RESTful web interface and schema-free JSON documents.
 - [Elasticsearch Java Client](https://github.com/elastic/elasticsearch-java) - Official typed Java client for Elasticsearch.
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch) - Distributed search and analytics engine derived from Elasticsearch.
+- [Soma](https://github.com/AwesomeDog/soma) - Offline semantic search for documents, PDFs, images, audio and video using hybrid BM25, vector and HyDE retrieval with on-device models, shipped as a single GraalVM native binary with a CLI, web UI and HTTP API.
 - [Viglet Turing ES](https://github.com/openviglet/turing-ce) - Self-hosted enterprise search platform with faceted, semantic and hybrid search, RAG, AI agents and pluggable Solr, Elasticsearch or Lucene backends.
 
 ### Security
