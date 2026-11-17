@@ -130,6 +130,7 @@ _Libraries to assist with parsing command line arguments._
 _Libraries that provide TUI frameworks, or building blocks related functions._
 
 - [AliveJTUI](https://github.com/yehorsyrin/alivejTUI) - Declarative, React-style TUI library for building terminal UIs as component trees with diff-based rendering, focus management, and themes.
+- [figlet](https://github.com/spannm/figlet) - Renders text as ASCII art banners with 400 FIGlet and TOIlet fonts, usable as a library or Maven plugin without a native figlet binary.
 - [Jansi](https://github.com/fusesource/jansi) - ANSI escape codes to format console output.
 - [Jexer](https://gitlab.com/AutumnMeowMeow/jexer) - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision).
 - [Lanterna](https://github.com/mabe02/lanterna) - Easy console text-GUI library, similar to curses.
