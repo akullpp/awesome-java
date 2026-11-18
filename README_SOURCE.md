@@ -196,6 +196,7 @@ _Tools that generate patterns for repetitive code in order to reduce verbosity a
 - [CRUDGen](https://github.com/bariskokulu/CRUDGen) - Compile-time annotation processor generating CRUD layers, DTOs, JSON Patch, and custom HTTP endpoints for Spring Boot.
 - [DevOpsForge](https://github.com/Gohar01/devops-config-generator) - Visual generator for Spring Boot Dockerfiles and Docker Compose configurations.
 - [EasyEntityToDTO](https://github.com/Marcel091004/EasyEntityToDTO) - Annotation processor for automatic DTO and Mapper generation with zero boilerplate.
+- [ElastiCORE](https://github.com/xsko/ElastiCORE) - Generates Spring Boot code that enforces business rules (access, lifecycles, derived values) from a YAML model, with optional Apache Ossie semantic model export.
 - [Geci](https://github.com/verhas/javageci) - Discovers files that need generated code, updates automatically and writes to the source with a convenient API.
 - [Immutables](https://github.com/immutables/immutables) - Annotation processors to generate simple, safe and consistent value objects.
 - [J2ObjC](https://github.com/google/j2objc) - Java-to-Objective-C translator for porting Android libraries to iOS.
