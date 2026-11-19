@@ -813,6 +813,7 @@ _Libraries for building network clients and servers._
 - [Dubbo](https://github.com/apache/dubbo) - High-performance RPC framework.
 - [Grizzly](https://github.com/eclipse-ee4j/grizzly) - NIO framework. Used as a network layer in Glassfish.
 - [gRPC-java](https://github.com/grpc/grpc-java) - RPC framework based on protobuf and HTTP/2.
+- [Jagornet DHCP](https://github.com/jagornet/dhcp) - Dual-stack DHCPv4 and DHCPv6 server built on Netty with gRPC high availability, Dynamic DNS, and an OpenAPI REST interface.
 - [java-ngrok](https://github.com/alexdlaird/java-ngrok) - Java wrapper for ngrok; programmatic tunnels for ingress, webhooks, demos, and APIs.
 - [Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket) - Lightweight WebSocket client and server implementation.
 - [MinimalFTP](https://github.com/Guichaguri/MinimalFTP) - Lightweight, small and customizable FTP server.
