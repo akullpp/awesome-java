@@ -388,6 +388,7 @@ _Augmentation of the development process at a fundamental level._
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - Extensible software reverse-engineering framework with Java APIs and scripting.
 - [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
 - [Jctx](https://github.com/Shashwat-Gupta57/jctx) - Reads a Java project and generates a structured context file so AI tools can understand and help plan the codebase.
+- [jdx](https://github.com/MohammadMD1383/jdx) - Command-line and MCP server that answers IDE questions about JARs, Maven coordinates and the JDK for AI coding agents: members, method bodies, usages, call hierarchy and API diffs.
 - [JGit](https://github.com/eclipse-jgit/jgit) - Lightweight, pure Java library implementing the Git version control system.
 - [JavaParser](https://github.com/javaparser/javaparser) - Parse, modify and generate Java code.
 - [Manifold](https://github.com/manifold-systems/manifold) - Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.
