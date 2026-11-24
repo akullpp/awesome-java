@@ -676,6 +676,7 @@ _Libraries that log the behavior of an application._
 - [Logback](https://github.com/qos-ch/logback) - Robust logging library with interesting configuration options via Groovy.
 - [Logbook](https://github.com/zalando/logbook) - Extensible, open-source library for HTTP request and response logging.
 - [Logstash](https://github.com/elastic/logstash) - Tool for managing log files.
+- [Nanolog](https://github.com/nanolaba/nanolog) - Zero-dependency logger with dbg-style print debugging, a console mode for AI coding agents and canonical log lines.
 - [SLF4J](https://github.com/qos-ch/slf4j) - Abstraction layer/simple logging facade.
 - [tinylog](https://github.com/tinylog-org/tinylog) - Lightweight logging framework with static logger class.
 - [Flogger](https://github.com/google/flogger) - Flogger is a fluent logging API for Java. It supports a wide variety of features, and has many benefits over existing logging APIs.
