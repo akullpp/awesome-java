@@ -1303,6 +1303,7 @@ _Engines for orchestrating long-running workflows and business processes._
 - [Activiti](https://github.com/Activiti/Activiti) - Embeddable BPMN workflow and business process engine.
 - [Apache DolphinScheduler](https://github.com/apache/dolphinscheduler) - Distributed workflow orchestration platform with visual and API-driven scheduling.
 - [Conductor](https://github.com/conductor-oss/conductor) - Event-driven workflow engine for distributed applications and AI agents.
+- [Dapr Java SDK](https://github.com/dapr/java-sdk) - Java SDK for writing durable workflows and activities with Dapr Workflow, plus Dapr's pub/sub, state and service invocation APIs.
 - [flowable](https://github.com/flowable/flowable-engine) - Compact and efficient workflow and business process management platform.
 - [Maestro](https://github.com/Netflix/maestro) - Workflow orchestration engine developed by Netflix.
 - [Temporal Java SDK](https://github.com/temporalio/sdk-java) - Java SDK for writing durable workflows and activities on Temporal.
