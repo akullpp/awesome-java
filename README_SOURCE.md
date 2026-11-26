@@ -15,6 +15,7 @@ Use absolute HTTPS canonical links and submit one project or resource per pull r
 
 _Tools for tracking API evolution and detecting breaking changes between library versions._
 
+- [Bumpwise](https://gilware.com/bumpwise/cli/) - Checks a library build against its last published release, and lists the places in a project that a dependency upgrade breaks, from compiled classes. Command line, MCP server and GitHub Action. Proprietary; the command line is free.
 - [japicmp](https://github.com/siom79/japicmp) - Compares two library JARs and reports source- and binary-incompatible changes.
 - [Revapi](https://github.com/revapi/revapi) - Extensible API analysis and change tracking with configurable source, binary and semantic compatibility checks.
 - [Roseau](https://github.com/alien-tools/roseau) - Detects source- and binary-breaking changes by comparing library versions from JAR files or source code.
